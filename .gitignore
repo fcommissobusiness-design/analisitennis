@@ -5,6 +5,7 @@ dist/
 
 # Node
 node_modules/
+# NON ignorare package-lock.json: serve per build riproducibili su CI
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

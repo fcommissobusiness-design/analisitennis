@@ -6,18 +6,22 @@ import { getCollection } from 'astro:content';
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf()).slice(0, 30);
 ---
-<Base titolo="AnalisiTennis - Il tennis letto nei numeri" descrizione="Analisi autoriali quotidiane sulle partite di tennis ATP, WTA, Slam e Challenger. Il tennis letto nei numeri, dalla Redazione AnalisiTennis.">
+<Base
+  titolo="AnalisiTennis - Il tennis letto nei numeri"
+  descrizione="Analisi autoriali quotidiane sulle partite di tennis ATP, WTA, Slam e Challenger. Il tennis letto nei numeri, firmato dalla Redazione AnalisiTennis."
+  immagine="/logo-og.jpg"
+>
   <section class="homepage-hero">
-    <div class="contenitore">
-      <h1>Il <span style="color: var(--brand-verde);">tennis</span> letto nei numeri</h1>
-      <p>Analisi autoriali quotidiane sulle partite più attese del circuito ATP, WTA e Challenger. Dati, contesto, letture tattiche.</p>
-    </div>
+    <h1>Il <span class="verde">tennis</span> letto nei numeri</h1>
+    <p>Analisi autoriali quotidiane sulle partite piu' attese del circuito ATP, WTA e Challenger. Dati, contesto, letture tattiche.</p>
   </section>
 
   <div class="contenitore">
     <div style="display: grid; grid-template-columns: 1fr 300px; gap: 48px; padding: 48px 0;">
       <div>
-        <h2 style="font-size: 1.3rem; margin-bottom: 24px; color: var(--testo-secondario); font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 0.08em;">Ultime analisi</h2>
+        <h2 style="font-size: 1.3rem; margin-bottom: 24px; color: var(--testo-secondario); font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700;">
+          Ultime analisi
+        </h2>
         <div class="griglia-articoli" style="padding: 0;">
           {articoli.map(art => (
             <article class="card-articolo">
