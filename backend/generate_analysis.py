@@ -34,15 +34,17 @@ verificare che nulla sia saltato, applica il sanity anti-bias finale PRIMA di sc
 
 ```json
 {{
-  "titolo": "Titolo giornalistico avvincente, 50-70 caratteri, SEO-friendly (contiene almeno un nome giocatore)",
-  "sottotitolo": "Sottotitolo che suscita curiosita', 80-130 caratteri",
-  "descrizione": "Meta description SEO 150-160 caratteri",
-  "corpo_markdown": "ARTICOLO COMPLETO in prosa giornalistica italiana, 700-1100 parole, paragrafi max 4 righe, parole-chiave principali in **grassetto** senza esagerare (3-6 occorrenze totali). Nessun elenco puntato nel corpo. Nessun riferimento a sistema/FASE/bankroll/quote/bookmaker/stake/EV/pick. Niente abbreviazioni oscure (sempre 'palle break' non 'BP', 'scontri diretti' non 'H2H'). Tecnicismi solo del tennis. Prosa fluida variabile, niente 'in sintesi', 'in conclusione', 'ecco perche'', 'fondamentalmente'. Culmina con un paragrafo che prepara il verdetto senza anticiparlo.",
-  "verdetto": "Pronostico editoriale sportivo in 2-3 frasi, 180-280 caratteri. Mai quota, mai consiglio di scommessa, solo chi vince / match equilibrato / il mio parere e'...",
+  "titolo": "Titolo giornalistico avvincente, 50-70 caratteri, SEO-friendly (contiene almeno un nome giocatore). NON deve anticipare il verdetto, deve suscitare curiosita' sul match.",
+  "sottotitolo": "Sottotitolo che suscita curiosita', 80-130 caratteri. Imparziale, non anticipa il pronostico.",
+  "descrizione": "Meta description SEO 150-160 caratteri. Imparziale.",
+  "corpo_markdown": "ARTICOLO COMPLETO in prosa giornalistica italiana, 700-1100 parole, paragrafi max 4 righe, parole-chiave principali in **grassetto** senza esagerare (3-6 occorrenze totali). Nessun elenco puntato nel corpo. Nessun riferimento a sistema/FASE/bankroll/quote/bookmaker/stake/EV/pick. Niente abbreviazioni oscure (sempre 'palle break' non 'BP', 'scontri diretti' non 'H2H'). Tecnicismi solo del tennis. Prosa fluida variabile, niente 'in sintesi', 'in conclusione', 'ecco perche'', 'fondamentalmente'. IMPARZIALITA' OBBLIGATORIA: tratta i due giocatori allo stesso modo nel corpo, dati di uno + dati dell'altro, precedenti di uno + contesto dell'altro. Il corpo NON deve far trasparire verso chi pendiamo. Nessun aggettivo sbilanciato, nessuna tesi anticipata nel corpo. Il verdetto arriva solo nel campo 'verdetto'.",
+  "verdetto": "Pronostico sportivo editoriale 2-3 frasi, 180-280 caratteri. SOLO uno di questi tre formati: (a) 'Oggi la puo' spuntare X' (match equilibrato con leggero favore X); (b) 'Oggi nettamente X' (favore netto X); (c) 'Partita equilibrata, ma e' molto probabile che Y prenda almeno un set / lo scenario piu' plausibile e' 2-1' (match stretto scenario tre set). MAI altri mercati: niente ace, over/under games, handicap, tiebreak si/no. Solo chi vince il match o scenario >=1 set / 2-1. Mai quote, mai consigli di scommessa.",
   "tag": ["5-8 tag di parole-chiave SEO: giocatori, torneo, categoria, superficie, tipo-match"],
   "sanity_check": {{
     "bias_rilevati": ["lista eventuali bias infiltrati e corretti"],
-    "voci_fasi_tutte_applicate": true
+    "voci_fasi_tutte_applicate": true,
+    "corpo_imparziale": true,
+    "verdetto_solo_match_winner_o_un_set": true
   }}
 }}
 ```
@@ -52,9 +54,11 @@ verificare che nulla sia saltato, applica il sanity anti-bias finale PRIMA di sc
 2. Niente abbreviazioni che possano confondere
 3. Tecnicismi solo del tennis
 4. Prosa fluida NON AI-smell
-5. Culmina con verdetto sportivo editoriale, mai una quota
-6. 700-1100 parole, paragrafi max 4 righe
-7. Firma implicita: Redazione AnalisiTennis
+5. IMPARZIALITA' nel corpo: dati di entrambi, nessuna tesi anticipata, nessun aggettivo sbilanciato
+6. Verdetto SOLO su match-winner o >=1 set / 2-1 (mai ace/games/handicap/altro)
+7. Culmina con verdetto sportivo editoriale, mai una quota
+8. 700-1100 parole, paragrafi max 4 righe
+9. Firma implicita: Redazione AnalisiTennis
 """
 
 
