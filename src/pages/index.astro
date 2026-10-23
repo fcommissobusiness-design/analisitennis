@@ -17,11 +17,9 @@ const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueO
   </section>
 
   <div class="contenitore">
-    <div style="display: grid; grid-template-columns: 1fr 300px; gap: 48px; padding: 48px 0;">
-      <div>
-        <h2 style="font-size: 1.3rem; margin-bottom: 24px; color: var(--testo-secondario); font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700;">
-          Ultime analisi
-        </h2>
+    <div class="layout-home">
+      <div class="colonna-articoli">
+        <h2 class="sezione-eyebrow">Ultime analisi</h2>
         <div class="griglia-articoli" style="padding: 0;">
           {articoli.map(art => (
             <article class="card-articolo">

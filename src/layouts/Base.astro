@@ -41,6 +41,15 @@ const url = canonical || new URL(Astro.url.pathname, Astro.site).href;
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
   <link rel="alternate" type="application/rss+xml" title="AnalisiTennis" href="/rss.xml" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKPL7S0XZ2"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QKPL7S0XZ2');
+  </script>
 </head>
 <body>
   <Header />

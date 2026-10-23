@@ -5,7 +5,8 @@
     <a href="/" class="logo-link" aria-label="AnalisiTennis - homepage">
       <img src="/logo-header.jpg" alt="AnalisiTennis" class="logo-img" width="260" height="60" />
     </a>
-    <nav class="menu" aria-label="Menu principale">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Apri menu" aria-expanded="false">Menu</button>
+    <nav class="menu" id="menu" aria-label="Menu principale">
       <a href="/">Home</a>
       <a href="/categoria/atp">ATP</a>
       <a href="/categoria/wta">WTA</a>
@@ -15,3 +16,14 @@
     </nav>
   </div>
 </header>
+<script>
+  const btn = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+  if (btn && menu) {
+    btn.addEventListener('click', () => {
+      const open = menu.classList.toggle('aperto');
+      btn.setAttribute('aria-expanded', String(open));
+      btn.textContent = open ? 'Chiudi' : 'Menu';
+    });
+  }
+</script>
