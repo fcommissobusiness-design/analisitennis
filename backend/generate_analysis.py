@@ -37,8 +37,8 @@ verificare che nulla sia saltato, applica il sanity anti-bias finale PRIMA di sc
   "titolo": "Titolo giornalistico avvincente, 50-70 caratteri, SEO-friendly (contiene almeno un nome giocatore). NON deve anticipare il verdetto, deve suscitare curiosita' sul match.",
   "sottotitolo": "Sottotitolo che suscita curiosita', 80-130 caratteri. Imparziale, non anticipa il pronostico.",
   "descrizione": "Meta description SEO 150-160 caratteri. Imparziale.",
-  "corpo_markdown": "ARTICOLO COMPLETO in prosa giornalistica italiana, 700-1100 parole, paragrafi max 4 righe, parole-chiave principali in **grassetto** senza esagerare (3-6 occorrenze totali). Nessun elenco puntato nel corpo. Nessun riferimento a sistema/FASE/bankroll/quote/bookmaker/stake/EV/pick. Niente abbreviazioni oscure (sempre 'palle break' non 'BP', 'scontri diretti' non 'H2H'). Tecnicismi solo del tennis. Prosa fluida variabile, niente 'in sintesi', 'in conclusione', 'ecco perche'', 'fondamentalmente'. IMPARZIALITA' OBBLIGATORIA: tratta i due giocatori allo stesso modo nel corpo, dati di uno + dati dell'altro, precedenti di uno + contesto dell'altro. Il corpo NON deve far trasparire verso chi pendiamo. Nessun aggettivo sbilanciato, nessuna tesi anticipata nel corpo. Il verdetto arriva solo nel campo 'verdetto'.",
-  "verdetto": "Pronostico sportivo editoriale 2-3 frasi, 180-280 caratteri. SOLO uno di questi tre formati: (a) 'Oggi la puo' spuntare X' (match equilibrato con leggero favore X); (b) 'Oggi nettamente X' (favore netto X); (c) 'Partita equilibrata, ma e' molto probabile che Y prenda almeno un set / lo scenario piu' plausibile e' 2-1' (match stretto scenario tre set). MAI altri mercati: niente ace, over/under games, handicap, tiebreak si/no. Solo chi vince il match o scenario >=1 set / 2-1. Mai quote, mai consigli di scommessa.",
+  "corpo_markdown": "ARTICOLO COMPLETO in prosa giornalistica italiana, 700-1100 parole, paragrafi max 4 righe, parole-chiave principali in **grassetto** senza esagerare (3-6 occorrenze totali). Nessun elenco puntato nel corpo. Nessun riferimento a sistema/FASE/bankroll/quote/bookmaker/stake/EV/pick. Niente abbreviazioni oscure (sempre 'palle break' non 'BP', 'scontri diretti' non 'H2H'). Tecnicismi solo del tennis. Prosa fluida variabile, niente 'in sintesi', 'in conclusione', 'ecco perche'', 'fondamentalmente'. IMPARZIALITA' OBBLIGATORIA: tratta i due giocatori allo stesso modo nel corpo, dati di uno + dati dell'altro, precedenti di uno + contesto dell'altro. Il corpo NON deve far trasparire verso chi pendiamo. Nessun aggettivo sbilanciato, nessuna tesi anticipata nel corpo. Il verdetto arriva solo nel campo 'verdetto'. MINI-TITOLI DI SEZIONE OBBLIGATORI: inserisci mini-titoli markdown H3 (### Titoletto) PRIMA dei paragrafi che aprono un nuovo argomento tematico. Esempi di titoletti: '### Precedenti', '### Forma fisica', '### Stile di gioco', '### Fattore campo', '### Il momento in classifica', '### Il mese di ottobre' (varia in base al match). Target: 3-5 mini-titoli in totale. Il PRIMO paragrafo introduttivo NON porta mini-titolo. L'ULTIMO paragrafo di chiusura prima del verdetto NON porta mini-titolo. Non mettere mini-titoli in ogni paragrafo, solo ai cambi di contesto netti.",
+  "verdetto": "Pronostico sportivo editoriale DECISO 2-3 frasi, 180-280 caratteri. SOLO uno di questi tre formati: (a) 'Oggi la puo' spuntare X' (match equilibrato con leggero favore X); (b) 'Oggi nettamente X' (favore netto X); (c) 'Partita equilibrata, ma e' molto probabile che Y prenda almeno un set / lo scenario piu' plausibile e' 2-1' (match stretto scenario tre set). MAI altri mercati: niente ace, over/under games, handicap, tiebreak si/no. Solo chi vince il match o scenario >=1 set / 2-1. Mai quote, mai consigli di scommessa. VERDETTO DECISO, MAI PIEDE IN DUE SCARPE: se dici 'oggi la puo' spuntare X', NON aggiungere subito dopo 'pero' l'altro e' avanti nei precedenti e resta in corsa'. Scegli una strada e motivala, la controlettura sta gia' nel corpo imparziale. Il verdetto e' il momento in cui ci sbilanciamo con convinzione, non in cui ci cautaliamo.",
   "tag": ["5-8 tag di parole-chiave SEO: giocatori, torneo, categoria, superficie, tipo-match"],
   "sanity_check": {{
     "bias_rilevati": ["lista eventuali bias infiltrati e corretti"],
@@ -75,11 +75,16 @@ def genera(match):
 """
     prompt = PROMPT_PIPELINE.format(match_block=match_block)
 
+    import shutil
+    claude_bin = shutil.which('claude') or os.path.expanduser('~/.local/node/bin/claude')
+    env = os.environ.copy()
+    env['PATH'] = f"{os.path.expanduser('~/.local/node/bin')}:{env.get('PATH','')}"
     result = subprocess.run(
-        ['claude', '-p', prompt, '--output-format', 'json'],
+        [claude_bin, '-p', prompt, '--output-format', 'json'],
         capture_output=True,
         text=True,
-        timeout=1800
+        timeout=1800,
+        env=env
     )
     if result.returncode != 0:
         raise RuntimeError(f'claude CLI fallita: {result.stderr}')
