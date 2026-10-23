@@ -162,10 +162,27 @@ ULTIMI 15 MATCH {p2} (bilancio {stats_p2['W']}V-{stats_p2['L']}L):
 
 PROMPT_PIPELINE = """Sei il motore editoriale di AnalisiTennis.it, una testata di analisi tennis in italiano.
 
+**OGGI E' {today_human}** (data autoritativa, usala come riferimento per
+"freschezza dei dati", "aggiornato al giorno corrente", "ultime settimane",
+"questo mese", "stagione in corso").
+
 Devi analizzare questo match applicando INTEGRALMENTE il framework KAKEGURUI FASE 1-2-3-4
 + integrazioni + sanity-check-anti-bias, cosi' come salvato nella memoria utente
 `project_prompt_fasi_canonico.md`. Riapplica OGNI VOCE, usa i prompt-recupero per
 verificare che nulla sia saltato, applica il sanity anti-bias finale PRIMA di scrivere l'output.
+
+**PROTOCOLLO ESECUZIONE OBBLIGATORIO (regola madre 23/10/2026 serale)**:
+Per ogni singola voce di ogni fase:
+1. Esegui la voce.
+2. Esegui subito un prompt-controllo mentale per quella voce: "ho fatto tutto?
+   ho integrato ogni sotto-elemento? i dati sono completi, precisi, aggiornati
+   a OGGI {today_short}? manca qualcosa?". Se SI a "manca qualcosa", INTEGRA
+   prima di passare oltre.
+3. A fine fase, esegui il prompt-recupero di fase: "ho fatto tutte le voci?
+   mancano voci saltate? integrale ora".
+4. A fine di tutte le fasi, esegui il SANITY CHECK FINALE a tre pilastri
+   (completezza+aggiornamento, anti-allucinazione, anti-bias strutturale).
+   Se un pilastro fallisce, rigenera.
 
 **MATCH:**
 {match_block}
@@ -212,14 +229,31 @@ Fatti NON ammessi senza dato autoritativo nel blocco:
   "verdetto": "Pronostico sportivo editoriale DECISO 2-3 frasi, 180-280 caratteri. SOLO uno di questi tre formati: (a) 'Oggi la puo' spuntare X' (match equilibrato con leggero favore X); (b) 'Oggi nettamente X' (favore netto X); (c) 'Partita equilibrata, ma e' molto probabile che Y prenda almeno un set / lo scenario piu' plausibile e' 2-1' (match stretto scenario tre set). MAI altri mercati: niente ace, over/under games, handicap, tiebreak si/no. Solo chi vince il match o scenario >=1 set / 2-1. Mai quote, mai consigli di scommessa. VERDETTO DECISO, MAI PIEDE IN DUE SCARPE: se dici 'oggi la puo' spuntare X', NON aggiungere subito dopo 'pero' l'altro e' avanti nei precedenti e resta in corsa'. Scegli una strada e motivala, la controlettura sta gia' nel corpo imparziale. Il verdetto e' il momento in cui ci sbilanciamo con convinzione, non in cui ci cautaliamo.",
   "tag": ["5-8 tag di parole-chiave SEO: giocatori, torneo, categoria, superficie, tipo-match"],
   "sanity_check": {{
-    "bias_rilevati": ["lista eventuali bias infiltrati e corretti"],
+    "pilastro_1_completezza_aggiornamento": {{
+      "dati_completi": "true/false + nota",
+      "dati_precisi": "true/false + nota",
+      "dati_aggiornati_a_oggi_{today_short}": "true/false + nota",
+      "nessun_dato_stimato_spacciato_per_verificato": "true/false"
+    }},
+    "pilastro_2_anti_allucinazione": {{
+      "fatti_citati_tutti_verificati_contro_data_block": true,
+      "campo_vincitore_H2H_letto_esplicitamente": true,
+      "elenco_fatti_citati": [
+        "ogni affermazione factuale + riscontro autoritativo (es. 'H2H 2-0 Moller: confermato precedenti 2024-11-09 Lima VINCITORE Moller 2-0 e 2025-10-01 Braga VINCITORE Moller 1-2')"
+      ]
+    }},
+    "pilastro_3_anti_bias_strutturale": {{
+      "bias_pro_underdog_assente": "true/false + nota (non ho scritto 'contro ogni pronostico', 'si prende lo scalpo', 'stravince nonostante tutti lo diano battuto')",
+      "bias_pro_favorito_assente": "true/false + nota (non ho scritto 'la classifica parla chiaro', 'non c'e' storia', 'deve vincere per forza')",
+      "bias_nome_forte_assente": "true/false",
+      "bias_recency_assente": "true/false (non ho dato peso solo agli ultimi 2-3 match)",
+      "bias_home_crowd_assente": "true/false (non ho assunto che il pubblico aiuti senza verificare pattern storico home)",
+      "bias_confirmation_assente": "true/false (ho cercato dati che contraddicevano la tesi iniziale, non solo che la confermavano)"
+    }},
+    "bias_rilevati_e_corretti": ["lista bias infiltrati durante la generazione e come li ho corretti"],
     "voci_fasi_tutte_applicate": true,
     "corpo_imparziale": true,
-    "verdetto_solo_match_winner_o_un_set": true,
-    "fatti_citati_tutti_verificati_contro_data_block": true,
-    "elenco_fatti_citati": [
-      "elenca qui ogni affermazione factuale che hai scritto nel corpo e nel verdetto, con il riscontro autoritativo (es. 'H2H 2-0 Moller: confermato da precedenti 2024-11-09 Lima e 2025-10-01 Braga, VINCITORE Moller in entrambi')"
-    ]
+    "verdetto_solo_match_winner_o_un_set": true
   }}
 }}
 ```
@@ -238,19 +272,49 @@ Fatti NON ammessi senza dato autoritativo nel blocco:
 """
 
 
-PROMPT_FACT_CHECK = """Sei un fact-checker rigoroso per AnalisiTennis.it.
+PROMPT_FACT_CHECK = """Sei un fact-checker rigoroso + bias-checker per AnalisiTennis.it.
+
+Oggi e' {today_human}. Devi considerare questa data come riferimento di
+"aggiornato al giorno corrente".
 
 Ricevi:
 1. Un articolo di analisi tennis gia' scritto (in formato JSON con campi titolo,
    sottotitolo, descrizione, corpo_markdown, verdetto).
 2. Il blocco DATI AUTORITATIVI API Tennis che era la fonte di verita' per quell'articolo.
 
-Devi verificare che OGNI affermazione factuale (score, vincitori di H2H, date, risultati
-specifici, titoli, finali, ranking, bilanci W-L, nomi di avversari battuti o persi) sia
-COERENTE con i dati autoritativi.
+Devi eseguire TRE verifiche in ordine. Se UNA SOLA fallisce, verdict e' FAIL.
 
-Attenzione particolare ai PRECEDENTI DIRETTI: il campo "VINCITORE" indica chi ha vinto
-il match. Un record "A vs B, VINCITORE: A" significa che A ha vinto. Non invertire mai.
+### PILASTRO 1 — COMPLETEZZA E AGGIORNAMENTO DATI
+- Ogni dato citato nell'articolo e' completo (nessun "N/A" o campo vuoto)?
+- Ogni dato citato e' preciso (confrontato puntualmente col blocco DATI AUTORITATIVI)?
+- Ogni dato citato fa riferimento a eventi coerenti con oggi {today_short}
+  (es. "il titolo di Porto" ha senso solo se la data del titolo nei dati e'
+  antecedente a oggi; "la stagione in corso" deve essere l'anno di oggi)?
+
+### PILASTRO 2 — ANTI-ALLUCINAZIONE
+Verifica che OGNI affermazione factuale (score, vincitori H2H, date, risultati
+specifici, titoli, finali, ranking, bilanci W-L, nomi di avversari battuti o persi)
+sia COERENTE con i dati autoritativi.
+Attenzione particolare ai PRECEDENTI DIRETTI: il campo "VINCITORE" indica chi ha
+vinto il match. Un record "A vs B, VINCITORE: A" significa che A ha vinto. Non
+invertire mai la lettura.
+
+### PILASTRO 3 — ANTI-BIAS STRUTTURALE
+Verifica che la narrativa NON sia infettata da uno di questi bias:
+- **Bias pro-underdog**: espressioni come "contro ogni pronostico", "si prende lo
+  scalpo del favorito", "stravince nonostante tutti lo diano battuto", "sorpresa
+  della giornata", "upset annunciato". Verdetto che sceglie l'underdog ranking
+  SENZA una motivazione forte e verificata nei dati.
+- **Bias pro-favorito**: espressioni come "la classifica parla chiaro", "non c'e'
+  storia", "deve vincere per forza", "sulla carta e' un match a senso unico",
+  "formalita'". Verdetto che sceglie il favorito ranking SENZA considerare dati
+  che contraddicono (es. H2H sfavorevole, forma recente negativa).
+- **Bias nome-forte**: narrativa che pende verso il nome con carriera piu'
+  importante ignorando i dati recenti.
+- **Bias recency**: narrativa che pesa solo gli ultimi 2-3 match ignorando il
+  campione piu' ampio dei recenti.
+- **Bias home-crowd**: assunzione che il pubblico aiuti senza verificare pattern
+  storico home del giocatore.
 
 **ARTICOLO DA VERIFICARE:**
 {article_json}
@@ -263,20 +327,32 @@ il match. Un record "A vs B, VINCITORE: A" significa che A ha vinto. Non inverti
 ```json
 {{
   "verdict": "PASS" oppure "FAIL",
-  "errori": [
-    "lista di errori factuali trovati. Vuota se verdict PASS. Esempi: 'L'articolo dice che Rocha ha vinto a Braga 2025 ma i dati autoritativi dicono VINCITORE: Moller.' Ogni errore cita (a) la frase incriminata e (b) la verita' autoritativa."
-  ],
-  "note": [
-    "eventuali note su affermazioni ambigue o non verificabili ma non chiaramente false"
-  ]
+  "pilastro_1_completezza_aggiornamento": {{
+    "ok": true/false,
+    "problemi": ["lista problemi completezza/precisione/aggiornamento, vuota se ok"]
+  }},
+  "pilastro_2_anti_allucinazione": {{
+    "ok": true/false,
+    "errori": ["lista errori factuali, vuota se ok. Ogni errore cita la frase incriminata e la verita' autoritativa"]
+  }},
+  "pilastro_3_anti_bias": {{
+    "ok": true/false,
+    "bias_rilevati": ["lista bias rilevati con l'espressione incriminata e il tipo di bias"]
+  }},
+  "errori": ["lista aggregata di errori che hanno portato a FAIL"],
+  "note": ["eventuali note su affermazioni ambigue ma non chiaramente false"]
 }}
 ```
 
-Non essere pedante su particolari stilistici o interpretativi, cerca SOLO errori factuali
-verificabili contro il blocco dati. Se un fatto non e' citato nel blocco e nemmeno
-nell'articolo, non e' un errore. Se un fatto e' nell'articolo ma contraddice il blocco,
-e' un errore. Se un fatto e' nell'articolo e il blocco non lo copre (es. descrizione
-generale di superficie), NON e' un errore.
+Non essere pedante su particolari stilistici. Cerca SOLO:
+(a) errori di completezza/precisione/aggiornamento verificabili col blocco dati;
+(b) errori factuali di allucinazione verificabili col blocco dati;
+(c) espressioni-killer di bias elencate sopra con riscontro nel testo.
+
+Se un fatto non e' citato nel blocco e nemmeno nell'articolo, non e' un errore.
+Se un fatto e' nell'articolo ma contraddice il blocco, e' un errore.
+Se un fatto e' nell'articolo e il blocco non lo copre (es. descrizione generale
+di superficie, nazionalita' nota, mano dominante nota), NON e' un errore.
 """
 
 
@@ -302,8 +378,17 @@ def _claude_call(prompt, timeout=1800):
     return json.loads(content[start:end])
 
 
+def _today_strings():
+    today = date.today()
+    italian_months = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno',
+                      'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre']
+    today_human = f'{today.day} {italian_months[today.month - 1]} {today.year}'
+    today_short = today.strftime('%d/%m/%Y')
+    return today_human, today_short
+
+
 def fact_check(article, data_block):
-    """Seconda passata claude: verifica che ogni fatto citato sia nel data_block."""
+    """Seconda passata claude: verifica anti-allucinazione + anti-bias + aggiornamento."""
     article_slim = {
         'titolo': article.get('titolo'),
         'sottotitolo': article.get('sottotitolo'),
@@ -311,7 +396,10 @@ def fact_check(article, data_block):
         'corpo_markdown': article.get('corpo_markdown'),
         'verdetto': article.get('verdetto'),
     }
+    today_human, today_short = _today_strings()
     prompt = PROMPT_FACT_CHECK.format(
+        today_human=today_human,
+        today_short=today_short,
         article_json=json.dumps(article_slim, ensure_ascii=False, indent=2),
         data_block=data_block
     )
@@ -320,6 +408,7 @@ def fact_check(article, data_block):
 
 def genera(match, max_tentativi=2):
     """Genera articolo + fact-check + retry se fallisce."""
+    today_human, today_short = _today_strings()
     match_block = f"""- Data match: {match.get('event_date')} {match.get('event_time')}
 - Giocatore 1: {match.get('event_first_player')} (key API: {match.get('first_player_key')})
 - Giocatore 2: {match.get('event_second_player')} (key API: {match.get('second_player_key')})
@@ -334,26 +423,36 @@ def genera(match, max_tentativi=2):
     last_err = None
     for tentativo in range(1, max_tentativi + 1):
         print(f'  Tentativo generazione {tentativo}/{max_tentativi}...', flush=True)
-        prompt = PROMPT_PIPELINE.format(match_block=match_block, data_block=data_block)
+        prompt = PROMPT_PIPELINE.format(
+            today_human=today_human,
+            today_short=today_short,
+            match_block=match_block,
+            data_block=data_block,
+        )
         article = _claude_call(prompt)
 
-        print(f'  Fact-check in corso...', flush=True)
+        print(f'  Fact-check (3 pilastri: completezza/anti-allucinazione/anti-bias)...', flush=True)
         check = fact_check(article, data_block)
         verdict = check.get('verdict', 'FAIL')
         errors = check.get('errori', []) or []
 
         if verdict == 'PASS' and not errors:
-            print(f'  Fact-check: PASS', flush=True)
+            print(f'  Fact-check: PASS su tutti e 3 i pilastri', flush=True)
             article['fact_check'] = check
             article['data_block_used'] = data_block
             return article
 
-        last_err = errors
-        print(f'  Fact-check: FAIL con {len(errors)} errori:', flush=True)
+        last_err = {
+            'pilastro_1': check.get('pilastro_1_completezza_aggiornamento', {}),
+            'pilastro_2': check.get('pilastro_2_anti_allucinazione', {}),
+            'pilastro_3': check.get('pilastro_3_anti_bias', {}),
+            'errori': errors,
+        }
+        print(f'  Fact-check: FAIL con {len(errors)} problemi:', flush=True)
         for e in errors[:5]:
             print(f'    - {e}', flush=True)
 
-    raise RuntimeError(f'Impossibile generare articolo privo di allucinazioni dopo {max_tentativi} tentativi. Ultimi errori: {last_err}')
+    raise RuntimeError(f'Impossibile generare articolo privo di problemi dopo {max_tentativi} tentativi. Ultimi errori: {last_err}')
 
 
 if __name__ == '__main__':
