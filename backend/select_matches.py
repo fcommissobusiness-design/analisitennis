@@ -1,42 +1,65 @@
-"""Seleziona i 2-3 match top della giornata da coprire.
+"""Seleziona i match della giornata da coprire.
 
-Regole:
-- Priorità torneo: Slam > Masters > ATP 500 > ATP 250 > WTA 1000 > WTA 500 > WTA 250 > Challenger > ITF
-- Priorità fase: Finale > SF > QF > R16 > R32 > R64 > R128 > quali
-- Boost se almeno un giocatore top-50 ATP o top-50 WTA (via standings)
-- Orari filtro: prime diurne (10-18) o prime serali (18-23) ora italiana - no partite notturne USA
-- Target: 3 articoli se c'è almeno un ATP 500+, 2 altrimenti
-- Max 1 Challenger/giorno
+Regole (24/10/2026):
+- Main tour (Slam / Masters / ATP 500/250 / WTA 1000/500/250): TUTTI i match
+  della giornata, uomini e donne.
+- Challenger tour (ATP Challenger + WTA 125): MASSIMO 5 match totali, scelti
+  per priorita' (round + nome torneo).
+- Esclusioni comuni: doppi, qualifications-only match live/finiti, orari fuori
+  banda 08:00-23:00 ora italiana (API Tennis gia' usa orario italiano).
+- Cap di sicurezza: se il count main tour supera 50 (es. doppio Slam attivo),
+  warning in log ma procede comunque.
 """
 import json
+import os
 import sys
 from pathlib import Path
-from datetime import datetime
 
-PRIORITA_TORNEO = {
-    'Grand Slam': 100, 'Grand Slam Men Singles': 100, 'Grand Slam Women Singles': 100,
-    'ATP Masters': 85, 'Masters': 85,
-    'ATP 500': 70, 'ATP500': 70, 'WTA 1000': 72, 'WTA1000': 72,
-    'ATP 250': 55, 'ATP250': 55, 'WTA 500': 55, 'WTA500': 55,
-    'WTA 250': 45, 'WTA250': 45,
-    'Challenger': 30, 'ATP Challenger Men Singles': 30, 'Challenger Men Singles': 30,
-    'ITF': 15,
-    'Davis Cup': 60, 'Billie Jean King Cup': 55
-}
 
 PRIORITA_ROUND = {
-    'Final': 100, 'Semi-finals': 80, 'Semi-final': 80,
-    'Quarter-finals': 65, 'Quarter-final': 65,
-    '1/8-finals': 50, '1/16-finals': 35, '1/32-finals': 25, '1/64-finals': 20, '1/128-finals': 15
+    'Final': 100, 'Semi-finals': 85, 'Semi-final': 85,
+    'Quarter-finals': 70, 'Quarter-final': 70,
+    '1/8-finals': 55, '1/16-finals': 40, '1/32-finals': 28, '1/64-finals': 20, '1/128-finals': 15
+}
+
+PRIORITA_TORNEO_CH = {
+    # ordine indicativo per Challenger: piu' prestigiosi in cima
+    'ATP Challenger Men Singles': 50,
+    'Challenger Men Singles': 50,
+    'WTA 125': 45,
+    'WTA125': 45,
+    'ITF': 10,
 }
 
 
-def peso_torneo(m):
-    tipo = (m.get('event_type_type') or '').strip()
-    for k, v in PRIORITA_TORNEO.items():
-        if k.lower() in tipo.lower():
-            return v
-    return 10
+def classifica_tier(match):
+    """Ritorna il tier del torneo: SLAM | MASTERS | ATP | WTA | CHALLENGER | WTA125 | ITF | OTHER."""
+    tipo = (match.get('event_type_type') or '').strip().lower()
+    nome = (match.get('tournament_name') or '').strip().lower()
+
+    if 'grand slam' in tipo:
+        return 'SLAM'
+    if 'masters' in tipo:
+        return 'MASTERS'
+    # Challenger: catch before ATP generic
+    if 'challenger' in tipo or 'challenger' in nome:
+        return 'CHALLENGER'
+    # WTA 125 e' tier Challenger lato femminile
+    if 'wta' in tipo and ('125' in tipo or '125' in nome):
+        return 'WTA125'
+    if tipo.startswith('atp') or 'atp' in tipo:
+        return 'ATP'
+    if tipo.startswith('wta') or 'wta' in tipo:
+        return 'WTA'
+    if 'itf' in tipo:
+        return 'ITF'
+    if 'davis cup' in tipo or 'billie jean king' in tipo:
+        return 'MAIN_TEAM'
+    return 'OTHER'
+
+
+TIER_MAIN_TOUR = {'SLAM', 'MASTERS', 'ATP', 'WTA', 'MAIN_TEAM'}
+TIER_CHALLENGER = {'CHALLENGER', 'WTA125'}
 
 
 def peso_round(m):
@@ -46,11 +69,18 @@ def peso_round(m):
             return v
     if 'qualif' in r.lower() or 'quali' in r.lower():
         return 5
+    return 25
+
+
+def peso_torneo_ch(m):
+    tipo = (m.get('event_type_type') or '').strip()
+    for k, v in PRIORITA_TORNEO_CH.items():
+        if k.lower() in tipo.lower():
+            return v
     return 20
 
 
 def orario_italiano_ok(m):
-    """Filtra orari sensati per audience italiana (08:00 - 23:30)."""
     t = (m.get('event_time') or '').strip()
     if not t:
         return True
@@ -63,52 +93,68 @@ def orario_italiano_ok(m):
 
 
 def not_yet_started(m):
-    """Esclude match gia' live/finiti."""
     s = (m.get('event_status') or '').lower()
     if 'finished' in s or 'live' in s or m.get('event_live') == '1':
         return False
     return True
 
 
-def score(m):
-    return peso_torneo(m) * 2 + peso_round(m)
+def is_singolo(m):
+    p1 = m.get('event_first_player', '') or ''
+    p2 = m.get('event_second_player', '') or ''
+    return '/' not in p1 and '/' not in p2
 
 
-def seleziona(matches, max_pick=3):
-    candidati = [m for m in matches if not_yet_started(m) and orario_italiano_ok(m)]
-    candidati.sort(key=score, reverse=True)
+def seleziona(matches, max_challenger=5, cap_main=50):
+    base = [m for m in matches if is_singolo(m) and not_yet_started(m) and orario_italiano_ok(m)]
 
-    picks = []
-    challenger_count = 0
-    for m in candidati:
-        tipo = (m.get('event_type_type') or '').lower()
-        is_ch = 'challenger' in tipo or 'itf' in tipo
-        if is_ch:
-            if challenger_count >= 1:
-                continue
-            challenger_count += 1
-        picks.append(m)
-        if len(picks) >= max_pick:
-            break
+    main_tour = []
+    challenger = []
+    for m in base:
+        tier = classifica_tier(m)
+        if tier in TIER_MAIN_TOUR:
+            m['_tier'] = tier
+            m['_round_score'] = peso_round(m)
+            main_tour.append(m)
+        elif tier in TIER_CHALLENGER:
+            m['_tier'] = tier
+            m['_round_score'] = peso_round(m)
+            m['_ch_torneo_score'] = peso_torneo_ch(m)
+            challenger.append(m)
+        # altri tier (ITF, OTHER): ignorati
 
-    # Se non c'e' nessun ATP500+ scendo a 2 articoli
-    best = picks[0] if picks else None
-    if best and peso_torneo(best) < 55 and len(picks) == 3:
-        picks = picks[:2]
+    # Main tour: TUTTI. Ordinati per round desc (prima i turni avanzati),
+    # poi per orario asc (quelli piu' presto in cima all'elenco).
+    main_tour.sort(key=lambda m: (-m['_round_score'], m.get('event_time') or '99:99'))
 
-    return picks
+    if len(main_tour) > cap_main:
+        print(f'  WARNING: main tour ha {len(main_tour)} match > cap {cap_main}, procedo comunque', file=sys.stderr)
+
+    # Challenger: top-5 per (torneo+round) score, poi orario
+    challenger.sort(key=lambda m: (-(m['_ch_torneo_score'] + m['_round_score']), m.get('event_time') or '99:99'))
+    challenger = challenger[:max_challenger]
+
+    # Rimuovi i marker interni prima di salvare
+    def pulisci(m):
+        for k in ('_tier', '_round_score', '_ch_torneo_score'):
+            m.pop(k, None)
+        return m
+
+    out = [pulisci(m) for m in main_tour] + [pulisci(m) for m in challenger]
+    return out, len(main_tour), len(challenger)
 
 
 if __name__ == '__main__':
-    fx_file = sys.argv[1] if len(sys.argv) > 1 else None
-    if not fx_file:
+    if len(sys.argv) < 2:
         print('Uso: python select_matches.py fixtures_YYYY-MM-DD.json', file=sys.stderr)
         sys.exit(1)
+    fx_file = sys.argv[1]
     matches = json.loads(Path(fx_file).read_text())
-    picks = seleziona(matches)
-    print(f'Selezionati {len(picks)} match:')
+    picks, n_main, n_ch = seleziona(matches)
+    print(f'Selezionati {len(picks)} match: {n_main} main tour (ATP/WTA/Slam/Masters) + {n_ch} Challenger')
     for p in picks:
-        print(f"  [{score(p):3d}] {p.get('event_time')} - {p.get('event_first_player')} vs {p.get('event_second_player')} - {p.get('tournament_name')} ({p.get('tournament_round')})")
+        tipo = (p.get('event_type_type') or '').strip()[:35]
+        print(f"  [{tipo:35s}] {p.get('event_time')} - {p.get('event_first_player')} vs {p.get('event_second_player')} - {p.get('tournament_name')} ({p.get('tournament_round')})")
     out = Path(fx_file).parent / f'selected_{Path(fx_file).stem.split("_")[-1]}.json'
     out.write_text(json.dumps(picks, indent=2, ensure_ascii=False))
     print(f'Salvati in {out}')
