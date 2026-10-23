@@ -4,12 +4,17 @@
 <dict>
     <key>Label</key>
     <string>com.analisitennis.daily</string>
+
+    <!-- Script da eseguire -->
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
         <string>cd /Users/filippocommisso/analisitennis/backend &amp;&amp; ./daily.sh</string>
     </array>
+
+    <!-- Esecuzione quotidiana alle 07:00. Se il Mac e' spento/dormiente a quell'ora,
+         launchd fa il catch-up automatico al prossimo risveglio. -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
@@ -17,16 +22,40 @@
         <key>Minute</key>
         <integer>0</integer>
     </dict>
+
+    <!-- Non eseguire al boot (solo alle 07:00 schedulate) -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- Se lo script esce con codice != 0 (es. 75 EX_TEMPFAIL per rete assente),
+         launchd lo riaccoda. Combinato con ThrottleInterval, il retry e' ogni 10 min. -->
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <true/>
+    </dict>
+
+    <!-- Intervallo minimo tra due esecuzioni successive dopo un fallimento: 10 min -->
+    <key>ThrottleInterval</key>
+    <integer>600</integer>
+
+    <!-- Esecuzione con nice level standard -->
+    <key>Nice</key>
+    <integer>0</integer>
+
+    <!-- Log stdout/stderr su file -->
     <key>StandardOutPath</key>
     <string>/Users/filippocommisso/analisitennis/backend/logs/launchd.out.log</string>
     <key>StandardErrorPath</key>
     <string>/Users/filippocommisso/analisitennis/backend/logs/launchd.err.log</string>
+
+    <!-- PATH esplicito con node locale e tool Unix -->
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <string>/Users/filippocommisso/.local/node/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/filippocommisso</string>
     </dict>
-    <key>RunAtLoad</key>
-    <false/>
 </dict>
 </plist>
