@@ -1,0 +1,52 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const {
+  titolo = 'AnalisiTennis - Il tennis letto nei numeri',
+  descrizione = 'Analisi autoriali sulle partite di tennis più attese del circuito ATP, WTA e Challenger. Il tennis letto nei numeri, firmato dalla Redazione AnalisiTennis.',
+  immagine,
+  canonical,
+  tipo = 'website'
+} = Astro.props;
+
+const url = canonical || new URL(Astro.url.pathname, Astro.site).href;
+---
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content={Astro.generator} />
+  <title>{titolo}</title>
+  <meta name="description" content={descrizione} />
+  <link rel="canonical" href={url} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <meta property="og:type" content={tipo} />
+  <meta property="og:title" content={titolo} />
+  <meta property="og:description" content={descrizione} />
+  <meta property="og:url" content={url} />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="AnalisiTennis" />
+  {immagine && <meta property="og:image" content={immagine} />}
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={titolo} />
+  <meta name="twitter:description" content={descrizione} />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="alternate" type="application/rss+xml" title="AnalisiTennis" href="/rss.xml" />
+</head>
+<body>
+  <Header />
+  <main>
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

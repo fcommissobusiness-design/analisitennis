@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import { getCollection } from 'astro:content';
+
+const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf()).slice(0, 30);
+---
+<Base titolo="AnalisiTennis - Il tennis letto nei numeri" descrizione="Analisi autoriali quotidiane sulle partite di tennis ATP, WTA, Slam e Challenger. Il tennis letto nei numeri, dalla Redazione AnalisiTennis.">
+  <section class="homepage-hero">
+    <div class="contenitore">
+      <h1>Il <span style="color: var(--brand-verde);">tennis</span> letto nei numeri</h1>
+      <p>Analisi autoriali quotidiane sulle partite più attese del circuito ATP, WTA e Challenger. Dati, contesto, letture tattiche.</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div style="display: grid; grid-template-columns: 1fr 300px; gap: 48px; padding: 48px 0;">
+      <div>
+        <h2 style="font-size: 1.3rem; margin-bottom: 24px; color: var(--testo-secondario); font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 0.08em;">Ultime analisi</h2>
+        <div class="griglia-articoli" style="padding: 0;">
+          {articoli.map(art => (
+            <article class="card-articolo">
+              <div class="eyebrow">{art.data.categoria} - {art.data.torneo}</div>
+              <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
+              <p class="sottotitolo">{art.data.sottotitolo}</p>
+              <div class="data">
+                {new Date(art.data.data).toLocaleDateString('it-IT', {
+                  day: 'numeric', month: 'long', year: 'numeric'
+                })}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+      <aside>
+        <div class="side-sticky">
+          <FormEmail />
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,22 @@
+---
+const { compatto = false } = Astro.props;
+---
+<div class={`widget form-email ${compatto ? 'compatto' : ''}`}>
+  <h3>Iscriviti al nostro blog</h3>
+  <p style="font-size: 0.92rem; color: var(--testo-secondario); margin-bottom: 16px; line-height: 1.5;">
+    Resta aggiornato su tutte le nostre <strong>analisi tennis</strong> del momento. Riceverai una email ogni volta che pubblichiamo un nuovo articolo.
+  </p>
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/analisitennis"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/analisitennis', 'popupwindow')"
+  >
+    <input type="text" name="metadata__nome" placeholder="Il tuo nome" required aria-label="Nome" />
+    <input type="email" name="email" placeholder="La tua email" required aria-label="Email" />
+    <button type="submit">Iscriviti ora</button>
+    <p class="privacy">
+      Trattiamo i tuoi dati nel rispetto del GDPR. Puoi disiscriverti con un click in ogni momento. <a href="/privacy">Privacy policy</a>.
+    </p>
+  </form>
+</div>

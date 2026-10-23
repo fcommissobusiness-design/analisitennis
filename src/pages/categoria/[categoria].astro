@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const categorie = ['atp', 'wta', 'slam', 'challenger', 'masters', 'itf'];
+  return categorie.map(c => ({ params: { categoria: c } }));
+}
+
+const { categoria } = Astro.params;
+const normalizzata = categoria.toUpperCase();
+const tutti = await getCollection('articoli', ({ data }) =>
+  data.pubblicato !== false && data.categoria.toLowerCase() === categoria.toLowerCase()
+);
+const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+
+const nomi = {
+  atp: 'ATP Tour', wta: 'WTA Tour', slam: 'Grande Slam',
+  challenger: 'Challenger Tour', masters: 'Masters 1000', itf: 'Circuito ITF'
+};
+---
+<Base titolo={`Analisi ${nomi[categoria]} - AnalisiTennis`} descrizione={`Analisi tennis quotidiane sulle partite ${nomi[categoria]}. Letture autoriali data-driven dalla Redazione AnalisiTennis.`}>
+  <section class="homepage-hero">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Categoria</div>
+      <h1>Analisi {nomi[categoria]}</h1>
+      <p>Tutte le nostre letture sui match {normalizzata}, raccolte in ordine cronologico.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div style="display: grid; grid-template-columns: 1fr 300px; gap: 48px; padding: 48px 0;">
+      <div>
+        {articoli.length === 0 ? (
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessuna analisi pubblicata al momento in questa categoria.</p>
+        ) : (
+          <div class="griglia-articoli" style="padding: 0;">
+            {articoli.map(art => (
+              <article class="card-articolo">
+                <div class="eyebrow">{art.data.torneo} - {art.data.superficie}</div>
+                <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
+                <p class="sottotitolo">{art.data.sottotitolo}</p>
+                <div class="data">{new Date(art.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
+              </article>
+            ))}
+          </div>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>

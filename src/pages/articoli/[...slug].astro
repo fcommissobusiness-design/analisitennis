@@ -1,0 +1,79 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  return articoli.map(a => ({ params: { slug: a.slug }, props: { articolo: a } }));
+}
+
+const { articolo } = Astro.props;
+const { Content } = await articolo.render();
+const d = articolo.data;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'SportsEvent',
+  name: `${d.giocatore1} contro ${d.giocatore2} - ${d.torneo}`,
+  startDate: d.data.toISOString(),
+  sport: 'Tennis',
+  location: { '@type': 'Place', name: d.torneo },
+  competitor: [
+    { '@type': 'Person', name: d.giocatore1 },
+    { '@type': 'Person', name: d.giocatore2 }
+  ],
+  description: d.descrizione
+};
+
+const schemaArticle = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: d.titolo,
+  description: d.descrizione,
+  datePublished: d.data.toISOString(),
+  dateModified: d.data.toISOString(),
+  author: { '@type': 'Organization', name: d.autore },
+  publisher: {
+    '@type': 'Organization',
+    name: 'AnalisiTennis',
+    logo: { '@type': 'ImageObject', url: 'https://analisitennis.it/logo.png' }
+  }
+};
+---
+<Base
+  titolo={`${d.titolo} - AnalisiTennis`}
+  descrizione={d.descrizione}
+  tipo="article"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} />
+
+  <div class="layout-articolo">
+    <article class="articolo">
+      <div class="articolo-eyebrow">{d.categoria} - {d.torneo} - {d.superficie}</div>
+      <h1 class="articolo-titolo">{d.titolo}</h1>
+      <p class="articolo-sottotitolo">{d.sottotitolo}</p>
+      <div class="articolo-meta">
+        <span>{d.autore}</span>
+        <span>-</span>
+        <span>{new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+      </div>
+
+      <div class="articolo-corpo">
+        <Content />
+      </div>
+
+      <div class="verdetto">
+        <div class="label">Il nostro pronostico</div>
+        <p>{d.verdetto}</p>
+      </div>
+    </article>
+
+    <aside>
+      <div class="side-sticky">
+        <FormEmail />
+      </div>
+    </aside>
+  </div>
+</Base>

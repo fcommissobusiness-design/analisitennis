@@ -1,0 +1,28 @@
+# Build
+dist/
+.astro/
+.cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+backend/.env
+backend/fixtures_*.json
+backend/selected_*.json
+backend/analyses/
+backend/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
