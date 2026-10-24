@@ -215,6 +215,17 @@ strong { font-weight: 700; color: var(--testo); }
   color: var(--testo);
 }
 
+/* COVER ARTICOLO (illustrazione match) */
+.cover-articolo {
+  margin: 24px 0 36px;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: var(--max-articolo);
+  box-shadow: 0 10px 32px rgba(0,0,0,0.14);
+  aspect-ratio: 1200 / 500;
+}
+.cover-articolo svg { display: block; width: 100%; height: 100%; }
+
 /* VERDETTO (chiusura articolo) */
 .verdetto {
   margin: 40px 0 0;
@@ -397,6 +408,22 @@ strong { font-weight: 700; color: var(--testo); }
   text-align: center;
   font-size: 0.82rem;
   color: #7a8089;
+}
+.footer-copyright {
+  margin-top: 40px;
+  padding: 24px 24px 0;
+  border-top: 1px solid #2a2f38;
+  text-align: center;
+  max-width: var(--max-contenitore);
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-copyright p {
+  text-align: center;
+  font-size: 0.82rem;
+  color: #7a8089;
+  margin: 0;
+  line-height: 1.6;
 }
 
 /* MENU MOBILE TOGGLE */
@@ -592,6 +619,19 @@ strong { font-weight: 700; color: var(--testo); }
 .share-tw:hover { background: #000; color: white; border-color: #000; }
 .share-fb:hover { background: #1877f2; color: white; border-color: #1877f2; }
 .share-wa:hover { background: #25d366; color: white; border-color: #25d366; }
+.share-ig {
+  background: var(--sfondo-alt);
+  border: 1px solid var(--bordo);
+  color: var(--testo);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+.share-ig:hover {
+  background: linear-gradient(45deg, #feda75 0%, #fa7e1e 25%, #d62976 50%, #962fbf 75%, #4f5bd5 100%);
+  color: white;
+  border-color: transparent;
+}
 .share-mail:hover { background: var(--brand-verde-scuro); color: white; border-color: var(--brand-verde-scuro); }
 @media (max-width: 640px) {
   .share-buttons { gap: 6px; }

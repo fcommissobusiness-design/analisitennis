@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import ShareButtons from '../../components/ShareButtons.astro';
+import CoverArticolo from '../../components/CoverArticolo.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -60,6 +61,16 @@ const schemaArticle = {
         <span>-</span>
         <span>{new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
       </div>
+
+      {d.giocatore1 && d.giocatore2 && d.giocatore1 !== 'Redazione' && (
+        <CoverArticolo
+          giocatore1={d.giocatore1}
+          giocatore2={d.giocatore2}
+          torneo={d.torneo}
+          superficie={d.superficie}
+          categoria={d.categoria}
+        />
+      )}
 
       <div class="articolo-corpo">
         <Content />
