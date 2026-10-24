@@ -4,17 +4,15 @@ const { compatto = false } = Astro.props;
 <div class={`widget form-email ${compatto ? 'compatto' : ''}`}>
   <h3>Iscriviti al nostro blog</h3>
   <p style="font-size: 0.92rem; color: var(--testo-secondario); margin-bottom: 16px; line-height: 1.5;">
-    Resta aggiornato su tutte le nostre <strong>analisi tennis</strong> del momento. Riceverai una email ogni volta che pubblichiamo un nuovo articolo.
+    Stiamo attivando il sistema di iscrizioni della newsletter. Torna a breve per lasciare la tua email e ricevere le nostre <strong>analisi tennis</strong> ogni volta che pubblichiamo un nuovo articolo.
   </p>
-  <form
-    action="https://buttondown.email/api/emails/embed-subscribe/analisitennis"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/analisitennis', 'popupwindow')"
-  >
-    <input type="text" name="metadata__nome" placeholder="Il tuo nome" required aria-label="Nome" />
-    <input type="email" name="email" placeholder="La tua email" required aria-label="Email" />
-    <button type="submit">Iscriviti ora</button>
+  <form onsubmit="event.preventDefault(); const n = this.querySelector('.form-note'); if (n) n.hidden = false;">
+    <input type="text" name="nome" placeholder="Il tuo nome" required aria-label="Nome" disabled />
+    <input type="email" name="email" placeholder="La tua email" required aria-label="Email" disabled />
+    <button type="button" disabled>Iscrizioni a breve</button>
+    <p class="form-note" hidden style="font-size: 0.85rem; color: var(--testo-secondario); margin-top: 8px;">
+      Il form non è ancora attivo. Scrivi a <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a> se vuoi essere avvisato per primo quando apriamo le iscrizioni.
+    </p>
     <p class="privacy">
       Trattiamo i tuoi dati nel rispetto del GDPR. Puoi disiscriverti con un click in ogni momento. <a href="/privacy">Privacy policy</a>.
     </p>
