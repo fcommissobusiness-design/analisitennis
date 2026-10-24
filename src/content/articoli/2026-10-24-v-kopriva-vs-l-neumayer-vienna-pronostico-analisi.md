@@ -20,7 +20,7 @@ verdetto: "Oggi la può spuntare Neumayer: la miglior forma recente e i due scon
 descrizione: "Semifinale di Vienna tra V. Kopriva e L. Neumayer: scontri diretti, forma recente, fattore campo e superficie a confronto sul veloce indoor. L'analisi del match."
 pubblicato: true
 cover_image: "/covers/2026-10-24-v-kopriva-vs-l-neumayer-vienna-pronostico-analisi.jpg"
-cover_credit: "Lukas Neumayer (2026 US Open) 01.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Lukas Neumayer (2026 US Open) 02 (cropped).jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 La semifinale di **Vienna** mette di fronte V. Kopriva e L. Neumayer, due giocatori che si conoscono già e che tornano a incrociarsi dopo averlo fatto in tre occasioni sparse negli anni. Il torneo austriaco li ritrova in un momento di stagione molto diverso l'uno dall'altro, con percorsi recenti che hanno preso pieghe opposte e un pizzico di storia comune a fare da sfondo. È il tipo di confronto in cui i numeri raccontano una parte della verità, ma il campo ne aggiunge sempre un'altra.

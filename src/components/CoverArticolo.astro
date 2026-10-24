@@ -1,6 +1,7 @@
 ---
-// Cover articolo: foto reale + titolo in sovraimpressione, gradient per leggibilità.
-// Props: cover_image (path pubblico), titolo, torneo, categoria, superficie, sottotitolo opzionale, credit opzionale.
+// Cover articolo: foto reale + titolo in sovraimpressione.
+// Priorita' assoluta: il titolo NON deve mai essere tagliato.
+// Il contenitore cresce in altezza con il titolo; l'immagine resta object-fit cover.
 const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit } = Astro.props;
 
 const superficeLabel = {
@@ -14,106 +15,110 @@ const superficeLabel = {
   <div class="cover-frame">
     <img src={cover_image} alt={`${titolo} - ${torneo}`} loading="eager" fetchpriority="high" />
     <div class="cover-overlay"></div>
-    <div class="cover-meta-top">
-      <span class="cat">{categoria?.toUpperCase()} · {superficeLabel}</span>
-      <span class="badge">ANALISITENNIS</span>
+    <div class="cover-top">
+      <span class="cat">{categoria?.toUpperCase()} · {superficeLabel} · {torneo?.toUpperCase()}</span>
     </div>
     <div class="cover-text">
-      <div class="cover-torneo">{torneo}</div>
       <h1 class="cover-title">{titolo}</h1>
       {sottotitolo && <p class="cover-sub">{sottotitolo}</p>}
     </div>
   </div>
-  {credit && <figcaption class="cover-credit">{credit}</figcaption>}
+  {credit && <figcaption class="cover-credit">Foto: {credit}</figcaption>}
 </figure>
 
 <style>
-  .cover-articolo {
-    margin: 0 0 32px;
-    padding: 0;
-  }
+  .cover-articolo { margin: 0 0 28px; padding: 0; }
+
+  /* Nessun aspect-ratio fisso: il contenitore cresce con il titolo.
+     Altezza minima garantisce "respiro" visivo; max-height evita che foto
+     molto verticali rendano la cover ingestibile. */
   .cover-frame {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    min-height: 320px;
     overflow: hidden;
     border-radius: 10px;
-    background: #000;
+    background: #0b0f14;
     isolation: isolate;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
   }
+
+  /* Immagine assoluta dietro: object-fit cover + object-position center.
+     Non taglia il titolo perche' il titolo e' in un'area dedicata sotto. */
   .cover-frame > img {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 28%;
+    object-position: center 32%;
     display: block;
+    z-index: 0;
   }
+
+  /* Gradient che scurisce la parte bassa dove sta il titolo, in modo
+     che il bianco sia sempre leggibile indipendentemente dalla foto. */
   .cover-overlay {
     position: absolute;
-    left: 0; right: 0; bottom: 0;
-    height: 72%;
-    background: linear-gradient(180deg, rgba(10,14,20,0) 0%, rgba(10,14,20,0.55) 45%, rgba(10,14,20,0.96) 100%);
+    inset: 0;
+    background:
+      linear-gradient(180deg,
+        rgba(10,14,20,0.35) 0%,
+        rgba(10,14,20,0.0) 20%,
+        rgba(10,14,20,0.1) 45%,
+        rgba(10,14,20,0.75) 72%,
+        rgba(10,14,20,0.98) 100%);
     z-index: 1;
   }
-  .cover-meta-top {
-    position: absolute;
-    top: 18px;
-    left: 24px;
-    right: 24px;
+
+  /* Area in alto con categoria + torneo (una riga sola). */
+  .cover-top {
+    position: relative;
     z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
+    padding: 18px 22px 0;
   }
-  .cover-meta-top .cat {
+  .cover-top .cat {
+    display: inline-block;
     font-size: 0.72rem;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     color: #39d453;
     font-weight: 700;
-    text-shadow: 0 1px 8px rgba(0,0,0,0.65);
+    text-shadow: 0 1px 10px rgba(0,0,0,0.75);
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
-  .cover-meta-top .badge {
-    background: rgba(10,14,20,0.72);
-    color: #39d453;
-    font-size: 0.65rem;
-    letter-spacing: 2px;
-    font-weight: 700;
-    padding: 6px 12px;
-    border-radius: 999px;
-    backdrop-filter: blur(4px);
+
+  /* Riempitivo per spingere il testo verso il basso. */
+  .cover-frame > :where(div:nth-of-type(2)) { /* overlay */
+    pointer-events: none;
   }
+
+  /* Area testo in basso: cresce quanto serve, il contenitore si adatta. */
   .cover-text {
-    position: absolute;
-    left: 24px;
-    right: 24px;
-    bottom: 24px;
+    position: relative;
     z-index: 2;
-  }
-  .cover-torneo {
-    font-size: 0.78rem;
-    color: #cfd6e0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 8px;
-    text-shadow: 0 1px 8px rgba(0,0,0,0.8);
+    padding: 60px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
   }
   .cover-title {
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 900;
-    font-size: clamp(1.35rem, 3.4vw, 2.4rem);
-    line-height: 1.08;
-    letter-spacing: -0.5px;
+    font-size: clamp(1.25rem, 2.6vw, 2rem);
+    line-height: 1.1;
+    letter-spacing: -0.4px;
     color: #ffffff;
-    text-shadow: 0 2px 16px rgba(0,0,0,0.85), 0 1px 2px rgba(0,0,0,0.9);
-    margin: 0 0 10px;
+    text-shadow: 0 2px 14px rgba(0,0,0,0.85), 0 1px 3px rgba(0,0,0,0.9);
+    margin: 0;
     text-wrap: balance;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
   .cover-sub {
-    font-size: 0.98rem;
+    font-size: 0.95rem;
     color: #e8edf3;
     line-height: 1.4;
     text-shadow: 0 1px 8px rgba(0,0,0,0.85);
@@ -123,11 +128,22 @@ const superficeLabel = {
   .cover-credit {
     font-size: 0.72rem;
     color: var(--testo-secondario, #8a94a3);
-    margin: 8px 2px 0;
+    margin: 8px 4px 0;
     letter-spacing: 0.3px;
+    line-height: 1.4;
   }
-  @media (max-width: 480px) {
-    .cover-text { left: 18px; right: 18px; bottom: 18px; }
-    .cover-meta-top { left: 18px; right: 18px; top: 14px; }
+
+  @media (max-width: 640px) {
+    .cover-frame { min-height: 260px; }
+    .cover-top { padding: 14px 16px 0; }
+    .cover-text { padding: 46px 16px 18px; }
+    .cover-title { font-size: clamp(1.1rem, 5.5vw, 1.5rem); }
+    .cover-sub { font-size: 0.9rem; }
+    .cover-top .cat { font-size: 0.66rem; letter-spacing: 2px; }
+  }
+
+  /* Schermi larghi: contenitore piu' alto per bilanciare la foto. */
+  @media (min-width: 900px) {
+    .cover-frame { min-height: 420px; }
   }
 </style>

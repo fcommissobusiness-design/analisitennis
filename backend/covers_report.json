@@ -1,33 +1,39 @@
 [
   {
     "slug": "2026-10-24-a-fils-vs-j-l-struff-brussels-pronostico-analisi",
-    "reason": "favorito A. Fils (netto)",
+    "reason": "favorito A. Fils (misura)",
     "file": "File:Arthur Fils - 2024 Olympics (forehand).jpg",
     "url": "https://commons.wikimedia.org/wiki/File:Arthur_Fils_-_2024_Olympics_(forehand).jpg"
   },
   {
+    "slug": "2026-10-24-a-kovacevic-vs-j-duckworth-basel-pronostico-analisi",
+    "reason": "favorito A. Kovacevic non mappato; fallback venue Basel",
+    "file": "File:Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Stefanos_Tsitsipas,_Swiss_Indoors_Basel_2024.jpg"
+  },
+  {
     "slug": "2026-10-24-a-molcan-vs-h-medjedovic-vienna-pronostico-analisi",
-    "reason": "favorito A. Molcan (misura)",
-    "file": "File:Roland Garros 2023 - court central - Zverev-Molcan 05.jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Roland_Garros_2023_-_court_central_-_Zverev-Molcan_05.jpg"
+    "reason": "favorito A. Molcan (misura); fallback venue Vienna",
+    "file": "File:David Ferrer (Spain) against Viktor Troicki (Serbia), 2016 Erste Bank Open.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:David_Ferrer_(Spain)_against_Viktor_Troicki_(Serbia),_2016_Erste_Bank_Open.jpg"
   },
   {
     "slug": "2026-10-24-a-zakharova-vs-r-zhang-guangzhou-pronostico-analisi",
     "reason": "favorito A. Zakharova (misura)",
-    "file": "File:Day 2 - Qualifying TransylvaniaOpen Anna Bondar vs Anastasia Zakharova 6-4,6-2 (54320809888).jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Day_2_-_Qualifying_TransylvaniaOpen_Anna_Bondar_vs_Anastasia_Zakharova_6-4,6-2_(54320809888).jpg"
+    "file": "File:Zakharova WMQ23 (53062168833).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Zakharova_WMQ23_(53062168833).jpg"
   },
   {
     "slug": "2026-10-24-c-moutet-vs-t-machac-vienna-pronostico-analisi",
-    "reason": "favorito T. Machac (misura)",
-    "file": "File:Machac WMQ23 (53062093175).jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Machac_WMQ23_(53062093175).jpg"
+    "reason": "favorito C. Moutet (misura)",
+    "file": "File:Open Brest Arena 2017 - finale Moutet-Tsitsipas 65 (cropped).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Open_Brest_Arena_2017_-_finale_Moutet-Tsitsipas_65_(cropped).jpg"
   },
   {
     "slug": "2026-10-24-c-wong-hong-yi-vs-e-jones-guangzhou-pronostico-analisi",
     "reason": "favorito E. Jones (misura)",
-    "file": "File:Emerson Jones Eddie Herr G14s Final 2022 (1).png",
-    "url": "https://commons.wikimedia.org/wiki/File:Emerson_Jones_Eddie_Herr_G14s_Final_2022_(1).png"
+    "file": "File:Emerson Jones ITF J300 College Park Girls Final 2023 (1).png",
+    "url": "https://commons.wikimedia.org/wiki/File:Emerson_Jones_ITF_J300_College_Park_Girls_Final_2023_(1).png"
   },
   {
     "slug": "2026-10-24-d-medvedev-vs-a-bublik-almaty-pronostico-analisi",
@@ -50,8 +56,8 @@
   {
     "slug": "2026-10-24-e-rybakina-vs-d-shnaider-ningbo-pronostico-analisi",
     "reason": "favorito E. Rybakina (misura)",
-    "file": "File:Elena Rybakina X Elise Mertens at the 2026 Wimbledon Championships (1).jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Elena_Rybakina_X_Elise_Mertens_at_the_2026_Wimbledon_Championships_(1).jpg"
+    "file": "File:Elena Rybakina - Roland Garros 2025 - backhand wide.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Elena_Rybakina_-_Roland_Garros_2025_-_backhand_wide.jpg"
   },
   {
     "slug": "2026-10-24-e-s-liang-vs-t-valentova-tokyo-pronostico-analisi",
@@ -62,14 +68,8 @@
   {
     "slug": "2026-10-24-f-cerundolo-vs-t-griekspoor-brussels-pronostico-analisi",
     "reason": "favorito F. Cerundolo (misura)",
-    "file": "File:Francisco Cerundolo - Wimbledon 2022 (14).jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Francisco_Cerundolo_-_Wimbledon_2022_(14).jpg"
-  },
-  {
-    "slug": "2026-10-24-f-cobolli-vs-l-musetti-lyon-france-qualification-pronostico-analisi",
-    "reason": "favorito L. Musetti (misura)",
-    "file": "File:Lorenzo Musetti at 2025 Miami Open.jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Lorenzo_Musetti_at_2025_Miami_Open.jpg"
+    "file": "File:Francisco Cerundolo - Wimbledon 2022 (12).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Francisco_Cerundolo_-_Wimbledon_2022_(12).jpg"
   },
   {
     "slug": "2026-10-24-f-marozsan-vs-s-sorger-vienna-pronostico-analisi",
@@ -78,10 +78,16 @@
     "url": "https://commons.wikimedia.org/wiki/File:Marozsan_2023.png"
   },
   {
+    "slug": "2026-10-24-h-bernet-vs-d-altmaier-basel-pronostico-analisi",
+    "reason": "favorito H. Bernet non mappato; fallback venue Basel",
+    "file": "File:Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Stefanos_Tsitsipas,_Swiss_Indoors_Basel_2024.jpg"
+  },
+  {
     "slug": "2026-10-24-h-dart-vs-s-y-cheuk-guangzhou-pronostico-analisi",
     "reason": "favorito H. Dart (netto)",
-    "file": "File:Harriet Dart & Jay Clarke (50498803117).jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Harriet_Dart_%26_Jay_Clarke_(50498803117).jpg"
+    "file": "File:Harriet Dart at the 2013 US Open 1.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Harriet_Dart_at_the_2013_US_Open_1.jpg"
   },
   {
     "slug": "2026-10-24-h-kinoshita-vs-y-putintseva-tokyo-pronostico-analisi",
@@ -92,8 +98,8 @@
   {
     "slug": "2026-10-24-j-fearnley-vs-p-carreno-busta-vienna-pronostico-analisi",
     "reason": "favorito J. Fearnley (misura)",
-    "file": "File:Jacob Fearnley (2026 US Open) 01.jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:Jacob_Fearnley_(2026_US_Open)_01.jpg"
+    "file": "File:Jacob Fearnley (2026 US Open) 03 (cropped).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Jacob_Fearnley_(2026_US_Open)_03_(cropped).jpg"
   },
   {
     "slug": "2026-10-24-j-garland-vs-m-inglis-guangzhou-pronostico-analisi",
@@ -103,9 +109,9 @@
   },
   {
     "slug": "2026-10-24-k-boulter-vs-s-ishii-tokyo-pronostico-analisi",
-    "reason": "favorito K. Boulter (netto)",
-    "file": "File:2017 US Open Tennis - Qualifying Rounds - Katie Boulter (GBR) def. Danka Kovinic (MNE) (3) (36900447056).jpg",
-    "url": "https://commons.wikimedia.org/wiki/File:2017_US_Open_Tennis_-_Qualifying_Rounds_-_Katie_Boulter_(GBR)_def._Danka_Kovinic_(MNE)_(3)_(36900447056).jpg"
+    "reason": "favorito K. Boulter (misura)",
+    "file": "File:Katie Boulter Return of Serve.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Katie_Boulter_Return_of_Serve.jpg"
   },
   {
     "slug": "2026-10-24-k-day-vs-s-zhang-tokyo-pronostico-analisi",
@@ -114,9 +120,27 @@
     "url": "https://commons.wikimedia.org/wiki/File:Ariake_tennis_park.jpg"
   },
   {
+    "slug": "2026-10-24-l-fruhvirtova-vs-k-kawa-guangzhou-pronostico-analisi",
+    "reason": "favorito K. Kawa (misura)",
+    "file": "File:Kawa WMQ19 (25).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Kawa_WMQ19_(25).jpg"
+  },
+  {
+    "slug": "2026-10-24-l-fruhvirtova-vs-m-yamaguchi-guangzhou-pronostico-analisi",
+    "reason": "favorito L. Fruhvirtova (misura)",
+    "file": "File:Linda Fruhvirtova (Roland Garros 2023) 07.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Linda_Fruhvirtova_(Roland_Garros_2023)_07.jpg"
+  },
+  {
     "slug": "2026-10-24-t-a-tirante-vs-a-mannarino-vienna-pronostico-analisi",
     "reason": "favorito T. A. Tirante (misura)",
     "file": "File:Tirante WMQ23 (53062069430).jpg",
     "url": "https://commons.wikimedia.org/wiki/File:Tirante_WMQ23_(53062069430).jpg"
+  },
+  {
+    "slug": "2026-10-24-xin-wang-vs-t-valentova-tokyo-pronostico-analisi",
+    "reason": "favorito T. Valentova (misura)",
+    "file": "File:Tereza Valentova FO.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Tereza_Valentova_FO.jpg"
   }
 ]

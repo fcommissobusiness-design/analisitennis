@@ -21,7 +21,7 @@ verdetto: "Oggi la può spuntare Molcan: la maggiore continuità mostrata nelle 
 descrizione: "Molcan contro Medjedovic nella semifinale ATP di Vienna 2026: precedenti, forma recente e stili di gioco a confronto sul veloce indoor in questa analisi."
 pubblicato: true
 cover_image: "/covers/2026-10-24-a-molcan-vs-h-medjedovic-vienna-pronostico-analisi.jpg"
-cover_credit: "Roland Garros 2023 - court central - Zverev-Molcan 05.jpg | Remi Mathis | CC BY-SA 4.0"
+cover_credit: "David Ferrer (Spain) against Viktor Troicki (Serbia), 2016 Erste Bank Open.jpg | Marián 2 | CC BY-SA 4.0"
 ---
 
 La semifinale di **Vienna** mette di fronte due storie recenti molto diverse, quella del mancino slovacco Alex Molcan e quella del serbo Hamad Medjedovic. Sul veloce indoor della capitale austriaca il penultimo atto promette un confronto tra ritmo, pazienza e potenza, con un posto in finale come posta in palio. Entrambi hanno meritato sul campo l'accesso alle ultime quattro teste di questo torneo, e il duello si annuncia tutt'altro che scontato.

@@ -82,9 +82,36 @@ VENUE_MAP = {
     'Ningbo': 'Ningbo Tennis Center',
     'Lyon (France) - Qualification': 'Palais des Sports Lyon',
     'Lyon': 'Palais des Sports Lyon',
+    'Basel': 'St. Jakobshalle Basel tennis',
+    'Cali': 'Club Campestre Cali tennis',
+    'Fort Worth (Usa)': 'Fort Worth tennis',
+    'Fort Worth': 'Fort Worth tennis',
 }
 
-BLOCK_WORDS = ('portrait', 'closeup', 'close_up', 'close-up', 'headshot', 'face', 'passport')
+BLOCK_WORDS = (
+    'portrait', 'closeup', 'close_up', 'close-up', 'headshot', 'face', 'passport',
+    # scene allargate dove il giocatore e' un puntino o la foto e' cerimoniale
+    'court central', 'aerial', 'trophy', 'podium', 'ceremony', 'medal',
+    'press conference', 'awards', 'presentation', 'olympic torch',
+    'slazenger balls', 'slazenger ball', 'tennis balls', 'tennis ball',
+    'crowd', 'grandstand', 'empty court', 'draw ceremony',
+    'olympic rings', 'opening ceremony',
+)
+
+# Parole che indicano foto d'AZIONE pura (preferite): un giocatore in gioco.
+ACTION_WORDS = (
+    'forehand', 'backhand', 'serve', 'serving', 'volley', 'return',
+    'smash', 'hitting', 'swing', 'practicing', 'warmup', 'warm-up',
+)
+
+# Parole che indicano foto di SCENA ALLARGATA (giocatore piccolo, campo intero,
+# o posa cerimoniale con sponsor sullo sfondo). Da deprioritizzare.
+WIDE_SCENE_WORDS = (
+    'ceremony', 'medal', 'podium', 'trophy', 'trophy ceremony',
+    'press conference', 'olimpic rings', 'olympic rings',
+    'court central', 'stadium wide', 'from stands', 'aerial',
+    'awards', 'presentation', 'olympic torch',
+)
 
 
 def parse_frontmatter(path: Path):
@@ -186,40 +213,64 @@ def _looks_tennis(title: str) -> bool:
     return any(w in t for w in TENNIS_CONTEXT)
 
 
+def _rank(result):
+    """Punteggio: azione pura > tennis context > scena allargata < 0."""
+    t = result['title'].lower()
+    score = 0
+    if any(w in t for w in ACTION_WORDS):
+        score += 50
+    if _looks_tennis(t):
+        score += 15
+    if any(w in t for w in WIDE_SCENE_WORDS):
+        score -= 25
+    # Preferisci landscape (ratio >= 1.3) ma non estremo
+    ratio = result['w'] / max(result['h'], 1)
+    if 1.3 <= ratio <= 2.4:
+        score += 5
+    # Preferisci risoluzioni medie (schivi i grandi stock con panoramiche)
+    if 900 <= result['w'] <= 3500:
+        score += 3
+    return score
+
+
 def pick_image(name_full: str):
-    """Cerca su Commons. Ritorna una foto solo se:
-       - nel titolo compare BOTH il nome e il cognome (match forte, es. "Fabian Marozsan"),
-         OPPURE il cognome compare insieme a una parola di contesto tennis.
-       Cognomi di 3 lettere (troppo ambigui) -> salta.
+    """Cerca su Commons. Ritorna una foto solo se contesto chiaro:
+       - cognome + nome entrambi nel titolo, oppure
+       - cognome + contesto tennis
+       Ranking: foto d'azione pura > generiche, scena allargata depenalizzata.
     """
     parts = name_full.split()
     last = parts[-1].lower()
     first = parts[0].lower() if len(parts) > 1 else ''
     if len(last) < 4:
-        return None  # cognome troppo generico, rischio falsi positivi
+        return None  # cognome troppo generico
+    pool = []
     for q in [f'"{name_full}" tennis', f'{name_full} tennis', name_full]:
         results = commons_search(q)
-        if results:
-            # match forte: nome + cognome entrambi nel titolo
-            strong = [r for r in results
-                      if last in r['title'].lower() and first and first in r['title'].lower()]
-            if strong:
-                return strong[0]
-            # match debole: cognome + contesto tennis
-            weak = [r for r in results if last in r['title'].lower() and _looks_tennis(r['title'])]
-            if weak:
-                return weak[0]
-            # match "solo cognome" accettato solo quando il titolo e' corto
-            # (es. "Marozsan 2023.png"): niente altri cognomi, niente politici, niente luoghi
-            short = [r for r in results
-                     if last in r['title'].lower()
-                     and len(r['title']) < 36
-                     and not any(w in r['title'].lower() for w in
-                                 ('candidate', 'river', 'park', 'street', 'city',
-                                  'political', 'church', 'bridge', 'mountain'))]
-            if short:
-                return short[0]
-    return None
+        for r in results:
+            t = r['title'].lower()
+            if last not in t:
+                continue
+            # Deve stabilire che e' davvero il giocatore giusto:
+            # nome+cognome insieme, oppure cognome+contesto tennis,
+            # oppure titolo corto tipo "Cognome AnnoTorneo"
+            strong = first and first in t
+            weak = _looks_tennis(t)
+            short_ok = (
+                len(r['title']) < 36
+                and not any(w in t for w in
+                            ('candidate', 'river', 'park', 'street', 'city',
+                             'political', 'church', 'bridge', 'mountain', 'seaplane'))
+            )
+            if not (strong or weak or short_ok):
+                continue
+            pool.append(r)
+        if pool:
+            break
+    if not pool:
+        return None
+    pool.sort(key=_rank, reverse=True)
+    return pool[0]
 
 
 def pick_venue(torneo: str):
