@@ -1,20 +1,67 @@
 ---
+// Form di iscrizione newsletter: posta direttamente al form embed MailerLite.
+// MailerLite account: 2739173 | form "AnalisiTennis Newsletter": 202231818825500373
+// Double opt-in abilitato di default: l'utente riceve email di conferma prima di
+// essere aggiunto al gruppo "Lettori AnalisiTennis". Notifiche iscrizione a
+// fcommisso.business@gmail.com (impostate dalle settings MailerLite).
 const { compatto = false } = Astro.props;
 ---
 <div class={`widget form-email ${compatto ? 'compatto' : ''}`}>
   <h3>Iscriviti al nostro blog</h3>
   <p style="font-size: 0.92rem; color: var(--testo-secondario); margin-bottom: 16px; line-height: 1.5;">
-    Stiamo attivando il sistema di iscrizioni della newsletter. Torna a breve per lasciare la tua email e ricevere le nostre <strong>analisi tennis</strong> ogni volta che pubblichiamo un nuovo articolo.
+    Resta aggiornato su tutte le nostre <strong>analisi tennis</strong>. Ti scriviamo quando pubblichiamo una nuova lettura. Niente spam, un click per disiscriverti.
   </p>
-  <form onsubmit="event.preventDefault(); const n = this.querySelector('.form-note'); if (n) n.hidden = false;">
-    <input type="text" name="nome" placeholder="Il tuo nome" required aria-label="Nome" disabled />
-    <input type="email" name="email" placeholder="La tua email" required aria-label="Email" disabled />
-    <button type="button" disabled>Iscrizioni a breve</button>
-    <p class="form-note" hidden style="font-size: 0.85rem; color: var(--testo-secondario); margin-top: 8px;">
-      Il form non è ancora attivo. Scrivi a <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a> se vuoi essere avvisato per primo quando apriamo le iscrizioni.
+  <form id="newsletter-form" data-mlf="https://assets.mailerlite.com/jsonp/2739173/forms/202231818825500373/subscribe">
+    <input type="text" name="nome" placeholder="Il tuo nome" required aria-label="Nome" autocomplete="given-name" />
+    <input type="email" name="email" placeholder="La tua email" required aria-label="Email" autocomplete="email" />
+    <button type="submit">Iscriviti ora</button>
+    <p class="newsletter-success" hidden role="status" style="color: var(--verde, #2a7f3e); font-size: 0.9rem; margin-top: 10px;">
+      Grazie! Ti abbiamo mandato una email per confermare l'iscrizione. Controlla anche la posta indesiderata.
+    </p>
+    <p class="newsletter-error" hidden role="alert" style="color: #c0392b; font-size: 0.9rem; margin-top: 10px;">
+      Qualcosa non ha funzionato. Riprova fra poco oppure scrivici a <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a>.
     </p>
     <p class="privacy">
       Trattiamo i tuoi dati nel rispetto del GDPR. Puoi disiscriverti con un click in ogni momento. <a href="/privacy">Privacy policy</a>.
     </p>
   </form>
 </div>
+
+<script is:inline>
+  (function() {
+    const form = document.getElementById('newsletter-form');
+    if (!form) return;
+    const url = form.getAttribute('data-mlf');
+    const success = form.querySelector('.newsletter-success');
+    const err = form.querySelector('.newsletter-error');
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      success.hidden = true;
+      err.hidden = true;
+      const nome = form.nome.value.trim();
+      const email = form.email.value.trim();
+      if (!email) return;
+      const body = new URLSearchParams();
+      body.set('fields[name]', nome);
+      body.set('fields[email]', email);
+      body.set('ml-submit', '1');
+      body.set('anticsrf', 'true');
+      const btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Invio in corso...';
+      try {
+        await fetch(url, { method: 'POST', mode: 'no-cors', body });
+        success.hidden = false;
+        form.querySelectorAll('input').forEach(el => { el.disabled = true; el.value = ''; });
+        btn.textContent = 'Iscrizione inviata';
+        try {
+          if (window.gtag) window.gtag('event', 'newsletter_subscribe', { event_category: 'engagement' });
+        } catch(_) {}
+      } catch (ex) {
+        err.hidden = false;
+        btn.disabled = false;
+        btn.textContent = 'Iscriviti ora';
+      }
+    });
+  })();
+</script>
