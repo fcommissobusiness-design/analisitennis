@@ -1,4 +1,15 @@
 User-agent: *
 Allow: /
+Disallow: /404
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
 
 Sitemap: https://analisitennis.it/sitemap.xml
+Host: https://analisitennis.it

@@ -1,0 +1,45 @@
+---
+---
+<div id="cookie-banner" class="cookie-banner" style="display:none;" role="dialog" aria-label="Preferenze cookie">
+  <div class="cookie-banner-inner">
+    <p>
+      Utilizziamo <strong>cookie tecnici</strong> e <strong>Google Analytics</strong>
+      in modalità anonimizzata per capire quali articoli vengono letti e migliorare il sito.
+      Nessun cookie di profilazione pubblicitaria. <a href="/cookie">Cookie policy</a>.
+    </p>
+    <div class="cookie-actions">
+      <button id="cookie-reject" class="btn-ghost">Rifiuta Analytics</button>
+      <button id="cookie-accept" class="btn-primary">Accetta</button>
+    </div>
+  </div>
+</div>
+<script is:inline>
+(function(){
+  var KEY = 'analisitennis_cookie_consent_v1';
+  var banner = document.getElementById('cookie-banner');
+  var accept = document.getElementById('cookie-accept');
+  var reject = document.getElementById('cookie-reject');
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch(e) {}
+  if (!saved) {
+    banner.style.display = 'block';
+  }
+  if (saved === 'denied' && typeof gtag === 'function') {
+    gtag('consent', 'update', { 'analytics_storage': 'denied' });
+  }
+  accept.addEventListener('click', function(){
+    try { localStorage.setItem(KEY, 'granted'); } catch(e) {}
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', { 'analytics_storage': 'granted' });
+    }
+    banner.style.display = 'none';
+  });
+  reject.addEventListener('click', function(){
+    try { localStorage.setItem(KEY, 'denied'); } catch(e) {}
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', { 'analytics_storage': 'denied' });
+    }
+    banner.style.display = 'none';
+  });
+})();
+</script>

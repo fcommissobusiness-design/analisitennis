@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 import '../styles/global.css';
 
 const {
@@ -12,6 +13,49 @@ const {
 } = Astro.props;
 
 const url = canonical || new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = immagine
+  ? (immagine.startsWith('http') ? immagine : new URL(immagine, Astro.site).href)
+  : new URL('/og-default.png', Astro.site).href;
+
+const siteOrg = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsMediaOrganization',
+  '@id': 'https://analisitennis.it/#organization',
+  name: 'AnalisiTennis',
+  alternateName: 'Redazione AnalisiTennis',
+  url: 'https://analisitennis.it',
+  logo: {
+    '@type': 'ImageObject',
+    '@id': 'https://analisitennis.it/#logo',
+    url: 'https://analisitennis.it/logo-schema.png',
+    contentUrl: 'https://analisitennis.it/logo-schema.png',
+    width: 400,
+    height: 400,
+    caption: 'AnalisiTennis'
+  },
+  image: {
+    '@id': 'https://analisitennis.it/#logo'
+  },
+  description: 'Testata editoriale italiana di analisi tennis. Analisi autoriali quotidiane sui match ATP, WTA, Slam e Challenger.',
+  inLanguage: 'it-IT',
+  foundingDate: '2026-10-23'
+};
+
+const siteWeb = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': 'https://analisitennis.it/#website',
+  url: 'https://analisitennis.it',
+  name: 'AnalisiTennis',
+  description: 'Il tennis letto nei numeri',
+  publisher: { '@id': 'https://analisitennis.it/#organization' },
+  inLanguage: 'it-IT',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://analisitennis.it/?q={search_term_string}',
+    'query-input': 'required name=search_term_string'
+  }
+};
 ---
 <!DOCTYPE html>
 <html lang="it">
@@ -19,36 +63,61 @@ const url = canonical || new URL(Astro.url.pathname, Astro.site).href;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="generator" content={Astro.generator} />
+  <meta name="theme-color" content="#0a0e14" />
+  <meta name="color-scheme" content="light" />
   <title>{titolo}</title>
   <meta name="description" content={descrizione} />
   <link rel="canonical" href={url} />
+
+  <!-- Favicon multi-format -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+  <!-- Open Graph -->
   <meta property="og:type" content={tipo} />
   <meta property="og:title" content={titolo} />
   <meta property="og:description" content={descrizione} />
   <meta property="og:url" content={url} />
   <meta property="og:locale" content="it_IT" />
   <meta property="og:site_name" content="AnalisiTennis" />
-  {immagine && <meta property="og:image" content={immagine} />}
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:alt" content="AnalisiTennis" />
 
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={titolo} />
   <meta name="twitter:description" content={descrizione} />
+  <meta name="twitter:image" content={ogImage} />
 
+  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
+  <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="AnalisiTennis" href="/rss.xml" />
 
-  <!-- Google tag (gtag.js) -->
+  <!-- Schema.org structured data globale -->
+  <script type="application/ld+json" set:html={JSON.stringify(siteOrg)} />
+  <script type="application/ld+json" set:html={JSON.stringify(siteWeb)} />
+
+  <!-- Google tag (gtag.js) con Consent Mode default denied -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKPL7S0XZ2"></script>
   <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'wait_for_update': 500
+    });
     gtag('js', new Date());
-    gtag('config', 'G-QKPL7S0XZ2');
+    gtag('config', 'G-QKPL7S0XZ2', { 'anonymize_ip': true });
   </script>
 </head>
 <body>
@@ -57,5 +126,6 @@ const url = canonical || new URL(Astro.url.pathname, Astro.site).href;
     <slot />
   </main>
   <Footer />
+  <CookieBanner />
 </body>
 </html>
