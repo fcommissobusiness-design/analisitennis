@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Valentova: arriva con più partite nelle gambe e un rendimento recente più continuo, in una semifinale comunque aperta che può tranquillamente scivolare al terzo set."
 descrizione: "Semifinale WTA Tokyo tra E. S. Liang e T. Valentova: nessun precedente, percorsi recenti diversi e un posto in finale in palio. L'analisi del match."
 pubblicato: true
+cover_image: "/covers/2026-10-24-e-s-liang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
+cover_credit: "Tereza Valentova FO.jpg | Profesorreen | CC BY-SA 4.0"
 ---
 
 A un passo dalla finale, il torneo WTA di **Tokyo** mette di fronte E. S. Liang e T. Valentova in una semifinale che non ha alcuna storia alle spalle. Le due non si sono mai incontrate in un incontro registrato, e questo trasforma la vigilia in un terreno da esplorare dal primo scambio, senza certezze costruite su confronti passati.

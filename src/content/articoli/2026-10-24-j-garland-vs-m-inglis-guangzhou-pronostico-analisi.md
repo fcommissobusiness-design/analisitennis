@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Garland: l'unico precedente le sorride e la sua produzione recente di finali vinte racconta una fiducia solida. Match equilibrato, ma la sensazione è che possa trovare il varco nei momenti chiave."
 descrizione: "A Guangzhou, Garland e Inglis si giocano un posto in finale sul cemento asiatico. Analisi di precedenti, forma recente e avversari in comune delle due."
 pubblicato: true
+cover_image: "/covers/2026-10-24-j-garland-vs-m-inglis-guangzhou-pronostico-analisi.jpg"
+cover_credit: "Shameen Tennis Ground.jpg | PQ77wd | CC BY-SA 4.0"
 ---
 
 Il torneo di **Guangzhou** entra nella sua fase calda e la semifinale tra Garland e Inglis promette battaglia. Due giocatrici reduci da settimane intense, entrambe capaci di spingersi in fondo ai tornei recenti, si contendono un posto nell'atto conclusivo su un **cemento** che tende a premiare chi comanda lo scambio e sa variare le traiettorie. Sulla carta i margini appaiono minimi, e proprio questo rende il confronto tanto incerto quanto affascinante.

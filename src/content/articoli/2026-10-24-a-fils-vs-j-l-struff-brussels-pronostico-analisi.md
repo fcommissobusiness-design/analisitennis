@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi nettamente Fils: il francese arriva con un rendimento recente decisamente migliore, due titoli pesanti appena conquistati e l'unico precedente dalla sua parte. Serve il suo miglior tennis per neutralizzare il servizio di Struff."
 descrizione: "Semifinale ATP Bruxelles tra Alexandre Fils e Jan-Lennard Struff: precedenti, forma recente e cammino nel torneo per capire come arriva ciascuno dei due."
 pubblicato: true
+cover_image: "/covers/2026-10-24-a-fils-vs-j-l-struff-brussels-pronostico-analisi.jpg"
+cover_credit: "Arthur Fils - 2024 Olympics (forehand).jpg | Kuberzog | CC BY-SA 4.0"
 ---
 
 La semifinale di Bruxelles mette di fronte due profili molto diversi del tennis europeo. Da una parte il francese **Alexandre Fils**, tra i volti piu' in vista della nuova generazione; dall'altra il tedesco Jan-Lennard **Struff**, un veterano capace di alzare vertiginosamente il livello quando trova continuita' al servizio. Si gioca nel tardo pomeriggio del 24 ottobre, con un posto in finale sul piatto e due storie di stagione che arrivano a questo incrocio da direzioni opposte.

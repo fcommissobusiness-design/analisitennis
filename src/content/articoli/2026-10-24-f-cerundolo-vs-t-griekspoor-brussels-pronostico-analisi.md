@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Cerundolo: il bilancio recente più solido, la maggiore freschezza e l'unico precedente dalla sua parte pesano in un confronto che resta comunque equilibrato e potrebbe allungarsi fino al terzo set."
 descrizione: "Analisi della semifinale ATP di Bruxelles tra Francisco Cerundolo e Tallon Griekspoor: forma recente, precedenti diretti e le chiavi tattiche del match."
 pubblicato: true
+cover_image: "/covers/2026-10-24-f-cerundolo-vs-t-griekspoor-brussels-pronostico-analisi.jpg"
+cover_credit: "Francisco Cerundolo - Wimbledon 2022 (14).jpg | jmmuguerza | CC BY-SA 3.0"
 ---
 
 C'è un filo che lega **Francisco Cerundolo** e **Tallon Griekspoor** in questa semifinale di Bruxelles: entrambi ci sono arrivati vincendo, ma lungo strade che raccontano stati di forma piuttosto diversi. L'argentino e l'olandese si ritrovano nel penultimo atto del torneo belga con la stessa posta in palio, davanti a un confronto che sulla carta promette equilibrio e pochi favoriti dichiarati.

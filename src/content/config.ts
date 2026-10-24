@@ -15,7 +15,9 @@ const articoli = defineCollection({
     tag: z.array(z.string()).default([]),
     verdetto: z.string(),
     descrizione: z.string(),
-    pubblicato: z.boolean().default(true)
+    pubblicato: z.boolean().default(true),
+    cover_image: z.string().optional(),
+    cover_credit: z.string().optional()
   })
 });
 

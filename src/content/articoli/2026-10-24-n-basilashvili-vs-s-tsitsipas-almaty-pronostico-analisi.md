@@ -20,6 +20,8 @@ tag:
 verdetto: "Oggi la può spuntare Tsitsipas: l'unico precedente sorride al greco e in questo autunno ha già regolato avversari di primissimo piano, mostrando la solidità per avere la meglio in una semifinale tanto equilibrata."
 descrizione: "Semifinale ATP di Almaty tra Nikoloz Basilashvili e Stefanos Tsitsipas: forma, precedenti e stili a confronto in un match sul veloce indoor tutto da seguire."
 pubblicato: true
+cover_image: "/covers/2026-10-24-n-basilashvili-vs-s-tsitsipas-almaty-pronostico-analisi.jpg"
+cover_credit: "Stefanos Tsitsipas vs Daniel Evans, 2024 Summer Olympics men's simple tennis tournament, 2024-07-29.jpg | DarDarCH | CC0"
 ---
 
 La **semifinale** di **Almaty** mette di fronte due giocatori giunti all'appuntamento con lo stesso identico ruolino recente, dodici vittorie e tre sconfitte nelle ultime quindici uscite. Da una parte il georgiano Nikoloz Basilashvili, dall'altra il greco Stefanos Tsitsipas, entrambi reduci da un quarto di finale superato nettamente nella stessa giornata. In palio c'è un posto nell'ultimo atto del torneo kazako, e il modo in cui i due ci arrivano rende difficile indicare un favorito scontato.

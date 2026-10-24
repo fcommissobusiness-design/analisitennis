@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Rybakina: due successi su due negli scontri diretti del 2026, l'ultimo a Cincinnati pochi mesi fa, e il livello mostrato in estate pesano più della brillante corsa di Shnaider in Cina. Il margine resta dalla parte della kazaka."
 descrizione: "Semifinale WTA a Ningbo tra Elena Rybakina e Diana Shnaider: precedenti stagionali, forma del momento e stili a confronto in una sfida che vale la finale."
 pubblicato: true
+cover_image: "/covers/2026-10-24-e-rybakina-vs-d-shnaider-ningbo-pronostico-analisi.jpg"
+cover_credit: "Elena Rybakina X Elise Mertens at the 2026 Wimbledon Championships (1).jpg | danielcooper850 | CC BY-SA 4.0"
 ---
 
 Il WTA di **Ningbo** regala una semifinale di spessore, con Elena **Rybakina** opposta a Diana **Shnaider** nella giornata di oggi. Le due arrivano all'appuntamento dopo aver superato i rispettivi quarti di finale appena il giorno prima, segno di un torneo condensato in pochi giorni. Il campo indoor veloce della città cinese fa da cornice a un confronto che intreccia potenza, mancinismo e una stagione già ricca di incroci. Due nomi di prima fascia del circuito femminile, entrambi capaci di imporre il proprio tennis con pochi fronzoli, pronti a contendersi un posto nell'ultimo atto.

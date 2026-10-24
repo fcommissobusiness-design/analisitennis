@@ -53,24 +53,28 @@ const schemaArticle = {
 
   <div class="layout-articolo">
     <article class="articolo">
-      <div class="articolo-eyebrow">{d.categoria} - {d.torneo} - {d.superficie}</div>
-      <h1 class="articolo-titolo">{d.titolo}</h1>
-      <p class="articolo-sottotitolo">{d.sottotitolo}</p>
+      {d.cover_image && d.giocatore1 !== 'Redazione' ? (
+        <CoverArticolo
+          cover_image={d.cover_image}
+          titolo={d.titolo}
+          sottotitolo={d.sottotitolo}
+          torneo={d.torneo}
+          categoria={d.categoria}
+          superficie={d.superficie}
+          credit={d.cover_credit}
+        />
+      ) : (
+        <>
+          <div class="articolo-eyebrow">{d.categoria} - {d.torneo} - {d.superficie}</div>
+          <h1 class="articolo-titolo">{d.titolo}</h1>
+          <p class="articolo-sottotitolo">{d.sottotitolo}</p>
+        </>
+      )}
       <div class="articolo-meta">
         <span>{d.autore}</span>
         <span>-</span>
         <span>{new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
       </div>
-
-      {d.giocatore1 && d.giocatore2 && d.giocatore1 !== 'Redazione' && (
-        <CoverArticolo
-          giocatore1={d.giocatore1}
-          giocatore2={d.giocatore2}
-          torneo={d.torneo}
-          superficie={d.superficie}
-          categoria={d.categoria}
-        />
-      )}
 
       <div class="articolo-corpo">
         <Content />

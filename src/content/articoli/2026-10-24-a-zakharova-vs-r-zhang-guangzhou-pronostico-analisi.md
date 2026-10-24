@@ -20,6 +20,8 @@ tag:
 verdetto: "Oggi la può spuntare Zakharova: l'esperienza sul circuito maggiore e la recente finale di Ningbo le danno un margine in una sfida comunque aperta. La freschezza di Zhang può però renderla lunga e combattuta."
 descrizione: "Zakharova contro Zhang nella semifinale WTA di Guangzhou: forma recente, cammino nel torneo e stili a confronto sul cemento cinese, verso la finale."
 pubblicato: true
+cover_image: "/covers/2026-10-24-a-zakharova-vs-r-zhang-guangzhou-pronostico-analisi.jpg"
+cover_credit: "Day 2 - Qualifying TransylvaniaOpen Anna Bondar vs Anastasia Zakharova 6-4,6-2 (54320809888).jpg | Nuță Lucian from Cluj-Napoca, Romania | CC BY-SA 2.0"
 ---
 
 Il tabellone del torneo WTA di **Guangzhou** consegna una semifinale dai contorni curiosi, con Zakharova e Zhang arrivate allo stesso bivio partendo da strade recenti molto diverse. In palio c'è un posto nella finale, su un cemento che tende a premiare chi riesce a imporre ritmo e profondità già dai primi scambi, senza concedere il tempo all'avversaria di prendere le misure.

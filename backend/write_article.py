@@ -6,6 +6,15 @@ import unicodedata
 from pathlib import Path
 from datetime import datetime
 
+try:
+    from attach_covers import (
+        NAME_MAP, VENUE_MAP, COVERS_DIR, detect_winner,
+        pick_image, pick_venue, download, strip_html
+    )
+    HAS_COVER = True
+except Exception:
+    HAS_COVER = False
+
 
 def slugify(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()
@@ -51,6 +60,33 @@ def write(match, analysis, out_dir):
     slug_base = slugify(f"{p1}-vs-{p2}-{torneo}-pronostico-analisi")
     slug = f"{data}-{slug_base}"
 
+    cover_image = None
+    cover_credit = None
+    if HAS_COVER:
+        try:
+            fav, conf = detect_winner(verdetto, p1, p2)
+            pick = None
+            if fav and conf != 'equilibrio':
+                full = NAME_MAP.get(fav)
+                if full:
+                    pick = pick_image(full)
+            if not pick:
+                pick = pick_venue(torneo)
+            if pick:
+                dest = COVERS_DIR / f'{slug}.jpg'
+                try:
+                    download(pick['url'], dest)
+                    cover_image = f'/covers/{slug}.jpg'
+                    cover_credit = (
+                        f"{pick['title'].replace('File:', '')} | "
+                        f"{strip_html(pick.get('author') or 'Autore sconosciuto')} | "
+                        f"{pick.get('license') or 'Wikimedia Commons'}"
+                    )
+                except Exception as e:
+                    print(f'[cover] download fallito per {slug}: {e}')
+        except Exception as e:
+            print(f'[cover] errore per {slug}: {e}')
+
     fm = {
         'titolo': titolo,
         'sottotitolo': sottotitolo,
@@ -66,6 +102,9 @@ def write(match, analysis, out_dir):
         'descrizione': descrizione,
         'pubblicato': True
     }
+    if cover_image:
+        fm['cover_image'] = cover_image
+        fm['cover_credit'] = cover_credit
 
     frontmatter_lines = ['---']
     for k, v in fm.items():

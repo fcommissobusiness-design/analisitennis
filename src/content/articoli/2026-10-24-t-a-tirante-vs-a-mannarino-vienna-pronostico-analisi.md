@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Tirante: arriva con più giorni di riposo e ha già dimostrato di saper battere avversari di primo piano sul veloce, mentre il rientro ravvicinato dai quarti di Almaty rischia di pesare sulle gambe di Mannarino lungo i tre set."
 descrizione: "Tirante e Mannarino si affrontano nella semifinale di Vienna sul cemento indoor. Analisi di forma, precedenti e condizione fisica verso l'ultimo atto."
 pubblicato: true
+cover_image: "/covers/2026-10-24-t-a-tirante-vs-a-mannarino-vienna-pronostico-analisi.jpg"
+cover_credit: "Tirante WMQ23 (53062069430).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 La semifinale di **Vienna** mette di fronte l'argentino Thiago Agustin Tirante e il francese Adrian Mannarino, due giocatori arrivati all'ultimo atto del torneo austriaco percorrendo strade diverse ma con lo stesso obiettivo: un posto in finale sul veloce indoor. È la classica sfida tra chi arriva lanciato da una stagione in crescita e chi, invece, fa dell'esperienza e della continuità la propria arma principale.

@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Machac: il veloce indoor di Vienna valorizza il suo servizio e la spinta da fondo, armi che su questa superficie pesano più dell'unico precedente favorevole al francese. Match comunque stretto, con il terzo set tutt'altro che improbabile."
 descrizione: "Moutet e Machac si affrontano nella semifinale di Vienna sul veloce indoor: forma recente, precedenti e stili di gioco a confronto in una sfida equilibrata."
 pubblicato: true
+cover_image: "/covers/2026-10-24-c-moutet-vs-t-machac-vienna-pronostico-analisi.jpg"
+cover_credit: "Machac WMQ23 (53062093175).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 La semifinale di **Vienna** mette di fronte due giocatori che arrivano all'appuntamento con percorsi diversi ma con un punto in comune: la voglia di trasformare una stagione fin qui discontinua in un acuto sul veloce indoor austriaco. Da una parte il mancino francese Corentin **Moutet**, dall'altra il ceco Tomas **Machac**, in un confronto che promette scambi di ritmo e soluzioni tecniche contrapposte, con due modi quasi opposti di interpretare la partita.

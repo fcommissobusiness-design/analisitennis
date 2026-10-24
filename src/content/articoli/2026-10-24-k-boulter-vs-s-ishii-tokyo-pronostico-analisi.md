@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi nettamente Boulter: il livello degli avversari affrontati nelle ultime settimane pesa, e la corsa fino alla semifinale di Osaka ne conferma il momento sul cemento. Ishii avrà il pubblico, ma qui parte dietro."
 descrizione: "Semifinale WTA di Tokyo tra Katie Boulter e Ishii: forma recente, percorsi diversi, assenza di precedenti e fattore campo in un confronto tutto da seguire."
 pubblicato: true
+cover_image: "/covers/2026-10-24-k-boulter-vs-s-ishii-tokyo-pronostico-analisi.jpg"
+cover_credit: "2017 US Open Tennis - Qualifying Rounds - Katie Boulter (GBR) def. Danka Kovinic (MNE) (3) (36900447056).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
 ---
 
 Il penultimo atto del torneo WTA di **Tokyo** mette di fronte due storie di tennis molto diverse: da una parte **Katie Boulter**, dall'altra **Ishii**, chiamate a contendersi un posto in finale sul cemento della capitale giapponese. È un incrocio del tutto inedito e proprio per questo ricco di interrogativi, perché mancano riferimenti su come i due modi di stare in campo potranno intrecciarsi e sul ritmo che la sfida prenderà fin dai primi game. La semifinale, in programma nelle prime ore del pomeriggio locale, promette di raccontare l'incontro tra due traiettorie che fino a oggi non si erano mai sfiorate.

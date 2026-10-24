@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Molcan: la maggiore continuità nei risultati recenti e il precedente a suo favore gli consegnano un margine sottile ma concreto, in una semifinale che sul cemento rapido di Vienna resta comunque apertissima."
 descrizione: "Molcan e Medjedovic in semifinale ATP a Vienna sul cemento indoor: forma recente, scontri diretti e stili a confronto in una sfida da seguire."
 pubblicato: true
+cover_image: "/covers/2026-10-24-a-molcan-vs-h-medjedovic-vienna-pronostico-analisi.jpg"
+cover_credit: "Roland Garros 2023 - court central - Zverev-Molcan 05.jpg | Remi Mathis | CC BY-SA 4.0"
 ---
 
 La **semifinale di Vienna** mette di fronte due storie arrivate all'appuntamento da direzioni opposte, eppure approdate allo stesso penultimo atto del torneo. Alex Molcan, mancino slovacco, e Hamad Medjedovic, serbo dal gioco potente, si ritrovano su un palcoscenico importante in un confronto che promette equilibrio tattico più di quanto i rispettivi percorsi recenti lascino intuire.

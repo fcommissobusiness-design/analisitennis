@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Putintseva: il rodaggio recente ai livelli più alti del circuito e le finali raggiunte nelle ultime settimane pesano in una sfida senza precedenti, dove l'esperienza nei momenti caldi può fare la differenza."
 descrizione: "Semifinale WTA a Tokyo tra H. Kinoshita e Y. Putintseva: nessun precedente, forma recente a confronto e un avversario in comune in una sfida tutta da seguire."
 pubblicato: true
+cover_image: "/covers/2026-10-24-h-kinoshita-vs-y-putintseva-tokyo-pronostico-analisi.jpg"
+cover_credit: "2014 US Open (Tennis) - Qualifying Rounds - Yulia Putintseva (15011761891).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
 ---
 
 Il tabellone WTA di **Tokyo** è arrivato al penultimo atto e la semifinale in programma oggi, 24 ottobre, mette di fronte H. Kinoshita e Y. Putintseva in un confronto dai contorni ancora tutti da scrivere. Due stagioni diverse per percorsi e palcoscenici si incrociano per la prima volta sul cemento della capitale giapponese, con in palio l'accesso all'ultimo atto del torneo.

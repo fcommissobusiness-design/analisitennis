@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Kawa: ha vinto l'ultimo confronto diretto a Warsaw e arriva dai successi di Ningbo contro avversarie di valore. Match probabilmente lungo, ma la polacca parte con il momento dalla sua parte."
 descrizione: "Fruhvirtova contro Kawa in semifinale a Guangzhou: precedenti in parità, forma recente altalenante e un match che promette equilibrio."
 pubblicato: true
+cover_image: "/covers/2026-10-24-l-fruhvirtova-vs-k-kawa-guangzhou-pronostico-analisi.jpg"
+cover_credit: "Kawa WMQ19 (25).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 Il tabellone di **Guangzhou** regala una semifinale dal sapore particolare, perché Linda Fruhvirtova e Katarzyna Kawa si conoscono bene e si ritrovano a contendersi un posto in finale. La ceca e la polacca arrivano all'appuntamento con percorsi diversi ma con un tratto comune: entrambe hanno dovuto faticare per guadagnarsi il penultimo atto del torneo cinese.

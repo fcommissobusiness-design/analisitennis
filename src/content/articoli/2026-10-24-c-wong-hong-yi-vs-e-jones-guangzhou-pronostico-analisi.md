@@ -20,6 +20,8 @@ tag:
 verdetto: "Oggi la può spuntare E. Jones: il recente rodaggio ad alto livello, tra la corsa di Jingshan e le fasi calde di Osaka, le offre una marcia in più in un confronto che resta comunque equilibrato e aperto a ogni scenario."
 descrizione: "Semifinale WTA a Guangzhou tra C. Wong Hong Yi ed E. Jones: nessun precedente, forma recente e avversari in comune per un duello inedito sul cemento."
 pubblicato: true
+cover_image: "/covers/2026-10-24-c-wong-hong-yi-vs-e-jones-guangzhou-pronostico-analisi.jpg"
+cover_credit: "Emerson Jones Eddie Herr G14s Final 2022 (1).png | ZooTennis.com | CC BY 4.0"
 ---
 
 Il tabellone di **Guangzhou** regala una **semifinale** dal sapore di debutto: C. Wong Hong Yi ed E. Jones si trovano di fronte per la prima volta, senza alcun confronto diretto alle spalle a fare da bussola. Due giocatrici che hanno attraversato un autunno fittissimo di impegni e che arrivano all'appuntamento cinese con sensazioni e percorsi differenti, pronte a incrociarsi su un campo veloce che storicamente premia chi sa dettare il ritmo da fondo campo.

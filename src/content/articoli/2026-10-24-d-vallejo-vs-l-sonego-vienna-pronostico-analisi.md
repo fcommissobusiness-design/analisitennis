@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la può spuntare Daniel Vallejo: il momento di forma e la finale appena conquistata a Tokyo pesano sulla bilancia più del periodo altalenante di Sonego, in un confronto che resta però da pochi punti sul veloce indoor."
 descrizione: "Semifinale ATP Vienna tra Daniel Vallejo e Lorenzo Sonego: percorsi diversi, nessun precedente diretto e un confronto inedito tutto da seguire sul veloce indoor."
 pubblicato: true
+cover_image: "/covers/2026-10-24-d-vallejo-vs-l-sonego-vienna-pronostico-analisi.jpg"
+cover_credit: "Daniel Vallejo - Martín Vergara (Panamericanos 2023).jpg | JABO | CC BY-SA 4.0"
 ---
 
 Vienna si prepara a una semifinale dal sapore particolare, con due giocatori che non si sono mai affrontati prima e che arrivano all'appuntamento percorrendo strade molto diverse. Da una parte **Daniel Vallejo**, dall'altra **Lorenzo Sonego**: un confronto completamente inedito che mette di fronte un talento in ascesa e un giocatore con un lungo bagaglio di esperienza nel circuito maggiore. È il tipo di sfida in cui mancano i riferimenti abituali e tutto va costruito sulle rispettive tendenze recenti.

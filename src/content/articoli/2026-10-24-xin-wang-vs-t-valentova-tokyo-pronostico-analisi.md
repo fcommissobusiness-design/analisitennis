@@ -19,6 +19,8 @@ tag:
 verdetto: "Partita equilibrata tra due giocatrici in forma e senza precedenti: lo scenario più plausibile è un 2-1, con buone chance che Xin. Wang riesca a sfruttare la maggiore freschezza e portare a casa almeno un set in volata."
 descrizione: "WTA Tokyo, semifinale tra Xin. Wang e T. Valentova: nessun precedente, forme recenti diverse e un autunno fitto di impegni. Analisi completa del match."
 pubblicato: true
+cover_image: "/covers/2026-10-24-xin-wang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
+cover_credit: "Ariake tennis park.jpg | Arne Müseler | CC BY-SA 3.0 de"
 ---
 
 La semifinale WTA di **Tokyo** mette di fronte Xin. Wang e T. Valentova in una sfida che parte senza riferimenti diretti: le due giocatrici non si sono mai incontrate in un match ufficiale registrato in archivio. È una di quelle partite che obbligano a leggere con attenzione il percorso recente di ciascuna, perché manca la bussola degli scontri passati a orientare il pronostico.

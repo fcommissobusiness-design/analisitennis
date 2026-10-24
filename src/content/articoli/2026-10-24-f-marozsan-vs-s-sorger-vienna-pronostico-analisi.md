@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi nettamente Marozsan. L'unico precedente sorride all'ungherese, che arriva dall'abitudine a misurarsi con avversari del circuito maggiore: sul veloce indoor è il più accreditato per prendersi il posto in finale."
 descrizione: "Marozsan e Sorger si giocano l'accesso alla finale di Vienna sul cemento indoor: precedenti, forma recente e stili di gioco di una semifinale dai due volti."
 pubblicato: true
+cover_image: "/covers/2026-10-24-f-marozsan-vs-s-sorger-vienna-pronostico-analisi.jpg"
+cover_credit: "Marozsan 2023.png | LHC88 | CC BY 4.0"
 ---
 
 La **semifinale** del torneo di Vienna mette di fronte Fabian Marozsan e Sandro Sorger, due giocatori arrivati all'appuntamento percorrendo strade molto diverse. Sul veloce al coperto della capitale austriaca si assegna un posto in finale, e il confronto offre spunti interessanti sia sul piano della storia recente sia su quello delle traiettorie stagionali. Prima di entrare in campo conviene mettere in fila ciò che i numeri raccontano davvero, senza lasciarsi guidare dalle prime impressioni.
