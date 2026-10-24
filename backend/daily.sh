@@ -27,13 +27,16 @@ log_section() { echo "" | tee -a "$LOG"; echo "=== $* ===" | tee -a "$LOG"; }
 log_section "AVVIO pipeline AnalisiTennis - $(date)"
 
 # Aspetta che la rete sia disponibile. Max 6 ore (360 iterazioni da 60s).
-# Pingiamo API Tennis (il nostro endpoint principale): se risponde, siamo online.
+# Check robusto: curl su endpoint sempre disponibili (Cloudflare DNS 1.1.1.1 + Google).
+# NON usiamo API Tennis base perche' ritorna 403 senza API key.
+# NON usiamo ping perche' launchd sandbox puo' bloccarlo.
 wait_for_network() {
     local max_tries=360
     local try=0
     while (( try < max_tries )); do
-        if curl -sfI --max-time 5 "https://api.api-tennis.com/" > /dev/null 2>&1 \
-           || ping -c 1 -W 2000 1.1.1.1 > /dev/null 2>&1; then
+        # Due endpoint pubblici che rispondono sempre 200 se c'e' rete + DNS
+        if curl -s --max-time 5 -o /dev/null -w "%{http_code}" "https://1.1.1.1/" 2>/dev/null | grep -q "^[23]" \
+           || curl -s --max-time 5 -o /dev/null -w "%{http_code}" "https://www.google.com/" 2>/dev/null | grep -q "^[23]"; then
             if (( try > 0 )); then
                 log "Rete tornata disponibile dopo ${try} minuti di attesa"
             else
