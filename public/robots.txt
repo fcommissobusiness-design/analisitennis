@@ -12,4 +12,5 @@ User-agent: Googlebot-Image
 Allow: /
 
 Sitemap: https://analisitennis.it/sitemap.xml
+Sitemap: https://analisitennis.it/sitemap-news.xml
 Host: https://analisitennis.it

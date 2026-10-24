@@ -1,0 +1,96 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { collectPlayers } from '../../lib/hubs.js';
+
+const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+const giocatori = collectPlayers(articoli);
+
+const site = 'https://analisitennis.it';
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  itemListElement: giocatori.slice(0, 100).map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${site}/giocatori/${p.slug}`,
+    name: p.display,
+  })),
+  numberOfItems: giocatori.length,
+};
+---
+<Base
+  titolo="Giocatori di tennis - Analisi, forma e precedenti - AnalisiTennis"
+  descrizione="Tutti i giocatori di tennis analizzati dalla Redazione AnalisiTennis: pagina dedicata a ciascuno con analisi recenti, forma e scontri diretti."
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[
+      { nome: 'Home', url: '/' },
+      { nome: 'Giocatori' }
+    ]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <h1>Giocatori di <span class="verde">tennis</span></h1>
+      <p>Hub dedicato a ciascun giocatore analizzato dalla Redazione. Ogni scheda raccoglie le nostre letture piu' recenti, i confronti diretti e il filo delle ultime partite.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {giocatori.length === 0 ? (
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun giocatore ancora indicizzato.</p>
+        ) : (
+          <ul class="hub-grid">
+            {giocatori.map(p => (
+              <li class="hub-card">
+                <a href={`/giocatori/${p.slug}`}>
+                  <div class="hub-nome">{p.display}</div>
+                  <div class="hub-meta">{p.articoli.length} {p.articoli.length === 1 ? 'analisi' : 'analisi'}</div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+</Base>
+
+<style>
+  .hub-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+  }
+  .hub-card a {
+    display: block;
+    padding: 16px 18px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .hub-card a:hover {
+    border-color: var(--verde, #2a7f3e);
+    transform: translateY(-2px);
+  }
+  .hub-nome {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+  .hub-meta {
+    font-size: 0.82rem;
+    color: var(--testo-secondario, #6b7280);
+  }
+</style>

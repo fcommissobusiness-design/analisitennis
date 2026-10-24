@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { collectPlayers, playerBio, tournamentDisplay } from '../../lib/hubs.js';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const players = collectPlayers(articoli);
+  return players.map(p => ({ params: { slug: p.slug }, props: { player: p } }));
+}
+
+const { player } = Astro.props;
+const site = 'https://analisitennis.it';
+const bio = playerBio(player);
+const tornei = [...new Set(player.articoli.map(a => tournamentDisplay(a.data.torneo)))];
+const latest = player.articoli[0];
+
+// Scontri diretti principali: trova compagni di match piu' frequenti
+const h2hMap = new Map();
+for (const a of player.articoli) {
+  const avv = [a.data.giocatore1, a.data.giocatore2].find(n => n !== player.raw);
+  if (!avv) continue;
+  h2hMap.set(avv, (h2hMap.get(avv) || 0) + 1);
+}
+const h2h = [...h2hMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${site}/giocatori/${player.slug}#person`,
+  name: player.display,
+  jobTitle: 'Tennista professionista',
+  sport: 'Tennis',
+};
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Analisi tennis su ${player.display}`,
+  itemListElement: player.articoli.slice(0, 50).map((a, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${site}/articoli/${a.slug}`,
+    name: a.data.titolo,
+  })),
+  numberOfItems: player.articoli.length,
+};
+---
+<Base
+  titolo={`${player.display} - Analisi, pronostici e scontri diretti - AnalisiTennis`}
+  descrizione={`Analisi tennis su ${player.display}: letture dei match recenti, scontri diretti principali e forma del momento firmate dalla Redazione AnalisiTennis.`}
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[
+      { nome: 'Home', url: '/' },
+      { nome: 'Giocatori', url: '/giocatori' },
+      { nome: player.display }
+    ]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Giocatore {latest?.data.categoria}</div>
+      <h1>{player.display}</h1>
+      <p>{bio}</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <h2 class="sezione-eyebrow">Analisi recenti su {player.display}</h2>
+        <div class="griglia-articoli" style="padding: 0;">
+          {player.articoli.map(art => (
+            <article class="card-articolo">
+              <div class="eyebrow">{art.data.torneo} - {art.data.superficie}</div>
+              <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
+              <p class="sottotitolo">{art.data.sottotitolo}</p>
+              <div class="data">
+                {new Date(art.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </div>
+            </article>
+          ))}
+        </div>
+
+        {h2h.length > 0 && (
+          <section class="h2h-box">
+            <h2 class="sezione-eyebrow">Scontri diretti analizzati</h2>
+            <ul>
+              {h2h.map(([avv, n]) => (
+                <li><span class="h2h-nome">{avv}</span><span class="h2h-count">{n} analisi</span></li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+</Base>
+
+<style>
+  .h2h-box {
+    margin-top: 48px;
+    padding: 24px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 8px;
+  }
+  .h2h-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 8px;
+  }
+  .h2h-box li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: var(--sfondo, #f9f9f7);
+    border-radius: 6px;
+    font-size: 0.92rem;
+  }
+  .h2h-nome { font-weight: 600; }
+  .h2h-count {
+    color: var(--testo-secondario, #6b7280);
+    font-size: 0.84rem;
+  }
+</style>

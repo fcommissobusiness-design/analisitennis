@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { collectTournaments, tournamentBio } from '../../lib/hubs.js';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const tornei = collectTournaments(articoli);
+  return tornei.map(t => ({ params: { slug: t.slug }, props: { tournament: t } }));
+}
+
+const { tournament } = Astro.props;
+const site = 'https://analisitennis.it';
+const bio = tournamentBio(tournament);
+const latest = tournament.articoli[0];
+
+const sportsEvent = {
+  '@context': 'https://schema.org',
+  '@type': 'SportsEvent',
+  '@id': `${site}/tornei/${tournament.slug}#event`,
+  name: `${tournament.display} ${tournament.anno}`,
+  sport: 'Tennis',
+  location: { '@type': 'Place', name: tournament.display },
+  startDate: `${tournament.anno}`,
+};
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Analisi tennis ${tournament.display} ${tournament.anno}`,
+  itemListElement: tournament.articoli.slice(0, 100).map((a, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${site}/articoli/${a.slug}`,
+    name: a.data.titolo,
+  })),
+  numberOfItems: tournament.articoli.length,
+};
+---
+<Base
+  titolo={`${tournament.display} ${tournament.anno} - Analisi, tabellone e pronostici - AnalisiTennis`}
+  descrizione={`Tutte le analisi del torneo di ${tournament.display} ${tournament.anno} firmate dalla Redazione AnalisiTennis: match per match, con pronostico sportivo editoriale.`}
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[
+      { nome: 'Home', url: '/' },
+      { nome: 'Tornei', url: '/tornei' },
+      { nome: `${tournament.display} ${tournament.anno}` }
+    ]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">{latest?.data.categoria} - {latest?.data.superficie}</div>
+      <h1>{tournament.display} {tournament.anno}</h1>
+      <p>{bio}</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <h2 class="sezione-eyebrow">Analisi del torneo</h2>
+        <div class="griglia-articoli" style="padding: 0;">
+          {tournament.articoli.map(art => (
+            <article class="card-articolo">
+              <div class="eyebrow">{art.data.giocatore1} vs {art.data.giocatore2}</div>
+              <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
+              <p class="sottotitolo">{art.data.sottotitolo}</p>
+              <div class="data">
+                {new Date(art.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(sportsEvent)} />
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+</Base>

@@ -1,0 +1,66 @@
+---
+// Breadcrumbs visibili + schema.org BreadcrumbList.
+// Props: items = array di { nome, url? } (ultimo item senza url, e' la pagina corrente).
+const { items = [] } = Astro.props;
+
+const site = 'https://analisitennis.it';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, idx) => ({
+    '@type': 'ListItem',
+    position: idx + 1,
+    name: item.nome,
+    ...(item.url ? { item: item.url.startsWith('http') ? item.url : `${site}${item.url}` } : {})
+  }))
+};
+---
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {items.map((item, idx) => (
+      <li>
+        {item.url && idx < items.length - 1 ? (
+          <a href={item.url}>{item.nome}</a>
+        ) : (
+          <span aria-current={idx === items.length - 1 ? 'page' : undefined}>{item.nome}</span>
+        )}
+        {idx < items.length - 1 && <span class="sep" aria-hidden="true">›</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<style>
+  .breadcrumbs ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 0.84rem;
+    color: var(--testo-secondario, #6b7280);
+  }
+  .breadcrumbs li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .breadcrumbs a {
+    color: var(--testo-secondario, #6b7280);
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+  }
+  .breadcrumbs a:hover {
+    color: var(--verde, #2a7f3e);
+    border-bottom-color: currentColor;
+  }
+  .breadcrumbs [aria-current="page"] {
+    color: var(--testo, #1a1a1a);
+    font-weight: 600;
+  }
+  .breadcrumbs .sep {
+    color: var(--linea, #d4d4d4);
+  }
+</style>
