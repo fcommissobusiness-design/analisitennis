@@ -13,8 +13,7 @@
         <string>cd /Users/filippocommisso/analisitennis/backend &amp;&amp; ./daily.sh</string>
     </array>
 
-    <!-- Esecuzione quotidiana alle 07:00. Se il Mac e' spento/dormiente a quell'ora,
-         launchd fa il catch-up automatico al prossimo risveglio. -->
+    <!-- Esecuzione quotidiana alle 07:00. -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
@@ -23,16 +22,19 @@
         <integer>0</integer>
     </dict>
 
-    <!-- Non eseguire al boot (solo alle 07:00 schedulate) -->
+    <!-- Parti anche al login/boot: se il Mac era spento alle 07:00, allo start
+         della sessione utente il daily.sh gira. La sentinel .ran-YYYY-MM-DD
+         dentro daily.sh evita duplicati nella stessa giornata. -->
     <key>RunAtLoad</key>
-    <false/>
+    <true/>
 
-    <!-- Se lo script esce con codice != 0 (es. 75 EX_TEMPFAIL per rete assente),
-         launchd lo riaccoda. Combinato con ThrottleInterval, il retry e' ogni 10 min. -->
+    <!-- Rilancia SOLO su exit != 0 (es. 75 EX_TEMPFAIL per rete assente).
+         SuccessfulExit=false significa "respawn in condizione inversa al successo",
+         ovvero solo quando lo script FALLISCE. -->
     <key>KeepAlive</key>
     <dict>
         <key>SuccessfulExit</key>
-        <true/>
+        <false/>
     </dict>
 
     <!-- Intervallo minimo tra due esecuzioni successive dopo un fallimento: 10 min -->

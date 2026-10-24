@@ -73,7 +73,15 @@ const schemaArticle = {
       <div class="articolo-meta">
         <span>{d.autore}</span>
         <span>-</span>
-        <span>{new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+        <span>
+          {d.generato_il
+            ? new Date(d.generato_il).toLocaleString('it-IT', {
+                day: 'numeric', month: 'long', year: 'numeric',
+                hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Rome'
+              })
+            : new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+          }
+        </span>
       </div>
 
       <div class="articolo-corpo">

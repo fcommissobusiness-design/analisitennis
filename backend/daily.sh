@@ -20,11 +20,20 @@ OGGI=$(date +%F)
 LOG_DIR="$HOME/analisitennis/backend/logs"
 mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/daily_${OGGI}.log"
+SENTINEL="$LOG_DIR/.ran-${OGGI}"
 
 log() { echo "[$(date '+%H:%M:%S')] $*" | tee -a "$LOG"; }
 log_section() { echo "" | tee -a "$LOG"; echo "=== $* ===" | tee -a "$LOG"; }
 
 log_section "AVVIO pipeline AnalisiTennis - $(date)"
+
+# Idempotenza: se oggi la pipeline ha gia' completato, esci subito.
+# Questo evita duplicati quando il job parte al login (RunAtLoad) dopo
+# essere gia' partito al mattino via StartCalendarInterval.
+if [ -f "$SENTINEL" ]; then
+    log "Pipeline gia' completata oggi ($OGGI). Esco con 0."
+    exit 0
+fi
 
 # Aspetta che la rete sia disponibile. Max 6 ore (360 iterazioni da 60s).
 # Check robusto: curl su endpoint sempre disponibili (Cloudflare DNS 1.1.1.1 + Google).
@@ -104,3 +113,7 @@ Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>" 2>&1 | tee -a "$LOG"
 fi
 
 log_section "COMPLETATA pipeline - $(date)"
+
+# Sentinel: segna che oggi la pipeline e' completata. Impedisce doppie
+# esecuzioni se launchd rilancia il job (RunAtLoad al login + 07:00 schedulato).
+touch "$SENTINEL"

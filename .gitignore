@@ -1,29 +1,27 @@
+
 # Build
-dist/
+# Editor
+# Env
+# NON ignorare package-lock.json: serve per build riproducibili su CI
+# Node
+# OS
+*.swo
+*.swp
+.DS_Store
 .astro/
 .cache/
-
-# Node
+.env
+.idea/
+.vscode/
+Thumbs.db
+backend/.env
+backend/__pycache__/
+backend/analyses/
+backend/fixtures_*.json
+backend/logs/
+backend/selected_*.json
+dist/
 node_modules/
-# NON ignorare package-lock.json: serve per build riproducibili su CI
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Env
-.env
-backend/.env
-backend/fixtures_*.json
-backend/selected_*.json
-backend/analyses/
-backend/logs/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo

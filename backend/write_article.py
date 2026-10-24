@@ -106,6 +106,16 @@ def write(match, analysis, out_dir):
         fm['cover_image'] = cover_image
         fm['cover_credit'] = cover_credit
 
+    # Timestamp fine analisi (Europe/Rome).
+    # Mostrato nell'articolo come "24 ottobre 2026, 07:12".
+    # Rappresenta l'istante in cui l'analisi e' stata completata e confezionata.
+    try:
+        from zoneinfo import ZoneInfo
+        ora_it = datetime.now(ZoneInfo('Europe/Rome'))
+    except Exception:
+        ora_it = datetime.now()
+    fm['generato_il'] = ora_it.strftime('%Y-%m-%dT%H:%M')
+
     frontmatter_lines = ['---']
     for k, v in fm.items():
         if isinstance(v, list):
