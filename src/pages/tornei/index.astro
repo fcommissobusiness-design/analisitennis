@@ -3,10 +3,11 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { collectTournaments } from '../../lib/hubs.js';
 
-const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
-const tornei = collectTournaments(articoli);
+const profili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+const tornei = profili
+  .map(p => p.data)
+  .sort((a, b) => b.anno - a.anno || a.nome.localeCompare(b.nome, 'it'));
 
 const site = 'https://analisitennis.it';
 const itemList = {
@@ -15,15 +16,15 @@ const itemList = {
   itemListElement: tornei.slice(0, 100).map((t, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `${site}/tornei/${t.slug}`,
-    name: `${t.display} ${t.anno}`,
+    url: `${site}/tornei/${t.slug_profilo}`,
+    name: `${t.nome} ${t.anno}`,
   })),
   numberOfItems: tornei.length,
 };
 ---
 <Base
-  titolo="Tornei di tennis - Analisi tabelloni e pronostici - AnalisiTennis"
-  descrizione="Hub dei tornei di tennis ATP, WTA, Slam e Challenger analizzati dalla Redazione AnalisiTennis: una pagina per ogni edizione con le nostre letture."
+  titolo="Tornei di tennis - Storia, curiosita' e albo d'oro - AnalisiTennis"
+  descrizione="Profili dei tornei di tennis ATP, WTA, Slam e Challenger: storia, curiosita', albo d'oro recente e caratteristiche del campo. Letture della Redazione AnalisiTennis."
 >
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[
@@ -34,21 +35,23 @@ const itemList = {
   <section class="homepage-hero" style="padding-top: 10px;">
     <div class="contenitore">
       <h1>Tornei di <span class="verde">tennis</span></h1>
-      <p>Una pagina per ciascuna edizione del torneo analizzata dalla Redazione, con tabellone, forma dei protagonisti e le nostre letture match per match.</p>
+      <p>Profili dei tornei analizzati dalla redazione: storia, curiosita', campo e albo d'oro recente. Ogni nuovo torneo trattato riceve il suo profilo.</p>
     </div>
   </section>
   <div class="contenitore">
     <div class="layout-home">
       <div>
         {tornei.length === 0 ? (
-          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun torneo ancora indicizzato.</p>
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun profilo torneo pubblicato al momento. Li aggiungeremo mano a mano.</p>
         ) : (
           <ul class="hub-grid">
             {tornei.map(t => (
               <li class="hub-card">
-                <a href={`/tornei/${t.slug}`}>
-                  <div class="hub-nome">{t.display}</div>
-                  <div class="hub-meta">{t.anno} - {t.articoli.length} {t.articoli.length === 1 ? 'analisi' : 'analisi'}</div>
+                <a href={`/tornei/${t.slug_profilo}`}>
+                  <div class="hub-nome">{t.nome} {t.anno}</div>
+                  <div class="hub-meta">
+                    {t.citta}{t.superficie ? ` · ${t.superficie}` : ''}
+                  </div>
                 </a>
               </li>
             ))}
@@ -63,9 +66,7 @@ const itemList = {
 
 <style>
   .hub-grid {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 60px;
+    list-style: none; padding: 0; margin: 0 0 60px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 12px;
@@ -81,7 +82,7 @@ const itemList = {
     transition: border-color 0.15s, transform 0.15s;
   }
   .hub-card a:hover {
-    border-color: var(--verde, #2a7f3e);
+    border-color: var(--verde, #39d453);
     transform: translateY(-2px);
   }
   .hub-nome { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }

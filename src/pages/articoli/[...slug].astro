@@ -16,12 +16,25 @@ const { articolo } = Astro.props;
 const { Content } = await articolo.render();
 const d = articolo.data;
 
+// Set di slug con profili esistenti: cosi' il box "Approfondisci su"
+// mostra solo link che risolvono davvero, niente 404.
+const giocatoriProfili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+const torneiProfili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+const playerSlugs = new Set(giocatoriProfili.map(p => p.data.slug_profilo));
+const tournamentSlugs = new Set(torneiProfili.map(t => t.data.slug_profilo));
+
 const site = 'https://analisitennis.it';
 const anno = new Date(d.data).getFullYear();
 const tSlug = tournamentSlug(d.torneo, anno);
 const tDisplay = tournamentDisplay(d.torneo);
 const g1Display = displayPlayerName(d.giocatore1);
 const g2Display = displayPlayerName(d.giocatore2);
+const g1Slug = playerSlug(d.giocatore1);
+const g2Slug = playerSlug(d.giocatore2);
+const hasG1 = playerSlugs.has(g1Slug);
+const hasG2 = playerSlugs.has(g2Slug);
+const hasTourn = tournamentSlugs.has(tSlug);
+const anyHub = hasG1 || hasG2 || hasTourn;
 const dataLocale = new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
 const schema = {
@@ -147,13 +160,13 @@ const faq = {
 
       <ShareButtons url={Astro.url.href} titolo={d.titolo} />
 
-      {d.giocatore1 !== 'Redazione' && (
+      {d.giocatore1 !== 'Redazione' && anyHub && (
         <nav class="related-hubs" aria-label="Approfondimenti correlati">
           <div class="rh-label">Approfondisci su</div>
           <ul>
-            <li><a href={`/giocatori/${playerSlug(d.giocatore1)}`}>{g1Display}</a></li>
-            <li><a href={`/giocatori/${playerSlug(d.giocatore2)}`}>{g2Display}</a></li>
-            <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>
+            {hasG1 && <li><a href={`/giocatori/${g1Slug}`}>{g1Display}</a></li>}
+            {hasG2 && <li><a href={`/giocatori/${g2Slug}`}>{g2Display}</a></li>}
+            {hasTourn && <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>}
           </ul>
         </nav>
       )}

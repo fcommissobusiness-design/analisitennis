@@ -1,8 +1,10 @@
 import { getCollection } from 'astro:content';
-import { collectPlayers, collectTournaments } from '../lib/hubs.js';
 
 export async function GET(context) {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+  const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
   const today = new Date().toISOString().split('T')[0];
 
@@ -13,9 +15,6 @@ export async function GET(context) {
     '/giocatori', '/tornei',
   ];
 
-  const giocatori = collectPlayers(articoli);
-  const tornei = collectTournaments(articoli);
-
   const urls = [
     ...statiche.map(p => ({
       loc: `${site}${p}`,
@@ -23,15 +22,15 @@ export async function GET(context) {
       priority: p === '' ? '1.0' : '0.6',
       lastmod: today,
     })),
-    ...giocatori.map(p => ({
-      loc: `${site}/giocatori/${p.slug}`,
-      lastmod: new Date(p.articoli[0].data.data).toISOString().split('T')[0],
+    ...profiliGiocatori.map(p => ({
+      loc: `${site}/giocatori/${p.data.slug_profilo}`,
+      lastmod: (p.data.generato_il?.slice(0, 10)) || today,
       changefreq: 'weekly',
       priority: '0.7',
     })),
-    ...tornei.map(t => ({
-      loc: `${site}/tornei/${t.slug}`,
-      lastmod: new Date(t.articoli[0].data.data).toISOString().split('T')[0],
+    ...profiliTornei.map(t => ({
+      loc: `${site}/tornei/${t.data.slug_profilo}`,
+      lastmod: (t.data.generato_il?.slice(0, 10)) || today,
       changefreq: 'weekly',
       priority: '0.7',
     })),

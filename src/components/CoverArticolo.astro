@@ -1,6 +1,6 @@
 ---
 // Cover articolo: foto reale + titolo in sovraimpressione.
-// Priorita' assoluta: il titolo NON deve mai essere tagliato.
+// Priorita' assoluta: il titolo NON deve mai essere tagliato, su nessuna larghezza.
 // Il contenitore cresce in altezza con il titolo; l'immagine resta object-fit cover.
 const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit } = Astro.props;
 
@@ -29,54 +29,56 @@ const superficeLabel = {
 <style>
   .cover-articolo { margin: 0 0 28px; padding: 0; }
 
-  /* Nessun aspect-ratio fisso: il contenitore cresce con il titolo.
-     Altezza minima garantisce "respiro" visivo; max-height evita che foto
-     molto verticali rendano la cover ingestibile. */
+  /* Flex column: cover-top ancorato in alto, cover-text in basso,
+     lo spazio in mezzo cresce quanto serve all'immagine. Niente aspect-ratio
+     fisso, niente grid con righe fantasma. */
   .cover-frame {
     position: relative;
     width: 100%;
-    min-height: 320px;
+    min-height: 300px;
     overflow: hidden;
     border-radius: 10px;
     background: #0b0f14;
     isolation: isolate;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
   }
 
-  /* Immagine assoluta dietro: object-fit cover + object-position center.
-     Non taglia il titolo perche' il titolo e' in un'area dedicata sotto. */
+  /* Immagine assoluta dietro: object-fit cover. Position center 42% privilegia
+     il viso/corpo del giocatore invece del bordo alto che spesso ha solo sfondo. */
   .cover-frame > img {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 32%;
+    object-position: center 42%;
     display: block;
     z-index: 0;
   }
 
-  /* Gradient che scurisce la parte bassa dove sta il titolo, in modo
-     che il bianco sia sempre leggibile indipendentemente dalla foto. */
+  /* Gradient che scurisce la fascia bassa dove sta il titolo, in modo
+     che il bianco sia sempre leggibile. Partiamo da piu' su del 50% su mobile. */
   .cover-overlay {
     position: absolute;
     inset: 0;
     background:
       linear-gradient(180deg,
-        rgba(10,14,20,0.35) 0%,
-        rgba(10,14,20,0.0) 20%,
-        rgba(10,14,20,0.1) 45%,
-        rgba(10,14,20,0.75) 72%,
+        rgba(10,14,20,0.4) 0%,
+        rgba(10,14,20,0.1) 18%,
+        rgba(10,14,20,0.15) 42%,
+        rgba(10,14,20,0.78) 68%,
         rgba(10,14,20,0.98) 100%);
     z-index: 1;
+    pointer-events: none;
   }
 
-  /* Area in alto con categoria + torneo (una riga sola). */
+  /* Area in alto con categoria + torneo. Flex-shrink: 0 per non essere compressa. */
   .cover-top {
     position: relative;
     z-index: 2;
     padding: 18px 22px 0;
+    flex-shrink: 0;
   }
   .cover-top .cat {
     display: inline-block;
@@ -87,31 +89,30 @@ const superficeLabel = {
     text-shadow: 0 1px 10px rgba(0,0,0,0.75);
     max-width: 100%;
     overflow-wrap: anywhere;
+    line-height: 1.3;
   }
 
-  /* Riempitivo per spingere il testo verso il basso. */
-  .cover-frame > :where(div:nth-of-type(2)) { /* overlay */
-    pointer-events: none;
-  }
-
-  /* Area testo in basso: cresce quanto serve, il contenitore si adatta. */
+  /* Area testo in basso: cresce quanto serve, il contenitore si adatta.
+     margin-top: auto spinge sempre il titolo verso il bordo inferiore. */
   .cover-text {
     position: relative;
     z-index: 2;
     padding: 60px 22px 22px;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     gap: 8px;
     min-width: 0;
+    flex-shrink: 0;
   }
   .cover-title {
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 900;
-    font-size: clamp(1.25rem, 2.6vw, 2rem);
-    line-height: 1.1;
+    font-size: clamp(1.2rem, 2.6vw, 2rem);
+    line-height: 1.12;
     letter-spacing: -0.4px;
     color: #ffffff;
-    text-shadow: 0 2px 14px rgba(0,0,0,0.85), 0 1px 3px rgba(0,0,0,0.9);
+    text-shadow: 0 2px 14px rgba(0,0,0,0.9), 0 1px 3px rgba(0,0,0,0.95);
     margin: 0;
     text-wrap: balance;
     overflow-wrap: break-word;
@@ -121,7 +122,7 @@ const superficeLabel = {
     font-size: 0.95rem;
     color: #e8edf3;
     line-height: 1.4;
-    text-shadow: 0 1px 8px rgba(0,0,0,0.85);
+    text-shadow: 0 1px 8px rgba(0,0,0,0.9);
     max-width: 60ch;
     margin: 0;
   }
@@ -133,17 +134,57 @@ const superficeLabel = {
     line-height: 1.4;
   }
 
+  /* Mobile stretto: piu' altezza garantita, titolo controllato, sub piu' piccolo.
+     L'object-position scende per mostrare meglio il corpo del giocatore. */
   @media (max-width: 640px) {
-    .cover-frame { min-height: 260px; }
+    .cover-frame {
+      min-height: 340px;
+      border-radius: 8px;
+    }
+    .cover-frame > img {
+      object-position: center 38%;
+    }
     .cover-top { padding: 14px 16px 0; }
-    .cover-text { padding: 46px 16px 18px; }
-    .cover-title { font-size: clamp(1.1rem, 5.5vw, 1.5rem); }
-    .cover-sub { font-size: 0.9rem; }
-    .cover-top .cat { font-size: 0.66rem; letter-spacing: 2px; }
+    .cover-top .cat {
+      font-size: 0.62rem;
+      letter-spacing: 1.8px;
+    }
+    .cover-text {
+      padding: 72px 16px 18px;
+      gap: 6px;
+    }
+    .cover-title {
+      font-size: clamp(1.15rem, 4.8vw, 1.5rem);
+      line-height: 1.15;
+    }
+    .cover-sub {
+      font-size: 0.85rem;
+      line-height: 1.38;
+      /* Su mobile stringiamo il sub a max 2 righe cosi' non invade il titolo */
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
   }
 
-  /* Schermi larghi: contenitore piu' alto per bilanciare la foto. */
+  /* Smartphone molto stretti (<=380px): riduciamo ancora le dimensioni per sicurezza */
+  @media (max-width: 380px) {
+    .cover-frame { min-height: 320px; }
+    .cover-text { padding: 60px 14px 16px; }
+    .cover-top { padding: 12px 14px 0; }
+    .cover-title {
+      font-size: clamp(1.05rem, 5.5vw, 1.35rem);
+    }
+    .cover-sub {
+      font-size: 0.8rem;
+      -webkit-line-clamp: 2;
+    }
+  }
+
+  /* Desktop ampio: contenitore piu' alto per bilanciare la foto. */
   @media (min-width: 900px) {
     .cover-frame { min-height: 420px; }
+    .cover-frame > img { object-position: center 36%; }
   }
 </style>

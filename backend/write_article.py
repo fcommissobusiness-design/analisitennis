@@ -15,6 +15,12 @@ try:
 except Exception:
     HAS_COVER = False
 
+try:
+    from generate_profiles import ensure_profiles_for_match
+    HAS_PROFILES = True
+except Exception:
+    HAS_PROFILES = False
+
 
 def slugify(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()
@@ -133,6 +139,16 @@ def write(match, analysis, out_dir):
 
     out = Path(out_dir) / f'{slug}.md'
     out.write_text('\n'.join(frontmatter_lines))
+
+    # Assicura che esistano i profili editoriali per questi giocatori e per il
+    # torneo. Idempotente: se gia' presenti non li tocca. Se mancano, genera
+    # a sfondo editoriale una tantum con fallback silenzioso.
+    if HAS_PROFILES:
+        try:
+            ensure_profiles_for_match(p1, p2, torneo, data)
+        except Exception as e:
+            print(f'[profiles] errore per {slug}: {e}')
+
     return out
 
 

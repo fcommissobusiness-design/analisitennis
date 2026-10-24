@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  titolo="Pagina non trovata - AnalisiTennis"
+  descrizione="La pagina che cerchi non esiste piu' o e' stata spostata. Torna alle ultime analisi tennis dalla home."
+>
+  <section class="homepage-hero" style="padding-top: 60px; padding-bottom: 20px;">
+    <div class="contenitore" style="max-width: 760px; text-align: center;">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Errore 404</div>
+      <h1 style="font-size: clamp(2rem, 5vw, 2.8rem);">La pagina non esiste</h1>
+      <p>Il link che hai seguito e' rotto, oppure la pagina e' stata spostata. Puoi tornare alle ultime analisi dalla home, oppure sfogliare per categoria o per torneo.</p>
+    </div>
+  </section>
+  <div class="contenitore" style="padding-bottom: 80px;">
+    <nav aria-label="Vai a" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px;">
+      <a href="/" class="nav-chip">Home</a>
+      <a href="/giocatori" class="nav-chip">Giocatori</a>
+      <a href="/tornei" class="nav-chip">Tornei</a>
+      <a href="/categoria/atp" class="nav-chip">ATP</a>
+      <a href="/categoria/wta" class="nav-chip">WTA</a>
+      <a href="/categoria/slam" class="nav-chip">Slam</a>
+      <a href="/categoria/challenger" class="nav-chip">Challenger</a>
+      <a href="/chi-siamo" class="nav-chip">Chi siamo</a>
+    </nav>
+  </div>
+</Base>
+<style>
+  .nav-chip {
+    display: inline-block;
+    padding: 10px 18px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 999px;
+    color: var(--testo, #1a1a1a);
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 500;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .nav-chip:hover {
+    border-color: var(--verde, #39d453);
+    color: var(--verde, #39d453);
+  }
+</style>

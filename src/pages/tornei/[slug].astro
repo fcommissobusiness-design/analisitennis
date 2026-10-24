@@ -3,82 +3,119 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { collectTournaments, tournamentBio } from '../../lib/hubs.js';
 
 export async function getStaticPaths() {
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
-  const tornei = collectTournaments(articoli);
-  return tornei.map(t => ({ params: { slug: t.slug }, props: { tournament: t } }));
+  const profili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+  return profili.map(p => ({ params: { slug: p.data.slug_profilo }, props: { profilo: p } }));
 }
 
-const { tournament } = Astro.props;
+const { profilo } = Astro.props;
+const { Content } = await profilo.render();
+const d = profilo.data;
 const site = 'https://analisitennis.it';
-const bio = tournamentBio(tournament);
-const latest = tournament.articoli[0];
 
-const sportsEvent = {
+const eventSchema = {
   '@context': 'https://schema.org',
   '@type': 'SportsEvent',
-  '@id': `${site}/tornei/${tournament.slug}#event`,
-  name: `${tournament.display} ${tournament.anno}`,
+  '@id': `${site}/tornei/${d.slug_profilo}#event`,
+  name: `${d.nome} ${d.anno}`,
   sport: 'Tennis',
-  location: { '@type': 'Place', name: tournament.display },
-  startDate: `${tournament.anno}`,
+  location: {
+    '@type': 'Place',
+    name: d.citta || d.nome,
+    ...(d.paese ? { address: { '@type': 'PostalAddress', addressCountry: d.paese } } : {})
+  },
+  description: d.intro,
 };
-const itemList = {
+const articleSchema = {
   '@context': 'https://schema.org',
-  '@type': 'ItemList',
-  name: `Analisi tennis ${tournament.display} ${tournament.anno}`,
-  itemListElement: tournament.articoli.slice(0, 100).map((a, i) => ({
-    '@type': 'ListItem',
-    position: i + 1,
-    url: `${site}/articoli/${a.slug}`,
-    name: a.data.titolo,
-  })),
-  numberOfItems: tournament.articoli.length,
+  '@type': 'Article',
+  headline: `${d.nome} ${d.anno} - Storia, curiosita' e albo d'oro`,
+  description: d.descrizione,
+  datePublished: d.generato_il,
+  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'AnalisiTennis',
+    logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` }
+  },
+  about: { '@id': `${site}/tornei/${d.slug_profilo}#event` }
 };
 ---
 <Base
-  titolo={`${tournament.display} ${tournament.anno} - Analisi, tabellone e pronostici - AnalisiTennis`}
-  descrizione={`Tutte le analisi del torneo di ${tournament.display} ${tournament.anno} firmate dalla Redazione AnalisiTennis: match per match, con pronostico sportivo editoriale.`}
+  titolo={`${d.nome} ${d.anno} - Storia e curiosita' del torneo - AnalisiTennis`}
+  descrizione={d.descrizione}
+  tipo="article"
 >
-  <div class="contenitore" style="padding-top: 32px;">
+  <script type="application/ld+json" set:html={JSON.stringify(eventSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <div class="contenitore" style="padding-top: 24px;">
     <Breadcrumbs items={[
       { nome: 'Home', url: '/' },
       { nome: 'Tornei', url: '/tornei' },
-      { nome: `${tournament.display} ${tournament.anno}` }
+      { nome: `${d.nome} ${d.anno}` }
     ]} />
   </div>
 
   <section class="homepage-hero" style="padding-top: 10px;">
     <div class="contenitore">
-      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">{latest?.data.categoria} - {latest?.data.superficie}</div>
-      <h1>{tournament.display} {tournament.anno}</h1>
-      <p>{bio}</p>
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">
+        {d.categoria || 'ATP'}{d.superficie ? ` · ${d.superficie.toUpperCase()}` : ''}{d.citta ? ` · ${d.citta}` : ''}
+      </div>
+      <h1>{d.nome} {d.anno}</h1>
+      <p>{d.intro}</p>
     </div>
   </section>
 
   <div class="contenitore">
-    <div class="layout-home">
-      <div>
-        <h2 class="sezione-eyebrow">Analisi del torneo</h2>
-        <div class="griglia-articoli" style="padding: 0;">
-          {tournament.articoli.map(art => (
-            <article class="card-articolo">
-              <div class="eyebrow">{art.data.giocatore1} vs {art.data.giocatore2}</div>
-              <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
-              <p class="sottotitolo">{art.data.sottotitolo}</p>
-              <div class="data">
-                {new Date(art.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}
-              </div>
-            </article>
-          ))}
+    <div class="layout-articolo">
+      <article class="articolo">
+        <div class="profilo-stats">
+          {d.citta && <div><strong>Luogo</strong>{' '}{d.citta}{d.paese ? `, ${d.paese}` : ''}</div>}
+          {d.superficie && <div><strong>Superficie</strong>{' '}{d.superficie}</div>}
+          {d.fondato && <div><strong>Fondato nel</strong>{' '}{d.fondato}</div>}
+          {d.categoria && <div><strong>Categoria</strong>{' '}{d.categoria}</div>}
         </div>
-      </div>
-      <aside><div class="side-sticky"><FormEmail /></div></aside>
+        <div class="articolo-corpo">
+          <Content />
+        </div>
+        {d.cover_credit && <p class="credit-foto">Foto: {d.cover_credit}</p>}
+      </article>
+      <aside>
+        <div class="side-sticky"><FormEmail /></div>
+      </aside>
     </div>
   </div>
-
-  <script type="application/ld+json" set:html={JSON.stringify(sportsEvent)} />
-  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
 </Base>
+
+<style>
+  .profilo-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 32px;
+    padding: 16px 20px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-left: 3px solid var(--verde, #39d453);
+    border-radius: 6px;
+    margin-bottom: 28px;
+    font-size: 0.92rem;
+  }
+  .profilo-stats strong {
+    color: var(--testo-secondario, #6b7280);
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .credit-foto {
+    font-size: 0.75rem;
+    color: var(--testo-secondario, #8a94a3);
+    margin-top: 32px;
+    padding-top: 12px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+</style>

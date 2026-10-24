@@ -7,8 +7,9 @@
     { "src": "/logo-512.png", "sizes": "512x512", "type": "image/png" }
   ],
   "theme_color": "#0a0e14",
-  "background_color": "#ffffff",
+  "background_color": "#0a0e14",
   "display": "standalone",
   "lang": "it-IT",
-  "start_url": "/"
+  "start_url": "/",
+  "scope": "/"
 }

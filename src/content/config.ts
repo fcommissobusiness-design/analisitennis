@@ -22,4 +22,51 @@ const articoli = defineCollection({
   })
 });
 
-export const collections = { articoli };
+const giocatoriProfilo = defineCollection({
+  type: 'content',
+  schema: z.object({
+    nome: z.string(),
+    slug_profilo: z.string(),
+    nazionalita: z.string().optional(),
+    data_nascita: z.string().optional(),
+    mano: z.string().optional(),
+    rovescio: z.string().optional(),
+    altezza: z.string().optional(),
+    categoria: z.enum(['ATP', 'WTA', 'Challenger', 'ITF', 'Slam', 'Masters']).optional(),
+    superficie_preferita: z.enum(['cemento', 'terra', 'erba', 'indoor']).optional(),
+    intro: z.string(),
+    cover_image: z.string().optional(),
+    cover_credit: z.string().optional(),
+    descrizione: z.string(),
+    tag: z.array(z.string()).default([]),
+    pubblicato: z.boolean().default(true),
+    generato_il: z.string().optional()
+  })
+});
+
+const torneiProfilo = defineCollection({
+  type: 'content',
+  schema: z.object({
+    nome: z.string(),
+    slug_profilo: z.string(),
+    anno: z.number(),
+    citta: z.string().optional(),
+    paese: z.string().optional(),
+    categoria: z.enum(['ATP', 'WTA', 'Challenger', 'ITF', 'Slam', 'Masters']).optional(),
+    superficie: z.enum(['cemento', 'terra', 'erba', 'indoor']).optional(),
+    fondato: z.string().optional(),
+    intro: z.string(),
+    cover_image: z.string().optional(),
+    cover_credit: z.string().optional(),
+    descrizione: z.string(),
+    tag: z.array(z.string()).default([]),
+    pubblicato: z.boolean().default(true),
+    generato_il: z.string().optional()
+  })
+});
+
+export const collections = {
+  articoli,
+  'giocatori-profilo': giocatoriProfilo,
+  'tornei-profilo': torneiProfilo,
+};

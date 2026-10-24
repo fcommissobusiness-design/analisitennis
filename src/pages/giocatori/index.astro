@@ -3,10 +3,11 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { collectPlayers } from '../../lib/hubs.js';
 
-const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
-const giocatori = collectPlayers(articoli);
+const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+const giocatori = profili
+  .map(p => p.data)
+  .sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
 
 const site = 'https://analisitennis.it';
 const itemList = {
@@ -15,15 +16,15 @@ const itemList = {
   itemListElement: giocatori.slice(0, 100).map((p, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `${site}/giocatori/${p.slug}`,
-    name: p.display,
+    url: `${site}/giocatori/${p.slug_profilo}`,
+    name: p.nome,
   })),
   numberOfItems: giocatori.length,
 };
 ---
 <Base
-  titolo="Giocatori di tennis - Analisi, forma e precedenti - AnalisiTennis"
-  descrizione="Tutti i giocatori di tennis analizzati dalla Redazione AnalisiTennis: pagina dedicata a ciascuno con analisi recenti, forma e scontri diretti."
+  titolo="Giocatori di tennis - Profili, storia e stile di gioco - AnalisiTennis"
+  descrizione="Profili editoriali dei tennisti del circuito: storia, stile di gioco, statistiche sulle diverse superfici e trofei principali, firmati dalla Redazione AnalisiTennis."
 >
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[
@@ -34,21 +35,23 @@ const itemList = {
   <section class="homepage-hero" style="padding-top: 10px;">
     <div class="contenitore">
       <h1>Giocatori di <span class="verde">tennis</span></h1>
-      <p>Hub dedicato a ciascun giocatore analizzato dalla Redazione. Ogni scheda raccoglie le nostre letture piu' recenti, i confronti diretti e il filo delle ultime partite.</p>
+      <p>Profili di chi scende in campo: storia, il suo tennis, statistiche sulle diverse superfici e trofei principali. I nuovi profili si aggiungono mano a mano che la redazione analizza i match del circuito.</p>
     </div>
   </section>
   <div class="contenitore">
     <div class="layout-home">
       <div>
         {giocatori.length === 0 ? (
-          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun giocatore ancora indicizzato.</p>
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun profilo pubblicato al momento. Ne aggiungeremo di nuovi a ogni analisi.</p>
         ) : (
           <ul class="hub-grid">
             {giocatori.map(p => (
               <li class="hub-card">
-                <a href={`/giocatori/${p.slug}`}>
-                  <div class="hub-nome">{p.display}</div>
-                  <div class="hub-meta">{p.articoli.length} {p.articoli.length === 1 ? 'analisi' : 'analisi'}</div>
+                <a href={`/giocatori/${p.slug_profilo}`}>
+                  <div class="hub-nome">{p.nome}</div>
+                  <div class="hub-meta">
+                    {p.nazionalita}{p.categoria ? ` · ${p.categoria}` : ''}
+                  </div>
                 </a>
               </li>
             ))}
@@ -63,9 +66,7 @@ const itemList = {
 
 <style>
   .hub-grid {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 60px;
+    list-style: none; padding: 0; margin: 0 0 60px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 12px;
@@ -81,16 +82,9 @@ const itemList = {
     transition: border-color 0.15s, transform 0.15s;
   }
   .hub-card a:hover {
-    border-color: var(--verde, #2a7f3e);
+    border-color: var(--verde, #39d453);
     transform: translateY(-2px);
   }
-  .hub-nome {
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 4px;
-  }
-  .hub-meta {
-    font-size: 0.82rem;
-    color: var(--testo-secondario, #6b7280);
-  }
+  .hub-nome { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }
+  .hub-meta { font-size: 0.82rem; color: var(--testo-secondario, #6b7280); }
 </style>
