@@ -109,16 +109,49 @@ def fetch_recent_matches(pk, days=120, max_results=15):
     return rows[:max_results]
 
 
+class ApiTennisNoData(RuntimeError):
+    """Sollevata quando API Tennis non torna dati utili per il match.
+    L'analisi si interrompe e il match viene segnalato nel log: meglio
+    saltare un pronostico che pubblicare un'analisi senza dati autoritativi."""
+    pass
+
+
 def build_data_block(match):
-    """Costruisce il blocco di dati autoritativi API Tennis."""
+    """Costruisce il blocco di dati autoritativi API Tennis.
+    Se API Tennis non risponde o non ha dati sufficienti sui due giocatori,
+    solleva ApiTennisNoData: l'analisi non parte, meglio zero articolo che
+    uno allucinato su dati vuoti."""
     pk1 = match.get('first_player_key')
     pk2 = match.get('second_player_key')
     p1 = match.get('event_first_player', '')
     p2 = match.get('event_second_player', '')
 
+    if not pk1 or not pk2:
+        raise ApiTennisNoData(
+            f'player_key mancante per {p1}/{p2}: API Tennis non ha i giocatori registrati'
+        )
+
     h2h = fetch_h2h(pk1, pk2)
     recent1 = fetch_recent_matches(pk1)
     recent2 = fetch_recent_matches(pk2)
+
+    # Gate "dati sufficienti": servono almeno un recente per ciascuno (o almeno
+    # un H2H). Se la pipeline non ha niente di autoritativo, l'articolo si
+    # ridurrebbe a congetture pure -> abort.
+    if not recent1 and not recent2 and not h2h:
+        raise ApiTennisNoData(
+            f'API Tennis vuota per entrambi i giocatori ({p1} e {p2}): '
+            'niente H2H, niente match recenti. Analisi interrotta per '
+            'evitare pubblicazione senza fonti.'
+        )
+    if not recent1 and not h2h:
+        raise ApiTennisNoData(
+            f'API Tennis senza dati su {p1} (niente recenti, niente H2H). Analisi interrotta.'
+        )
+    if not recent2 and not h2h:
+        raise ApiTennisNoData(
+            f'API Tennis senza dati su {p2} (niente recenti, niente H2H). Analisi interrotta.'
+        )
 
     def fmt_h2h():
         if not h2h:
@@ -469,13 +502,37 @@ if __name__ == '__main__':
     selected = json.loads(Path(sys.argv[1]).read_text())
     outdir = Path(sys.argv[1]).parent / 'analyses'
     outdir.mkdir(exist_ok=True)
+    skipped_no_data = []
     for m in selected:
         mid = m.get('event_key')
-        print(f'Analizzo match {mid}: {m.get("event_first_player")} vs {m.get("event_second_player")}', flush=True)
+        p1, p2 = m.get('event_first_player'), m.get('event_second_player')
+        print(f'Analizzo match {mid}: {p1} vs {p2}', flush=True)
         try:
             analysis = genera(m)
             out = outdir / f'analysis_{mid}.json'
             out.write_text(json.dumps(analysis, indent=2, ensure_ascii=False))
             print(f'  Salvata in {out}', flush=True)
+        except ApiTennisNoData as e:
+            # Skip pulito: NON pubblichiamo analisi su un match senza dati
+            # autoritativi. Lo segnaliamo nel log e in un file di report
+            # cosi' la pipeline (daily.sh / cron) lo vede.
+            msg = f'[NO-DATA] match {mid} {p1} vs {p2}: {e}'
+            print(f'  {msg}', file=sys.stderr, flush=True)
+            skipped_no_data.append({
+                'event_key': mid,
+                'player1': p1, 'player2': p2,
+                'tournament': m.get('tournament_name'),
+                'motivo': str(e),
+            })
         except Exception as e:
             print(f'  ERRORE: {e}', file=sys.stderr, flush=True)
+
+    # Report finale skipped-no-data: se la lista non e' vuota il daily.sh
+    # vede il file e lo logga in modo visibile.
+    if skipped_no_data:
+        report = outdir.parent / f'skipped_no_data_{Path(sys.argv[1]).stem.split("_")[-1]}.json'
+        report.write_text(json.dumps(skipped_no_data, indent=2, ensure_ascii=False))
+        print(f'\n*** {len(skipped_no_data)} match SKIPPATI per mancanza dati API Tennis ***', flush=True)
+        print(f'Report in {report}', flush=True)
+        for s in skipped_no_data:
+            print(f'  - {s["player1"]} vs {s["player2"]} @ {s["tournament"]}: {s["motivo"][:80]}', flush=True)

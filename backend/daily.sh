@@ -84,6 +84,15 @@ python3 select_matches.py "fixtures_${OGGI}.json" 2>&1 | tee -a "$LOG"
 log_section "[3/5] Generazione analisi (claude CLI, fact-check anti-bias+anti-hallucination)"
 python3 generate_analysis.py "selected_${OGGI}.json" 2>&1 | tee -a "$LOG"
 
+# Segnala in modo visibile se ci sono stati match skippati per mancanza dati
+# autoritativi API Tennis (gate "no data = abort" dentro generate_analysis.py).
+SKIPPED_REPORT="skipped_no_data_${OGGI}.json"
+if [ -f "$SKIPPED_REPORT" ]; then
+    log_section "[ATTENZIONE] Match SKIPPATI per API Tennis senza dati"
+    log "File: $SKIPPED_REPORT"
+    cat "$SKIPPED_REPORT" | tee -a "$LOG"
+fi
+
 # 4. Scrittura articoli markdown
 log_section "[4/5] Scrittura articoli"
 python3 write_article.py "selected_${OGGI}.json" "analyses" 2>&1 | tee -a "$LOG"
