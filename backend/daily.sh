@@ -117,3 +117,12 @@ log_section "COMPLETATA pipeline - $(date)"
 # Sentinel: segna che oggi la pipeline e' completata. Impedisce doppie
 # esecuzioni se launchd rilancia il job (RunAtLoad al login + 07:00 schedulato).
 touch "$SENTINEL"
+
+# [POST] Profili editoriali in background.
+# Idempotente: skippa i profili gia' esistenti, crea solo quelli mancanti
+# per i giocatori/tornei nuovi incontrati oggi. Non blocca la pubblicazione:
+# il sito e' gia' live quando questo gira, i profili arrivano con calma.
+log_section "[POST] Profili editoriali (background)"
+cd "$HOME/analisitennis/backend"
+nohup python3 generate_profiles.py backfill > "$LOG_DIR/profiles_${OGGI}.log" 2>&1 &
+log "Lanciato backfill profili in background (pid $!)"

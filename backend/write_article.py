@@ -140,14 +140,10 @@ def write(match, analysis, out_dir):
     out = Path(out_dir) / f'{slug}.md'
     out.write_text('\n'.join(frontmatter_lines))
 
-    # Assicura che esistano i profili editoriali per questi giocatori e per il
-    # torneo. Idempotente: se gia' presenti non li tocca. Se mancano, genera
-    # a sfondo editoriale una tantum con fallback silenzioso.
-    if HAS_PROFILES:
-        try:
-            ensure_profiles_for_match(p1, p2, torneo, data)
-        except Exception as e:
-            print(f'[profiles] errore per {slug}: {e}')
+    # NOTE: la generazione dei profili editoriali per giocatori e torneo non
+    # viene fatta qui (bloccherebbe la pipeline). daily.sh la lancia in
+    # background dopo [5/5] commit+push, cosi' il sito e' live prima e i
+    # profili mancanti si aggiungono con calma nelle ore successive.
 
     return out
 
