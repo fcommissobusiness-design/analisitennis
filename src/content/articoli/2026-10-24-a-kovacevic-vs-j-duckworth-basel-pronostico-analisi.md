@@ -20,7 +20,7 @@ verdetto: "Oggi la può spuntare Kovacevic: il maggior margine di riposo e il re
 descrizione: "Analisi di Kovacevic-Duckworth, semifinale ATP di Basel del 24 ottobre 2026: forma recente, precedenti, incroci stagionali e chiavi tattiche dei due protagonisti."
 pubblicato: true
 cover_image: "/covers/2026-10-24-a-kovacevic-vs-j-duckworth-basel-pronostico-analisi.jpg"
-cover_credit: "Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Kovacevic WMQ23 (53062093080).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 Il cemento indoor di Basel entra nel vivo e la semifinale mette di fronte **Aleksandar Kovacevic** e **James Duckworth**, due giocatori che la stagione 2026 ha fatto incrociare a distanza più volte senza però mai farli sfidare direttamente in questo arco di calendario. L'americano e l'australiano arrivano all'appuntamento con sensazioni diverse ma con un bagaglio di risultati che, letto con attenzione, racconta un equilibrio tutt'altro che scontato.

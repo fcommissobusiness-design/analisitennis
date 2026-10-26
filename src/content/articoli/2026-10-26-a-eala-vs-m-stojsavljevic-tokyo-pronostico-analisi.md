@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi nettamente Eala: la filippina arriva da un calendario di livello WTA, con il titolo di Washington e sfide contro top player, mentre Stojsavljevic ha girato soprattutto il circuito minore. Il salto di categoria pesa e dovrebbe indirizzare il match."
 descrizione: "Eala contro Stojsavljevic al WTA di Tokyo: un confronto inedito sul cemento, tra forma recente, avversari in comune e un match tutto da leggere."
 pubblicato: true
-cover_image: "/covers/2026-10-26-a-eala-vs-m-stojsavljevic-tokyo-pronostico-analisi.jpg"
-cover_credit: "Ariake tennis park.jpg | Arne Müseler | CC BY-SA 3.0 de"
 generato_il: "2026-10-26T07:30"
+cover_image: "/covers/2026-10-26-a-eala-vs-m-stojsavljevic-tokyo-pronostico-analisi.jpg"
+cover_credit: "2026-07-13 – President Marcos hails Alex Eala as PH tennis champion, vows full government support.jpg | Presidential Communications Office | Public domain"
 ---
 
 Il tabellone WTA di **Tokyo** mette di fronte al primo turno utile due giocatrici con percorsi recenti piuttosto diversi: la filippina Alexandra Eala e la britannica Mika Stojsavljevic. È un confronto inedito, privo di qualsiasi precedente registrato tra le due, che va in scena sul cemento della capitale giapponese in un tratto ormai avanzato di stagione, con l'autunno 2026 che accompagna il calendario verso la chiusura.

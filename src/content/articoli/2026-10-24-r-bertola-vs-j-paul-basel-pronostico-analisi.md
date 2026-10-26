@@ -21,7 +21,7 @@ verdetto: "Oggi la può spuntare Bertola: arriva da un periodo più intenso e di
 descrizione: "Bertola e Paul si giocano un posto in finale all'ATP di Basilea: forma recente, unico precedente diretto e stili a confronto in una semifinale da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-24-r-bertola-vs-j-paul-basel-pronostico-analisi.jpg"
-cover_credit: "Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Rémy Bertola (2026 US Open) 04 (cropped).jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 La **semifinale** dell'ATP di **Basilea** mette di fronte R. Bertola e J. Paul, due giocatori che raggiungono il penultimo atto del torneo seguendo strade differenti ma con la stessa voglia di cogliere un'occasione importante sul veloce indoor. È il tipo di sfida che conviene leggere osservando il percorso delle ultime settimane più che un singolo numero, perché entrambi hanno vissuto un autunno fitto di partite, di soddisfazioni e di qualche passaggio a vuoto. Capire in quale condizione arrivano all'appuntamento di oggi diventa allora più utile di qualsiasi etichetta, anche perché il tabellone li ha portati fin qui attraverso settimane intense e campi diversi.

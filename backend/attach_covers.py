@@ -121,6 +121,9 @@ VENUE_MAP = {
     'Florence': 'Firenze Open ATP tennis',
     'Firenze': 'Firenze Open ATP tennis',
     'Brest': 'Open de Brest tennis',
+    'Lisbon': 'Estoril Open tennis',
+    'Lisboa': 'Estoril Open tennis',
+    'Cali (Colombia)': 'Nalbandian tennis Colombia',
 }
 
 BLOCK_WORDS = (
@@ -134,6 +137,13 @@ BLOCK_WORDS = (
     # Esclusioni per falsi positivi "venue"
     'table tennis', 'ping pong', 'pingpong', 'street tennis',
     'tennis racket icon', 'logo tennis',
+    # Traduzioni ping pong / tennis tavolo
+    'tennis de table', 'tenis de mesa', 'tenis mesa', 'tavolo da tennis',
+    'tennistavolo', 'tischtennis',
+    # Conferenze, summit, premi - non sono match
+    'web summit', 'conference', 'conférence', 'panel', 'speech',
+    'press ceremony', 'red carpet', 'gala', 'festival',
+    'school match', 'junior academy', 'tennis school',
 )
 
 # Parole che indicano foto d'AZIONE pura (preferite): un giocatore in gioco.
@@ -316,6 +326,14 @@ def pick_venue(torneo: str):
     for query in (q, f'{torneo} tennis', f'{torneo} tennis center', f'{torneo} tennis stadium'):
         results = commons_search(query)
         # filtra: deve essere immagine chiaramente legata al tennis
+        results = [r for r in results if _looks_tennis(r['title'])]
+        if results:
+            return results[0]
+    # Fallback universale: foto generica di campo da tennis professionale
+    # per garantire che ogni articolo abbia una cover coerente col tema.
+    for query in ('ATP tennis court professional', 'tennis court outdoor professional',
+                  'tennis stadium center court'):
+        results = commons_search(query)
         results = [r for r in results if _looks_tennis(r['title'])]
         if results:
             return results[0]

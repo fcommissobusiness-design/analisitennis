@@ -19,6 +19,8 @@ tag:
 verdetto: "Oggi la puo' spuntare Rocha: la miglior continuita' di risultati e il sostegno del pubblico di casa pesano in un quarto comunque equilibrato, dove non stupirebbe affatto un epilogo deciso al terzo set."
 descrizione: "Moller contro Rocha nei quarti del challenger di Lisbona: precedenti, forma di ottobre e fattore campo a confronto in una sfida sulla terra."
 pubblicato: true
+cover_image: "/covers/2026-10-23-e-moller-vs-h-rocha-lisbon-pronostico-analisi.jpg"
+cover_credit: "Blake Estoril Open 2009 1.jpg | José Goulão | CC BY-SA 2.0"
 ---
 
 Il tabellone del challenger di **Lisbona** propone un quarto di finale dal sapore particolare: Elmer Moller e Henrique Rocha si ritrovano di fronte dopo essersi gia' incrociati in passato, entrambi arrivati all'appuntamento con due vittorie nelle prime due uscite del torneo. Sulla terra portoghese i due hanno costruito ottobre in modi diversi, ma con un filo comune, quello di una continuita' che li ha portati fin qui senza scivoloni nel cammino verso i quarti.

@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi la può spuntare Berrettini: il veloce indoor valorizza il suo servizio pesante, mentre l'argentino arriva da una lunga serie di sconfitte e appare meno a suo agio sulle superfici rapide. Resta però un match da almeno due set combattuti."
 descrizione: "Berrettini ed Etcheverry aprono Vienna in un primo turno tra due giocatori a caccia di continuità sul veloce indoor: ecco cosa raccontano i numeri recenti."
 pubblicato: true
-cover_image: "/covers/2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi.jpg"
-cover_credit: "David Ferrer (Spain) against Viktor Troicki (Serbia), 2016 Erste Bank Open.jpg | Marián 2 | CC BY-SA 4.0"
 generato_il: "2026-10-26T07:30"
+cover_image: "/covers/2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi.jpg"
+cover_credit: "Matteo Berrettini at 2025 Miami Open 04.jpg | Vbrunophotog | CC BY-SA 4.0"
 ---
 
 Il tabellone di **Vienna** mette subito di fronte due giocatori che arrivano all'appuntamento con più domande che certezze. Matteo Berrettini, italiano, e Tomas Martin Etcheverry, argentino, si affrontano al primo turno del torneo austriaco, sul veloce indoor, in un confronto inedito: tra i due non risultano precedenti ufficiali in archivio, e questo aggiunge un margine di imprevedibilità a una sfida già difficile da leggere.

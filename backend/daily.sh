@@ -97,6 +97,14 @@ fi
 log_section "[4/5] Scrittura articoli"
 python3 write_article.py "selected_${OGGI}.json" "analyses" 2>&1 | tee -a "$LOG"
 
+# 4-bis. Audit cover: ogni articolo deve avere cover corretta, pertinente,
+# non sfasata. Lo script corregge in-place le cover problematiche (file
+# mancanti, foto non-tennis, favorito con foto Commons disponibile ma
+# non usata). Esce con codice >0 se trova problemi, ma non blocca la
+# pipeline: il --fix li risolve quasi sempre.
+log_section "[4-bis/5] Audit cover articoli (corregge sfasamenti)"
+python3 audit_covers.py --fix --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
