@@ -3,13 +3,22 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import { playerSlug } from '../../lib/hubs.js';
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
-  return profili.map(p => ({ params: { slug: p.data.slug_profilo }, props: { profilo: p } }));
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  return profili.map(p => {
+    const slug = p.data.slug_profilo;
+    const relatedArticles = articoli
+      .filter(a => playerSlug(a.data.giocatore1) === slug || playerSlug(a.data.giocatore2) === slug)
+      .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+      .slice(0, 20);
+    return { params: { slug }, props: { profilo: p, relatedArticles } };
+  });
 }
 
-const { profilo } = Astro.props;
+const { profilo, relatedArticles } = Astro.props;
 const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
@@ -80,6 +89,26 @@ const articleSchema = {
           <Content />
         </div>
         {d.cover_credit && <p class="credit-foto">Foto: {d.cover_credit}</p>}
+
+        {relatedArticles.length > 0 && (
+          <section class="articoli-correlati" aria-label={`Analisi recenti su ${d.nome}`}>
+            <h2>Nostre analisi recenti su {d.nome}</h2>
+            <ul>
+              {relatedArticles.map(a => {
+                const dataIt = new Date(a.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
+                const avv = playerSlug(a.data.giocatore1) === d.slug_profilo ? a.data.giocatore2 : a.data.giocatore1;
+                return (
+                  <li>
+                    <a href={`/articoli/${a.slug}`}>
+                      <span class="art-data">{dataIt}</span>
+                      <span class="art-titolo">vs {avv} - {a.data.torneo}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
       </article>
       <aside>
         <div class="side-sticky"><FormEmail /></div>
@@ -116,5 +145,44 @@ const articleSchema = {
     margin-top: 32px;
     padding-top: 12px;
     border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .articoli-correlati {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .articoli-correlati h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    letter-spacing: -0.3px;
+  }
+  .articoli-correlati ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .articoli-correlati li { margin: 0; }
+  .articoli-correlati a {
+    display: flex;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--linea, #e5e5e5);
+    text-decoration: none;
+    color: var(--testo, #1a1a1a);
+    align-items: baseline;
+  }
+  .articoli-correlati a:hover { color: var(--verde, #39d453); }
+  .articoli-correlati .art-data {
+    font-size: 0.82rem;
+    color: var(--testo-secondario, #6b7280);
+    flex-shrink: 0;
+    min-width: 130px;
+  }
+  .articoli-correlati .art-titolo {
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.4;
   }
 </style>

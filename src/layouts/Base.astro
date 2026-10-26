@@ -100,6 +100,14 @@ const siteWeb = {
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="AnalisiTennis" href="/rss.xml" />
 
+  <!-- Hreflang: segnala a Google che il sito e' italiano -->
+  <link rel="alternate" hreflang="it-it" href={url} />
+  <link rel="alternate" hreflang="x-default" href={url} />
+
+  <!-- Prefetch per performance Core Web Vitals -->
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
   <!-- Schema.org structured data globale -->
   <script type="application/ld+json" set:html={JSON.stringify(siteOrg)} />
   <script type="application/ld+json" set:html={JSON.stringify(siteWeb)} />
