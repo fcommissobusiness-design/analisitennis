@@ -19,9 +19,9 @@ tag:
 verdetto: "Finale in equilibrio, con segnali contrastanti: lo scenario piu' plausibile e' un match deciso al terzo set, in cui entrambi possono prendersi almeno un parziale senza un favorito netto."
 descrizione: "Mpetshi Perricard e Kovacevic si giocano il titolo di Basilea sul cemento indoor: precedenti in parita' e forme a confronto nell'analisi della finale."
 pubblicato: true
+generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-g-mpetshi-perricard-vs-a-kovacevic-basel-pronostico-analisi.jpg"
 cover_credit: "Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
-generato_il: "2026-10-25T07:30"
 ---
 
 La settimana di Basilea si chiude con un ultimo atto che mette di fronte **G. Mpetshi Perricard** e **A. Kovacevic**, due giocatori arrivati alla finale lungo strade differenti ma animati dallo stesso obiettivo. Il cemento indoor svizzero fa da cornice a una sfida ricca di spunti, perche' i due si conoscono bene e si sono gia' incrociati nel corso di questa stagione, dividendosi la posta in palio.

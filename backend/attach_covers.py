@@ -91,6 +91,14 @@ NAME_MAP = {
     'L. Tien': 'Learner Tien',
     'J. Fearnley': 'Jacob Fearnley',
     'P. Badosa': 'Paula Badosa',
+    # Giocatori del 25/10 di cui ho certezza del nome completo
+    'T. Droguet': 'Titouan Droguet',
+    'R. Hijikata': 'Rinky Hijikata',
+    'Y. Hanfmann': 'Yannick Hanfmann',
+    'R. Bertola': 'Remy Bertola',
+    'G. Mpetshi Perricard': 'Giovanni Mpetshi Perricard',
+    'A. Kovacevic': 'Aleksandar Kovacevic',
+    'J. Duckworth': 'James Duckworth',
     # Nomi non mappati (identita' incerta) -> fallback venue
     # 'S. Sorger', 'J. Garland', 'Y. Ma', 'Y. Qu', 'M. Yamaguchi', 'S. Y. Cheuk', 'T. Kostovic', 'X. You'
 }
@@ -103,12 +111,16 @@ VENUE_MAP = {
     'Guangzhou': 'Tianhe tennis Guangzhou',
     'Almaty': 'Almaty Arena',
     'Ningbo': 'Ningbo Tennis Center',
-    'Lyon (France) - Qualification': 'Palais des Sports Lyon',
-    'Lyon': 'Palais des Sports Lyon',
+    'Lyon (France) - Qualification': 'Lyon Open Tennis',
+    'Lyon': 'Lyon Open Tennis',
     'Basel': 'St. Jakobshalle Basel tennis',
     'Cali': 'Club Campestre Cali tennis',
     'Fort Worth (Usa)': 'Fort Worth tennis',
     'Fort Worth': 'Fort Worth tennis',
+    'Florence (Italy) - Qualification': 'Firenze Open ATP tennis',
+    'Florence': 'Firenze Open ATP tennis',
+    'Firenze': 'Firenze Open ATP tennis',
+    'Brest': 'Open de Brest tennis',
 }
 
 BLOCK_WORDS = (
@@ -119,6 +131,9 @@ BLOCK_WORDS = (
     'slazenger balls', 'slazenger ball', 'tennis balls', 'tennis ball',
     'crowd', 'grandstand', 'empty court', 'draw ceremony',
     'olympic rings', 'opening ceremony',
+    # Esclusioni per falsi positivi "venue"
+    'table tennis', 'ping pong', 'pingpong', 'street tennis',
+    'tennis racket icon', 'logo tennis',
 )
 
 # Parole che indicano foto d'AZIONE pura (preferite): un giocatore in gioco.

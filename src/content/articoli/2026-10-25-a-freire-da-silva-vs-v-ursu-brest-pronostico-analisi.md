@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi nettamente Ursu: la finale di St. Tropez e le semifinali di Porto e Villena raccontano un mese su campi più probanti, mentre Freire Da Silva arriva da un percorso più discontinuo sul circuito ITF."
 descrizione: "Freire Da Silva e Ursu si giocano un posto nella finale di Brest: forma recente, livello dei tornei e assenza di precedenti in una semifinale tutta aperta."
 pubblicato: true
+generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-a-freire-da-silva-vs-v-ursu-brest-pronostico-analisi.jpg"
 cover_credit: "Open Brest Arena 2016 - organisateurs.jpg | Kergourlay | CC BY-SA 4.0"
-generato_il: "2026-10-25T07:30"
 ---
 
 Il penultimo atto del Challenger di **Brest** mette di fronte A. Freire Da Silva e V. Ursu, due giocatori arrivati alla semifinale percorrendo strade piuttosto diverse nelle settimane che hanno preceduto l'appuntamento. Nessuno dei due si presenta con l'etichetta del favorito annunciato, e proprio per questo la sfida di oggi, 25 ottobre, si presta a una lettura attenta più che a conclusioni affrettate.

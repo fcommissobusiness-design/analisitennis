@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi nettamente Griekspoor: ha vinto tutti e tre i precedenti, l'ultimo a Doha nel 2025 senza concedere set, e arriva in finale con la stessa continuità mostrata da Struff. Il peso degli scontri diretti indirizza l'ultimo atto."
 descrizione: "Struff contro Griekspoor nella finale ATP di Bruxelles: percorsi, precedenti e forma recente di due giocatori di potenza arrivati all'ultimo atto."
 pubblicato: true
+generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-j-l-struff-vs-t-griekspoor-brussels-pronostico-analisi.jpg"
 cover_credit: "Tallon Griekspoor - Roland-Garros - 28.05.2024.jpg | Kuberzog | CC BY 4.0"
-generato_il: "2026-10-25T07:30"
 ---
 
 La finale di **Bruxelles** mette di fronte due interpreti del tennis di potenza, Jan-Lennard Struff e Tallon Griekspoor, arrivati all'ultimo atto dopo una settimana costruita vittoria dopo vittoria. Entrambi hanno dovuto superare quattro turni su un cemento indoor che premia il servizio e il gioco aggressivo, e nessuno dei due si presenta per caso: il tabellone li ha messi alla prova in modo diverso, ma il risultato è lo stesso, una finale guadagnata sul campo.

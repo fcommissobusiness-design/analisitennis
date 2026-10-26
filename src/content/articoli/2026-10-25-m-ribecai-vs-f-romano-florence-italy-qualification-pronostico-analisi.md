@@ -20,6 +20,8 @@ verdetto: "Oggi la può spuntare Romano: ha già regolato Ribecai nella finale d
 descrizione: "Ribecai e Romano si giocano il titolo nella finale del Challenger di Firenze: analisi dei cammini, dei precedenti e della forma recente dei due italiani."
 pubblicato: true
 generato_il: "2026-10-25T07:30"
+cover_image: "/covers/2026-10-25-m-ribecai-vs-f-romano-florence-italy-qualification-pronostico-analisi.jpg"
+cover_credit: "Palazzo Wanny - ATP Firenze Open.jpg | Johnyamaha | CC BY-SA 4.0"
 ---
 
 La settimana del Challenger di **Firenze** si chiude con una finale tutta italiana: Matteo Ribecai e Francesco Romano si affrontano per il titolo dopo aver attraversato, ciascuno a modo suo, un tabellone fitto di insidie. Due percorsi diversi che convergono nello stesso ultimo atto, con l'etichetta di sfida fra connazionali a caricare ulteriormente una giornata già densa di aspettative.

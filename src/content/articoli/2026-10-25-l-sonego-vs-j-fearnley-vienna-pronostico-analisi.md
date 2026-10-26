@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi la può spuntare Fearnley: arriva alla finale con un rendimento più continuo nelle ultime settimane e una maggiore abitudine recente a incatenare vittorie, anche se la ritrovata solidità di Sonego nel torneo tiene aperto il discorso fino all'ultimo set."
 descrizione: "Sonego e Fearnley si giocano il titolo di Vienna in una finale inedita: forma, cammino e caratteristiche a confronto in un match senza precedenti diretti."
 pubblicato: true
+generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-l-sonego-vs-j-fearnley-vienna-pronostico-analisi.jpg"
 cover_credit: "Jacob Fearnley (2026 US Open) 03 (cropped).jpg | Hameltion | CC BY-SA 4.0"
-generato_il: "2026-10-25T07:30"
 ---
 
 C'è una finale tutta da scoprire ad attendere il pubblico di Vienna, con Lorenzo Sonego e Jacob Fearnley pronti a contendersi il titolo sul **veloce indoor** austriaco. Due giocatori che arrivano all'ultimo atto percorrendo strade molto diverse, accomunati però da un dettaglio che rende il confronto ancora più intrigante: non si sono mai affrontati prima in un match ufficiale registrato in archivio.

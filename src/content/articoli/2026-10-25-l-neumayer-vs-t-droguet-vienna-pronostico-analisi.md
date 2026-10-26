@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi nettamente Droguet: il francese arriva con un mese da tredici vittorie e due titoli recenti a St. Tropez e Cassis, oltre all'unico precedente dalla sua parte, e sembra avere continuità e certezze superiori per alzare il trofeo."
 descrizione: "Finale ATP Vienna tra l'austriaco Neumayer e il francese Droguet: precedenti, forma recente e cammino nel torneo per capire come arrivano i due all'ultimo atto."
 pubblicato: true
-cover_image: "/covers/2026-10-25-l-neumayer-vs-t-droguet-vienna-pronostico-analisi.jpg"
-cover_credit: "David Ferrer (Spain) against Viktor Troicki (Serbia), 2016 Erste Bank Open.jpg | Marián 2 | CC BY-SA 4.0"
 generato_il: "2026-10-25T07:30"
+cover_image: "/covers/2026-10-25-l-neumayer-vs-t-droguet-vienna-pronostico-analisi.jpg"
+cover_credit: "Titouan Droguet (2026 US Open) 01 (cropped).jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 La finale dell'ATP di **Vienna** mette di fronte l'austriaco Lukas Neumayer e il francese Titouan Droguet, due giocatori approdati all'ultimo atto da percorsi diversi ma spinti dalla stessa voglia di chiudere la settimana con un trofeo pesante. Il campo veloce indoor della capitale austriaca fa da cornice a una sfida che arriva al termine di giorni intensi per entrambi.

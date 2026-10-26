@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi la può spuntare Hijikata: ha dalla sua l'unico precedente diretto e la maggiore abitudine recente a giocarsi una finale, dopo quella raggiunta a Tokyo. Margine comunque sottile, Hanfmann è in palla e può trascinarlo al terzo set."
 descrizione: "R. Hijikata e Y. Hanfmann si sfidano nella finale ATP di Basilea sul cemento indoor: precedenti, forma recente e stile a confronto nell'analisi."
 pubblicato: true
-cover_image: "/covers/2026-10-25-r-hijikata-vs-y-hanfmann-basel-pronostico-analisi.jpg"
-cover_credit: "Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
 generato_il: "2026-10-25T07:30"
+cover_image: "/covers/2026-10-25-r-hijikata-vs-y-hanfmann-basel-pronostico-analisi.jpg"
+cover_credit: "Hijikata WMQ23 (53061122002).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 La finale di **Basilea** mette di fronte due giocatori che hanno costruito la loro settimana mattone dopo mattone, arrivando all'ultimo atto del torneo svizzero sul cemento indoor. Da una parte l'australiano R. Hijikata, dall'altra il tedesco Y. Hanfmann: nomi che raramente compaiono in un ultimo atto di questo calibro e che proprio per questo rendono il duello difficile da incasellare in partenza. Entrambi destrimani, entrambi a caccia di un acuto che darebbe peso specifico all'intera stagione.
