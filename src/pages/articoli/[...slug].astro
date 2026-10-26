@@ -101,7 +101,7 @@ const schemaArticle = {
   wordCount: 850,
   inLanguage: 'it-IT',
   isAccessibleForFree: true,
-  mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${site}/articoli/${articolo.slug}` },
   about: [
     { '@type': 'Person', name: g1Display },
     { '@type': 'Person', name: g2Display },
