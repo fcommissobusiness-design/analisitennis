@@ -69,6 +69,12 @@ const siteWeb = {
   <meta name="description" content={descrizione} />
   <link rel="canonical" href={url} />
 
+  <!-- Robots espliciti: autorizziamo thumbnail grandi (Discover + Google News)
+       e snippet piu' lunghi. max-video-preview per quando aggiungeremo video. -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="google-news-publication" content="AnalisiTennis" />
+
   <!-- Favicon multi-format -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />

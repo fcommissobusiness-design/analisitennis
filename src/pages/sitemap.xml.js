@@ -9,7 +9,7 @@ export async function GET(context) {
   const today = new Date().toISOString().split('T')[0];
 
   const statiche = [
-    '', '/chi-siamo', '/contatti', '/privacy', '/cookie',
+    '', '/oggi', '/chi-siamo', '/contatti', '/privacy', '/cookie',
     '/categoria/atp', '/categoria/wta', '/categoria/slam',
     '/categoria/challenger', '/categoria/masters', '/categoria/itf',
     '/giocatori', '/tornei',

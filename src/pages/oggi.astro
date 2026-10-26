@@ -1,0 +1,81 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+// Trova la data piu' recente in archivio e mostra quei match (al build time)
+const latestDate = tutti
+  .map(a => new Date(a.data.data).toISOString().split('T')[0])
+  .sort()
+  .pop();
+const articoli = tutti
+  .filter(a => new Date(a.data.data).toISOString().split('T')[0] === latestDate)
+  .sort((a, b) => a.data.torneo.localeCompare(b.data.torneo));
+
+const site = 'https://analisitennis.it';
+const dataLocale = latestDate ? new Date(latestDate).toLocaleDateString('it-IT', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+}) : '';
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Pronostici tennis ${dataLocale}`,
+  itemListElement: articoli.map((a, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${site}/articoli/${a.slug}`,
+    name: a.data.titolo,
+  })),
+  numberOfItems: articoli.length,
+};
+---
+<Base
+  titolo={`Match di tennis di oggi - Pronostici e analisi del ${dataLocale} - AnalisiTennis`}
+  descrizione={`Tutti i match di tennis del ${dataLocale} analizzati dalla Redazione AnalisiTennis: pronostici, scontri diretti, forma dei giocatori sui tornei ATP, WTA, Challenger.`}
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[
+      { nome: 'Home', url: '/' },
+      { nome: 'Match di oggi' }
+    ]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">
+        {dataLocale}
+      </div>
+      <h1>I match di tennis di oggi</h1>
+      <p>Tutti i match in programma, analizzati uno per uno dalla Redazione: dati, scontri diretti, forma recente, superfici. Il tennis letto nei numeri, mattina per mattina.</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {articoli.length === 0 ? (
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun match analizzato oggi. Torna domani alle 7 del mattino.</p>
+        ) : (
+          <div class="griglia-articoli" style="padding: 0;">
+            {articoli.map(art => (
+              <article class="card-articolo">
+                <div class="eyebrow">{art.data.categoria} - {art.data.torneo} - {art.data.superficie}</div>
+                <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
+                <p class="sottotitolo">{art.data.sottotitolo}</p>
+                <div class="data">
+                  {art.data.giocatore1} vs {art.data.giocatore2}
+                </div>
+              </article>
+            ))}
+          </div>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+</Base>

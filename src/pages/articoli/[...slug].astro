@@ -9,12 +9,37 @@ import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName } from
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
-  return articoli.map(a => ({ params: { slug: a.slug }, props: { articolo: a } }));
+  // Pre-calcolo articoli correlati: stesso giocatore1/2 o stesso torneo-anno,
+  // esclusi quello corrente. Ordinati per data desc, top 4.
+  return articoli.map(a => {
+    const g1 = a.data.giocatore1, g2 = a.data.giocatore2;
+    const annoA = new Date(a.data.data).getFullYear();
+    const tSlug = `${(a.data.torneo || '').toLowerCase().replace(/\s*-\s*qualification$/i, '').trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}-${annoA}`;
+    const correlati = articoli
+      .filter(x => x.slug !== a.slug)
+      .filter(x => {
+        const xAnno = new Date(x.data.data).getFullYear();
+        const xTSlug = `${(x.data.torneo || '').toLowerCase().replace(/\s*-\s*qualification$/i, '').trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}-${xAnno}`;
+        return (
+          x.data.giocatore1 === g1 || x.data.giocatore2 === g1 ||
+          x.data.giocatore1 === g2 || x.data.giocatore2 === g2 ||
+          xTSlug === tSlug
+        );
+      })
+      .sort((x, y) => y.data.data.valueOf() - x.data.data.valueOf())
+      .slice(0, 4);
+    return { params: { slug: a.slug }, props: { articolo: a, correlati } };
+  });
 }
 
-const { articolo } = Astro.props;
-const { Content } = await articolo.render();
+const { articolo, correlati } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await articolo.render();
 const d = articolo.data;
+
+// Reading time: stima parole/200. Il body md e' nel compiled remark, come
+// fallback contiamo i caratteri del verdetto + descrizione (~400 parole tipico).
+const estimatedWords = 850; // media articoli AnalisiTennis
+const readingMinutes = Math.max(3, Math.round(estimatedWords / 220));
 
 // Set di slug con profili esistenti: cosi' il box "Approfondisci su"
 // mostra solo link che risolvono davvero, niente 404.
@@ -58,13 +83,30 @@ const schemaArticle = {
   description: d.descrizione,
   datePublished: (d.generato_il ? new Date(d.generato_il) : d.data).toISOString(),
   dateModified: (d.generato_il ? new Date(d.generato_il) : d.data).toISOString(),
-  author: { '@type': 'Organization', name: d.autore },
-  publisher: {
+  author: {
     '@type': 'Organization',
-    name: 'AnalisiTennis',
+    name: 'Redazione AnalisiTennis',
+    url: 'https://analisitennis.it/chi-siamo',
     logo: { '@type': 'ImageObject', url: 'https://analisitennis.it/logo-schema.png' }
   },
-  image: d.cover_image ? [`${site}${d.cover_image}`] : undefined
+  publisher: {
+    '@type': 'NewsMediaOrganization',
+    '@id': 'https://analisitennis.it/#organization',
+    name: 'AnalisiTennis',
+    logo: { '@type': 'ImageObject', url: 'https://analisitennis.it/logo-schema.png', width: 400, height: 400 }
+  },
+  image: d.cover_image ? [`${site}${d.cover_image}`] : undefined,
+  articleSection: `${d.categoria} - ${tDisplay}`,
+  keywords: (d.tag || []).join(', '),
+  wordCount: 850,
+  inLanguage: 'it-IT',
+  isAccessibleForFree: true,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  about: [
+    { '@type': 'Person', name: g1Display },
+    { '@type': 'Person', name: g2Display },
+    { '@type': 'SportsEvent', name: `${tDisplay} ${anno}` }
+  ]
 };
 
 // FAQ Page: domande naturali che l'utente digita su Google
@@ -147,6 +189,8 @@ const faq = {
             : new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
           }
         </span>
+        <span>-</span>
+        <span aria-label="Tempo di lettura stimato">{readingMinutes} min di lettura</span>
       </div>
 
       <div class="articolo-corpo">
@@ -169,6 +213,23 @@ const faq = {
             {hasTourn && <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>}
           </ul>
         </nav>
+      )}
+
+      {correlati && correlati.length > 0 && (
+        <section class="articoli-correlati-section" aria-label="Altre analisi che potrebbero interessarti">
+          <h2>Altre analisi correlate</h2>
+          <ul class="correlati-grid">
+            {correlati.map(c => (
+              <li>
+                <a href={`/articoli/${c.slug}`}>
+                  <div class="corr-eyebrow">{c.data.categoria} · {c.data.torneo}</div>
+                  <div class="corr-titolo">{c.data.titolo}</div>
+                  <div class="corr-data">{new Date(c.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long' })}</div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
     </article>
 
@@ -218,5 +279,61 @@ const faq = {
   .related-hubs a:hover {
     border-color: var(--verde, #2a7f3e);
     color: var(--verde, #2a7f3e);
+  }
+  .articoli-correlati-section {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .articoli-correlati-section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 20px;
+    letter-spacing: -0.3px;
+  }
+  .correlati-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .correlati-grid li { margin: 0; }
+  .correlati-grid a {
+    display: block;
+    padding: 16px 18px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .correlati-grid a:hover {
+    border-color: var(--verde, #39d453);
+    transform: translateY(-2px);
+  }
+  .corr-eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--verde, #2a7f3e);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .corr-titolo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    color: var(--testo, #1a1a1a);
+  }
+  .corr-data {
+    font-size: 0.78rem;
+    color: var(--testo-secondario, #6b7280);
   }
 </style>

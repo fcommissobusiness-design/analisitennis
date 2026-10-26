@@ -5,12 +5,62 @@ import { getCollection } from 'astro:content';
 
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf()).slice(0, 30);
+
+// FAQ Page schema per rich snippet su query "analisitennis" o "come funziona analisitennis"
+const faqHome = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Cosa è AnalisiTennis?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'AnalisiTennis è una testata editoriale italiana indipendente che pubblica analisi quotidiane sulle partite del circuito ATP, WTA, Slam e Challenger. Ogni articolo è firmato dalla Redazione e combina dati, scontri diretti, forma recente e letture tattiche per raccontare un match prima che sia giocato.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Quando pubblicate i pronostici?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Pubblichiamo le nostre analisi ogni mattina intorno alle ore 07:30, in modo da offrire la lettura dei match della giornata prima dei primi incontri. L\'orario di pubblicazione è visibile su ogni articolo.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Dove trovo i match analizzati oggi?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Nella sezione "Oggi" del menu principale trovi la raccolta aggiornata di tutti i match analizzati nella giornata corrente. Puoi anche navigare per categoria (ATP, WTA, Slam, Challenger), per giocatore o per torneo.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'I vostri pronostici sono scommesse?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. AnalisiTennis è una testata editoriale: pubblichiamo pronostici sportivi come fa qualunque giornale sportivo. Non trattiamo quote, non promuoviamo bookmaker, non diamo consigli di scommessa. Il nostro verdetto è una lettura autoriale del match.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Come posso ricevere le analisi via email?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Nel modulo "Iscriviti al nostro blog" presente su ogni pagina lasci nome ed email. Riceverai una email ogni volta che pubblichiamo una nuova analisi. Niente spam, un click per disiscriverti.'
+      }
+    }
+  ]
+};
 ---
 <Base
   titolo="AnalisiTennis - Il tennis letto nei numeri"
   descrizione="Analisi autoriali quotidiane sulle partite di tennis ATP, WTA, Slam e Challenger. Il tennis letto nei numeri, firmato dalla Redazione AnalisiTennis."
   immagine="/og-default.png"
 >
+  <script type="application/ld+json" set:html={JSON.stringify(faqHome)} />
+
   <section class="homepage-hero">
     <h1>Il <span class="verde">tennis</span> letto nei numeri</h1>
     <p>Analisi autoriali quotidiane sulle partite piu' attese del circuito ATP, WTA e Challenger. Dati, contesto, letture tattiche.</p>
