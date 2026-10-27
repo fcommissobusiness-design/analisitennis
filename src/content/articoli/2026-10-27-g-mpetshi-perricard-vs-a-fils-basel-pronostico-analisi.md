@@ -21,7 +21,7 @@ descrizione: "Mpetshi Perricard e Fils si affrontano al primo turno di Basilea s
 pubblicato: true
 cover_image: "/covers/2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi.jpg"
 cover_credit: "Arthur Fils - 2024 Olympics (forehand).jpg | Kuberzog | CC BY-SA 4.0"
-generato_il: "2026-10-27T12:20"
+generato_il: "2026-10-27T12:23"
 ---
 
 Il turno d'apertura dell'appuntamento indoor di Basilea mette di fronte due rappresentanti del tennis francese, Giovanni Mpetshi Perricard e Arthur Fils, in una sfida che unisce profili e generazioni differenti dello stesso movimento. Sul veloce al coperto, dove il rimbalzo basso e la rapidità degli scambi premiano chi riesce a imporre il proprio ritmo fin dai primi colpi, l'incrocio promette intensità e pochi tempi morti. Due giocatori che si conoscono bene e che hanno già condiviso il campo in passato, pronti a ritrovarsi su una superficie che esalta le qualità di entrambi.

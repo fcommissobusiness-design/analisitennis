@@ -21,7 +21,7 @@ descrizione: "Zverev e Landaluce si affrontano per la prima volta al primo turno
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi.jpg"
 cover_credit: "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20691907103).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
-generato_il: "2026-10-27T12:21"
+generato_il: "2026-10-27T12:23"
 ---
 
 Il torneo di **Vienna**, tra gli appuntamenti indoor piu' prestigiosi del finale di stagione, propone a questo turno un confronto inedito. Alexander Zverev e Martin Landaluce non si sono mai affrontati sul circuito, e il loro incrocio sul **veloce al coperto** della capitale austriaca mette di fronte due anagrafi e due percorsi molto diversi, accomunati pero' dalla voglia di chiudere al meglio un 2026 lungo e dispendioso.

@@ -21,7 +21,7 @@ descrizione: "C. Norrie e F. Cerundolo si sfidano al primo turno di Vienna: prec
 pubblicato: true
 cover_image: "/covers/2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi.jpg"
 cover_credit: "Francisco Cerundolo - Wimbledon 2022 (12).jpg | jmmuguerza | CC BY-SA 3.0"
-generato_il: "2026-10-27T12:20"
+generato_il: "2026-10-27T12:23"
 ---
 
 Vienna accende i riflettori su un match di primo turno che di anonimo ha ben poco. C. Norrie e F. Cerundolo si ritrovano uno di fronte all'altro per la quarta volta in carriera, e lo fanno in un momento della stagione in cui entrambi cercano conferme sul cemento indoor austriaco. Due stili diversi, due percorsi recenti che raccontano storie quasi opposte, un confronto che porta con sé il peso dei **precedenti** e la voglia di chiudere l'annata nel modo giusto.

@@ -21,7 +21,7 @@ descrizione: "Mannarino contro Buse al primo turno di Vienna sul veloce indoor: 
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi.jpg"
 cover_credit: "Adrian Mannarino at the 2010 US Open 01.jpg | Robbie Mendelson | CC BY-SA 2.0"
-generato_il: "2026-10-27T12:20"
+generato_il: "2026-10-27T12:23"
 ---
 
 Il torneo di **Vienna** riporta sul veloce indoor due giocatori che si sono già affrontati, ma che arrivano all'appuntamento con traiettorie molto diverse. Adrian Mannarino, mancino francese dal tennis piatto e radente, incrocia Ignacio Buse, giovane peruviano cresciuto soprattutto sui campi in cemento della stagione nordamericana. Il primo turno del tabellone mette di fronte esperienza e gioventù in una cornice, quella della capitale austriaca, che storicamente premia chi sa accorciare lo scambio e colpire presto.

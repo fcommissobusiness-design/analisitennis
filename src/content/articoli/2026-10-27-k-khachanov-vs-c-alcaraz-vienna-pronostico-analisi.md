@@ -21,7 +21,7 @@ descrizione: "Khachanov sfida Alcaraz al primo turno di Vienna sul cemento indoo
 pubblicato: true
 cover_image: "/covers/2026-10-27-k-khachanov-vs-c-alcaraz-vienna-pronostico-analisi.jpg"
 cover_credit: "Carlos Alcaraz - Roland Garros 2025 - serving.jpg | Kuberzog | CC BY-SA 4.0"
-generato_il: "2026-10-27T12:20"
+generato_il: "2026-10-27T12:23"
 ---
 
 Il primo turno del torneo di **Vienna** mette subito di fronte due giocatori che si conoscono a memoria. Karen Khachanov e Carlos Alcaraz tornano l'uno contro l'altro sul cemento indoor della capitale austriaca a pochi mesi dall'ultimo incrocio.

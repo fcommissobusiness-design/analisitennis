@@ -21,7 +21,7 @@ descrizione: "Michelsen e Van De Zandschulp di nuovo di fronte a Basel a poche s
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi.jpg"
 cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
-generato_il: "2026-10-27T12:20"
+generato_il: "2026-10-27T12:23"
 ---
 
 Il sorteggio di **Basel** propone già al primo turno un confronto dal sapore di rivincita immediata. Alex Michelsen e Botic van de Zandschulp tornano uno di fronte all'altro sul **veloce indoor** svizzero ad appena diciassette giorni dalla loro ultima sfida, in un incrocio tra due giocatori che hanno attraversato un autunno fittissimo di appuntamenti sul cemento di mezzo mondo. Entrambi arrivano con sensazioni contrastanti e con la voglia di dare una svolta alla parte finale della propria stagione.

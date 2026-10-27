@@ -21,7 +21,7 @@ descrizione: "Davidovich Fokina sfida Bergs al primo turno di Basilea: forma, st
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi.jpg"
 cover_credit: "Alejandro Davidovich Fokina, Swiss Indoors Basel.jpg | Peter Arnold | CC BY-SA 4.0"
-generato_il: "2026-10-27T12:19"
+generato_il: "2026-10-27T12:23"
 ---
 
 Il tabellone di Basilea mette di fronte due giocatori che arrivano all'appuntamento da percorsi autunnali molto diversi, ma entrambi con la sensazione di aver lasciato il segno nelle ultime settimane. Alejandro **Davidovich Fokina** e Zizou **Bergs** si affrontano al primo turno del torneo svizzero, sul veloce indoor, in una sfida che porta con sé la particolarità di essere un confronto completamente nuovo.
