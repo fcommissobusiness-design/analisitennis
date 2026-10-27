@@ -12,7 +12,14 @@ const {
   tipo = 'website'
 } = Astro.props;
 
-const url = canonical || new URL(Astro.url.pathname, Astro.site).href;
+// Astro con build.format: 'file' (default per Cloudflare Pages) genera
+// pagine con estensione .html nel pathname. Google interpreta .html come
+// URL diversa da quella pulita, e se Cloudflare serve entrambe le vede
+// come duplicate con canonical che punta a una delle due.
+// Strippiamo .html dal canonical cosi' punta sempre alla versione pulita
+// che il server effettivamente serve agli utenti.
+const cleanPathname = Astro.url.pathname.replace(/\.html$/, '');
+const url = canonical || new URL(cleanPathname, Astro.site).href;
 const ogImage = immagine
   ? (immagine.startsWith('http') ? immagine : new URL(immagine, Astro.site).href)
   : new URL('/og-default.png', Astro.site).href;
