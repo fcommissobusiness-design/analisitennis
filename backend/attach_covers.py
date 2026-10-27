@@ -126,7 +126,10 @@ VENUE_MAP = {
     'Vienna': 'Wiener Stadthalle',
     'Brussels': 'Palais 12 Bruxelles',
     'Tokyo': 'Ariake Tennis Center',
-    'Guangzhou': 'Shameen Tennis Ground',
+    # NB: "Shameen Tennis Ground" su Commons e' in realta' una foto di
+    # strada di Shamian Island, non un campo. Usiamo il vero impianto del
+    # torneo (Guangzhou International Tennis Center) + fallback generico.
+    'Guangzhou': 'Guangzhou International Tennis Center',
     'Almaty': 'Almaty Arena',
     'Ningbo': 'Ningbo Yinzhou Tennis Center',
     'Lyon (France) - Qualification': 'Palais des Sports Lyon tennis',
@@ -143,6 +146,21 @@ VENUE_MAP = {
     'Lisboa': 'Estoril Open tennis',
     'Cali (Colombia)': 'Nalbandian tennis Colombia',
 }
+
+# File specifici di Commons noti come NON pertinenti ma che superano le
+# euristiche title-based (es. contengono "tennis ground" ma ritraggono una
+# strada). Match su sottostringa del titolo, minuscolo. Ampliabile a mano
+# quando l'audit visivo scopre un falso positivo ricorrente.
+BAD_FILE_SUBSTR = (
+    'shameen tennis ground',   # strada di Shamian Island, non un campo
+    'shamian',
+    'organisateurs',           # Open Brest 2016: foto dei dirigenti, non match
+    'finale moutet',           # Open Brest 2017: cerimonia premiazione juniores
+    'tereza valentova fo',     # premiazione juniores, non foto d'azione
+    'president marcos',        # cerimonia politica (Eala premiata dal governo)
+    'hails alex eala',         # stessa cerimonia politica
+    'tianhe stadium',          # stadio di CALCIO di Guangzhou, non tennis
+)
 
 BLOCK_WORDS = (
     'portrait', 'closeup', 'close_up', 'close-up', 'headshot', 'face', 'passport',
@@ -264,6 +282,8 @@ def commons_search(query: str, limit=15):
         title = p.get('title', '').lower()
         if any(w in title for w in BLOCK_WORDS):
             continue
+        if any(w in title for w in BAD_FILE_SUBSTR):
+            continue
         if info.get('width', 0) < 600:
             continue
         em = info.get('extmetadata') or {}
@@ -317,11 +337,15 @@ def _rank(result):
     return score
 
 
-def pick_image(name_full: str):
+def pick_image(name_full: str, slug_hint: str = ''):
     """Cerca su Commons. Ritorna una foto solo se contesto chiaro:
        - cognome + nome entrambi nel titolo, oppure
        - cognome + contesto tennis
        Ranking: foto d'azione pura > generiche, scena allargata depenalizzata.
+    slug_hint: quando passato, varia la scelta tra i migliori candidati di
+    pari qualita' in modo deterministico, cosi' due articoli sullo stesso
+    giocatore (es. due match di Hurkacz nello stesso giorno) non ricevono
+    la stessa identica foto.
     """
     parts = name_full.split()
     last = parts[-1].lower()
@@ -354,6 +378,14 @@ def pick_image(name_full: str):
     if not pool:
         return None
     pool.sort(key=_rank, reverse=True)
+    # Variazione deterministica tra i top candidati di pari rango, cosi'
+    # articoli diversi sullo stesso giocatore prendono foto diverse.
+    if slug_hint and len(pool) > 1:
+        top_rank = _rank(pool[0])
+        tied = [r for r in pool if _rank(r) >= top_rank - 10][:5]
+        if len(tied) > 1:
+            idx = int(hashlib.md5(slug_hint.encode()).hexdigest(), 16) % len(tied)
+            return tied[idx]
     return pool[0]
 
 
@@ -470,11 +502,17 @@ def pick_venue(torneo: str, slug_hint: str = ''):
             best_fallback = results[0]
     # Fallback universale: foto generica di campo da tennis professionale
     # per garantire che ogni articolo abbia una cover coerente col tema.
+    # Variazione per-slug cosi' piu' articoli dello stesso torneo senza
+    # venue proprio su Commons non ricevano la stessa identica foto.
     for query in ('ATP tennis court professional', 'tennis court outdoor professional',
                   'tennis stadium center court'):
         results = commons_search(query)
         results = [r for r in results if _looks_tennis(r['title']) and _is_venue_photo(r['title'])]
         if results:
+            if slug_hint and len(results) > 1:
+                pool = results[:6]
+                idx = int(hashlib.md5(slug_hint.encode()).hexdigest(), 16) % len(pool)
+                return pool[idx]
             return results[0]
     return best_fallback
 
@@ -485,6 +523,15 @@ def download(url: str, dest: Path):
     with open(dest, 'wb') as f:
         for chunk in r.iter_content(1024 * 64):
             f.write(chunk)
+    # Ridimensiona SUBITO a misura web: Commons serve file originali da
+    # 9000+ px e 10-18 MB. Senza questo la cover sembra "rotta" (si scarica
+    # in secondi e intanto la card mostra l'alt-text). Fonte unica della
+    # regola: cover_image_utils.ensure_web_size.
+    try:
+        from cover_image_utils import ensure_web_size
+        ensure_web_size(dest)
+    except Exception as e:
+        print(f'  [warn] resize cover fallito {dest.name}: {e}', flush=True)
 
 
 def slug_of(path: Path) -> str:
@@ -506,8 +553,12 @@ def update_frontmatter(path: Path, cover_rel: str, credit: str):
     body = lines[starts[1] + 1:]
     # rimuovi vecchi cover_image / cover_credit se presenti
     fm_lines = [l for l in fm_lines if not l.startswith('cover_image:') and not l.startswith('cover_credit:')]
-    fm_lines.append(f'cover_image: "{cover_rel}"')
-    fm_lines.append(f'cover_credit: "{credit}"')
+    # Sanifica: alcuni titoli Commons contengono virgolette doppie (es.
+    # Ice Palace "Almaty Arena".jpg) che romperebbero la stringa YAML.
+    safe_credit = (credit or '').replace('"', "'")
+    safe_rel = (cover_rel or '').replace('"', "'")
+    fm_lines.append(f'cover_image: "{safe_rel}"')
+    fm_lines.append(f'cover_credit: "{safe_credit}"')
     new = ['---'] + fm_lines + ['---'] + body
     path.write_text('\n'.join(new) + ('\n' if raw.endswith('\n') else ''))
     return True

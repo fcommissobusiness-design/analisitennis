@@ -21,7 +21,7 @@ descrizione: "A Basilea Ben Shelton e Aleksandar Kovacevic si ritrovano sul ceme
 pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi.jpg"
-cover_credit: "Jakobsarena Publikum - IMG 20231105 083846.jpg | RouteMedia | CC BY-SA 4.0"
+cover_credit: "Kovacevic WMQ23 (53062093080).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 Il cemento indoor di **Basilea** riporta in scena un confronto che affonda le radici in un passato ormai lontano. Ben Shelton e Aleksandar Kovacevic, entrambi statunitensi, si ritrovano nel tabellone del torneo svizzero in un match che mette a confronto storie recenti molto diverse e un filo comune fatto di cinque incroci precedenti. Arrivano all'appuntamento con sensazioni distinte, ed è proprio questo contrasto a rendere la sfida curiosa da seguire, al di là dei nomi in campo.

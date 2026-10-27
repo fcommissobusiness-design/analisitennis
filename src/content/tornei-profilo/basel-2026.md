@@ -20,6 +20,8 @@ tag:
   - "cemento indoor"
 pubblicato: true
 generato_il: "2026-10-25T11:59"
+cover_image: "/covers/tornei/basel-2026.jpg"
+cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 ---
 
 ## La storia

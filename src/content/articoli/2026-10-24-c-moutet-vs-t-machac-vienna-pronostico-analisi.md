@@ -20,7 +20,7 @@ verdetto: "Oggi la puo' spuntare Moutet: l'unico precedente, vinto a Miami per 2
 descrizione: "Moutet contro Machac nella semifinale di Vienna: forma recente, precedenti e stili a confronto in una sfida sul veloce indoor tutta da leggere."
 pubblicato: true
 cover_image: "/covers/2026-10-24-c-moutet-vs-t-machac-vienna-pronostico-analisi.jpg"
-cover_credit: "Open Brest Arena 2017 - finale Moutet-Tsitsipas 65 (cropped).jpg | Kergourlay | CC BY-SA 4.0"
+cover_credit: "Corentin Moutet (45135594272).jpg | Carine06 from UK | CC BY-SA 2.0"
 ---
 
 La semifinale di **Vienna** mette di fronte Corentin Moutet e Tomas Machac, due giocatori che arrivano all'appuntamento con percorsi stagionali tutt'altro che lineari e con la voglia di trasformare una settimana positiva in qualcosa di concreto. Sul veloce indoor della capitale austriaca, superficie rapida che premia chi riesce a imporre ritmo fin dal primo scambio, il confronto promette equilibrio e nervi tesi, perche' nessuno dei due si presenta con la certezza di un periodo di forma pienamente consolidato.

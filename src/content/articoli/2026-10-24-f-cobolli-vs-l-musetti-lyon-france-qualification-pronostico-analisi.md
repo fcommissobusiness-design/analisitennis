@@ -20,7 +20,7 @@ verdetto: "Oggi la puo' spuntare Musetti: il rendimento recente appare leggermen
 descrizione: "Cobolli contro Musetti nella semifinale di Lione: analizziamo forma recente, precedenti e momento di stagione dei due azzurri in un derby apertissimo."
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-cobolli-vs-l-musetti-lyon-france-qualification-pronostico-analisi.jpg"
-cover_credit: "Sainte-Foy-lès-Lyon - Tennis Club Chavril, court de tennis 1 (fév 2025).jpg | Sebleouf | CC BY-SA 4.0"
+cover_credit: "ATP Challenger Tour Tournaments (51748767809).jpg | Chris Czermak | CC BY 2.0"
 ---
 
 Lione mette in cartellone una semifinale tutta italiana: **Flavio Cobolli** e **Lorenzo Musetti** si affrontano con in palio un posto nell'ultimo atto del torneo. Due cammini differenti che si incontrano nello stesso punto del tabellone, in una giornata che promette intensita', qualita' tecnica e una buona dose di orgoglio nazionale.

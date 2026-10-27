@@ -21,7 +21,7 @@ descrizione: "Finale ATP Basilea tra Mika Brunold e Remy Bertola: percorsi, prec
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-m-brunold-vs-r-bertola-basel-pronostico-analisi.jpg"
-cover_credit: "Jakobsarena Publikum - IMG 20231105 083846.jpg | RouteMedia | CC BY-SA 4.0"
+cover_credit: "Rémy Bertola (2026 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 La finale dell'ATP di Basilea mette di fronte due giocatori svizzeri, Mika **Brunold** e Remy **Bertola**, in un atto conclusivo tutto elvetico che chiude la settimana sul **veloce indoor**. Entrambi arrivano all'ultimo ostacolo dopo un torneo costruito partita dopo partita, e il confronto promette equilibrio per ragioni diverse, con due storie recenti che si sono incrociate solo di sfuggita.

@@ -20,6 +20,8 @@ tag:
   - "torneo Vienna 2026"
 pubblicato: true
 generato_il: "2026-10-25T12:06"
+cover_image: "/covers/tornei/vienna-2026.jpg"
+cover_credit: "Wiener Stadthalle 2013 Halle F Halle D b.jpg | Manfred Werner - Tsui | CC BY-SA 3.0"
 ---
 
 ## La storia

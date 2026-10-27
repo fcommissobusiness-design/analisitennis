@@ -48,9 +48,16 @@ const itemList = {
             {tornei.map(t => (
               <li class="hub-card">
                 <a href={`/tornei/${t.slug_profilo}`}>
-                  <div class="hub-nome">{t.nome} {t.anno}</div>
-                  <div class="hub-meta">
-                    {t.citta}{t.superficie ? ` · ${t.superficie}` : ''}
+                  {t.cover_image && (
+                    <div class="hub-cover">
+                      <img src={t.cover_image} alt={`${t.nome} ${t.anno}`} loading="lazy" decoding="async" width="440" height="200" />
+                    </div>
+                  )}
+                  <div class="hub-body">
+                    <div class="hub-nome">{t.nome} {t.anno}</div>
+                    <div class="hub-meta">
+                      {t.citta}{t.superficie ? ` · ${t.superficie}` : ''}
+                    </div>
                   </div>
                 </a>
               </li>
@@ -73,18 +80,30 @@ const itemList = {
   }
   .hub-card a {
     display: block;
-    padding: 16px 18px;
     background: var(--sfondo-card, #fff);
     border: 1px solid var(--linea, #e5e5e5);
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
+    overflow: hidden;
     transition: border-color 0.15s, transform 0.15s;
   }
   .hub-card a:hover {
     border-color: var(--verde, #39d453);
     transform: translateY(-2px);
   }
+  .hub-cover {
+    aspect-ratio: 22 / 10;
+    background: #e9eef2;
+    overflow: hidden;
+  }
+  .hub-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .hub-body { padding: 14px 16px; }
   .hub-nome { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }
   .hub-meta { font-size: 0.82rem; color: var(--testo-secondario, #6b7280); }
 </style>

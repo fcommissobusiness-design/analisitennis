@@ -20,6 +20,8 @@ tag:
   - "torneo Ningbo 2026"
 pubblicato: true
 generato_il: "2026-10-25T12:05"
+cover_image: "/covers/tornei/ningbo-2026.jpg"
+cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 05.jpg | Cz4523 | CC BY-SA 4.0"
 ---
 
 ## La storia

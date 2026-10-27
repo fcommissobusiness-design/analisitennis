@@ -20,6 +20,8 @@ tag:
   - "terra rossa"
 pubblicato: true
 generato_il: "2026-10-25T12:04"
+cover_image: "/covers/tornei/lyon-france-2026.jpg"
+cover_credit: "Olympic Tennis Center-Centro Olímpico da Barra.jpg | Mariana Pires23 | CC BY-SA 4.0"
 ---
 
 ## La storia

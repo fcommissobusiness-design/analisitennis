@@ -21,7 +21,7 @@ descrizione: "Rune e Halys si affrontano al primo turno di Basel sul veloce indo
 pubblicato: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi.jpg"
-cover_credit: "Jakobsarena Publikum - IMG 20231104 113953.jpg | RouteMedia | CC BY-SA 4.0"
+cover_credit: "Holger Rune practicing 2019.png | Wewanttogotoaworld | CC BY-SA 4.0"
 ---
 
 C'è qualcosa di familiare nel sorteggio che al primo turno di **Basel** mette di fronte Holger Rune e Quentin Halys. Il danese e il francese si conoscono bene, avendo già incrociato le racchette in due occasioni sui palcoscenici più prestigiosi del circuito, ma mai prima d'ora sul cemento al coperto della Svizzera. Il torneo elvetico, giocato indoor su una superficie rapida, aggiunge così una variabile inedita a una rivalità che finora ha regalato spettacolo.

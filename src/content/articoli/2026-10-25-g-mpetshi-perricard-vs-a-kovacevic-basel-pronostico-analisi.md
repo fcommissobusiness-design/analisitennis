@@ -21,7 +21,7 @@ descrizione: "Mpetshi Perricard e Kovacevic si giocano il titolo di Basilea sul 
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-g-mpetshi-perricard-vs-a-kovacevic-basel-pronostico-analisi.jpg"
-cover_credit: "Jakobsarena Publikum - IMG 20231105 084045.jpg | RouteMedia | CC BY-SA 4.0"
+cover_credit: "Giovanni Mpetshi Perricard (2023 US Open) 02 (cropped).jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 La settimana di Basilea si chiude con un ultimo atto che mette di fronte **G. Mpetshi Perricard** e **A. Kovacevic**, due giocatori arrivati alla finale lungo strade differenti ma animati dallo stesso obiettivo. Il cemento indoor svizzero fa da cornice a una sfida ricca di spunti, perche' i due si conoscono bene e si sono gia' incrociati nel corso di questa stagione, dividendosi la posta in palio.

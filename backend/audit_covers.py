@@ -35,6 +35,7 @@ from attach_covers import (
     detect_winner, pick_image, pick_venue, download, strip_html,
     parse_frontmatter, update_frontmatter, _looks_tennis, _is_venue_photo,
 )
+from cover_image_utils import ensure_web_size, needs_resize
 import hashlib
 from collections import defaultdict
 
@@ -180,7 +181,7 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
     if fav and conf != 'equilibrio':
         full = NAME_MAP.get(fav)
         if full:
-            pick = pick_image(full)
+            pick = pick_image(full, slug_hint=slug)
     if not pick:
         # Passa lo slug cosi' articoli diversi dello stesso torneo
         # ricevono venue photos DIVERSE (anti-duplicato).
@@ -280,6 +281,24 @@ def main():
 
     # Scan duplicati su TUTTI gli articoli (indipendentemente dal filtro date)
     dup_flags = _audit_duplicates(articoli)
+
+    # Gate PESO: normalizza ogni cover a misura web PRIMA dell'audit. E'
+    # idempotente (no-op se gia' sotto 1600px e 400KB), quindi gira sempre,
+    # anche senza --fix: una cover pertinente ma da 15 MB non deve mai
+    # arrivare online. Le cover appena scaricate da download() sono gia'
+    # ridotte; questo cattura i file storici o quelli reintrodotti a mano.
+    for art in articoli:
+        fm, _ = parse_frontmatter(art)
+        if not fm:
+            continue
+        cover_rel = (fm.get('cover_image') or '').lstrip('/')
+        if not cover_rel:
+            continue
+        cf = ROOT / 'public' / cover_rel
+        if cf.exists() and needs_resize(cf):
+            res = ensure_web_size(cf)
+            if res.get('ok'):
+                print(f'  [RESIZE] {cf.name}: {res.get("before")} -> {res.get("after")}', flush=True)
 
     results = []
     problems = 0

@@ -20,6 +20,8 @@ tag:
   - "Novak Djokovic Almaty"
 pubblicato: true
 generato_il: "2026-10-25T11:58"
+cover_image: "/covers/tornei/almaty-2026.jpg"
+cover_credit: "Ice Palace 'Almaty Arena'.jpg | МаратД | CC BY-SA 4.0"
 ---
 
 ## La storia

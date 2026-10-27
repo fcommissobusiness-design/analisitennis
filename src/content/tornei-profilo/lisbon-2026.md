@@ -20,6 +20,8 @@ tag:
   - "profilo torneo"
 pubblicato: true
 generato_il: "2026-10-25T12:03"
+cover_image: "/covers/tornei/lisbon-2026.jpg"
+cover_credit: "Jimmy C. Lunsford Tennis Center.jpg | Kreeder13 | CC BY-SA 4.0"
 ---
 
 ## La storia

@@ -105,6 +105,14 @@ python3 write_article.py "selected_${OGGI}.json" "analyses" 2>&1 | tee -a "$LOG"
 log_section "[4-bis/5] Audit cover articoli (corregge sfasamenti)"
 python3 audit_covers.py --fix --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
 
+# 4-ter. Gate di PERTINENZA VISIVO: guarda davvero ogni cover del giorno
+# (non solo il titolo del file) con claude vision. Bocciature -> rigenera
+# e ri-controlla. Cio' che resta non pertinente finisce in cover_vet.json
+# per revisione manuale. Non blocca la pipeline. Controlla anche che le
+# dimensioni siano a misura web (il resize e' gia' dentro download()/audit).
+log_section "[4-ter/5] Gate pertinenza visivo cover (claude vision)"
+python3 vet_covers.py --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
@@ -112,7 +120,14 @@ cd "$HOME/analisitennis"
 # nuovi vengono pushati senza l'immagine di cover e sul sito le foto
 # appaiono broken (404). Il --fix dell'audit cover ha rigenerato
 # eventuali immagini sfasate e vanno committate anche quelle.
-git add src/content/articoli/*.md public/covers/*.jpg 2>&1 | tee -a "$LOG" || true
+# Committa articoli, profili (giocatori + tornei) e TUTTE le cover in modo
+# ricorsivo (public/covers/ include anche public/covers/tornei/*.jpg, le
+# immagini dell'elenco tornei). Senza il path ricorsivo le cover dei tornei
+# resterebbero fuori dal deploy e le card apparirebbero senza immagine.
+git add src/content/articoli/*.md \
+        src/content/tornei-profilo/*.md \
+        src/content/giocatori-profilo/*.md \
+        public/covers/ 2>&1 | tee -a "$LOG" || true
 if git diff --cached --quiet; then
     log "Nessun nuovo articolo da pubblicare oggi."
 else

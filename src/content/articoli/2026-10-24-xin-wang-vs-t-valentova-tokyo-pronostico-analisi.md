@@ -20,7 +20,7 @@ verdetto: "Oggi la può spuntare Valentova: arriva con un bilancio positivo e ha
 descrizione: "Xinyu Wang e Tereza Valentova si sfidano per la prima volta nella semifinale WTA di Tokyo: forma recente, numeri di stagione e stili di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-24-xin-wang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
-cover_credit: "Tereza Valentova FO.jpg | Profesorreen | CC BY-SA 4.0"
+cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
 ---
 
 La semifinale del torneo WTA di **Tokyo** mette di fronte due giocatrici che arrivano all'appuntamento percorrendo strade molto diverse. Da una parte Xinyu Wang, cinese di consolidata esperienza nel circuito maggiore; dall'altra Tereza Valentova, ceca protagonista in questa stagione di una crescita costante. Un dettaglio rende la sfida ancora più intrigante: le due non si sono mai incontrate prima d'ora.

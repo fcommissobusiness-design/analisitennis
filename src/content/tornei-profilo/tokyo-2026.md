@@ -20,6 +20,8 @@ tag:
   - "tornei autunno"
 pubblicato: true
 generato_il: "2026-10-25T12:06"
+cover_image: "/covers/tornei/tokyo-2026.jpg"
+cover_credit: "Tokyo 2020 Olympics in Ariake, tennis center court.jpg | Syced | CC0"
 ---
 
 ## La storia

@@ -21,7 +21,7 @@ descrizione: "Freire Da Silva e Ursu si giocano un posto nella finale di Brest: 
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-a-freire-da-silva-vs-v-ursu-brest-pronostico-analisi.jpg"
-cover_credit: "Open Brest Arena 2016 - organisateurs.jpg | Kergourlay | CC BY-SA 4.0"
+cover_credit: "ATP Challenger Tour Tournaments (51748767809).jpg | Chris Czermak | CC BY 2.0"
 ---
 
 Il penultimo atto del Challenger di **Brest** mette di fronte A. Freire Da Silva e V. Ursu, due giocatori arrivati alla semifinale percorrendo strade piuttosto diverse nelle settimane che hanno preceduto l'appuntamento. Nessuno dei due si presenta con l'etichetta del favorito annunciato, e proprio per questo la sfida di oggi, 25 ottobre, si presta a una lettura attenta più che a conclusioni affrettate.

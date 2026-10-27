@@ -272,9 +272,45 @@ def generate_tournament_profile(raw_name: str, year: int, overwrite: bool = Fals
         'pubblicato': True,
         'generato_il': _now_rome().strftime('%Y-%m-%dT%H:%M'),
     }
+    # Cover: foto impianto/campo del torneo, mostrata nell'elenco /tornei.
+    # "Aggiornato di volta in volta": ogni nuovo torneo trattato riceve
+    # subito la sua cover (resize web dentro download()).
+    rel, credit = _tournament_cover(raw_name, fm['nome'], slug)
+    if rel:
+        fm['cover_image'] = rel
+        fm['cover_credit'] = credit
     _write_frontmatter(dest, fm, data.get('corpo_markdown') or '')
     print(f'[tournament] scritto {dest.name}')
     return dest
+
+
+def _tournament_cover(raw_name: str, nome: str, slug: str):
+    """Scarica una cover venue per il torneo in public/covers/tornei/<slug>.jpg.
+    Ritorna (rel_path, credit) o (None, None) se non trova nulla."""
+    try:
+        from attach_covers import pick_venue, download, strip_html
+        tdir = ROOT / 'public' / 'covers' / 'tornei'
+        tdir.mkdir(parents=True, exist_ok=True)
+        pick = None
+        for key in (raw_name, nome):
+            if not key:
+                continue
+            pick = pick_venue(key, slug_hint='torneo-' + slug)
+            if pick:
+                break
+        if not pick:
+            return None, None
+        dest = tdir / f'{slug}.jpg'
+        download(pick['url'], dest)
+        credit = (f"{pick['title'].replace('File:', '')} | "
+                  f"{strip_html(pick.get('author') or 'Autore sconosciuto')} | "
+                  f"{pick.get('license') or 'Wikimedia Commons'}")
+        # Virgolette doppie nei titoli Commons romperebbero lo YAML.
+        credit = credit.replace('"', "'")
+        return f'/covers/tornei/{slug}.jpg', credit
+    except Exception as e:
+        print(f'[tournament] cover errore: {e}')
+        return None, None
 
 
 def ensure_profiles_for_match(p1: str, p2: str, torneo: str, data: str):

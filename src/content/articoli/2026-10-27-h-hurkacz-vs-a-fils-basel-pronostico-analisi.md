@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi la puo' spuntare Hurkacz: sul cemento indoor il suo servizio pesa di piu' e arriva da settimane in cui ha regolato avversari di primissima fascia. Fils ha pero' gamba e dritto per trascinarla al terzo set."
 descrizione: "Hurkacz contro Fils ai sedicesimi di Basel: due giocatori in forma al primo confronto sul cemento indoor svizzero. Analisi di forma, stili e possibili scenari."
 pubblicato: true
+generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-h-hurkacz-vs-a-fils-basel-pronostico-analisi.jpg"
 cover_credit: "Hubi Hurkacz (2023 DC Open) 01.jpg | Hameltion | CC BY-SA 4.0"
-generato_il: "2026-10-27T12:23"
 ---
 
 Il tabellone indoor di **Basel** mette di fronte due giocatori in piena salute di risultati: il polacco Hubert Hurkacz e il francese Arthur Fils si presentano ai sedicesimi con ruolini di marcia quasi sovrapponibili e con la voglia di sfruttare un campo veloce che premia chi sa prendere l'iniziativa. Si tratta del loro primo incrocio sul circuito, un dettaglio che aggiunge un pizzico di incognita a una sfida gia' di per se' tutta da decifrare.
