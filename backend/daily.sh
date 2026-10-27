@@ -108,7 +108,11 @@ python3 audit_covers.py --fix --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
-git add src/content/articoli/*.md 2>&1 | tee -a "$LOG" || true
+# IMPORTANTE: committare anche public/covers/*.jpg altrimenti gli articoli
+# nuovi vengono pushati senza l'immagine di cover e sul sito le foto
+# appaiono broken (404). Il --fix dell'audit cover ha rigenerato
+# eventuali immagini sfasate e vanno committate anche quelle.
+git add src/content/articoli/*.md public/covers/*.jpg 2>&1 | tee -a "$LOG" || true
 if git diff --cached --quiet; then
     log "Nessun nuovo articolo da pubblicare oggi."
 else
