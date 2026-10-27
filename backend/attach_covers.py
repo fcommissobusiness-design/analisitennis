@@ -116,6 +116,13 @@ NAME_MAP = {
     'C. Norrie': 'Cameron Norrie',
     'A. Zverev': 'Alexander Zverev',
     'M. Landaluce': 'Martin Landaluce',
+    # Aggiunti 28/10/2026 - top ATP/WTA della giornata
+    'N. Djokovic': 'Novak Djokovic',
+    'U. Humbert': 'Ugo Humbert',
+    'F. Tiafoe': 'Frances Tiafoe',
+    'B. Nakashima': 'Brandon Nakashima',
+    'D. Shapovalov': 'Denis Shapovalov',
+    'J. Rodionov': 'Jurij Rodionov',
     # Nomi non mappati (identita' incerta) -> fallback venue
     # 'S. Sorger', 'J. Garland', 'Y. Ma', 'Y. Qu', 'M. Yamaguchi', 'S. Y. Cheuk', 'T. Kostovic', 'X. You',
     # 'L. Tagger', 'X. Sun', 'M. Sawangkaew', 'J. Kym', 'R. Jodar', 'I. Buse', 'H. Bernet', 'M. Brunold'
@@ -327,6 +334,11 @@ def _rank(result):
         score += 15
     if any(w in t for w in WIDE_SCENE_WORDS):
         score -= 25
+    # Depenalizza le foto che ritraggono DUE persone (es. "Djokovic vs
+    # Alcaraz", "X and Y"): per una cover singola vogliamo il giocatore
+    # da solo, non un duello a figura intera che confonde il soggetto.
+    if _PERSON_HINTS.search(result['title']):
+        score -= 30
     # Preferisci landscape (ratio >= 1.3) ma non estremo
     ratio = result['w'] / max(result['h'], 1)
     if 1.3 <= ratio <= 2.4:
@@ -358,6 +370,21 @@ def pick_image(name_full: str, slug_hint: str = ''):
         for r in results:
             t = r['title'].lower()
             if last not in t:
+                continue
+            # Scarta foto che ritraggono DUE giocatori ("X vs Y",
+            # "X against Y"): nel titolo non sappiamo quale sia il
+            # soggetto in primo piano, col rischio di mostrare
+            # l'avversario al posto del favorito (es. una foto
+            # "De Minaur vs Rublev" che in realta' inquadra Rublev).
+            if _PERSON_HINTS.search(r['title']):
+                continue
+            # Scarta loghi, cerimonie, premiazioni e pose celebrative
+            # con trofeo: vogliamo il giocatore in campo, attuale, non
+            # un'immagine datata col trofeo o un logo del circuito.
+            if any(w in t for w in (
+                    'logo', 'trophy', 'trophies', 'ceremony', 'award',
+                    'champion', 'winner', 'celebrat', 'press conference',
+                    'challenger tour', 'draw ')):
                 continue
             # Deve stabilire che e' davvero il giocatore giusto:
             # nome+cognome insieme, oppure cognome+contesto tennis,
@@ -423,7 +450,10 @@ BAD_SCENE_WORDS = ('police', 'protest', 'march', 'graffiti', 'incident',
                    'exhibition', 'ice hockey', 'basketball', 'handball',
                    'volleyball', 'wrestling', 'hallenmaster', 'fcsg',
                    'football', 'soccer', 'boxing', 'mma', 'gymnastics',
-                   'curling', 'skating', 'figure skating')
+                   'curling', 'skating', 'figure skating',
+                   # Loghi, cartelloni, grafiche: non sono foto di luogo
+                   'logo', 'challenger tour', 'poster', 'banner',
+                   'signage', 'trophy', 'ceremony')
 _BAD_SCENE_RE = _re_person.compile(
     r'\b(' + '|'.join(BAD_SCENE_WORDS) + r')\b',
     _re_person.IGNORECASE,
@@ -482,7 +512,11 @@ def pick_venue(torneo: str, slug_hint: str = ''):
     best_fallback = None
     for query in (q, f'{torneo} tennis', f'{torneo} tennis center', f'{torneo} tennis stadium'):
         results = commons_search(query)
-        results = [r for r in results if _looks_tennis(r['title']) or _is_venue_photo(r['title'])]
+        # Scarta loghi/cartelloni/cerimonie (BAD_SCENE) a monte: non devono
+        # finire nemmeno nel best_fallback.
+        results = [r for r in results
+                   if (_looks_tennis(r['title']) or _is_venue_photo(r['title']))
+                   and not _BAD_SCENE_RE.search(r['title'])]
         if not results:
             continue
         venue_only = [r for r in results if _is_venue_photo(r['title'])]

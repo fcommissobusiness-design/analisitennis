@@ -1,10 +1,13 @@
 """Scrive l'articolo markdown finale in src/content/articoli/ con frontmatter corretto."""
+import hashlib
 import json
+import os
+import random
 import re
 import sys
 import unicodedata
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 try:
     from attach_covers import (
@@ -77,7 +80,9 @@ def write(match, analysis, out_dir):
                 if full:
                     pick = pick_image(full)
             if not pick:
-                pick = pick_venue(torneo)
+                # slug_hint: articoli diversi dello stesso torneo ricevono
+                # cover venue diverse (anti-duplicato visivo).
+                pick = pick_venue(torneo, slug_hint=slug)
             if pick:
                 dest = COVERS_DIR / f'{slug}.jpg'
                 try:
@@ -120,7 +125,25 @@ def write(match, analysis, out_dir):
         ora_it = datetime.now(ZoneInfo('Europe/Rome'))
     except Exception:
         ora_it = datetime.now()
-    fm['generato_il'] = ora_it.strftime('%Y-%m-%dT%H:%M')
+
+    # Override orario di pubblicazione: se la pipeline viene lanciata a
+    # mano fuori orario (es. a notte fonda per gli articoli del giorno)
+    # ARTICOLO_ORA_OVERRIDE="HH:MM" forza un orario mattiniero plausibile,
+    # con una leggera variazione per articolo cosi' da non avere tutti
+    # lo stesso minuto esatto. La DATA resta quella corrente di ora_it.
+    ora_override = os.environ.get('ARTICOLO_ORA_OVERRIDE', '').strip()
+    if ora_override:
+        try:
+            h, m = (int(x) for x in ora_override.split(':'))
+            base = ora_it.replace(hour=h, minute=m, second=0, microsecond=0)
+            # variazione deterministica per slug: -8 .. +37 minuti
+            jitter = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 46 - 8
+            pub = base + timedelta(minutes=jitter)
+            fm['generato_il'] = pub.strftime('%Y-%m-%dT%H:%M')
+        except Exception:
+            fm['generato_il'] = ora_it.strftime('%Y-%m-%dT%H:%M')
+    else:
+        fm['generato_il'] = ora_it.strftime('%Y-%m-%dT%H:%M')
 
     frontmatter_lines = ['---']
     for k, v in fm.items():
