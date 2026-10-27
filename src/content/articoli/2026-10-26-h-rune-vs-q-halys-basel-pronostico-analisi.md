@@ -19,9 +19,9 @@ tag:
 verdetto: "Match equilibrato e da terzo set, senza un favorito netto: i precedenti parlano danese, la forma parla francese. Lo scenario più plausibile è un 2-1, con Halys capace di strappare almeno un set se regge i turni di battuta."
 descrizione: "Rune e Halys si affrontano al primo turno di Basel sul veloce indoor: scontri diretti, forma recente e stile di gioco a confronto in una sfida aperta."
 pubblicato: true
-cover_image: "/covers/2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi.jpg"
-cover_credit: "Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
 generato_il: "2026-10-26T07:30"
+cover_image: "/covers/2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi.jpg"
+cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 ---
 
 C'è qualcosa di familiare nel sorteggio che al primo turno di **Basel** mette di fronte Holger Rune e Quentin Halys. Il danese e il francese si conoscono bene, avendo già incrociato le racchette in due occasioni sui palcoscenici più prestigiosi del circuito, ma mai prima d'ora sul cemento al coperto della Svizzera. Il torneo elvetico, giocato indoor su una superficie rapida, aggiunge così una variabile inedita a una rivalità che finora ha regalato spettacolo.

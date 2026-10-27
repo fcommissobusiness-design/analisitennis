@@ -506,10 +506,17 @@ if __name__ == '__main__':
     for m in selected:
         mid = m.get('event_key')
         p1, p2 = m.get('event_first_player'), m.get('event_second_player')
+        out = outdir / f'analysis_{mid}.json'
+        if out.exists():
+            # Resume idempotente: se un run precedente ha gia' salvato
+            # l'analisi, la riusiamo invece di rigenerarla. Serve quando
+            # la pipeline viene interrotta a meta' (es. kill, perdita rete)
+            # e rilanciata nello stesso giorno.
+            print(f'Match {mid}: analisi gia\' presente, skip rigenerazione', flush=True)
+            continue
         print(f'Analizzo match {mid}: {p1} vs {p2}', flush=True)
         try:
             analysis = genera(m)
-            out = outdir / f'analysis_{mid}.json'
             out.write_text(json.dumps(analysis, indent=2, ensure_ascii=False))
             print(f'  Salvata in {out}', flush=True)
         except ApiTennisNoData as e:

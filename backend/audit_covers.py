@@ -33,8 +33,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 from attach_covers import (
     NAME_MAP, VENUE_MAP, COVERS_DIR, BLOCK_WORDS, TENNIS_CONTEXT,
     detect_winner, pick_image, pick_venue, download, strip_html,
-    parse_frontmatter, update_frontmatter, _looks_tennis,
+    parse_frontmatter, update_frontmatter, _looks_tennis, _is_venue_photo,
 )
+import hashlib
+from collections import defaultdict
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICOLI = ROOT / 'src' / 'content' / 'articoli'
@@ -126,22 +128,36 @@ def audit_one(art: Path) -> dict:
                         f'cover obsoleta: foto propria di {full} disponibile su Commons '
                         f'("{probe["title"][:60]}") ma credit attuale e\' "{credit[:60]}"'
                     )
-                elif not _looks_tennis(credit):
-                    result['ok'] = False
-                    result['problems'].append(
-                        f'favorito {fav} ({full}): no foto Commons, no venue tennis chiaro '
-                        f'("{credit[:60]}")'
-                    )
                 else:
-                    result['problems'].append(
-                        f'[info] favorito {fav} senza foto Commons; usato venue "{credit[:50]}"'
-                    )
+                    # Anche quando non c'e' foto propria, la cover deve
+                    # essere un venue VERO. Accettiamo o un titolo che
+                    # suona tennis (parola 'tennis', 'atp', ...) o un
+                    # venue puro (ha venue word tipo 'arena','hall',...).
+                    cred_title = (result['credit'] or '').split('|')[0]
+                    looks_t = _looks_tennis(credit)
+                    is_venue = cred_title and _is_venue_photo(cred_title)
+                    if not (looks_t or is_venue):
+                        result['ok'] = False
+                        result['problems'].append(
+                            f'favorito {fav} ({full}): no foto Commons e cover non e\' '
+                            f'venue tennis chiaro ("{credit[:60]}")'
+                        )
+                    else:
+                        result['problems'].append(
+                            f'[info] favorito {fav} senza foto Commons; usato venue "{credit[:50]}"'
+                        )
         else:
-            # Favorito senza mapping -> venue atteso
-            if not _looks_tennis(credit):
+            # Favorito senza mapping -> venue atteso. Accettiamo o
+            # titolo con parola tennis, oppure un venue puro con venue
+            # word (arena, hall, stadium, center, court, ...).
+            cred_title = (result['credit'] or '').split('|')[0]
+            looks_t = _looks_tennis(credit)
+            is_venue = cred_title and _is_venue_photo(cred_title)
+            if not (looks_t or is_venue):
                 result['ok'] = False
                 result['problems'].append(
-                    f'favorito {fav} non mappato in NAME_MAP e cover non e\' venue tennis: "{credit[:70]}"'
+                    f'favorito {fav} non mappato in NAME_MAP e cover non e\' '
+                    f'venue tennis: "{credit[:70]}"'
                 )
 
     return result
@@ -186,6 +202,65 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
     return True, pick['title'][:80]
 
 
+def _audit_duplicates(articoli: list[Path]) -> dict[str, str]:
+    """Cerca cover duplicate su piu' articoli con favoriti DIVERSI.
+    Se la stessa foto appare su match con favoriti incompatibili, almeno
+    una delle due e' sbagliata. Scansiona SEMPRE l'intera cartella articoli
+    (anche se il run e' filtrato per data) perche' il duplicato puo'
+    coinvolgere articoli di giorni diversi.
+
+    Ritorna {slug_articolo: motivo_duplicato} per gli articoli di oggi che
+    condividono cover con un articolo di un altro match con favorito
+    diverso.
+    """
+    # Scan completo per hash
+    all_articoli = sorted(ARTICOLI.glob('2026-*.md'))
+    hash_to_arts = defaultdict(list)
+    for art in all_articoli:
+        fm, _ = parse_frontmatter(art)
+        if not fm:
+            continue
+        cover_rel = fm.get('cover_image', '').lstrip('/')
+        if not cover_rel:
+            continue
+        cover_file = ROOT / 'public' / cover_rel
+        if not cover_file.exists() or not cover_file.is_file():
+            continue
+        h = hashlib.md5(cover_file.read_bytes()).hexdigest()[:12]
+        fav, _conf = detect_winner(fm.get('verdetto', ''), fm.get('giocatore1', ''), fm.get('giocatore2', ''))
+        credit = fm.get('cover_credit', '')
+        torneo = fm.get('torneo', '')
+        hash_to_arts[h].append((art.stem, fav or '', credit, torneo))
+
+    flagged = {}
+    for h, lst in hash_to_arts.items():
+        if len(lst) < 2:
+            continue
+        favoriti = {f for _, f, _, _ in lst if f}
+        tornei = {t for _, _, _, t in lst if t}
+        credit0 = lst[0][2] or ''
+        cred_title0 = credit0.split('|')[0] if credit0 else ''
+        is_shared_venue = (
+            len(tornei) == 1
+            and cred_title0
+            and _is_venue_photo(cred_title0)
+        )
+        # OK se:
+        #  (a) stesso torneo + cover e' un venue puro (foto condivisa
+        #      dell'impianto, giustificata), oppure
+        #  (b) stesso favorito su tutti (es. Dart in due articoli diversi,
+        #      e' lui in entrambi, legittimo).
+        if is_shared_venue:
+            continue
+        if len(favoriti) >= 2 or (len(favoriti) == 0 and len(lst) >= 2):
+            motivo = (f'cover duplicata su {len(lst)} articoli con favoriti diversi '
+                      f'({", ".join(sorted(f for f in favoriti if f)) or "nessuno chiaro"}); '
+                      f'molto probabilmente la foto non c\'entra con il match')
+            for stem, _f, _c, _t in lst:
+                flagged[stem] = motivo
+    return flagged
+
+
 def main():
     args = sys.argv[1:]
     fix = '--fix' in args
@@ -198,10 +273,17 @@ def main():
     articoli = sorted(ARTICOLI.glob(pattern))
     articoli = [a for a in articoli if 'benvenuti' not in a.name]
 
+    # Scan duplicati su TUTTI gli articoli (indipendentemente dal filtro date)
+    dup_flags = _audit_duplicates(articoli)
+
     results = []
     problems = 0
     for art in articoli:
         r = audit_one(art)
+        # Overlay flag duplicati
+        if r['slug'] in dup_flags:
+            r['ok'] = False
+            r['problems'].append(dup_flags[r['slug']])
         results.append(r)
         if not r['ok']:
             problems += 1

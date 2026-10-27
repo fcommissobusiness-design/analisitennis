@@ -99,27 +99,45 @@ NAME_MAP = {
     'G. Mpetshi Perricard': 'Giovanni Mpetshi Perricard',
     'A. Kovacevic': 'Aleksandar Kovacevic',
     'J. Duckworth': 'James Duckworth',
+    # Aggiunti 27/10/2026 - top ATP + WTA della giornata
+    'A. Davidovich Fokina': 'Alejandro Davidovich Fokina',
+    'Z. Bergs': 'Zizou Bergs',
+    'H. Hurkacz': 'Hubert Hurkacz',
+    'A. Fils': 'Arthur Fils',
+    'V. Williams': 'Venus Williams',
+    'T. Paul': 'Tommy Paul',
+    'A. Rublev': 'Andrey Rublev',
+    'A. Rinderknech': 'Arthur Rinderknech',
+    'A. Tabilo': 'Alejandro Tabilo',
+    'K. Khachanov': 'Karen Khachanov',
+    'C. Alcaraz': 'Carlos Alcaraz',
+    'A. Michelsen': 'Alex Michelsen',
+    'B. Van De Zandschulp': 'Botic van de Zandschulp',
+    'C. Norrie': 'Cameron Norrie',
+    'A. Zverev': 'Alexander Zverev',
+    'M. Landaluce': 'Martin Landaluce',
     # Nomi non mappati (identita' incerta) -> fallback venue
-    # 'S. Sorger', 'J. Garland', 'Y. Ma', 'Y. Qu', 'M. Yamaguchi', 'S. Y. Cheuk', 'T. Kostovic', 'X. You'
+    # 'S. Sorger', 'J. Garland', 'Y. Ma', 'Y. Qu', 'M. Yamaguchi', 'S. Y. Cheuk', 'T. Kostovic', 'X. You',
+    # 'L. Tagger', 'X. Sun', 'M. Sawangkaew', 'J. Kym', 'R. Jodar', 'I. Buse', 'H. Bernet', 'M. Brunold'
 }
 
 # Mappatura torneo -> query venue su Commons (nome venue + "tennis")
 VENUE_MAP = {
-    'Vienna': 'Erste Bank Open',
+    'Vienna': 'Wiener Stadthalle',
     'Brussels': 'Palais 12 Bruxelles',
-    'Tokyo': 'Ariake Tennis',
-    'Guangzhou': 'Tianhe tennis Guangzhou',
+    'Tokyo': 'Ariake Tennis Center',
+    'Guangzhou': 'Shameen Tennis Ground',
     'Almaty': 'Almaty Arena',
-    'Ningbo': 'Ningbo Tennis Center',
-    'Lyon (France) - Qualification': 'Lyon Open Tennis',
-    'Lyon': 'Lyon Open Tennis',
-    'Basel': 'St. Jakobshalle Basel tennis',
+    'Ningbo': 'Ningbo Yinzhou Tennis Center',
+    'Lyon (France) - Qualification': 'Palais des Sports Lyon tennis',
+    'Lyon': 'Palais des Sports Lyon tennis',
+    'Basel': 'St. Jakobshalle',
     'Cali': 'Club Campestre Cali tennis',
     'Fort Worth (Usa)': 'Fort Worth tennis',
     'Fort Worth': 'Fort Worth tennis',
-    'Florence (Italy) - Qualification': 'Firenze Open ATP tennis',
-    'Florence': 'Firenze Open ATP tennis',
-    'Firenze': 'Firenze Open ATP tennis',
+    'Florence (Italy) - Qualification': 'Palazzo Wanny Firenze',
+    'Florence': 'Palazzo Wanny Firenze',
+    'Firenze': 'Palazzo Wanny Firenze',
     'Brest': 'Open de Brest tennis',
     'Lisbon': 'Estoril Open tennis',
     'Lisboa': 'Estoril Open tennis',
@@ -321,23 +339,100 @@ def pick_image(name_full: str):
     return pool[0]
 
 
+# Parole che indicano venue/impianto (preferite dentro pick_venue).
+VENUE_WORDS = ('stadium', 'arena', 'centre', 'center', 'court', 'hall',
+               'park', 'complex', 'ground', 'club', 'halle', 'stadthalle',
+               'palace', 'palais', 'palazzo', 'palasport', 'palasports',
+               'convention', 'olimpico', 'olympiahalle', 'o2 arena')
+
+# Pattern che indica che il risultato e' una foto di persona vs persona
+# ("Ferrer against Troicki", "Nadal vs Djokovic", "Moretton et Noah").
+import re as _re_person
+_PERSON_HINTS = _re_person.compile(
+    r'(\bagainst\b|\bvs\.?\b|\bv\.\s|\s(et|and)\s[A-Z])',
+    _re_person.IGNORECASE,
+)
+
+# Scene da scartare dentro i venue (cronaca, polizia, parate, non la
+# cosa che vogliamo mostrare in cover). Match su parola intera: evitiamo
+# falsi positivi tipo 'fire' dentro 'Firenze'.
+BAD_SCENE_WORDS = ('police', 'protest', 'march', 'graffiti', 'incident',
+                   'funeral', 'crash', 'accident', 'demolition', 'fire',
+                   'construction', 'ruins', 'abandoned')
+_BAD_SCENE_RE = _re_person.compile(
+    r'\b(' + '|'.join(BAD_SCENE_WORDS) + r')\b',
+    _re_person.IGNORECASE,
+)
+
+
+def _is_venue_photo(title: str) -> bool:
+    """True se il titolo del file sembra un venue/impianto reale (contiene
+    una venue word: arena, hall, stadium, center, court, ...).
+    Scarta i falsi positivi tipo 'Stefanos Tsitsipas, Swiss Indoors Basel
+    2024.jpg' che _looks_tennis accetterebbe perche' contiene 'swiss
+    indoors', ma NON ha venue word.
+    Scarta anche 'X against Y' / 'X vs Y' che sono match tra persone."""
+    t = title.lower()
+    if _PERSON_HINTS.search(title):
+        return False
+    if _BAD_SCENE_RE.search(title):
+        return False
+    return any(w in t for w in VENUE_WORDS)
+
+
+def _venue_rank(result):
+    """Score venue: preferiamo foto di court/tennis puro, in landscape,
+    risoluzione media."""
+    t = result['title'].lower()
+    score = 0
+    if 'tennis' in t:
+        score += 10
+    if 'court' in t:
+        score += 5
+    if 'arena' in t or 'hall' in t or 'stadium' in t:
+        score += 3
+    # Preferisci landscape
+    ratio = result['w'] / max(result['h'], 1)
+    if 1.3 <= ratio <= 2.4:
+        score += 3
+    if 900 <= result['w'] <= 3500:
+        score += 2
+    return score
+
+
 def pick_venue(torneo: str):
     q = VENUE_MAP.get(torneo) or torneo
+    best_fallback = None
     for query in (q, f'{torneo} tennis', f'{torneo} tennis center', f'{torneo} tennis stadium'):
         results = commons_search(query)
-        # filtra: deve essere immagine chiaramente legata al tennis
-        results = [r for r in results if _looks_tennis(r['title'])]
-        if results:
-            return results[0]
+        # Accettiamo risultati che siano:
+        #  (a) chiaramente tennis (parola tennis/atp/wta/open/...), OPPURE
+        #  (b) venue puri (hanno venue word: arena, hall, stadium, ...).
+        # Il caso (b) copre impianti il cui titolo non contiene "tennis"
+        # ma sono proprio il venue del torneo (es. Wiener Stadthalle,
+        # Jakobshalle), perche' la query VENUE_MAP garantisce il contesto.
+        results = [r for r in results if _looks_tennis(r['title']) or _is_venue_photo(r['title'])]
+        if not results:
+            continue
+        # PREFERISCI venue puri (impianti), scartando risultati che
+        # sembrano foto di persone (contengono 'against'/'vs').
+        venue_only = [r for r in results if _is_venue_photo(r['title'])]
+        if venue_only:
+            venue_only.sort(key=_venue_rank, reverse=True)
+            return venue_only[0]
+        # Se nessun venue puro ma c'e' qualche risultato tennis chiaro,
+        # lo tengo come fallback (meglio di una foto generica)
+        if best_fallback is None:
+            best_fallback = results[0]
     # Fallback universale: foto generica di campo da tennis professionale
     # per garantire che ogni articolo abbia una cover coerente col tema.
     for query in ('ATP tennis court professional', 'tennis court outdoor professional',
                   'tennis stadium center court'):
         results = commons_search(query)
-        results = [r for r in results if _looks_tennis(r['title'])]
+        results = [r for r in results if _looks_tennis(r['title']) and _is_venue_photo(r['title'])]
         if results:
             return results[0]
-    return None
+    return best_fallback
 
 
 def download(url: str, dest: Path):

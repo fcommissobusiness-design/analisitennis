@@ -21,7 +21,7 @@ verdetto: "Oggi la può spuntare Bernet: lo svizzero arriva lanciato da un ruoli
 descrizione: "ATP Basel, semifinale tra Henry Bernet e Daniel Altmaier: forma, precedenti, stile e superficie a confronto per capire chi arriva meglio all'appuntamento."
 pubblicato: true
 cover_image: "/covers/2026-10-24-h-bernet-vs-d-altmaier-basel-pronostico-analisi.jpg"
-cover_credit: "Stefanos Tsitsipas, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 ---
 
 Il tabellone dell'ATP di **Basel** regala una semifinale dal sapore inatteso: lo svizzero Henry Bernet sfida il tedesco Daniel Altmaier sul veloce indoor di casa elvetica. Due traiettorie diverse si incontrano a un passo dalla finale, e il contesto rende l'esito tutt'altro che scontato.
