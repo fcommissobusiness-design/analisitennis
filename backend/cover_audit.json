@@ -1,6 +1,6 @@
 {
-  "total": 53,
-  "problems": 0,
+  "total": 68,
+  "problems": 7,
   "details": [
     {
       "slug": "2026-10-23-e-moller-vs-h-rocha-lisbon-pronostico-analisi",
@@ -225,8 +225,10 @@
     },
     {
       "slug": "2026-10-24-y-qu-vs-t-kostovic-guangzhou-pronostico-analisi",
-      "ok": true,
-      "problems": [],
+      "ok": false,
+      "problems": [
+        "cover venue identica su 3 articoli dello stesso torneo (Guangzhou); varia con slug_hint per diversificare"
+      ],
       "cover_image": "/covers/2026-10-24-y-qu-vs-t-kostovic-guangzhou-pronostico-analisi.jpg",
       "credit": "Shameen Tennis Ground.jpg | PQ77wd | CC BY-SA 4.0"
     },
@@ -256,7 +258,7 @@
       "ok": true,
       "problems": [],
       "cover_image": "/covers/2026-10-25-g-mpetshi-perricard-vs-a-kovacevic-basel-pronostico-analisi.jpg",
-      "credit": "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
+      "credit": "Jakobsarena Publikum - IMG 20231105 084045.jpg | RouteMedia | CC BY-SA 4.0"
     },
     {
       "slug": "2026-10-25-j-l-struff-vs-t-griekspoor-brussels-pronostico-analisi",
@@ -270,7 +272,7 @@
       "ok": true,
       "problems": [],
       "cover_image": "/covers/2026-10-25-j-m-cerundolo-vs-d-altmaier-basel-pronostico-analisi.jpg",
-      "credit": "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
+      "credit": "Jakobsarena Publikum - IMG 20231104 113953.jpg | RouteMedia | CC BY-SA 4.0"
     },
     {
       "slug": "2026-10-25-l-musetti-vs-t-fritz-lyon-france-qualification-pronostico-analisi",
@@ -298,7 +300,7 @@
       "ok": true,
       "problems": [],
       "cover_image": "/covers/2026-10-25-m-brunold-vs-r-bertola-basel-pronostico-analisi.jpg",
-      "credit": "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
+      "credit": "Jakobsarena Publikum - IMG 20231105 083846.jpg | RouteMedia | CC BY-SA 4.0"
     },
     {
       "slug": "2026-10-25-m-ribecai-vs-f-romano-florence-italy-qualification-pronostico-analisi",
@@ -339,10 +341,10 @@
       "slug": "2026-10-26-d-altmaier-vs-j-m-cerundolo-basel-pronostico-analisi",
       "ok": true,
       "problems": [
-        "[info] favorito J. M. Cerundolo senza foto Commons; usato venue \"st jakobshalle basel.jpg | --wladyslaw disk. | cc \""
+        "[info] favorito J. M. Cerundolo senza foto Commons; usato venue \"jakobsarena publikum - img 20231105 083857.jpg | r\""
       ],
       "cover_image": "/covers/2026-10-26-d-altmaier-vs-j-m-cerundolo-basel-pronostico-analisi.jpg",
-      "credit": "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
+      "credit": "Jakobsarena Publikum - IMG 20231105 083857.jpg | RouteMedia | CC BY-SA 4.0"
     },
     {
       "slug": "2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi",
@@ -353,10 +355,12 @@
     },
     {
       "slug": "2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi",
-      "ok": true,
-      "problems": [],
+      "ok": false,
+      "problems": [
+        "cover venue identica su 3 articoli dello stesso torneo (Basel); varia con slug_hint per diversificare"
+      ],
       "cover_image": "/covers/2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi.jpg",
-      "credit": "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
+      "credit": "Jakobsarena Publikum - IMG 20231104 113953.jpg | RouteMedia | CC BY-SA 4.0"
     },
     {
       "slug": "2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi",
@@ -378,6 +382,121 @@
       "problems": [],
       "cover_image": "/covers/2026-10-26-v-vacherot-vs-m-navone-basel-pronostico-analisi.jpg",
       "credit": "Valtin Vacherot in the round of 32 against Taylor Fritz at the Swiss Indoors Basel 2025..jpg | Peter Arnold | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi.jpg",
+      "credit": "Alejandro Davidovich Fokina, Swiss Indoors Basel.jpg | Peter Arnold | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi.jpg",
+      "credit": "Adrian Mannarino at the 2010 US Open 01.jpg | Robbie Mendelson | CC BY-SA 2.0"
+    },
+    {
+      "slug": "2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 3 articoli dello stesso torneo (Basel); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi.jpg",
+      "credit": "Jakobsarena Publikum - IMG 20231104 113953.jpg | RouteMedia | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 2 articoli dello stesso torneo (Basel); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi.jpg",
+      "credit": "Jakobsarena Publikum - IMG 20231105 084045.jpg | RouteMedia | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi.jpg",
+      "credit": "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20691907103).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
+    },
+    {
+      "slug": "2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 2 articoli dello stesso torneo (Basel); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi.jpg",
+      "credit": "Jakobsarena Publikum - IMG 20231105 083846.jpg | RouteMedia | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi.jpg",
+      "credit": "Francisco Cerundolo - Wimbledon 2022 (12).jpg | jmmuguerza | CC BY-SA 3.0"
+    },
+    {
+      "slug": "2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi.jpg",
+      "credit": "Arthur Fils - 2024 Olympics (forehand).jpg | Kuberzog | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-h-hurkacz-vs-a-fils-basel-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-h-hurkacz-vs-a-fils-basel-pronostico-analisi.jpg",
+      "credit": "Hubi Hurkacz (2023 DC Open) 01.jpg | Hameltion | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-h-hurkacz-vs-z-bergs-basel-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-h-hurkacz-vs-z-bergs-basel-pronostico-analisi.jpg",
+      "credit": "Hubi Hurkacz (2023 DC Open) 01.jpg | Hameltion | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-j-kym-vs-a-rinderknech-basel-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 2 articoli dello stesso torneo (Basel); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-10-27-j-kym-vs-a-rinderknech-basel-pronostico-analisi.jpg",
+      "credit": "Jakobsarena Publikum - IMG 20231105 083857.jpg | RouteMedia | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-k-khachanov-vs-c-alcaraz-vienna-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-k-khachanov-vs-c-alcaraz-vienna-pronostico-analisi.jpg",
+      "credit": "Carlos Alcaraz - Roland Garros 2025 - serving.jpg | Kuberzog | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-t-fritz-vs-s-tsitsipas-basel-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-t-fritz-vs-s-tsitsipas-basel-pronostico-analisi.jpg",
+      "credit": "Taylor Fritz, photo impressions, Swiss Indoors 2025 in Basel.jpg | Peter Arnold | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi.jpg",
+      "credit": "Wiener Stadthalle 2013 Halle F a.jpg | Manfred Werner - Tsui | CC BY-SA 3.0"
+    },
+    {
+      "slug": "2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 3 articoli dello stesso torneo (Guangzhou); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi.jpg",
+      "credit": "Shameen Tennis Ground.jpg | PQ77wd | CC BY-SA 4.0"
     }
   ]
 }

@@ -19,9 +19,9 @@ tag:
 verdetto: "Partita equilibrata: il recentissimo 2-0 di van de Zandschulp a Shanghai pesa, ma Michelsen arriva dai quarti di Bruxelles con più ritmo nelle gambe. Senza un favorito netto, lo scenario più plausibile è un 2-1 deciso al terzo set."
 descrizione: "Michelsen e Van De Zandschulp di nuovo di fronte a Basel a poche settimane da Shanghai: precedenti, forma e cemento indoor da leggere nel primo turno svizzero."
 pubblicato: true
-cover_image: "/covers/2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi.jpg"
-cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi.jpg"
+cover_credit: "Jakobsarena Publikum - IMG 20231104 113953.jpg | RouteMedia | CC BY-SA 4.0"
 ---
 
 Il sorteggio di **Basel** propone già al primo turno un confronto dal sapore di rivincita immediata. Alex Michelsen e Botic van de Zandschulp tornano uno di fronte all'altro sul **veloce indoor** svizzero ad appena diciassette giorni dalla loro ultima sfida, in un incrocio tra due giocatori che hanno attraversato un autunno fittissimo di appuntamenti sul cemento di mezzo mondo. Entrambi arrivano con sensazioni contrastanti e con la voglia di dare una svolta alla parte finale della propria stagione.

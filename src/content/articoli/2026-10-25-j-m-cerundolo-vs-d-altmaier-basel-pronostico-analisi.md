@@ -21,7 +21,7 @@ descrizione: "Cerundolo e Altmaier si giocano il titolo di Basilea sul veloce in
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-j-m-cerundolo-vs-d-altmaier-basel-pronostico-analisi.jpg"
-cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
+cover_credit: "Jakobsarena Publikum - IMG 20231104 113953.jpg | RouteMedia | CC BY-SA 4.0"
 ---
 
 La settimana di **Basilea** regala una finale tutta da scoprire: di fronte ci sono **Juan Manuel Cerundolo** e **Daniel Altmaier**, due tennisti arrivati all'ultimo atto del torneo svizzero dopo aver superato le rispettive semifinali. Sul veloce indoor della città renana si ritrovano due giocatori che si conoscono già bene, avendo incrociato le racchette quattro volte in carriera. Per entrambi si tratta di un traguardo importante, il coronamento di una settimana giocata con continuità e lucidità nei momenti decisivi.

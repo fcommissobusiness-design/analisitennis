@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi la puo' spuntare Sun: lo slancio delle ultime settimane, con il successo di Pechino su Bucsa e i trionfi tra le juniores, pesa piu' della forma altalenante di Sawangkaew, ma la thailandese ha il mestiere per allungare la contesa."
 descrizione: "A Guangzhou X. Sun affronta M. Sawangkaew nei sedicesimi: slancio giovanile contro mestiere del circuito su cemento, un primo confronto tutto da decifrare."
 pubblicato: true
+generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Shameen Tennis Ground.jpg | PQ77wd | CC BY-SA 4.0"
-generato_il: "2026-10-27T12:23"
 ---
 
 Il cemento di **Guangzhou** mette di fronte due storie tennistiche che sembrano appartenere a epoche diverse. Da una parte X. Sun, giovane cinese lanciata da una stagione juniores di altissimo profilo; dall'altra M. Sawangkaew, thailandese che da mesi macina chilometri tra tabelloni principali e qualificazioni del circuito maggiore. I sedicesimi di finale le riuniscono in un confronto inedito, senza che tra loro esista alcun antefatto in campo.

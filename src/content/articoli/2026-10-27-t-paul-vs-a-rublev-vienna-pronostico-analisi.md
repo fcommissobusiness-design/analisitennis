@@ -19,9 +19,9 @@ tag:
 verdetto: "Partita equilibrata: lo scenario più plausibile è un 2-1 deciso al terzo set. I precedenti sorridono a Rublev, la forma recente a Paul: nessun favorito netto, con almeno un set a testa più che probabile."
 descrizione: "Paul e Rublev aprono il torneo di Vienna sul veloce indoor: precedenti, forma recente e stile di gioco per inquadrare una sfida intensa tutta da seguire."
 pubblicato: true
-cover_image: "/covers/2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi.jpg"
-cover_credit: "Wiener Stadthalle 2013 Halle F Halle D a.jpg | Manfred Werner - Tsui | CC BY-SA 3.0"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi.jpg"
+cover_credit: "Wiener Stadthalle 2013 Halle F a.jpg | Manfred Werner - Tsui | CC BY-SA 3.0"
 ---
 
 Il veloce indoor di Vienna mette subito di fronte due interpreti di prima fascia del circuito. Da una parte Tommy Paul, statunitense arrivato all'appuntamento austriaco dopo settimane piene di partite; dall'altra Andrey Rublev, russo da sempre a suo agio sui campi rapidi al coperto. Il tabellone li ha accoppiati già a questo turno, e il risultato è un confronto che promette intensità fin dai primi scambi.

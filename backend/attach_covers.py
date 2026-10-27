@@ -234,9 +234,27 @@ def commons_search(query: str, limit=15):
         'gsrnamespace': '6', 'gsrlimit': str(limit),
         'prop': 'imageinfo', 'iiprop': 'url|size|extmetadata|mime',
     }
-    r = S.get(url, params=params, timeout=20)
-    r.raise_for_status()
-    data = r.json()
+    # Retry con backoff: Commons chiude la connessione sotto carico
+    # (RemoteDisconnected). Senza retry l'intera audit --fix si schianta
+    # alla prima connessione persa.
+    import time
+    last_err = None
+    for attempt in range(4):
+        try:
+            r = S.get(url, params=params, timeout=30)
+            r.raise_for_status()
+            data = r.json()
+            last_err = None
+            break
+        except Exception as e:
+            last_err = e
+            if attempt < 3:
+                time.sleep(2 ** attempt)  # 1s, 2s, 4s
+    if last_err:
+        # Dopo 4 tentativi falliti: non blocchiamo tutto, ritorniamo
+        # lista vuota cosi' il chiamante prova altre query o fallback.
+        print(f'  [warn] commons_search "{query}" fallita dopo 4 tentativi: {last_err}', flush=True)
+        return []
     pages = (data.get('query') or {}).get('pages') or {}
     out = []
     for p in pages.values():
@@ -345,20 +363,35 @@ VENUE_WORDS = ('stadium', 'arena', 'centre', 'center', 'court', 'hall',
                'palace', 'palais', 'palazzo', 'palasport', 'palasports',
                'convention', 'olimpico', 'olympiahalle', 'o2 arena')
 
-# Pattern che indica che il risultato e' una foto di persona vs persona
-# ("Ferrer against Troicki", "Nadal vs Djokovic", "Moretton et Noah").
+# Pattern che indica che il risultato e' una foto di persona
+# ("Ferrer against Troicki", "Nadal vs Djokovic", "Moretton et Noah",
+# "Stefanos Tsitsipas, Swiss Indoors..." = inizio con Nome Cognome,).
 import re as _re_person
 _PERSON_HINTS = _re_person.compile(
     r'(\bagainst\b|\bvs\.?\b|\bv\.\s|\s(et|and)\s[A-Z])',
     _re_person.IGNORECASE,
 )
+# Match pattern "File:Nome Cognome," o "Nome Cognome," all'inizio del
+# titolo: molte foto di tennisti su Commons sono nominate cosi'.
+_PERSON_NAME_PREFIX = _re_person.compile(
+    r'^(File:)?([A-ZÁÉÍÓÚÀÈÌÒÙÄÖÜÑŠČĆŽ][a-zñáéíóúàèìòùäöüç\-]+)\s'
+    r'([A-ZÁÉÍÓÚÀÈÌÒÙÄÖÜÑŠČĆŽ][a-zñáéíóúàèìòùäöüç\-]+),'
+)
 
-# Scene da scartare dentro i venue (cronaca, polizia, parate, non la
-# cosa che vogliamo mostrare in cover). Match su parola intera: evitiamo
-# falsi positivi tipo 'fire' dentro 'Firenze'.
+# Scene da scartare dentro i venue (cronaca, polizia, parate, concerti,
+# cerimonie - non la cosa che vogliamo mostrare come cover). Match su
+# parola intera per evitare falsi positivi tipo 'fire' dentro 'Firenze'.
 BAD_SCENE_WORDS = ('police', 'protest', 'march', 'graffiti', 'incident',
                    'funeral', 'crash', 'accident', 'demolition', 'fire',
-                   'construction', 'ruins', 'abandoned')
+                   'construction', 'ruins', 'abandoned',
+                   # Eventi non-tennis che possono svolgersi nello stesso venue
+                   'eurovision', 'esc', 'song contest', 'concert',
+                   'orchestra', 'opera', 'festival', 'rally', 'speech',
+                   'presidential', 'inauguration', 'exposition',
+                   'exhibition', 'ice hockey', 'basketball', 'handball',
+                   'volleyball', 'wrestling', 'hallenmaster', 'fcsg',
+                   'football', 'soccer', 'boxing', 'mma', 'gymnastics',
+                   'curling', 'skating', 'figure skating')
 _BAD_SCENE_RE = _re_person.compile(
     r'\b(' + '|'.join(BAD_SCENE_WORDS) + r')\b',
     _re_person.IGNORECASE,
@@ -374,6 +407,12 @@ def _is_venue_photo(title: str) -> bool:
     Scarta anche 'X against Y' / 'X vs Y' che sono match tra persone."""
     t = title.lower()
     if _PERSON_HINTS.search(title):
+        return False
+    # Scarta i titoli che iniziano con un pattern Nome Cognome, (molte
+    # foto di tennisti sono "Stefanos Tsitsipas, Swiss Indoors..." o
+    # "Jacob Fearnley, 2026 US Open" e passerebbero perche' contengono
+    # venue word nel resto).
+    if _PERSON_NAME_PREFIX.match(title):
         return False
     if _BAD_SCENE_RE.search(title):
         return False

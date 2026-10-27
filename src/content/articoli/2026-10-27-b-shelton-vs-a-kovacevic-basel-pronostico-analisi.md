@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi la può spuntare Shelton: il servizio mancino pesante sul veloce indoor e un rendimento stagionale superiore pesano in suo favore, ma Kovacevic arriva in ritmo dalla recente finale di Basilea e ha i mezzi per portare la sfida al terzo set."
 descrizione: "A Basilea Ben Shelton e Aleksandar Kovacevic si ritrovano sul cemento indoor dopo cinque sfide passate: forma, precedenti e stile a confronto."
 pubblicato: true
-cover_image: "/covers/2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi.jpg"
-cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi.jpg"
+cover_credit: "Jakobsarena Publikum - IMG 20231105 083846.jpg | RouteMedia | CC BY-SA 4.0"
 ---
 
 Il cemento indoor di **Basilea** riporta in scena un confronto che affonda le radici in un passato ormai lontano. Ben Shelton e Aleksandar Kovacevic, entrambi statunitensi, si ritrovano nel tabellone del torneo svizzero in un match che mette a confronto storie recenti molto diverse e un filo comune fatto di cinque incroci precedenti. Arrivano all'appuntamento con sensazioni distinte, ed è proprio questo contrasto a rendere la sfida curiosa da seguire, al di là dei nomi in campo.

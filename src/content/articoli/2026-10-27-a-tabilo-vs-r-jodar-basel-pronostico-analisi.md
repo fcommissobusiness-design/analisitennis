@@ -19,9 +19,9 @@ tag:
 verdetto: "Oggi nettamente Jodar: lo spagnolo arriva dalla finale di Shanghai con partite e fiducia nelle gambe e ha vinto gli ultimi due scontri diretti su veloce, mentre Tabilo attraversa un mese fatto più di sconfitte che di certezze."
 descrizione: "Tabilo e Jodar aprono Basilea con un confronto che il 2026 ha già reso ricorrente: precedenti, forma recente e cemento indoor a decidere il primo turno."
 pubblicato: true
-cover_image: "/covers/2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi.jpg"
-cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi.jpg"
+cover_credit: "Jakobsarena Publikum - IMG 20231105 084045.jpg | RouteMedia | CC BY-SA 4.0"
 ---
 
 Basilea torna protagonista del calendario indoor e lo fa subito con un confronto che porta con sé una storia recente molto fitta. Al primo turno del tabellone svizzero, sul cemento al coperto, si ritrovano **Alejandro Tabilo** e **Ramon Jodar**, due giocatori che nel corso del 2026 hanno già incrociato le racchette in più occasioni. Non è quindi un esordio tra sconosciuti, ma il nuovo episodio di una sfida che negli ultimi mesi ha preso corpo partita dopo partita.
