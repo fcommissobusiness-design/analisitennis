@@ -71,8 +71,20 @@ const faqHome = {
       <div class="colonna-articoli">
         <h2 class="sezione-eyebrow">Ultime analisi</h2>
         <div class="griglia-articoli" style="padding: 0;">
-          {articoli.map(art => (
+          {articoli.map((art, i) => (
             <article class="card-articolo">
+              {art.data.cover_image && (
+                <a class="card-cover" href={`/articoli/${art.slug}`} aria-label={art.data.titolo}>
+                  <img
+                    src={art.data.cover_image}
+                    alt={`${art.data.giocatore1} vs ${art.data.giocatore2} - ${art.data.torneo}`}
+                    width="640"
+                    height="360"
+                    loading={i < 4 ? 'eager' : 'lazy'}
+                    decoding="async"
+                  />
+                </a>
+              )}
               <div class="eyebrow">{art.data.categoria} - {art.data.torneo}</div>
               <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
               <p class="sottotitolo">{art.data.sottotitolo}</p>

@@ -342,6 +342,22 @@ strong { font-weight: 700; color: var(--testo); }
   border-bottom: 1px solid var(--bordo);
   padding-bottom: 28px;
 }
+.card-articolo .card-cover {
+  display: block;
+  margin: 0 0 14px 0;
+  overflow: hidden;
+  border-radius: 6px;
+  aspect-ratio: 16 / 9;
+  background: var(--bordo);
+}
+.card-articolo .card-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+.card-articolo .card-cover:hover img { transform: scale(1.04); }
 .card-articolo .eyebrow {
   font-family: var(--font-ui);
   font-size: 0.76rem;
