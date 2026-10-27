@@ -355,6 +355,10 @@ strong { font-weight: 700; color: var(--testo); }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* 25% dall'alto: su un ritratto la testa resta inquadrata, su un
+     venue si perde solo un po' di cielo ininfluente. Centro puro
+     tagliava teste e cartelli (Berrettini, Vacherot-Navone). */
+  object-position: center 25%;
   transition: transform 300ms ease;
 }
 .card-articolo .card-cover:hover img { transform: scale(1.04); }

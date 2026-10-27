@@ -400,25 +400,30 @@ def _venue_rank(result):
     return score
 
 
-def pick_venue(torneo: str):
+def pick_venue(torneo: str, slug_hint: str = ''):
+    """Sceglie una foto venue per il torneo.
+    slug_hint: slug dell'articolo. Quando passato, varia la scelta tra i
+    top candidati venue in modo deterministico, cosi' articoli diversi
+    dello stesso torneo prendono foto DIVERSE del venue (evita cover
+    identica su piu' articoli)."""
+    import hashlib
     q = VENUE_MAP.get(torneo) or torneo
     best_fallback = None
     for query in (q, f'{torneo} tennis', f'{torneo} tennis center', f'{torneo} tennis stadium'):
         results = commons_search(query)
-        # Accettiamo risultati che siano:
-        #  (a) chiaramente tennis (parola tennis/atp/wta/open/...), OPPURE
-        #  (b) venue puri (hanno venue word: arena, hall, stadium, ...).
-        # Il caso (b) copre impianti il cui titolo non contiene "tennis"
-        # ma sono proprio il venue del torneo (es. Wiener Stadthalle,
-        # Jakobshalle), perche' la query VENUE_MAP garantisce il contesto.
         results = [r for r in results if _looks_tennis(r['title']) or _is_venue_photo(r['title'])]
         if not results:
             continue
-        # PREFERISCI venue puri (impianti), scartando risultati che
-        # sembrano foto di persone (contengono 'against'/'vs').
         venue_only = [r for r in results if _is_venue_photo(r['title'])]
         if venue_only:
             venue_only.sort(key=_venue_rank, reverse=True)
+            # Variazione deterministica: con slug_hint scegliamo tra i top
+            # 5 candidati di pari qualita' usando l'hash dello slug. Articoli
+            # diversi dello stesso torneo → cover venue diverse.
+            if slug_hint and len(venue_only) > 1:
+                pool = venue_only[:5]
+                idx = int(hashlib.md5(slug_hint.encode()).hexdigest(), 16) % len(pool)
+                return pool[idx]
             return venue_only[0]
         # Se nessun venue puro ma c'e' qualche risultato tennis chiaro,
         # lo tengo come fallback (meglio di una foto generica)
@@ -493,7 +498,7 @@ def main():
                 reason = f'favorito {fav} non mappato'
         if not pick:
             print(f'{slug}: fallback venue -> {torneo}')
-            pick = pick_venue(torneo)
+            pick = pick_venue(torneo, slug_hint=slug)
             reason = f'equilibrio -> venue {torneo}' if not fav else f'{reason}; fallback venue {torneo}'
         if not pick:
             print(f'{slug}: NO IMAGE'); continue

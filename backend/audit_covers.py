@@ -182,7 +182,9 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
         if full:
             pick = pick_image(full)
     if not pick:
-        pick = pick_venue(torneo)
+        # Passa lo slug cosi' articoli diversi dello stesso torneo
+        # ricevono venue photos DIVERSE (anti-duplicato).
+        pick = pick_venue(torneo, slug_hint=slug)
     if not pick:
         return False, 'nessuna immagine disponibile da Commons'
 
@@ -245,12 +247,15 @@ def _audit_duplicates(articoli: list[Path]) -> dict[str, str]:
             and cred_title0
             and _is_venue_photo(cred_title0)
         )
-        # OK se:
-        #  (a) stesso torneo + cover e' un venue puro (foto condivisa
-        #      dell'impianto, giustificata), oppure
-        #  (b) stesso favorito su tutti (es. Dart in due articoli diversi,
-        #      e' lui in entrambi, legittimo).
+        # Cover venue identica su stesso torneo = tecnicamente non "sbagliata"
+        # ma visivamente povera: 3-4 articoli uguali nella homepage. Forziamo
+        # variazione passando lo slug_hint a pick_venue nel --fix.
         if is_shared_venue:
+            motivo = (f'cover venue identica su {len(lst)} articoli dello stesso torneo '
+                      f'({next(iter(tornei))}); varia con slug_hint per diversificare')
+            # Flag TUTTI tranne il primo (il primo tiene la foto, gli altri cambiano)
+            for stem, _f, _c, _t in lst[1:]:
+                flagged[stem] = motivo
             continue
         if len(favoriti) >= 2 or (len(favoriti) == 0 and len(lst) >= 2):
             motivo = (f'cover duplicata su {len(lst)} articoli con favoriti diversi '
