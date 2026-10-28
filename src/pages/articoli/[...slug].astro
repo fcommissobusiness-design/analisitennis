@@ -6,6 +6,7 @@ import CoverArticolo from '../../components/CoverArticolo.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify } from '../../lib/hubs.js';
+import h2hData from '../../data/h2h.json';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
@@ -71,6 +72,12 @@ const g2Slug = playerSlug(d.giocatore2);
 const hasG1 = playerSlugs.has(g1Slug);
 const hasG2 = playerSlugs.has(g2Slug);
 const hasTourn = tournamentSlugs.has(tSlug);
+
+// Pagina scontri diretti (H2H) per questa coppia, se esiste. Lo slug e'
+// ordinato alfabeticamente sui nomi completi (coerente con fetch_h2h.py).
+const [sa, sb] = [slugify(g1Display), slugify(g2Display)].sort();
+const h2hSlug = `${sa}-vs-${sb}`;
+const hasH2H = Object.prototype.hasOwnProperty.call(h2hData, h2hSlug);
 const anyHub = hasG1 || hasG2 || hasTourn;
 const dataLocale = new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -233,6 +240,14 @@ const faq = {
         </nav>
       )}
 
+      {hasH2H && (
+        <a class="h2h-link" href={`/scontri-diretti/${h2hSlug}`}>
+          <span class="h2h-link-eyebrow">Scontri diretti</span>
+          <span class="h2h-link-text">Tutti i precedenti tra {g1Display} e {g2Display}</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      )}
+
       {d.giocatore1 !== 'Redazione' && anyHub && (
         <nav class="related-hubs" aria-label="Approfondimenti correlati">
           <div class="rh-label">Approfondisci su</div>
@@ -318,6 +333,13 @@ const faq = {
     color: var(--testo-secondario, #555); text-decoration: none; transition: border-color 0.15s, color 0.15s;
   }
   .tag-articolo a:hover { border-color: var(--verde, #39d453); color: var(--verde, #2a7f3e); }
+
+  .h2h-link { display: flex; align-items: center; gap: 12px; margin-top: 18px; padding: 14px 18px; border-radius: 12px; text-decoration: none; background: var(--sfondo-card, #fff); border: 1px solid var(--linea, #e5e5e5); transition: border-color 0.15s, transform 0.15s; }
+  .h2h-link:hover { border-color: var(--verde, #39d453); transform: translateY(-1px); }
+  .h2h-link-eyebrow { font-size: 0.66rem; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 800; color: var(--verde, #2a7f3e); white-space: nowrap; }
+  .h2h-link-text { flex: 1; font-weight: 600; color: var(--testo, #1a1a1a); min-width: 0; }
+  .h2h-link svg { color: var(--verde, #2a7f3e); flex-shrink: 0; }
+  @media (max-width: 520px) { .h2h-link { flex-wrap: wrap; } .h2h-link-text { flex-basis: 100%; order: 3; } }
 
   .related-hubs {
     margin-top: 32px;

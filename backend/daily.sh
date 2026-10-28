@@ -118,6 +118,11 @@ python3 vet_covers.py --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
 log_section "[4-quater/5] Classifiche ATP/WTA"
 python3 fetch_standings.py 2>&1 | tee -a "$LOG" || true
 
+# 4-quinquies. Scontri diretti (H2H) per le coppie analizzate: precedenti
+# reali da API Tennis. Alimenta /scontri-diretti/[coppia]. Query a volume.
+log_section "[4-quinquies/5] Scontri diretti H2H"
+python3 fetch_h2h.py 2>&1 | tee -a "$LOG" || true
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"

@@ -1,0 +1,1478 @@
+{
+  "arthur-fils-vs-jan-lennard-struff": {
+    "p1": "Arthur Fils",
+    "p2": "Jan-Lennard Struff",
+    "slug_p1": "arthur-fils",
+    "slug_p2": "jan-lennard-struff",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Brussels",
+        "g1": "A. Fils",
+        "g2": "J-L. Struff",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-10-30",
+        "torneo": "ATP Paris",
+        "g1": "A. Fils",
+        "g2": "J-L. Struff",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "aleksandar-kovacevic-vs-james-duckworth": {
+    "p1": "Aleksandar Kovacevic",
+    "p2": "James Duckworth",
+    "slug_p1": "aleksandar-kovacevic",
+    "slug_p2": "james-duckworth",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Basel",
+        "g1": "A. Kovacevic",
+        "g2": "J. Duckworth",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-10-11",
+        "torneo": "Seoul",
+        "g1": "J. Duckworth",
+        "g2": "A. Kovacevic",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alex-molcan-vs-hamad-medjedovic": {
+    "p1": "Alex Molcan",
+    "p2": "Hamad Medjedovic",
+    "slug_p1": "alex-molcan",
+    "slug_p2": "hamad-medjedovic",
+    "bilancio": {
+      "p1": 2,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Vienna",
+        "g1": "A. Molcan",
+        "g2": "H. Medjedovic",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2021-05-24",
+        "torneo": "Belgrade 2",
+        "g1": "A. Molcan",
+        "g2": "H. Medjedovic",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "anastasia-zakharova-vs-shuai-zhang": {
+    "p1": "Anastasia Zakharova",
+    "p2": "Shuai Zhang",
+    "slug_p1": "anastasia-zakharova",
+    "slug_p2": "shuai-zhang",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2025-10-21",
+        "torneo": "Guangzhou",
+        "g1": "S. Zhang",
+        "g2": "A. Zakharova",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-09-24",
+        "torneo": "Beijing",
+        "g1": "A. Zakharova",
+        "g2": "S. Zhang",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "corentin-moutet-vs-tomas-machac": {
+    "p1": "Corentin Moutet",
+    "p2": "Tomas Machac",
+    "slug_p1": "corentin-moutet",
+    "slug_p2": "tomas-machac",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Vienna",
+        "g1": "C. Moutet",
+        "g2": "T. Machac",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-03-21",
+        "torneo": "Miami",
+        "g1": "C. Moutet",
+        "g2": "T. Machac",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alexander-bublik-vs-daniil-medvedev": {
+    "p1": "Alexander Bublik",
+    "p2": "Daniil Medvedev",
+    "slug_p1": "alexander-bublik",
+    "slug_p2": "daniil-medvedev",
+    "bilancio": {
+      "p1": 1,
+      "p2": 5
+    },
+    "precedenti": [
+      {
+        "data": "2025-06-22",
+        "torneo": "Halle",
+        "g1": "A. Bublik",
+        "g2": "D. Medvedev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-04-30",
+        "torneo": "ATP Madrid",
+        "g1": "D. Medvedev",
+        "g2": "A. Bublik",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-03-01",
+        "torneo": "ATP Dubai",
+        "g1": "D. Medvedev",
+        "g2": "A. Bublik",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2021-08-10",
+        "torneo": "Toronto",
+        "g1": "D. Medvedev",
+        "g2": "A. Bublik",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2021-07-24",
+        "torneo": "Olympic Games",
+        "g1": "A. Bublik",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2016-03-16",
+        "torneo": "Kazan",
+        "g1": "D. Medvedev",
+        "g2": "A. Bublik",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "dayana-yastremska-vs-xiaodi-you": {
+    "p1": "Dayana Yastremska",
+    "p2": "Xiaodi You",
+    "slug_p1": "dayana-yastremska",
+    "slug_p2": "xiaodi-you",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Guangzhou",
+        "g1": "D. Yastremska",
+        "g2": "X. You",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "diana-shnaider-vs-elena-rybakina": {
+    "p1": "Diana Shnaider",
+    "p2": "Elena Rybakina",
+    "slug_p1": "diana-shnaider",
+    "slug_p2": "elena-rybakina",
+    "bilancio": {
+      "p1": 0,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Ningbo",
+        "g1": "E. Rybakina",
+        "g2": "D. Shnaider",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-08-19",
+        "torneo": "Cincinnati",
+        "g1": "D. Shnaider",
+        "g2": "E. Rybakina",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-04-16",
+        "torneo": "Stuttgart",
+        "g1": "E. Rybakina",
+        "g2": "D. Shnaider",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "francisco-cerundolo-vs-tallon-griekspoor": {
+    "p1": "Francisco Cerundolo",
+    "p2": "Tallon Griekspoor",
+    "slug_p1": "francisco-cerundolo",
+    "slug_p2": "tallon-griekspoor",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Brussels",
+        "g1": "F. Cerundolo",
+        "g2": "T. Griekspoor",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-03-23",
+        "torneo": "Miami",
+        "g1": "T. Griekspoor",
+        "g2": "F. Cerundolo",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "flavio-cobolli-vs-lorenzo-musetti": {
+    "p1": "Flavio Cobolli",
+    "p2": "Lorenzo Musetti",
+    "slug_p1": "flavio-cobolli",
+    "slug_p2": "lorenzo-musetti",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Lyon (France) - Qualification",
+        "g1": "F. Cobolli",
+        "g2": "L. Musetti",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2020-06-22",
+        "torneo": "Italian Championship",
+        "g1": "L. Musetti",
+        "g2": "F. Cobolli",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "kayla-day-vs-shuai-zhang": {
+    "p1": "Kayla Day",
+    "p2": "Shuai Zhang",
+    "slug_p1": "kayla-day",
+    "slug_p2": "shuai-zhang",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Tokyo",
+        "g1": "K. Day",
+        "g2": "S. Zhang",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-08-15",
+        "torneo": "Cincinnati",
+        "g1": "S. Zhang",
+        "g2": "K. Day",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "katarzyna-kawa-vs-linda-fruhvirtova": {
+    "p1": "Katarzyna Kawa",
+    "p2": "Linda Fruhvirtova",
+    "slug_p1": "katarzyna-kawa",
+    "slug_p2": "linda-fruhvirtova",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-08-03",
+        "torneo": "Warsaw",
+        "g1": "K. Kawa",
+        "g2": "L. Fruhvirtova",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-05-16",
+        "torneo": "French Open",
+        "g1": "L. Fruhvirtova",
+        "g2": "K. Kawa",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "nikoloz-basilashvili-vs-stefanos-tsitsipas": {
+    "p1": "Nikoloz Basilashvili",
+    "p2": "Stefanos Tsitsipas",
+    "slug_p1": "nikoloz-basilashvili",
+    "slug_p2": "stefanos-tsitsipas",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Almaty",
+        "g1": "N. Basilashvili",
+        "g2": "S. Tsitsipas",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2019-10-03",
+        "torneo": "Beijing",
+        "g1": "N. Basilashvili",
+        "g2": "S. Tsitsipas",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "lukas-neumayer-vs-vit-kopriva": {
+    "p1": "Lukas Neumayer",
+    "p2": "Vit Kopriva",
+    "slug_p1": "lukas-neumayer",
+    "slug_p2": "vit-kopriva",
+    "bilancio": {
+      "p1": 3,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-24",
+        "torneo": "Vienna",
+        "g1": "V. Kopriva",
+        "g2": "L. Neumayer",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-06-03",
+        "torneo": "Prostejov",
+        "g1": "L. Neumayer",
+        "g2": "V. Kopriva",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-10-23",
+        "torneo": "Curitiba Challenger Men",
+        "g1": "V. Kopriva",
+        "g2": "L. Neumayer",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-07-23",
+        "torneo": "Kitzbuhel",
+        "g1": "V. Kopriva",
+        "g2": "L. Neumayer",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "adrian-mannarino-vs-alex-molcan": {
+    "p1": "Adrian Mannarino",
+    "p2": "Alex Molcan",
+    "slug_p1": "adrian-mannarino",
+    "slug_p2": "alex-molcan",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Vienna",
+        "g1": "A. Mannarino",
+        "g2": "A. Molcan",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "fabian-marozsan-vs-tomas-machac": {
+    "p1": "Fabian Marozsan",
+    "p2": "Tomas Machac",
+    "slug_p1": "fabian-marozsan",
+    "slug_p2": "tomas-machac",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2025-06-19",
+        "torneo": "Halle",
+        "g1": "F. Marozsan",
+        "g2": "T. Machac",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-10-23",
+        "torneo": "ATP Vienna",
+        "g1": "T. Machac",
+        "g2": "F. Marozsan",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "aleksandar-kovacevic-vs-giovanni-mpetshi-perricard": {
+    "p1": "Aleksandar Kovacevic",
+    "p2": "Giovanni Mpetshi Perricard",
+    "slug_p1": "aleksandar-kovacevic",
+    "slug_p2": "giovanni-mpetshi-perricard",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Basel",
+        "g1": "G. Mpetshi Perricard",
+        "g2": "A. Kovacevic",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-06-14",
+        "torneo": "London",
+        "g1": "A. Kovacevic",
+        "g2": "G. Mpetshi Perricard",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-01-09",
+        "torneo": "Brisbane",
+        "g1": "A. Kovacevic",
+        "g2": "G. Mpetshi Perricard",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "jan-lennard-struff-vs-tallon-griekspoor": {
+    "p1": "Jan-Lennard Struff",
+    "p2": "Tallon Griekspoor",
+    "slug_p1": "jan-lennard-struff",
+    "slug_p2": "tallon-griekspoor",
+    "bilancio": {
+      "p1": 0,
+      "p2": 4
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Brussels",
+        "g1": "J-L. Struff",
+        "g2": "T. Griekspoor",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-02-18",
+        "torneo": "Doha",
+        "g1": "J-L. Struff",
+        "g2": "T. Griekspoor",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-11-22",
+        "torneo": "ATP Davis Cup - World Group",
+        "g1": "J-L. Struff",
+        "g2": "T. Griekspoor",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-08-31",
+        "torneo": "US Open",
+        "g1": "T. Griekspoor",
+        "g2": "J-L. Struff",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "lorenzo-musetti-vs-taylor-fritz": {
+    "p1": "Lorenzo Musetti",
+    "p2": "Taylor Fritz",
+    "slug_p1": "lorenzo-musetti",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 5,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Lyon (France) - Qualification",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-01-26",
+        "torneo": "Australian Open",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-11-10",
+        "torneo": "Finals - Turin",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-07-31",
+        "torneo": "Olympic Games",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-07-10",
+        "torneo": "ATP Wimbledon",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-04-07",
+        "torneo": "ATP Monte Carlo",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-11-24",
+        "torneo": "ATP Davis Cup - World Group",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-06-28",
+        "torneo": "Wimbledon",
+        "g1": "L. Musetti",
+        "g2": "T. Fritz",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "lukas-neumayer-vs-titouan-droguet": {
+    "p1": "Lukas Neumayer",
+    "p2": "Titouan Droguet",
+    "slug_p1": "lukas-neumayer",
+    "slug_p2": "titouan-droguet",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Vienna",
+        "g1": "L. Neumayer",
+        "g2": "T. Droguet",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-04-19",
+        "torneo": "M25 Angers",
+        "g1": "T. Droguet",
+        "g2": "L. Neumayer",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "jacob-fearnley-vs-lorenzo-sonego": {
+    "p1": "Jacob Fearnley",
+    "p2": "Lorenzo Sonego",
+    "slug_p1": "jacob-fearnley",
+    "slug_p2": "lorenzo-sonego",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Vienna",
+        "g1": "L. Sonego",
+        "g2": "J. Fearnley",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "rinky-hijikata-vs-yannick-hanfmann": {
+    "p1": "Rinky Hijikata",
+    "p2": "Yannick Hanfmann",
+    "slug_p1": "rinky-hijikata",
+    "slug_p2": "yannick-hanfmann",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-25",
+        "torneo": "Basel",
+        "g1": "R. Hijikata",
+        "g2": "Y. Hanfmann",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-01-16",
+        "torneo": "Australian Open",
+        "g1": "Y. Hanfmann",
+        "g2": "R. Hijikata",
+        "risultato": "2 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "alexandra-eala-vs-mika-stojsavljevic": {
+    "p1": "Alexandra Eala",
+    "p2": "Mika Stojsavljevic",
+    "slug_p1": "alexandra-eala",
+    "slug_p2": "mika-stojsavljevic",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-26",
+        "torneo": "Tokyo",
+        "g1": "A. Eala",
+        "g2": "M. Stojsavljevic",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "holger-rune-vs-quentin-halys": {
+    "p1": "Holger Rune",
+    "p2": "Quentin Halys",
+    "slug_p1": "holger-rune",
+    "slug_p2": "quentin-halys",
+    "bilancio": {
+      "p1": 3,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-26",
+        "torneo": "Basel",
+        "g1": "H. Rune",
+        "g2": "Q. Halys",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-05-30",
+        "torneo": "French Open",
+        "g1": "Q. Halys",
+        "g2": "H. Rune",
+        "risultato": "2 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-07-06",
+        "torneo": "ATP Wimbledon",
+        "g1": "H. Rune",
+        "g2": "Q. Halys",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "mariano-navone-vs-valentin-vacherot": {
+    "p1": "Mariano Navone",
+    "p2": "Valentin Vacherot",
+    "slug_p1": "mariano-navone",
+    "slug_p2": "valentin-vacherot",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-26",
+        "torneo": "Basel",
+        "g1": "V. Vacherot",
+        "g2": "M. Navone",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-08-05",
+        "torneo": "Montreal",
+        "g1": "V. Vacherot",
+        "g2": "M. Navone",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-03-21",
+        "torneo": "Miami",
+        "g1": "M. Navone",
+        "g2": "V. Vacherot",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "alex-michelsen-vs-botic-van-de-zandschulp": {
+    "p1": "Alex Michelsen",
+    "p2": "Botic van de Zandschulp",
+    "slug_p1": "alex-michelsen",
+    "slug_p2": "botic-van-de-zandschulp",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Basel",
+        "g1": "A. Michelsen",
+        "g2": "B. Van De Zandschulp",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-10-10",
+        "torneo": "Shanghai",
+        "g1": "B. Van De Zandschulp",
+        "g2": "A. Michelsen",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alexander-zverev-vs-martin-landaluce": {
+    "p1": "Alexander Zverev",
+    "p2": "Martin Landaluce",
+    "slug_p1": "alexander-zverev",
+    "slug_p2": "martin-landaluce",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Vienna",
+        "g1": "A. Zverev",
+        "g2": "M. Landaluce",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "aleksandar-kovacevic-vs-ben-shelton": {
+    "p1": "Aleksandar Kovacevic",
+    "p2": "Ben Shelton",
+    "slug_p1": "aleksandar-kovacevic",
+    "slug_p2": "ben-shelton",
+    "bilancio": {
+      "p1": 2,
+      "p2": 4
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Basel",
+        "g1": "B. Shelton",
+        "g2": "A. Kovacevic",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-11-19",
+        "torneo": "Champaign",
+        "g1": "B. Shelton",
+        "g2": "A. Kovacevic",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-11-11",
+        "torneo": "Knoxville",
+        "g1": "A. Kovacevic",
+        "g2": "B. Shelton",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-07-23",
+        "torneo": "Indianapolis",
+        "g1": "A. Kovacevic",
+        "g2": "B. Shelton",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-07-15",
+        "torneo": "Rome US",
+        "g1": "A. Kovacevic",
+        "g2": "B. Shelton",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-07-19",
+        "torneo": "Cary",
+        "g1": "A. Kovacevic",
+        "g2": "B. Shelton",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "cameron-norrie-vs-francisco-cerundolo": {
+    "p1": "Cameron Norrie",
+    "p2": "Francisco Cerundolo",
+    "slug_p1": "cameron-norrie",
+    "slug_p2": "francisco-cerundolo",
+    "bilancio": {
+      "p1": 2,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Vienna",
+        "g1": "C. Norrie",
+        "g2": "F. Cerundolo",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-07-18",
+        "torneo": "UTS Championship",
+        "g1": "F. Cerundolo",
+        "g2": "C. Norrie",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-05-26",
+        "torneo": "ATP Lyon",
+        "g1": "F. Cerundolo",
+        "g2": "C. Norrie",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-04-10",
+        "torneo": "ATP Monte Carlo",
+        "g1": "C. Norrie",
+        "g2": "F. Cerundolo",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-05-17",
+        "torneo": "Lyon",
+        "g1": "C. Norrie",
+        "g2": "F. Cerundolo",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "arthur-fils-vs-giovanni-mpetshi-perricard": {
+    "p1": "Arthur Fils",
+    "p2": "Giovanni Mpetshi Perricard",
+    "slug_p1": "arthur-fils",
+    "slug_p2": "giovanni-mpetshi-perricard",
+    "bilancio": {
+      "p1": 2,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Basel",
+        "g1": "G. Mpetshi Perricard",
+        "g2": "A. Fils",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-11-13",
+        "torneo": "Helsinki",
+        "g1": "A. Fils",
+        "g2": "G. Mpetshi Perricard",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-07-18",
+        "torneo": "M25 Uriage",
+        "g1": "A. Fils",
+        "g2": "G. Mpetshi Perricard",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-06-11",
+        "torneo": "French Open",
+        "g1": "G. Mpetshi Perricard",
+        "g2": "A. Fils",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "hubert-hurkacz-vs-zizou-bergs": {
+    "p1": "Hubert Hurkacz",
+    "p2": "Zizou Bergs",
+    "slug_p1": "hubert-hurkacz",
+    "slug_p2": "zizou-bergs",
+    "bilancio": {
+      "p1": 2,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Basel",
+        "g1": "H. Hurkacz",
+        "g2": "Z. Bergs",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-01-20",
+        "torneo": "Australian Open",
+        "g1": "H. Hurkacz",
+        "g2": "Z. Bergs",
+        "risultato": "3 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "carlos-alcaraz-vs-karen-khachanov": {
+    "p1": "Carlos Alcaraz",
+    "p2": "Karen Khachanov",
+    "slug_p1": "carlos-alcaraz",
+    "slug_p2": "karen-khachanov",
+    "bilancio": {
+      "p1": 7,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Vienna",
+        "g1": "K. Khachanov",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-02-19",
+        "torneo": "Doha",
+        "g1": "C. Alcaraz",
+        "g2": "K. Khachanov",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-05-13",
+        "torneo": "Rome",
+        "g1": "K. Khachanov",
+        "g2": "C. Alcaraz",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-09-30",
+        "torneo": "ATP Beijing",
+        "g1": "K. Khachanov",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-05-03",
+        "torneo": "ATP Madrid",
+        "g1": "C. Alcaraz",
+        "g2": "K. Khachanov",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-07-22",
+        "torneo": "Hamburg",
+        "g1": "C. Alcaraz",
+        "g2": "K. Khachanov",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-05-29",
+        "torneo": "French Open",
+        "g1": "K. Khachanov",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "stefanos-tsitsipas-vs-taylor-fritz": {
+    "p1": "Stefanos Tsitsipas",
+    "p2": "Taylor Fritz",
+    "slug_p1": "stefanos-tsitsipas",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 3,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-12",
+        "torneo": "Shanghai",
+        "g1": "S. Tsitsipas",
+        "g2": "T. Fritz",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-01-07",
+        "torneo": "ATP United Cup",
+        "g1": "T. Fritz",
+        "g2": "S. Tsitsipas",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-01-21",
+        "torneo": "ATP Australian Open",
+        "g1": "T. Fritz",
+        "g2": "S. Tsitsipas",
+        "risultato": "3 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-04-14",
+        "torneo": "ATP Monte Carlo",
+        "g1": "T. Fritz",
+        "g2": "S. Tsitsipas",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-01-24",
+        "torneo": "Australian Open",
+        "g1": "T. Fritz",
+        "g2": "S. Tsitsipas",
+        "risultato": "2 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "andrey-rublev-vs-tommy-paul": {
+    "p1": "Andrey Rublev",
+    "p2": "Tommy Paul",
+    "slug_p1": "andrey-rublev",
+    "slug_p2": "tommy-paul",
+    "bilancio": {
+      "p1": 2,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-27",
+        "torneo": "Vienna",
+        "g1": "T. Paul",
+        "g2": "A. Rublev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-10-11",
+        "torneo": "ATP Shanghai",
+        "g1": "T. Paul",
+        "g2": "A. Rublev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-10-14",
+        "torneo": "Gijon",
+        "g1": "A. Rublev",
+        "g2": "T. Paul",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "holger-rune-vs-hubert-hurkacz": {
+    "p1": "Holger Rune",
+    "p2": "Hubert Hurkacz",
+    "slug_p1": "holger-rune",
+    "slug_p2": "hubert-hurkacz",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2022-11-02",
+        "torneo": "Paris",
+        "g1": "H. Hurkacz",
+        "g2": "H. Rune",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "adrian-mannarino-vs-jakub-mensik": {
+    "p1": "Adrian Mannarino",
+    "p2": "Jakub Mensik",
+    "slug_p1": "adrian-mannarino",
+    "slug_p2": "jakub-mensik",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-06-16",
+        "torneo": "London",
+        "g1": "J. Mensik",
+        "g2": "A. Mannarino",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "jurij-rodionov-vs-nikoloz-basilashvili": {
+    "p1": "Jurij Rodionov",
+    "p2": "Nikoloz Basilashvili",
+    "slug_p1": "jurij-rodionov",
+    "slug_p2": "nikoloz-basilashvili",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-03-30",
+        "torneo": "Bucharest",
+        "g1": "N. Basilashvili",
+        "g2": "J. Rodionov",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "frances-tiafoe-vs-lorenzo-musetti": {
+    "p1": "Frances Tiafoe",
+    "p2": "Lorenzo Musetti",
+    "slug_p1": "frances-tiafoe",
+    "slug_p2": "lorenzo-musetti",
+    "bilancio": {
+      "p1": 4,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Vienna",
+        "g1": "L. Musetti",
+        "g2": "F. Tiafoe",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-08-22",
+        "torneo": "Cincinnati",
+        "g1": "L. Musetti",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-06-03",
+        "torneo": "French Open",
+        "g1": "L. Musetti",
+        "g2": "F. Tiafoe",
+        "risultato": "3 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-08-15",
+        "torneo": "ATP Cincinnati",
+        "g1": "L. Musetti",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-06-16",
+        "torneo": "ATP Stuttgart",
+        "g1": "L. Musetti",
+        "g2": "F. Tiafoe",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-05-16",
+        "torneo": "ATP Rome",
+        "g1": "L. Musetti",
+        "g2": "F. Tiafoe",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2020-10-07",
+        "torneo": "Parma",
+        "g1": "F. Tiafoe",
+        "g2": "L. Musetti",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "casper-ruud-vs-nuno-borges": {
+    "p1": "Casper Ruud",
+    "p2": "Nuno Borges",
+    "slug_p1": "casper-ruud",
+    "slug_p2": "nuno-borges",
+    "bilancio": {
+      "p1": 2,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Basel",
+        "g1": "N. Borges",
+        "g2": "C. Ruud",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-07-31",
+        "torneo": "Toronto",
+        "g1": "N. Borges",
+        "g2": "C. Ruud",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-05-28",
+        "torneo": "French Open",
+        "g1": "C. Ruud",
+        "g2": "N. Borges",
+        "risultato": "1 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-02-22",
+        "torneo": "ATP Los Cabos",
+        "g1": "N. Borges",
+        "g2": "C. Ruud",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "denis-shapovalov-vs-remy-bertola": {
+    "p1": "Denis Shapovalov",
+    "p2": "Remy Bertola",
+    "slug_p1": "denis-shapovalov",
+    "slug_p2": "remy-bertola",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Basel",
+        "g1": "R. Bertola",
+        "g2": "D. Shapovalov",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "rinky-hijikata-vs-taylor-fritz": {
+    "p1": "Rinky Hijikata",
+    "p2": "Taylor Fritz",
+    "slug_p1": "rinky-hijikata",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2024-02-17",
+        "torneo": "ATP Delray Beach",
+        "g1": "T. Fritz",
+        "g2": "R. Hijikata",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "brandon-nakashima-vs-tallon-griekspoor": {
+    "p1": "Brandon Nakashima",
+    "p2": "Tallon Griekspoor",
+    "slug_p1": "brandon-nakashima",
+    "slug_p2": "tallon-griekspoor",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Vienna",
+        "g1": "T. Griekspoor",
+        "g2": "B. Nakashima",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-10-22",
+        "torneo": "Vienna",
+        "g1": "T. Griekspoor",
+        "g2": "B. Nakashima",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-05-25",
+        "torneo": "French Open",
+        "g1": "B. Nakashima",
+        "g2": "T. Griekspoor",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "jan-lennard-struff-vs-yannick-hanfmann": {
+    "p1": "Jan-Lennard Struff",
+    "p2": "Yannick Hanfmann",
+    "slug_p1": "jan-lennard-struff",
+    "slug_p2": "yannick-hanfmann",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Basel",
+        "g1": "Y. Hanfmann",
+        "g2": "J-L. Struff",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-08-13",
+        "torneo": "Cancun 2",
+        "g1": "Y. Hanfmann",
+        "g2": "J-L. Struff",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  }
+}

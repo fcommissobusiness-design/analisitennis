@@ -1,0 +1,140 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { playerSlug } from '../../lib/hubs.js';
+import h2hData from '../../data/h2h.json';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const giocatoriProfili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+  const profili = new Set(giocatoriProfili.map(p => p.data.slug_profilo));
+  return Object.entries(h2hData).map(([coppia, d]) => {
+    // Nostre analisi del match tra questi due (match su entrambi i cognomi)
+    const l1 = d.p1.split(' ').pop().toLowerCase();
+    const l2 = d.p2.split(' ').pop().toLowerCase();
+    const nostre = articoli.filter(a => {
+      const g = `${a.data.giocatore1} ${a.data.giocatore2}`.toLowerCase();
+      return g.includes(l1) && g.includes(l2);
+    }).sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+    return { params: { coppia }, props: { d, nostre, profili } };
+  });
+}
+
+const { d, nostre, profili } = Astro.props;
+const site = 'https://analisitennis.it';
+const totale = d.precedenti.length;
+const haP1 = profili.has(d.slug_p1);
+const haP2 = profili.has(d.slug_p2);
+
+function dataIt(iso) {
+  if (!iso) return '';
+  const dt = new Date(iso);
+  return isNaN(dt) ? iso : dt.toLocaleDateString('it-IT', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+function vincitore(m) {
+  if (m.winner === 'First Player') return m.g1;
+  if (m.winner === 'Second Player') return m.g2;
+  return '';
+}
+
+const faq = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: [{
+    '@type': 'Question',
+    name: `Qual e' il bilancio dei precedenti tra ${d.p1} e ${d.p2}?`,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: `Nei ${totale} scontri diretti disputati il bilancio e' di ${d.bilancio.p1}-${d.bilancio.p2} ` +
+        `${d.bilancio.p1 > d.bilancio.p2 ? 'a favore di ' + d.p1 : d.bilancio.p2 > d.bilancio.p1 ? 'a favore di ' + d.p2 : 'in perfetta parita\''}.`,
+    },
+  }],
+};
+---
+<Base
+  titolo={`${d.p1} vs ${d.p2}: precedenti e scontri diretti - AnalisiTennis`}
+  descrizione={`Scontri diretti tra ${d.p1} e ${d.p2}: bilancio ${d.bilancio.p1}-${d.bilancio.p2} e tutti i ${totale} precedenti con date, tornei e risultati.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Scontri diretti' }, { nome: `${d.p1} - ${d.p2}` }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Scontri diretti</div>
+      <h1>{d.p1} <span class="verde">vs</span> {d.p2}</h1>
+      <p>Tutti i precedenti tra {d.p1} e {d.p2}: bilancio, date, tornei e risultati.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <div class="h2h-bilancio">
+          <div class="h2h-col">
+            {haP1 ? <a href={`/giocatori/${d.slug_p1}`}>{d.p1}</a> : <span>{d.p1}</span>}
+            <strong>{d.bilancio.p1}</strong>
+          </div>
+          <div class="h2h-vs">precedenti<br><span>{totale}</span></div>
+          <div class="h2h-col">
+            {haP2 ? <a href={`/giocatori/${d.slug_p2}`}>{d.p2}</a> : <span>{d.p2}</span>}
+            <strong>{d.bilancio.p2}</strong>
+          </div>
+        </div>
+
+        <h2 class="h2h-h2">I precedenti</h2>
+        <div class="classifica-wrap">
+          <table class="classifica">
+            <thead><tr><th>Data</th><th>Torneo</th><th>Risultato</th><th>Vincitore</th></tr></thead>
+            <tbody>
+              {d.precedenti.map(m => (
+                <tr>
+                  <td>{dataIt(m.data)}</td>
+                  <td>{m.torneo}</td>
+                  <td>{m.g1} {m.risultato} {m.g2}</td>
+                  <td>{vincitore(m)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {nostre.length > 0 && (
+          <section class="articoli-correlati-section">
+            <h2>Le nostre analisi</h2>
+            <ul class="correlati-grid">
+              {nostre.map(a => (
+                <li>
+                  <a href={`/articoli/${a.slug}`}>
+                    <div class="corr-eyebrow">{a.data.categoria} · {a.data.torneo}</div>
+                    <div class="corr-titolo">{a.data.titolo}</div>
+                    <div class="corr-data">{new Date(a.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long' })}</div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .h2h-bilancio { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 24px; margin-bottom: 36px; background: var(--sfondo-card, #fff); border: 1px solid var(--linea, #e5e5e5); border-radius: 12px; }
+  .h2h-col { flex: 1; text-align: center; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .h2h-col a, .h2h-col span { font-weight: 600; font-size: 1.02rem; color: var(--testo, #1a1a1a); text-decoration: none; overflow-wrap: anywhere; }
+  .h2h-col a { color: var(--verde, #2a7f3e); }
+  .h2h-col strong { font-size: 2.4rem; font-family: 'Playfair Display', Georgia, serif; line-height: 1; }
+  .h2h-vs { text-align: center; font-size: 0.68rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--testo-secondario, #8a94a3); font-weight: 700; }
+  .h2h-vs span { font-size: 1.6rem; font-family: 'Playfair Display', Georgia, serif; color: var(--testo, #1a1a1a); }
+  .h2h-h2, .articoli-correlati-section h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; font-weight: 700; margin: 0 0 16px; }
+  .articoli-correlati-section { margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--linea, #e5e5e5); }
+  .correlati-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .correlati-grid a { display: block; padding: 16px 18px; background: var(--sfondo-card, #fff); border: 1px solid var(--linea, #e5e5e5); border-radius: 8px; text-decoration: none; color: inherit; height: 100%; }
+  .correlati-grid a:hover { border-color: var(--verde, #39d453); }
+  .corr-eyebrow { font-size: 0.7rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--verde, #2a7f3e); font-weight: 700; margin-bottom: 8px; }
+  .corr-titolo { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.25; margin-bottom: 10px; }
+  .corr-data { font-size: 0.78rem; color: var(--testo-secondario, #6b7280); }
+</style>
