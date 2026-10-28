@@ -21,7 +21,7 @@ descrizione: "Eala contro Stojsavljevic al WTA di Tokyo: un confronto inedito su
 pubblicato: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-a-eala-vs-m-stojsavljevic-tokyo-pronostico-analisi.jpg"
-cover_credit: "Alex Eala (2024 US Open) 02 (cropped).jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Alex Eala (2024 US Open) 02 (cropped2).jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 Il tabellone WTA di **Tokyo** mette di fronte al primo turno utile due giocatrici con percorsi recenti piuttosto diversi: la filippina Alexandra Eala e la britannica Mika Stojsavljevic. È un confronto inedito, privo di qualsiasi precedente registrato tra le due, che va in scena sul cemento della capitale giapponese in un tratto ormai avanzato di stagione, con l'autunno 2026 che accompagna il calendario verso la chiusura.

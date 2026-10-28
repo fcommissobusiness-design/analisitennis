@@ -21,7 +21,7 @@ descrizione: "Altmaier e Cerundolo si affrontano di nuovo al torneo di Basilea s
 pubblicato: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-d-altmaier-vs-j-m-cerundolo-basel-pronostico-analisi.jpg"
-cover_credit: "Jakobsarena Publikum - IMG 20231105 084045.jpg | RouteMedia | CC BY-SA 4.0"
+cover_credit: "Daniel Altmaier (2023 US Open) 06.jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 Il torneo di **Basilea** propone subito un confronto dal sapore familiare: Daniel Altmaier e Juan Manuel Cerundolo tornano uno di fronte all'altro sul veloce indoor svizzero, dopo essersi incrociati a piu' riprese negli ultimi tempi. Il tedesco e l'argentino si conoscono ormai a memoria, tanto che pochi duelli nel circuito possono contare su un copione altrettanto recente e ripetuto. Questa sfida valida per i sedicesimi di finale aggiunge cosi' un nuovo capitolo a una rivalita' che si e' infittita con il passare dei mesi e che promette scintille davanti al pubblico svizzero.

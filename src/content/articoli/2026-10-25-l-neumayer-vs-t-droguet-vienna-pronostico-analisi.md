@@ -21,7 +21,7 @@ descrizione: "Finale ATP Vienna tra l'austriaco Neumayer e il francese Droguet: 
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-l-neumayer-vs-t-droguet-vienna-pronostico-analisi.jpg"
-cover_credit: "Titouan Droguet (2026 US Open) 01 (cropped).jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Titouan Droguet (2026 US Open) 01.jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 La finale dell'ATP di **Vienna** mette di fronte l'austriaco Lukas Neumayer e il francese Titouan Droguet, due giocatori approdati all'ultimo atto da percorsi diversi ma spinti dalla stessa voglia di chiudere la settimana con un trofeo pesante. Il campo veloce indoor della capitale austriaca fa da cornice a una sfida che arriva al termine di giorni intensi per entrambi.

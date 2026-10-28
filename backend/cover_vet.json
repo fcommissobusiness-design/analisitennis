@@ -1,114 +1,44 @@
 {
-  "date": "2026-10-27",
-  "total": 15,
+  "date": "2026-10-26",
+  "total": 7,
   "da_rivedere": 0,
   "details": [
     {
-      "slug": "2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi",
+      "slug": "2026-10-26-a-eala-vs-m-stojsavljevic-tokyo-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore in azione, figura intera, racchetta e campo Basel visibili."
+      "motivo": "Primo piano ravvicinato del volto, senza racchetta o campo.",
+      "risolta_con": "giocatore Alexandra Eala"
     },
     {
-      "slug": "2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi",
+      "slug": "2026-10-26-d-altmaier-vs-j-m-cerundolo-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore in azione, testa intera, racchetta e pallina visibili"
-    },
-    {
-      "slug": "2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore intero in azione, racchetta e campo visibili."
-    },
-    {
-      "slug": "2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore intero in campo con racchetta."
-    },
-    {
-      "slug": "2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore in azione, testa intera, racchetta e campo visibili."
-    },
-    {
-      "slug": "2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Primo piano ravvicinato del volto, nessuna azione.",
-      "risolta_con": "giocatore Aleksandar Kovacevic"
-    },
-    {
-      "slug": "2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatori interi su campo con racchette, in azione."
-    },
-    {
-      "slug": "2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore in azione, testa intera, racchetta e campo visibili."
-    },
-    {
-      "slug": "2026-10-27-h-hurkacz-vs-a-fils-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Primo piano del volto, ritratto ravvicinato, nessuna azione.",
-      "risolta_con": "giocatore Arthur Fils"
-    },
-    {
-      "slug": "2026-10-27-h-hurkacz-vs-z-bergs-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Primo piano del volto, ritratto ravvicinato, non azione.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Hubi Hurkacz (2023 DC Open) 01.jpg",
-          "ok": false,
-          "motivo": "Primo piano ravvicinato del volto, ritratto non in azione."
-        },
-        {
-          "via": "giocatore:Hubert Hurkacz",
-          "file": "Hubi Hurkacz (2023 DC Open) 01.jpg",
-          "ok": false,
-          "motivo": "Primo piano del volto, ritratto ravvicinato."
-        },
-        {
-          "via": "giocatore:Zizou Bergs",
-          "file": "Zizou Bergs (2023 US Open) 04.jpg",
-          "ok": false,
-          "motivo": "Primo piano ravvicinato del volto, ritratto headshot."
-        },
-        {
-          "via": "campo",
-          "file": "Sydney International Tennis ATP 250 (46001156835).",
-          "ok": true,
-          "motivo": "Giocatori in azione sul campo, racchette e palla visibili."
-        }
-      ]
-    },
-    {
-      "slug": "2026-10-27-j-kym-vs-a-rinderknech-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Concerto con palco, luci ed enorme folla.",
+      "motivo": "Concerto/evento in arena con palco, luci e folla.",
       "risolta_con": "rigenera"
     },
     {
-      "slug": "2026-10-27-k-khachanov-vs-c-alcaraz-vienna-pronostico-analisi",
+      "slug": "2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore in azione al servizio, figura intera, campo visibile."
+      "motivo": "Giocatrice in azione, testa intera, racchetta e pallina visibili."
     },
     {
-      "slug": "2026-10-27-t-fritz-vs-s-tsitsipas-basel-pronostico-analisi",
+      "slug": "2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Primo piano del volto durante intervista, non azione.",
-      "risolta_con": "giocatore Stefanos Tsitsipas"
+      "motivo": "Giocatore intero con racchetta in campo, testa visibile"
     },
     {
-      "slug": "2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi",
+      "slug": "2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore intero a terra, racchetta e campo visibili."
+      "motivo": "Giocatore a mezza figura in azione, racchetta e campo visibili."
     },
     {
-      "slug": "2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi",
+      "slug": "2026-10-26-m-brunold-vs-n-borges-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Esterno di arena con folla, nessun campo o giocatore.",
-      "risolta_con": "rigenera"
+      "motivo": "Giocatore in azione mezza figura, testa intera, racchetta visibile."
+    },
+    {
+      "slug": "2026-10-26-v-vacherot-vs-m-navone-basel-pronostico-analisi",
+      "ok": true,
+      "motivo": "Giocatore in azione, figura intera, racchetta e campo Basel."
     }
   ]
 }
