@@ -112,41 +112,47 @@ def audit_one(art: Path) -> dict:
     fav, conf = detect_winner(verdetto, g1, g2)
     if fav and conf != 'equilibrio':
         full = NAME_MAP.get(fav)
-        if full:
+        cred_low = credit.lower()
+        players_last = [t for t in (_last_token(g1), _last_token(g2)) if t]
+        is_player = any(p and len(p) >= 4 and p.lower() in cred_low for p in players_last)
+        if is_player:
+            # La cover e' gia' una foto di uno dei due giocatori del match
+            # (puo' essere l'altro, usato quando il favorito ha solo primi
+            # piani bocciati dal vet): valida, non e' ne' obsoleta ne' venue.
+            result['problems'].append(f'[info] cover = foto giocatore del match')
+        elif full:
             last = _last_token(full)
             if last and last not in credit:
                 # Il favorito ha mapping ma il credit non ha il cognome.
-                # Verifichiamo se Commons ha davvero una foto propria per il
-                # giocatore: se SI, la cover attuale e' da sostituire (KO);
-                # se NO, il venue va bene (info).
-                try:
-                    probe = pick_image(full)
-                except Exception:
-                    probe = None
-                if probe:
-                    # Esiste foto propria -> cover attuale e' obsoleta, va rifatta
-                    result['ok'] = False
+                # Un VENUE vero o un titolo tennis sono scelte valide: spesso
+                # il favorito ha solo primi piani (bocciati dal vet) e si usa
+                # il venue del torneo. NON e' obsoleta. Flagghiamo "obsoleta"
+                # solo se la cover non e' ne' giocatore ne' venue ne' tennis.
+                cred_title = (result['credit'] or '').split('|')[0]
+                looks_t = _looks_tennis(credit)
+                is_venue = cred_title and _is_venue_photo(cred_title)
+                if is_venue or looks_t:
                     result['problems'].append(
-                        f'cover obsoleta: foto propria di {full} disponibile su Commons '
-                        f'("{probe["title"][:60]}") ma credit attuale e\' "{credit[:60]}"'
+                        f'[info] favorito {fav}: usato venue/contesto tennis "{credit[:50]}"'
                     )
                 else:
-                    # Anche quando non c'e' foto propria, la cover deve
-                    # essere un venue VERO. Accettiamo o un titolo che
-                    # suona tennis (parola 'tennis', 'atp', ...) o un
-                    # venue puro (ha venue word tipo 'arena','hall',...).
-                    cred_title = (result['credit'] or '').split('|')[0]
-                    looks_t = _looks_tennis(credit)
-                    is_venue = cred_title and _is_venue_photo(cred_title)
-                    if not (looks_t or is_venue):
+                    # Cover ne' giocatore ne' venue: se il favorito ha una
+                    # foto propria, la cover attuale e' davvero da rifare.
+                    try:
+                        probe = pick_image(full)
+                    except Exception:
+                        probe = None
+                    if probe:
+                        result['ok'] = False
+                        result['problems'].append(
+                            f'cover obsoleta: foto propria di {full} disponibile su Commons '
+                            f'("{probe["title"][:60]}") ma credit attuale e\' "{credit[:60]}"'
+                        )
+                    else:
                         result['ok'] = False
                         result['problems'].append(
                             f'favorito {fav} ({full}): no foto Commons e cover non e\' '
                             f'venue tennis chiaro ("{credit[:60]}")'
-                        )
-                    else:
-                        result['problems'].append(
-                            f'[info] favorito {fav} senza foto Commons; usato venue "{credit[:50]}"'
                         )
         else:
             # Favorito senza mapping -> si ripiega sulla foto dell'altro

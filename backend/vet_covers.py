@@ -37,7 +37,19 @@ CLEAN_COURTS = [
     'File:Jimmy C. Lunsford Tennis Center.jpg',
     'File:Olympic Tennis Centre, Rio, Brazil.jpg',
     'File:Arena principal do Centro Olímpico de Tênis.jpg',
+    'File:Olympic Tennis Center.jpg',
+    'File:Olympic Tennis Center-Centro Olímpico da Barra.jpg',
+    'File:Taube Family Tennis Stadium 2015.JPG',
+    'File:Anjo Sports Park tennis court ac.jpg',
 ]
+
+
+def _clean_court_for(stem: str, offset: int = 0) -> str:
+    """Campo pulito scelto in modo deterministico dallo slug, cosi' articoli
+    diversi che finiscono sul fallback NON ricevono lo stesso campo."""
+    import hashlib as _h
+    i = (int(_h.md5(stem.encode()).hexdigest(), 16) + offset) % len(CLEAN_COURTS)
+    return CLEAN_COURTS[i]
 
 
 def _fetch_commons(title: str):
@@ -121,7 +133,6 @@ def main():
 
     report = []
     ko = 0
-    court_idx = [0]  # rotazione campi puliti (ultima spiaggia), mutabile
     for art in articoli:
         fm, _ = parse_frontmatter(art)
         if not fm:
@@ -184,18 +195,22 @@ def main():
         if entry['ok']:
             report.append(entry); continue
 
-        try:
-            court = CLEAN_COURTS[court_idx[0] % len(CLEAN_COURTS)]
-            court_idx[0] += 1
-            t = _apply(stem, _fetch_commons(court))
-            ok4, m4 = vet_image(cover)
-            attempts.append(('campo', t, ok4, m4))
-            entry['ok'] = ok4
-            if ok4:
-                entry['risolta_con'] = 'campo pulito'
-                print(f'         -> campo pulito: risolta', flush=True)
-        except Exception as e:
-            attempts.append(('campo', f'errore {e}', False, ''))
+        # Campo pulito scelto per slug (variato) e, se il primo non passa il
+        # vet, si prova il successivo nella lista: cosi' articoli diversi non
+        # ricevono lo stesso identico campo.
+        for off in range(len(CLEAN_COURTS)):
+            try:
+                court = _clean_court_for(stem, off)
+                t = _apply(stem, _fetch_commons(court))
+                ok4, m4 = vet_image(cover)
+                attempts.append(('campo', t, ok4, m4))
+                entry['ok'] = ok4
+                if ok4:
+                    entry['risolta_con'] = 'campo pulito'
+                    print(f'         -> campo pulito: risolta', flush=True)
+                    break
+            except Exception as e:
+                attempts.append(('campo', f'errore {e}', False, ''))
 
         entry['attempts'] = [{'via': a, 'file': f, 'ok': o, 'motivo': m} for a, f, o, m in attempts]
         if not entry['ok']:

@@ -20,7 +20,7 @@ descrizione: "Fritz e Hijikata si affrontano a Basilea sul cemento indoor: unico
 pubblicato: true
 generato_il: "2026-10-28T08:26"
 cover_image: "/covers/2026-10-28-t-fritz-vs-r-hijikata-basel-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
 Il cemento indoor di **Basilea** ospita un confronto tra due giocatori che negli ultimi giorni hanno respirato aria di finale, seppure in contesti diversi. Taylor Fritz e Rinky Hijikata si ritrovano uno di fronte all'altro con tanto tennis nelle gambe e la voglia di ripartire subito dopo le fatiche della settimana appena trascorsa, su una superficie che accelera il gioco e che tende a premiare chi serve con continuita'.

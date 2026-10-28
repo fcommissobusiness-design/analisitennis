@@ -21,7 +21,7 @@ descrizione: "A Guangzhou X. Sun affronta M. Sawangkaew nei sedicesimi: slancio 
 pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Arena principal do Centro Olímpico de Tênis.jpg | Luã Leal | CC BY-SA 4.0"
 ---
 
 Il cemento di **Guangzhou** mette di fronte due storie tennistiche che sembrano appartenere a epoche diverse. Da una parte X. Sun, giovane cinese lanciata da una stagione juniores di altissimo profilo; dall'altra M. Sawangkaew, thailandese che da mesi macina chilometri tra tabelloni principali e qualificazioni del circuito maggiore. I sedicesimi di finale le riuniscono in un confronto inedito, senza che tra loro esista alcun antefatto in campo.

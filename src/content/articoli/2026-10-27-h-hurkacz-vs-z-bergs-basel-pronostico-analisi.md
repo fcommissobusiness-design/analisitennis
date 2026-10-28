@@ -22,7 +22,7 @@ descrizione: "Hurkacz e Bergs si sfidano al primo turno dell'ATP di Basilea sul 
 pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-h-hurkacz-vs-z-bergs-basel-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Jakobsarena Publikum - IMG 20231105 084045.jpg | RouteMedia | CC BY-SA 4.0"
 ---
 
 Il primo turno dell'ATP di **Basilea** mette subito di fronte due giocatori arrivati all'appuntamento svizzero con sensazioni diverse ma con la stessa voglia di dare peso alla parte finale della stagione. Da una parte Hubert Hurkacz, polacco dal tennis costruito attorno al servizio; dall'altra il belga Zizou Bergs, cresciuto molto negli ultimi mesi e capace di colpi che hanno già fatto rumore nel circuito. Sul veloce indoor, dove ogni punto scorre rapido, i margini si assottigliano e il sorteggio ha voluto che i due si incrociassero già al debutto.

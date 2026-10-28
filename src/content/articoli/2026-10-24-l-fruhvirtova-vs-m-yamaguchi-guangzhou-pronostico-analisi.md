@@ -21,7 +21,7 @@ verdetto: "Oggi la può spuntare L. Fruhvirtova: il bilancio più equilibrato de
 descrizione: "Semifinale WTA a Guangzhou tra L. Fruhvirtova e M. Yamaguchi: forma recente, tornei giocati e stile a confronto sul cemento cinese. L'analisi completa."
 pubblicato: true
 cover_image: "/covers/2026-10-24-l-fruhvirtova-vs-m-yamaguchi-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
 ---
 
 Il tabellone del torneo WTA di Guangzhou consegna una semifinale dal sapore particolare, con **L. Fruhvirtova** e **M. Yamaguchi** chiamate a contendersi un posto nell'atto conclusivo. Sul cemento cinese si affrontano due giocatrici che arrivano all'appuntamento con storie recenti differenti, accomunate però dall'aver superato i turni necessari per spingersi fino a questo penultimo ostacolo. Per entrambe la giornata del 24 ottobre rappresenta un crocevia di una stagione 2026 ormai nella sua fase conclusiva.
