@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);
+  return guide.map(g => ({ params: { slug: g.slug }, props: { guida: g } }));
+}
+
+const { guida } = Astro.props;
+const { Content } = await guida.render();
+const d = guida.data;
+const site = 'https://analisitennis.it';
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: d.titolo,
+  description: d.descrizione,
+  inLanguage: 'it-IT',
+  isAccessibleForFree: true,
+  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis', url: `${site}/chi-siamo` },
+  publisher: {
+    '@type': 'Organization', name: 'AnalisiTennis',
+    logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${site}/guide/${guida.slug}` },
+};
+---
+<Base titolo={`${d.titolo} - Guida al tennis - AnalisiTennis`} descrizione={d.descrizione} tipo="article">
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <div class="contenitore" style="padding-top: 24px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Guide', url: '/guide' }, { nome: d.titolo }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Guida al tennis</div>
+      <h1>{d.titolo}</h1>
+      <p>{d.sommario}</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-articolo">
+      <article class="articolo">
+        <div class="articolo-corpo"><Content /></div>
+      </article>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>

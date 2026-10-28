@@ -78,14 +78,17 @@ const faqHome = {
             <article class="card-articolo" hidden={i >= BATCH}>
               {art.data.cover_image && (
                 <a class="card-cover" href={`/articoli/${art.slug}`} aria-label={art.data.titolo}>
-                  <img
-                    src={art.data.cover_image}
-                    alt={`${art.data.giocatore1} vs ${art.data.giocatore2} - ${art.data.torneo}`}
-                    width="640"
-                    height="360"
-                    loading={i < 4 ? 'eager' : 'lazy'}
-                    decoding="async"
-                  />
+                  <picture>
+                    <source srcset={art.data.cover_image.replace(/\.jpg$/, '.webp')} type="image/webp" />
+                    <img
+                      src={art.data.cover_image}
+                      alt={`${art.data.giocatore1} vs ${art.data.giocatore2} - ${art.data.torneo}`}
+                      width="640"
+                      height="360"
+                      loading={i < 4 ? 'eager' : 'lazy'}
+                      decoding="async"
+                    />
+                  </picture>
                 </a>
               )}
               <div class="eyebrow">{art.data.categoria} - {art.data.torneo}</div>

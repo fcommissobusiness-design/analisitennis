@@ -3,6 +3,11 @@
    regola UA display:none verrebbe altrimenti sovrascritta. */
 [hidden] { display: none !important; }
 
+/* Toggle ATP/WTA nelle pagine classifica */
+.classifica-toggle { display: inline-flex; gap: 6px; margin-bottom: 20px; background: var(--sfondo-alt, #f7f7f5); padding: 4px; border-radius: 999px; border: 1px solid var(--bordo, #e5e5e2); }
+.classifica-toggle a { padding: 7px 20px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 0.9rem; color: var(--testo-secondario, #555); }
+.classifica-toggle a.attivo { background: var(--brand-verde, #39d453); color: #07120b; }
+
 :root {
   /* Brand palette aggiornata al logo definitivo */
   --brand-verde: #39d453;        /* verde lime acceso del logo */
@@ -355,6 +360,7 @@ strong { font-weight: 700; color: var(--testo); }
   aspect-ratio: 16 / 9;
   background: var(--bordo);
 }
+.card-articolo .card-cover picture { display: block; width: 100%; height: 100%; }
 .card-articolo .card-cover img {
   display: block;
   width: 100%;

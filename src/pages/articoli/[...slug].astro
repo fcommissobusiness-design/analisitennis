@@ -5,7 +5,7 @@ import ShareButtons from '../../components/ShareButtons.astro';
 import CoverArticolo from '../../components/CoverArticolo.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName } from '../../lib/hubs.js';
+import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify } from '../../lib/hubs.js';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
@@ -47,6 +47,18 @@ const giocatoriProfili = await getCollection('giocatori-profilo', ({ data }) => 
 const torneiProfili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
 const playerSlugs = new Set(giocatoriProfili.map(p => p.data.slug_profilo));
 const tournamentSlugs = new Set(torneiProfili.map(t => t.data.slug_profilo));
+
+// Tag con una pagina reale (>=2 articoli): solo questi vengono linkati,
+// cosi' i link tag nell'articolo non puntano a pagine 404.
+const tuttiArticoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+const tagCount = new Map();
+for (const a of tuttiArticoli) for (const t of (a.data.tag || [])) {
+  const s = slugify(t);
+  if (s) tagCount.set(s, (tagCount.get(s) || 0) + 1);
+}
+const tagsArticolo = (d.tag || [])
+  .map(t => ({ display: t, slug: slugify(t) }))
+  .filter(t => t.slug && tagCount.get(t.slug) >= 2);
 
 const site = 'https://analisitennis.it';
 const anno = new Date(d.data).getFullYear();
@@ -215,6 +227,12 @@ const faq = {
 
       <ShareButtons url={Astro.url.href} titolo={d.titolo} />
 
+      {tagsArticolo.length > 0 && (
+        <nav class="tag-articolo" aria-label="Argomenti">
+          {tagsArticolo.map(t => <a href={`/tag/${t.slug}`}>{t.display}</a>)}
+        </nav>
+      )}
+
       {d.giocatore1 !== 'Redazione' && anyHub && (
         <nav class="related-hubs" aria-label="Approfondimenti correlati">
           <div class="rh-label">Approfondisci su</div>
@@ -292,6 +310,14 @@ const faq = {
     .goto-pronostico { flex-direction: column; align-items: stretch; gap: 12px; padding: 16px; }
     .goto-pronostico .gp-btn { justify-content: center; padding: 13px 16px; }
   }
+
+  .tag-articolo { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .tag-articolo a {
+    font-size: 0.82rem; padding: 5px 11px; border-radius: 999px;
+    background: var(--sfondo, #f6f6f3); border: 1px solid var(--linea, #e5e5e5);
+    color: var(--testo-secondario, #555); text-decoration: none; transition: border-color 0.15s, color 0.15s;
+  }
+  .tag-articolo a:hover { border-color: var(--verde, #39d453); color: var(--verde, #2a7f3e); }
 
   .related-hubs {
     margin-top: 32px;

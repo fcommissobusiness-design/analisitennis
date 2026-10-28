@@ -20,6 +20,9 @@ from PIL import Image, ImageOps
 # sono il punto di equilibrio tra nitidezza su retina e peso.
 MAX_LONG_SIDE = 1600
 JPEG_QUALITY = 82
+# WebP: ~30% piu' leggero del JPEG a parita' di qualita' visiva. Servito
+# via <picture> con fallback JPEG. Migliora Core Web Vitals e Google Discover.
+WEBP_QUALITY = 80
 # Soglia oltre cui una cover e' considerata "troppo pesante" per il web.
 # Usata dall'audit per decidere se ri-processare un file gia' pertinente.
 MAX_BYTES = 400 * 1024  # 400 KB
@@ -65,6 +68,13 @@ def ensure_web_size(path: Path, max_long: int = MAX_LONG_SIDE,
                 im = im.resize(new_size, Image.LANCZOS)
             im.save(path, 'JPEG', quality=quality, optimize=True,
                     progressive=True)
+            # Gemella WebP accanto al JPEG (stesso nome, estensione .webp).
+            # Il JPEG resta la cover canonica (og:image/schema); il WebP e'
+            # servito al browser via <picture> quando supportato.
+            try:
+                im.save(path.with_suffix('.webp'), 'WEBP', quality=WEBP_QUALITY, method=6)
+            except Exception as e:
+                print(f'  [warn] webp fallito {path.name}: {e}')
         after_bytes = path.stat().st_size
         info.update({
             'before': f'{before_w}x{before_h} {before_bytes // 1024}KB',

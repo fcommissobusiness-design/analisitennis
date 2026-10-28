@@ -1,0 +1,71 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { slugify } from '../../lib/hubs.js';
+
+export async function getStaticPaths() {
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  // Raccoglie ogni tag -> {display, articoli}. Lo slug e' la chiave URL.
+  const map = new Map();
+  for (const a of articoli) {
+    for (const t of (a.data.tag || [])) {
+      const slug = slugify(t);
+      if (!slug) continue;
+      if (!map.has(slug)) map.set(slug, { slug, display: t, articoli: [] });
+      map.get(slug).articoli.push(a);
+    }
+  }
+  // Solo tag con almeno 2 articoli: evita migliaia di pagine sottili
+  // (un tag con 1 solo articolo non aggiunge valore SEO e diluisce il crawl).
+  return [...map.values()]
+    .filter(t => t.articoli.length >= 2)
+    .map(t => ({
+      params: { tag: t.slug },
+      props: {
+        display: t.display,
+        articoli: t.articoli.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf()),
+      },
+    }));
+}
+
+const { display, articoli } = Astro.props;
+const n = articoli.length;
+---
+<Base
+  titolo={`${display} - analisi e pronostici tennis - AnalisiTennis`}
+  descrizione={`Tutte le nostre analisi e pronostici tennis su ${display}: ${n} letture firmate dalla Redazione AnalisiTennis.`}
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[
+      { nome: 'Home', url: '/' },
+      { nome: 'Tag' },
+      { nome: display },
+    ]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Tag</div>
+      <h1>{display}</h1>
+      <p>Tutte le {n} analisi di AnalisiTennis legate a {display}, dalla piu' recente.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <div class="griglia-articoli" style="padding: 0;">
+          {articoli.map(art => (
+            <article class="card-articolo">
+              <div class="eyebrow">{art.data.categoria} - {art.data.torneo}</div>
+              <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
+              <p class="sottotitolo">{art.data.sottotitolo}</p>
+              <div class="data">{new Date(art.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
+            </article>
+          ))}
+        </div>
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>

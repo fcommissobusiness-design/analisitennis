@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { collectTournaments, tournamentSlug } from '../lib/hubs.js';
+
+const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+const tornei = collectTournaments(articoli);
+const torneiProfili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+const slugConProfilo = new Set(torneiProfili.map(t => t.data.slug_profilo));
+
+// Ogni torneo: periodo = intervallo date degli articoli che lo coprono.
+// Raggruppo per mese (dalla data piu' antica) cosi' il calendario mostra
+// "quando" il torneo e' stato/e' in corso, mese per mese.
+const MESI = ['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'];
+const perMese = new Map();
+for (const t of tornei) {
+  const date = t.articoli.map(a => new Date(a.data.data));
+  const inizio = new Date(Math.min(...date));
+  const key = `${inizio.getFullYear()}-${String(inizio.getMonth()).padStart(2, '0')}`;
+  const label = `${MESI[inizio.getMonth()]} ${inizio.getFullYear()}`;
+  if (!perMese.has(key)) perMese.set(key, { key, label, ord: inizio.getFullYear() * 12 + inizio.getMonth(), tornei: [] });
+  perMese.get(key).tornei.push({
+    display: t.display,
+    anno: t.anno,
+    slug: t.slug,
+    haProfilo: slugConProfilo.has(t.slug),
+    categoria: t.articoli[0].data.categoria,
+    superficie: t.articoli[0].data.superficie,
+    n: t.articoli.length,
+  });
+}
+const mesi = [...perMese.values()].sort((a, b) => b.ord - a.ord);
+---
+<Base
+  titolo="Calendario tornei di tennis - ATP, WTA e Challenger - AnalisiTennis"
+  descrizione="Il calendario dei tornei di tennis che seguiamo, mese per mese: ATP, WTA e Challenger con superficie e analisi dei protagonisti."
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Calendario' }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Calendario</div>
+      <h1>Calendario <span class="verde">tornei</span></h1>
+      <p>I tornei del circuito che abbiamo seguito, mese per mese. Clicca un torneo per il profilo e le nostre analisi.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {mesi.map(m => (
+          <section class="cal-mese">
+            <h2>{m.label}</h2>
+            <ul class="cal-lista">
+              {m.tornei.map(t => (
+                <li>
+                  {t.haProfilo
+                    ? <a href={`/tornei/${t.slug}`}><span class="cal-nome">{t.display}</span></a>
+                    : <span class="cal-nome">{t.display}</span>}
+                  <span class="cal-meta">{t.categoria} · {t.superficie} · {t.n} {t.n === 1 ? 'analisi' : 'analisi'}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cal-mese { margin-bottom: 36px; }
+  .cal-mese h2 {
+    font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; font-weight: 700;
+    margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid var(--verde, #39d453); display: inline-block;
+  }
+  .cal-lista { list-style: none; padding: 0; margin: 0; }
+  .cal-lista li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--linea, #e5e5e5); }
+  .cal-nome { font-weight: 600; font-size: 1.02rem; }
+  .cal-lista a { text-decoration: none; color: var(--verde, #2a7f3e); }
+  .cal-lista a:hover { text-decoration: underline; }
+  .cal-meta { font-size: 0.8rem; color: var(--testo-secondario, #6b7280); }
+</style>

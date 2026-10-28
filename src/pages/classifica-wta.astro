@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ClassificaTavola from '../components/ClassificaTavola.astro';
+import { getCollection } from 'astro:content';
+import data from '../data/standings-wta.json';
+
+const profiliColl = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+const profili = new Set(profiliColl.map(p => p.data.slug_profilo));
+const top = data.righe.slice(0, 5).map(r => `${r.place}. ${r.player}`).join(', ');
+---
+<Base
+  titolo="Classifica WTA aggiornata - Ranking tennis femminile - AnalisiTennis"
+  descrizione={`Classifica WTA aggiornata: la top 100 del ranking tennis femminile con punti e nazionalita'. In vetta ${data.righe[0]?.player}.`}
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Classifica WTA' }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Ranking</div>
+      <h1>Classifica <span class="verde">WTA</span></h1>
+      <p>La top 100 del ranking WTA femminile, con punti e nazionalita'. Attuale vetta: {top}.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <div class="classifica-toggle">
+          <a href="/classifica-atp">ATP</a>
+          <a href="/classifica-wta" class="attivo">WTA</a>
+        </div>
+        <ClassificaTavola data={data} profili={profili} />
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>

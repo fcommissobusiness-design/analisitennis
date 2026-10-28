@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const guide = (await getCollection('guide', ({ data }) => data.pubblicato !== false))
+  .sort((a, b) => a.data.ordine - b.data.ordine);
+---
+<Base
+  titolo="Guide al tennis - Regole, superfici, tabellone e glossario - AnalisiTennis"
+  descrizione="Guide chiare al tennis: le regole, le superfici, come si legge un tabellone e il glossario dei termini. Spiegazioni semplici firmate AnalisiTennis."
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Guide' }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <h1>Guide al <span class="verde">tennis</span></h1>
+      <p>Tutto quello che serve per capire e seguire meglio il tennis: regole, superfici, tabelloni e il linguaggio del circuito, spiegati in modo semplice.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <div class="griglia-articoli" style="padding: 0;">
+          {guide.map(g => (
+            <article class="card-articolo">
+              <div class="eyebrow">Guida</div>
+              <h2><a href={`/guide/${g.slug}`}>{g.data.titolo}</a></h2>
+              <p class="sottotitolo">{g.data.sommario}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>

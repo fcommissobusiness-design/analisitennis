@@ -1,0 +1,49 @@
+---
+import { slugify } from '../lib/hubs.js';
+
+// Props: data = {circuito, aggiornato_il, righe:[{place,player,points,country,movement}]}
+//        profili = Set di slug_profilo esistenti (per linkare chi ha una scheda)
+const { data, profili } = Astro.props;
+const agg = data.aggiornato_il
+  ? new Date(data.aggiornato_il).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+  : '';
+---
+<p class="classifica-agg">Aggiornata al {agg}. Fonte dati: API Tennis.</p>
+<div class="classifica-wrap">
+  <table class="classifica">
+    <thead>
+      <tr><th class="c-pos">#</th><th class="c-gioc">Giocatore</th><th class="c-naz">Paese</th><th class="c-pt">Punti</th></tr>
+    </thead>
+    <tbody>
+      {data.righe.map(r => {
+        const slug = slugify(r.player);
+        const haProfilo = profili.has(slug);
+        return (
+          <tr>
+            <td class="c-pos">{r.place}</td>
+            <td class="c-gioc">{haProfilo ? <a href={`/giocatori/${slug}`}>{r.player}</a> : r.player}</td>
+            <td class="c-naz">{r.country}</td>
+            <td class="c-pt">{r.points}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .classifica-agg { font-size: 0.82rem; color: var(--testo-secondario, #6b7280); margin: 0 0 16px; }
+  .classifica-wrap { overflow-x: auto; margin-bottom: 48px; }
+  .classifica { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .classifica th, .classifica td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--linea, #e5e5e5); }
+  .classifica thead th {
+    font-size: 0.7rem; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--testo-secondario, #6b7280); font-weight: 700;
+  }
+  .classifica .c-pos { width: 48px; font-variant-numeric: tabular-nums; color: var(--testo-secondario, #6b7280); font-weight: 700; }
+  .classifica .c-pt { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .classifica .c-gioc a { color: var(--verde, #2a7f3e); text-decoration: none; font-weight: 600; }
+  .classifica .c-gioc a:hover { text-decoration: underline; }
+  .classifica tbody tr:hover { background: var(--sfondo, #f9f9f7); }
+  @media (max-width: 560px) { .classifica .c-naz { display: none; } }
+</style>

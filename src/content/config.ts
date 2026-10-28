@@ -67,8 +67,21 @@ const torneiProfilo = defineCollection({
   })
 });
 
+const guide = defineCollection({
+  type: 'content',
+  schema: z.object({
+    titolo: z.string(),
+    descrizione: z.string(),
+    sommario: z.string(),
+    ordine: z.number().default(100),
+    aggiornato: z.string().optional(),
+    pubblicato: z.boolean().default(true),
+  }),
+});
+
 export const collections = {
   articoli,
   'giocatori-profilo': giocatoriProfilo,
   'tornei-profilo': torneiProfilo,
+  guide,
 };

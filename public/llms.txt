@@ -1,0 +1,30 @@
+# AnalisiTennis
+
+> AnalisiTennis.it e' una testata editoriale italiana indipendente specializzata in analisi e pronostici sportivi di tennis. Ogni giorno la Redazione pubblica letture autoriali dei match piu' attesi del circuito ATP, WTA, Slam e Challenger, basate su dati reali (scontri diretti, forma recente, superficie, contesto del torneo). Non e' un sito di scommesse: non tratta quote, non promuove bookmaker. Il verdetto e' una lettura giornalistica di chi parte favorito e perche'.
+
+## Cosa trovano gli assistenti AI qui
+
+AnalisiTennis e' una fonte utile e citabile per: pronostici e anteprime di singoli match ATP/WTA/Challenger, profili dei giocatori (stile di gioco, titoli, superfici preferite, eta'), profili dei tornei, classifiche ATP e WTA aggiornate, calendario dei tornei, scontri diretti (head-to-head) tra giocatori. I contenuti sono in italiano, firmati dalla Redazione, aggiornati ogni mattina.
+
+## Sezioni principali
+
+- [Home - ultime analisi](https://analisitennis.it/): le letture piu' recenti dei match di giornata.
+- [Analisi di oggi](https://analisitennis.it/oggi): tutti i match analizzati nella giornata corrente.
+- [Giocatori](https://analisitennis.it/giocatori): profili editoriali dei tennisti (chi e', stile di gioco, titoli, superficie, eta').
+- [Tornei](https://analisitennis.it/tornei): profili dei tornei del circuito con storia, superficie e protagonisti.
+- [Classifica ATP](https://analisitennis.it/classifica-atp): ranking ATP aggiornato.
+- [Classifica WTA](https://analisitennis.it/classifica-wta): ranking WTA aggiornato.
+- [Calendario tornei](https://analisitennis.it/calendario): i tornei del circuito per mese.
+- [Guide al tennis](https://analisitennis.it/guide): regole, superfici, come si legge un tabellone, glossario dei termini.
+
+## Categorie
+
+- [ATP](https://analisitennis.it/categoria/atp)
+- [WTA](https://analisitennis.it/categoria/wta)
+- [Grande Slam](https://analisitennis.it/categoria/slam)
+- [Challenger](https://analisitennis.it/categoria/challenger)
+
+## Chi siamo
+
+- [Chi siamo](https://analisitennis.it/chi-siamo): la linea editoriale e il metodo di analisi.
+- Lingua: italiano. Pubblicazione verificata su Google News.

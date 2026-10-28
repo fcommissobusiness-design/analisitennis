@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { slugify } from '../../lib/hubs.js';
+
+const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+const map = new Map();
+for (const a of articoli) {
+  for (const t of (a.data.tag || [])) {
+    const slug = slugify(t);
+    if (!slug) continue;
+    if (!map.has(slug)) map.set(slug, { slug, display: t, n: 0 });
+    map.get(slug).n++;
+  }
+}
+// Solo tag con >=2 articoli (coerente con le pagine tag generate)
+const tags = [...map.values()].filter(t => t.n >= 2).sort((a, b) => b.n - a.n || a.display.localeCompare(b.display, 'it'));
+---
+<Base
+  titolo="Tutti i tag - analisi e pronostici tennis - AnalisiTennis"
+  descrizione="Naviga le analisi di AnalisiTennis per tema: giocatori, tornei, superfici e categorie del circuito ATP, WTA e Challenger."
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Tag' }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <h1>Naviga per <span class="verde">tema</span></h1>
+      <p>Tutti i temi delle nostre analisi: scegli un giocatore, un torneo o una categoria per trovare le letture collegate.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <ul class="tag-cloud">
+          {tags.map(t => (
+            <li><a href={`/tag/${t.slug}`}>{t.display}<span class="tc-n">{t.n}</span></a></li>
+          ))}
+        </ul>
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .tag-cloud { list-style: none; padding: 0; margin: 0 0 60px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .tag-cloud a {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 8px 14px; border: 1px solid var(--linea, #e5e5e5); border-radius: 999px;
+    background: var(--sfondo-card, #fff); color: var(--testo, #1a1a1a);
+    text-decoration: none; font-size: 0.92rem; transition: border-color 0.15s, color 0.15s, transform 0.15s;
+  }
+  .tag-cloud a:hover { border-color: var(--verde, #39d453); color: var(--verde, #2a7f3e); transform: translateY(-1px); }
+  .tag-cloud .tc-n { font-size: 0.72rem; font-weight: 700; color: var(--testo-secondario, #8a94a3); background: var(--sfondo, #f6f6f3); border-radius: 999px; padding: 1px 7px; }
+</style>

@@ -113,6 +113,11 @@ python3 audit_covers.py --fix --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
 log_section "[4-ter/5] Gate pertinenza visivo cover (claude vision)"
 python3 vet_covers.py --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
 
+# 4-quater. Aggiorna le classifiche ATP/WTA (pagine /classifica-atp e
+# /classifica-wta). Non dipende dagli articoli: traffico evergreen stabile.
+log_section "[4-quater/5] Classifiche ATP/WTA"
+python3 fetch_standings.py 2>&1 | tee -a "$LOG" || true
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
@@ -127,6 +132,7 @@ cd "$HOME/analisitennis"
 git add src/content/articoli/*.md \
         src/content/tornei-profilo/*.md \
         src/content/giocatori-profilo/*.md \
+        src/data/*.json \
         public/covers/ 2>&1 | tee -a "$LOG" || true
 if git diff --cached --quiet; then
     log "Nessun nuovo articolo da pubblicare oggi."

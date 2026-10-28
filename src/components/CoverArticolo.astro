@@ -3,6 +3,8 @@
 // Regola non negoziabile: il titolo NON viene MAI tagliato, su nessuna larghezza.
 // Il contenuto decide l'altezza del contenitore; l'immagine resta clippata nel suo wrapper.
 const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit } = Astro.props;
+// WebP gemello (piu' leggero) servito via <picture>, con fallback JPEG.
+const cover_webp = cover_image ? cover_image.replace(/\.jpg$/, '.webp') : null;
 
 const superficeLabel = {
   terra: 'TERRA ROSSA',
@@ -14,7 +16,10 @@ const superficeLabel = {
 <figure class="cover-articolo">
   <div class="cover-frame">
     <div class="cover-image-wrap" aria-hidden="true">
-      <img src={cover_image} alt="" loading="eager" fetchpriority="high" />
+      <picture>
+        {cover_webp && <source srcset={cover_webp} type="image/webp" />}
+        <img src={cover_image} alt="" loading="eager" fetchpriority="high" />
+      </picture>
       <div class="cover-overlay"></div>
     </div>
     <div class="cover-top">
@@ -54,7 +59,7 @@ const superficeLabel = {
     z-index: 0;
     pointer-events: none;
   }
-  .cover-image-wrap > img {
+  .cover-image-wrap img {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -148,7 +153,7 @@ const superficeLabel = {
   @media (max-width: 640px) {
     .cover-frame { border-radius: 8px; }
     .cover-image-wrap { border-radius: 8px; }
-    .cover-image-wrap > img { object-position: center 38%; }
+    .cover-image-wrap img { object-position: center 38%; }
     .cover-spacer { min-height: 170px; }
     .cover-top { padding: 14px 16px 0; }
     .cover-top .cat {
@@ -180,6 +185,6 @@ const superficeLabel = {
 
   @media (min-width: 900px) {
     .cover-spacer { min-height: 300px; }
-    .cover-image-wrap > img { object-position: center 36%; }
+    .cover-image-wrap img { object-position: center 36%; }
   }
 </style>
