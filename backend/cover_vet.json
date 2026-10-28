@@ -1,391 +1,114 @@
 {
-  "date": null,
-  "total": 68,
+  "date": "2026-10-27",
+  "total": 15,
   "da_rivedere": 0,
   "details": [
     {
-      "slug": "2026-10-23-e-moller-vs-h-rocha-lisbon-pronostico-analisi",
+      "slug": "2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista in azione con racchetta e pallina"
+      "motivo": "Giocatore in azione, figura intera, racchetta e campo Basel visibili."
     },
     {
-      "slug": "2026-10-24-a-fils-vs-j-l-struff-brussels-pronostico-analisi",
+      "slug": "2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista in azione su campo in terra battuta"
+      "motivo": "Giocatore in azione, testa intera, racchetta e pallina visibili"
     },
     {
-      "slug": "2026-10-24-a-kovacevic-vs-j-duckworth-basel-pronostico-analisi",
+      "slug": "2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista in azione con racchetta, dritto in campo"
+      "motivo": "Giocatore intero in azione, racchetta e campo visibili."
     },
     {
-      "slug": "2026-10-24-a-molcan-vs-h-medjedovic-vienna-pronostico-analisi",
+      "slug": "2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Edificio generico notturno, nessun contesto tennistico.",
-      "risolta_con": "giocatore Hamad Medjedovic"
+      "motivo": "Giocatore intero in campo con racchetta."
     },
     {
-      "slug": "2026-10-24-a-zakharova-vs-r-zhang-guangzhou-pronostico-analisi",
+      "slug": "2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista in azione con racchetta, abbigliamento da gioco."
+      "motivo": "Giocatore in azione, testa intera, racchetta e campo visibili."
     },
     {
-      "slug": "2026-10-24-c-moutet-vs-t-machac-vienna-pronostico-analisi",
+      "slug": "2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista in azione con racchetta, tabellone punteggio sfondo."
+      "motivo": "Primo piano ravvicinato del volto, nessuna azione.",
+      "risolta_con": "giocatore Aleksandar Kovacevic"
     },
     {
-      "slug": "2026-10-24-c-wong-hong-yi-vs-e-jones-guangzhou-pronostico-analisi",
+      "slug": "2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Campo da tennis con giocatrici in azione al servizio"
+      "motivo": "Giocatori interi su campo con racchette, in azione."
     },
     {
-      "slug": "2026-10-24-d-medvedev-vs-a-bublik-almaty-pronostico-analisi",
+      "slug": "2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista in azione con racchetta su campo da tennis"
+      "motivo": "Giocatore in azione, testa intera, racchetta e campo visibili."
     },
     {
-      "slug": "2026-10-24-d-vallejo-vs-l-sonego-vienna-pronostico-analisi",
+      "slug": "2026-10-27-h-hurkacz-vs-a-fils-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Due tennisti con racchette su campo in terra battuta"
+      "motivo": "Primo piano del volto, ritratto ravvicinato, nessuna azione.",
+      "risolta_con": "giocatore Arthur Fils"
     },
     {
-      "slug": "2026-10-24-d-yastremska-vs-x-you-guangzhou-pronostico-analisi",
+      "slug": "2026-10-27-h-hurkacz-vs-z-bergs-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Campo da tennis in erba con due giocatrici in azione."
-    },
-    {
-      "slug": "2026-10-24-e-rybakina-vs-d-shnaider-ningbo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione su campo in terra rossa."
-    },
-    {
-      "slug": "2026-10-24-e-s-liang-vs-t-valentova-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Esterno generico di arena con strada e coni, non tennistico",
-      "risolta_con": "giocatore En Shuo Liang"
-    },
-    {
-      "slug": "2026-10-24-f-cerundolo-vs-t-griekspoor-brussels-pronostico-analisi",
-      "ok": true,
-      "motivo": "Due tennisti in campo erboso con racchette"
-    },
-    {
-      "slug": "2026-10-24-f-cobolli-vs-l-musetti-lyon-france-qualification-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista al servizio su campo, rete e azione"
-    },
-    {
-      "slug": "2026-10-24-f-marozsan-vs-s-sorger-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con racchetta e palla su campo erba"
-    },
-    {
-      "slug": "2026-10-24-f-meligeni-alves-vs-v-aboian-cali-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista al servizio su campo, rete ATP Challenger."
-    },
-    {
-      "slug": "2026-10-24-h-bernet-vs-d-altmaier-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Esterno edificio generico, nessun contesto tennistico visibile.",
-      "risolta_con": "giocatore Daniel Altmaier"
-    },
-    {
-      "slug": "2026-10-24-h-dart-vs-s-y-cheuk-guangzhou-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista femminile in azione, rovescio con racchetta e pallina"
-    },
-    {
-      "slug": "2026-10-24-h-kinoshita-vs-y-putintseva-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione sul campo con racchetta e palla"
-    },
-    {
-      "slug": "2026-10-24-j-fearnley-vs-p-carreno-busta-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con racchetta in campo, chiaramente riconoscibile."
-    },
-    {
-      "slug": "2026-10-24-j-garland-vs-m-inglis-guangzhou-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista al servizio su campo, rete ATP Challenger."
-    },
-    {
-      "slug": "2026-10-24-k-boulter-vs-s-ishii-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con racchetta in posizione su campo erba"
-    },
-    {
-      "slug": "2026-10-24-k-day-vs-s-zhang-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Complesso di campi da tennis con skyline urbano"
-    },
-    {
-      "slug": "2026-10-24-l-fruhvirtova-vs-k-kawa-guangzhou-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in posa di gioco con racchetta."
-    },
-    {
-      "slug": "2026-10-24-l-fruhvirtova-vs-m-yamaguchi-guangzhou-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in tenuta da gioco su campo in terra."
-    },
-    {
-      "slug": "2026-10-24-n-basilashvili-vs-s-tsitsipas-almaty-pronostico-analisi",
-      "ok": true,
-      "motivo": "Arena da tennis con campo in terra e giocatori in azione."
-    },
-    {
-      "slug": "2026-10-24-r-bertola-vs-j-paul-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in tenuta da gioco, pugno esultanza."
-    },
-    {
-      "slug": "2026-10-24-t-a-tirante-vs-a-mannarino-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione con racchetta, abbigliamento da gioco."
-    },
-    {
-      "slug": "2026-10-24-v-kopriva-vs-l-neumayer-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in posa, esulta con pugno, abbigliamento e polsino da gioco."
-    },
-    {
-      "slug": "2026-10-24-xin-wang-vs-t-valentova-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Strada urbana con incrocio, arena esterna non tennistica.",
+      "motivo": "Primo piano del volto, ritratto ravvicinato, non azione.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:Tokyo 2020 Olympics in Ariake, tenn",
+          "file": "File:Hubi Hurkacz (2023 DC Open) 01.jpg",
           "ok": false,
-          "motivo": "Tenda check COVID, nessun elemento tennistico visibile."
+          "motivo": "Primo piano ravvicinato del volto, ritratto non in azione."
         },
         {
-          "via": "giocatore:Xinyu Wang",
-          "file": "Wang Xiyu and Wang Xinyu 01.jpg",
+          "via": "giocatore:Hubert Hurkacz",
+          "file": "Hubi Hurkacz (2023 DC Open) 01.jpg",
           "ok": false,
-          "motivo": "Posa premiazione con medaglie e mascotte, non tennistica."
+          "motivo": "Primo piano del volto, ritratto ravvicinato."
+        },
+        {
+          "via": "giocatore:Zizou Bergs",
+          "file": "Zizou Bergs (2023 US Open) 04.jpg",
+          "ok": false,
+          "motivo": "Primo piano ravvicinato del volto, ritratto headshot."
         },
         {
           "via": "campo",
           "file": "Sydney International Tennis ATP 250 (46001156835).",
           "ok": true,
-          "motivo": "Tennisti in azione su campo, rovescio in gioco."
+          "motivo": "Giocatori in azione sul campo, racchette e palla visibili."
         }
       ]
-    },
-    {
-      "slug": "2026-10-24-y-ma-vs-d-kasatkina-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con racchetta su campo da tennis in erba"
-    },
-    {
-      "slug": "2026-10-24-y-qu-vs-t-kostovic-guangzhou-pronostico-analisi",
-      "ok": true,
-      "motivo": "Arena da tennis con campo e match in corso"
-    },
-    {
-      "slug": "2026-10-25-a-freire-da-silva-vs-v-ursu-brest-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista al servizio su campo, rete ATP Challenger"
-    },
-    {
-      "slug": "2026-10-25-a-mannarino-vs-a-molcan-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione con racchetta e pallina."
-    },
-    {
-      "slug": "2026-10-25-f-marozsan-vs-t-machac-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Arena da tennis ATP Vienna con campo e gioco"
-    },
-    {
-      "slug": "2026-10-25-g-mpetshi-perricard-vs-a-kovacevic-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Arena concerto/evento, nessun campo o giocatore di tennis.",
-      "risolta_con": "giocatore Giovanni Mpetshi Perricard"
-    },
-    {
-      "slug": "2026-10-25-j-l-struff-vs-t-griekspoor-brussels-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con borsa e asciugamano su campo da tennis"
-    },
-    {
-      "slug": "2026-10-25-j-m-cerundolo-vs-d-altmaier-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Arena concerto/spettacolo con laser, nessun campo o tennista",
-      "risolta_con": "giocatore Daniel Altmaier"
-    },
-    {
-      "slug": "2026-10-25-l-musetti-vs-t-fritz-lyon-france-qualification-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione su campo in terra rossa"
-    },
-    {
-      "slug": "2026-10-25-l-neumayer-vs-t-droguet-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista riconoscibile in tenuta da gioco, polsini e campo."
-    },
-    {
-      "slug": "2026-10-25-l-sonego-vs-j-fearnley-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con racchetta in campo, chiaramente riconoscibile."
-    },
-    {
-      "slug": "2026-10-25-m-brunold-vs-r-bertola-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Concerto/evento in arena, nessun tennis o campo.",
-      "risolta_con": "giocatore Remy Bertola"
-    },
-    {
-      "slug": "2026-10-25-m-ribecai-vs-f-romano-florence-italy-qualification-pronostico-analisi",
-      "ok": true,
-      "motivo": "Arena e campo da tennis Firenze Open."
-    },
-    {
-      "slug": "2026-10-25-r-hijikata-vs-y-hanfmann-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in tenuta bianca con racchetta in campo"
-    },
-    {
-      "slug": "2026-10-25-r-matsuda-vs-n-honda-ningbo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Esterno arena tennis Ningbo Open WTA 500."
-    },
-    {
-      "slug": "2026-10-25-x-yang-vs-t-derepasko-ningbo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Edificio generico con parcheggio, nessun contesto tennistico.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Ningbo Yinzhou Tennis Center, 2025-",
-          "ok": false,
-          "motivo": "Edificio e parcheggio generico, nessun contesto tennistico visibile."
-        },
-        {
-          "via": "campo",
-          "file": "Jimmy C. Lunsford Tennis Center.jpg",
-          "ok": true,
-          "motivo": "Campi da tennis all'aperto chiaramente visibili."
-        }
-      ]
-    },
-    {
-      "slug": "2026-10-26-a-eala-vs-m-stojsavljevic-tokyo-pronostico-analisi",
-      "ok": true,
-      "motivo": "Ritratto di tennista con visiera e canotta sportiva"
-    },
-    {
-      "slug": "2026-10-26-d-altmaier-vs-j-m-cerundolo-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Concerto in arena, palco e pubblico, non tennis.",
-      "risolta_con": "giocatore Daniel Altmaier"
-    },
-    {
-      "slug": "2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista femminile in azione, colpo di rovescio"
-    },
-    {
-      "slug": "2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Concerto/evento in arena con laser, non tennis.",
-      "risolta_con": "giocatore Holger Rune"
-    },
-    {
-      "slug": "2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in campo che esulta con racchetta"
-    },
-    {
-      "slug": "2026-10-26-m-brunold-vs-n-borges-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in posizione di gioco con racchetta"
-    },
-    {
-      "slug": "2026-10-26-v-vacherot-vs-m-navone-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione sul campo, scritta Basel"
-    },
-    {
-      "slug": "2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione su campo, dritto a Basel"
-    },
-    {
-      "slug": "2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione con racchetta e palla"
-    },
-    {
-      "slug": "2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione con racchetta su campo"
-    },
-    {
-      "slug": "2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennisti con racchette su campo in terra, rete visibile."
-    },
-    {
-      "slug": "2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione con racchetta su campo"
-    },
-    {
-      "slug": "2026-10-27-b-shelton-vs-a-kovacevic-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione con racchetta, dritto in campo."
-    },
-    {
-      "slug": "2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennisti in campo erboso con racchette, contesto Wimbledon."
-    },
-    {
-      "slug": "2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista in azione al servizio su campo in terra"
-    },
-    {
-      "slug": "2026-10-27-h-hurkacz-vs-a-fils-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con visiera e borsa Yonex, contesto campo"
-    },
-    {
-      "slug": "2026-10-27-h-hurkacz-vs-z-bergs-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista con visiera, maglia e borsa Yonex, campo sfondo"
     },
     {
       "slug": "2026-10-27-j-kym-vs-a-rinderknech-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista con racchetta in tenuta da gioco."
+      "motivo": "Concerto con palco, luci ed enorme folla.",
+      "risolta_con": "rigenera"
     },
     {
       "slug": "2026-10-27-k-khachanov-vs-c-alcaraz-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista al servizio su campo in terra rossa"
+      "motivo": "Giocatore in azione al servizio, figura intera, campo visibile."
     },
     {
       "slug": "2026-10-27-t-fritz-vs-s-tsitsipas-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista riconoscibile in maglia da gioco, intervista in campo"
+      "motivo": "Primo piano del volto durante intervista, non azione.",
+      "risolta_con": "giocatore Stefanos Tsitsipas"
     },
     {
       "slug": "2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista a terra con racchetta sul campo"
+      "motivo": "Giocatore intero a terra, racchetta e campo visibili."
     },
     {
       "slug": "2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatori di tennis in azione su campo"
+      "motivo": "Esterno di arena con folla, nessun campo o giocatore.",
+      "risolta_con": "rigenera"
     }
   ]
 }

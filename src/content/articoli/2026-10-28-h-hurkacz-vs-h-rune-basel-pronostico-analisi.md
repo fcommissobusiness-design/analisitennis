@@ -18,9 +18,9 @@ tag:
 verdetto: "Oggi la puo' spuntare Hurkacz: il ritmo partita delle ultime settimane e un servizio letale sul veloce indoor giocano a suo favore. Attenzione pero' a Rune, che ha vinto l'unico precedente e quando trova continuita' ha la qualita' per rendere la serata molto lunga."
 descrizione: "Hurkacz e Rune si giocano un ottavo a Basilea sul cemento indoor: unico precedente, forma recente e stili a confronto in una sfida dal pronostico incerto."
 pubblicato: true
-cover_image: "/covers/2026-10-28-h-hurkacz-vs-h-rune-basel-pronostico-analisi.jpg"
-cover_credit: "Hubi Hurkacz (2023 DC Open) 01.jpg | Hameltion | CC BY-SA 4.0"
 generato_il: "2026-10-28T08:40"
+cover_image: "/covers/2026-10-28-h-hurkacz-vs-h-rune-basel-pronostico-analisi.jpg"
+cover_credit: "Hurkacz WMQ18 (32) (29681071278).jpg | si.robi | CC BY-SA 2.0"
 ---
 
 Gli ottavi di **Basilea** regalano uno degli incroci piu' intriganti della giornata, con Hubert Hurkacz e Holger Rune pronti a contendersi un posto nei quarti sul cemento indoor svizzero. Due giocatori dal potenziale elevato che arrivano all'appuntamento con stati di forma e quantita' di partite nelle gambe molto diversi tra loro, su una superficie che storicamente si adatta alle qualita' di entrambi.

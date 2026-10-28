@@ -18,9 +18,9 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: il servizio di Mensik pesa sul veloce indoor, ma Mannarino ha vinto l'unico precedente, arriva in buona forma e con il suo mancinismo puo' spezzare il ritmo. Lo scenario piu' plausibile e' un 2-1 deciso nel parziale finale."
 descrizione: "Mensik e Mannarino si affrontano a Vienna sul cemento indoor: unico precedente, forma recente e stili opposti a confronto in un ottavo dall'esito aperto."
 pubblicato: true
-cover_image: "/covers/2026-10-28-j-mensik-vs-a-mannarino-vienna-pronostico-analisi.jpg"
-cover_credit: "Wiener Stadthalle 2013 Halle F Halle D a.jpg | Manfred Werner - Tsui | CC BY-SA 3.0"
 generato_il: "2026-10-28T08:26"
+cover_image: "/covers/2026-10-28-j-mensik-vs-a-mannarino-vienna-pronostico-analisi.jpg"
+cover_credit: "Adrian Mannarino at the 2010 US Open 02.jpg | Robbie Mendelson | CC BY-SA 2.0"
 ---
 
 Gli ottavi di **Vienna** mettono in scena un affascinante contrasto generazionale e stilistico, con il giovane Jakub Mensik opposto all'esperto Adrian Mannarino sul cemento indoor della capitale austriaca. Da una parte la freschezza e la potenza di un talento in ascesa, dall'altra l'astuzia e il mancinismo di un veterano che continua a togliersi soddisfazioni su ogni superficie.

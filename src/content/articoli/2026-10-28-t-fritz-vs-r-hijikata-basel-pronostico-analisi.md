@@ -18,9 +18,9 @@ tag:
 verdetto: "Oggi nettamente Fritz: sul veloce indoor che esalta il suo servizio parte favorito, forte anche dell'unico precedente vinto a Delray Beach e di un peso di palla superiore. Il margine di qualita' e di superficie pende dalla sua parte, con la fatica da finale come sola variabile."
 descrizione: "Fritz e Hijikata si affrontano a Basilea sul cemento indoor: unico precedente, forma recente e stili di gioco a confronto in una sfida di primo turno."
 pubblicato: true
-cover_image: "/covers/2026-10-28-t-fritz-vs-r-hijikata-basel-pronostico-analisi.jpg"
-cover_credit: "Taylor Fritz, photo impressions, Swiss Indoors 2025 in Basel.jpg | Peter Arnold | CC BY-SA 4.0"
 generato_il: "2026-10-28T08:26"
+cover_image: "/covers/2026-10-28-t-fritz-vs-r-hijikata-basel-pronostico-analisi.jpg"
+cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
 ---
 
 Il cemento indoor di **Basilea** ospita un confronto tra due giocatori che negli ultimi giorni hanno respirato aria di finale, seppure in contesti diversi. Taylor Fritz e Rinky Hijikata si ritrovano uno di fronte all'altro con tanto tennis nelle gambe e la voglia di ripartire subito dopo le fatiche della settimana appena trascorsa, su una superficie che accelera il gioco e che tende a premiare chi serve con continuita'.
