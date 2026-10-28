@@ -1225,10 +1225,18 @@
     "slug_p1": "adrian-mannarino",
     "slug_p2": "jakub-mensik",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 0
     },
     "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Vienna",
+        "g1": "J. Mensik",
+        "g2": "A. Mannarino",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-06-16",
         "torneo": "London",
@@ -1246,9 +1254,17 @@
     "slug_p2": "nikoloz-basilashvili",
     "bilancio": {
       "p1": 0,
-      "p2": 1
+      "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Vienna",
+        "g1": "J. Rodionov",
+        "g2": "N. Basilashvili",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-03-30",
         "torneo": "Bucharest",
@@ -1371,6 +1387,26 @@
       }
     ]
   },
+  "novak-djokovic-vs-ugo-humbert": {
+    "p1": "Novak Djokovic",
+    "p2": "Ugo Humbert",
+    "slug_p1": "novak-djokovic",
+    "slug_p2": "ugo-humbert",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Basel",
+        "g1": "N. Djokovic",
+        "g2": "U. Humbert",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
   "denis-shapovalov-vs-remy-bertola": {
     "p1": "Denis Shapovalov",
     "p2": "Remy Bertola",
@@ -1472,6 +1508,242 @@
         "g2": "J-L. Struff",
         "risultato": "2 - 1",
         "winner": "First Player"
+      }
+    ]
+  },
+  "alex-michelsen-vs-arthur-fils": {
+    "p1": "Alex Michelsen",
+    "p2": "Arthur Fils",
+    "slug_p1": "alex-michelsen",
+    "slug_p2": "arthur-fils",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-23",
+        "torneo": "Brussels",
+        "g1": "A. Fils",
+        "g2": "A. Michelsen",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alexander-zverev-vs-tallon-griekspoor": {
+    "p1": "Alexander Zverev",
+    "p2": "Tallon Griekspoor",
+    "slug_p1": "alexander-zverev",
+    "slug_p2": "tallon-griekspoor",
+    "bilancio": {
+      "p1": 7,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-08-05",
+        "torneo": "Montreal",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-01-04",
+        "torneo": "ATP United Cup",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-04-18",
+        "torneo": "Munich",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-03-07",
+        "torneo": "ATP Indian Wells",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-10-30",
+        "torneo": "ATP Paris",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-10-08",
+        "torneo": "ATP Shanghai",
+        "g1": "T. Griekspoor",
+        "g2": "A. Zverev",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-06-01",
+        "torneo": "ATP French Open",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-03-11",
+        "torneo": "ATP Indian Wells",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-08-08",
+        "torneo": "ATP Toronto",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-02-15",
+        "torneo": "Rotterdam",
+        "g1": "T. Griekspoor",
+        "g2": "A. Zverev",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "cameron-norrie-vs-daniil-medvedev": {
+    "p1": "Cameron Norrie",
+    "p2": "Daniil Medvedev",
+    "slug_p1": "cameron-norrie",
+    "slug_p2": "daniil-medvedev",
+    "bilancio": {
+      "p1": 1,
+      "p2": 5
+    },
+    "precedenti": [
+      {
+        "data": "2025-09-26",
+        "torneo": "Beijing",
+        "g1": "D. Medvedev",
+        "g2": "C. Norrie",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-05-27",
+        "torneo": "French Open",
+        "g1": "D. Medvedev",
+        "g2": "C. Norrie",
+        "risultato": "2 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-05-09",
+        "torneo": "Rome",
+        "g1": "C. Norrie",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-03-25",
+        "torneo": "ATP Miami",
+        "g1": "C. Norrie",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-08-07",
+        "torneo": "Los Cabos",
+        "g1": "D. Medvedev",
+        "g2": "C. Norrie",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2019-10-08",
+        "torneo": "Shanghai",
+        "g1": "D. Medvedev",
+        "g2": "C. Norrie",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "elena-rybakina-vs-yulia-putintseva": {
+    "p1": "Elena Rybakina",
+    "p2": "Yulia Putintseva",
+    "slug_p1": "elena-rybakina",
+    "slug_p2": "yulia-putintseva",
+    "bilancio": {
+      "p1": 2,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-03-21",
+        "torneo": "Miami",
+        "g1": "E. Rybakina",
+        "g2": "Y. Putintseva",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-05-01",
+        "torneo": "WTA Madrid",
+        "g1": "Y. Putintseva",
+        "g2": "E. Rybakina",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "luciano-darderi-vs-tommy-paul": {
+    "p1": "Luciano Darderi",
+    "p2": "Tommy Paul",
+    "slug_p1": "luciano-darderi",
+    "slug_p2": "tommy-paul",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-05-10",
+        "torneo": "Rome",
+        "g1": "T. Paul",
+        "g2": "L. Darderi",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-08-07",
+        "torneo": "Montreal",
+        "g1": "T. Paul",
+        "g2": "L. Darderi",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-07-28",
+        "torneo": "Olympic Games",
+        "g1": "L. Darderi",
+        "g2": "T. Paul",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
       }
     ]
   }
