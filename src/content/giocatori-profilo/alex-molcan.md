@@ -1,6 +1,8 @@
 ---
 nome: "Alex Molcan"
 slug_profilo: "alex-molcan"
+titoli: "Finali ATP sulla terra"
+stile_gioco: "Mancino regolare e carico di top spin, specialista della terra"
 nazionalita: "Slovacchia"
 data_nascita: "1997-07-02"
 mano: "mancino"

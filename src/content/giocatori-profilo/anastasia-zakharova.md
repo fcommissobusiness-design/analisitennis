@@ -1,6 +1,7 @@
 ---
 nome: "Anastasia Zakharova"
 slug_profilo: "anastasia-zakharova"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Russia"
 mano: "destro"
 rovescio: "due mani"

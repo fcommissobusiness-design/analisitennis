@@ -1,6 +1,8 @@
 ---
 nome: "Giovanni Mpetshi Perricard"
 slug_profilo: "g-mpetshi-perricard"
+titoli: "Titolo ATP, tra i servizi piu' pesanti del circuito"
+stile_gioco: "Servizio enorme e gioco diretto, resa sul veloce indoor"
 nazionalita: "Francia"
 data_nascita: "2003-12-20"
 mano: "destro"

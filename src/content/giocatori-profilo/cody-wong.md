@@ -1,6 +1,7 @@
 ---
 nome: "Cody Wong"
 slug_profilo: "cody-wong"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Hong Kong"
 mano: "destro"
 categoria: "WTA"

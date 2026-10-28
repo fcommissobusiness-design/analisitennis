@@ -1,6 +1,7 @@
 ---
 nome: "Maddison Inglis"
 slug_profilo: "maddison-inglis"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Australia"
 data_nascita: "1997-10-08"
 mano: "destro"

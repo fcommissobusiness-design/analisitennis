@@ -1,6 +1,7 @@
 ---
 nome: "Rémy Bertola"
 slug_profilo: "r-bertola"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Svizzera"
 mano: "destro"
 categoria: "Challenger"

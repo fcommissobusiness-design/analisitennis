@@ -1,6 +1,8 @@
 ---
 nome: "Alexander Zverev"
 slug_profilo: "alexander-zverev"
+titoli: "Oro olimpico 2021, piu' Masters 1000, finalista Slam"
+stile_gioco: "Servizio potente e scambio da fondo con rovescio bimane molto solido"
 nazionalita: "Germania"
 data_nascita: "1997-04-20"
 mano: "destro"

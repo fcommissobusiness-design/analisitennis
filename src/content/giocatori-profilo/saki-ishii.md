@@ -1,6 +1,7 @@
 ---
 nome: "Saki Ishii"
 slug_profilo: "saki-ishii"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Giappone"
 mano: "destro"
 categoria: "WTA"

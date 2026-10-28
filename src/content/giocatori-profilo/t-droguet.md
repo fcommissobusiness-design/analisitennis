@@ -1,6 +1,7 @@
 ---
 nome: "Titouan Droguet"
 slug_profilo: "t-droguet"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Francia"
 mano: "destro"
 categoria: "Challenger"

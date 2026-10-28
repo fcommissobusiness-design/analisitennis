@@ -1,6 +1,8 @@
 ---
 nome: "Katie Boulter"
 slug_profilo: "katie-boulter"
+titoli: "Titoli WTA"
+stile_gioco: "Servizio e dritto aggressivi, resa migliore sull'erba"
 nazionalita: "Regno Unito"
 data_nascita: "1996-08-01"
 mano: "destro"

@@ -1,6 +1,8 @@
 ---
 nome: "Martín Landaluce"
 slug_profilo: "martin-landaluce"
+titoli: "Giovane spagnolo in crescita, titoli giovanili"
+stile_gioco: "Dritto pesante e fisico, profilo offensivo da fondo"
 nazionalita: "Spagna"
 mano: "destro"
 rovescio: "due mani"

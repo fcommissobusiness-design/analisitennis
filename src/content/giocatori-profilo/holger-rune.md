@@ -1,6 +1,8 @@
 ---
 nome: "Holger Rune"
 slug_profilo: "holger-rune"
+titoli: "Masters 1000 Parigi 2022 e altri titoli ATP"
+stile_gioco: "Dritto pesante e grande competitivita', gioco aggressivo da fondo"
 nazionalita: "Danimarca"
 data_nascita: "2003-04-29"
 mano: "destro"

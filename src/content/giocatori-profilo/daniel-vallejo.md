@@ -1,6 +1,7 @@
 ---
 nome: "Daniel Vallejo"
 slug_profilo: "daniel-vallejo"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Paraguay"
 mano: "mancino"
 categoria: "Challenger"

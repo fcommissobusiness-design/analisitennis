@@ -1,6 +1,8 @@
 ---
 nome: "Cameron Norrie"
 slug_profilo: "cameron-norrie"
+titoli: "Masters 1000 Indian Wells 2021 e titoli ATP"
+stile_gioco: "Mancino regolare e instancabile, grande continuita' da fondo"
 nazionalita: "Regno Unito"
 data_nascita: "1995-08-23"
 mano: "mancino"

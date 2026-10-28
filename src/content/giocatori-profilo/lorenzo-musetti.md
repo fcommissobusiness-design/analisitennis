@@ -1,6 +1,8 @@
 ---
 nome: "Lorenzo Musetti"
 slug_profilo: "lorenzo-musetti"
+titoli: "Titoli ATP e bronzo olimpico 2024"
+stile_gioco: "Rovescio a una mano elegante, tocco e varieta', a suo agio sulla terra"
 nazionalita: "Italia"
 data_nascita: "2002-03-03"
 mano: "destro"

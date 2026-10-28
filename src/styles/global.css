@@ -1,3 +1,8 @@
+/* L'attributo [hidden] deve sempre nascondere, anche su elementi con
+   display:flex/grid (es. i wrapper dei bottoni "Visualizza altro"): la
+   regola UA display:none verrebbe altrimenti sovrascritta. */
+[hidden] { display: none !important; }
+
 :root {
   /* Brand palette aggiornata al logo definitivo */
   --brand-verde: #39d453;        /* verde lime acceso del logo */

@@ -25,7 +25,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from attach_covers import (parse_frontmatter, NAME_MAP, pick_image, S,
-                           download, strip_html, update_frontmatter, COVERS_DIR)
+                           download, strip_html, update_frontmatter, COVERS_DIR,
+                           used_covers_for_player)
 from audit_covers import regenerate_cover, ARTICOLI, ROOT
 
 # Campi da tennis puliti e inequivocabili, usati come ultima spiaggia quando
@@ -66,14 +67,24 @@ CLAUDE_BIN = shutil.which('claude') or os.path.expanduser('~/.local/node/bin/cla
 PROMPT = (
     "Usa lo strumento Read per aprire l'immagine al percorso:\n{path}\n\n"
     "Devi decidere se e' adatta come COPERTINA di un articolo di tennis.\n"
-    "Considerala ADATTA (SI) se mostra: un giocatore/giocatrice di tennis "
-    "(anche ritratto o posa, purche' riconoscibile come tennista), un campo "
-    "da tennis, un'arena/stadio da tennis, o azione di gioco.\n"
-    "Considerala NON adatta (NO) se mostra: una strada o un paesaggio urbano, "
-    "una cerimonia di premiazione, un edificio generico non da tennis, un "
-    "altro sport, un volto in primo piano buio/da conferenza senza contesto "
-    "tennistico, un gruppo di persone in giacca (dirigenti), o qualunque cosa "
-    "non chiaramente legata al tennis.\n"
+    "Criterio: vogliamo un giocatore/giocatrice di tennis in AZIONE o almeno "
+    "a mezza figura (dal busto in su, con la testa INTERA nell'inquadratura e "
+    "racchetta/campo visibili), oppure un vero campo/arena da tennis durante "
+    "il gioco.\n\n"
+    "Considerala ADATTA (SI) SOLO se mostra chiaramente una di queste cose.\n\n"
+    "Considerala NON adatta (NO) se si verifica ANCHE SOLO UNA di queste:\n"
+    "- PRIMO PIANO del solo volto / mezzobusto ravvicinato / ritratto o "
+    "headshot dove si vede soprattutto la faccia (fronte, viso): da rifiutare "
+    "sempre, anche se e' il giocatore giusto.\n"
+    "- La TESTA del giocatore e' TAGLIATA o fuori dall'inquadratura, o il "
+    "soggetto e' tagliato male (si vedono solo gambe/busto senza testa).\n"
+    "- Un CONCERTO, uno spettacolo, un palco, luci da evento, una folla a un "
+    "evento: NO anche se e' dentro un'arena che a volte ospita il tennis.\n"
+    "- Una strada, un paesaggio urbano, un edificio generico o il suo esterno "
+    "notturno, una cerimonia/premiazione, un altro sport, un gruppo di persone "
+    "in giacca, un volto buio da conferenza, un logo o un cartellone.\n"
+    "- Qualunque cosa non chiaramente legata al tennis.\n\n"
+    "Nel dubbio tra azione e primo piano del volto, rispondi NO.\n"
     "Rispondi ESATTAMENTE in questo formato su una riga:\n"
     "VERDETTO: SI|NO - MOTIVO: <massimo 10 parole>"
 )
@@ -148,12 +159,17 @@ def main():
                 print(f'         -> rigenerata: risolta', flush=True)
                 report.append(entry); continue
 
+        cur_title = (fm2.get('cover_credit') or '').split('|')[0].strip()
         for g in (g1, g2):
             full = NAME_MAP.get(g)
             if not full:
                 continue
+            # Escludi la foto appena bocciata e quelle gia' usate per lui.
+            excl = used_covers_for_player(full.split()[-1], skip_slug=stem)
+            if cur_title:
+                excl.add('File:' + cur_title)
             try:
-                pick = pick_image(full, slug_hint=stem)
+                pick = pick_image(full, slug_hint=stem, exclude=excl)
             except Exception:
                 pick = None
             if not pick:

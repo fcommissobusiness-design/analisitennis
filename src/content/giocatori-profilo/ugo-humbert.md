@@ -1,6 +1,8 @@
 ---
 nome: "Ugo Humbert"
 slug_profilo: "ugo-humbert"
+titoli: "Piu' titoli ATP, molto forte sul veloce indoor"
+stile_gioco: "Mancino offensivo, servizio e dritto rapidi e anticipati"
 nazionalita: "Francia"
 data_nascita: "1998-06-26"
 mano: "mancino"

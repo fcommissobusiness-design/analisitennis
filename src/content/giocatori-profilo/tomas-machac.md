@@ -1,6 +1,8 @@
 ---
 nome: "Tomas Machac"
 slug_profilo: "tomas-machac"
+titoli: "Primo titolo ATP e oro olimpico misto 2024"
+stile_gioco: "Gioco rapido e completo da fondo, ottima copertura del campo"
 nazionalita: "Repubblica Ceca"
 data_nascita: "2000-08-13"
 mano: "destro"

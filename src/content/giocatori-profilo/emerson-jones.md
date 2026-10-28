@@ -1,6 +1,7 @@
 ---
 nome: "Emerson Jones"
 slug_profilo: "emerson-jones"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Australia"
 mano: "destro"
 rovescio: "due mani"

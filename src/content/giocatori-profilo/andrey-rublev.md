@@ -1,6 +1,8 @@
 ---
 nome: "Andrey Rublev"
 slug_profilo: "andrey-rublev"
+titoli: "Piu' titoli ATP 500 e un Masters 1000"
+stile_gioco: "Dritto iper-aggressivo e ritmo altissimo, gioco sempre in spinta"
 nazionalita: "Russia"
 data_nascita: "1997-10-20"
 mano: "destro"

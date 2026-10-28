@@ -1,6 +1,7 @@
 ---
 nome: "Rafael Jodar"
 slug_profilo: "r-jodar"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Spagna"
 mano: "destro"
 rovescio: "due mani"

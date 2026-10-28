@@ -1,6 +1,7 @@
 ---
 nome: "Jérôme Kym"
 slug_profilo: "j-kym"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Svizzera"
 data_nascita: "2003-04-07"
 mano: "destro"

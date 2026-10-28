@@ -1,6 +1,7 @@
 ---
 nome: "Hina Kinoshita"
 slug_profilo: "hina-kinoshita"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Giappone"
 mano: "destro"
 categoria: "WTA"

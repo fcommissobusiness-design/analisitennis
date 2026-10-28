@@ -1,6 +1,8 @@
 ---
 nome: "Shuai Zhang"
 slug_profilo: "shuai-zhang"
+titoli: "Titolo WTA in singolo e numerosi titoli in doppio"
+stile_gioco: "Solidita' e profondita' da fondo, grande esperienza"
 nazionalita: "Cina"
 data_nascita: "1989-01-21"
 mano: "destro"

@@ -1,6 +1,8 @@
 ---
 nome: "Francisco Cerúndolo"
 slug_profilo: "francisco-cerundolo"
+titoli: "Titoli ATP e miglior rendimento sulla terra"
+stile_gioco: "Dritto pesante e gioco da fondo costruito sulla terra"
 nazionalita: "Argentina"
 data_nascita: "1998-08-11"
 mano: "destro"

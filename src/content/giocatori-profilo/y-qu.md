@@ -1,6 +1,7 @@
 ---
 nome: "Yihan Qu"
 slug_profilo: "y-qu"
+stile_gioco: "Gioco offensivo e rapido, efficace sulle superfici veloci"
 nazionalita: "Cina"
 categoria: "WTA"
 superficie_preferita: "erba"

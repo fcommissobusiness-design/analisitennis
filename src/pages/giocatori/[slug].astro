@@ -23,6 +23,26 @@ const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
 
+// Eta' corrente dal campo data_nascita (ISO "YYYY-MM-DD" o anche solo "YYYY").
+// Mostrata tra parentesi accanto alla data di nascita nel banner panoramico.
+function calcolaEta(iso) {
+  if (!iso) return null;
+  const m = String(iso).match(/(\d{4})(?:-(\d{2})-(\d{2}))?/);
+  if (!m) return null;
+  const anno = parseInt(m[1], 10);
+  const mese = m[2] ? parseInt(m[2], 10) : 1;
+  const giorno = m[3] ? parseInt(m[3], 10) : 1;
+  const oggi = new Date();
+  let eta = oggi.getFullYear() - anno;
+  const meseOggi = oggi.getMonth() + 1;
+  const giornoOggi = oggi.getDate();
+  if (meseOggi < mese || (meseOggi === mese && giornoOggi < giorno)) eta--;
+  return eta > 0 && eta < 120 ? eta : null;
+}
+const eta = calcolaEta(d.data_nascita);
+// "Nato" per gli uomini, "Nata" per le donne (deduciamo dal circuito WTA).
+const natoLabel = d.categoria === 'WTA' ? 'Nata' : 'Nato';
+
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
@@ -80,10 +100,11 @@ const articleSchema = {
     <div class="layout-articolo">
       <article class="articolo">
         <div class="profilo-stats">
-          {d.data_nascita && <div><strong>Nato</strong>{' '}{d.data_nascita}</div>}
-          {d.altezza && <div><strong>Altezza</strong>{' '}{d.altezza}</div>}
-          {d.rovescio && <div><strong>Rovescio</strong>{' '}{d.rovescio}</div>}
+          {d.data_nascita && <div><strong>{natoLabel}</strong>{' '}{d.data_nascita}{eta ? ` (${eta} anni)` : ''}</div>}
+          {d.categoria && <div><strong>Circuito</strong>{' '}{d.categoria}</div>}
           {d.superficie_preferita && <div><strong>Superficie</strong>{' '}{d.superficie_preferita}</div>}
+          {d.titoli && <div><strong>Titoli vinti</strong>{' '}{d.titoli}</div>}
+          {d.stile_gioco && <div><strong>Stile di gioco</strong>{' '}{d.stile_gioco}</div>}
         </div>
         <div class="articolo-corpo">
           <Content />

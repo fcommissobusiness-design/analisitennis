@@ -1,6 +1,8 @@
 ---
 nome: "Corentin Moutet"
 slug_profilo: "corentin-moutet"
+titoli: "Primo titolo ATP"
+stile_gioco: "Mancino estroso, tocco, smorzate e grande varieta' di colpi"
 nazionalita: "Francia"
 data_nascita: "1999-04-19"
 mano: "mancino"

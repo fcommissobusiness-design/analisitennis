@@ -1,6 +1,8 @@
 ---
 nome: "Zizou Bergs"
 slug_profilo: "zizou-bergs"
+titoli: "Belga emergente con primi acuti ATP"
+stile_gioco: "Energia e dritto aggressivo, tennis in costante spinta"
 nazionalita: "Belgio"
 mano: "destro"
 rovescio: "due mani"

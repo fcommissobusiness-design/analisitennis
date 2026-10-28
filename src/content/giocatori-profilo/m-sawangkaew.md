@@ -1,6 +1,7 @@
 ---
 nome: "Mananchaya Sawangkaew"
 slug_profilo: "m-sawangkaew"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Thailandia"
 mano: "destro"
 rovescio: "due mani"

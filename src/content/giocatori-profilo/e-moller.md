@@ -1,6 +1,7 @@
 ---
 nome: "Elmer Møller"
 slug_profilo: "e-moller"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Danimarca"
 data_nascita: "2003-07-09"
 mano: "destro"

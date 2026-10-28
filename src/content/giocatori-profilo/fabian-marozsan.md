@@ -1,6 +1,8 @@
 ---
 nome: "Fabian Marozsan"
 slug_profilo: "fabian-marozsan"
+titoli: "In cerca del primo grande titolo, acuti contro top player"
+stile_gioco: "Talento di mano, rovescio e varieta', a suo agio sulla terra"
 nazionalita: "Ungheria"
 mano: "destro"
 rovescio: "una mano"

@@ -1,6 +1,7 @@
 ---
 nome: "Xuanhao Yang"
 slug_profilo: "x-yang"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Cina"
 mano: "destro"
 rovescio: "due mani"

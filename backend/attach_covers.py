@@ -313,6 +313,34 @@ def strip_html(s: str) -> str:
     return re.sub(r'\s+', ' ', s).strip()
 
 
+def used_covers_for_player(last_name: str, skip_slug: str = '') -> set:
+    """Titoli file ('File:...') gia' usati come cover negli articoli che
+    riguardano un giocatore (match del cognome nella credit). Serve a NON
+    ripetere la stessa foto in articoli diversi dello stesso giocatore.
+    skip_slug: l'articolo corrente, da non contare."""
+    last = (last_name or '').lower()
+    if len(last) < 3:
+        return set()
+    used = set()
+    for art in ARTICOLI.glob('2026-*.md'):
+        if skip_slug and art.stem == skip_slug:
+            continue
+        try:
+            fm, _ = parse_frontmatter(art)
+        except Exception:
+            continue
+        if not fm:
+            continue
+        credit = (fm.get('cover_credit') or '')
+        titolo_file = credit.split('|')[0].strip()
+        if not titolo_file:
+            continue
+        # La credit non ha il prefisso 'File:'; pick_image confronta con 'File:...'
+        if last in titolo_file.lower():
+            used.add('File:' + titolo_file)
+    return used
+
+
 TENNIS_CONTEXT = ('tennis', ' open', 'wimbledon', 'us open', 'french open', 'roland garros',
                   'australian open', 'atp', 'wta', 'itf', 'challenger', 'olympics', 'olimpiadi',
                   'wmq', 'eastbourne', 'practicing', 'match', 'court', 'arena', 'stadium',
@@ -325,8 +353,23 @@ def _looks_tennis(title: str) -> bool:
     return any(w in t for w in TENNIS_CONTEXT)
 
 
+def _anno_foto(title: str):
+    """Estrae l'anno (4 cifre 19xx/20xx) piu' recente dal titolo del file,
+    per preferire le foto piu' aggiornate. None se assente."""
+    anni = [int(y) for y in re.findall(r'\b(19\d{2}|20\d{2})\b', title)]
+    return max(anni) if anni else None
+
+
+# Indizi di PRIMO PIANO del volto nel titolo: da evitare come cover.
+# L'utente non vuole foto del solo viso/fronte. Il filtro titolo prende
+# solo i casi espliciti; il vet visivo (vet_covers.py) prende il resto.
+CLOSEUP_WORDS = ('portrait', 'headshot', 'closeup', 'close-up', 'close up',
+                 'mugshot', 'face', 'visage', 'ritratto', 'posing', 'profile pic')
+
+
 def _rank(result):
-    """Punteggio: azione pura > tennis context > scena allargata < 0."""
+    """Punteggio: azione pura > tennis context > scena allargata < 0.
+    Bonus alle foto piu' recenti, malus ai probabili primi piani/ritagli."""
     t = result['title'].lower()
     score = 0
     if any(w in t for w in ACTION_WORDS):
@@ -335,6 +378,19 @@ def _rank(result):
         score += 15
     if any(w in t for w in WIDE_SCENE_WORDS):
         score -= 25
+    # Malus ai probabili primi piani / foto ritagliate sul volto: l'utente
+    # vuole azione o almeno mezza figura, non il solo viso.
+    if any(w in t for w in CLOSEUP_WORDS):
+        score -= 40
+    if 'cropped' in t:
+        score -= 12
+    # Recency: una foto recente racconta il giocatore di OGGI.
+    anno = _anno_foto(result['title'])
+    if anno:
+        if anno >= 2024: score += 16
+        elif anno >= 2022: score += 10
+        elif anno >= 2020: score += 5
+        elif anno < 2016: score -= 6
     # Depenalizza le foto che ritraggono DUE persone (es. "Djokovic vs
     # Alcaraz", "X and Y"): per una cover singola vogliamo il giocatore
     # da solo, non un duello a figura intera che confonde il soggetto.
@@ -350,7 +406,7 @@ def _rank(result):
     return score
 
 
-def pick_image(name_full: str, slug_hint: str = ''):
+def pick_image(name_full: str, slug_hint: str = '', exclude=None):
     """Cerca su Commons. Ritorna una foto solo se contesto chiaro:
        - cognome + nome entrambi nel titolo, oppure
        - cognome + contesto tennis
@@ -359,7 +415,11 @@ def pick_image(name_full: str, slug_hint: str = ''):
     pari qualita' in modo deterministico, cosi' due articoli sullo stesso
     giocatore (es. due match di Hurkacz nello stesso giorno) non ricevono
     la stessa identica foto.
+    exclude: set/lista di titoli file ('File:...') gia' usati per questo
+    giocatore in altri articoli: vengono scartati per non ripetere la stessa
+    foto match dopo match (variazione richiesta esplicita).
     """
+    excl = set(exclude or ())
     parts = name_full.split()
     last = parts[-1].lower()
     first = parts[0].lower() if len(parts) > 1 else ''
@@ -372,6 +432,8 @@ def pick_image(name_full: str, slug_hint: str = ''):
             t = r['title'].lower()
             if last not in t:
                 continue
+            if r['title'] in excl:
+                continue  # gia' usata per questo giocatore altrove
             # Scarta foto che ritraggono DUE giocatori ("X vs Y",
             # "X against Y"): nel titolo non sappiamo quale sia il
             # soggetto in primo piano, col rischio di mostrare
@@ -404,6 +466,11 @@ def pick_image(name_full: str, slug_hint: str = ''):
         if pool:
             break
     if not pool:
+        # Se avevamo escluso delle foto (variazione) e non resta nulla, meglio
+        # ripetere una foto gia' usata che ripiegare su un venue: riprova
+        # ignorando l'esclusione (giocatore con pochissime foto su Commons).
+        if excl:
+            return pick_image(name_full, slug_hint=slug_hint, exclude=None)
         return None
     pool.sort(key=_rank, reverse=True)
     # Variazione deterministica tra i top candidati di pari rango, cosi'

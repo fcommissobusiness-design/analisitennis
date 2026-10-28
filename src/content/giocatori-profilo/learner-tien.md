@@ -1,6 +1,8 @@
 ---
 nome: "Learner Tien"
 slug_profilo: "learner-tien"
+titoli: "Giovane statunitense in rapida ascesa"
+stile_gioco: "Mancino intelligente e regolare, lettura e varieta' da fondo"
 nazionalita: "Stati Uniti"
 mano: "mancino"
 rovescio: "due mani"

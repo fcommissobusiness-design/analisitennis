@@ -1,6 +1,7 @@
 ---
 nome: "Mika Brunold"
 slug_profilo: "m-brunold"
+stile_gioco: "Servizio e dritto diretti, resa sul veloce indoor"
 nazionalita: "Svizzera"
 mano: "destro"
 categoria: "Challenger"

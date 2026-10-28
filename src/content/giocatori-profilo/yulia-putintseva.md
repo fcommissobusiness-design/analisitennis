@@ -1,6 +1,8 @@
 ---
 nome: "Yulia Putintseva"
 slug_profilo: "yulia-putintseva"
+titoli: "Titoli WTA"
+stile_gioco: "Agonismo, varieta' e difesa da fondo, grande combattivita'"
 nazionalita: "Kazakistan"
 data_nascita: "1995-07-07"
 mano: "destro"

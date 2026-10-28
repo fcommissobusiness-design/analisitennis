@@ -1,6 +1,7 @@
 ---
 nome: "Ignacio Buse"
 slug_profilo: "i-buse"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Perù"
 mano: "destro"
 rovescio: "due mani"

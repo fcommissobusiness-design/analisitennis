@@ -1,6 +1,8 @@
 ---
 nome: "Brandon Nakashima"
 slug_profilo: "brandon-nakashima"
+titoli: "Titoli ATP e Next Gen ATP Finals 2022"
+stile_gioco: "Regolarita' e precisione da fondo, grande ordine sul veloce"
 nazionalita: "Stati Uniti"
 data_nascita: "2001-08-03"
 mano: "destro"

@@ -1,6 +1,8 @@
 ---
 nome: "Hubert Hurkacz"
 slug_profilo: "hubert-hurkacz"
+titoli: "Masters 1000 Miami 2021 e piu' titoli ATP"
+stile_gioco: "Servizio dominante e gioco rapido con frequenti discese a rete"
 nazionalita: "Polonia"
 data_nascita: "1997-02-11"
 mano: "destro"

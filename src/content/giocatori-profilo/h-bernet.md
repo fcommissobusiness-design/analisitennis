@@ -1,6 +1,7 @@
 ---
 nome: "Henry Bernet"
 slug_profilo: "h-bernet"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Svizzera"
 data_nascita: "2007-01-25"
 mano: "destro"

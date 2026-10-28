@@ -1,6 +1,7 @@
 ---
 nome: "Tereza Valentová"
 slug_profilo: "tereza-valentova"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Repubblica Ceca"
 mano: "destro"
 categoria: "WTA"

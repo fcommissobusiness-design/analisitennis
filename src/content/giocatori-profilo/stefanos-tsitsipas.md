@@ -1,6 +1,8 @@
 ---
 nome: "Stefanos Tsitsipas"
 slug_profilo: "stefanos-tsitsipas"
+titoli: "ATP Finals 2019, piu' Masters 1000 e finali Slam"
+stile_gioco: "Rovescio a una mano, gioco completo e offensivo verso rete"
 nazionalita: "Grecia"
 data_nascita: "1998-08-12"
 mano: "destro"

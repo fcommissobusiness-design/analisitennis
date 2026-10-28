@@ -1,6 +1,8 @@
 ---
 nome: "Alejandro Davidovich Fokina"
 slug_profilo: "alejandro-davidovich-fokina"
+titoli: "Finali Masters 1000 e titoli ATP"
+stile_gioco: "Gioco vario e creativo sulla terra, con smorzate e cambi di ritmo"
 nazionalita: "Spagna"
 data_nascita: "1999-10-05"
 mano: "destro"

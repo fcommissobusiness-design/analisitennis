@@ -1,6 +1,8 @@
 ---
 nome: "Tallon Griekspoor"
 slug_profilo: "tallon-griekspoor"
+titoli: "Piu' titoli ATP"
+stile_gioco: "Servizio e dritto potenti, tennis diretto e offensivo"
 nazionalita: "Paesi Bassi"
 data_nascita: "1996-11-02"
 mano: "destro"

@@ -1,6 +1,7 @@
 ---
 nome: "Michele Ribecai"
 slug_profilo: "m-ribecai"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Italia"
 data_nascita: "2003-02-04"
 mano: "destro"

@@ -1,6 +1,8 @@
 ---
 nome: "Jacob Fearnley"
 slug_profilo: "jacob-fearnley"
+titoli: "Emergente dal college statunitense con primi acuti ATP"
+stile_gioco: "Gioco solido e combattivo da fondo, in rapida crescita"
 nazionalita: "Gran Bretagna"
 mano: "destro"
 rovescio: "due mani"

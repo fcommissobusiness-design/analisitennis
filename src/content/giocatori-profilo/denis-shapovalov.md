@@ -1,6 +1,8 @@
 ---
 nome: "Denis Shapovalov"
 slug_profilo: "denis-shapovalov"
+titoli: "Titoli ATP e semifinale Slam"
+stile_gioco: "Mancino offensivo con rovescio a una mano spettacolare e rischioso"
 nazionalita: "Canada"
 data_nascita: "1999-04-15"
 mano: "mancino"

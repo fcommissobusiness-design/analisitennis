@@ -1,6 +1,7 @@
 ---
 nome: "Joanna Garland"
 slug_profilo: "j-garland"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Taipei Cinese (Taiwan)"
 data_nascita: "2001-07-16"
 mano: "destro"

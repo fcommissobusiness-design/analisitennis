@@ -1,6 +1,8 @@
 ---
 nome: "Tommy Paul"
 slug_profilo: "j-paul"
+titoli: "Titoli ATP e ingresso nella top 10"
+stile_gioco: "Gioco completo e dinamico da fondo, ottimo sul veloce"
 nazionalita: "Stati Uniti"
 data_nascita: "1997-05-17"
 mano: "destro"

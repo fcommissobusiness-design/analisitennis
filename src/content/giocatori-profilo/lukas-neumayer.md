@@ -1,6 +1,7 @@
 ---
 nome: "Lukas Neumayer"
 slug_profilo: "lukas-neumayer"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Austria"
 mano: "destro"
 categoria: "Challenger"

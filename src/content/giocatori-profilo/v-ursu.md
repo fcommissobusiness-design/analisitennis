@@ -1,6 +1,7 @@
 ---
 nome: "Vadym Ursu"
 slug_profilo: "v-ursu"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Ucraina"
 mano: "destro"
 altezza: "183 cm"

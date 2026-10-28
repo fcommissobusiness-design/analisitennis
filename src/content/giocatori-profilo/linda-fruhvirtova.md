@@ -1,6 +1,8 @@
 ---
 nome: "Linda Fruhvirtová"
 slug_profilo: "linda-fruhvirtova"
+titoli: "Titolo WTA da giovanissima"
+stile_gioco: "Gioco maturo e aggressivo da fondo nonostante l'eta'"
 nazionalita: "Repubblica Ceca"
 data_nascita: "2005-05-01"
 mano: "destro"

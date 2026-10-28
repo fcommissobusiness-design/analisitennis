@@ -1,6 +1,7 @@
 ---
 nome: "Mika Stojsavljevic"
 slug_profilo: "mika-stojsavljevic"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Regno Unito"
 mano: "destro"
 rovescio: "due mani"

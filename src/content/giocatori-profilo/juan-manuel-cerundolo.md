@@ -1,6 +1,8 @@
 ---
 nome: "Juan Manuel Cerundolo"
 slug_profilo: "juan-manuel-cerundolo"
+titoli: "Titolo ATP sulla terra (Cordoba 2021)"
+stile_gioco: "Gioco paziente e carico di top spin, specialista della terra"
 nazionalita: "Argentina"
 data_nascita: "2001-08-02"
 mano: "destro"

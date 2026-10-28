@@ -1,6 +1,7 @@
 ---
 nome: "Valerio Aboian"
 slug_profilo: "v-aboian"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Argentina"
 data_nascita: "2002-06-14"
 mano: "mancino"

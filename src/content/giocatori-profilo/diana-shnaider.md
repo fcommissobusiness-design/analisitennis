@@ -1,6 +1,8 @@
 ---
 nome: "Diana Shnaider"
 slug_profilo: "diana-shnaider"
+titoli: "Piu' titoli WTA, giovane nella top 20"
+stile_gioco: "Mancina offensiva e solida da fondo, buona potenza"
 nazionalita: "Russia"
 data_nascita: "2004-03-01"
 mano: "mancino"

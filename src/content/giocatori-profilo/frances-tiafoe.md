@@ -1,6 +1,8 @@
 ---
 nome: "Frances Tiafoe"
 slug_profilo: "frances-tiafoe"
+titoli: "Titoli ATP e semifinali Slam"
+stile_gioco: "Atletismo e creativita', gioco a tutto campo con discese a rete"
 nazionalita: "Stati Uniti"
 data_nascita: "1998-01-20"
 mano: "destro"

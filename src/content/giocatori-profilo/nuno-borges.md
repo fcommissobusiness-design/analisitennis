@@ -1,6 +1,8 @@
 ---
 nome: "Nuno Borges"
 slug_profilo: "nuno-borges"
+titoli: "Primo titolo ATP (Umago 2024)"
+stile_gioco: "Dritto rapido e gioco d'attacco, buona copertura del campo"
 nazionalita: "Portogallo"
 data_nascita: "1997-11-12"
 mano: "destro"

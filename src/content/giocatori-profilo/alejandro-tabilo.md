@@ -1,6 +1,8 @@
 ---
 nome: "Alejandro Tabilo"
 slug_profilo: "alejandro-tabilo"
+titoli: "Titoli ATP (Auckland e Mallorca)"
+stile_gioco: "Mancino ordinato e piatto, costruzione pulita da fondo"
 nazionalita: "Cile"
 data_nascita: "1997-06-02"
 mano: "mancino"

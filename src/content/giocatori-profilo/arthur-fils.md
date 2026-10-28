@@ -1,6 +1,8 @@
 ---
 nome: "Arthur Fils"
 slug_profilo: "arthur-fils"
+titoli: "Piu' titoli ATP, tra i migliori giovani del circuito"
+stile_gioco: "Esplosivita' atletica e dritto pesante, tennis d'attacco"
 nazionalita: "Francia"
 data_nascita: "2004-06-12"
 mano: "destro"

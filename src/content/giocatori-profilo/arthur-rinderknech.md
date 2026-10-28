@@ -1,6 +1,8 @@
 ---
 nome: "Arthur Rinderknech"
 slug_profilo: "arthur-rinderknech"
+titoli: "Finali ATP"
+stile_gioco: "Servizio potente e dritto d'attacco, gioco diretto"
 nazionalita: "Francia"
 data_nascita: "1995-07-24"
 mano: "destro"

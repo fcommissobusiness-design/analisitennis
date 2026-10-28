@@ -1,6 +1,8 @@
 ---
 nome: "Harriet Dart"
 slug_profilo: "harriet-dart"
+titoli: "Stabilmente nel circuito WTA"
+stile_gioco: "Gioco offensivo con servizio e dritto, resa migliore sull'erba"
 nazionalita: "Regno Unito"
 data_nascita: "1996-07-28"
 mano: "destro"

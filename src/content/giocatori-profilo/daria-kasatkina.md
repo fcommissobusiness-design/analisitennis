@@ -1,6 +1,8 @@
 ---
 nome: "Daria Kasatkina"
 slug_profilo: "daria-kasatkina"
+titoli: "Piu' titoli WTA, gia' nella top 10"
+stile_gioco: "Difesa, varieta' e smorzate, intelligenza tattica da fondo"
 nazionalita: "Australia (di origine russa)"
 data_nascita: "1997-05-07"
 mano: "destro"

@@ -1,6 +1,7 @@
 ---
 nome: "Ye-Xin Ma"
 slug_profilo: "y-ma"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Cina"
 data_nascita: "1999-06-10"
 mano: "destro"

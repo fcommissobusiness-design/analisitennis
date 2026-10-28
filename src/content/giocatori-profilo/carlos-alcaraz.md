@@ -1,6 +1,8 @@
 ---
 nome: "Carlos Alcaraz Garfia"
 slug_profilo: "carlos-alcaraz"
+titoli: "Piu' titoli Slam su tutte le superfici, gia' numero 1 del mondo"
+stile_gioco: "Esplosivita' atletica, dritto pesante, smorzate e discese a rete"
 nazionalita: "Spagna"
 data_nascita: "2003-05-05"
 mano: "destro"

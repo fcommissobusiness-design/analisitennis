@@ -1,6 +1,7 @@
 ---
 nome: "Titouan Droguet"
 slug_profilo: "titouan-droguet"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Francia"
 mano: "destro"
 rovescio: "due mani"

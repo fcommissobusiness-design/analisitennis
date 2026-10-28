@@ -1,6 +1,7 @@
 ---
 nome: "Tatiana Prozorova"
 slug_profilo: "tatiana-prozorova"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Russia"
 mano: "destro"
 rovescio: "due mani"

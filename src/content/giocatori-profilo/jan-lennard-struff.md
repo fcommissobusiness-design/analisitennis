@@ -1,6 +1,8 @@
 ---
 nome: "Jan-Lennard Struff"
 slug_profilo: "jan-lennard-struff"
+titoli: "Finalista Masters 1000 Madrid 2023"
+stile_gioco: "Servizio e dritto potenti, gioco offensivo con discese a rete"
 nazionalita: "Germania"
 data_nascita: "1990-02-25"
 mano: "destro"

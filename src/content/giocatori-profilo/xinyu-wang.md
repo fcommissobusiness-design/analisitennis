@@ -1,6 +1,8 @@
 ---
 nome: "Xinyu Wang"
 slug_profilo: "xinyu-wang"
+titoli: "Titoli WTA"
+stile_gioco: "Potenza da fondo e buon servizio, resa sul veloce"
 nazionalita: "Cina"
 data_nascita: "2001-09-25"
 mano: "destro"

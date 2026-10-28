@@ -1,6 +1,8 @@
 ---
 nome: "Karen Khachanov"
 slug_profilo: "karen-khachanov"
+titoli: "Masters 1000 Parigi 2018 e oro olimpico 2021"
+stile_gioco: "Potenza da fondo e servizio pesante, gioco lineare e fisico"
 nazionalita: "Russia"
 data_nascita: "1996-05-21"
 mano: "destro"

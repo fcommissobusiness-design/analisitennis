@@ -1,6 +1,7 @@
 ---
 nome: "Adan Freire Da Silva"
 slug_profilo: "a-freire-da-silva"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Francia"
 data_nascita: "1999-05-05"
 mano: "destro"

@@ -1,6 +1,7 @@
 ---
 nome: "Henrique Rocha"
 slug_profilo: "h-rocha"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Portogallo"
 mano: "destro"
 rovescio: "due mani"

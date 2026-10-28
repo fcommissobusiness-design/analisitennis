@@ -1,6 +1,8 @@
 ---
 nome: "Mariano Navone"
 slug_profilo: "mariano-navone"
+titoli: "Titolo e finali ATP sulla terra"
+stile_gioco: "Costanza e resistenza fisica da fondo, specialista della terra"
 nazionalita: "Argentina"
 data_nascita: "2001-03-27"
 mano: "destro"

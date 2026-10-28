@@ -1,6 +1,7 @@
 ---
 nome: "Xinyu Sun"
 slug_profilo: "x-sun"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Cina"
 mano: "destro"
 categoria: "WTA"

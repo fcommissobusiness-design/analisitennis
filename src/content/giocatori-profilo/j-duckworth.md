@@ -1,6 +1,8 @@
 ---
 nome: "James Duckworth"
 slug_profilo: "j-duckworth"
+titoli: "Lunga carriera nel circuito ATP"
+stile_gioco: "Servizio e dritto d'attacco, gioco diretto sul veloce"
 nazionalita: "Australia"
 data_nascita: "1992-01-21"
 mano: "destro"

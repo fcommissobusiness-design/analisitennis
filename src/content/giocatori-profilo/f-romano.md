@@ -1,6 +1,7 @@
 ---
 nome: "F. Romano"
 slug_profilo: "f-romano"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Italia"
 categoria: "Challenger"
 superficie_preferita: "terra"

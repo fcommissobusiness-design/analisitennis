@@ -1,6 +1,8 @@
 ---
 nome: "Quentin Halys"
 slug_profilo: "quentin-halys"
+titoli: "Carriera tra Challenger e ATP, forte sul veloce"
+stile_gioco: "Servizio e dritto potenti, resa sul veloce indoor"
 nazionalita: "Francia"
 data_nascita: "1996-11-18"
 mano: "destro"

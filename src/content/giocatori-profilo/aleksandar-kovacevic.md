@@ -1,6 +1,8 @@
 ---
 nome: "Aleksandar Kovacevic"
 slug_profilo: "aleksandar-kovacevic"
+titoli: "In cerca del primo titolo ATP"
+stile_gioco: "Servizio e dritto diretti, tennis d'attacco sul veloce"
 nazionalita: "Stati Uniti"
 data_nascita: "1998-06-04"
 mano: "destro"

@@ -1,6 +1,8 @@
 ---
 nome: "Hamad Medjedović"
 slug_profilo: "hamad-medjedovic"
+titoli: "Vincitore delle Next Gen ATP Finals 2023"
+stile_gioco: "Servizio e dritto molto potenti, profilo d'attacco"
 nazionalita: "Serbia"
 data_nascita: "2003-02-12"
 mano: "destro"

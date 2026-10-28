@@ -1,6 +1,8 @@
 ---
 nome: "Dayana Yastremska"
 slug_profilo: "dayana-yastremska"
+titoli: "Titoli WTA e semifinale Slam"
+stile_gioco: "Aggressivita' e colpi piatti da fondo, gioco ad alto rischio"
 nazionalita: "Ucraina"
 data_nascita: "2000-05-15"
 mano: "destro"

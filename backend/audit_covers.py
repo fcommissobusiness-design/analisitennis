@@ -34,6 +34,7 @@ from attach_covers import (
     NAME_MAP, VENUE_MAP, COVERS_DIR, BLOCK_WORDS, TENNIS_CONTEXT,
     detect_winner, pick_image, pick_venue, download, strip_html,
     parse_frontmatter, update_frontmatter, _looks_tennis, _is_venue_photo,
+    used_covers_for_player,
 )
 from cover_image_utils import ensure_web_size, needs_resize
 import hashlib
@@ -184,12 +185,14 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
     fav, conf = detect_winner(verdetto, g1, g2)
     pick = None
     tried = set()
-    # 1. foto del favorito (se il match non e' dato in equilibrio)
+    # 1. foto del favorito (se il match non e' dato in equilibrio).
+    #    exclude = foto gia' usate per lui altrove: variazione tra articoli.
     if fav and conf != 'equilibrio':
         full = NAME_MAP.get(fav)
         if full:
             tried.add(fav)
-            pick = pick_image(full, slug_hint=slug)
+            excl = used_covers_for_player(full.split()[-1], skip_slug=slug)
+            pick = pick_image(full, slug_hint=slug, exclude=excl)
     # 2. foto dell'altro protagonista del match (o di uno dei due se
     #    equilibrio): un vero giocatore della partita e' sempre piu'
     #    pertinente di un venue generico, ed evita cover duplicate.
@@ -199,7 +202,8 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
                 continue
             full = NAME_MAP.get(cand)
             if full:
-                pick = pick_image(full, slug_hint=slug)
+                excl = used_covers_for_player(full.split()[-1], skip_slug=slug)
+                pick = pick_image(full, slug_hint=slug, exclude=excl)
                 if pick:
                     break
     # 3. ultima spiaggia: venue del torneo. slug_hint diversifica

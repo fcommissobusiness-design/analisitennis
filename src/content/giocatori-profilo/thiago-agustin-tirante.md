@@ -1,6 +1,7 @@
 ---
 nome: "Thiago Agustin Tirante"
 slug_profilo: "thiago-agustin-tirante"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Argentina"
 mano: "destro"
 rovescio: "due mani"

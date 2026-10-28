@@ -1,6 +1,8 @@
 ---
 nome: "Pablo Carreño Busta"
 slug_profilo: "pablo-carreno-busta"
+titoli: "Bronzo olimpico 2021 e titoli ATP"
+stile_gioco: "Solidita' e costruzione paziente, ottimo in difesa da fondo"
 nazionalita: "Spagna"
 data_nascita: "1991-07-12"
 mano: "destro"

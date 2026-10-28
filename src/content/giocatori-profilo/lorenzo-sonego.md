@@ -1,6 +1,8 @@
 ---
 nome: "Lorenzo Sonego"
 slug_profilo: "lorenzo-sonego"
+titoli: "Piu' titoli ATP"
+stile_gioco: "Dritto e servizio aggressivi, grande agonismo e spinta da fondo"
 nazionalita: "Italia"
 data_nascita: "1995-05-11"
 mano: "destro"

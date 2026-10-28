@@ -1,6 +1,8 @@
 ---
 nome: "Casper Ruud"
 slug_profilo: "casper-ruud"
+titoli: "Finalista Slam e numerosi titoli ATP sulla terra"
+stile_gioco: "Dritto carico di top spin e grande costanza da fondo sulla terra"
 nazionalita: "Norvegia"
 data_nascita: "1998-12-22"
 mano: "destro"

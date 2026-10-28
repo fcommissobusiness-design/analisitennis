@@ -1,6 +1,8 @@
 ---
 nome: "Tomas Martin Etcheverry"
 slug_profilo: "tomas-martin-etcheverry"
+titoli: "Finali ATP sulla terra"
+stile_gioco: "Potenza da fondo e dritto pesante, resa migliore sulla terra"
 nazionalita: "Argentina"
 data_nascita: "1999-05-19"
 mano: "destro"

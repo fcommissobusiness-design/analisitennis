@@ -1,6 +1,7 @@
 ---
 nome: "R. Matsuda"
 slug_profilo: "r-matsuda"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Giappone"
 mano: "destro"
 categoria: "Challenger"

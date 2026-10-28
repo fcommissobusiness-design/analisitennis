@@ -1,6 +1,8 @@
 ---
 nome: "Ben Shelton"
 slug_profilo: "b-shelton"
+titoli: "Titoli ATP e semifinale Slam"
+stile_gioco: "Servizio mancino devastante e dritto esplosivo"
 nazionalita: "Stati Uniti"
 data_nascita: "2002-10-09"
 mano: "mancino"

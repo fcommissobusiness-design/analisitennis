@@ -1,6 +1,7 @@
 ---
 nome: "Felipe Meligeni Alves"
 slug_profilo: "f-meligeni-alves"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Brasile"
 data_nascita: "1998-07-23"
 mano: "destro"

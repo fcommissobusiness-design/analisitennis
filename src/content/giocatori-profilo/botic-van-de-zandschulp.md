@@ -1,6 +1,8 @@
 ---
 nome: "Botic van de Zandschulp"
 slug_profilo: "botic-van-de-zandschulp"
+titoli: "Primi titoli ATP e acuti nei Slam"
+stile_gioco: "Gioco completo e ordinato da fondo, buona varieta'"
 nazionalita: "Paesi Bassi"
 data_nascita: "1995-10-04"
 mano: "destro"

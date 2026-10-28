@@ -1,6 +1,8 @@
 ---
 nome: "Adrian Mannarino"
 slug_profilo: "adrian-mannarino"
+titoli: "Piu' titoli ATP, specialista delle superfici veloci"
+stile_gioco: "Mancino piatto e molto anticipato, efficace sull'erba"
 nazionalita: "Francia"
 data_nascita: "1988-06-29"
 mano: "mancino"

@@ -1,6 +1,8 @@
 ---
 nome: "Nikoloz Basilashvili"
 slug_profilo: "nikoloz-basilashvili"
+titoli: "Piu' titoli ATP e finali Masters 1000"
+stile_gioco: "Colpi piattissimi e rischiosi da fondo, gioco ad altissimo rischio"
 nazionalita: "Georgia"
 data_nascita: "1992-02-23"
 mano: "destro"

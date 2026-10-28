@@ -1,6 +1,8 @@
 ---
 nome: "Elena Rybakina"
 slug_profilo: "elena-rybakina"
+titoli: "Wimbledon 2022 e titoli WTA, top 5"
+stile_gioco: "Servizio e colpi piatti potentissimi, tennis d'attacco"
 nazionalita: "Kazakistan"
 data_nascita: "1999-06-17"
 mano: "destro"

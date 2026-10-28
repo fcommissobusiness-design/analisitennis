@@ -1,6 +1,8 @@
 ---
 nome: "Flavio Cobolli"
 slug_profilo: "flavio-cobolli"
+titoli: "Primi titoli ATP in carriera"
+stile_gioco: "Dritto rapido e gioco piatto d'attacco da fondo"
 nazionalita: "Italia"
 data_nascita: "2002-05-06"
 mano: "destro"

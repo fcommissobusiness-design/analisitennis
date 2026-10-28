@@ -1,6 +1,7 @@
 ---
 nome: "Sebastian Sorger"
 slug_profilo: "s-sorger"
+stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
 nazionalita: "Austria"
 data_nascita: "2005-12-19"
 mano: "destro"

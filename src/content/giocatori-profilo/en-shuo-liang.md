@@ -1,6 +1,7 @@
 ---
 nome: "En-Shuo Liang"
 slug_profilo: "en-shuo-liang"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Taipei Cinese (Taiwan)"
 mano: "destro"
 rovescio: "due mani"

@@ -1,6 +1,8 @@
 ---
 nome: "Yannick Hanfmann"
 slug_profilo: "y-hanfmann"
+titoli: "Carriera tra Challenger e ATP, in cerca del primo titolo del circuito"
+stile_gioco: "Dritto pesante e gioco fisico, resa migliore sulla terra"
 nazionalita: "Germania"
 data_nascita: "1991-07-13"
 mano: "destro"

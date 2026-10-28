@@ -1,6 +1,8 @@
 ---
 nome: "Vit Kopriva"
 slug_profilo: "vit-kopriva"
+titoli: "Lunga carriera tra Challenger e ATP"
+stile_gioco: "Regolarita' e top spin da fondo, specialista della terra"
 nazionalita: "Repubblica Ceca"
 data_nascita: "1997-06-17"
 mano: "destro"

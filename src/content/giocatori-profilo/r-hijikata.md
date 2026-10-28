@@ -1,6 +1,8 @@
 ---
 nome: "Rinky Hijikata"
 slug_profilo: "r-hijikata"
+titoli: "Titolo Slam in doppio (Australian Open 2023)"
+stile_gioco: "Agonismo e regolarita' da fondo nonostante il fisico contenuto"
 nazionalita: "Australia"
 data_nascita: "2001-05-23"
 mano: "destro"

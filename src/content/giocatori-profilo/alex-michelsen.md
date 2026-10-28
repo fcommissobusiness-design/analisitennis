@@ -1,6 +1,8 @@
 ---
 nome: "Alex Michelsen"
 slug_profilo: "alex-michelsen"
+titoli: "Giovane emergente con primi acuti ATP"
+stile_gioco: "Gioco solido e maturo da fondo, lucidita' sul veloce"
 nazionalita: "Stati Uniti"
 data_nascita: "2004-06-26"
 mano: "destro"

@@ -1,6 +1,8 @@
 ---
 nome: "Alexander Bublik"
 slug_profilo: "alexander-bublik"
+titoli: "Piu' titoli ATP"
+stile_gioco: "Servizio imprevedibile, smorzate e colpi estrosi, grande talento"
 nazionalita: "Kazakistan"
 data_nascita: "1997-06-17"
 mano: "destro"

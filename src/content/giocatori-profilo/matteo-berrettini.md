@@ -1,6 +1,8 @@
 ---
 nome: "Matteo Berrettini"
 slug_profilo: "matteo-berrettini"
+titoli: "Finalista Wimbledon 2021 e piu' titoli ATP"
+stile_gioco: "Servizio e dritto tra i piu' potenti del circuito, forte sull'erba"
 nazionalita: "Italia"
 data_nascita: "1996-04-12"
 mano: "destro"

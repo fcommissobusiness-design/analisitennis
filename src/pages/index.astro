@@ -4,7 +4,10 @@ import FormEmail from '../components/FormEmail.astro';
 import { getCollection } from 'astro:content';
 
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
-const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf()).slice(0, 30);
+// Tutti gli articoli (piu' recenti in alto). Lato pagina ne mostriamo un
+// blocco; "Visualizza altro" rivela i piu' vecchi a blocchi successivi.
+const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+const BATCH = 12;
 
 // FAQ Page schema per rich snippet su query "analisitennis" o "come funziona analisitennis"
 const faqHome = {
@@ -70,9 +73,9 @@ const faqHome = {
     <div class="layout-home">
       <div class="colonna-articoli">
         <h2 class="sezione-eyebrow">Ultime analisi</h2>
-        <div class="griglia-articoli" style="padding: 0;">
+        <div class="griglia-articoli" id="home-griglia" data-batch={BATCH} style="padding: 0;">
           {articoli.map((art, i) => (
-            <article class="card-articolo">
+            <article class="card-articolo" hidden={i >= BATCH}>
               {art.data.cover_image && (
                 <a class="card-cover" href={`/articoli/${art.slug}`} aria-label={art.data.titolo}>
                   <img
@@ -96,6 +99,15 @@ const faqHome = {
             </article>
           ))}
         </div>
+        {articoli.length > BATCH && (
+          <div class="home-piu-wrap">
+            <button type="button" id="home-piu" class="home-piu">
+              Visualizza altre analisi
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="home-conteggio" id="home-conteggio"></p>
+          </div>
+        )}
       </div>
       <aside>
         <div class="side-sticky">
@@ -104,4 +116,65 @@ const faqHome = {
       </aside>
     </div>
   </div>
+
+  <script>
+    // Home: rivela gli articoli piu' vecchi a blocchi. Tutte le card sono
+    // gia' nel markup (bene per SEO), qui mostriamo solo il blocco corrente.
+    (function () {
+      const grid = document.getElementById('home-griglia');
+      if (!grid) return;
+      const cards = Array.from(grid.querySelectorAll('.card-articolo'));
+      const btn = document.getElementById('home-piu');
+      const conteggio = document.getElementById('home-conteggio');
+      const BATCH = parseInt(grid.getAttribute('data-batch') || '12', 10);
+      let mostrati = BATCH;
+
+      function render() {
+        cards.forEach(function (card, i) { card.hidden = i >= mostrati; });
+        if (btn) {
+          const restano = mostrati < cards.length;
+          btn.hidden = !restano;
+          if (btn.parentElement) btn.parentElement.hidden = cards.length <= BATCH;
+          if (conteggio) conteggio.textContent = 'Mostrate ' + Math.min(mostrati, cards.length) + ' di ' + cards.length + ' analisi';
+        }
+      }
+      if (btn) btn.addEventListener('click', function () { mostrati += BATCH; render(); });
+      render();
+    })();
+  </script>
 </Base>
+
+<style>
+  .home-piu-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 28px 0 40px;
+  }
+  .home-piu {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 26px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--testo, #1a1a1a);
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #d8dde3);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, transform 0.15s;
+  }
+  .home-piu:hover {
+    border-color: var(--verde, #39d453);
+    color: var(--verde, #2a7f3e);
+    transform: translateY(-1px);
+  }
+  .home-piu svg { display: block; }
+  .home-conteggio {
+    font-size: 0.8rem;
+    color: var(--testo-secondario, #8a94a3);
+    margin: 0;
+  }
+</style>

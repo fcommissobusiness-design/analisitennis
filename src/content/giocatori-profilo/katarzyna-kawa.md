@@ -1,6 +1,8 @@
 ---
 nome: "Katarzyna Kawa"
 slug_profilo: "katarzyna-kawa"
+titoli: "Carriera tra circuito ITF e WTA"
+stile_gioco: "Regolarita' e top spin da fondo, a suo agio sulla terra"
 nazionalita: "Polonia"
 data_nascita: "1992-11-18"
 mano: "destro"

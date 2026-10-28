@@ -1,6 +1,8 @@
 ---
 nome: "Jurij Rodionov"
 slug_profilo: "jurij-rodionov"
+titoli: "Mancino in cerca dell'affermazione nel circuito ATP"
+stile_gioco: "Servizio mancino e gioco d'attacco, buona potenza"
 nazionalita: "Austria"
 mano: "mancino"
 rovescio: "due mani"

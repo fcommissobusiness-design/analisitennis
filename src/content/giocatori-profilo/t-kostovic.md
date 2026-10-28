@@ -1,6 +1,7 @@
 ---
 nome: "Teodora Kostović"
 slug_profilo: "t-kostovic"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Serbia"
 data_nascita: "2007-06-28"
 mano: "destro"

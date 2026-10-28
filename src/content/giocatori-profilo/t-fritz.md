@@ -1,6 +1,8 @@
 ---
 nome: "Taylor Fritz"
 slug_profilo: "t-fritz"
+titoli: "Masters 1000 Indian Wells 2022, finalista Slam, top 5"
+stile_gioco: "Servizio e dritto potenti, tennis offensivo sul veloce"
 nazionalita: "Stati Uniti"
 data_nascita: "1997-10-28"
 mano: "destro"

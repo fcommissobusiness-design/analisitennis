@@ -31,6 +31,8 @@ const giocatoriProfilo = defineCollection({
     data_nascita: z.string().optional(),
     mano: z.string().optional(),
     rovescio: z.string().optional(),
+    stile_gioco: z.string().optional(),
+    titoli: z.string().optional(),
     altezza: z.string().optional(),
     categoria: z.enum(['ATP', 'WTA', 'Challenger', 'ITF', 'Slam', 'Masters']).optional(),
     superficie_preferita: z.enum(['cemento', 'terra', 'erba', 'indoor']).optional(),

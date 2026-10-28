@@ -1,6 +1,7 @@
 ---
 nome: "Timofei Derepasko"
 slug_profilo: "t-derepasko"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Russia"
 data_nascita: "2007-01-07"
 mano: "destro"

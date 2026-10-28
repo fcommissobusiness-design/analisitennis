@@ -1,6 +1,8 @@
 ---
 nome: "Jakub Mensik"
 slug_profilo: "jakub-mensik"
+titoli: "Masters 1000 Miami 2025"
+stile_gioco: "Servizio potente e dritto diretto, giovane di sostanza offensiva"
 nazionalita: "Repubblica Ceca"
 data_nascita: "2005-09-01"
 mano: "destro"

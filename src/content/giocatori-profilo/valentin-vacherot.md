@@ -1,6 +1,8 @@
 ---
 nome: "Valentin Vacherot"
 slug_profilo: "valentin-vacherot"
+titoli: "Sorprendente corsa al Masters 1000 di Shanghai 2025"
+stile_gioco: "Gioco solido e combattivo da fondo, grande solidita' mentale"
 nazionalita: "Monaco"
 mano: "destro"
 rovescio: "due mani"

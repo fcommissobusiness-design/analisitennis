@@ -1,6 +1,8 @@
 ---
 nome: "Alexandra Eala"
 slug_profilo: "alexandra-eala"
+titoli: "Prima filippina ai vertici giovanili e primi acuti WTA"
+stile_gioco: "Mancina offensiva, dritto e varieta', mentalita' da battaglia"
 nazionalita: "Filippine"
 data_nascita: "2005-05-23"
 mano: "mancino"

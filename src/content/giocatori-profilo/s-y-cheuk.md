@@ -1,6 +1,7 @@
 ---
 nome: "S. Y. Cheuk"
 slug_profilo: "s-y-cheuk"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Hong Kong, Cina"
 mano: "destro"
 categoria: "Challenger"

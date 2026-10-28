@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 try:
     from attach_covers import (
         NAME_MAP, VENUE_MAP, COVERS_DIR, detect_winner,
-        pick_image, pick_venue, download, strip_html
+        pick_image, pick_venue, download, strip_html, used_covers_for_player
     )
     HAS_COVER = True
 except Exception:
@@ -76,12 +76,14 @@ def write(match, analysis, out_dir):
             fav, conf = detect_winner(verdetto, p1, p2)
             pick = None
             tried = set()
-            # 1. foto del favorito (se il match non e' dato in equilibrio)
+            # 1. foto del favorito (se il match non e' dato in equilibrio).
+            #    exclude = foto gia' usate per lui in altri articoli: variazione.
             if fav and conf != 'equilibrio':
                 full = NAME_MAP.get(fav)
                 if full:
                     tried.add(fav)
-                    pick = pick_image(full, slug_hint=slug)
+                    excl = used_covers_for_player(full.split()[-1], skip_slug=slug)
+                    pick = pick_image(full, slug_hint=slug, exclude=excl)
             # 2. foto dell'altro protagonista del match (o di uno dei due se
             #    equilibrio): un vero giocatore della partita e' sempre piu'
             #    pertinente di un venue generico, ed evita cover duplicate.
@@ -91,7 +93,8 @@ def write(match, analysis, out_dir):
                         continue
                     full = NAME_MAP.get(cand)
                     if full:
-                        pick = pick_image(full, slug_hint=slug)
+                        excl = used_covers_for_player(full.split()[-1], skip_slug=slug)
+                        pick = pick_image(full, slug_hint=slug, exclude=excl)
                         if pick:
                             break
             # 3. ultima spiaggia: venue del torneo. slug_hint diversifica gli

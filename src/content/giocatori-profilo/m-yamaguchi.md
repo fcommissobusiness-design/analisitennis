@@ -1,6 +1,7 @@
 ---
 nome: "Mei Yamaguchi"
 slug_profilo: "m-yamaguchi"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Giappone"
 data_nascita: "1999-06-14"
 mano: "destro"

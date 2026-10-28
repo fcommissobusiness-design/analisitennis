@@ -1,6 +1,8 @@
 ---
 nome: "Daniel Altmaier"
 slug_profilo: "d-altmaier"
+titoli: "Acuti nei Slam, in cerca del primo titolo ATP"
+stile_gioco: "Difesa e pazienza da fondo, miglior rendimento sulla terra"
 nazionalita: "Germania"
 data_nascita: "1998-01-12"
 mano: "destro"

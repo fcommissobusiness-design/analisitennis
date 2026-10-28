@@ -1,6 +1,7 @@
 ---
 nome: "Xiaodi You"
 slug_profilo: "xiaodi-you"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Cina"
 data_nascita: "1996-05-12"
 mano: "destro"

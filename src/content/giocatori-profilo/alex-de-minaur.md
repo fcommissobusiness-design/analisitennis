@@ -1,6 +1,8 @@
 ---
 nome: "Alex de Minaur"
 slug_profilo: "alex-de-minaur"
+titoli: "Numerosi titoli ATP, stabilmente nella top 10"
+stile_gioco: "Velocita' di gambe, difesa e contrattacco continuo da fondo"
 nazionalita: "Australia"
 data_nascita: "1999-02-17"
 mano: "destro"

@@ -1,6 +1,7 @@
 ---
 nome: "Kayla Day"
 slug_profilo: "kayla-day"
+stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Stati Uniti"
 data_nascita: "1999-09-28"
 mano: "mancino"

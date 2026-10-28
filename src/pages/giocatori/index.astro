@@ -5,9 +5,24 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 
 const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
-const giocatori = profili
-  .map(p => p.data)
+// Dedup per nome normalizzato: esistono profili legacy a slug corto
+// (es. "d-altmaier" + "daniel-altmaier") che sono lo stesso giocatore.
+// Tengo quello con lo slug piu' descrittivo (piu' lungo = nome completo).
+const _normNome = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim();
+const _perNome = new Map();
+for (const p of profili) {
+  const k = _normNome(p.data.nome);
+  const prev = _perNome.get(k);
+  if (!prev || (p.data.slug_profilo || '').length > (prev.slug_profilo || '').length) {
+    _perNome.set(k, p.data);
+  }
+}
+const giocatori = [..._perNome.values()]
   .sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
+
+// Quanti profili mostrare prima del bottone "Visualizza altri".
+// ~6-7 righe da 3-4 card = circa 24. Oltre, l'utente espande a blocchi.
+const BATCH = 24;
 
 const site = 'https://analisitennis.it';
 const itemList = {
@@ -21,6 +36,9 @@ const itemList = {
   })),
   numberOfItems: giocatori.length,
 };
+
+// Stringa di ricerca per ogni card: nome normalizzato (niente accenti).
+const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 ---
 <Base
   titolo="Giocatori di tennis - Profili, storia e stile di gioco - AnalisiTennis"
@@ -44,29 +62,168 @@ const itemList = {
         {giocatori.length === 0 ? (
           <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun profilo pubblicato al momento. Ne aggiungeremo di nuovi a ogni analisi.</p>
         ) : (
-          <ul class="hub-grid">
-            {giocatori.map(p => (
-              <li class="hub-card">
-                <a href={`/giocatori/${p.slug_profilo}`}>
-                  <div class="hub-nome">{p.nome}</div>
-                  <div class="hub-meta">
-                    {p.nazionalita}{p.categoria ? ` · ${p.categoria}` : ''}
-                  </div>
-                </a>
-              </li>
-            ))}
-          </ul>
+          <>
+            <div class="giocatori-search">
+              <svg class="gs-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              <input
+                type="search"
+                id="giocatori-filtro"
+                placeholder="Cerca un giocatore (es. Djo, Alc, Sin...)"
+                autocomplete="off"
+                aria-label="Cerca un giocatore per nome"
+                data-batch={BATCH}
+              />
+            </div>
+
+            <ul class="hub-grid" id="giocatori-grid" data-batch={BATCH}>
+              {giocatori.map((p, i) => (
+                <li class="hub-card" data-search={`${norm(p.nome)} ${norm(p.nazionalita)}`} data-idx={i} hidden={i >= BATCH}>
+                  <a href={`/giocatori/${p.slug_profilo}`}>
+                    <div class="hub-nome">{p.nome}</div>
+                    <div class="hub-meta">
+                      {p.nazionalita}{p.categoria ? ` · ${p.categoria}` : ''}
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+
+            <p class="giocatori-nessuno" id="giocatori-nessuno" hidden>Nessun giocatore trovato. Prova con altre iniziali.</p>
+
+            {giocatori.length > BATCH && (
+              <div class="giocatori-piu-wrap">
+                <button type="button" id="giocatori-piu" class="giocatori-piu">
+                  Visualizza altri giocatori
+                  <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 5v14m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <p class="giocatori-conteggio" id="giocatori-conteggio"></p>
+              </div>
+            )}
+          </>
         )}
       </div>
       <aside><div class="side-sticky"><FormEmail /></div></aside>
     </div>
   </div>
   <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+
+  <script>
+    // Lista giocatori: ricerca live per iniziali + "Visualizza altri" a blocchi.
+    // Tutte le card sono gia' nell'HTML (bene per la SEO); qui gestiamo solo
+    // cosa e' visibile. Senza JS, il markup mostra il primo blocco via `hidden`.
+    (function () {
+      const grid = document.getElementById('giocatori-grid');
+      if (!grid) return;
+      const cards = Array.from(grid.querySelectorAll('.hub-card'));
+      const input = document.getElementById('giocatori-filtro');
+      const btn = document.getElementById('giocatori-piu');
+      const nessuno = document.getElementById('giocatori-nessuno');
+      const conteggio = document.getElementById('giocatori-conteggio');
+      const BATCH = parseInt(grid.getAttribute('data-batch') || '24', 10);
+
+      let mostrati = BATCH;   // quante card mostrare in modalita' sfoglia
+      let query = '';
+
+      function norm(s) {
+        return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim();
+      }
+
+      // Match per iniziali: la query combacia con l'inizio del nome completo
+      // o con l'inizio di una qualsiasi parola del nome (cosi' "dj" -> Djokovic,
+      // "nov" -> Novak Djokovic, "alc" -> Carlos Alcaraz).
+      function match(testo, q) {
+        if (!q) return true;
+        if (testo.startsWith(q)) return true;
+        return testo.split(/\s+/).some(function (w) { return w.startsWith(q); });
+      }
+
+      function render() {
+        const q = norm(query);
+        let visibili = 0;
+        let totaliMatch = 0;
+
+        cards.forEach(function (card) {
+          const testo = card.getAttribute('data-search') || '';
+          const ok = match(testo, q);
+          if (!ok) { card.hidden = true; return; }
+          totaliMatch++;
+          // In ricerca mostriamo TUTTE le corrispondenze; in sfoglia solo il blocco.
+          if (q) {
+            card.hidden = false;
+            visibili++;
+          } else {
+            const mostra = visibili < mostrati;
+            card.hidden = !mostra;
+            if (mostra) visibili++;
+          }
+        });
+
+        // Messaggio "nessun risultato"
+        if (nessuno) nessuno.hidden = totaliMatch !== 0;
+
+        // Bottone "Visualizza altri": solo in sfoglia e se restano card
+        if (btn) {
+          const restano = !q && mostrati < cards.length;
+          btn.parentElement.hidden = !!q || cards.length <= BATCH;
+          btn.hidden = !restano;
+          if (conteggio) {
+            conteggio.hidden = !!q;
+            conteggio.textContent = q ? '' : 'Mostrati ' + Math.min(mostrati, cards.length) + ' di ' + cards.length + ' giocatori';
+          }
+        }
+      }
+
+      if (input) {
+        input.addEventListener('input', function () {
+          query = input.value;
+          render();
+        });
+      }
+      if (btn) {
+        btn.addEventListener('click', function () {
+          mostrati += BATCH;
+          render();
+        });
+      }
+
+      render();
+    })();
+  </script>
 </Base>
 
 <style>
+  .giocatori-search {
+    position: relative;
+    margin: 4px 0 20px;
+  }
+  .giocatori-search .gs-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--testo-secondario, #8a94a3);
+    pointer-events: none;
+  }
+  .giocatori-search input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 16px 13px 42px;
+    font-size: 1rem;
+    color: var(--testo, #1a1a1a);
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 999px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .giocatori-search input:focus {
+    border-color: var(--verde, #39d453);
+    box-shadow: 0 0 0 3px rgba(57, 212, 83, 0.15);
+  }
+  .giocatori-search input::placeholder { color: var(--testo-secondario, #9aa3ad); }
+
   .hub-grid {
-    list-style: none; padding: 0; margin: 0 0 60px;
+    list-style: none; padding: 0; margin: 0 0 24px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 12px;
@@ -87,4 +244,41 @@ const itemList = {
   }
   .hub-nome { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }
   .hub-meta { font-size: 0.82rem; color: var(--testo-secondario, #6b7280); }
+
+  .giocatori-nessuno {
+    color: var(--testo-secondario, #6b7280);
+    padding: 24px 0 48px;
+  }
+  .giocatori-piu-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0 60px;
+  }
+  .giocatori-piu {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--testo, #1a1a1a);
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #d8dde3);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, transform 0.15s;
+  }
+  .giocatori-piu:hover {
+    border-color: var(--verde, #39d453);
+    color: var(--verde, #2a7f3e);
+    transform: translateY(-1px);
+  }
+  .giocatori-piu svg { display: block; }
+  .giocatori-conteggio {
+    font-size: 0.8rem;
+    color: var(--testo-secondario, #8a94a3);
+    margin: 0;
+  }
 </style>

@@ -1,6 +1,8 @@
 ---
 nome: "Novak Djokovic"
 slug_profilo: "novak-djokovic"
+titoli: "24 titoli del Grande Slam, record assoluto, oltre 90 titoli ATP"
+stile_gioco: "Ritorno e difesa d'elite, elasticita' unica e colpi piatti profondissimi da fondo"
 nazionalita: "Serbia"
 data_nascita: "1987-05-22"
 mano: "destro"
