@@ -20,7 +20,7 @@ verdetto: "Oggi la puo' spuntare Meligeni Alves: l'unico precedente, vinto in du
 descrizione: "Meligeni Alves e Aboian si sfidano nella semifinale del Challenger di Cali sulla terra: forma, precedenti e cammino settimanale a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-meligeni-alves-vs-v-aboian-cali-pronostico-analisi.jpg"
-cover_credit: "ATP Challenger Tour Tournaments (51748767809).jpg | Chris Czermak | CC BY 2.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
 Il penultimo atto del Challenger di Cali mette di fronte due giocatori sudamericani arrivati all'appuntamento con un percorso quasi speculare in questa settimana colombiana. Felipe Meligeni Alves e Valerio Aboian si contendono un posto in finale su una superficie, la terra battuta in quota, che tende a premiare pazienza, costruzione del punto e tenuta delle gambe. Entrambi hanno dovuto sudare per arrivare fin qui, e il confronto promette equilibrio dal primo scambio.

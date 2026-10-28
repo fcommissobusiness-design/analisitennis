@@ -75,13 +75,28 @@ def write(match, analysis, out_dir):
         try:
             fav, conf = detect_winner(verdetto, p1, p2)
             pick = None
+            tried = set()
+            # 1. foto del favorito (se il match non e' dato in equilibrio)
             if fav and conf != 'equilibrio':
                 full = NAME_MAP.get(fav)
                 if full:
-                    pick = pick_image(full)
+                    tried.add(fav)
+                    pick = pick_image(full, slug_hint=slug)
+            # 2. foto dell'altro protagonista del match (o di uno dei due se
+            #    equilibrio): un vero giocatore della partita e' sempre piu'
+            #    pertinente di un venue generico, ed evita cover duplicate.
             if not pick:
-                # slug_hint: articoli diversi dello stesso torneo ricevono
-                # cover venue diverse (anti-duplicato visivo).
+                for cand in (p1, p2):
+                    if cand in tried:
+                        continue
+                    full = NAME_MAP.get(cand)
+                    if full:
+                        pick = pick_image(full, slug_hint=slug)
+                        if pick:
+                            break
+            # 3. ultima spiaggia: venue del torneo. slug_hint diversifica gli
+            #    articoli dello stesso torneo (anti-duplicato visivo).
+            if not pick:
                 pick = pick_venue(torneo, slug_hint=slug)
             if pick:
                 dest = COVERS_DIR / f'{slug}.jpg'

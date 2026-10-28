@@ -148,17 +148,22 @@ def audit_one(art: Path) -> dict:
                             f'[info] favorito {fav} senza foto Commons; usato venue "{credit[:50]}"'
                         )
         else:
-            # Favorito senza mapping -> venue atteso. Accettiamo o
-            # titolo con parola tennis, oppure un venue puro con venue
-            # word (arena, hall, stadium, center, court, ...).
+            # Favorito senza mapping -> si ripiega sulla foto dell'altro
+            # giocatore del match (se mappato) o su un venue. Accettiamo:
+            #  - una foto che contiene il cognome di UNO dei due giocatori
+            #    (protagonista reale del match: pertinente), oppure
+            #  - un titolo che suona tennis / un venue puro.
             cred_title = (result['credit'] or '').split('|')[0]
+            cred_low = credit.lower()
+            players_last = [t for t in (_last_token(g1), _last_token(g2)) if t]
+            is_player = any(p and p.lower() in cred_low for p in players_last)
             looks_t = _looks_tennis(credit)
             is_venue = cred_title and _is_venue_photo(cred_title)
-            if not (looks_t or is_venue):
+            if not (is_player or looks_t or is_venue):
                 result['ok'] = False
                 result['problems'].append(
                     f'favorito {fav} non mappato in NAME_MAP e cover non e\' '
-                    f'venue tennis: "{credit[:70]}"'
+                    f'ne\' foto di un giocatore del match ne\' venue tennis: "{credit[:70]}"'
                 )
 
     return result
@@ -178,13 +183,28 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
 
     fav, conf = detect_winner(verdetto, g1, g2)
     pick = None
+    tried = set()
+    # 1. foto del favorito (se il match non e' dato in equilibrio)
     if fav and conf != 'equilibrio':
         full = NAME_MAP.get(fav)
         if full:
+            tried.add(fav)
             pick = pick_image(full, slug_hint=slug)
+    # 2. foto dell'altro protagonista del match (o di uno dei due se
+    #    equilibrio): un vero giocatore della partita e' sempre piu'
+    #    pertinente di un venue generico, ed evita cover duplicate.
     if not pick:
-        # Passa lo slug cosi' articoli diversi dello stesso torneo
-        # ricevono venue photos DIVERSE (anti-duplicato).
+        for cand in (g1, g2):
+            if cand in tried:
+                continue
+            full = NAME_MAP.get(cand)
+            if full:
+                pick = pick_image(full, slug_hint=slug)
+                if pick:
+                    break
+    # 3. ultima spiaggia: venue del torneo. slug_hint diversifica
+    #    articoli diversi dello stesso torneo (anti-duplicato).
+    if not pick:
         pick = pick_venue(torneo, slug_hint=slug)
     if not pick:
         return False, 'nessuna immagine disponibile da Commons'

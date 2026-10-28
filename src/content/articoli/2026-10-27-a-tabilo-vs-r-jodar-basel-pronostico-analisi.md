@@ -21,7 +21,7 @@ descrizione: "Tabilo e Jodar aprono Basilea con un confronto che il 2026 ha già
 pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-a-tabilo-vs-r-jodar-basel-pronostico-analisi.jpg"
-cover_credit: "Alejandro Tabilo - Jesse Flores (Panamericanos 2023).jpg | JABO | CC BY-SA 4.0"
+cover_credit: "Alejandro Tabilo (Panamericanos 2023) 1.jpg | JABO | CC BY-SA 4.0"
 ---
 
 Basilea torna protagonista del calendario indoor e lo fa subito con un confronto che porta con sé una storia recente molto fitta. Al primo turno del tabellone svizzero, sul cemento al coperto, si ritrovano **Alejandro Tabilo** e **Ramon Jodar**, due giocatori che nel corso del 2026 hanno già incrociato le racchette in più occasioni. Non è quindi un esordio tra sconosciuti, ma il nuovo episodio di una sfida che negli ultimi mesi ha preso corpo partita dopo partita.

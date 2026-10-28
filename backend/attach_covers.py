@@ -123,6 +123,7 @@ NAME_MAP = {
     'B. Nakashima': 'Brandon Nakashima',
     'D. Shapovalov': 'Denis Shapovalov',
     'J. Rodionov': 'Jurij Rodionov',
+    'B. Shelton': 'Ben Shelton',
     # Nomi non mappati (identita' incerta) -> fallback venue
     # 'S. Sorger', 'J. Garland', 'Y. Ma', 'Y. Qu', 'M. Yamaguchi', 'S. Y. Cheuk', 'T. Kostovic', 'X. You',
     # 'L. Tagger', 'X. Sun', 'M. Sawangkaew', 'J. Kym', 'R. Jodar', 'I. Buse', 'H. Bernet', 'M. Brunold'
@@ -376,7 +377,7 @@ def pick_image(name_full: str, slug_hint: str = ''):
             # soggetto in primo piano, col rischio di mostrare
             # l'avversario al posto del favorito (es. una foto
             # "De Minaur vs Rublev" che in realta' inquadra Rublev).
-            if _PERSON_HINTS.search(r['title']):
+            if _PERSON_HINTS.search(r['title']) or _TWO_PERSON_DASH.search(r['title']):
                 continue
             # Scarta loghi, cerimonie, premiazioni e pose celebrative
             # con trofeo: vogliamo il giocatore in campo, attuale, non
@@ -409,7 +410,7 @@ def pick_image(name_full: str, slug_hint: str = ''):
     # articoli diversi sullo stesso giocatore prendono foto diverse.
     if slug_hint and len(pool) > 1:
         top_rank = _rank(pool[0])
-        tied = [r for r in pool if _rank(r) >= top_rank - 10][:5]
+        tied = [r for r in pool if _rank(r) >= top_rank - 12][:8]
         if len(tied) > 1:
             idx = int(hashlib.md5(slug_hint.encode()).hexdigest(), 16) % len(tied)
             return tied[idx]
@@ -429,6 +430,13 @@ import re as _re_person
 _PERSON_HINTS = _re_person.compile(
     r'(\bagainst\b|\bvs\.?\b|\bv\.\s|\s(et|and)\s[A-Z])',
     _re_person.IGNORECASE,
+)
+# "Tabilo - Jesse Flores": trattino seguito da Nome Cognome (due parole
+# Maiuscola+minuscole) = foto con due giocatori. Case-sensitive apposta,
+# cosi' non scatta su "Player - monte carlo" o sigle.
+_TWO_PERSON_DASH = _re_person.compile(
+    r'\s[-–]\s[A-ZÁÉÍÓÚÀÈÌÒÙÄÖÜÑŠČĆŽ][a-zñáéíóúàèìòùäöüç]+'
+    r'\s[A-ZÁÉÍÓÚÀÈÌÒÙÄÖÜÑŠČĆŽ][a-zñáéíóúàèìòùäöüç]+'
 )
 # Match pattern "File:Nome Cognome," o "Nome Cognome," all'inizio del
 # titolo: molte foto di tennisti su Commons sono nominate cosi'.
@@ -536,18 +544,25 @@ def pick_venue(torneo: str, slug_hint: str = ''):
             best_fallback = results[0]
     # Fallback universale: foto generica di campo da tennis professionale
     # per garantire che ogni articolo abbia una cover coerente col tema.
-    # Variazione per-slug cosi' piu' articoli dello stesso torneo senza
-    # venue proprio su Commons non ricevano la stessa identica foto.
-    for query in ('ATP tennis court professional', 'tennis court outdoor professional',
-                  'tennis stadium center court'):
-        results = commons_search(query)
-        results = [r for r in results if _looks_tennis(r['title']) and _is_venue_photo(r['title'])]
-        if results:
-            if slug_hint and len(results) > 1:
-                pool = results[:6]
-                idx = int(hashlib.md5(slug_hint.encode()).hexdigest(), 16) % len(pool)
-                return pool[idx]
-            return results[0]
+    # Accumulo i risultati di PIU' query in un unico pool (deduplicato) cosi'
+    # i candidati sono molti: tornei diversi senza venue proprio su Commons
+    # prendono foto DIVERSE (l'hash dello slug varia su un pool ampio).
+    pool, seen = [], set()
+    for query in ('tennis stadium center court', 'tennis court outdoor professional',
+                  'ATP tennis court professional', 'tennis arena indoor',
+                  'WTA tennis stadium', 'tennis centre court match',
+                  'hard court tennis stadium', 'clay court tennis stadium'):
+        for r in commons_search(query):
+            if r['title'] in seen:
+                continue
+            if _looks_tennis(r['title']) and _is_venue_photo(r['title']):
+                seen.add(r['title'])
+                pool.append(r)
+    if pool:
+        if slug_hint and len(pool) > 1:
+            idx = int(hashlib.md5(slug_hint.encode()).hexdigest(), 16) % len(pool)
+            return pool[idx]
+        return pool[0]
     return best_fallback
 
 
