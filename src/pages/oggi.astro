@@ -14,6 +14,16 @@ const articoli = tutti
   .filter(a => new Date(a.data.data).toISOString().split('T')[0] === latestDate)
   .sort((a, b) => a.data.torneo.localeCompare(b.data.torneo));
 
+// Raggruppa per torneo: la pagina "oggi" diventa una slate scansionabile,
+// un torneo per blocco, piu' utile e piu' facile da leggere ogni giorno.
+const perTorneo = new Map();
+for (const a of articoli) {
+  const k = a.data.torneo;
+  if (!perTorneo.has(k)) perTorneo.set(k, { torneo: k, categoria: a.data.categoria, superficie: a.data.superficie, articoli: [] });
+  perTorneo.get(k).articoli.push(a);
+}
+const gruppi = [...perTorneo.values()].sort((a, b) => a.torneo.localeCompare(b.torneo, 'it'));
+
 const site = 'https://analisitennis.it';
 const dataLocale = latestDate ? new Date(latestDate).toLocaleDateString('it-IT', {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
@@ -59,18 +69,31 @@ const itemList = {
         {articoli.length === 0 ? (
           <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun match analizzato oggi. Torna domani alle 7 del mattino.</p>
         ) : (
-          <div class="griglia-articoli" style="padding: 0;">
-            {articoli.map(art => (
-              <article class="card-articolo">
-                <div class="eyebrow">{art.data.categoria} - {art.data.torneo} - {art.data.superficie}</div>
-                <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
-                <p class="sottotitolo">{art.data.sottotitolo}</p>
-                <div class="data">
-                  {art.data.giocatore1} vs {art.data.giocatore2}
+          <>
+            <p class="oggi-conteggio">{articoli.length} match analizzati in {gruppi.length} {gruppi.length === 1 ? 'torneo' : 'tornei'}.</p>
+            {gruppi.map(g => (
+              <section class="oggi-torneo">
+                <h2>{g.torneo} <span class="oggi-sup">{g.categoria} · {g.superficie}</span></h2>
+                <div class="griglia-articoli" style="padding: 0;">
+                  {g.articoli.map((art, i) => (
+                    <article class="card-articolo">
+                      {art.data.cover_image && (
+                        <a class="card-cover" href={`/articoli/${art.slug}`} aria-label={art.data.titolo}>
+                          <picture>
+                            <source srcset={art.data.cover_image.replace(/\.jpg$/, '.webp')} type="image/webp" />
+                            <img src={art.data.cover_image} alt={`${art.data.giocatore1} vs ${art.data.giocatore2}`} width="640" height="360" loading={i < 2 ? 'eager' : 'lazy'} decoding="async" />
+                          </picture>
+                        </a>
+                      )}
+                      <h3 class="oggi-card-titolo"><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h3>
+                      <p class="sottotitolo">{art.data.sottotitolo}</p>
+                      <div class="data">{art.data.giocatore1} vs {art.data.giocatore2}</div>
+                    </article>
+                  ))}
                 </div>
-              </article>
+              </section>
             ))}
-          </div>
+          </>
         )}
       </div>
       <aside><div class="side-sticky"><FormEmail /></div></aside>
@@ -79,3 +102,16 @@ const itemList = {
 
   <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
 </Base>
+
+<style>
+  .oggi-conteggio { color: var(--testo-secondario, #6b7280); font-size: 0.92rem; margin: 0 0 24px; }
+  .oggi-torneo { margin-bottom: 40px; }
+  .oggi-torneo > h2 {
+    font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; font-weight: 700;
+    margin: 0 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--verde, #39d453); display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+  }
+  .oggi-torneo .oggi-sup { font-family: var(--font-ui, system-ui); font-size: 0.68rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--testo-secondario, #8a94a3); font-weight: 700; }
+  .oggi-card-titolo { font-family: 'Playfair Display', Georgia, serif; font-size: 1.2rem; font-weight: 700; line-height: 1.2; margin: 0 0 8px; }
+  .oggi-card-titolo a { color: var(--testo, #1a1a1a); text-decoration: none; }
+  .oggi-card-titolo a:hover { color: var(--verde, #2a7f3e); }
+</style>
