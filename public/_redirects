@@ -1,0 +1,14 @@
+# Redirect 301 dai vecchi slug profilo abbreviati (duplicati rimossi il
+# 29/10/2026) verso lo slug esteso canonico. Evita 404 su URL gia' scansionati
+# da Google e preserva l'eventuale equity. Cloudflare Pages legge questo file.
+/giocatori/b-shelton            /giocatori/ben-shelton              301
+/giocatori/t-fritz              /giocatori/taylor-fritz             301
+/giocatori/d-altmaier           /giocatori/daniel-altmaier          301
+/giocatori/r-bertola            /giocatori/remy-bertola             301
+/giocatori/j-m-cerundolo        /giocatori/juan-manuel-cerundolo    301
+/giocatori/t-droguet            /giocatori/titouan-droguet          301
+/giocatori/j-duckworth          /giocatori/james-duckworth          301
+/giocatori/y-hanfmann           /giocatori/yannick-hanfmann         301
+/giocatori/r-hijikata           /giocatori/rinky-hijikata           301
+/giocatori/a-kovacevic          /giocatori/aleksandar-kovacevic     301
+/giocatori/g-mpetshi-perricard  /giocatori/giovanni-mpetshi-perricard  301
