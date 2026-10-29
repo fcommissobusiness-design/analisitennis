@@ -2,9 +2,15 @@
 // e produce slug + nome display + lista articoli associati.
 // Lato Astro (SSG), gira a build time: nessun impatto runtime sul sito.
 
-// Mappa nomi abbreviati -> nome completo per display e SEO.
-// Allineata (quando possibile) con backend/attach_covers.py:NAME_MAP.
-export const FULL_NAMES = {
+// Mappa autoritativa nomi abbreviati -> nome completo, esportata dal backend
+// (attach_covers.NAME_MAP) in src/data/name-map.json da export_name_map.py.
+// Importandola qui frontend e backend usano SEMPRE lo stesso slug per lo stesso
+// giocatore: niente piu' profili duplicati tipo 'b-shelton' + 'ben-shelton'.
+import NAME_MAP_BACKEND from '../data/name-map.json';
+
+// Override/aggiunte locali al volo. Il backend (NAME_MAP_BACKEND) ha la
+// precedenza: e' la fonte di verita' allineata alla generazione dei profili.
+const FULL_NAMES_LOCAL = {
   'A. Fils': 'Arthur Fils',
   'J-L. Struff': 'Jan-Lennard Struff',
   'A. Molcan': 'Alex Molcan',
@@ -80,6 +86,10 @@ export const FULL_NAMES = {
   'Z. Bergs': 'Zizou Bergs',
   'V. Williams': 'Venus Williams',
 };
+
+// Mappa effettiva: backend (fonte di verita') + override locali per nomi non
+// ancora nel backend. Stesso input -> stesso slug ovunque nel sito.
+export const FULL_NAMES = { ...FULL_NAMES_LOCAL, ...NAME_MAP_BACKEND };
 
 export function slugify(s) {
   return (s || '')

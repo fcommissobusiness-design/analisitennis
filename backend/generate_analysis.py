@@ -36,6 +36,20 @@ API_KEY = _env_api_key()
 API_BASE = 'https://api.api-tennis.com/tennis/'
 
 
+def _oggi():
+    """Data di riferimento 'oggi' per l'analisi. Override con
+    ANALISITENNIS_OGGI=YYYY-MM-DD quando si generano in anticipo gli articoli
+    del giorno dopo (es. stasera gli articoli di domani). Senza env resta la
+    data di sistema: comportamento invariato per la run schedulata."""
+    ov = os.environ.get('ANALISITENNIS_OGGI', '').strip()
+    if ov:
+        try:
+            return date.fromisoformat(ov)
+        except Exception:
+            pass
+    return date.today()
+
+
 def _api(method, **params):
     if not API_KEY:
         return {}
@@ -72,7 +86,7 @@ def fetch_h2h(pk1, pk2):
 
 def fetch_recent_matches(pk, days=120, max_results=15):
     """Ultimi match autoritativi del giocatore."""
-    end = date.today()
+    end = _oggi()
     start = end - timedelta(days=days)
     d = _api('get_fixtures',
              date_start=start.isoformat(),
@@ -419,7 +433,7 @@ def _claude_call(prompt, timeout=1800):
 
 
 def _today_strings():
-    today = date.today()
+    today = _oggi()
     italian_months = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno',
                       'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre']
     today_human = f'{today.day} {italian_months[today.month - 1]} {today.year}'

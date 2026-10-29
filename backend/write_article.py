@@ -150,10 +150,20 @@ def write(match, analysis, out_dir):
     # con una leggera variazione per articolo cosi' da non avere tutti
     # lo stesso minuto esatto. La DATA resta quella corrente di ora_it.
     ora_override = os.environ.get('ARTICOLO_ORA_OVERRIDE', '').strip()
+    data_override = os.environ.get('ARTICOLO_DATA_OVERRIDE', '').strip()
     if ora_override:
         try:
             h, m = (int(x) for x in ora_override.split(':'))
             base = ora_it.replace(hour=h, minute=m, second=0, microsecond=0)
+            # Quando si pubblica in anticipo (es. stasera gli articoli di
+            # domani), ARTICOLO_DATA_OVERRIDE="YYYY-MM-DD" forza anche la DATA
+            # del timestamp, non solo l'orario. Senza, resta la data corrente.
+            if data_override:
+                try:
+                    y, mo, d = (int(x) for x in data_override.split('-'))
+                    base = base.replace(year=y, month=mo, day=d)
+                except Exception:
+                    pass
             # variazione deterministica per slug: -8 .. +37 minuti
             jitter = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 46 - 8
             pub = base + timedelta(minutes=jitter)

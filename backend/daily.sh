@@ -123,6 +123,12 @@ python3 fetch_standings.py 2>&1 | tee -a "$LOG" || true
 log_section "[4-quinquies/5] Scontri diretti H2H"
 python3 fetch_h2h.py 2>&1 | tee -a "$LOG" || true
 
+# 4-sexies. Esporta la mappa nomi abbreviati->estesi (name-map.json) usata dal
+# frontend per gli slug dei profili. Tiene frontend e backend sincronizzati:
+# niente profili duplicati (es. 'b-shelton' + 'ben-shelton').
+log_section "[4-sexies/5] Export name-map per slug profili"
+python3 export_name_map.py 2>&1 | tee -a "$LOG" || true
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
