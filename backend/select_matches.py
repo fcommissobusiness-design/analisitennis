@@ -121,6 +121,13 @@ def orario_italiano_ok(m):
 
 
 def not_yet_started(m):
+    # Run manuale "come al solito" in ritardo (es. a meta' pomeriggio): con
+    # ANALISITENNIS_IGNORA_STATO=1 si includono anche i match gia' iniziati o
+    # conclusi, cosi' la slate e' la stessa che si sarebbe scelta alle 07:00.
+    # I risultati NON finiscono nell'analisi grazie al cutoff dati (vedi
+    # ANALISITENNIS_DATI_FINO in generate_analysis.py).
+    if os.environ.get('ANALISITENNIS_IGNORA_STATO', '').strip():
+        return True
     s = (m.get('event_status') or '').lower()
     if 'finished' in s or 'live' in s or m.get('event_live') == '1':
         return False

@@ -1205,10 +1205,18 @@
     "slug_p1": "holger-rune",
     "slug_p2": "hubert-hurkacz",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 0
     },
     "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Basel",
+        "g1": "H. Hurkacz",
+        "g2": "H. Rune",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2022-11-02",
         "torneo": "Paris",
@@ -1343,6 +1351,26 @@
       }
     ]
   },
+  "alex-de-minaur-vs-learner-tien": {
+    "p1": "Alex de Minaur",
+    "p2": "Learner Tien",
+    "slug_p1": "alex-de-minaur",
+    "slug_p2": "learner-tien",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Vienna",
+        "g1": "L. Tien",
+        "g2": "A. De Minaur",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
   "casper-ruud-vs-nuno-borges": {
     "p1": "Casper Ruud",
     "p2": "Nuno Borges",
@@ -1434,9 +1462,17 @@
     "slug_p2": "taylor-fritz",
     "bilancio": {
       "p1": 0,
-      "p2": 1
+      "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-10-28",
+        "torneo": "Basel",
+        "g1": "T. Fritz",
+        "g2": "R. Hijikata",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2024-02-17",
         "torneo": "ATP Delray Beach",
@@ -1518,9 +1554,17 @@
     "slug_p2": "arthur-fils",
     "bilancio": {
       "p1": 0,
-      "p2": 1
+      "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-10-29",
+        "torneo": "Basel",
+        "g1": "A. Michelsen",
+        "g2": "A. Fils",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-10-23",
         "torneo": "Brussels",
@@ -1537,10 +1581,18 @@
     "slug_p1": "alexander-zverev",
     "slug_p2": "tallon-griekspoor",
     "bilancio": {
-      "p1": 7,
-      "p2": 3
+      "p1": 8,
+      "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-10-29",
+        "torneo": "Vienna",
+        "g1": "A. Zverev",
+        "g2": "T. Griekspoor",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2026-08-05",
         "torneo": "Montreal",
@@ -1612,14 +1664,6 @@
         "g2": "T. Griekspoor",
         "risultato": "2 - 0",
         "winner": "First Player"
-      },
-      {
-        "data": "2023-02-15",
-        "torneo": "Rotterdam",
-        "g1": "T. Griekspoor",
-        "g2": "A. Zverev",
-        "risultato": "2 - 1",
-        "winner": "First Player"
       }
     ]
   },
@@ -1630,9 +1674,17 @@
     "slug_p2": "daniil-medvedev",
     "bilancio": {
       "p1": 1,
-      "p2": 5
+      "p2": 6
     },
     "precedenti": [
+      {
+        "data": "2026-10-29",
+        "torneo": "Vienna",
+        "g1": "C. Norrie",
+        "g2": "D. Medvedev",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2025-09-26",
         "torneo": "Beijing",
@@ -1689,10 +1741,18 @@
     "slug_p1": "elena-rybakina",
     "slug_p2": "yulia-putintseva",
     "bilancio": {
-      "p1": 2,
+      "p1": 3,
       "p2": 0
     },
     "precedenti": [
+      {
+        "data": "2026-10-29",
+        "torneo": "Tokyo",
+        "g1": "E. Rybakina",
+        "g2": "Y. Putintseva",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2026-03-21",
         "torneo": "Miami",
@@ -1718,9 +1778,17 @@
     "slug_p2": "tommy-paul",
     "bilancio": {
       "p1": 1,
-      "p2": 2
+      "p2": 3
     },
     "precedenti": [
+      {
+        "data": "2026-10-29",
+        "torneo": "Vienna",
+        "g1": "T. Paul",
+        "g2": "L. Darderi",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2026-05-10",
         "torneo": "Rome",
@@ -1744,6 +1812,306 @@
         "g2": "T. Paul",
         "risultato": "0 - 2",
         "winner": "Second Player"
+      }
+    ]
+  },
+  "alexandra-eala-vs-diana-shnaider": {
+    "p1": "Alexandra Eala",
+    "p2": "Diana Shnaider",
+    "slug_p1": "alexandra-eala",
+    "slug_p2": "diana-shnaider",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-30",
+        "torneo": "Tokyo",
+        "g1": "A. Eala",
+        "g2": "D. Shnaider",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-10-22",
+        "torneo": "Ningbo",
+        "g1": "A. Eala",
+        "g2": "D. Shnaider",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "adrian-mannarino-vs-daniil-medvedev": {
+    "p1": "Adrian Mannarino",
+    "p2": "Daniil Medvedev",
+    "slug_p1": "adrian-mannarino",
+    "slug_p2": "daniil-medvedev",
+    "bilancio": {
+      "p1": 1,
+      "p2": 5
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-30",
+        "torneo": "Vienna",
+        "g1": "A. Mannarino",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-06-12",
+        "torneo": "Hertogenbosch",
+        "g1": "D. Medvedev",
+        "g2": "A. Mannarino",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-09-28",
+        "torneo": "ATP Beijing",
+        "g1": "A. Mannarino",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-07-07",
+        "torneo": "ATP Wimbledon",
+        "g1": "D. Medvedev",
+        "g2": "A. Mannarino",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-06-15",
+        "torneo": "ATP Hertogenbosch",
+        "g1": "D. Medvedev",
+        "g2": "A. Mannarino",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-06-11",
+        "torneo": "Hertogenbosch",
+        "g1": "D. Medvedev",
+        "g2": "A. Mannarino",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "holger-rune-vs-valentin-vacherot": {
+    "p1": "Holger Rune",
+    "p2": "Valentin Vacherot",
+    "slug_p1": "holger-rune",
+    "slug_p2": "valentin-vacherot",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-10-30",
+        "torneo": "Basel",
+        "g1": "H. Rune",
+        "g2": "V. Vacherot",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-10-09",
+        "torneo": "Shanghai",
+        "g1": "H. Rune",
+        "g2": "V. Vacherot",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "jan-lennard-struff-vs-nuno-borges": {
+    "p1": "Jan-Lennard Struff",
+    "p2": "Nuno Borges",
+    "slug_p1": "jan-lennard-struff",
+    "slug_p2": "nuno-borges",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-06-23",
+        "torneo": "Mallorca",
+        "g1": "J-L. Struff",
+        "g2": "N. Borges",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-03-19",
+        "torneo": "Phoenix Challenger Men",
+        "g1": "J-L. Struff",
+        "g2": "N. Borges",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "alex-de-minaur-vs-matteo-berrettini": {
+    "p1": "Alex de Minaur",
+    "p2": "Matteo Berrettini",
+    "slug_p1": "alex-de-minaur",
+    "slug_p2": "matteo-berrettini",
+    "bilancio": {
+      "p1": 2,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2025-10-24",
+        "torneo": "Vienna",
+        "g1": "A. De Minaur",
+        "g2": "M. Berrettini",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-03-25",
+        "torneo": "Miami",
+        "g1": "A. De Minaur",
+        "g2": "M. Berrettini",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-07-07",
+        "torneo": "ATP Wimbledon",
+        "g1": "M. Berrettini",
+        "g2": "A. De Minaur",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-01-02",
+        "torneo": "ATP ATP Cup",
+        "g1": "M. Berrettini",
+        "g2": "A. De Minaur",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-06-19",
+        "torneo": "London",
+        "g1": "M. Berrettini",
+        "g2": "A. De Minaur",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "arthur-fils-vs-taylor-fritz": {
+    "p1": "Arthur Fils",
+    "p2": "Taylor Fritz",
+    "slug_p1": "arthur-fils",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2024-09-26",
+        "torneo": "ATP Tokyo",
+        "g1": "T. Fritz",
+        "g2": "A. Fils",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "carlos-alcaraz-vs-tommy-paul": {
+    "p1": "Carlos Alcaraz",
+    "p2": "Tommy Paul",
+    "slug_p1": "carlos-alcaraz",
+    "slug_p2": "tommy-paul",
+    "bilancio": {
+      "p1": 7,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-09-06",
+        "torneo": "US Open",
+        "g1": "T. Paul",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-01-25",
+        "torneo": "Australian Open",
+        "g1": "C. Alcaraz",
+        "g2": "T. Paul",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-06-03",
+        "torneo": "French Open",
+        "g1": "T. Paul",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-08-01",
+        "torneo": "Olympic Games",
+        "g1": "T. Paul",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-07-09",
+        "torneo": "ATP Wimbledon",
+        "g1": "C. Alcaraz",
+        "g2": "T. Paul",
+        "risultato": "3 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-08-17",
+        "torneo": "ATP Cincinnati",
+        "g1": "C. Alcaraz",
+        "g2": "T. Paul",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-08-12",
+        "torneo": "ATP Toronto",
+        "g1": "C. Alcaraz",
+        "g2": "T. Paul",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-03-28",
+        "torneo": "ATP Miami",
+        "g1": "C. Alcaraz",
+        "g2": "T. Paul",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-08-10",
+        "torneo": "Montreal",
+        "g1": "T. Paul",
+        "g2": "C. Alcaraz",
+        "risultato": "2 - 1",
+        "winner": "First Player"
       }
     ]
   }

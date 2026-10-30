@@ -163,6 +163,14 @@ Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>" 2>&1 | tee -a "$LOG"
         sleep 60
     done
     log "Articoli pubblicati su GitHub."
+
+    # IndexNow: notifica istantanea dei nuovi URL a Bing/Yandex (e quindi,
+    # tramite l'indice Bing, a ChatGPT Search e Copilot). Solo se c'e' stato
+    # un publish. Non blocca la pipeline.
+    log_section "[POST] IndexNow ping (Bing/Yandex)"
+    cd "$HOME/analisitennis/backend"
+    python3 indexnow_ping.py "$OGGI" 2>&1 | tee -a "$LOG" || true
+    cd "$HOME/analisitennis"
 fi
 
 log_section "COMPLETATA pipeline - $(date)"

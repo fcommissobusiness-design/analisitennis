@@ -50,6 +50,16 @@ def _oggi():
     return date.today()
 
 
+def _dati_fino():
+    """Data MASSIMA (inclusa, 'YYYY-MM-DD') dei risultati da usare nei dati
+    autoritativi. Con ANALISITENNIS_DATI_FINO si scartano H2H e match recenti
+    con data SUCCESSIVA: serve ai run manuali in ritardo, quando alcune partite
+    di oggi si sono gia' concluse, per NON far trapelare il risultato nel
+    pronostico (l'analisi resta un'anteprima come alle 07:00). Senza env: nessun
+    filtro, comportamento invariato per la run schedulata."""
+    return os.environ.get('ANALISITENNIS_DATI_FINO', '').strip() or None
+
+
 def _api(method, **params):
     if not API_KEY:
         return {}
@@ -80,6 +90,9 @@ def fetch_h2h(pk1, pk2):
             'winner': winner_name,
             'score': m.get('event_final_result'),
         })
+    cutoff = _dati_fino()
+    if cutoff:
+        rows = [r for r in rows if (r.get('date') or '') <= cutoff]
     rows.sort(key=lambda r: r.get('date') or '')
     return rows
 
@@ -119,6 +132,9 @@ def fetch_recent_matches(pk, days=120, max_results=15):
             'result': 'W' if won else 'L',
             'score': m.get('event_final_result'),
         })
+    cutoff = _dati_fino()
+    if cutoff:
+        rows = [r for r in rows if (r.get('date') or '') <= cutoff]
     rows.sort(key=lambda r: r.get('date') or '', reverse=True)
     return rows[:max_results]
 
