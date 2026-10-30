@@ -69,6 +69,28 @@ const articleSchema = {
   },
   about: { '@id': `${site}/giocatori/${d.slug_profilo}#person` }
 };
+
+// Domande frequenti costruite SOLO da dati gia' nel profilo (nessun fatto
+// nuovo inventato): rese visibili in pagina e come FAQPage schema. Aiuta i
+// risultati arricchiti e la citabilita' da parte degli assistenti AI (GEO).
+const genereArt = d.categoria === 'WTA' ? 'una tennista' : 'un tennista';
+const annoNascita = d.data_nascita ? String(d.data_nascita).slice(0, 4) : null;
+const faqItems = [];
+if (d.nazionalita) faqItems.push({ q: `Di dov'e' ${d.nome}?`, a: `${d.nome} e' ${genereArt} di nazionalita' ${d.nazionalita}.` });
+if (eta) faqItems.push({ q: `Quanti anni ha ${d.nome}?`, a: `${d.nome} ha ${eta} anni${annoNascita ? ` (classe ${annoNascita})` : ''}.` });
+if (d.stile_gioco) faqItems.push({ q: `Che stile di gioco ha ${d.nome}?`, a: `Il gioco di ${d.nome} si caratterizza per ${d.stile_gioco}.` });
+if (d.superficie_preferita) faqItems.push({ q: `Qual e' la superficie preferita di ${d.nome}?`, a: `${d.nome} rende al meglio su ${d.superficie_preferita}.` });
+if (d.titoli) faqItems.push({ q: `Quali titoli ha vinto ${d.nome}?`, a: `In carriera ${d.nome} ha conquistato ${d.titoli}.` });
+
+const faqSchema = faqItems.length >= 2 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
 ---
 <Base
   titolo={`${d.nome} - Profilo, carriera e stile di gioco - AnalisiTennis`}
@@ -77,6 +99,7 @@ const articleSchema = {
 >
   <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
   <div class="contenitore" style="padding-top: 24px;">
     <Breadcrumbs items={[
@@ -130,6 +153,20 @@ const articleSchema = {
             </ul>
           </section>
         )}
+
+        {faqItems.length >= 2 && (
+          <section class="profilo-faq" aria-label={`Domande frequenti su ${d.nome}`}>
+            <h2>Domande frequenti su {d.nome}</h2>
+            <dl>
+              {faqItems.map(f => (
+                <div class="faq-item">
+                  <dt>{f.q}</dt>
+                  <dd>{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
       </article>
       <aside>
         <div class="side-sticky"><FormEmail /></div>
@@ -167,6 +204,22 @@ const articleSchema = {
     padding-top: 12px;
     border-top: 1px solid var(--linea, #e5e5e5);
   }
+  .profilo-faq {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .profilo-faq h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    letter-spacing: -0.3px;
+  }
+  .profilo-faq dl { margin: 0; }
+  .profilo-faq .faq-item { padding: 14px 0; border-bottom: 1px solid var(--linea, #eef1f4); }
+  .profilo-faq dt { font-weight: 700; color: var(--testo, #1a1a1a); margin-bottom: 5px; }
+  .profilo-faq dd { margin: 0; color: var(--testo-secondario, #4b5563); line-height: 1.55; }
   .articoli-correlati {
     margin-top: 48px;
     padding-top: 28px;
