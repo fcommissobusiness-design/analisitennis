@@ -129,6 +129,15 @@ python3 fetch_h2h.py 2>&1 | tee -a "$LOG" || true
 log_section "[4-sexies/5] Export name-map per slug profili"
 python3 export_name_map.py 2>&1 | tee -a "$LOG" || true
 
+# 4-septies. Recap settimanale editoriale: solo il LUNEDI' (date +%u == 1).
+# Ripercorre la settimana attraverso le nostre analisi (nessun risultato
+# dedotto: l'API round e' inaffidabile). Idempotente, salta se gia' scritto o
+# se la settimana e' stata troppo scarica.
+if [ "$(date +%u)" = "1" ]; then
+    log_section "[4-septies/5] Recap settimanale (lunedi')"
+    python3 weekly_recap.py "$OGGI" 2>&1 | tee -a "$LOG" || true
+fi
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
