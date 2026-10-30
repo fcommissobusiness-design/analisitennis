@@ -9,6 +9,16 @@ const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== 
 const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
 const BATCH = 12;
 
+// Strip "match di oggi": conteggio dei match della data piu' recente in
+// archivio, con link a /oggi. Segnale di freschezza in cima alla home.
+const latestDate = articoli.length ? new Date(articoli[0].data.data).toISOString().split('T')[0] : null;
+const oggiCount = latestDate
+  ? articoli.filter(a => new Date(a.data.data).toISOString().split('T')[0] === latestDate).length
+  : 0;
+const oggiLabel = latestDate
+  ? new Date(latestDate).toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' })
+  : '';
+
 // "I piu' cercati": link diretti dalla home (pagina piu' autorevole) ai profili
 // dei big. Concentra l'equity di link interni sulle pagine che catturano le
 // query a piu' alto volume (nomi giocatori = motore delle impressioni su GSC)
@@ -90,6 +100,16 @@ const faqHome = {
     <h1>Il <span class="verde">tennis</span> letto nei numeri</h1>
     <p>Analisi autoriali quotidiane sulle partite piu' attese del circuito ATP, WTA e Challenger. Dati, contesto, letture tattiche.</p>
   </section>
+
+  {oggiCount > 0 && (
+    <div class="contenitore">
+      <a class="oggi-strip" href="/oggi">
+        <span class="oggi-strip-live"><span class="oggi-dot"></span>Oggi</span>
+        <span class="oggi-strip-txt"><strong>{oggiCount} match analizzati</strong><span class="oggi-strip-data">{oggiLabel}</span></span>
+        <span class="oggi-strip-cta">Vai ai match di oggi →</span>
+      </a>
+    </div>
+  )}
 
   <div class="contenitore">
     <div class="layout-home">
@@ -213,6 +233,42 @@ const faqHome = {
     color: var(--testo-secondario, #8a94a3);
     margin: 0;
   }
+  .oggi-strip {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin: 18px 0 4px;
+    padding: 14px 20px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-left: 4px solid var(--verde, #39d453);
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .oggi-strip:hover { border-color: var(--verde, #39d453); transform: translateY(-1px); }
+  .oggi-strip-live {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-size: 0.72rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--verde, #2a7f3e);
+  }
+  .oggi-dot {
+    width: 8px; height: 8px; border-radius: 50%; background: var(--verde, #39d453);
+    box-shadow: 0 0 0 0 rgba(57, 212, 83, 0.5); animation: oggiPulse 2s infinite;
+  }
+  @keyframes oggiPulse {
+    0% { box-shadow: 0 0 0 0 rgba(57, 212, 83, 0.5); }
+    70% { box-shadow: 0 0 0 7px rgba(57, 212, 83, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(57, 212, 83, 0); }
+  }
+  .oggi-strip-txt { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
+  .oggi-strip-txt strong { font-size: 1rem; color: var(--testo, #1a1a1a); }
+  .oggi-strip-data { font-size: 0.8rem; color: var(--testo-secondario, #8a94a3); text-transform: capitalize; }
+  .oggi-strip-cta { margin-left: auto; font-size: 0.9rem; font-weight: 700; color: var(--verde, #2a7f3e); white-space: nowrap; }
+  @media (prefers-reduced-motion: reduce) { .oggi-dot { animation: none; } }
+
   .piu-cercati {
     margin-top: 20px;
     background: var(--sfondo-card, #fff);

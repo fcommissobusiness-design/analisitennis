@@ -44,8 +44,18 @@ const siteOrg = {
     '@id': 'https://analisitennis.it/#logo'
   },
   description: 'Testata editoriale italiana di analisi tennis. Analisi autoriali quotidiane sui match ATP, WTA, Slam e Challenger.',
+  slogan: 'Il tennis letto nei numeri',
   inLanguage: 'it-IT',
-  foundingDate: '2026-10-23'
+  knowsLanguage: 'it',
+  foundingDate: '2026-10-23',
+  // Competenza tematica: aiuta Google/AI a capire di cosa siamo autorevoli.
+  knowsAbout: [
+    'Tennis', 'ATP Tour', 'WTA Tour', 'Tornei del Grande Slam',
+    'ATP Challenger Tour', 'Pronostici tennis', 'Analisi tennis'
+  ],
+  areaServed: { '@type': 'Country', name: 'Italia' },
+  // Linea editoriale pubblica (pagina Chi siamo).
+  publishingPrinciples: 'https://analisitennis.it/chi-siamo'
 };
 
 const siteWeb = {
