@@ -9,6 +9,28 @@ const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== 
 const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
 const BATCH = 12;
 
+// "I piu' cercati": link diretti dalla home (pagina piu' autorevole) ai profili
+// dei big. Concentra l'equity di link interni sulle pagine che catturano le
+// query a piu' alto volume (nomi giocatori = motore delle impressioni su GSC)
+// e da' al lettore un accesso rapido. Solo profili ESISTENTI: niente 404.
+const _profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+const _slugProfili = new Set(_profili.map(p => p.data.slug_profilo));
+const piuCercatiCurati = [
+  { nome: 'Jannik Sinner', slug: 'jannik-sinner' },
+  { nome: 'Carlos Alcaraz', slug: 'carlos-alcaraz' },
+  { nome: 'Lorenzo Musetti', slug: 'lorenzo-musetti' },
+  { nome: 'Novak Djokovic', slug: 'novak-djokovic' },
+  { nome: 'Matteo Berrettini', slug: 'matteo-berrettini' },
+  { nome: 'Alexander Zverev', slug: 'alexander-zverev' },
+  { nome: 'Aryna Sabalenka', slug: 'aryna-sabalenka' },
+  { nome: 'Iga Swiatek', slug: 'iga-swiatek' },
+  { nome: 'Coco Gauff', slug: 'coco-gauff' },
+  { nome: 'Jasmine Paolini', slug: 'jasmine-paolini' },
+  { nome: 'Elena Rybakina', slug: 'elena-rybakina' },
+  { nome: 'Daniil Medvedev', slug: 'daniil-medvedev' },
+];
+const piuCercati = piuCercatiCurati.filter(p => _slugProfili.has(p.slug));
+
 // FAQ Page schema per rich snippet su query "analisitennis" o "come funziona analisitennis"
 const faqHome = {
   '@context': 'https://schema.org',
@@ -115,6 +137,17 @@ const faqHome = {
       <aside>
         <div class="side-sticky">
           <FormEmail />
+          {piuCercati.length > 0 && (
+            <nav class="piu-cercati" aria-label="Giocatori piu' cercati">
+              <h2 class="sezione-eyebrow">I piu' cercati</h2>
+              <ul>
+                {piuCercati.map(p => (
+                  <li><a href={`/giocatori/${p.slug}`}>{p.nome}</a></li>
+                ))}
+              </ul>
+              <a class="piu-cercati-tutti" href="/giocatori">Tutti i giocatori →</a>
+            </nav>
+          )}
         </div>
       </aside>
     </div>
@@ -180,4 +213,38 @@ const faqHome = {
     color: var(--testo-secondario, #8a94a3);
     margin: 0;
   }
+  .piu-cercati {
+    margin-top: 20px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .piu-cercati .sezione-eyebrow { margin: 0 0 12px; }
+  .piu-cercati ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .piu-cercati li + li { border-top: 1px solid var(--linea, #eef1f4); }
+  .piu-cercati li a {
+    display: block;
+    padding: 9px 0;
+    color: var(--testo, #1a1a1a);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.15s;
+  }
+  .piu-cercati li a:hover { color: var(--verde, #2a7f3e); }
+  .piu-cercati-tutti {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--verde, #2a7f3e);
+    text-decoration: none;
+  }
+  .piu-cercati-tutti:hover { text-decoration: underline; }
 </style>
