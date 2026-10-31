@@ -1,0 +1,121 @@
+---
+// Griglia "Probabilita' di vittoria": la NOSTRA stima editoriale del match,
+// due numeri puliti accanto ai giocatori (stile quota, ma e' una lettura
+// statistica nostra, non una quota di bookmaker). E' il claim del sito, "il
+// tennis letto nei numeri", reso visivo.
+//
+// La percentuale deriva dal VERDETTO (fonte unica, gia' nostra valutazione):
+// i formati del pronostico sono standardizzati (vedi generate_analysis.py):
+//   - "Oggi nettamente X"       -> gap netto   -> favorito ~70%
+//   - "Oggi la puo' spuntare X" -> gap sottile -> favorito ~58%
+//   - "Partita equilibrata..."  -> aperto      -> 50/50
+// Il favorito e' il giocatore nominato per primo in apertura del verdetto.
+const { g1, g2, verdetto } = Astro.props;
+
+const v = (verdetto || '').toLowerCase();
+const cognome = (s) => (s || '').toLowerCase().trim().split(/\s+/).pop();
+const c1 = cognome(g1);
+const c2 = cognome(g2);
+
+const aperto = /equilibrat|senza un favorito|nessun favorito|terzo set senza/.test(v);
+const netto = /\bnettamente\b/.test(v);
+
+let p1 = 50;
+if (!aperto) {
+  const i1 = c1 ? v.indexOf(c1) : -1;
+  const i2 = c2 ? v.indexOf(c2) : -1;
+  let favG1;
+  if (i1 === -1 && i2 === -1) favG1 = true;
+  else if (i1 === -1) favG1 = false;
+  else if (i2 === -1) favG1 = true;
+  else favG1 = i1 <= i2;
+  const favPct = netto ? 70 : 58;
+  p1 = favG1 ? favPct : 100 - favPct;
+}
+const p2 = 100 - p1;
+const g1Fav = p1 >= p2;
+---
+<div class="prob-win" role="group" aria-label={`Probabilita' di vittoria stimata: ${g1} ${p1}%, ${g2} ${p2}%`}>
+  <div class="pw-head">Probabilità di vittoria <span>· la stima di AnalisiTennis</span></div>
+  <div class="pw-rows">
+    <div class={`pw-row ${g1Fav ? 'fav' : ''}`}>
+      <span class="pw-nome">{g1}</span>
+      <span class="pw-bar"><span class="pw-fill" style={`width:${p1}%`}></span></span>
+      <span class="pw-pct">{p1}%</span>
+    </div>
+    <div class={`pw-row ${!g1Fav ? 'fav' : ''}`}>
+      <span class="pw-nome">{g2}</span>
+      <span class="pw-bar"><span class="pw-fill" style={`width:${p2}%`}></span></span>
+      <span class="pw-pct">{p2}%</span>
+    </div>
+  </div>
+  <p class="pw-nota">Lettura statistica editoriale basata sulla nostra analisi del match. Non è una quota né un consiglio di gioco.</p>
+</div>
+
+<style>
+  .prob-win {
+    margin: 26px 0 8px;
+    padding: 18px 20px;
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 12px;
+    background: var(--sfondo-card, #fff);
+  }
+  .pw-head {
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--testo, #1a1a1a);
+    margin-bottom: 14px;
+  }
+  .pw-head span {
+    font-weight: 600;
+    color: var(--testo-secondario, #6b7280);
+    letter-spacing: 0.5px;
+  }
+  .pw-rows { display: flex; flex-direction: column; gap: 10px; }
+  .pw-row {
+    display: grid;
+    grid-template-columns: minmax(90px, 34%) 1fr auto;
+    align-items: center;
+    gap: 12px;
+  }
+  .pw-nome {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--testo, #1a1a1a);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .pw-bar {
+    position: relative;
+    height: 12px;
+    border-radius: 999px;
+    background: var(--linea, #eef1f4);
+    overflow: hidden;
+  }
+  .pw-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    border-radius: 999px;
+    background: var(--testo-secondario, #9aa4b2);
+  }
+  .pw-row.fav .pw-fill { background: var(--verde, #39d453); }
+  .pw-pct {
+    font-variant-numeric: tabular-nums;
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--testo-secondario, #6b7280);
+    min-width: 46px;
+    text-align: right;
+  }
+  .pw-row.fav .pw-pct { color: var(--testo, #1a1a1a); }
+  .pw-nota {
+    margin: 14px 0 0;
+    font-size: 0.74rem;
+    line-height: 1.4;
+    color: var(--testo-secondario, #8a94a3);
+  }
+</style>
