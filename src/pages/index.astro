@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import FormEmail from '../components/FormEmail.astro';
 import { getCollection } from 'astro:content';
+import { playerSlug, displayPlayerName } from '../lib/hubs.js';
 
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 // Tutti gli articoli (piu' recenti in alto). Lato pagina ne mostriamo un
@@ -39,7 +40,28 @@ const piuCercatiCurati = [
   { nome: 'Elena Rybakina', slug: 'elena-rybakina' },
   { nome: 'Daniil Medvedev', slug: 'daniil-medvedev' },
 ];
-const piuCercati = piuCercatiCurati.filter(p => _slugProfili.has(p.slug));
+// Protagonisti DEL MOMENTO: i giocatori piu' presenti nelle analisi recenti
+// (ultimi 10 giorni) che hanno un profilo. Catturano i picchi di ricerca
+// stagionali (es. un emergente che fa un grande torneo) e portano link interni
+// dalla home proprio sulle pagine che in quel momento ricevono impressioni.
+const curatiSlugs = new Set(piuCercatiCurati.map(p => p.slug));
+const oraMs = latestDate ? new Date(latestDate).valueOf() : Date.now();
+const freq = new Map();
+for (const a of articoli) {
+  if ((oraMs - new Date(a.data.data).valueOf()) > 10 * 86400000) continue;
+  for (const g of [a.data.giocatore1, a.data.giocatore2]) {
+    if (!g || g === 'Redazione' || g === 'Lettori') continue;
+    const s = playerSlug(g);
+    if (!_slugProfili.has(s) || curatiSlugs.has(s)) continue;
+    const cur = freq.get(s) || { slug: s, nome: displayPlayerName(g), n: 0 };
+    cur.n++; freq.set(s, cur);
+  }
+}
+const delMomento = [...freq.values()].sort((a, b) => b.n - a.n).slice(0, 6);
+const piuCercati = [
+  ...delMomento,
+  ...piuCercatiCurati.filter(p => _slugProfili.has(p.slug)),
+].slice(0, 14);
 
 // FAQ Page schema per rich snippet su query "analisitennis" o "come funziona analisitennis"
 const faqHome = {

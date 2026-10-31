@@ -93,7 +93,7 @@ const faqSchema = faqItems.length >= 2 ? {
 } : null;
 ---
 <Base
-  titolo={`${d.nome} - Profilo, carriera e stile di gioco - AnalisiTennis`}
+  titolo={`${d.nome}${d.nazionalita ? ` (${d.nazionalita})` : ''} - Profilo, carriera e analisi - AnalisiTennis`}
   descrizione={d.descrizione}
   tipo="article"
 >

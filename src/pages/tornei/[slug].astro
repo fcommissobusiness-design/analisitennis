@@ -23,12 +23,24 @@ const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
 
+// Periodo del torneo stimato dalle date delle nostre analisi (reale: i match
+// che abbiamo coperto). Serve startDate/endDate, richiesti da Google per un
+// SportsEvent valido (senza, Search Console segna errori critici e niente
+// rich result Eventi).
+const dateArticoli = relatedArticles.map(a => new Date(a.data.data)).sort((a, b) => a - b);
+const startT = dateArticoli.length ? dateArticoli[0].toISOString() : new Date(`${d.anno}-01-01`).toISOString();
+const endT = dateArticoli.length ? dateArticoli[dateArticoli.length - 1].toISOString() : startT;
+
 const eventSchema = {
   '@context': 'https://schema.org',
   '@type': 'SportsEvent',
   '@id': `${site}/tornei/${d.slug_profilo}#event`,
   name: `${d.nome} ${d.anno}`,
   sport: 'Tennis',
+  startDate: startT,
+  endDate: endT,
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
   location: {
     '@type': 'Place',
     name: d.citta || d.nome,
@@ -36,6 +48,17 @@ const eventSchema = {
   },
   description: d.intro,
 };
+
+// FAQ torneo: da dati reali del profilo + conteggio delle nostre analisi.
+const supLabelT = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indoor: 'cemento indoor' })[d.superficie] || d.superficie;
+const faqTorneo = [];
+if (d.superficie) faqTorneo.push({ q: `Su quale superficie si gioca il torneo ${d.nome} ${d.anno}?`, a: `Il ${d.nome} ${d.anno} si gioca su ${supLabelT}${d.citta ? `, a ${d.citta}${d.paese ? ` (${d.paese})` : ''}` : ''}.` });
+if (d.categoria) faqTorneo.push({ q: `Che categoria di torneo è il ${d.nome}?`, a: `Il ${d.nome} è un torneo di categoria ${d.categoria}${d.fondato ? `, disputato per la prima volta nel ${d.fondato}` : ''}.` });
+if (relatedArticles.length > 0) faqTorneo.push({ q: `Quali match del ${d.nome} ${d.anno} ha analizzato AnalisiTennis?`, a: `La Redazione ha pubblicato ${relatedArticles.length} analisi di match del ${d.nome} ${d.anno}, con dati, scontri diretti e pronostici. Le trovi elencate in questa pagina.` });
+const faqTorneoSchema = faqTorneo.length >= 2 ? {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqTorneo.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+} : null;
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -58,6 +81,7 @@ const articleSchema = {
 >
   <script type="application/ld+json" set:html={JSON.stringify(eventSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqTorneoSchema && <script type="application/ld+json" set:html={JSON.stringify(faqTorneoSchema)} />}
 
   <div class="contenitore" style="padding-top: 24px;">
     <Breadcrumbs items={[
@@ -107,6 +131,20 @@ const articleSchema = {
                 );
               })}
             </ul>
+          </section>
+        )}
+
+        {faqTorneo.length >= 2 && (
+          <section class="torneo-faq" aria-label={`Domande frequenti sul ${d.nome} ${d.anno}`}>
+            <h2>Domande frequenti sul {d.nome} {d.anno}</h2>
+            <dl>
+              {faqTorneo.map(f => (
+                <div class="faq-item">
+                  <dt>{f.q}</dt>
+                  <dd>{f.a}</dd>
+                </div>
+              ))}
+            </dl>
           </section>
         )}
       </article>
@@ -185,4 +223,20 @@ const articleSchema = {
     font-size: 0.95rem;
     line-height: 1.4;
   }
+  .torneo-faq {
+    margin-top: 44px;
+    padding-top: 26px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .torneo-faq h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 14px;
+    letter-spacing: -0.3px;
+  }
+  .torneo-faq dl { margin: 0; }
+  .torneo-faq .faq-item { padding: 14px 0; border-bottom: 1px solid var(--linea, #eef1f4); }
+  .torneo-faq dt { font-weight: 700; color: var(--testo, #1a1a1a); margin-bottom: 5px; }
+  .torneo-faq dd { margin: 0; color: var(--testo-secondario, #4b5563); line-height: 1.55; }
 </style>
