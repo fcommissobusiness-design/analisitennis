@@ -1,24 +1,24 @@
 """Recap settimanale editoriale: un pezzo del lunedi' che ripercorre la settimana
-di tennis attraverso LE NOSTRE ANALISI (i tornei coperti e i big match della
-settimana), con uno sguardo a quella che inizia.
+di tennis attraverso LE NOSTRE ANALISI (i tornei coperti) e, per i tornei del
+circuito maggiore, riporta i VINCITORI VERI verificati via web.
 
-Scelta di progetto importante: NON ricostruiamo i risultati dei tornei dall'API.
-Il campo 'tournament_round' di API Tennis e' inaffidabile (segna come "Final"
-anche match di qualificazione), quindi dedurre i vincitori produrrebbe risultati
-sbagliati. Dato che il principio del sito e' zero allucinazioni, il recap si basa
-solo su dati che controlliamo - i nostri articoli - e resta un pezzo editoriale
-sulle storie e sui tornei della settimana, non un bollettino di risultati.
+Due principi anti-allucinazione:
+1. NON si deducono i risultati dal campo 'tournament_round' di API Tennis, che e'
+   inaffidabile (segna 'Final' anche le qualificazioni, con entry duplicate).
+2. I vincitori si citano SOLO se verificati via web search (claude headless con
+   accesso al web): per ogni torneo del circuito maggiore si cerca il campione
+   reale; se il torneo non e' concluso o non si trova un esito certo, non si
+   dichiara alcun vincitore. I Challenger/ITF non si verificano (troppi, poco
+   coperti dalle fonti) e restano trattati senza esiti.
 
 Uso:
   python3 weekly_recap.py [YYYY-MM-DD]   # data = lunedi' di pubblicazione
 
 Senza data usa oggi. Copre i 7 giorni precedenti. Idempotente: se il recap di
-quella data esiste gia', non rigenera. Se nella settimana non abbiamo pubblicato
-nulla di rilevante, salta.
+quella data esiste gia', non rigenera. Se la settimana e' troppo scarica, salta.
 """
 import re
 import sys
-import unicodedata
 from datetime import date, timedelta, datetime
 from pathlib import Path
 
@@ -29,6 +29,8 @@ ARTICOLI = ROOT / 'src' / 'content' / 'articoli'
 
 # Minimo di articoli nella settimana per pubblicare un recap sensato.
 MIN_ARTICOLI = 4
+# Categorie del circuito maggiore: solo queste si verificano via web.
+CAT_MAGGIORE = {'ATP', 'WTA', 'Slam', 'Masters'}
 
 
 def _fm(testo, campo):
@@ -37,8 +39,7 @@ def _fm(testo, campo):
 
 
 def raccogli_settimana(giorno: date):
-    """Raccoglie i nostri articoli-match dei 7 giorni prima di `giorno`,
-    raggruppati per torneo. Niente editoriali (torneo 'Editoriale')."""
+    """Nostri articoli-match dei 7 giorni prima di `giorno`, per torneo."""
     inizio = giorno - timedelta(days=7)
     fine = giorno - timedelta(days=1)
     tornei = {}
@@ -71,25 +72,75 @@ def raccogli_settimana(giorno: date):
     return gruppi, n_art, inizio, fine
 
 
-def _data_block(gruppi, inizio, fine):
+def verifica_vincitori(gruppi, anno):
+    """Per ogni torneo del circuito maggiore cerca via web il vincitore reale.
+    Ritorna solo gli esiti VERIFICATI. Robusto: salta su errore o se incerto."""
+    verificati = []
+    for g in gruppi:
+        if g['categoria'] not in CAT_MAGGIORE:
+            continue
+        nome = re.sub(r'\s*-\s*Qualification$', '', g['torneo'], flags=re.I).strip()
+        circ = 'WTA' if g['categoria'] == 'WTA' else 'ATP'
+        prompt = (
+            f"Fai una WEB SEARCH e stabilisci chi ha vinto il torneo di tennis "
+            f"{circ} {nome} {anno} (singolare). Se il torneo NON e' ancora concluso, "
+            f"o non trovi una fonte chiara sul campione, metti \"verificato\": false. "
+            f"Non tirare a indovinare. Rispondi SOLO con questo JSON, nient'altro:\n"
+            f'{{"torneo": "{nome} {anno}", "vincitore": "Nome Cognome", '
+            f'"finalista": "Nome Cognome", "punteggio": "6-3 6-4", '
+            f'"verificato": true, "fonte": "url"}}'
+        )
+        try:
+            r = _claude_call(prompt, timeout=240)
+        except Exception as e:
+            print(f'  [errore verifica] {nome}: {e}', flush=True)
+            continue
+        if r.get('verificato') and r.get('vincitore'):
+            verificati.append({
+                'torneo': nome, 'categoria': g['categoria'],
+                'vincitore': r.get('vincitore'), 'finalista': r.get('finalista', ''),
+                'punteggio': r.get('punteggio', ''), 'fonte': r.get('fonte', ''),
+            })
+            print(f"  [verificato] {nome}: {r.get('vincitore')} ({r.get('fonte', '')})", flush=True)
+        else:
+            print(f'  [non verificato] {nome} (torneo in corso o esito incerto)', flush=True)
+    return verificati
+
+
+def _data_block(gruppi, verificati, inizio, fine):
     righe = []
     for g in gruppi:
-        # Passa fino a 10 accoppiamenti reali per torneo: cosi' il modello ha i
-        # dati veri e non deve inventare match o giocatori.
         elenco = '; '.join(g['match'][:10])
         righe.append(
             f"  - {g['torneo']} ({g['categoria']}, {g['superficie']}), "
             f"{len(g['match'])} match analizzati. Accoppiamenti: {elenco}"
         )
-    corpo = '\n'.join(righe)
+    coperti = '\n'.join(righe)
+
+    if verificati:
+        vr = '\n'.join(
+            f"  - {v['torneo']} ({v['categoria']}): ha VINTO {v['vincitore']}"
+            + (f", in finale contro {v['finalista']}" if v['finalista'] else '')
+            + (f" con il punteggio {v['punteggio']}" if v['punteggio'] else '')
+            for v in verificati
+        )
+    else:
+        vr = '  (nessun vincitore verificato: tornei in corso o non confermati)'
+
     return f"""
 ================================================================
-LA SETTIMANA NELLE NOSTRE ANALISI {inizio.isoformat()} -> {fine.isoformat()}
-FONTE: solo i nostri articoli. NON dichiarare chi ha vinto i match o i tornei
-(pubblichiamo anteprime, non risultati). Parla dei tornei, delle superfici,
-dei protagonisti e delle storie, non di esiti.
+TORNEI CHE ABBIAMO COPERTO {inizio.isoformat()} -> {fine.isoformat()}
+Parla di questi tornei, superfici, protagonisti. Nomina solo accoppiamenti
+elencati; non alterare i numeri.
 ================================================================
-{corpo}
+{coperti}
+
+================================================================
+VINCITORI VERIFICATI VIA WEB (fonte unica per gli esiti)
+Puoi dichiarare un campione SOLO se e' in questo elenco. Per i tornei non
+presenti qui NON dire chi ha vinto (sono in corso o non confermati).
+================================================================
+{vr}
 ================================================================
 """
 
@@ -97,19 +148,17 @@ dei protagonisti e delle storie, non di esiti.
 PROMPT_RECAP = """Sei il caporedattore di AnalisiTennis.it, testata editoriale italiana di tennis.
 
 **OGGI E' {today_human}.** Scrivi il pezzo editoriale del lunedi' che ripercorre
-la settimana di tennis appena trascorsa COSI' COME L'ABBIAMO SEGUITA, basandoti
-solo sui dati qui sotto, e chiude con uno sguardo alla settimana che inizia.
+la settimana di tennis appena trascorsa e chiude con uno sguardo a quella che
+inizia, basandoti SOLO sui dati qui sotto.
 
 {data_block}
 
 **REGOLE NON NEGOZIABILI:**
-- NON dire chi ha vinto un match o un torneo, non inventare punteggi, risultati,
-  numeri o ranking. Noi pubblichiamo anteprime: il pezzo parla di tornei,
-  superfici, protagonisti attesi e storie, MAI di esiti.
-- Usa solo i tornei e gli accoppiamenti presenti nel blocco. Non nominare
-  giocatori o match che non siano elencati. Non alterare i numeri: se citi
-  quanti match abbiamo analizzato, usa ESATTAMENTE quelli indicati, altrimenti
-  descrivi il peso dei tornei senza cifre.
+- I VINCITORI: puoi dichiarare chi ha vinto un torneo SOLO se compare
+  nell'elenco "VINCITORI VERIFICATI". Per gli altri tornei NON dire chi ha
+  vinto (sono in corso o non confermati): parlane senza assegnare un campione.
+- Non inventare punteggi, risultati, numeri, ranking o record non presenti nei
+  dati. Non nominare giocatori o match non elencati. Non alterare i numeri.
 - Niente quote, bookmaker, scommesse. Prosa giornalistica fluida, niente elenchi
   puntati, niente "in conclusione"/"in sintesi". Tecnicismi solo del tennis.
 
@@ -119,7 +168,7 @@ solo sui dati qui sotto, e chiude con uno sguardo alla settimana che inizia.
   "titolo": "Titolo editoriale 45-70 caratteri sulla settimana di tennis",
   "sottotitolo": "Sottotitolo 80-130 caratteri",
   "descrizione": "Meta description SEO 150-160 caratteri",
-  "corpo_markdown": "Articolo 450-700 parole in prosa. Apri con il quadro della settimana (i tornei principali, le superfici, dove si e' giocato), racconta le storie e i protagonisti che abbiamo seguito collegando i tornei tra loro, e chiudi guardando alla settimana che inizia. Usa mini-titoli markdown H3 (### ...) ai cambi di tema. Nessun elenco puntato. MAI risultati o vincitori.",
+  "corpo_markdown": "Articolo 450-750 parole in prosa. Apri con il quadro della settimana (tornei, superfici, dove si e' giocato), racconta i tornei principali citando i VINCITORI VERIFICATI dove disponibili e le storie dei tornei ancora in corso senza assegnare campioni, poi chiudi guardando alla settimana che inizia. Mini-titoli markdown H3 (### ...) ai cambi di tema. Nessun elenco puntato.",
   "chiusura": "Frase editoriale di chiusura, 120-200 caratteri (andra' nel campo verdetto).",
   "tag": ["5-7 tag SEO: settimana, tornei citati, circuito"]
 }}
@@ -127,9 +176,12 @@ solo sui dati qui sotto, e chiude con uno sguardo alla settimana che inizia.
 """
 
 
-def scrivi(giorno: date, gruppi, inizio, fine):
+def scrivi(giorno: date, gruppi, verificati, inizio, fine):
     today_human, _ = _today_strings()
-    prompt = PROMPT_RECAP.format(today_human=today_human, data_block=_data_block(gruppi, inizio, fine))
+    prompt = PROMPT_RECAP.format(
+        today_human=today_human,
+        data_block=_data_block(gruppi, verificati, inizio, fine),
+    )
     art = _claude_call(prompt)
 
     slug = f'{giorno.isoformat()}-la-settimana-nel-tennis'
@@ -179,5 +231,8 @@ if __name__ == '__main__':
     if n_art < MIN_ARTICOLI:
         print(f'[recap] pochi articoli ({n_art} < {MIN_ARTICOLI}): niente recap. Skip.')
         sys.exit(0)
-    out = scrivi(giorno, gruppi, inizio, fine)
+    print('[recap] verifica vincitori via web...')
+    verificati = verifica_vincitori(gruppi, fine.year)
+    print(f'[recap] {len(verificati)} vincitori verificati')
+    out = scrivi(giorno, gruppi, verificati, inizio, fine)
     print(f'[recap] scritto {out}')
