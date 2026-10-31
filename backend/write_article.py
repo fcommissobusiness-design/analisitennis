@@ -43,11 +43,31 @@ def categoria(tipo):
 
 
 def superficie(torneo_name, tipo):
-    # Euristica base, migliorabile con mapping torneo->superficie
+    # Euristica base: mapping torneo->superficie. Default 'cemento' perche' la
+    # grande maggioranza del calendario (hard indoor/outdoor) e' su cemento, ma
+    # i tornei su TERRA ed ERBA vanno riconosciuti per nome, altrimenti
+    # finiscono erroneamente marcati 'cemento' (lo schema accetta solo
+    # cemento/terra/erba/indoor: vedi src/content/config.ts).
     n = (torneo_name or '').lower()
-    if 'roland' in n or 'rome' in n or 'madrid' in n or 'barcelon' in n: return 'terra'
-    if 'wimbledon' in n: return 'erba'
-    if 'indoor' in n or 'paris' in n and 'bercy' in n: return 'indoor'
+    # Erba
+    if 'wimbledon' in n or 'halle' in n or 'queen' in n or 'eastbourne' in n \
+       or "'s-hertogenbosch" in n or 'stuttgart' in n and 'wta' in n or 'newport' in n:
+        return 'erba'
+    # Terra rossa: Slam/Masters/500 europei + swing sudamericano (terra battuta)
+    terra_tornei = (
+        'roland', 'rome', 'roma', 'madrid', 'barcelon', 'monte', 'monaco',
+        'hamburg', 'amburgo', 'munich', 'monaco di baviera', 'estoril', 'gstaad',
+        'kitzbuhel', 'umag', 'bastad', 'geneva', 'ginevra', 'lyon', 'parma',
+        # Swing sudamericano e altri tornei su terra
+        'guayaquil', 'quito', 'lima', 'santa cruz', 'buenos aires', 'rio',
+        'santiago', 'cordoba', 'bogota', 'medellin', 'campinas', 'florianopolis',
+        'sao paulo', 'san paolo', 'concepcion', 'asuncion', 'montevideo',
+        'marrakech', 'marrakesh', 'houston', 'casablanca',
+    )
+    if any(t in n for t in terra_tornei):
+        return 'terra'
+    if 'indoor' in n or ('paris' in n and 'bercy' in n):
+        return 'indoor'
     return 'cemento'
 
 

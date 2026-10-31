@@ -5,7 +5,7 @@ data: "2026-10-31"
 autore: "Redazione AnalisiTennis"
 torneo: "Guayaquil"
 categoria: "Challenger"
-superficie: "cemento"
+superficie: "terra"
 giocatore1: "V. Aboian"
 giocatore2: "H. Dellien"
 tag:
