@@ -243,7 +243,7 @@ const faq = {
         <p>{d.verdetto}</p>
       </div>
 
-      <ShareButtons url={Astro.url.href} titolo={d.titolo} />
+      <ShareButtons url={`${site}/articoli/${articolo.slug}`} titolo={d.titolo} />
 
       {tagsArticolo.length > 0 && (
         <nav class="tag-articolo" aria-label="Argomenti">
