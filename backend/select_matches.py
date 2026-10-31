@@ -91,21 +91,51 @@ def classifica_tier(match):
 
 
 def peso_round(m):
-    r = (m.get('tournament_round') or '')
-    for k, v in PESO_ROUND.items():
-        if k.lower() in r.lower():
-            return v
-    if 'qualif' in r.lower() or 'quali' in r.lower():
+    # ATTENZIONE: il nome del round contiene "final" anche in "semi-finals",
+    # "quarter-finals", "1/8-finals" ecc. Controllare quindi i round piu'
+    # specifici PRIMA della finale secca, altrimenti ogni turno a eliminazione
+    # verrebbe contato come finale (bug storico).
+    r = (m.get('tournament_round') or '').lower()
+    if 'qualif' in r:
         return 5
+    if 'semi-final' in r:
+        return 85
+    if 'quarter-final' in r:
+        return 70
+    if '1/8-final' in r:
+        return 55
+    if '1/16-final' in r:
+        return 40
+    if '1/32-final' in r:
+        return 28
+    if '1/64-final' in r:
+        return 20
+    if '1/128-final' in r:
+        return 15
+    if 'final' in r:          # finale secca o girone 'Finals' di fine anno
+        return 100
     return 25
 
 
 def score_importanza(m):
-    """Score di importanza complessivo: peso_tier * 100 + peso_round."""
+    """Score di importanza complessivo: peso_tier * 100 + peso_round.
+    I match di QUALIFICAZIONE sono penalizzati forte: una qualificazione di
+    Masters (giocatori che provano a entrare nel tabellone) non e' materiale
+    migliore di un main-draw di categoria inferiore. Il marcatore affidabile e'
+    il campo event_qualification dell'API (non il round, che per le quali resta
+    'Semi-finals'/'Final')."""
     tier = classifica_tier(m)
     t_pt = PESO_TIER.get(tier, 0)
     r_pt = peso_round(m)
-    return t_pt * 100 + r_pt
+    score = t_pt * 100 + r_pt
+    # Qualificazioni: dal flag API event_qualification, oppure dal nome del
+    # torneo (alcuni tabelloni di quali compaiono come evento a se' chiamato
+    # "<Torneo> - Qualification" con event_qualification=False).
+    e_qual = str(m.get('event_qualification', '')).strip().lower() == 'true'
+    n_qual = 'qualif' in (m.get('tournament_name') or '').lower()
+    if e_qual or n_qual:
+        score -= 600
+    return score
 
 
 def orario_italiano_ok(m):
