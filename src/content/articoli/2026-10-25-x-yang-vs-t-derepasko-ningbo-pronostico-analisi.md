@@ -21,7 +21,7 @@ descrizione: "Semifinale del Challenger di Ningbo tra X. Yang e T. Derepasko sul
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-x-yang-vs-t-derepasko-ningbo-pronostico-analisi.jpg"
-cover_credit: "Jimmy C. Lunsford Tennis Center.jpg | Kreeder13 | CC BY-SA 4.0"
+cover_credit: "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg | Johann Jaritz | CC BY-SA 4.0"
 ---
 
 Il penultimo atto del torneo di **Ningbo** mette di fronte X. Yang e T. Derepasko in una semifinale che arriva al termine di una settimana intensa sul cemento cinese. Due percorsi differenti convergono qui, in una di quelle giornate in cui conta meno l'etichetta del tabellone e di più il modo in cui ciascuno dei due si è presentato all'appuntamento. Entrambi hanno dovuto superare più turni per arrivare a giocarsi un posto in finale, e questo basta a raccontare che nessuno dei due è capitato per caso a questo livello della competizione.

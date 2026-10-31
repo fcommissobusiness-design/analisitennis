@@ -86,12 +86,17 @@ const schema = {
   '@type': 'SportsEvent',
   name: `${g1Display} contro ${g2Display} - ${tDisplay}`,
   startDate: d.data.toISOString(),
+  endDate: d.data.toISOString(),
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
   sport: 'Tennis',
   location: { '@type': 'Place', name: tDisplay },
+  image: d.cover_image ? [`${site}${d.cover_image}`] : undefined,
   competitor: [
     { '@type': 'Person', name: g1Display },
     { '@type': 'Person', name: g2Display }
   ],
+  organizer: { '@type': 'Organization', name: d.categoria || 'ATP' },
   description: d.descrizione
 };
 
@@ -124,7 +129,13 @@ const schemaArticle = {
   about: [
     { '@type': 'Person', name: g1Display },
     { '@type': 'Person', name: g2Display },
-    { '@type': 'SportsEvent', name: `${tDisplay} ${anno}` }
+    {
+      '@type': 'SportsEvent',
+      name: `${tDisplay} ${anno}`,
+      startDate: d.data.toISOString(),
+      sport: 'Tennis',
+      location: { '@type': 'Place', name: tDisplay }
+    }
   ]
 };
 

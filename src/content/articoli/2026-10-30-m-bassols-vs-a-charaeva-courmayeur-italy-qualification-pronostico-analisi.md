@@ -22,7 +22,7 @@ descrizione: "Marina Bassols e Alina Charaeva si sfidano nei quarti di Courmayeu
 pubblicato: true
 generato_il: "2026-10-30T07:03"
 cover_image: "/covers/2026-10-30-m-bassols-vs-a-charaeva-courmayeur-italy-qualification-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Center.jpg | Ramon Filipe | CC BY-SA 4.0"
+cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
 ---
 
 A Courmayeur il tabellone cadetto regala un quarto di finale dal sapore di rivincita. Marina Bassols e Alina Charaeva si affrontano per la quarta volta in carriera, stavolta con in palio un posto in semifinale sul veloce indoor della Valle d'Aosta. Entrambe arrivano all'appuntamento dalle qualificazioni, entrambe con due vittorie consecutive alle spalle: un dettaglio che rende l'incrocio particolarmente difficile da leggere.

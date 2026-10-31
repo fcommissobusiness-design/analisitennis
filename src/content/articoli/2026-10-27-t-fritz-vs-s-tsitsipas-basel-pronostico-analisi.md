@@ -21,7 +21,7 @@ descrizione: "Fritz e Tsitsipas si affrontano al primo turno di Basilea sul ceme
 pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-t-fritz-vs-s-tsitsipas-basel-pronostico-analisi.jpg"
-cover_credit: "Jakobsarena Publikum - IMG 20231105 083857.jpg | RouteMedia | CC BY-SA 4.0"
+cover_credit: "Stefanos Tsitsipas (2023 US Open) 07.jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 Il cemento indoor di **Basilea** apre le danze con un confronto di prima fascia: l'americano Taylor Fritz contro il greco Stefanos Tsitsipas, due interpreti del grande tennis che negli ultimi anni si sono incrociati con una certa regolarità sui palcoscenici più diversi. Entrambi si presentano all'appuntamento svizzero dopo una settimana intensa e al termine di un mese di ottobre fittissimo di impegni, e soprattutto si ritrovano ad appena quindici giorni di distanza dall'ultimo capitolo della loro rivalità, andato in scena a Shanghai.

@@ -20,7 +20,7 @@ verdetto: "Oggi la può spuntare Y. Qu: le semifinali appena raggiunte in tabell
 descrizione: "Semifinale WTA a Guangzhou tra Y. Qu e T. Kostovic sul cemento: percorsi a confronto, forma recente e nessun precedente in una sfida tutta da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-24-y-qu-vs-t-kostovic-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
 ---
 
 La **semifinale di Guangzhou** mette di fronte due profili giovani ma dal percorso molto diverso, Y. Qu e T. Kostovic, entrambe arrivate fin qui superando il proprio turno di tabellone e guadagnandosi il diritto di giocarsi un posto nell'ultimo atto. Sul **cemento** cinese il confronto si annuncia tanto incerto quanto interessante, perché mette a contatto storie tennistiche costruite su circuiti e palcoscenici differenti. Per entrambe è un'occasione da non sprecare: a una sola vittoria di distanza c'è la finale del torneo, traguardo che darebbe ulteriore slancio a carriere ancora in costruzione.

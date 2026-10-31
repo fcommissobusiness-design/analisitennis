@@ -21,7 +21,7 @@ descrizione: "Quarti di finale a Guangzhou: X. Sun sfida C. Liu sul veloce cines
 pubblicato: true
 generato_il: "2026-10-30T07:12"
 cover_image: "/covers/2026-10-30-x-sun-vs-c-liu-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Center-Centro Olímpico da Barra.jpg | Mariana Pires23 | CC BY-SA 4.0"
+cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
 ---
 
 Il tabellone del WTA di **Guangzhou** regala ai quarti di finale un confronto dal sapore particolare, con X. Sun e C. Liu pronte a contendersi un posto in semifinale sul veloce cinese. Due percorsi differenti, due anagrafi diverse, un solo obiettivo: proseguire la corsa in un torneo che sta già offrendo spunti interessanti.

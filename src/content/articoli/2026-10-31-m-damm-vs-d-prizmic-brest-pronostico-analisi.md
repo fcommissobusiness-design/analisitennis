@@ -21,7 +21,7 @@ descrizione: "Damm contro Prizmic nella semifinale del Challenger di Brest: entr
 pubblicato: true
 generato_il: "2026-10-31T07:18"
 cover_image: "/covers/2026-10-31-m-damm-vs-d-prizmic-brest-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
 ---
 
 La semifinale del Challenger di Brest mette di fronte due profili giovani e in piena ascesa, **Damm** e **Prizmic**, entrambi arrivati al penultimo atto del torneo bretone con un biglietto da visita identico: nessun set lasciato per strada. Sul veloce indoor francese si affrontano due giocatori che, pur su circuiti parzialmente diversi nelle ultime settimane, hanno costruito un ottobre di ritmo e fiducia. L'assenza di scontri diretti registrati rende il confronto ancora più aperto, perché nessuno dei due può contare su riferimenti pregressi contro l'avversario.

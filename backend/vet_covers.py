@@ -32,15 +32,20 @@ from audit_covers import regenerate_cover, ARTICOLI, ROOT
 # Campi da tennis puliti e inequivocabili, usati come ultima spiaggia quando
 # ne' foto giocatore ne' venue passano il vet (es. match tra due sconosciuti
 # in un impianto che su Commons ha solo foto-concerto o esterni notturni).
+# Arene di ripiego VERIFICATE col vet visivo (campo in gioco, non esterni o
+# campi vuoti, che il gate di pertinenza boccia). Ampio e variato per ridurre
+# le ripetizioni quando piu' articoli cadono sul fallback. Aggiornato 31/10/26
+# dopo un audit completo delle cover (fix_cover_duplicates.py).
 CLEAN_COURTS = [
     'File:Sydney International Tennis ATP 250 (46001156835).jpg',
-    'File:Jimmy C. Lunsford Tennis Center.jpg',
     'File:Olympic Tennis Centre, Rio, Brazil.jpg',
-    'File:Arena principal do Centro Olímpico de Tênis.jpg',
-    'File:Olympic Tennis Center.jpg',
-    'File:Olympic Tennis Center-Centro Olímpico da Barra.jpg',
-    'File:Taube Family Tennis Stadium 2015.JPG',
     'File:Anjo Sports Park tennis court ac.jpg',
+    'File:Taube Family Tennis Stadium 2015.JPG',
+    'File:PP Olympic Stadium - Tennis courts.jpg',
+    'File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg',
+    'File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg',
+    'File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg',
+    'File:RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg',
 ]
 
 

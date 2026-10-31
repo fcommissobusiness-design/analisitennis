@@ -21,7 +21,7 @@ descrizione: "Quevedo contro Teichmann ai quarti di Guangzhou: forma recente, ca
 pubblicato: true
 generato_il: "2026-10-30T06:58"
 cover_image: "/covers/2026-10-30-k-quevedo-vs-j-teichmann-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
 ---
 
 Il tabellone di Guangzhou consegna ai quarti di finale un confronto che non ha storia alle spalle. **K. Quevedo** e **J. Teichmann** non risultano essersi mai incrociate nel circuito stando agli archivi disponibili, e questa assenza di precedenti diretti sposta tutto il peso dell'analisi sul presente: sul modo in cui le due giocatrici sono arrivate fin qui e sulle rispettive condizioni di questo autunno.

@@ -21,7 +21,7 @@ descrizione: "Aboian contro Dellien nella semifinale del Challenger di Guayaquil
 pubblicato: true
 generato_il: "2026-10-31T07:00"
 cover_image: "/covers/2026-10-31-v-aboian-vs-h-dellien-guayaquil-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
 ---
 
 La semifinale del Challenger di **Guayaquil** mette di fronte due interpreti della terra rossa sudamericana che arrivano all'appuntamento con il morale alto e parecchi match nelle gambe. Da una parte l'argentino **Valerio Aboian**, dall'altra il boliviano **Hugo Dellien**: due profili cresciuti sul rosso, abituati a scambi lunghi, a tornei giocati sul ritmo e sulla pazienza piu' che sul colpo risolutore.

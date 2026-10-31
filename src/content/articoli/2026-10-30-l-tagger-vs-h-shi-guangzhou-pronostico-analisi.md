@@ -21,7 +21,7 @@ descrizione: "Lilli Tagger e H. Shi si affrontano per la prima volta nei quarti 
 pubblicato: true
 generato_il: "2026-10-30T07:34"
 cover_image: "/covers/2026-10-30-l-tagger-vs-h-shi-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
 Il **cemento** di Guangzhou propone nei quarti di finale un incrocio inedito, tra due giocatrici che non si sono mai affrontate prima d'ora in una partita ufficiale. Da una parte c'è l'austriaca Lilli Tagger, dall'altra la cinese H. Shi, attesa a confermare davanti al proprio pubblico un periodo recente particolarmente intenso. In palio, nel pomeriggio del 30 ottobre, c'è un posto in semifinale che entrambe inseguono con una buona continuità di risultati alle spalle.

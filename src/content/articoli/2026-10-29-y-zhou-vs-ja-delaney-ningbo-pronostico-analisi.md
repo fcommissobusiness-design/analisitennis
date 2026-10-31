@@ -21,7 +21,7 @@ descrizione: "Ningbo, ottavi di finale: Y. Zhou e Ja. Delaney si sfidano senza p
 pubblicato: true
 generato_il: "2026-10-29T07:24"
 cover_image: "/covers/2026-10-29-y-zhou-vs-ja-delaney-ningbo-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
 ---
 
 Il challenger di **Ningbo** entra nella fase calda del tabellone e propone un confronto tra due giocatori arrivati all'appuntamento da strade molto diverse. Da una parte Y. Zhou, reduce da settimane intense vissute sui palcoscenici più prestigiosi del circuito asiatico; dall'altra Ja. Delaney, che ha alternato tornei di categorie differenti prima di approdare in Cina. Entrambi hanno superato il primo ostacolo lo stesso giorno, il 27 ottobre, e ora si giocano un posto ai quarti su un campo in cemento.

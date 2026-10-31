@@ -21,7 +21,7 @@ descrizione: "Ai quarti del Challenger di Ningbo si sfidano Ja. Delaney e L. Bro
 pubblicato: true
 generato_il: "2026-10-30T07:27"
 cover_image: "/covers/2026-10-30-ja-delaney-vs-l-broady-ningbo-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 03.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
 ---
 
 I quarti di finale del Challenger di **Ningbo** mettono di fronte Ja. Delaney e L. Broady in un confronto senza passato comune: tra i due non risulta alcun precedente diretto, dettaglio che aggiunge imprevedibilita a un incrocio nato da percorsi distinti ma arrivati allo stesso punto del tabellone. Sul cemento cinese entrambi hanno trovato il modo di superare due turni e presentarsi con una semifinale a portata di mano, in una fase della stagione in cui ogni vittoria pesa doppio e puo indirizzare le ultime settimane dell'anno.

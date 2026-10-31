@@ -22,7 +22,7 @@ descrizione: "Semifinale a Ningbo tra P. Bar Biryukov e L. Broady: entrambi con 
 pubblicato: true
 generato_il: "2026-10-31T07:30"
 cover_image: "/covers/2026-10-31-p-bar-biryukov-vs-l-broady-ningbo-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
 Il penultimo atto del Challenger di **Ningbo** mette di fronte P. Bar Biryukov e L. Broady, due giocatori approdati alla semifinale dopo aver vinto tutte le partite disputate finora sul cemento cinese. È un incrocio del tutto inedito, privo di qualsiasi confronto precedente in archivio, e questa mancanza di storia comune aggiunge un margine di incognita a una sfida che entrambi affrontano nel momento più caldo della propria settimana.
