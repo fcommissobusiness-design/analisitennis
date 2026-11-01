@@ -4,7 +4,7 @@ sottotitolo: "Nessun precedente tra le due, entrambe ancora imbattute nel torneo
 data: "2026-11-01"
 autore: "Redazione AnalisiTennis"
 torneo: "Queretaro"
-categoria: "Challenger"
+categoria: "WTA"
 superficie: "cemento"
 giocatore1: "T. Maria"
 giocatore2: "B. Andreescu"

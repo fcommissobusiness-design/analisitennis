@@ -4,7 +4,7 @@ sottotitolo: "Due giocatrici lanciate dalle qualificazioni si ritrovano per la q
 data: "2026-10-30"
 autore: "Redazione AnalisiTennis"
 torneo: "Courmayeur (Italy) - Qualification"
-categoria: "Challenger"
+categoria: "WTA"
 superficie: "cemento"
 giocatore1: "M. Bassols"
 giocatore2: "A. Charaeva"

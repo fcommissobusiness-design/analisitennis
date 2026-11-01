@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 try:
     from attach_covers import (
         NAME_MAP, VENUE_MAP, COVERS_DIR, detect_winner,
-        pick_image, pick_venue, download, strip_html, used_covers_for_player
+        pick_image, pick_venue, download, strip_html, clean_author, used_covers_for_player
     )
     HAS_COVER = True
 except Exception:
@@ -36,9 +36,12 @@ def categoria(tipo):
     t = (tipo or '').lower()
     if 'grand slam' in t: return 'Slam'
     if 'masters' in t: return 'Masters'
+    # 'wta' PRIMA di 'challenger': i tornei WTA 125 sono femminili (tier
+    # "challenger" lato donne) ma vanno etichettati WTA, non Challenger
+    # (categoria maschile). Un Challenger maschile non contiene mai 'wta'.
+    if 'wta' in t: return 'WTA'
     if 'challenger' in t: return 'Challenger'
     if 'itf' in t: return 'ITF'
-    if 'wta' in t: return 'WTA'
     return 'ATP'
 
 
@@ -128,7 +131,7 @@ def write(match, analysis, out_dir):
                     cover_image = f'/covers/{slug}.jpg'
                     cover_credit = (
                         f"{pick['title'].replace('File:', '')} | "
-                        f"{strip_html(pick.get('author') or 'Autore sconosciuto')} | "
+                        f"{clean_author(pick.get('author'))} | "
                         f"{pick.get('license') or 'Wikimedia Commons'}"
                     )
                 except Exception as e:

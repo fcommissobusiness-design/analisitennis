@@ -177,12 +177,15 @@ const faq = {
   immagine={d.cover_image}
   tipo="article"
 >
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  {d.giocatore1 !== 'Redazione' && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   <script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} />
-  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
+  {d.giocatore1 !== 'Redazione' && <script type="application/ld+json" set:html={JSON.stringify(faq)} />}
 
   <div class="contenitore" style="padding-top: 20px;">
-    <Breadcrumbs items={[
+    <Breadcrumbs items={d.giocatore1 === 'Redazione' ? [
+      { nome: 'Home', url: '/' },
+      { nome: d.titolo }
+    ] : [
       { nome: 'Home', url: '/' },
       { nome: `${tDisplay} ${anno}`, url: `/tornei/${tSlug}` },
       { nome: `${g1Display} - ${g2Display}` }
@@ -200,6 +203,7 @@ const faq = {
           categoria={d.categoria}
           superficie={d.superficie}
           credit={d.cover_credit}
+          focus={d.cover_focus}
         />
       ) : (
         <>

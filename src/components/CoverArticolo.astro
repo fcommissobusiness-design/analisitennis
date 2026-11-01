@@ -2,7 +2,15 @@
 // Cover articolo: foto reale + titolo in sovraimpressione.
 // Regola non negoziabile: il titolo NON viene MAI tagliato, su nessuna larghezza.
 // Il contenuto decide l'altezza del contenitore; l'immagine resta clippata nel suo wrapper.
-const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit } = Astro.props;
+const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit, focus } = Astro.props;
+// focus = punto verticale (%) su cui inquadrare la foto. Serve per le foto
+// d'azione in cui il giocatore sta in basso (es. un servizio): col default
+// top-biased mostrerebbero solo campo vuoto. Quando valorizzato, sovrascrive
+// object-position su tutte le larghezze (lo stile inline vince sulle media query).
+const focusNum = (focus !== undefined && focus !== null && focus !== '') ? Number(focus) : null;
+const focusStyle = (focusNum !== null && Number.isFinite(focusNum))
+  ? `object-position: center ${Math.max(0, Math.min(100, focusNum))}%;`
+  : null;
 // WebP gemello (piu' leggero) servito via <picture>, con fallback JPEG.
 const cover_webp = cover_image ? cover_image.replace(/\.jpg$/, '.webp') : null;
 
@@ -18,7 +26,7 @@ const superficeLabel = {
     <div class="cover-image-wrap" aria-hidden="true">
       <picture>
         {cover_webp && <source srcset={cover_webp} type="image/webp" />}
-        <img src={cover_image} alt="" loading="eager" fetchpriority="high" />
+        <img src={cover_image} alt="" loading="eager" fetchpriority="high" style={focusStyle} />
       </picture>
       <div class="cover-overlay"></div>
     </div>

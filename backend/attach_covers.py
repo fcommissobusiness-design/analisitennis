@@ -313,6 +313,24 @@ def strip_html(s: str) -> str:
     return re.sub(r'\s+', ' ', s).strip()
 
 
+def clean_author(s: str) -> str:
+    """Normalizza il campo autore di Commons per la credit sotto la cover.
+    Alcuni autori (es. PlaneMad) incollano l'intera licenza nel campo: va
+    ridotto a un'attribuzione breve, altrimenti la didascalia mostra un
+    paragrafo intero. Regole: estrai lo username 'User:Nome' se presente,
+    altrimenti tieni la prima frase e taglia a ~70 caratteri."""
+    s = strip_html(s)
+    if not s:
+        return 'Autore sconosciuto'
+    m = re.search(r'User:([A-Za-z0-9_\-]{2,40})', s)
+    if m:
+        return f'{m.group(1)}/Wikimedia'
+    first = re.split(r'(?<=[.!?])\s', s)[0].strip()
+    if len(first) > 70:
+        first = first[:67].rstrip() + '...'
+    return first
+
+
 def used_covers_for_player(last_name: str, skip_slug: str = '') -> set:
     """Titoli file ('File:...') gia' usati come cover negli articoli che
     riguardano un giocatore (match del cognome nella credit). Serve a NON
@@ -713,7 +731,7 @@ def main():
             download(pick['url'], dest)
         except Exception as e:
             print(f'{slug}: download fallito {e}'); continue
-        credit = f"{pick['title'].replace('File:','')} | {strip_html(pick.get('author') or 'Autore sconosciuto')} | {pick.get('license') or 'Wikimedia Commons'}"
+        credit = f"{pick['title'].replace('File:','')} | {clean_author(pick.get('author'))} | {pick.get('license') or 'Wikimedia Commons'}"
         rel = f"/covers/{slug}.jpg"
         update_frontmatter(art, rel, credit)
         report.append({'slug': slug, 'reason': reason, 'file': pick['title'], 'url': pick['desc_url']})

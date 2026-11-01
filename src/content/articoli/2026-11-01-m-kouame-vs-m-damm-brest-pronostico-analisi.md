@@ -23,7 +23,7 @@ descrizione: "Finale del Challenger di Brest tra M. Kouame e M. Damm: cammino, u
 pubblicato: true
 generato_il: "2026-11-01T06:58"
 cover_image: "/covers/2026-11-01-m-kouame-vs-m-damm-brest-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | PlaneMad/Wikimedia | CC BY-SA 3.0"
 ---
 
 Il **Challenger di Brest** arriva al suo atto conclusivo con una finale costruita da due giocatori giunti all'ultimo ostacolo senza quasi concedere nulla lungo la settimana. Da una parte M. Kouame, dall'altra M. Damm: percorsi diversi, stesso traguardo e un unico, lontano precedente a fare da sottile filo conduttore tra loro. Sul veloce indoor francese, dove il servizio e la prima accelerazione tendono a pesare più che altrove, i due si contendono il titolo al termine di sette giorni di buona continuità.
