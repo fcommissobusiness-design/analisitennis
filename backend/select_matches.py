@@ -45,6 +45,31 @@ PESO_TIER = {
     'OTHER': 0,
 }
 
+# Giocatori di richiamo: nomi che generano volume di ricerca a prescindere dal
+# tier del torneo (un big a un ATP 250 o un Challenger cattura comunque query).
+# Match con questi protagonisti vengono GARANTITI in slate anche se restano
+# fuori dal cap per importanza (vedi `seleziona`, big_extra). Matching su
+# cognome come sottostringa del campo "I. Cognome" dell'API (case-insensitive).
+# Italiani inclusi: sono il motore delle ricerche del nostro pubblico.
+STAR_SURNAMES = {
+    # ATP top + italiani
+    'sinner', 'alcaraz', 'djokovic', 'zverev', 'musetti', 'berrettini',
+    'medvedev', 'fritz', 'rune', 'draper', 'de minaur', 'shelton',
+    'tsitsipas', 'rublev', 'hurkacz', 'paul', 'dimitrov', 'auger-aliassime',
+    'cerundolo', 'sonego', 'arnaldi', 'cobolli', 'darderi', 'nardi',
+    # WTA top + italiane
+    'sabalenka', 'swiatek', 'gauff', 'paolini', 'rybakina', 'pegula',
+    'andreeva', 'zheng', 'keys', 'jabeur', 'vondrousova', 'muchova',
+    'kalinskaya', 'cocciaretto', 'bronzetti', 'errani',
+}
+
+
+def featured_star(m):
+    """True se uno dei due giocatori e' un nome di richiamo (STAR_SURNAMES)."""
+    blob = f"{m.get('event_first_player','')} {m.get('event_second_player','')}".lower()
+    return any(s in blob for s in STAR_SURNAMES)
+
+
 # Peso per fase del torneo
 PESO_ROUND = {
     'Final': 100,
@@ -181,8 +206,13 @@ def is_qualificazione(m):
     return e_qual or n_qual
 
 
-def seleziona(matches, cap_totale=15):
-    """Restituisce i top-N match per score di importanza."""
+def seleziona(matches, cap_totale=15, big_extra=2):
+    """Restituisce i top-N match per score di importanza, piu' fino a
+    `big_extra` match con un giocatore di richiamo (STAR_SURNAMES) che
+    sarebbero rimasti fuori dal cap. I big generano volume di ricerca anche
+    in tornei minori: garantirli copre query che la sola selezione per
+    importanza del torneo lascerebbe scoperte, senza togliere spazio alla
+    slate principale (si AGGIUNGONO al cap, non lo riempiono)."""
     base = [m for m in matches if is_singolo(m) and not_yet_started(m) and orario_italiano_ok(m)]
     # Escludi tier OTHER / ITF (ignorati per il blog)
     base = [m for m in base if classifica_tier(m) not in ('ITF', 'OTHER')]
@@ -199,11 +229,25 @@ def seleziona(matches, cap_totale=15):
 
     picks = base[:cap_totale]
 
-    # Breakdown per log
+    # Garanzia big: tra i match ESCLUSI dal cap, aggiungi i migliori (per score)
+    # che hanno un giocatore di richiamo, fino a big_extra. Cosi' un Sinner o
+    # una Paolini a un 250 non spariscono solo perche' il tier e' basso.
+    extra = []
+    if big_extra > 0:
+        for m in base[cap_totale:]:
+            if featured_star(m):
+                extra.append(m)
+                if len(extra) >= big_extra:
+                    break
+    picks = picks + extra
+
+    # Breakdown per log (i big extra marcati a parte)
     breakdown = {}
     for m in picks:
         tier = m['_tier']
         breakdown[tier] = breakdown.get(tier, 0) + 1
+    if extra:
+        breakdown['+big'] = len(extra)
 
     # Pulisci marker interni
     for m in picks:
@@ -218,8 +262,9 @@ if __name__ == '__main__':
         sys.exit(1)
     fx_file = sys.argv[1]
     cap = int(os.environ.get('ANALISITENNIS_MAX_ARTICOLI', '15'))
+    big_extra = int(os.environ.get('ANALISITENNIS_BIG_EXTRA', '2'))
     matches = json.loads(Path(fx_file).read_text())
-    picks, breakdown = seleziona(matches, cap_totale=cap)
+    picks, breakdown = seleziona(matches, cap_totale=cap, big_extra=big_extra)
     bd_str = ', '.join(f'{k}:{v}' for k, v in sorted(breakdown.items(), key=lambda x: -x[1]))
     print(f'Cap totale: {cap}. Selezionati {len(picks)} match ({bd_str})')
     for p in picks:
