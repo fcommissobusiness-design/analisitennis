@@ -167,7 +167,12 @@ strong { font-weight: 700; color: var(--testo); }
 /* LAYOUT ARTICOLO */
 .layout-articolo {
   display: grid;
-  grid-template-columns: var(--colonna-articolo) var(--colonna-side);
+  /* fr (non %): le colonne 68%+28% + gap fisso 48px sommavano a piu' del
+     100% della larghezza, causando ~7px di scroll orizzontale tra ~900 e
+     1180px (la sidebar bordava fuori). Con minmax(0, Nfr) il gap viene
+     sottratto prima della ripartizione: stesse proporzioni a 1180px, zero
+     overflow a ogni larghezza. 68:28 = 17:7. */
+  grid-template-columns: minmax(0, 17fr) minmax(0, 7fr);
   gap: 48px;
   padding: 48px 0 80px;
   max-width: var(--max-contenitore);
