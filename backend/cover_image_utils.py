@@ -19,6 +19,11 @@ from PIL import Image, ImageOps
 # Lato lungo massimo in px e qualita' JPEG. Non toccare senza motivo:
 # sono il punto di equilibrio tra nitidezza su retina e peso.
 MAX_LONG_SIDE = 1600
+# Larghezza MINIMA: Google Discover mostra le immagini "large" solo se larghe
+# almeno 1200px. Le foto verticali dei giocatori spesso sono piu' strette, per
+# questo si fa un leggero upscale (Lanczos) fino a 1200px di larghezza: cosi'
+# diventano eleggibili senza cambiarne la composizione.
+MIN_WIDTH = 1200
 JPEG_QUALITY = 82
 # WebP: ~30% piu' leggero del JPEG a parita' di qualita' visiva. Servito
 # via <picture> con fallback JPEG. Migliora Core Web Vitals e Google Discover.
@@ -66,6 +71,11 @@ def ensure_web_size(path: Path, max_long: int = MAX_LONG_SIDE,
                 scale = max_long / long_side
                 new_size = (round(im.width * scale), round(im.height * scale))
                 im = im.resize(new_size, Image.LANCZOS)
+            # Garantisci larghezza >= MIN_WIDTH per l'eleggibilita' Discover
+            # (upscale leggero solo se la foto e' piu' stretta).
+            if im.width < MIN_WIDTH:
+                scale = MIN_WIDTH / im.width
+                im = im.resize((MIN_WIDTH, round(im.height * scale)), Image.LANCZOS)
             im.save(path, 'JPEG', quality=quality, optimize=True,
                     progressive=True)
             # Gemella WebP accanto al JPEG (stesso nome, estensione .webp).

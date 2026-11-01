@@ -1,0 +1,149 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { displayPlayerName, tournamentDisplay } from '../lib/hubs.js';
+
+// Hub "Pronostici di oggi": vista TABELLARE a colpo d'occhio di tutti i
+// pronostici del giorno con la NOSTRA probabilita' di vittoria. Taglio diverso
+// da /oggi (card editoriali con cover): qui conta la scansione rapida
+// match -> favorito -> percentuale, pensata per la query "pronostici tennis
+// oggi". Le percentuali sono la lettura statistica nostra, non quote.
+const tutti = await getCollection('articoli', ({ data }) =>
+  data.pubblicato !== false && data.giocatore1 !== 'Redazione');
+const latestDate = tutti
+  .map(a => new Date(a.data.data).toISOString().split('T')[0])
+  .sort()
+  .pop();
+// Ordine per rilevanza: prima i circuiti maggiori, poi per torneo.
+const ORD = { Slam: 0, Masters: 1, ATP: 2, WTA: 3, Challenger: 4, ITF: 5 };
+const articoli = tutti
+  .filter(a => new Date(a.data.data).toISOString().split('T')[0] === latestDate)
+  .sort((a, b) =>
+    (ORD[a.data.categoria] ?? 9) - (ORD[b.data.categoria] ?? 9) ||
+    a.data.torneo.localeCompare(b.data.torneo, 'it'));
+
+const site = 'https://analisitennis.it';
+const dataLocale = latestDate ? new Date(latestDate).toLocaleDateString('it-IT', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+}) : '';
+
+// Riga pronostico: favorito + percentuale (se il modello l'ha calcolata).
+function prono(a) {
+  const g1 = displayPlayerName(a.data.giocatore1);
+  const g2 = displayPlayerName(a.data.giocatore2);
+  const favRaw = (a.data.probabilita_favorito || '').toLowerCase();
+  const pct = Number(a.data.probabilita_percent);
+  let favNome = '', favPct = null;
+  if (favRaw && Number.isFinite(pct) && pct >= 50 && pct <= 82) {
+    const c1 = g1.toLowerCase().split(/\s+/).pop();
+    const c2 = g2.toLowerCase().split(/\s+/).pop();
+    const favIsG1 = c1 && (favRaw.includes(c1) || c1.includes(favRaw));
+    favNome = favIsG1 ? g1 : g2;
+    favPct = pct;
+  }
+  return { g1, g2, favNome, favPct, torneo: tournamentDisplay(a.data.torneo), cat: a.data.categoria, slug: a.slug };
+}
+const righe = articoli.map(prono);
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Pronostici tennis ${dataLocale}`,
+  numberOfItems: articoli.length,
+  itemListElement: articoli.map((a, i) => ({
+    '@type': 'ListItem', position: i + 1,
+    url: `${site}/articoli/${a.slug}`, name: a.data.titolo,
+  })),
+};
+---
+<Base
+  titolo={`Pronostici tennis oggi ${dataLocale} - ATP, WTA e Challenger - AnalisiTennis`}
+  descrizione={`I pronostici di tennis di ${dataLocale}: per ogni match favorito e probabilità di vittoria stimata dalla Redazione AnalisiTennis, con analisi di scontri diretti, forma e superficie. Niente quote, solo numeri.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Pronostici di oggi' }]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">{dataLocale}</div>
+      <h1>Pronostici tennis di oggi</h1>
+      <p>Per ogni match in programma, il favorito e la nostra probabilità di vittoria, calcolata sui dati: scontri diretti, forma, superficie. Il tennis letto nei numeri, non quote.</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {righe.length === 0 ? (
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessun pronostico pubblicato oggi. Torna domani mattina.</p>
+        ) : (
+          <>
+            <p class="pr-conteggio">{righe.length} pronostici · {dataLocale}</p>
+            <ul class="pr-lista">
+              {righe.map(r => (
+                <li class="pr-riga">
+                  <a class="pr-link" href={`/articoli/${r.slug}`}>
+                    <span class="pr-match">
+                      <span class="pr-giocatori">{r.g1} <span class="pr-vs">vs</span> {r.g2}</span>
+                      <span class="pr-torneo">{r.torneo} · {r.cat}</span>
+                    </span>
+                    {r.favPct ? (
+                      <span class="pr-prono">
+                        <span class="pr-fav">{r.favNome}</span>
+                        <span class="pr-pct">{r.favPct}%</span>
+                      </span>
+                    ) : (
+                      <span class="pr-prono pr-prono-vuoto"><span class="pr-fav">Vedi analisi</span></span>
+                    )}
+                    <svg class="pr-arrow" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <p class="pr-nota">Le percentuali sono una stima editoriale basata sulla nostra analisi del match. Non sono quote né consigli di gioco.</p>
+          </>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .pr-conteggio { color: var(--testo-secondario, #6b7280); font-size: 0.92rem; margin: 0 0 18px; }
+  .pr-lista { list-style: none; padding: 0; margin: 0; }
+  .pr-riga { border-bottom: 1px solid var(--linea, #e5e5e5); }
+  .pr-riga:first-child { border-top: 1px solid var(--linea, #e5e5e5); }
+  .pr-link {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 4px; text-decoration: none; color: var(--testo, #1a1a1a);
+  }
+  .pr-link:hover { background: var(--sfondo-hover, rgba(57,212,83,0.06)); }
+  .pr-match { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+  .pr-giocatori { font-weight: 600; font-size: 0.98rem; line-height: 1.25; }
+  .pr-vs { color: var(--testo-secondario, #8a94a3); font-weight: 400; font-size: 0.85em; }
+  .pr-torneo { font-size: 0.74rem; letter-spacing: 1px; text-transform: uppercase; color: var(--testo-secondario, #8a94a3); font-weight: 700; }
+  .pr-prono { flex-shrink: 0; display: flex; align-items: center; gap: 10px; }
+  .pr-fav { font-size: 0.86rem; font-weight: 600; color: var(--testo, #1a1a1a); text-align: right; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pr-prono-vuoto .pr-fav { color: var(--testo-secondario, #8a94a3); font-weight: 500; }
+  .pr-pct {
+    font-variant-numeric: tabular-nums; font-weight: 800; font-size: 0.95rem;
+    color: #0b5e20; background: rgba(57,212,83,0.16);
+    padding: 3px 9px; border-radius: 999px; min-width: 50px; text-align: center;
+  }
+  .pr-arrow { color: var(--testo-secondario, #9aa4b2); flex-shrink: 0; }
+  .pr-link:hover .pr-arrow { color: var(--verde, #39d453); }
+  .pr-nota { margin-top: 20px; font-size: 0.74rem; line-height: 1.5; color: var(--testo-secondario, #8a94a3); }
+
+  @media (max-width: 560px) {
+    .pr-fav { max-width: 96px; }
+    .pr-link { gap: 10px; }
+  }
+  :root[data-theme="dark"] .pr-pct,
+  :root:not([data-theme="light"]) .pr-pct { color: #8ff0a3; }
+</style>
