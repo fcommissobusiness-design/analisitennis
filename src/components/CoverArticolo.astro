@@ -2,7 +2,10 @@
 // Cover articolo: foto reale + titolo in sovraimpressione.
 // Regola non negoziabile: il titolo NON viene MAI tagliato, su nessuna larghezza.
 // Il contenuto decide l'altezza del contenitore; l'immagine resta clippata nel suo wrapper.
-const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit, focus } = Astro.props;
+const { cover_image, titolo, torneo, categoria, superficie, sottotitolo, credit, focus, alt } = Astro.props;
+// alt descrittivo per Google Immagini: la cover e' il contenuto visivo
+// principale dell'articolo. Se non passato, resta "" (immagine decorativa).
+const imgAlt = alt || '';
 // focus = punto verticale (%) su cui inquadrare la foto. Serve per le foto
 // d'azione in cui il giocatore sta in basso (es. un servizio): col default
 // top-biased mostrerebbero solo campo vuoto. Quando valorizzato, sovrascrive
@@ -23,10 +26,10 @@ const superficeLabel = {
 ---
 <figure class="cover-articolo">
   <div class="cover-frame">
-    <div class="cover-image-wrap" aria-hidden="true">
+    <div class="cover-image-wrap">
       <picture>
         {cover_webp && <source srcset={cover_webp} type="image/webp" />}
-        <img src={cover_image} alt="" loading="eager" fetchpriority="high" style={focusStyle} />
+        <img src={cover_image} alt={imgAlt} loading="eager" fetchpriority="high" style={focusStyle} />
       </picture>
       <div class="cover-overlay"></div>
     </div>

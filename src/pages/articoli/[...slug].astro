@@ -165,6 +165,22 @@ if (hasH2H) {
   else { const lead = p1n > p2n ? g1Display : g2Display, led = p1n > p2n ? g2Display : g1Display, hi = Math.max(p1n, p2n), lo = Math.min(p1n, p2n); txt = `Nei precedenti ufficiali ${lead} conduce ${hi}-${lo} su ${led}.`; }
   faqItems.push({ q: `Qual è il bilancio dei precedenti tra ${g1Display} e ${g2Display}?`, a: txt });
 }
+// "Dove vedere": cattura una delle query a piu' alto volume in Italia senza
+// inventare il canale esatto (i diritti TV cambiano per torneo e stagione).
+// Risposta onesta e orientativa, con rimando sempre al palinsesto ufficiale.
+const doveVedereTxt = (['Challenger', 'ITF'].includes(d.categoria))
+  ? `${g1Display} contro ${g2Display} è un match del circuito ${d.categoria}: questi tornei si seguono soprattutto in streaming sui canali ufficiali (ATP Challenger TV, WTA) e non sempre hanno copertura TV in chiaro in Italia. Per orario e diretta controlla il palinsesto ufficiale del torneo ${tDisplay}.`
+  : `In Italia i match del circuito ${d.categoria} sono trasmessi da Sky Sport e in streaming su NOW; alcuni tornei possono essere divisi tra più emittenti. Per il canale e l'orario esatti di ${g1Display}-${g2Display} verifica sempre il palinsesto ufficiale del torneo ${tDisplay} ${anno}.`;
+faqItems.push({ q: `Dove vedere ${g1Display}-${g2Display} in TV e streaming?`, a: doveVedereTxt });
+
+// Titolo SEO distinto dall'H1 editoriale: l'H1 in pagina resta il titolo
+// d'autore (bello da leggere), ma il <title> del browser/SERP contiene la
+// query reale che l'utente digita ("nome1 nome2 pronostico torneo"), che
+// l'H1 editoriale spesso NON ha. Aumenta il CTR a parita' di impression.
+const seoTitle = d.giocatore1 === 'Redazione'
+  ? `${d.titolo} - AnalisiTennis`
+  : `${g1Display}-${g2Display}: pronostico e analisi ${tDisplay} ${anno} | AnalisiTennis`;
+const coverAlt = `${g1Display} e ${g2Display}, torneo ${tDisplay} ${anno}`;
 const faq = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -172,7 +188,7 @@ const faq = {
 };
 ---
 <Base
-  titolo={`${d.titolo} - AnalisiTennis`}
+  titolo={seoTitle}
   descrizione={d.descrizione}
   immagine={d.cover_image}
   tipo="article"
@@ -204,6 +220,7 @@ const faq = {
           superficie={d.superficie}
           credit={d.cover_credit}
           focus={d.cover_focus}
+          alt={coverAlt}
         />
       ) : (
         <>
@@ -227,6 +244,16 @@ const faq = {
         <span>-</span>
         <span aria-label="Tempo di lettura stimato">{readingMinutes} min di lettura</span>
       </div>
+
+      {d.giocatore1 !== 'Redazione' && (
+        <dl class="scheda-match" aria-label="Scheda del match">
+          <div><dt>Torneo</dt><dd>{tDisplay} {anno}</dd></div>
+          <div><dt>Categoria</dt><dd>{d.categoria}</dd></div>
+          <div><dt>Superficie</dt><dd>{supLabel}</dd></div>
+          <div><dt>Data</dt><dd>{dataLocale}</dd></div>
+          <div><dt>Orario</dt><dd>Dal programma di giornata</dd></div>
+        </dl>
+      )}
 
       {d.giocatore1 !== 'Redazione' && (
         <a href="#pronostico" class="goto-pronostico">
@@ -357,6 +384,38 @@ const faq = {
   @media (max-width: 560px) {
     .goto-pronostico { flex-direction: column; align-items: stretch; gap: 12px; padding: 16px; }
     .goto-pronostico .gp-btn { justify-content: center; padding: 13px 16px; }
+  }
+
+  /* Scheda match: riepilogo factual scannabile (torneo, categoria, superficie,
+     data, orario). Rafforza le entita' del match e cattura le query
+     "quando/dove/su che superficie" subito sotto il titolo. */
+  .scheda-match {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 8px;
+    margin: 18px 0 8px;
+    padding: 0;
+  }
+  .scheda-match > div {
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 8px;
+    padding: 11px 14px;
+  }
+  .scheda-match dt {
+    font-size: 0.66rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--testo-secondario, #8a94a3);
+    font-weight: 700;
+    margin: 0 0 3px;
+  }
+  .scheda-match dd {
+    margin: 0;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--testo, #1a1a1a);
+    line-height: 1.3;
   }
 
   .tag-articolo { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
