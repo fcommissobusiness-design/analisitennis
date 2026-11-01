@@ -10,27 +10,41 @@
 //   - "Oggi la puo' spuntare X" -> gap sottile -> favorito ~58%
 //   - "Partita equilibrata..."  -> aperto      -> 50/50
 // Il favorito e' il giocatore nominato per primo in apertura del verdetto.
-const { g1, g2, verdetto } = Astro.props;
+// favorito + percent: la stima PRECISA calcolata dal modello sui dati del
+// match (numero variabile, non a scalini). Se mancano (articoli vecchi) si
+// ricade sulla derivazione dal verdetto.
+const { g1, g2, verdetto, favorito, percent } = Astro.props;
 
-const v = (verdetto || '').toLowerCase();
 const cognome = (s) => (s || '').toLowerCase().trim().split(/\s+/).pop();
 const c1 = cognome(g1);
 const c2 = cognome(g2);
 
-const aperto = /equilibrat|senza un favorito|nessun favorito|terzo set senza/.test(v);
-const netto = /\bnettamente\b/.test(v);
-
-let p1 = 50;
-if (!aperto) {
-  const i1 = c1 ? v.indexOf(c1) : -1;
-  const i2 = c2 ? v.indexOf(c2) : -1;
-  let favG1;
-  if (i1 === -1 && i2 === -1) favG1 = true;
-  else if (i1 === -1) favG1 = false;
-  else if (i2 === -1) favG1 = true;
-  else favG1 = i1 <= i2;
-  const favPct = netto ? 70 : 58;
-  p1 = favG1 ? favPct : 100 - favPct;
+let p1;
+const pctNum = Number(percent);
+const favNorm = (favorito || '').toLowerCase();
+if (favNorm && Number.isFinite(pctNum) && pctNum >= 50 && pctNum <= 82) {
+  // il favorito dichiarato dal modello determina a chi va la percentuale alta
+  const favIsG1 = c1 && (favNorm.includes(c1) || c1.includes(favNorm));
+  const favIsG2 = c2 && (favNorm.includes(c2) || c2.includes(favNorm));
+  const favG1 = favIsG1 || !favIsG2;
+  p1 = favG1 ? pctNum : 100 - pctNum;
+} else {
+  // Fallback dal verdetto (articoli senza il campo probabilita)
+  const v = (verdetto || '').toLowerCase();
+  const aperto = /equilibrat|senza un favorito|nessun favorito|terzo set senza/.test(v);
+  const netto = /\bnettamente\b/.test(v);
+  p1 = 50;
+  if (!aperto) {
+    const i1 = c1 ? v.indexOf(c1) : -1;
+    const i2 = c2 ? v.indexOf(c2) : -1;
+    let favG1;
+    if (i1 === -1 && i2 === -1) favG1 = true;
+    else if (i1 === -1) favG1 = false;
+    else if (i2 === -1) favG1 = true;
+    else favG1 = i1 <= i2;
+    const favPct = netto ? 70 : 58;
+    p1 = favG1 ? favPct : 100 - favPct;
+  }
 }
 const p2 = 100 - p1;
 const g1Fav = p1 >= p2;

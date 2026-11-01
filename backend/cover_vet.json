@@ -1,44 +1,82 @@
 {
-  "date": "2026-10-26",
-  "total": 7,
+  "date": "2026-11-01",
+  "total": 6,
   "da_rivedere": 0,
   "details": [
     {
-      "slug": "2026-10-26-a-eala-vs-m-stojsavljevic-tokyo-pronostico-analisi",
+      "slug": "2026-11-01-a-de-minaur-vs-c-alcaraz-vienna-pronostico-analisi",
       "ok": true,
-      "motivo": "Primo piano ravvicinato del volto, senza racchetta o campo.",
-      "risolta_con": "giocatore Alexandra Eala"
+      "motivo": "Giocatore in azione al servizio, campo e racchetta visibili"
     },
     {
-      "slug": "2026-10-26-d-altmaier-vs-j-m-cerundolo-basel-pronostico-analisi",
+      "slug": "2026-11-01-d-dietrich-vs-l-draxl-sioux-falls-pronostico-analisi",
       "ok": true,
-      "motivo": "Concerto/evento in arena con palco, luci e folla.",
-      "risolta_con": "rigenera"
+      "motivo": "Cartello di un parco, nessun tennis.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Falls Park on the Big Sioux River -",
+          "ok": false,
+          "motivo": "Cartello di un parco, nessun tennis."
+        },
+        {
+          "via": "campo",
+          "file": "Taube Family Tennis Stadium 2015.JPG",
+          "ok": true,
+          "motivo": "Veri campi da tennis con giocatori in azione"
+        }
+      ]
     },
     {
-      "slug": "2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi",
+      "slug": "2026-11-01-j-aguilar-cardozo-vs-h-dellien-guayaquil-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatrice in azione, testa intera, racchetta e pallina visibili."
+      "motivo": "Vero campo da tennis con gioco in corso"
     },
     {
-      "slug": "2026-10-26-h-rune-vs-q-halys-basel-pronostico-analisi",
+      "slug": "2026-11-01-j-lehecka-vs-v-vacherot-basel-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore intero con racchetta in campo, testa visibile"
+      "motivo": "Giocatore in azione, figura intera con racchetta e campo."
     },
     {
-      "slug": "2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi",
+      "slug": "2026-11-01-m-kouame-vs-m-damm-brest-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore a mezza figura in azione, racchetta e campo visibili."
+      "motivo": "Edificio esterno di pavilion, nessun giocatore o campo in azione.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Marks Tennis Stadium-Michael Uyteng",
+          "ok": false,
+          "motivo": "Esterno di edificio, non gioco su campo."
+        },
+        {
+          "via": "campo",
+          "file": "Nungambakkam SDAT Tennis Stadium floodlit match pa",
+          "ok": true,
+          "motivo": "Vero campo da tennis con partita in corso."
+        }
+      ]
     },
     {
-      "slug": "2026-10-26-m-brunold-vs-n-borges-basel-pronostico-analisi",
+      "slug": "2026-11-01-t-maria-vs-b-andreescu-queretaro-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore in azione mezza figura, testa intera, racchetta visibile."
-    },
-    {
-      "slug": "2026-10-26-v-vacherot-vs-m-navone-basel-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore in azione, figura intera, racchetta e campo Basel."
+      "motivo": "Esterno edificio, nessun giocatore o campo in gioco",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Taube Family Tennis Stadium exterio",
+          "ok": false,
+          "motivo": "Esterno edificio stadio, nessun gioco o giocatore."
+        },
+        {
+          "via": "campo",
+          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
+          "ok": true,
+          "motivo": "Veri campi da tennis con gioco in corso."
+        }
+      ]
     }
   ]
 }
