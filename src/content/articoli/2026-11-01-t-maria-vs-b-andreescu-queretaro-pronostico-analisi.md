@@ -17,6 +17,8 @@ tag:
   - "tennis femminile"
   - "WTA"
 verdetto: "Oggi la puo' spuntare Andreescu: ha chiuso ottobre con il titolo di Rovereto e dodici vittorie nelle ultime quindici, e sul cemento rapido in quota la sua maggiore spinta puo' piegare le variazioni di Maria. Equilibrio possibile, ma la canadese parte un passo avanti."
+probabilita_favorito: "Andreescu"
+probabilita_percent: 58
 descrizione: "Tatjana Maria contro Bianca Andreescu a Queretaro: primo confronto tra le due, percorsi solidi e stili opposti sul cemento messicano in altura."
 pubblicato: true
 generato_il: "2026-11-01T07:11"

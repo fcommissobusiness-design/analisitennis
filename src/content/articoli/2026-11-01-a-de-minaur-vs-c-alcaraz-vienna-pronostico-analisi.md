@@ -17,6 +17,8 @@ tag:
   - "ATP"
   - "tennis"
 verdetto: "Oggi nettamente Alcaraz: sei precedenti su sei a suo favore, compreso un 3-0 recente allo Slam australiano, dicono che De Minaur non ha ancora trovato le contromisure. La forma dell'australiano alza l'asticella, ma la finale resta in salita."
+probabilita_favorito: "Alcaraz"
+probabilita_percent: 74
 descrizione: "Finale ATP Vienna sul cemento indoor: De Minaur contro Alcaraz. Forma, precedenti e cammino dei due protagonisti verso l'ultimo atto austriaco."
 pubblicato: true
 cover_image: "/covers/2026-11-01-a-de-minaur-vs-c-alcaraz-vienna-pronostico-analisi.jpg"

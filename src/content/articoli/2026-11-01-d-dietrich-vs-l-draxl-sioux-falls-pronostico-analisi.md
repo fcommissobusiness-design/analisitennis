@@ -17,6 +17,8 @@ tag:
   - "finale"
   - "tennis maschile"
 verdetto: "Oggi la può spuntare Draxl: nelle ultime settimane ha battuto avversari di rango superiore e si è spinto fino a una finale di livello ATP, un bagaglio che in un atto conclusivo pesa. Dietrich però arriva più fresco e lanciato, quindi nulla di scontato."
+probabilita_favorito: "Draxl"
+probabilita_percent: 61
 descrizione: "Finale del Challenger di Sioux Falls tra Dietrich e Draxl: forma recente, cammino nel torneo, precedenti e ultime settimane dei due finalisti messe a confronto."
 pubblicato: true
 generato_il: "2026-11-01T07:30"

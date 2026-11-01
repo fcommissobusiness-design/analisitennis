@@ -17,6 +17,8 @@ tag:
   - "Challenger Men Singles"
   - "finale"
 verdetto: "Match da terzo set senza un favorito netto: due giocatori in piena fiducia, cammini paralleli e un solo precedente troppo lontano per orientare. Lo scenario più plausibile è un 2-1 combattuto, con entrambi capaci di prendersi almeno un set."
+probabilita_favorito: "Aguilar Cardozo"
+probabilita_percent: 54
 descrizione: "Finale del Challenger di Guayaquil tra Aguilar Cardozo e Dellien: i cammini, l'unico precedente e la forma recente dei due a confronto sulla terra battuta."
 pubblicato: true
 generato_il: "2026-11-01T07:30"

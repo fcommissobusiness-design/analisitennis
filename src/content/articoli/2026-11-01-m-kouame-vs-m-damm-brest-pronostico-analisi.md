@@ -17,6 +17,8 @@ tag:
   - "Challenger ATP"
   - "pronostico tennis"
 verdetto: "Oggi la può spuntare Damm: l'unico precedente sorride a lui e nelle ultime settimane ha frequentato un livello di gioco più alto, pur trovando di fronte un Kouame lanciato e rapido nel chiudere i set a Brest."
+probabilita_favorito: "Damm"
+probabilita_percent: 58
 descrizione: "Finale del Challenger di Brest tra M. Kouame e M. Damm: cammino, unico precedente e forma recente dei due finalisti sul veloce indoor, un ultimo atto da seguire."
 pubblicato: true
 generato_il: "2026-11-01T06:58"

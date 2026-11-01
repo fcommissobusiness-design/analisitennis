@@ -151,6 +151,17 @@ def write(match, analysis, out_dir):
         'descrizione': descrizione,
         'pubblicato': True
     }
+    # Probabilita' di vittoria calcolata dal modello sui dati del match: numero
+    # preciso e variabile (lo legge la griglia ProbabilitaVittoria in pagina).
+    prob = analysis.get('probabilita') or {}
+    fav = str(prob.get('favorito', '')).strip()
+    try:
+        pct = int(round(float(str(prob.get('percent_favorito', '')).strip().rstrip('%'))))
+    except (ValueError, TypeError):
+        pct = 0
+    if fav and 50 <= pct <= 82:
+        fm['probabilita_favorito'] = fav
+        fm['probabilita_percent'] = pct
     if cover_image:
         fm['cover_image'] = cover_image
         fm['cover_credit'] = cover_credit
@@ -201,6 +212,8 @@ def write(match, analysis, out_dir):
                 frontmatter_lines.append(f'  - "{item}"')
         elif isinstance(v, bool):
             frontmatter_lines.append(f"{k}: {str(v).lower()}")
+        elif isinstance(v, int) and not isinstance(v, bool):
+            frontmatter_lines.append(f"{k}: {v}")
         else:
             vv = str(v).replace('"', "'")
             frontmatter_lines.append(f'{k}: "{vv}"')

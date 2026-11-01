@@ -40,8 +40,11 @@ const d = articolo.data;
 
 // Reading time: stima parole/200. Il body md e' nel compiled remark, come
 // fallback contiamo i caratteri del verdetto + descrizione (~400 parole tipico).
-const estimatedWords = 850; // media articoli AnalisiTennis
-const readingMinutes = Math.max(3, Math.round(estimatedWords / 220));
+// Tempo di lettura dal conteggio REALE delle parole del corpo (non una media
+// fissa). I nostri pezzi sono brevi: ~450-700 parole -> 2-3 minuti. Velocita'
+// di lettura fluida ~260 wpm, minimo 2 minuti.
+const bodyWords = (articolo.body || '').trim().split(/\s+/).filter(Boolean).length;
+const readingMinutes = Math.max(2, Math.round(bodyWords / 260));
 
 // Set di slug con profili esistenti: cosi' il box "Approfondisci su"
 // mostra solo link che risolvono davvero, niente 404.
@@ -123,7 +126,7 @@ const schemaArticle = {
   image: d.cover_image ? [`${site}${d.cover_image}`] : undefined,
   articleSection: `${d.categoria} - ${tDisplay}`,
   keywords: (d.tag || []).join(', '),
-  wordCount: 850,
+  wordCount: bodyWords,
   inLanguage: 'it-IT',
   isAccessibleForFree: true,
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${site}/articoli/${articolo.slug}` },
@@ -236,7 +239,7 @@ const faq = {
       </div>
 
       {d.giocatore1 !== 'Redazione' && (
-        <ProbabilitaVittoria g1={g1Display} g2={g2Display} verdetto={d.verdetto} />
+        <ProbabilitaVittoria g1={g1Display} g2={g2Display} verdetto={d.verdetto} favorito={d.probabilita_favorito} percent={d.probabilita_percent} />
       )}
 
       <div class="verdetto" id="pronostico">

@@ -17,6 +17,8 @@ tag:
   - "tennis ATP"
   - "scontri diretti"
 verdetto: "Oggi la può spuntare Lehecka: arriva dalla finale di Tokyo, mostra un rendimento complessivo appena più solido e nell'ultimo confronto diretto, un mese fa, ha superato Vacherot in due set. Equilibrio reale, ma l'inerzia recente pende dalla sua parte."
+probabilita_favorito: "Lehecka"
+probabilita_percent: 57
 descrizione: "Finale ATP di Basilea tra Jiri Lehecka e Valentin Vacherot: scontri diretti, forma recente e gioco sul veloce indoor per leggere l'ultimo atto del torneo."
 pubblicato: true
 cover_image: "/covers/2026-11-01-j-lehecka-vs-v-vacherot-basel-pronostico-analisi.jpg"
