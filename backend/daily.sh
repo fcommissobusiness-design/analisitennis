@@ -80,6 +80,13 @@ python3 fetch_fixtures.py "$OGGI" 2>&1 | tee -a "$LOG" || {
 log_section "[2/5] Selezione match top"
 python3 select_matches.py "fixtures_${OGGI}.json" 2>&1 | tee -a "$LOG"
 
+# 2-bis. Verifica ROUND via WEB CHECK: conferma o smentisce il campo round di
+# API Tennis (inaffidabile: segna "Final" a piu' match dello stesso torneo e
+# non distingue le qualificazioni). Un check per torneo. Rimuove le quali
+# sfuggite, corregge i turni, neutralizza i round dubbi. Non blocca la pipeline.
+log_section "[2-bis/5] Verifica round via web (conferma/smentisce API Tennis)"
+python3 verify_rounds.py "selected_${OGGI}.json" 2>&1 | tee -a "$LOG" || true
+
 # 3. Generazione analisi (framework FASE 1-4 + sanity 3 pilastri)
 log_section "[3/5] Generazione analisi (claude CLI, fact-check anti-bias+anti-hallucination)"
 python3 generate_analysis.py "selected_${OGGI}.json" 2>&1 | tee -a "$LOG"

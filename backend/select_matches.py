@@ -170,11 +170,25 @@ def is_singolo(m):
     return '/' not in p1 and '/' not in p2
 
 
+def is_qualificazione(m):
+    """True se il match e' di qualificazione (tabellone cadetto). Il flag API
+    event_qualification e' il marcatore affidabile; in appoggio il nome del
+    torneo. NON copriamo le quali: giocatori che provano a entrare nel main
+    draw, bassa rilevanza e dati round inaffidabili (API segna 'Final' anche
+    a loro)."""
+    e_qual = str(m.get('event_qualification', '')).strip().lower() == 'true'
+    n_qual = 'qualif' in (m.get('tournament_name') or '').lower()
+    return e_qual or n_qual
+
+
 def seleziona(matches, cap_totale=15):
     """Restituisce i top-N match per score di importanza."""
     base = [m for m in matches if is_singolo(m) and not_yet_started(m) and orario_italiano_ok(m)]
     # Escludi tier OTHER / ITF (ignorati per il blog)
     base = [m for m in base if classifica_tier(m) not in ('ITF', 'OTHER')]
+    # Escludi del tutto le QUALIFICAZIONI (non solo penalizzarle): la verifica
+    # round via web (verify_rounds.py) lavora poi solo su match di tabellone.
+    base = [m for m in base if not is_qualificazione(m)]
 
     for m in base:
         m['_score'] = score_importanza(m)
