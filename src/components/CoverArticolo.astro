@@ -188,7 +188,11 @@ const superficeLabel = {
   }
 
   @media (min-width: 900px) {
-    .cover-spacer { min-height: 300px; }
-    .cover-image-wrap img { object-position: center 36%; }
+    /* Frame piu' alto = immagine meno "zoomata" e piu' respiro.
+       object-position piu' in alto (20%) perche' su schermi larghi il frame
+       diventa orizzontale e un valore alto (es. 36%) taglia la TESTA del
+       giocatore nelle foto verticali: il soggetto sta sempre in alto. */
+    .cover-spacer { min-height: 360px; }
+    .cover-image-wrap img { object-position: center 20%; }
   }
 </style>
