@@ -1838,7 +1838,7 @@
         "torneo": "Ningbo",
         "g1": "A. Eala",
         "g2": "D. Shnaider",
-        "risultato": "1 - 2",
+        "risultato": "0 - 2",
         "winner": "Second Player"
       }
     ]
@@ -2145,10 +2145,18 @@
     "slug_p1": "alex-de-minaur",
     "slug_p2": "alexander-zverev",
     "bilancio": {
-      "p1": 3,
+      "p1": 4,
       "p2": 5
     },
     "precedenti": [
+      {
+        "data": "2026-10-31",
+        "torneo": "Vienna",
+        "g1": "A. Zverev",
+        "g2": "A. De Minaur",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-10-15",
         "torneo": "Shanghai",
@@ -2221,10 +2229,18 @@
     "slug_p1": "carlos-alcaraz",
     "slug_p2": "daniil-medvedev",
     "bilancio": {
-      "p1": 6,
+      "p1": 7,
       "p2": 3
     },
     "precedenti": [
+      {
+        "data": "2026-10-31",
+        "torneo": "Vienna",
+        "g1": "D. Medvedev",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-03-14",
         "torneo": "ATP Indian Wells",
@@ -2306,14 +2322,82 @@
     "slug_p2": "valentin-vacherot",
     "bilancio": {
       "p1": 1,
-      "p2": 0
+      "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-10-31",
+        "torneo": "Basel",
+        "g1": "V. Vacherot",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2025-10-22",
         "torneo": "Basel",
         "g1": "T. Fritz",
         "g2": "V. Vacherot",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alex-de-minaur-vs-carlos-alcaraz": {
+    "p1": "Alex de Minaur",
+    "p2": "Carlos Alcaraz",
+    "slug_p1": "alex-de-minaur",
+    "slug_p2": "carlos-alcaraz",
+    "bilancio": {
+      "p1": 0,
+      "p2": 6
+    },
+    "precedenti": [
+      {
+        "data": "2026-01-27",
+        "torneo": "Australian Open",
+        "g1": "C. Alcaraz",
+        "g2": "A. De Minaur",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-11-09",
+        "torneo": "Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "A. De Minaur",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-04-18",
+        "torneo": "Barcelona",
+        "g1": "C. Alcaraz",
+        "g2": "A. De Minaur",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-02-09",
+        "torneo": "Rotterdam",
+        "g1": "C. Alcaraz",
+        "g2": "A. De Minaur",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-06-25",
+        "torneo": "ATP London",
+        "g1": "C. Alcaraz",
+        "g2": "A. De Minaur",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-04-24",
+        "torneo": "Barcelona",
+        "g1": "C. Alcaraz",
+        "g2": "A. De Minaur",
         "risultato": "2 - 1",
         "winner": "First Player"
       }
