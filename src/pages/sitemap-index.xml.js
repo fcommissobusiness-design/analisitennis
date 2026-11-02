@@ -14,6 +14,10 @@ export async function GET(context) {
     <loc>${site}/sitemap-news.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>${site}/sitemap-images.xml</loc>
+    <lastmod>${today}</lastmod>
+  </sitemap>
 </sitemapindex>`;
   return new Response(xml, { headers: { 'Content-Type': 'application/xml' } });
 }

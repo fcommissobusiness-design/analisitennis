@@ -55,4 +55,5 @@ Allow: /
 Sitemap: https://analisitennis.it/sitemap-index.xml
 Sitemap: https://analisitennis.it/sitemap.xml
 Sitemap: https://analisitennis.it/sitemap-news.xml
+Sitemap: https://analisitennis.it/sitemap-images.xml
 Host: https://analisitennis.it

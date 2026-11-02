@@ -12,7 +12,7 @@ export async function GET(context) {
     '', '/oggi', '/chi-siamo', '/contatti', '/privacy', '/cookie',
     '/categoria/atp', '/categoria/wta', '/categoria/slam',
     '/categoria/challenger', '/categoria/masters', '/categoria/itf',
-    '/giocatori', '/tornei',
+    '/giocatori', '/tornei', '/risultati',
   ];
 
   const urls = [

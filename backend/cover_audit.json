@@ -1,52 +1,155 @@
 {
-  "total": 6,
-  "problems": 0,
+  "total": 17,
+  "problems": 7,
   "details": [
     {
-      "slug": "2026-11-01-a-de-minaur-vs-c-alcaraz-vienna-pronostico-analisi",
+      "slug": "2026-11-02-a-falei-vs-m-linette-chennai-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-11-02-a-falei-vs-m-linette-chennai-pronostico-analisi.jpg",
+      "credit": "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+    },
+    {
+      "slug": "2026-11-02-c-norrie-vs-m-arnaldi-paris-pronostico-analisi",
       "ok": true,
       "problems": [
         "[info] cover = foto giocatore del match"
       ],
-      "cover_image": "/covers/2026-11-01-a-de-minaur-vs-c-alcaraz-vienna-pronostico-analisi.jpg",
-      "credit": "Carlos Alcaraz (2026 US Open) - 05.jpg | Oleg Yunakov | CC BY-SA 4.0"
+      "cover_image": "/covers/2026-11-02-c-norrie-vs-m-arnaldi-paris-pronostico-analisi.jpg",
+      "credit": "Cameron Norrie (45115038752).jpg | Carine06 from UK | CC BY-SA 2.0"
     },
     {
-      "slug": "2026-11-01-d-dietrich-vs-l-draxl-sioux-falls-pronostico-analisi",
-      "ok": true,
-      "problems": [],
-      "cover_image": "/covers/2026-11-01-d-dietrich-vs-l-draxl-sioux-falls-pronostico-analisi.jpg",
-      "credit": "Falls Park on the Big Sioux River - Sioux Falls - South Dakota (52434267818).jpg | Tony Webster | CC BY 2.0"
-    },
-    {
-      "slug": "2026-11-01-j-aguilar-cardozo-vs-h-dellien-guayaquil-pronostico-analisi",
-      "ok": true,
-      "problems": [],
-      "cover_image": "/covers/2026-11-01-j-aguilar-cardozo-vs-h-dellien-guayaquil-pronostico-analisi.jpg",
-      "credit": "Doubles Knock-Up Centre Court.JPG | Clavecin | Public domain"
-    },
-    {
-      "slug": "2026-11-01-j-lehecka-vs-v-vacherot-basel-pronostico-analisi",
+      "slug": "2026-11-02-c-ruud-vs-j-m-cerundolo-paris-pronostico-analisi",
       "ok": true,
       "problems": [
         "[info] cover = foto giocatore del match"
       ],
-      "cover_image": "/covers/2026-11-01-j-lehecka-vs-v-vacherot-basel-pronostico-analisi.jpg",
-      "credit": "Valentin Vacherot Basel 2025 (cropped).jpg | Peter Arnold | CC BY-SA 4.0"
+      "cover_image": "/covers/2026-11-02-c-ruud-vs-j-m-cerundolo-paris-pronostico-analisi.jpg",
+      "credit": "Casper Ruud (2023 US Open) 01.jpg | Hameltion | CC BY-SA 4.0"
     },
     {
-      "slug": "2026-11-01-m-kouame-vs-m-damm-brest-pronostico-analisi",
-      "ok": true,
-      "problems": [],
-      "cover_image": "/covers/2026-11-01-m-kouame-vs-m-damm-brest-pronostico-analisi.jpg",
-      "credit": "Marks Tennis Stadium-Michael Uytengsu Tennis Pavilion (USC).jpg | Spatms | CC BY-SA 4.0"
+      "slug": "2026-11-02-c-y-lee-vs-m-sakkari-hong-kong-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover duplicata su 2 articoli con favoriti diversi (K. Okamura, M. Sakkari); molto probabilmente la foto non c'entra con il match"
+      ],
+      "cover_image": "/covers/2026-11-02-c-y-lee-vs-m-sakkari-hong-kong-pronostico-analisi.jpg",
+      "credit": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
     },
     {
-      "slug": "2026-11-01-t-maria-vs-b-andreescu-queretaro-pronostico-analisi",
+      "slug": "2026-11-02-i-buse-vs-z-bergs-paris-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-02-i-buse-vs-z-bergs-paris-pronostico-analisi.jpg",
+      "credit": "Zizou Bergs (2023 US Open) 03.jpg | Hameltion | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-11-02-j-vandromme-vs-k-okamura-chennai-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover duplicata su 2 articoli con favoriti diversi (K. Okamura, M. Sakkari); molto probabilmente la foto non c'entra con il match"
+      ],
+      "cover_image": "/covers/2026-11-02-j-vandromme-vs-k-okamura-chennai-pronostico-analisi.jpg",
+      "credit": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-11-02-k-volynets-vs-a-sasnovich-hong-kong-pronostico-analisi",
       "ok": true,
       "problems": [],
-      "cover_image": "/covers/2026-11-01-t-maria-vs-b-andreescu-queretaro-pronostico-analisi.jpg",
-      "credit": "Taube Family Tennis Stadium exterior 1.JPG | BrokenSphere | CC BY-SA 3.0"
+      "cover_image": "/covers/2026-11-02-k-volynets-vs-a-sasnovich-hong-kong-pronostico-analisi.jpg",
+      "credit": "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-11-02-l-darderi-vs-r-hijikata-paris-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-02-l-darderi-vs-r-hijikata-paris-pronostico-analisi.jpg",
+      "credit": "Darderi WMQ23 (53062101185).jpg | si.robi | CC BY-SA 2.0"
+    },
+    {
+      "slug": "2026-11-02-l-fruhvirtova-vs-w-falkowska-chennai-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] favorito L. Fruhvirtova: usato venue/contesto tennis \"nungambakkam sdat tennis stadium floodlit match pa\""
+      ],
+      "cover_image": "/covers/2026-11-02-l-fruhvirtova-vs-w-falkowska-chennai-pronostico-analisi.jpg",
+      "credit": "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+    },
+    {
+      "slug": "2026-11-02-l-musetti-vs-h-hurkacz-paris-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-02-l-musetti-vs-h-hurkacz-paris-pronostico-analisi.jpg",
+      "credit": "Lorenzo Musetti at 2025 Miami Open.jpg | Vbrunophotog | CC BY-SA 4.0"
+    },
+    {
+      "slug": "2026-11-02-la-settimana-nel-tennis",
+      "ok": false,
+      "problems": [
+        "cover_image mancante nel frontmatter"
+      ],
+      "cover_image": "",
+      "credit": ""
+    },
+    {
+      "slug": "2026-11-02-m-sawangkaew-vs-m-hontama-chennai-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 4 articoli dello stesso torneo (Chennai); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-11-02-m-sawangkaew-vs-m-hontama-chennai-pronostico-analisi.jpg",
+      "credit": "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+    },
+    {
+      "slug": "2026-11-02-m-uchijima-vs-r-sramkova-chennai-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 2 articoli dello stesso torneo (Chennai); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-11-02-m-uchijima-vs-r-sramkova-chennai-pronostico-analisi.jpg",
+      "credit": "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | PlaneMad/Wikimedia | CC BY-SA 3.0"
+    },
+    {
+      "slug": "2026-11-02-m-yamaguchi-vs-z-kulambayeva-chennai-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 4 articoli dello stesso torneo (Chennai); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-11-02-m-yamaguchi-vs-z-kulambayeva-chennai-pronostico-analisi.jpg",
+      "credit": "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+    },
+    {
+      "slug": "2026-11-02-s-yamalapalli-vs-s-waltert-chennai-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover venue identica su 4 articoli dello stesso torneo (Chennai); varia con slug_hint per diversificare"
+      ],
+      "cover_image": "/covers/2026-11-02-s-yamalapalli-vs-s-waltert-chennai-pronostico-analisi.jpg",
+      "credit": "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+    },
+    {
+      "slug": "2026-11-02-v-williams-vs-m-stoiana-hong-kong-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-02-v-williams-vs-m-stoiana-hong-kong-pronostico-analisi.jpg",
+      "credit": "Secretary Kerry Watches As Venus Williams Prepares to Receive a Serve During A Tennis Match (28736162851).jpg | U.S. | Public domain"
+    },
+    {
+      "slug": "2026-11-02-xin-wang-vs-a-karunaratne-hong-kong-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-02-xin-wang-vs-a-karunaratne-hong-kong-pronostico-analisi.jpg",
+      "credit": "XINYU WANG 20220919a9.jpg | 江戸村のとくぞう | CC BY-SA 4.0"
     }
   ]
 }

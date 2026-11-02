@@ -145,6 +145,119 @@ presenti qui NON dire chi ha vinto (sono in corso o non confermati).
 """
 
 
+def _slugify(s):
+    import unicodedata
+    s = unicodedata.normalize('NFKD', s or '')
+    s = ''.join(c for c in s if not unicodedata.combining(c))
+    s = s.lower().replace("'", '').replace('’', '')
+    s = re.sub(r'[^a-z0-9]+', '-', s).strip('-')
+    return s[:80]
+
+
+def _lookup_profili():
+    """Mappe dai profili esistenti: citta/nome torneo -> slug, e set slug
+    giocatori. Servono a linkare i risultati solo dove la pagina esiste."""
+    g_dir = ROOT / 'src' / 'content' / 'giocatori-profilo'
+    t_dir = ROOT / 'src' / 'content' / 'tornei-profilo'
+    giocatori = set()
+    if g_dir.exists():
+        for p in g_dir.glob('*.md'):
+            s = _fm(p.read_text(), 'slug_profilo')
+            if s:
+                giocatori.add(s)
+    tornei = {}  # chiave slugificata (citta/nome/slug-senza-anno) -> info
+    if t_dir.exists():
+        for p in t_dir.glob('*.md'):
+            txt = p.read_text()
+            slug = _fm(txt, 'slug_profilo')
+            if not slug:
+                continue
+            info = {
+                'slug': slug,
+                'nome': _fm(txt, 'nome'),
+                'citta': _fm(txt, 'citta'),
+                'superficie': _fm(txt, 'superficie'),
+                'anno': _fm(txt, 'anno'),
+            }
+            # Indicizza per forme slugificate (accent-insensitive): citta, nome
+            # e slug senza anno finale. Cosi' "Queretaro" trova
+            # "Santiago de Querétaro" / "queretaro-2026".
+            chiavi = {_slugify(info['citta']), _slugify(info['nome']),
+                      re.sub(r'-\d{4}$', '', slug)}
+            for c in chiavi:
+                if c:
+                    tornei[c] = info
+    return giocatori, tornei
+
+
+def salva_risultati(verificati, settimana_iso, anno):
+    """Persiste i vincitori VERIFICATI (con fonte) in src/data/risultati.json,
+    accumulando nel tempo un dataset di risultati reali. Merge idempotente per
+    (torneo, anno): la pagina /risultati li rende. Robusta: non blocca mai."""
+    import json as _json
+    out = ROOT / 'src' / 'data' / 'risultati.json'
+    try:
+        store = _json.loads(out.read_text()) if out.exists() else {}
+    except Exception:
+        store = {}
+    risultati = store.get('risultati', [])
+    giocatori_slugs, tornei_lk = _lookup_profili()
+
+    def slug_se_esiste(nome_giocatore):
+        s = _slugify(nome_giocatore)
+        return s if s in giocatori_slugs else ''
+
+    aggiunti = 0
+    for v in verificati:
+        torneo = (v.get('torneo') or '').strip()
+        if not torneo or not v.get('vincitore'):
+            continue
+        # Match per slug (accent-insensitive). Prima esatto, poi sottostringa
+        # (es. "queretaro" dentro un indice piu' lungo).
+        chiave_t = _slugify(re.sub(r'\s+\d{4}$', '', torneo))
+        info = tornei_lk.get(chiave_t)
+        if not info and chiave_t:
+            for k, v_info in tornei_lk.items():
+                if chiave_t in k or k in chiave_t:
+                    info = v_info
+                    break
+        info = info or {}
+        entry = {
+            'settimana': settimana_iso,
+            'torneo': info.get('nome') or torneo,
+            'torneo_display': info.get('citta') or re.sub(r'\s+\d{4}$', '', torneo).strip(),
+            'slug_torneo': info.get('slug', ''),
+            'categoria': v.get('categoria', ''),
+            'superficie': info.get('superficie', ''),
+            'anno': int(info.get('anno') or anno or 0) or anno,
+            'vincitore': v.get('vincitore', ''),
+            'vincitore_slug': slug_se_esiste(v.get('vincitore', '')),
+            'finalista': v.get('finalista', ''),
+            'finalista_slug': slug_se_esiste(v.get('finalista', '')),
+            'punteggio': v.get('punteggio', ''),
+            'fonte': v.get('fonte', ''),
+        }
+        chiave = (entry['slug_torneo'] or entry['torneo'].lower(), entry['anno'])
+        # Sostituisci se gia' presente (stesso torneo/anno), altrimenti aggiungi.
+        risultati = [r for r in risultati
+                     if ((r.get('slug_torneo') or (r.get('torneo') or '').lower()), r.get('anno')) != chiave]
+        risultati.append(entry)
+        aggiunti += 1
+
+    # Ordina: anno desc, settimana desc, categoria asc, torneo asc.
+    # Sort stabili dal campo meno significativo al piu' significativo.
+    ordine_cat = {'Slam': 0, 'Masters': 1, 'ATP': 2, 'WTA': 3}
+    risultati.sort(key=lambda r: r.get('torneo_display', '') or '')
+    risultati.sort(key=lambda r: ordine_cat.get(r.get('categoria'), 9))
+    risultati.sort(key=lambda r: r.get('settimana', '') or '', reverse=True)
+    risultati.sort(key=lambda r: int(r.get('anno') or 0), reverse=True)
+
+    store = {'aggiornato': date.today().isoformat(), 'risultati': risultati}
+    out.write_text(_json.dumps(store, ensure_ascii=False, indent=2) + '\n')
+    print(f'[risultati] salvati {aggiunti} esiti, totale dataset {len(risultati)} -> {out}', flush=True)
+    return out
+
+
 PROMPT_RECAP = """Sei il caporedattore di AnalisiTennis.it, testata editoriale italiana di tennis.
 
 **OGGI E' {today_human}.** Scrivi il pezzo editoriale del lunedi' che ripercorre
@@ -176,13 +289,104 @@ inizia, basandoti SOLO sui dati qui sotto.
 """
 
 
+PROMPT_REVISIONE = """Sei il caporedattore-revisore di AnalisiTennis.it. Rileggi il pezzo del lunedi'
+qui sotto PRIMA della pubblicazione e correggilo. Hai davanti gli stessi dati con
+cui e' stato scritto: usali come unica fonte di verita'.
+
+{data_block}
+
+**PEZZO DA RIVEDERE (JSON generato):**
+```json
+{articolo_json}
+```
+
+Controlla ed eventualmente CORREGGI, in ordine:
+
+1. FATTUALE (contro i dati sopra):
+   - Un campione si puo' dichiarare SOLO se e' tra i VINCITORI VERIFICATI. Se il
+     pezzo assegna un titolo a un torneo non verificato, riscrivi la frase senza
+     assegnare il campione.
+   - Nessun punteggio, numero, ranking o record inventato. Nessun giocatore o
+     match non presente nei dati. Non alterare i numeri.
+
+2. SENSO E COPY (qui si annidano gli errori piu' insidiosi):
+   - Nessun residuo di auto-correzione o editing lasciato nel testo (es.
+     "pardon", "scusate", "anzi no", "cioe'", un nome subito ritrattato da un
+     altro). Se c'e', tieni il nome/termine CORRETTO verificato nei dati ed
+     elimina il residuo.
+   - Nessuna parola fuori posto o priva di senso nel contesto (es. aggettivi
+     palesemente sbagliati), nessun refuso di concordanza (genere/numero),
+     nessuna frase contraddittoria, garbugliata o troncata.
+   - Nomi di giocatori e tornei scritti in modo coerente in tutto il pezzo.
+
+3. STILE: niente quote/bookmaker/scommesse, niente elenchi puntati, prosa fluida,
+   niente "in conclusione"/"in sintesi". Lunghezza del corpo 450-750 parole.
+
+**OUTPUT: un singolo JSON, nessun testo prima o dopo. Riporta SEMPRE tutti i campi
+con il testo corretto (se non serviva correggere, riportali identici):**
+```json
+{{
+  "verdict": "PASS se non hai cambiato nulla, FIX se hai corretto",
+  "problemi": ["elenco sintetico di cosa hai corretto, vuoto se PASS"],
+  "titolo": "...",
+  "sottotitolo": "...",
+  "descrizione": "...",
+  "corpo_markdown": "...",
+  "chiusura": "...",
+  "tag": ["..."]
+}}
+```
+"""
+
+
+def rivedi(art, data_block):
+    """Seconda passata: rilettura factuale + copy/senso del recap. Ritorna il
+    pezzo con i campi corretti. Robusta: su errore o output malformato tiene
+    l'originale (il recap non deve mai bloccare la pipeline)."""
+    import json as _json
+    campi = ['titolo', 'sottotitolo', 'descrizione', 'corpo_markdown', 'chiusura', 'tag']
+    try:
+        prompt = PROMPT_REVISIONE.format(
+            data_block=data_block,
+            articolo_json=_json.dumps({k: art.get(k) for k in campi}, ensure_ascii=False, indent=2),
+        )
+        rev = _claude_call(prompt, timeout=600)
+    except Exception as e:
+        print(f'  [revisione] errore ({e}): tengo la versione originale', flush=True)
+        return art
+    verdict = (rev.get('verdict') or '').upper()
+    problemi = rev.get('problemi') or []
+    # Applica solo i campi testuali validi restituiti dalla revisione.
+    corretto = dict(art)
+    for k in campi:
+        v = rev.get(k)
+        if k == 'tag':
+            if isinstance(v, list) and v:
+                corretto[k] = v
+        elif isinstance(v, str) and v.strip():
+            corretto[k] = v
+    if verdict == 'FIX' and problemi:
+        print(f'  [revisione] FIX, {len(problemi)} correzioni:', flush=True)
+        for p in problemi[:6]:
+            print(f'    - {p}', flush=True)
+    else:
+        print('  [revisione] PASS, nessuna correzione', flush=True)
+    return corretto
+
+
 def scrivi(giorno: date, gruppi, verificati, inizio, fine):
     today_human, _ = _today_strings()
+    data_block = _data_block(gruppi, verificati, inizio, fine)
     prompt = PROMPT_RECAP.format(
         today_human=today_human,
-        data_block=_data_block(gruppi, verificati, inizio, fine),
+        data_block=data_block,
     )
     art = _claude_call(prompt)
+
+    # Passata di revisione factuale + copy (mancava: qui nascevano i refusi di
+    # senso). Mirror leggero del fact-check a 3 pilastri degli articoli-match.
+    print('[recap] revisione factuale + copy...', flush=True)
+    art = rivedi(art, data_block)
 
     slug = f'{giorno.isoformat()}-la-settimana-nel-tennis'
     fm = {
@@ -234,5 +438,10 @@ if __name__ == '__main__':
     print('[recap] verifica vincitori via web...')
     verificati = verifica_vincitori(gruppi, fine.year)
     print(f'[recap] {len(verificati)} vincitori verificati')
+    # Persisti gli esiti verificati nel dataset /risultati (cresce ogni lunedi').
+    try:
+        salva_risultati(verificati, giorno.isoformat(), fine.year)
+    except Exception as e:
+        print(f'[risultati] errore salvataggio (non blocco): {e}', flush=True)
     out = scrivi(giorno, gruppi, verificati, inizio, fine)
     print(f'[recap] scritto {out}')

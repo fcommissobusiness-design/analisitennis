@@ -1,0 +1,171 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import datasetRisultati from '../data/risultati.json';
+
+const site = 'https://analisitennis.it';
+const risultati = (datasetRisultati?.risultati || []);
+
+// Anno piu' recente presente (per titolo e intro). Fallback: anno corrente.
+const anni = [...new Set(risultati.map(r => r.anno).filter(Boolean))].sort((a, b) => b - a);
+const annoTop = anni[0] || new Date().getFullYear();
+
+// Raggruppa per settimana (lunedi' di pubblicazione), piu' recente prima.
+const perSettimana = new Map();
+for (const r of risultati) {
+  const k = r.settimana || 'senza-data';
+  if (!perSettimana.has(k)) perSettimana.set(k, []);
+  perSettimana.get(k).push(r);
+}
+const settimane = [...perSettimana.entries()].sort((a, b) => (b[0] > a[0] ? 1 : -1));
+
+function dataUmana(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+  if (!m) return iso || '';
+  const mesi = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+  return `${parseInt(m[3],10)} ${mesi[parseInt(m[2],10)-1]} ${m[1]}`;
+}
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Risultati tennis ${annoTop}`,
+  numberOfItems: risultati.length,
+  itemListElement: risultati.slice(0, 100).map((r, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: `${r.torneo_display || r.torneo} ${r.anno}: ha vinto ${r.vincitore}`,
+    url: r.slug_torneo ? `${site}/tornei/${r.slug_torneo}` : `${site}/risultati`,
+  })),
+};
+
+const descrizione = `Risultati e vincitori dei tornei di tennis ${annoTop}: campioni ATP e WTA settimana per settimana, finali e punteggi. Esiti verificati dalla Redazione AnalisiTennis.`;
+---
+<Base
+  titolo={`Risultati tennis ${annoTop} - Vincitori tornei ATP e WTA | AnalisiTennis`}
+  descrizione={descrizione}
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Risultati' }]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <h1>Risultati <span class="verde">tennis</span> {annoTop}</h1>
+      <p>I vincitori dei tornei ATP e WTA, settimana per settimana: finali, punteggi e protagonisti. Riportiamo solo esiti verificati, con la fonte.</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {risultati.length === 0 ? (
+          <p class="ris-vuoto">Il quadro dei risultati si popola ogni lunedi' con i campioni della settimana appena conclusa. Torna a trovarci: la stagione e' lunga.</p>
+        ) : (
+          settimane.map(([sett, lista]) => (
+            <section class="ris-settimana">
+              <h2 class="ris-sett-titolo">Settimana del {dataUmana(sett)}</h2>
+              <ul class="ris-grid">
+                {lista.map(r => (
+                  <li class="ris-card">
+                    <div class="ris-top">
+                      {r.categoria && <span class={`ris-badge cat-${(r.categoria||'').toLowerCase()}`}>{r.categoria}</span>}
+                      <span class="ris-torneo">
+                        {r.slug_torneo
+                          ? <a href={`/tornei/${r.slug_torneo}`}>{r.torneo_display || r.torneo}</a>
+                          : (r.torneo_display || r.torneo)}
+                        {r.superficie ? <span class="ris-sup"> · {r.superficie}</span> : ''}
+                      </span>
+                    </div>
+                    <div class="ris-vincitore">
+                      <span class="ris-coppa" aria-hidden="true">🏆</span>
+                      {r.vincitore_slug
+                        ? <a href={`/giocatori/${r.vincitore_slug}`}>{r.vincitore}</a>
+                        : <span>{r.vincitore}</span>}
+                    </div>
+                    {(r.finalista || r.punteggio) && (
+                      <div class="ris-finale">
+                        {r.finalista && (<>
+                          in finale su {r.finalista_slug
+                            ? <a href={`/giocatori/${r.finalista_slug}`}>{r.finalista}</a>
+                            : <span>{r.finalista}</span>}
+                        </>)}
+                        {r.punteggio && <span class="ris-score"> {r.punteggio}</span>}
+                      </div>
+                    )}
+                    {r.fonte && (
+                      <div class="ris-fonte">
+                        <a href={r.fonte} target="_blank" rel="nofollow noopener">fonte</a>
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+</Base>
+
+<style>
+  .ris-vuoto {
+    color: var(--testo-secondario, #6b7280);
+    padding: 40px 0 60px;
+    font-size: 1.05rem;
+    max-width: 640px;
+  }
+  .ris-settimana { margin-bottom: 40px; }
+  .ris-sett-titolo {
+    font-size: 1.15rem;
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--brand-verde, #39d453);
+    display: inline-block;
+  }
+  .ris-grid {
+    list-style: none; padding: 0; margin: 0 0 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+  }
+  .ris-card {
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 10px;
+    padding: 16px 18px;
+    min-width: 0;
+  }
+  .ris-top { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+  .ris-badge {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em;
+    padding: 2px 8px; border-radius: 999px;
+    background: var(--brand-verde-chiaro, #e4f8ea); color: var(--brand-verde-scuro, #1e9c37);
+  }
+  .ris-badge.cat-wta { background: #fdeaf3; color: #b03a76; }
+  .ris-badge.cat-slam { background: #eae6fb; color: #5b45b0; }
+  .ris-torneo { font-weight: 600; font-size: 0.95rem; }
+  .ris-torneo a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; }
+  .ris-torneo a:hover { border-bottom-color: var(--brand-verde, #39d453); }
+  .ris-sup { color: var(--testo-secondario, #6b7280); font-weight: 400; text-transform: capitalize; }
+  .ris-vincitore {
+    font-size: 1.18rem; font-weight: 700; color: var(--testo, #1a1a1a);
+    display: flex; align-items: center; gap: 8px; line-height: 1.3;
+  }
+  .ris-vincitore a { color: var(--brand-verde-scuro, #1e9c37); text-decoration: none; }
+  .ris-vincitore a:hover { text-decoration: underline; }
+  .ris-coppa { font-size: 1rem; }
+  .ris-finale { font-size: 0.9rem; color: var(--testo-secondario, #6b7280); margin-top: 6px; }
+  .ris-finale a { color: inherit; text-decoration: underline; text-decoration-color: rgba(0,0,0,0.2); }
+  .ris-score { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--testo, #1a1a1a); }
+  .ris-fonte { margin-top: 10px; font-size: 0.78rem; }
+  .ris-fonte a { color: var(--testo-secondario, #6b7280); }
+  @media (max-width: 560px) {
+    .ris-grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -224,6 +224,18 @@ strong { font-weight: 700; color: var(--testo); }
   color: var(--brand-verde-scuro);
   font-weight: 700;
 }
+/* Link interni auto-generati (hub giocatori/tornei): discreti nel flusso di
+   lettura, sottolineatura leggera che si rinforza all'hover. */
+.articolo-corpo a.auto-link {
+  color: var(--brand-verde-scuro);
+  text-decoration: underline;
+  text-decoration-color: rgba(30, 156, 55, 0.35);
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.articolo-corpo a.auto-link:hover {
+  text-decoration-color: var(--brand-verde-scuro);
+}
 .articolo-corpo h2 {
   font-size: 1.5rem;
   margin: 2em 0 0.6em;
