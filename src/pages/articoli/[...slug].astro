@@ -273,10 +273,17 @@ const faq = {
         <ProbabilitaVittoria g1={g1Display} g2={g2Display} verdetto={d.verdetto} favorito={d.probabilita_favorito} percent={d.probabilita_percent} />
       )}
 
-      <div class="verdetto" id="pronostico">
-        <div class="label">Il nostro pronostico</div>
-        <p>{d.verdetto}</p>
-      </div>
+      {d.giocatore1 !== 'Redazione' ? (
+        <div class="verdetto" id="pronostico">
+          <div class="label">Il nostro pronostico</div>
+          <p>{d.verdetto}</p>
+        </div>
+      ) : (
+        <div class="verdetto">
+          <div class="label">Il punto della Redazione</div>
+          <p>{d.verdetto}</p>
+        </div>
+      )}
 
       <ShareButtons url={`${site}/articoli/${articolo.slug}`} titolo={d.titolo} />
 

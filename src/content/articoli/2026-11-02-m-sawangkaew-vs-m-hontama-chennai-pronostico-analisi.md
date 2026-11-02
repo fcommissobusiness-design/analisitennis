@@ -23,7 +23,7 @@ probabilita_favorito: "Sawangkaew"
 probabilita_percent: 53
 generato_il: "2026-11-02T07:16"
 cover_image: "/covers/2026-11-02-m-sawangkaew-vs-m-hontama-chennai-pronostico-analisi.jpg"
-cover_credit: "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+cover_credit: "AEC Indoor Tennis Courts.jpg | Seyhan668 | CC BY-SA 4.0"
 ---
 
 Il primo turno del torneo di **Chennai** mette di fronte due giocatrici dal percorso recente sorprendentemente simile. Mananchaya **Sawangkaew**, thailandese, e Mai **Hontama**, giapponese, arrivano all'appuntamento sul cemento indiano senza essersi mai affrontate in un match ufficiale registrato: un esordio assoluto nel loro confronto personale, che toglie alla vigilia ogni riferimento diretto e lascia spazio soltanto alla lettura della forma e delle rispettive tendenze.
