@@ -2350,9 +2350,17 @@
     "slug_p2": "carlos-alcaraz",
     "bilancio": {
       "p1": 0,
-      "p2": 6
+      "p2": 7
     },
     "precedenti": [
+      {
+        "data": "2026-11-01",
+        "torneo": "Vienna",
+        "g1": "A. De Minaur",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-01-27",
         "torneo": "Australian Open",
@@ -2399,6 +2407,130 @@
         "g1": "C. Alcaraz",
         "g2": "A. De Minaur",
         "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "cameron-norrie-vs-matteo-arnaldi": {
+    "p1": "Cameron Norrie",
+    "p2": "Matteo Arnaldi",
+    "slug_p1": "cameron-norrie",
+    "slug_p2": "matteo-arnaldi",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2023-09-02",
+        "torneo": "ATP US Open",
+        "g1": "M. Arnaldi",
+        "g2": "C. Norrie",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "luciano-darderi-vs-rinky-hijikata": {
+    "p1": "Luciano Darderi",
+    "p2": "Rinky Hijikata",
+    "slug_p1": "luciano-darderi",
+    "slug_p2": "rinky-hijikata",
+    "bilancio": {
+      "p1": 2,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-02",
+        "torneo": "Paris",
+        "g1": "L. Darderi",
+        "g2": "R. Hijikata",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-08-15",
+        "torneo": "Cincinnati",
+        "g1": "L. Darderi",
+        "g2": "R. Hijikata",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-03-08",
+        "torneo": "ATP Indian Wells",
+        "g1": "R. Hijikata",
+        "g2": "L. Darderi",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-08-24",
+        "torneo": "US Open",
+        "g1": "L. Darderi",
+        "g2": "R. Hijikata",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-05-28",
+        "torneo": "ATP French Open",
+        "g1": "R. Hijikata",
+        "g2": "L. Darderi",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "hubert-hurkacz-vs-lorenzo-musetti": {
+    "p1": "Hubert Hurkacz",
+    "p2": "Lorenzo Musetti",
+    "slug_p1": "hubert-hurkacz",
+    "slug_p2": "lorenzo-musetti",
+    "bilancio": {
+      "p1": 2,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-02",
+        "torneo": "Paris",
+        "g1": "L. Musetti",
+        "g2": "H. Hurkacz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2026-04-24",
+        "torneo": "Madrid",
+        "g1": "H. Hurkacz",
+        "g2": "L. Musetti",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-07-07",
+        "torneo": "ATP Wimbledon",
+        "g1": "L. Musetti",
+        "g2": "H. Hurkacz",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-02-09",
+        "torneo": "Rotterdam",
+        "g1": "H. Hurkacz",
+        "g2": "L. Musetti",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-06-29",
+        "torneo": "Wimbledon",
+        "g1": "H. Hurkacz",
+        "g2": "L. Musetti",
+        "risultato": "3 - 0",
         "winner": "First Player"
       }
     ]
