@@ -388,6 +388,11 @@ strong { font-weight: 700; color: var(--testo); }
      tagliava teste e cartelli (Berrettini, Vacherot-Navone). */
   object-position: center 25%;
   transition: transform 300ms ease;
+  /* Finche' la foto non e' arrivata il browser disegna l'alt-text: in verde
+     sopra il riquadro grigio sembrava un'immagine rotta. Reso trasparente,
+     il posto resta un placeholder pulito. L'attributo alt resta nel DOM per
+     accessibilita' e SEO. */
+  color: transparent;
 }
 .card-articolo .card-cover:hover img { transform: scale(1.04); }
 .card-articolo .eyebrow {

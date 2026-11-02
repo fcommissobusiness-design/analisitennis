@@ -1,5 +1,5 @@
 ---
-titolo: "Chennai, Yamalapalli-Waltert: esordio da decifrare"
+titolo: "A Chennai Waltert arriva da Ningbo, Yamalapalli dall'ITF"
 sottotitolo: "Primo turno sul veloce di Chennai tra due giocatrici che non si sono mai affrontate: percorsi diversi e uguale voglia di punti."
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

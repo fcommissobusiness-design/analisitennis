@@ -1,5 +1,5 @@
 ---
-titolo: "Volynets-Sasnovich, primo turno di Hong Kong da seguire"
+titolo: "Volynets-Sasnovich a Hong Kong, i precedenti contro la forma"
 sottotitolo: "Tre precedenti tutti dalla stessa parte ma una forma recente che racconta un'altra storia: cosa aspettarsi da questa sfida d'apertura."
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

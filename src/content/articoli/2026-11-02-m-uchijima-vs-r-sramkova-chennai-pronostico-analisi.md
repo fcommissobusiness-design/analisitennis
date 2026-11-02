@@ -1,5 +1,5 @@
 ---
-titolo: "Chennai, esordio tra Uchijima e Sramkova: chi comanda?"
+titolo: "Chennai, Sramkova in fiducia, Uchijima insidia sul cemento"
 sottotitolo: "Un solo precedente in stagione, due stati di forma opposti e un cemento indiano tutto da decifrare: il primo turno promette scintille."
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

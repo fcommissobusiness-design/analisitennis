@@ -1,5 +1,5 @@
 ---
-titolo: "Musetti-Hurkacz: sfida indoor al primo turno di Parigi"
+titolo: "Musetti, il titolo di Lione ribalta l'inerzia con Hurkacz a Parigi"
 sottotitolo: "Due giocatori reduci da settimane positive si ritrovano al coperto nella capitale francese, con una serie di scontri diretti divisa a metà"
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

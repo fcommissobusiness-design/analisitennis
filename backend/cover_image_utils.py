@@ -28,6 +28,45 @@ JPEG_QUALITY = 82
 # WebP: ~30% piu' leggero del JPEG a parita' di qualita' visiva. Servito
 # via <picture> con fallback JPEG. Migliora Core Web Vitals e Google Discover.
 WEBP_QUALITY = 80
+# Variante CARD: le card di home/oggi si vedono a ~440px CSS, ma finora
+# scaricavano la cover piena da 1600px (~144 KB in WebP). Con 12 card
+# rivelate insieme sono ~1,7 MB in un colpo: le immagini restano in coda e
+# per qualche secondo il browser mostra l'alt-text = sembrano rotte.
+# 800px copre il retina 2x su una card da 400px pesando ~3x meno.
+CARD_WIDTH = 800
+CARD_QUALITY = 76
+CARD_SUFFIX = '-card.webp'
+
+
+def card_path(path: Path) -> Path:
+    """Percorso della variante card per una cover JPEG."""
+    return path.with_name(path.stem + CARD_SUFFIX)
+
+
+def ensure_card_variant(path: Path, im=None) -> bool:
+    """Genera la variante card (WebP stretto) accanto alla cover.
+    `im` opzionale: immagine gia' aperta/processata, per non riaprire il file.
+    Non solleva: su errore ritorna False e la pipeline prosegue."""
+    try:
+        dest = card_path(path)
+        if im is None:
+            with Image.open(path) as src:
+                src = ImageOps.exif_transpose(src)
+                if src.mode != 'RGB':
+                    src = src.convert('RGB')
+                return _save_card(src, dest)
+        return _save_card(im, dest)
+    except Exception as e:
+        print(f'  [warn] card variant fallita {path.name}: {e}')
+        return False
+
+
+def _save_card(im, dest: Path) -> bool:
+    if im.width > CARD_WIDTH:
+        scale = CARD_WIDTH / im.width
+        im = im.resize((CARD_WIDTH, round(im.height * scale)), Image.LANCZOS)
+    im.save(dest, 'WEBP', quality=CARD_QUALITY, method=6)
+    return True
 # Soglia oltre cui una cover e' considerata "troppo pesante" per il web.
 # Usata dall'audit per decidere se ri-processare un file gia' pertinente.
 MAX_BYTES = 400 * 1024  # 400 KB
@@ -85,6 +124,8 @@ def ensure_web_size(path: Path, max_long: int = MAX_LONG_SIDE,
                 im.save(path.with_suffix('.webp'), 'WEBP', quality=WEBP_QUALITY, method=6)
             except Exception as e:
                 print(f'  [warn] webp fallito {path.name}: {e}')
+            # Variante stretta per le card di home/oggi (vedi CARD_WIDTH).
+            ensure_card_variant(path, im.copy())
         after_bytes = path.stat().st_size
         info.update({
             'before': f'{before_w}x{before_h} {before_bytes // 1024}KB',

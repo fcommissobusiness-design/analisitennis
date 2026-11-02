@@ -1,5 +1,5 @@
 ---
-titolo: "Sakkari sfida C. Y. Lee all'esordio del WTA di Hong Kong"
+titolo: "Hong Kong, Sakkari contro Lee: ritmo e profondità da fondo"
 sottotitolo: "Da una parte una stagione tra i grandi tornei, dall'altra una finalista a caccia di conferme: chi parte meglio all'esordio?"
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

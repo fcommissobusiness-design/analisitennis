@@ -104,6 +104,26 @@ fi
 log_section "[4/5] Scrittura articoli"
 python3 write_article.py "selected_${OGGI}.json" "analyses" 2>&1 | tee -a "$LOG"
 
+# 4-TURNI. Gate FASE DEL TORNEO: ogni volta che un articolo nomina il turno,
+# quel turno dev'essere esattamente quello reale. verify_rounds.py (step 2-bis)
+# verifica UN turno per TORNEO prima della generazione, ma in un torneo vero
+# piu' turni convivono nello stesso giorno (a Parigi il martedi' si giocano
+# primo e secondo turno insieme): qui si verifica MATCH PER MATCH via web sul
+# testo pubblicato, e si corregge. Due stadi, cosi' non riscrive testo giusto:
+# regex trova i candidati, poi un arbitrato distingue la fase di oggi dai
+# riferimenti al passato ("reduce da una finale"). Non blocca la pipeline.
+log_section "[4-TURNI/5] Verifica fase del torneo dichiarata negli articoli"
+python3 check_round_claims.py --date="${OGGI}" --fix 2>&1 | tee -a "$LOG" || true
+
+# 4-TITOLI. Gate ANTI-BIAS sul copy dei titoli. Ogni articolo e' generato in
+# una chiamata separata, quindi il modello non sa cosa ha gia' scritto negli
+# altri e ricade sulle stesse stampelle (il 02/11: "esordio" in 8 titoli su 17
+# e "primo turno" in 5). Qui si misura la varieta' sull'intera giornata e si
+# riscrivono i titoli in eccesso. Gira DOPO il gate turni, cosi' il titolo
+# riscritto cita la fase corretta. Non blocca la pipeline.
+log_section "[4-TITOLI/5] Gate anti-bias sui titoli della giornata"
+python3 check_title_bias.py --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
+
 # 4-bis. Audit cover: ogni articolo deve avere cover corretta, pertinente,
 # non sfasata. Lo script corregge in-place le cover problematiche (file
 # mancanti, foto non-tennis, favorito con foto Commons disponibile ma

@@ -1,5 +1,5 @@
 ---
-titolo: "Darderi-Hijikata a Paris: un primo turno da tre set?"
+titolo: "Hijikata arriva lanciato, Darderi lo aspetta a Paris"
 sottotitolo: "Quattro precedenti in parità e due autunni dalle traiettorie diverse: sul veloce indoor di Paris Darderi e Hijikata si ritrovano subito."
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

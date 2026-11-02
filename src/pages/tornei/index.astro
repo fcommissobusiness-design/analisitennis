@@ -50,7 +50,10 @@ const itemList = {
                 <a href={`/tornei/${t.slug_profilo}`}>
                   {t.cover_image && (
                     <div class="hub-cover">
-                      <img src={t.cover_image} alt={`${t.nome} ${t.anno}`} loading="lazy" decoding="async" width="440" height="200" />
+                      <picture>
+                        <source srcset={t.cover_image.replace(/\.jpg$/, '-card.webp')} type="image/webp" />
+                        <img src={t.cover_image} alt={`${t.nome} ${t.anno}`} loading="lazy" decoding="async" width="440" height="200" />
+                      </picture>
                     </div>
                   )}
                   <div class="hub-body">
@@ -97,11 +100,15 @@ const itemList = {
     background: #e9eef2;
     overflow: hidden;
   }
+  .hub-cover picture { display: block; width: 100%; height: 100%; }
   .hub-cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
+    /* alt-text trasparente durante il caricamento: il riquadro resta un
+       placeholder pulito invece di sembrare un'immagine rotta. */
+    color: transparent;
   }
   .hub-body { padding: 14px 16px; }
   .hub-nome { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }

@@ -1,5 +1,5 @@
 ---
-titolo: "Hong Kong, l'esordio di Williams contro Stoiana"
+titolo: "Hong Kong, Williams senza ritmo contro la continuità di Stoiana"
 sottotitolo: "Due calendari agli antipodi si incrociano al primo turno sul cemento asiatico: nessun precedente a fare da guida"
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

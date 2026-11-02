@@ -1,5 +1,5 @@
 ---
-titolo: "Sawangkaew sfida Hontama all'esordio di Chennai"
+titolo: "Sawangkaew e Hontama, equilibrio senza storia sul cemento di Chennai"
 sottotitolo: "Due giocatrici dallo stesso bilancio recente e nessun precedente: il primo turno sul cemento indiano è una pagina tutta da scrivere."
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"

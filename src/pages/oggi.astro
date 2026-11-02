@@ -80,7 +80,7 @@ const itemList = {
                       {art.data.cover_image && (
                         <a class="card-cover" href={`/articoli/${art.slug}`} aria-label={art.data.titolo}>
                           <picture>
-                            <source srcset={art.data.cover_image.replace(/\.jpg$/, '.webp')} type="image/webp" />
+                            <source srcset={art.data.cover_image.replace(/\.jpg$/, '-card.webp')} type="image/webp" />
                             <img src={art.data.cover_image} alt={`${art.data.giocatore1} vs ${art.data.giocatore2}`} width="640" height="360" loading={i < 2 ? 'eager' : 'lazy'} decoding="async" />
                           </picture>
                         </a>

@@ -1,5 +1,5 @@
 ---
-titolo: "Xin Wang-Karunaratne: a Hong Kong un esordio inedito"
+titolo: "Xin Wang dal circuito maggiore, Karunaratne dall'ITF a Hong Kong"
 sottotitolo: "Al primo turno del WTA di Hong Kong si incrociano per la prima volta due giocatrici dai percorsi recenti molto diversi."
 data: "2026-11-02"
 autore: "Redazione AnalisiTennis"
