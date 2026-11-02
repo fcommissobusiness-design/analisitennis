@@ -155,7 +155,7 @@ const faqHome = {
                   </picture>
                 </a>
               )}
-              <div class="eyebrow">{art.data.categoria} - {art.data.torneo}</div>
+              <div class="eyebrow">{art.data.giocatore1 === 'Redazione' ? 'Editoriale' : `${art.data.categoria} - ${art.data.torneo}`}</div>
               <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
               <p class="sottotitolo">{art.data.sottotitolo}</p>
               <div class="data">

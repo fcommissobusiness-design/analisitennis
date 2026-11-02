@@ -224,7 +224,7 @@ const faq = {
         />
       ) : (
         <>
-          <div class="articolo-eyebrow">{d.categoria} - {d.torneo} - {d.superficie}</div>
+          <div class="articolo-eyebrow">{d.giocatore1 === 'Redazione' ? 'Editoriale' : `${d.categoria} - ${d.torneo} - ${d.superficie}`}</div>
           <h1 class="articolo-titolo">{d.titolo}</h1>
           <p class="articolo-sottotitolo">{d.sottotitolo}</p>
         </>
@@ -333,7 +333,7 @@ const faq = {
             {correlati.map(c => (
               <li>
                 <a href={`/articoli/${c.slug}`}>
-                  <div class="corr-eyebrow">{c.data.categoria} · {c.data.torneo}</div>
+                  <div class="corr-eyebrow">{c.data.giocatore1 === 'Redazione' ? 'Editoriale' : `${c.data.categoria} · ${c.data.torneo}`}</div>
                   <div class="corr-titolo">{c.data.titolo}</div>
                   <div class="corr-data">{new Date(c.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long' })}</div>
                 </a>
