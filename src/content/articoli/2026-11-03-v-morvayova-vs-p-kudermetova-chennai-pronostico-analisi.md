@@ -1,6 +1,6 @@
 ---
-titolo: "Chennai, Morvayova reduce dalla finale incrocia Kudermetova"
-sottotitolo: "Una arriva da una finale appena giocata sul cemento di Chennai, l'altra dal titolo di Ningbo: due calendari lontanissimi che si incontrano."
+titolo: "Chennai, Morvayova reduce dalle qualificazioni incrocia Kudermetova"
+sottotitolo: "Una arriva dalle qualificazioni appena giocate sul cemento di Chennai, l'altra dal titolo di Ningbo: due calendari lontanissimi che si incontrano."
 data: "2026-11-03"
 autore: "Redazione AnalisiTennis"
 torneo: "Chennai"
@@ -17,7 +17,7 @@ tag:
   - "primo turno"
   - "tennis femminile"
 verdetto: "Oggi nettamente Kudermetova: il suo ottobre di alto livello, chiuso con il titolo di Ningbo su Zakharova e arricchito da scalpi pesanti nei tabelloni maggiori, pesa più della pur positiva settimana vissuta da Morvayova sui tornei di categoria inferiore."
-descrizione: "A Chennai Morvayova, reduce da una finale, affronta Kudermetova, reduce dal titolo di Ningbo: due percorsi diversi senza precedenti diretti sul cemento."
+descrizione: "A Chennai Morvayova, reduce dalle qualificazioni, affronta Kudermetova, reduce dal titolo di Ningbo: due percorsi diversi senza precedenti diretti sul cemento."
 pubblicato: true
 probabilita_favorito: "Kudermetova"
 probabilita_percent: 69
@@ -29,7 +29,7 @@ cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | Th
 Il **primo turno** del torneo di Chennai mette di fronte due giocatrici che raggiungono lo stesso appuntamento percorrendo strade molto diverse. Da una parte Morvayova, reduce da una settimana vissuta fino in fondo proprio sul cemento indiano; dall'altra Kudermetova, che rientra dopo un autunno trascorso quasi interamente nei tabelloni del circuito maggiore. Le due non si sono mai incontrate prima, e questo aggiunge un margine di incognita a una partita costruita soprattutto sul contrasto tra i rispettivi percorsi recenti.
 
 ### Il cammino a Chennai
-Morvayova si presenta con le gambe già rodate. Pochi giorni fa, l'1 novembre, ha raggiunto la finale a **Chennai**, arrendendosi a Falkowska soltanto al terzo set dopo aver superato Bhamidipaty in semifinale. È il punto più alto di un periodo intenso, in cui ha alternato impegni di livello diverso: il tabellone del W100 di Wrexham, dove aveva battuto Raina prima di fermarsi contro Jacquemot, e ancora prima le qualificazioni di Lisbona. Un'attività fitta, tutta orientata alla ricerca di continuità sui campi veloci e condita da una buona dose di partite ravvicinate.
+Morvayova si presenta con le gambe già rodate. Pochi giorni fa, l'1 novembre, ha giocato l'ultimo turno di qualificazione a **Chennai**, arrendendosi a Falkowska soltanto al terzo set dopo aver superato Bhamidipaty nel turno precedente. È il punto più alto di un periodo intenso, in cui ha alternato impegni di livello diverso: il tabellone del W100 di Wrexham, dove aveva battuto Raina prima di fermarsi contro Jacquemot, e ancora prima le qualificazioni di Lisbona. Un'attività fitta, tutta orientata alla ricerca di continuità sui campi veloci e condita da una buona dose di partite ravvicinate.
 
 ### Il mese di ottobre di Kudermetova
 Kudermetova, dal canto suo, ha vissuto un ottobre di primo piano. A Ningbo ha messo in fila più successi, culminati nella vittoria in finale su Zakharova e preceduti dai turni superati con Sawangkaew e Bucsa, confermandosi a suo agio quando il torneo entra nelle fasi decisive. Prima ancora, a Pechino, aveva superato Ma e Tauson prima di cedere ad Andreeva, mentre a Wuhan si era spinta fino alla semifinale, fermata da Volynets. L'ultima uscita, però, racconta anche le insidie del calendario: a Guangzhou è uscita al primo incontro contro Tjen.
@@ -43,4 +43,4 @@ Il cemento di **Chennai** premia chi riesce a imporre ritmo fin dai primi scambi
 ### Scontri diretti
 Sul piano dei precedenti non c'è nulla a cui appigliarsi: le due non si sono mai affrontate, almeno stando all'archivio dei confronti ufficiali. Significa che nessuna potrà contare su riferimenti diretti né su un ricordo favorevole da sfruttare sul piano mentale. Sarà un confronto da costruire in corsa, in cui conteranno la lettura dei primi game, la reattività nei cambi di direzione e la rapidità nell'adattarsi alle soluzioni dell'avversaria.
 
-Un avvio di torneo sul veloce, con due giocatrici che hanno appena vissuto settimane piene, tende a riservare un inizio nervoso, in cui la continuità al servizio e la solidità nei momenti di tensione fanno la differenza. Da un lato la freschezza agonistica di chi ha appena disputato una finale, dall'altro l'esperienza accumulata ai piani alti del circuito: sono questi gli ingredienti principali di una partita che promette equilibrio, almeno nelle sue battute iniziali.
+Un avvio di torneo sul veloce, con due giocatrici che hanno appena vissuto settimane piene, tende a riservare un inizio nervoso, in cui la continuità al servizio e la solidità nei momenti di tensione fanno la differenza. Da un lato la freschezza agonistica di chi ha appena disputato le qualificazioni, dall'altro l'esperienza accumulata ai piani alti del circuito: sono questi gli ingredienti principali di una partita che promette equilibrio, almeno nelle sue battute iniziali.
