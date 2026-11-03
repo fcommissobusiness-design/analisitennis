@@ -209,6 +209,20 @@ def build_data_block(match):
 DATI AUTORITATIVI API TENNIS - FONTE UNICA DELLA VERITA'
 Non inventare dati non presenti qui sotto. Non desumere score o
 risultati da nomi di tornei. Usa ESCLUSIVAMENTE questi record.
+
+REGOLA FASI E QUALIFICAZIONI (OBBLIGATORIA): rispetta ALLA LETTERA il
+campo round di ogni match. Un round di qualificazione (etichette tipo
+"Qualifying", "Qual.", "Q1"/"Q2"/"Q3", "Qualifying Final", "qualificazioni")
+NON e' la finale ne' il titolo del torneo: descrivilo come "qualificazione"
+o "ultimo turno di qualificazione", MAI come "finale", "ultimo atto",
+"atto conclusivo", "titolo" o "vincitore/vincitrice del torneo". Non
+scrivere mai che un giocatore ha "raggiunto la finale" o "vinto il titolo"
+di un torneo se il round non e' ESATTAMENTE la finale del tabellone
+principale. CONTROLLO DI PLAUSIBILITA': se i dati sembrano attribuire a un
+giocatore di bassa classifica una finale o un titolo in un grande torneo
+(Slam, Masters 1000, WTA 1000/500), e' quasi certamente una qualificazione
+o un evento di categoria inferiore: usa formule prudenti ("ha fatto strada",
+"un buon risultato") senza attribuire finali o titoli non reali.
 ================================================================
 
 PRECEDENTI DIRETTI {p1} vs {p2}:
