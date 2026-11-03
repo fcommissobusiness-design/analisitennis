@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { playerSlug, slugify } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
+import profilesEn from '../../data/profiles-en.json';
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
@@ -106,6 +107,14 @@ if (d.stile_gioco) faqItems.push({ q: `Che stile di gioco ha ${d.nome}?`, a: `Il
 if (d.superficie_preferita) faqItems.push({ q: `Qual e' la superficie preferita di ${d.nome}?`, a: `${d.nome} rende al meglio su ${d.superficie_preferita}.` });
 if (d.titoli) faqItems.push({ q: `Quali titoli ha vinto ${d.nome}?`, a: `In carriera ${d.nome} ha conquistato ${d.titoli}.` });
 
+// hreflang reciproco verso la versione inglese, solo se esiste (pilota EN).
+const enAlternates = profilesEn[d.slug_profilo]
+  ? [
+      { lang: 'it', href: `${site}/giocatori/${d.slug_profilo}` },
+      { lang: 'en', href: `${site}/en/players/${d.slug_profilo}` },
+    ]
+  : [];
+
 const faqSchema = faqItems.length >= 2 ? {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -120,6 +129,7 @@ const faqSchema = faqItems.length >= 2 ? {
   titolo={`${d.nome}${d.nazionalita ? ` (${d.nazionalita})` : ''} - Profilo, carriera e analisi - AnalisiTennis`}
   descrizione={d.descrizione}
   tipo="article"
+  alternates={enAlternates}
 >
   <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />

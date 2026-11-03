@@ -9,8 +9,15 @@ const {
   descrizione = 'Analisi autoriali sulle partite di tennis più attese del circuito ATP, WTA e Challenger. Il tennis letto nei numeri, firmato dalla Redazione AnalisiTennis.',
   immagine,
   canonical,
-  tipo = 'website'
+  tipo = 'website',
+  // i18n: lang della pagina ('it' default) e lista completa delle versioni
+  // linguistiche [{lang, href}] (incluso se stessa) per hreflang reciproco.
+  lang = 'it',
+  alternates = []
 } = Astro.props;
+const ogLocale = lang === 'en' ? 'en_US' : 'it_IT';
+const hreflangOf = (l) => (l === 'it' ? 'it-it' : l);
+const xDefaultHref = (alternates.find(a => a.lang === 'it') || alternates[0] || {}).href;
 
 // Astro con build.format: 'file' (default per Cloudflare Pages) genera
 // pagine con estensione .html nel pathname. Google interpreta .html come
@@ -75,7 +82,7 @@ const siteWeb = {
 };
 ---
 <!DOCTYPE html>
-<html lang="it">
+<html lang={lang}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -104,7 +111,7 @@ const siteWeb = {
   <meta property="og:title" content={titolo} />
   <meta property="og:description" content={descrizione} />
   <meta property="og:url" content={url} />
-  <meta property="og:locale" content="it_IT" />
+  <meta property="og:locale" content={ogLocale} />
   <meta property="og:site_name" content="AnalisiTennis" />
   <meta property="og:image" content={ogImage} />
   <meta property="og:image:alt" content="AnalisiTennis" />
@@ -123,9 +130,21 @@ const siteWeb = {
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="AnalisiTennis" href="/rss.xml" />
 
-  <!-- Hreflang: segnala a Google che il sito e' italiano -->
-  <link rel="alternate" hreflang="it-it" href={url} />
-  <link rel="alternate" hreflang="x-default" href={url} />
+  <!-- Hreflang: se la pagina ha versioni linguistiche (alternates) emette un
+       set reciproco it<->en + x-default; altrimenti segnala solo l'italiano. -->
+  {alternates.length > 0 ? (
+    <>
+      {alternates.map(a => (
+        <link rel="alternate" hreflang={hreflangOf(a.lang)} href={a.href} />
+      ))}
+      {xDefaultHref && <link rel="alternate" hreflang="x-default" href={xDefaultHref} />}
+    </>
+  ) : (
+    <>
+      <link rel="alternate" hreflang="it-it" href={url} />
+      <link rel="alternate" hreflang="x-default" href={url} />
+    </>
+  )}
 
   <!-- Prefetch per performance Core Web Vitals -->
   <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
@@ -152,11 +171,43 @@ const siteWeb = {
   </script>
 </head>
 <body>
-  <Header />
+  {lang === 'en' ? (
+    <header class="en-chrome en-top">
+      <div class="en-inner">
+        <a href="/en" class="en-logo">AnalisiTennis</a>
+        {xDefaultHref && <a href={xDefaultHref} class="en-switch" hreflang="it-it" rel="alternate">Leggi in italiano</a>}
+      </div>
+    </header>
+  ) : (
+    <Header />
+  )}
   <main>
     <slot />
   </main>
-  <Footer />
-  <CookieBanner />
+  {lang === 'en' ? (
+    <footer class="en-chrome en-bottom">
+      <div class="en-inner">
+        <p>AnalisiTennis — tennis read through the numbers. Editorial analysis of ATP and WTA players and matches.</p>
+        {xDefaultHref && <p><a href={xDefaultHref} hreflang="it-it" rel="alternate">Versione italiana</a></p>}
+      </div>
+    </footer>
+  ) : (
+    <>
+      <Footer />
+      <CookieBanner />
+    </>
+  )}
 </body>
 </html>
+{lang === 'en' && (
+  <style is:global>
+    .en-chrome { background: #0a0e14; color: #fff; }
+    .en-chrome .en-inner { max-width: 1120px; margin: 0 auto; padding: 16px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .en-top .en-logo { color: #39d453; font-weight: 800; font-size: 1.2rem; text-decoration: none; letter-spacing: -0.5px; }
+    .en-chrome .en-switch, .en-bottom a { color: #9fb0c3; text-decoration: none; font-size: 0.9rem; }
+    .en-chrome .en-switch:hover, .en-bottom a:hover { color: #39d453; }
+    .en-bottom { margin-top: 48px; }
+    .en-bottom .en-inner { flex-direction: column; align-items: flex-start; gap: 6px; }
+    .en-bottom p { margin: 0; color: #9fb0c3; font-size: 0.88rem; }
+  </style>
+)}

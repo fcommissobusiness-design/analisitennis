@@ -1,0 +1,83 @@
+---
+import Base from '../../../layouts/Base.astro';
+import profilesEn from '../../../data/profiles-en.json';
+
+export async function getStaticPaths() {
+  return Object.entries(profilesEn).map(([slug, d]) => ({ params: { slug }, props: { slug, d } }));
+}
+
+const { slug, d } = Astro.props;
+const site = 'https://analisitennis.it';
+const itUrl = `${site}/giocatori/${slug}`;
+const enUrl = `${site}/en/players/${slug}`;
+// hreflang reciproco: questa pagina (en) + la versione italiana (it).
+const alternates = [{ lang: 'it', href: itUrl }, { lang: 'en', href: enUrl }];
+
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: d.nome,
+  description: d.description,
+  url: enUrl,
+};
+const faq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: d.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+<Base titolo={d.title} descrizione={d.description} canonical={enUrl} lang="en" alternates={alternates} tipo="profile">
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">{d.eyebrow}</div>
+      <h1>{d.nome}</h1>
+      <p>{d.intro}</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-articolo">
+      <article class="articolo">
+        <div class="profilo-stats">
+          {d.stats.map(([k, v]) => <div><strong>{k}</strong>{' '}{v}</div>)}
+        </div>
+        <div class="articolo-corpo">
+          {d.sections.map(s => (
+            <>
+              <h2>{s.h2}</h2>
+              {s.p.map(par => <p>{par}</p>)}
+            </>
+          ))}
+        </div>
+
+        <section class="profilo-faq" aria-label={`Frequently asked questions about ${d.nome}`}>
+          <h2>Frequently asked questions about {d.nome}</h2>
+          <dl>
+            {d.faq.map(f => (
+              <div class="faq-item">
+                <dt>{f.q}</dt>
+                <dd>{f.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <p class="en-it-link"><a href={itUrl} hreflang="it-it" rel="alternate">Leggi il profilo completo di {d.nome} in italiano →</a></p>
+      </article>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(person)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
+</Base>
+
+<style>
+  .profilo-faq { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--linea, #e5e5e5); }
+  .profilo-faq h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; font-weight: 700; margin: 0 0 16px; }
+  .profilo-faq dl { margin: 0; }
+  .profilo-faq .faq-item { padding: 14px 0; border-bottom: 1px solid var(--linea, #eef1f4); }
+  .profilo-faq dt { font-weight: 700; color: var(--testo, #1a1a1a); margin-bottom: 5px; }
+  .profilo-faq dd { margin: 0; color: var(--testo-secondario, #4b5563); line-height: 1.55; }
+  .en-it-link { margin-top: 36px; }
+  .en-it-link a { color: var(--verde-scuro, #1e9c37); font-weight: 600; }
+</style>
