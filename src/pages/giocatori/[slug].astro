@@ -3,22 +3,46 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug } from '../../lib/hubs.js';
+import { playerSlug, slugify } from '../../lib/hubs.js';
+import h2hData from '../../data/h2h.json';
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  // Mappa slug-da-nome-completo -> slug_profilo, per collegare le coppie h2h
+  // (che usano gli slug a nome completo) ai profili (slug abbreviati).
+  const fullSlugToProfile = {};
+  for (const p of profili) fullSlugToProfile[slugify(p.data.nome)] = p.data.slug_profilo;
   return profili.map(p => {
     const slug = p.data.slug_profilo;
     const relatedArticles = articoli
       .filter(a => playerSlug(a.data.giocatore1) === slug || playerSlug(a.data.giocatore2) === slug)
       .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
       .slice(0, 20);
-    return { params: { slug }, props: { profilo: p, relatedArticles } };
+    // Scontri diretti del giocatore: ogni voce h2h che lo coinvolge diventa
+    // un link alla pagina /scontri-diretti e, se esiste, al profilo avversario.
+    const mySlug = slugify(p.data.nome);
+    const h2hLinks = [];
+    for (const [pairSlug, h] of Object.entries(h2hData)) {
+      if (h.slug_p1 !== mySlug && h.slug_p2 !== mySlug) continue;
+      const amP1 = h.slug_p1 === mySlug;
+      const oppName = amP1 ? h.p2 : h.p1;
+      const oppFullSlug = amP1 ? h.slug_p2 : h.slug_p1;
+      const b = h.bilancio || {};
+      const myWins = amP1 ? (b.p1 || 0) : (b.p2 || 0);
+      const oppWins = amP1 ? (b.p2 || 0) : (b.p1 || 0);
+      h2hLinks.push({
+        pairSlug, oppName,
+        oppProfile: fullSlugToProfile[oppFullSlug] || null,
+        myWins, oppWins, tot: myWins + oppWins,
+      });
+    }
+    h2hLinks.sort((a, b) => b.tot - a.tot || a.oppName.localeCompare(b.oppName));
+    return { params: { slug }, props: { profilo: p, relatedArticles, h2hLinks } };
   });
 }
 
-const { profilo, relatedArticles } = Astro.props;
+const { profilo, relatedArticles, h2hLinks } = Astro.props;
 const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
@@ -154,6 +178,25 @@ const faqSchema = faqItems.length >= 2 ? {
           </section>
         )}
 
+        {h2hLinks.length > 0 && (
+          <section class="scontri-diretti-giocatore" aria-label={`Scontri diretti di ${d.nome}`}>
+            <h2>Scontri diretti di {d.nome}</h2>
+            <ul>
+              {h2hLinks.map(x => (
+                <li>
+                  <a href={`/scontri-diretti/${x.pairSlug}`} class="sd-pair">
+                    <span class="sd-vs">vs {x.oppName}</span>
+                    <span class="sd-bil">{x.myWins}-{x.oppWins}</span>
+                  </a>
+                  {x.oppProfile && (
+                    <a href={`/giocatori/${x.oppProfile}`} class="sd-prof" aria-label={`Profilo di ${x.oppName}`}>profilo</a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {faqItems.length >= 2 && (
           <section class="profilo-faq" aria-label={`Domande frequenti su ${d.nome}`}>
             <h2>Domande frequenti su {d.nome}</h2>
@@ -258,5 +301,69 @@ const faqSchema = faqItems.length >= 2 ? {
     font-weight: 500;
     font-size: 0.95rem;
     line-height: 1.4;
+  }
+  .scontri-diretti-giocatore {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .scontri-diretti-giocatore h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    letter-spacing: -0.3px;
+  }
+  .scontri-diretti-giocatore ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 4px 20px;
+  }
+  .scontri-diretti-giocatore li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--linea, #eef1f4);
+  }
+  .scontri-diretti-giocatore .sd-pair {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    text-decoration: none;
+    color: var(--testo, #1a1a1a);
+    min-width: 0;
+    flex: 1;
+  }
+  .scontri-diretti-giocatore .sd-pair:hover { color: var(--verde, #39d453); }
+  .scontri-diretti-giocatore .sd-vs {
+    font-weight: 500;
+    font-size: 0.95rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .scontri-diretti-giocatore .sd-bil {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82rem;
+    color: var(--testo-secondario, #6b7280);
+    flex-shrink: 0;
+  }
+  .scontri-diretti-giocatore .sd-prof {
+    font-size: 0.78rem;
+    color: var(--testo-secondario, #6b7280);
+    text-decoration: none;
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 999px;
+    padding: 2px 10px;
+    flex-shrink: 0;
+  }
+  .scontri-diretti-giocatore .sd-prof:hover {
+    color: var(--verde, #39d453);
+    border-color: var(--verde, #39d453);
   }
 </style>
