@@ -1,18 +1,22 @@
 import { getCollection } from 'astro:content';
+import h2hData from '../data/h2h.json';
+import profilesEn from '../data/profiles-en.json';
 
 export async function GET(context) {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+  const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);
 
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
   const today = new Date().toISOString().split('T')[0];
 
   const statiche = [
-    '', '/oggi', '/chi-siamo', '/contatti', '/privacy', '/cookie',
+    '', '/oggi', '/pronostici', '/calendario', '/chi-siamo', '/contatti', '/privacy', '/cookie',
     '/categoria/atp', '/categoria/wta', '/categoria/slam',
     '/categoria/challenger', '/categoria/masters', '/categoria/itf',
-    '/giocatori', '/tornei', '/risultati',
+    '/giocatori', '/tornei', '/risultati', '/guide', '/tag',
+    '/classifica-atp', '/classifica-wta',
   ];
 
   const urls = [
@@ -21,6 +25,24 @@ export async function GET(context) {
       changefreq: p === '' ? 'daily' : 'weekly',
       priority: p === '' ? '1.0' : '0.6',
       lastmod: today,
+    })),
+    ...guide.map(g => ({
+      loc: `${site}/guide/${g.slug}`,
+      lastmod: today,
+      changefreq: 'monthly',
+      priority: '0.6',
+    })),
+    ...Object.keys(h2hData).map(coppia => ({
+      loc: `${site}/scontri-diretti/${coppia}`,
+      lastmod: today,
+      changefreq: 'weekly',
+      priority: '0.6',
+    })),
+    ...Object.keys(profilesEn).map(slug => ({
+      loc: `${site}/en/players/${slug}`,
+      lastmod: today,
+      changefreq: 'weekly',
+      priority: '0.7',
     })),
     ...profiliGiocatori.map(p => ({
       loc: `${site}/giocatori/${p.data.slug_profilo}`,
