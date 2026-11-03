@@ -35,6 +35,24 @@ if [ -f "$SENTINEL" ]; then
     exit 0
 fi
 
+# Lucchetto anti-concorrenza: il sentinella copre solo i run SEQUENZIALI (dopo
+# il completamento). Due run avviati a poca distanza (es. LaunchAgent + lancio
+# manuale) partirebbero entrambi prima che il sentinella esista, pestandosi i
+# piedi. mkdir e' atomico: il secondo run esce subito. Un lock piu' vecchio di
+# 6 ore e' considerato orfano (run precedente crashato) e viene rilevato.
+LOCK="$LOG_DIR/.lock"
+if ! mkdir "$LOCK" 2>/dev/null; then
+    if [ -n "$(find "$LOCK" -maxdepth 0 -mmin +360 2>/dev/null)" ]; then
+        log "Lock orfano (>6h): lo rilevo e procedo."
+        rm -rf "$LOCK"; mkdir "$LOCK" 2>/dev/null
+    else
+        log "Un altro run e' gia' in corso (lock presente). Esco con 0."
+        exit 0
+    fi
+fi
+# Rilascia il lock a qualunque uscita (completamento, errore o segnale).
+trap 'rm -rf "$LOCK"' EXIT
+
 # Aspetta che la rete sia disponibile. Max 6 ore (360 iterazioni da 60s).
 # Check robusto: curl su endpoint sempre disponibili (Cloudflare DNS 1.1.1.1 + Google).
 # NON usiamo API Tennis base perche' ritorna 403 senza API key.
