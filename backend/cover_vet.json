@@ -6,28 +6,27 @@
     {
       "slug": "2026-11-03-a-falei-vs-m-linette-chennai-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore in azione, figura intera, racchetta e campo visibili."
+      "motivo": "Giocatori in azione sul campo con racchette, teste intere."
     },
     {
       "slug": "2026-11-03-a-parks-vs-a-eala-hong-kong-pronostico-analisi",
       "ok": true,
-      "motivo": "Firma/scarabocchio su sfondo nero, nessun tennis.",
-      "risolta_con": "giocatore Alexandra Eala"
+      "motivo": "Giocatrice intera in azione con racchetta sul campo"
     },
     {
       "slug": "2026-11-03-a-rinderknech-vs-f-cerundolo-paris-pronostico-analisi",
       "ok": true,
-      "motivo": "tennista a mezza figura, testa intera e racchetta visibili"
+      "motivo": "Tennista a mezza figura, testa intera, racchetta visibile."
     },
     {
       "slug": "2026-11-03-a-rublev-vs-t-m-etcheverry-paris-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore figura intera in campo con racchetta."
+      "motivo": "Giocatore intero in campo con racchetta, testa visibile."
     },
     {
       "slug": "2026-11-03-a-shubladze-vs-l-samsonova-hong-kong-pronostico-analisi",
       "ok": true,
-      "motivo": "Skyline urbano notturno di Hong Kong, nessun tennis.",
+      "motivo": "Skyline urbano notturno, nessun tennis.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
@@ -40,7 +39,7 @@
           "via": "campo",
           "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
           "ok": true,
-          "motivo": "vero campo da tennis con rete e seggiolone arbitro"
+          "motivo": "Veri campi da tennis con giocatori durante il gioco."
         }
       ]
     },
@@ -54,13 +53,13 @@
           "via": "rigenera",
           "file": "File:McDonald–Shelton box at the 2023 DC",
           "ok": false,
-          "motivo": "Folla sugli spalti, nessun giocatore in azione."
+          "motivo": "Folla di spettatori sugli spalti, nessun giocatore in azione"
         },
         {
           "via": "giocatore:Ben Shelton",
           "file": "Ben Shelton (Roland Garros 2023) 01.jpg",
           "ok": false,
-          "motivo": "Primo piano ravvicinato del volto sorridente, nessuna azione."
+          "motivo": "Primo piano ravvicinato del volto, nessuna azione."
         },
         {
           "via": "giocatore:Cameron Norrie",
@@ -79,13 +78,12 @@
     {
       "slug": "2026-11-03-e-pridankina-vs-p-badosa-hong-kong-pronostico-analisi",
       "ok": true,
-      "motivo": "premiazione con trofeo, non azione di gioco",
-      "risolta_con": "rigenera"
+      "motivo": "Tennista a figura intera su campo da tennis reale."
     },
     {
       "slug": "2026-11-03-h-sakatsume-vs-t-valentova-hong-kong-pronostico-analisi",
       "ok": true,
-      "motivo": "Skyline urbano notturno di Hong Kong, niente tennis.",
+      "motivo": "Skyline urbano notturno di Hong Kong, nessun tennis.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
@@ -98,14 +96,79 @@
           "via": "campo",
           "file": "Nungambakkam SDAT Tennis Stadium floodlit match pa",
           "ok": true,
-          "motivo": "Vero campo da tennis durante il gioco."
+          "motivo": "Vero campo da tennis in gioco, arena notturna."
         }
       ]
     },
     {
       "slug": "2026-11-03-j-burrage-vs-v-adkar-chennai-pronostico-analisi",
       "ok": true,
-      "motivo": "Edificio generico, nessun giocatore o campo da tennis.",
+      "motivo": "Edificio generico, nessun tennis né giocatore.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Queen-Marys-College-Chennai-Tennis-",
+          "ok": false,
+          "motivo": "Edificio generico con alberi, nessun tennis."
+        },
+        {
+          "via": "campo",
+          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
+          "ok": true,
+          "motivo": "Veri campi da tennis con gioco in corso."
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-03-j-tjen-vs-k-hui-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Veri campi da tennis con giocatori in azione."
+    },
+    {
+      "slug": "2026-11-03-m-rajeshwaran-revathi-vs-k-kawa-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Tennista a mezza figura, testa intera, racchetta in posizione di gioco."
+    },
+    {
+      "slug": "2026-11-03-m-sawangkaew-vs-m-hontama-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Edificio generico con alberi, nessun tennis.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Queen-Marys-College-Chennai-Tennis-",
+          "ok": false,
+          "motivo": "Edificio generico, nessun tennis né giocatore."
+        },
+        {
+          "via": "campo",
+          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
+          "ok": true,
+          "motivo": "Veri campi da tennis con gioco in corso."
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-03-m-uchijima-vs-r-sramkova-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Giocatori in azione sul campo con racchette"
+    },
+    {
+      "slug": "2026-11-03-m-yamaguchi-vs-z-kulambayeva-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Vero campo da tennis in gioco, arena illuminata."
+    },
+    {
+      "slug": "2026-11-03-r-zolotareva-vs-l-stefanini-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Vero campo da tennis con match in corso."
+    },
+    {
+      "slug": "2026-11-03-s-yamalapalli-vs-s-waltert-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Edificio generico, nessun tennis né giocatore.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
@@ -118,59 +181,9 @@
           "via": "campo",
           "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
           "ok": true,
-          "motivo": "Vero campo da tennis con gioco in corso."
+          "motivo": "Veri campi da tennis con gioco in corso."
         }
       ]
-    },
-    {
-      "slug": "2026-11-03-j-tjen-vs-k-hui-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Veri campi da tennis con giocatori in azione."
-    },
-    {
-      "slug": "2026-11-03-m-rajeshwaran-revathi-vs-k-kawa-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista a mezza figura in azione, testa intera e racchetta visibili."
-    },
-    {
-      "slug": "2026-11-03-m-sawangkaew-vs-m-hontama-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Edificio generico, nessun tennis né giocatore.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Queen-Marys-College-Chennai-Tennis-",
-          "ok": false,
-          "motivo": "edificio generico, nessun tennis né giocatore"
-        },
-        {
-          "via": "campo",
-          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
-          "ok": true,
-          "motivo": "Veri campi da tennis con rete, giocatori e arbitro."
-        }
-      ]
-    },
-    {
-      "slug": "2026-11-03-m-uchijima-vs-r-sramkova-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore in azione, campo e racchette visibili."
-    },
-    {
-      "slug": "2026-11-03-m-yamaguchi-vs-z-kulambayeva-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Vero campo da tennis con partita in corso."
-    },
-    {
-      "slug": "2026-11-03-r-zolotareva-vs-l-stefanini-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Vero campo da tennis con partita in corso"
-    },
-    {
-      "slug": "2026-11-03-s-yamalapalli-vs-s-waltert-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Veri campi da tennis con gioco in corso."
     },
     {
       "slug": "2026-11-03-v-morvayova-vs-p-kudermetova-chennai-pronostico-analisi",

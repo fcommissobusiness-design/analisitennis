@@ -23,7 +23,7 @@ probabilita_favorito: "Eala"
 probabilita_percent: 53
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-a-parks-vs-a-eala-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Alex Eala (2024 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Alex Eala (2024 US Open) 02 (cropped).jpg | Hameltion | CC BY-SA 4.0"
 ---
 
 Il tabellone di **Hong Kong** si apre con un confronto che mette di fronte la statunitense Alycia Parks e la filippina Alex Eala, due giocatrici arrivate all'appuntamento con sensazioni quasi speculari. Non è un primo incrocio: le due si conoscono già, si sono studiate in due occasioni distanti pochi mesi e hanno chiuso l'ultimo blocco di tornei percorrendo strade sorprendentemente parallele. È il tipo di partita in cui le statistiche recenti sembrano guardarsi allo specchio, e proprio per questo merita di essere letta con attenzione, senza farsi condizionare dal primo numero che salta all'occhio.

@@ -21,9 +21,9 @@ descrizione: "Rinderknech e Cerundolo aprono il Masters di Parigi sul veloce ind
 pubblicato: true
 probabilita_favorito: "Rinderknech"
 probabilita_percent: 53
+generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-a-rinderknech-vs-f-cerundolo-paris-pronostico-analisi.jpg"
 cover_credit: "Rinderknech REN21 (2).jpg | si.robi | CC BY-SA 2.0"
-generato_il: "2026-11-03T10:41"
 ---
 
 Il primo turno del Masters di Parigi mette di fronte due giocatori che arrivano all'appuntamento sul veloce al coperto percorrendo strade molto diverse. A. Rinderknech scende in campo in casa, davanti a un pubblico che lo conosce bene, mentre F. Cerundolo chiude l'autunno indoor dopo mesi trascorsi quasi per intero tra il cemento e i tornei europei. È un incrocio che intreccia un presente dai segni opposti e un passato comune ormai piuttosto lontano nel tempo.

@@ -21,9 +21,9 @@ descrizione: "Primo turno a Chennai: K. Kawa, reduce dal grande circuito, contro
 pubblicato: true
 probabilita_favorito: "Kawa"
 probabilita_percent: 63
+generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-m-rajeshwaran-revathi-vs-k-kawa-chennai-pronostico-analisi.jpg"
 cover_credit: "Kawa WMQ19 (25).jpg | si.robi | CC BY-SA 2.0"
-generato_il: "2026-11-03T10:41"
 ---
 
 Il tabellone di **Chennai** apre con un incrocio che mette una di fronte all'altra due giocatrici reduci da mesi vissuti su piani del tutto diversi. M. Rajeshwaran Revathi e K. Kawa si ritrovano sullo stesso campo per la prima volta, il 3 novembre, senza che le rispettive strade si siano mai sfiorate prima d'ora. È un match d'apertura che nasce privo di riferimenti reciproci e che per questo chiede di essere letto attraverso i cammini recenti delle due.

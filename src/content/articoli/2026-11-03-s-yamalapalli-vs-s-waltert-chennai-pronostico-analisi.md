@@ -23,7 +23,7 @@ probabilita_favorito: "Waltert"
 probabilita_percent: 69
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-s-yamalapalli-vs-s-waltert-chennai-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Heather lights up Centre Court (19319009589).jpg | Carine06 from UK | CC BY-SA 2.0"
 ---
 
 Il tabellone del torneo WTA di **Chennai** si apre con un primo turno dal sapore particolare, perché mette di fronte due giocatrici che non si erano mai incrociate prima: S. Yamalapalli e S. Waltert. Nessuna delle due porta in campo la memoria di un confronto diretto, e questo rende l'esordio sul veloce indiano un rebus ancora tutto da sciogliere.
