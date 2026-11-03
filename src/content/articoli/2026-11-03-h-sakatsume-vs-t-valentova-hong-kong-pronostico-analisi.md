@@ -1,5 +1,5 @@
 ---
-titolo: "Valentova e Sakatsume a Hong Kong, reduci da due finali"
+titolo: "Valentova e Sakatsume a Hong Kong, due precedenti e tanta fiducia"
 sottotitolo: "La ceca e la giapponese si ritrovano sul veloce asiatico con due precedenti alle spalle e un buon momento per entrambe"
 data: "2026-11-03"
 autore: "Redazione AnalisiTennis"
@@ -32,7 +32,7 @@ Il tabellone di **Hong Kong** propone subito un incrocio con un piccolo passato 
 Le due giocatrici si sono già viste in campo due volte. Il primo incontro risale al 15 marzo 2024, nei quarti del torneo di Ricany, dove a spuntarla fu **Valentova** con un netto 2-0. Il secondo capitolo è del 19 luglio 2025, in semifinale a Porto, e anche in quell'occasione il nome della ceca finì accanto alla vittoria, con un 2-0 in suo favore. Vanno però letti con una premessa: entrambe le partite maturarono in contesti e su superfici diverse da quella di oggi, un elemento che ridimensiona il peso di quello storico sul veloce di Hong Kong.
 
 ### Il momento di forma
-Guardando alle ultime quindici partite, il bilancio è identico: nove vittorie e sei sconfitte per entrambe. **Sakatsume** ci arriva nel pieno di una serie positiva: il 31 ottobre ha superato C. Wong Hong Yi per 2-0 e il 1° novembre si è imposta in finale su E. Pridankina al terzo set, 2-1, proprio a Hong Kong. Prima, a ottobre, aveva incassato gli stop contro L. Fernandez a Tokyo e K. Boulter a Osaka, ma la coda di stagione la vede chiaramente in crescita.
+Guardando alle ultime quindici partite, il bilancio è identico: nove vittorie e sei sconfitte per entrambe. **Sakatsume** ci arriva nel pieno di una serie positiva: il 31 ottobre ha superato C. Wong Hong Yi per 2-0 e il 1° novembre si è imposta nel turno decisivo di qualificazione su E. Pridankina al terzo set, 2-1, centrando il tabellone principale di Hong Kong. Prima, a ottobre, aveva incassato gli stop contro L. Fernandez a Tokyo e K. Boulter a Osaka, ma la coda di stagione la vede chiaramente in crescita.
 
 Valentova, dal canto suo, ha firmato uno degli acuti più recenti dell'intera trasferta: il 25 ottobre ha vinto la finale di Tokyo battendo S. Zhang per 2-0, salvo poi cedere due giorni dopo a M. Pohankova. Da quel 27 ottobre non è più scesa in campo, e si presenta quindi con qualche giorno di pausa in più rispetto all'avversaria, a differenza di una Sakatsume reduce da impegni ravvicinati.
 

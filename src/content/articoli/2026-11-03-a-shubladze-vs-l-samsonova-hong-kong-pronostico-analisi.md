@@ -34,7 +34,7 @@ Il primo elemento che salta all'occhio è l'assenza totale di scontri diretti: l
 ### Le ultime settimane di Shubladze
 Il bilancio delle ultime quindici uscite di Shubladze racconta un periodo intenso e produttivo: dodici vittorie e tre sconfitte. Nel mese di ottobre ha sollevato il titolo a Jingshan, chiudendo il torneo con una finale vinta contro J. Bouzas Maneiro dopo aver superato l'intero tabellone senza passi falsi. Più indietro erano arrivati la finale di Seoul, persa contro D. Astakhova, e il titolo nel torneo di Guiyang.
 
-La sua rincorsa è proseguita proprio a Hong Kong, dove nelle ultime uscite ha incassato altri successi, compresa una finale vinta contro E. Jones il primo novembre. È un rendimento che parla di grande fiducia e di una giocatrice in pieno ritmo partita, anche se il rovescio della medaglia è il carico di incontri accumulato in pochissime settimane.
+La sua rincorsa è proseguita proprio a Hong Kong, dove ha superato le qualificazioni, con l'ultimo turno vinto contro E. Jones il primo novembre a valerle il tabellone principale. È un rendimento che parla di grande fiducia e di una giocatrice in pieno ritmo partita, anche se il rovescio della medaglia è il carico di incontri accumulato in pochissime settimane.
 
 ### Samsonova tra alti e bassi
 Il quadro di Samsonova è diverso e va letto con attenzione al contesto. Il suo bilancio recente dice sette vittorie e otto sconfitte, ma il calendario che ha affrontato è quello dei grandi appuntamenti: a Guadalajara ha raggiunto la semifinale battendo tra le altre M. Kostyuk, mentre nei tornei più ricchi ha piegato avversarie del calibro di K. Siniakova a Wuhan e Y. Putintseva a Cincinnati.
