@@ -14,7 +14,7 @@ tag:
   - "WTA Hong Kong"
   - "tennis femminile"
   - "cemento"
-  - "sedicesimi di finale"
+  - "primo turno"
   - "WTA"
 verdetto: "Pochi appigli per una favorita netta: Pridankina arriva da tre finali ma rientra 48 ore dopo l'ultima, mentre Badosa ha superato avversari che Pridankina ha invece perso. Match da terzo set, con Badosa in grado di prendersi almeno un set."
 descrizione: "Pridankina e Badosa si incrociano al primo turno di Hong Kong il 3 novembre 2026: forma, avversari comuni e freschezza a confronto, senza precedenti diretti."

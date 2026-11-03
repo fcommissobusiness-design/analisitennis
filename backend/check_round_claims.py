@@ -79,6 +79,39 @@ def _norm(s):
     return s.lower()
 
 
+# Testo preferito per la tag di fase (minuscolo, come le altre tag SEO).
+ROUND_TAG_TEXT = {k: v.lower() for k, v in CANONICI.items()}
+# Tutte le forme (chiave + valore esteso) che riconoscono una tag di fase.
+ROUND_TAG_PHRASES = {_norm(x) for k, v in CANONICI.items() for x in (k, v)}
+
+
+def _fix_tag_round(fm, reale):
+    """Normalizza le tag di fase nel frontmatter: ogni tag che dichiara una
+    fase viene sostituita UNA volta con quella reale verificata (le altre
+    vengono eliminate). Se la fase non e' verificata, le tag di fase si
+    rimuovono senza sostituto. Le tag non legate alla fase restano intatte."""
+    real_text = ROUND_TAG_TEXT.get(reale) if reale else None
+    out, in_tag, posta = [], False, False
+    for ln in fm.split('\n'):
+        if re.match(r'^tag:\s*$', ln):
+            in_tag = True
+            out.append(ln)
+            continue
+        if in_tag:
+            m = re.match(r'^(\s*-\s*)"?(.*?)"?\s*$', ln)
+            if m and ln.lstrip().startswith('-'):
+                if _norm(m.group(2)) in ROUND_TAG_PHRASES:
+                    if real_text and not posta:
+                        out.append(f'{m.group(1)}"{real_text}"')
+                        posta = True
+                    continue  # fase non verificata o gia' posta: elimina
+                out.append(ln)
+                continue
+            in_tag = False  # riga non-lista: fine blocco tag
+        out.append(ln)
+    return '\n'.join(out)
+
+
 def _fm_get(testo, campo):
     m = re.search(rf'^{campo}:\s*"?(.*?)"?\s*$', testo, re.M)
     return m.group(1).strip() if m else ''
@@ -311,6 +344,7 @@ def correggi(a, reale, sbagliata):
             fm = re.sub(rf'^{campo}:\s*".*?"\s*$',
                         f'{campo}: "{v.strip().replace(chr(34), chr(39))}"',
                         fm, count=1, flags=re.M)
+    fm = _fix_tag_round(fm, reale)
     corpo = r.get('corpo_markdown')
     if not (isinstance(corpo, str) and corpo.strip()):
         corpo = a['corpo']
@@ -338,6 +372,24 @@ def main():
     verificati = {}
     for torneo, lista in per_torneo.items():
         verificati.update(verifica_web(torneo, lista[0]['categoria'], args.date, lista))
+
+    # Normalizza le tag di fase di OGNI articolo contro il turno verificato:
+    # la tag nasce dal round grezzo dell'API, che il web puo' smentire. Va
+    # fatto sempre, anche quando il testo non dichiara una fase sbagliata.
+    if args.fix:
+        tag_corrette = 0
+        for a in arts:
+            reale_a = verificati.get(a['slug']) or api.get((_norm(a['g1']), _norm(a['g2']))) or ''
+            if not reale_a:
+                continue
+            testo = a['path'].read_text()
+            fm, corpo = _split(testo)
+            nuovo = _fix_tag_round(fm, reale_a)
+            if nuovo != fm:
+                a['path'].write_text(nuovo + corpo)
+                tag_corrette += 1
+        if tag_corrette:
+            print(f'[turni] tag di fase normalizzate su {tag_corrette} articoli')
 
     problemi = []
     for a in arts:
