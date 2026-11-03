@@ -2417,10 +2417,18 @@
     "slug_p1": "cameron-norrie",
     "slug_p2": "matteo-arnaldi",
     "bilancio": {
-      "p1": 0,
+      "p1": 1,
       "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-02",
+        "torneo": "Paris",
+        "g1": "C. Norrie",
+        "g2": "M. Arnaldi",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
       {
         "data": "2023-09-02",
         "torneo": "ATP US Open",
@@ -2532,6 +2540,54 @@
         "g2": "L. Musetti",
         "risultato": "3 - 0",
         "winner": "First Player"
+      }
+    ]
+  },
+  "arthur-rinderknech-vs-francisco-cerundolo": {
+    "p1": "Arthur Rinderknech",
+    "p2": "Francisco Cerundolo",
+    "slug_p1": "arthur-rinderknech",
+    "slug_p2": "francisco-cerundolo",
+    "bilancio": {
+      "p1": 2,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2022-12-29",
+        "torneo": "ATP United Cup",
+        "g1": "A. Rinderknech",
+        "g2": "F. Cerundolo",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-03-15",
+        "torneo": "Phoenix",
+        "g1": "A. Rinderknech",
+        "g2": "F. Cerundolo",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "ben-shelton-vs-cameron-norrie": {
+    "p1": "Ben Shelton",
+    "p2": "Cameron Norrie",
+    "slug_p1": "ben-shelton",
+    "slug_p2": "cameron-norrie",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2022-08-19",
+        "torneo": "Cincinnati",
+        "g1": "B. Shelton",
+        "g2": "C. Norrie",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
       }
     ]
   }
