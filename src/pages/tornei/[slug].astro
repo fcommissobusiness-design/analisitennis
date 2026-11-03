@@ -3,22 +3,38 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { tournamentSlug } from '../../lib/hubs.js';
+import { tournamentSlug, playerSlug, displayPlayerName } from '../../lib/hubs.js';
 
 export async function getStaticPaths() {
   const profili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const giocProfili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+  const profileSlugs = new Set(giocProfili.map(g => g.data.slug_profilo));
   return profili.map(p => {
     const slug = p.data.slug_profilo;
-    const relatedArticles = articoli
+    const related = articoli
       .filter(a => tournamentSlug(a.data.torneo, new Date(a.data.data).getFullYear()) === slug)
-      .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
-      .slice(0, 30);
-    return { params: { slug }, props: { profilo: p, relatedArticles } };
+      .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+    const relatedArticles = related.slice(0, 30);
+    // Giocatori con profilo che hanno giocato in questo torneo: link ai profili.
+    const seen = new Set();
+    const giocatori = [];
+    for (const a of related) {
+      for (const raw of [a.data.giocatore1, a.data.giocatore2]) {
+        if (!raw || raw === 'Redazione') continue;
+        const ps = playerSlug(raw);
+        if (profileSlugs.has(ps) && !seen.has(ps)) {
+          seen.add(ps);
+          giocatori.push({ slug: ps, nome: displayPlayerName(raw) });
+        }
+      }
+    }
+    giocatori.sort((a, b) => a.nome.localeCompare(b.nome));
+    return { params: { slug }, props: { profilo: p, relatedArticles, giocatori } };
   });
 }
 
-const { profilo, relatedArticles } = Astro.props;
+const { profilo, relatedArticles, giocatori } = Astro.props;
 const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
@@ -114,6 +130,17 @@ const articleSchema = {
           <Content />
         </div>
         {d.cover_credit && <p class="credit-foto">Foto: {d.cover_credit}</p>}
+
+        {giocatori.length > 0 && (
+          <section class="torneo-giocatori" aria-label={`Giocatori del torneo ${d.nome} ${d.anno}`}>
+            <h2>Giocatori analizzati al {d.nome} {d.anno}</h2>
+            <ul>
+              {giocatori.map(g => (
+                <li><a href={`/giocatori/${g.slug}`}>{g.nome}</a></li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {relatedArticles.length > 0 && (
           <section class="articoli-correlati" aria-label={`Analisi dei match del torneo ${d.nome} ${d.anno}`}>
@@ -239,4 +266,38 @@ const articleSchema = {
   .torneo-faq .faq-item { padding: 14px 0; border-bottom: 1px solid var(--linea, #eef1f4); }
   .torneo-faq dt { font-weight: 700; color: var(--testo, #1a1a1a); margin-bottom: 5px; }
   .torneo-faq dd { margin: 0; color: var(--testo-secondario, #4b5563); line-height: 1.55; }
+  .torneo-giocatori {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .torneo-giocatori h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    letter-spacing: -0.3px;
+  }
+  .torneo-giocatori ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .torneo-giocatori li { margin: 0; }
+  .torneo-giocatori a {
+    display: inline-block;
+    padding: 6px 14px;
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 999px;
+    text-decoration: none;
+    color: var(--testo, #1a1a1a);
+    font-size: 0.9rem;
+  }
+  .torneo-giocatori a:hover {
+    color: var(--verde, #39d453);
+    border-color: var(--verde, #39d453);
+  }
 </style>
