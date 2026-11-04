@@ -6,11 +6,11 @@ data_nascita: "1997-11-15"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco aggressivo da fondo con servizio e dritto pesanti"
-titoli: "diversi titoli WTA, tra cui un torneo del circuito maggiore di primissimo livello, e un titolo Slam da junior"
+titoli: "quattro titoli WTA, fra cui il 1000 di Indian Wells 2021, numero 2 del mondo e il Roland Garros juniores 2015"
 altezza: "180 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Paula Badosa unisce potenza e ambizione: una delle tenniste spagnole piu' complete della sua generazione, capace di imporsi ai massimi livelli del circuito."
+intro: "Paula Badosa unisce potenza e ambizione: una delle tenniste spagnole più complete della sua generazione, capace di imporsi ai massimi livelli del circuito."
 descrizione: "Profilo di Paula Badosa: lo stile di gioco, il rendimento sulle diverse superfici e i momenti chiave della carriera della tennista spagnola."
 tag:
   - "Paula Badosa"
@@ -38,7 +38,7 @@ Pur avendo una formazione legata alla terra battuta, come molte giocatrici spagn
 
 ## Trofei e momenti chiave
 
-Il momento di svolta della carriera di Badosa è arrivato nelle stagioni in cui ha saputo vincere un torneo del circuito maggiore di primissimo livello, un risultato che l'ha proiettata stabilmente tra le migliori del mondo e che ha confermato la bontà del suo tennis d'attacco anche sui palcoscenici più importanti. A quel traguardo si sono aggiunti altri titoli sul tour, che ne hanno delineato il profilo di giocatrice capace di andare oltre il singolo exploit. Già da giovanissima aveva mostrato le proprie potenzialità imponendosi in un torneo dello Slam a livello juniores, segnale precoce di un talento riconosciuto. Il percorso tra i professionisti è poi passato anche attraverso fasi complicate, tra alti e bassi di rendimento e qualche stop fisico, ma il bilancio complessivo resta quello di una giocatrice che ha saputo raggiungere le posizioni di vertice del ranking mondiale.
+Il momento di svolta della carriera di Badosa è arrivato nell'ottobre del 2021 a Indian Wells, dove ha vinto il torneo WTA 1000 battendo in finale Victoria Azarenka: un risultato che l'ha proiettata stabilmente tra le migliori del mondo e che ha confermato la bontà del suo tennis d'attacco anche sui palcoscenici più importanti. A quel traguardo si sono aggiunti altri tre titoli sul tour, da Belgrado nel 2021 a Sydney nel 2022 e Washington nel 2024, che ne hanno delineato il profilo di giocatrice capace di andare oltre il singolo exploit. Già da giovanissima aveva mostrato le proprie potenzialità imponendosi nel Roland Garros juniores del 2015, segnale precoce di un talento riconosciuto. Il percorso tra i professionisti è poi passato anche attraverso fasi complicate, tra alti e bassi di rendimento e qualche stop fisico, ma il bilancio complessivo resta quello di una giocatrice arrivata fino al numero 2 del ranking mondiale, nell'aprile del 2022, e capace di tornare in semifinale in una prova dello Slam all'Australian Open 2025.
 
 ### In sintesi
 

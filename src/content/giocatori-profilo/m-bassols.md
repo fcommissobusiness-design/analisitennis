@@ -1,16 +1,16 @@
 ---
-nome: "Mireia Bassols Ribera"
+nome: "Marina Bassols Ribera"
 slug_profilo: "m-bassols"
 nazionalita: "Spagna"
 mano: "destro"
 stile_gioco: "gioco da fondo con pazienza e costruzione sul rovescio"
-titoli: "alcuni titoli nei circuiti di sviluppo"
+titoli: "due titoli WTA 125 e nove titoli ITF in singolare"
 categoria: "WTA"
 superficie_preferita: "terra"
-intro: "Mireia Bassols Ribera è una tennista spagnola cresciuta nei circuiti di sviluppo, con un tennis di fondo paziente costruito sulla terra battuta."
-descrizione: "Profilo di Mireia Bassols Ribera: lo stile, le superfici e il percorso della tennista spagnola nei circuiti di sviluppo verso il tour."
+intro: "Marina Bassols Ribera è una tennista spagnola cresciuta nei circuiti di sviluppo, con un tennis di fondo paziente costruito sulla terra battuta."
+descrizione: "Profilo di Marina Bassols Ribera: lo stile, le superfici e il percorso della tennista spagnola nei circuiti di sviluppo verso il tour."
 tag:
-  - "Mireia Bassols Ribera"
+  - "Marina Bassols Ribera"
   - "Bassols Ribera"
   - "tennis spagnolo"
   - "Spagna"
@@ -23,7 +23,7 @@ generato_il: "2026-10-30T17:15"
 
 ## Chi è
 
-Mireia Bassols Ribera appartiene a quella generazione di giocatrici spagnole formatesi lontano dai riflettori dei grandi tornei, nei circuiti di sviluppo dove la maturazione passa attraverso settimane di partite ravvicinate e condizioni di ogni tipo. È un percorso che non regala scorciatoie: si costruisce punto su punto, torneo dopo torneo, e proprio per questo tende a plasmare giocatrici solide, abituate a gestire la fatica e la discontinuità del calendario.
+Marina Bassols Ribera, nata a Blanes il 13 dicembre 1999, appartiene a quella generazione di giocatrici spagnole formatesi lontano dai riflettori dei grandi tornei, nei circuiti di sviluppo dove la maturazione passa attraverso settimane di partite ravvicinate e condizioni di ogni tipo. È un percorso che non regala scorciatoie: si costruisce punto su punto, torneo dopo torneo, e proprio per questo tende a plasmare giocatrici solide, abituate a gestire la fatica e la discontinuità del calendario. Nel suo caso ha portato fino al numero 105 del mondo, best ranking toccato nel febbraio 2024.
 
 Il suo nome circola soprattutto tra gli appassionati che seguono con attenzione il vivaio iberico, tradizionalmente ricco di talenti costruiti sulla terra battuta. In questo senso Bassols Ribera si inserisce in una scuola riconoscibile, quella che privilegia la continuità da fondo campo e la capacità di tenere lo scambio piuttosto che la ricerca immediata del colpo risolutore.
 
@@ -41,6 +41,6 @@ Sulle superfici più rapide, come il cemento, il compito si fa inevitabilmente p
 
 ## Trofei e momenti chiave
 
-Sul piano dei risultati è corretto mantenere un profilo prudente: la carriera di Bassols Ribera si è sviluppata soprattutto nei circuiti di sviluppo, dove ha raccolto alcuni riscontri utili alla sua crescita e alla scalata delle classifiche. Più che un singolo trofeo simbolo, il suo percorso va letto come un lavoro di accumulo, fatto di esperienza e di settimane di partite che servono a consolidare la posizione e a cercare il salto verso i tornei di categoria superiore.
+La carriera di Bassols Ribera si è sviluppata soprattutto nei circuiti di sviluppo, dove ha raccolto nove titoli ITF in singolare e sette in doppio. Il salto di qualità è arrivato con i due trofei di categoria WTA 125, uno sulla terra di Lubiana e uno sul cemento indoor di Andorra, ai quali si è aggiunta nel 2026 la finale dell'Open Villa de Madrid, persa contro Lisa Pigato. Nel suo palmarès figura anche il bronzo nel doppio ai Giochi del Mediterraneo del 2018.
 
-Per una giocatrice con questo profilo, il vero banco di prova resta la continuità: trasformare le buone settimane in una tendenza stabile è il passo che separa il vivaio dal tour maggiore, ed è lì che si misurerà la sua ambizione nelle prossime stagioni.
+Negli Slam il miglior risultato è il secondo turno al Roland Garros 2026, preceduto da diverse campagne di qualificazione a Wimbledon e in Australia. Per una giocatrice con questo profilo, il vero banco di prova resta la continuità: trasformare le buone settimane in una tendenza stabile è il passo che separa il vivaio dal tour maggiore, ed è lì che si misurerà la sua ambizione nelle prossime stagioni.

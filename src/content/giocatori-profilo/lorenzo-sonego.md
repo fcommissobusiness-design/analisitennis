@@ -1,7 +1,7 @@
 ---
 nome: "Lorenzo Sonego"
 slug_profilo: "lorenzo-sonego"
-titoli: "Piu' titoli ATP"
+titoli: "Quattro titoli ATP e la finale di Vienna 2020"
 stile_gioco: "Dritto e servizio aggressivi, grande agonismo e spinta da fondo"
 nazionalita: "Italia"
 data_nascita: "1995-05-11"
@@ -9,7 +9,7 @@ mano: "destro"
 rovescio: "due mani"
 altezza: "191 cm"
 categoria: "ATP"
-superficie_preferita: "terra"
+superficie_preferita: "cemento"
 intro: "Torinese di carattere, Lorenzo Sonego ha portato nel tennis italiano un gioco aggressivo, fatto di servizio pesante e diritto, e una grinta riconoscibile in campo."
 descrizione: "Profilo di Lorenzo Sonego: il tennista torinese dal servizio potente e dal diritto d'attacco, protagonista del movimento azzurro sul tour ATP."
 tag:
@@ -17,7 +17,7 @@ tag:
   - "Sonego"
   - "tennis italiano"
   - "ATP"
-  - "terra battuta"
+  - "cemento"
   - "servizio"
   - "Italia"
   - "tennista torinese"
@@ -39,18 +39,19 @@ Lo stile è quello di chi preferisce prendere l'iniziativa piuttosto che aspetta
 
 ## Sulle diverse superfici
 
-Sonego ha dimostrato di sapersi esprimere su più superfici, pur con un rapporto particolare con la terra battuta, dove ha ottenuto alcuni dei risultati più importanti della carriera. Il rimbalzo più alto e i tempi di gioco leggermente più lunghi si sposano con la sua capacità di spingere con il diritto e di costruire il punto.
+Sonego ha dimostrato di sapersi esprimere su più superfici, ma è sul cemento che ha firmato i risultati più pesanti: il titolo di Metz nel 2022 al coperto, quello di Winston-Salem nel 2024 e soprattutto i quarti di finale all'Australian Open del 2025, miglior risultato Slam della carriera. Le condizioni indoor, in particolare, valorizzano il suo servizio e la sua propensione all'attacco.
 
-Anche sul cemento, soprattutto al coperto, ha saputo regalarsi serate di grande spessore: le condizioni indoor valorizzano il suo servizio e la sua propensione all'attacco. Sull'erba ha mostrato buone attitudini, perché la velocità della superficie premia chi, come lui, cerca il punto rapido. Nel complesso è un giocatore versatile, capace di adattare il proprio tennis più che di stravolgerlo.
+L'erba è l'altra superficie che lo premia, perché la velocità del campo si sposa con la ricerca del punto rapido: lì ha vinto il suo primo titolo ad Antalya nel 2019 e ha raggiunto due volte il quarto turno a Wimbledon, nel 2021 e nel 2025. Sulla terra battuta, dove ha conquistato il trofeo di Cagliari nel 2021, sa comunque costruire il punto con il diritto e tenere scambi lunghi. Nel complesso è un giocatore versatile, capace di adattare il proprio tennis più che di stravolgerlo.
 
 ## Trofei e momenti chiave
 
-La carriera di Sonego è costellata di momenti che lo hanno fatto conoscere al grande pubblico. Tra i successi più ricordati c'è la vittoria contro Novak Djokovic a Vienna nel 2020, uno dei risultati di maggior prestigio del suo percorso, arrivato in una stagione in cui si era già messo in luce con un ottimo cammino nel Masters 1000 di Roma.
+La carriera di Sonego è costellata di momenti che lo hanno fatto conoscere al grande pubblico. Il più ricordato resta la settimana di Vienna nel 2020: entrato in tabellone come ripescato, travolse nei quarti il numero 1 del mondo Novak Djokovic con un 6-2 6-1 e arrivò fino alla finale, persa poi contro Andrey Rublev. Nello stesso 2020 si era già messo in luce con un ottimo cammino nel Masters 1000 di Roma.
 
-In bacheca può vantare alcuni titoli nel circuito ATP, conquistati in diverse stagioni, oltre ai titoli ottenuti negli anni della crescita nel circuito Challenger. Ha inoltre contribuito con continuità ai colori azzurri nelle competizioni a squadre, sentendo in modo particolare la responsabilità della maglia nazionale.
+In bacheca ha quattro titoli ATP: Antalya nel 2019 sull'erba, Cagliari nel 2021 sulla terra, Metz nel 2022 al coperto e Winston-Salem nel 2024 sul cemento. Prima di arrivarci aveva costruito la classifica nel circuito Challenger, vincendo a Ortisei nel 2017 e due volte a Genova, nel 2018 e nel 2019. Ha inoltre fatto parte delle squadre italiane vincitrici della Coppa Davis, sentendo in modo particolare la responsabilità della maglia nazionale.
 
 ### In sintesi
 
-- Vittorie di prestigio contro top player, tra cui il successo su Djokovic a Vienna nel 2020
-- Alcuni titoli nel circuito ATP e titoli Challenger nelle prime stagioni
-- Protagonista di cammini importanti nei tornei più prestigiosi e con la squadra azzurra
+- Finale a Vienna nel 2020, con la vittoria sul numero 1 del mondo Novak Djokovic nei quarti
+- Quattro titoli ATP e tre titoli Challenger nelle prime stagioni
+- Quarti di finale all'Australian Open 2025, miglior risultato Slam, e best ranking al numero 21 nel 2021
+- Protagonista con la squadra azzurra nelle edizioni vincenti della Coppa Davis

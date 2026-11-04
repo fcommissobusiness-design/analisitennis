@@ -6,7 +6,7 @@ data_nascita: "1994-02-24"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco piatto e aggressivo da fondo, con risposta profonda"
-titoli: "diversi titoli WTA, tra cui tornei di categoria superiore, e una finale Slam"
+titoli: "undici titoli WTA, quattro dei quali di categoria 1000, la finale agli US Open 2024 e il numero 1 del mondo in doppio"
 altezza: "170 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:46"
 
 ## Chi è
 
-Jessica Pegula è una delle tenniste americane più regolari e rispettate dell'ultimo ciclo del circuito femminile. Nata a Buffalo, nello Stato di New York, è arrivata ai vertici del gioco più tardi rispetto a molte coetanee, costruendo la propria ascesa con pazienza, stagione dopo stagione, fino a stabilirsi stabilmente nelle primissime posizioni della classifica mondiale. La sua è la storia di una giocatrice che non ha bruciato le tappe, ma che ha trasformato la continuità in un marchio di fabbrica, diventando un'avversaria temuta proprio perché raramente concede giornate storte.
+Jessica Pegula è una delle tenniste americane più regolari e rispettate dell'ultimo ciclo del circuito femminile. Nata a Buffalo, nello Stato di New York, il 24 febbraio 1994, è arrivata ai vertici del gioco più tardi rispetto a molte coetanee, costruendo la propria ascesa con pazienza, stagione dopo stagione, fino a stabilirsi stabilmente nelle primissime posizioni della classifica mondiale. La sua è la storia di una giocatrice che non ha bruciato le tappe, ma che ha trasformato la continuità in un marchio di fabbrica, diventando un'avversaria temuta proprio perché raramente concede giornate storte.
 
 Dietro al nome c'è anche una famiglia molto nota nello sport americano, legata alla proprietà di franchigie professionistiche del football e dell'hockey: un contesto che non le ha mai tolto l'etichetta di atleta costruitasi con il lavoro, visto il percorso lungo e tutt'altro che scontato che l'ha portata in cima.
 
@@ -40,18 +40,18 @@ Il punto di forza più riconoscibile è la risposta: restituisce profondo e aggr
 
 Il cemento è il suo terreno naturale. Il rimbalzo regolare e la velocità media di questi campi valorizzano i suoi colpi piatti e il suo gioco di anticipo, ed è proprio sul duro che ha ottenuto i risultati più importanti, sia nei grandi tornei americani sia nelle altre tappe stagionali su questa superficie.
 
-Sulla terra battuta resta competitiva, grazie alla profondità dei suoi colpi e alla capacità di costruire lo scambio, anche se il ritmo più lento e i rimbalzi più alti la obbligano a lavorare di più per chiudere. Sull'erba ha mostrato buoni passaggi, favorita dai colpi tesi e dalla risposta, pur rimanendo questa la superficie su cui storicamente ha raccolto meno.
+Sulla terra battuta resta competitiva, grazie alla profondità dei suoi colpi e alla capacità di costruire lo scambio, anche se il ritmo più lento e i rimbalzi più alti la obbligano a lavorare di più per chiudere. Sull'erba, superficie su cui storicamente ha raccolto meno, i riscontri sono in crescita: nel 2025 ha vinto il torneo di Bad Homburg battendo Iga Swiatek in finale e nel 2026 si è spinta fino ai quarti a Wimbledon.
 
 ## Trofei e momenti chiave
 
-Il momento più alto della carriera in singolare è arrivato con una finale in un torneo del Grande Slam, traguardo che ha certificato la sua appartenenza al gruppo delle migliori interpreti del circuito. A questo si affiancano diversi titoli WTA, compresi tornei di categoria superiore, e una lunga serie di quarti di finale Slam che per anni ha testimoniato la sua continuità ad altissimo livello.
+Il momento più alto della carriera in singolare è arrivato con la finale agli US Open 2024, persa contro Aryna Sabalenka: un traguardo che ha certificato la sua appartenenza al gruppo delle migliori interpreti del circuito, seguito da altre tre semifinali Slam fra il 2025 e il 2026. A questo si affiancano undici titoli WTA, quattro dei quali di categoria 1000, e la lunga serie di quarti di finale nelle prove maggiori che per anni ha testimoniato la sua continuità ad altissimo livello.
 
-Accanto al singolare, Pegula ha costruito un palmarès di rilievo anche nel doppio, specialità nella quale ha raggiunto le posizioni di vertice della classifica mondiale, confermando versatilità e intelligenza tattica.
+Accanto al singolare, Pegula ha costruito un palmarès di rilievo anche nel doppio, specialità nella quale è stata numero 1 del mondo nel settembre del 2023 e ha disputato la finale del Roland Garros 2022 insieme a Coco Gauff, confermando versatilità e intelligenza tattica.
 
 ### In sintesi
 
-- Finale in un torneo dello Slam in singolare
-- Diversi titoli WTA, inclusi tornei di categoria superiore
-- Risultati di primissimo piano anche nel doppio
+- Finale agli US Open 2024 in singolare, più tre semifinali Slam fra 2025 e 2026
+- Undici titoli WTA, quattro dei quali di categoria 1000
+- Numero 1 del mondo in doppio nel 2023
 
-Più che per un singolo colpo da highlight, Jessica Pegula va ricordata per la qualità complessiva del suo tennis: ordine, profondità e una costanza di rendimento che l'ha resa, per un lungo tratto, una presenza fissa ai piani alti del gioco.
+Più che per un singolo colpo da highlight, Jessica Pegula va ricordata per la qualità complessiva del suo tennis: ordine, profondità e una costanza di rendimento che la tiene da anni ai piani alti del gioco.

@@ -4,10 +4,10 @@ slug_profilo: "hamad-medjedovic"
 titoli: "Vincitore delle Next Gen ATP Finals 2023"
 stile_gioco: "Servizio e dritto molto potenti, profilo d'attacco"
 nazionalita: "Serbia"
-data_nascita: "2003-02-12"
+data_nascita: "2003-07-18"
 mano: "destro"
 rovescio: "due mani"
-altezza: "185 cm"
+altezza: "188 cm"
 categoria: "ATP"
 superficie_preferita: "indoor"
 intro: "Giovane serbo dal braccio esplosivo, cresciuto nell'orbita del tennis di Novak Djokovic e lanciato dalle Next Gen ATP Finals verso il grande circuito."
@@ -46,11 +46,13 @@ Sulla terra battuta il discorso è più articolato: la maggiore lentezza del rim
 
 ## Trofei e momenti chiave
 
-Il risultato che ha dato visibilità internazionale a Medjedović è il successo alle Next Gen ATP Finals, il torneo riservato ai migliori giovani del circuito: un titolo che ha certificato le qualità intraviste e ne ha accelerato la popolarità. A questo si affiancano alcuni titoli e buoni piazzamenti nel circuito Challenger, tappe fisiologiche nel percorso di consolidamento di un giovane proiettato verso il tour maggiore.
+Il risultato che ha dato visibilità internazionale a Medjedović è il successo alle Next Gen ATP Finals del 2023, il torneo riservato ai migliori giovani del circuito: cinque vittorie in cinque partite, con Arthur Fils battuto in finale, un titolo che ha certificato le qualità intraviste e ne ha accelerato la popolarità. A questo si affiancano diversi titoli nel circuito Challenger, tappe fisiologiche nel percorso di consolidamento di un giovane proiettato verso il tour maggiore.
+
+Sul tour maggiore il primo trofeo manca ancora, ma il serbo ha già giocato due finali, a Belgrado nel 2024 e a Marsiglia nel 2025, dove nel percorso ha superato Daniil Medvedev per il suo primo successo contro un top ten. La classifica lo ha visto salire fino al numero 56 nel maggio del 2026.
 
 **Trofei principali**
 
-- Next Gen ATP Finals
-- Alcuni titoli nel circuito Challenger
+- Next Gen ATP Finals 2023
+- Diversi titoli nel circuito Challenger
 
 Resta un profilo in piena evoluzione: il talento e la potenza non sono mai stati in discussione, mentre la sfida vera riguarda la capacità di trasformare le qualità in risultati stabili ai livelli più alti del circuito.

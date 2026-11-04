@@ -1,10 +1,10 @@
 ---
 nome: "Alex Michelsen"
 slug_profilo: "alex-michelsen"
-titoli: "Giovane emergente con primi acuti ATP"
-stile_gioco: "Gioco solido e maturo da fondo, lucidita' sul veloce"
+titoli: "Tre finali ATP e titoli nel circuito Challenger"
+stile_gioco: "Gioco solido e maturo da fondo, lucidità sul veloce"
 nazionalita: "Stati Uniti"
-data_nascita: "2004-06-26"
+data_nascita: "2004-08-25"
 mano: "destro"
 rovescio: "due mani"
 altezza: "193 cm"
@@ -44,8 +44,8 @@ Sull'erba ha mostrato di potersi adattare, aiutato dal servizio e da una propens
 
 ## Trofei e momenti chiave
 
-I momenti che hanno fatto conoscere Michelsen al grande pubblico sono arrivati presto, quando ancora giovanissimo si è messo in luce raggiungendo una finale sul circuito maggiore e firmando alcune vittorie di prestigio contro giocatori ben più affermati, prestazioni che hanno certificato il suo potenziale.
+I momenti che hanno fatto conoscere Michelsen al grande pubblico sono arrivati presto, nell'estate del 2023, quando ancora diciottenne e senza classifica di rilievo raggiunse la finale sull'erba di Newport. Il copione si è ripetuto l'anno successivo nello stesso torneo e poi sul cemento di Winston-Salem: tre finali sul circuito maggiore, nessuna trasformata in titolo, ma tutte accompagnate da vittorie di prestigio contro giocatori ben più affermati.
 
-Nelle prime stagioni sul tour maggiore ha costruito la propria credibilità soprattutto attraverso la regolarità, consolidando la presenza tra i protagonisti della nuova generazione statunitense. A questo si aggiunge il bagaglio maturato nel circuito inferiore, dove ha raccolto i successi che gli hanno permesso di accelerare la scalata.
+Nelle prime stagioni sul tour maggiore ha costruito la propria credibilità soprattutto attraverso la regolarità, consolidando la presenza tra i protagonisti della nuova generazione statunitense e arrivando a toccare la trentesima posizione mondiale nel luglio del 2025. A questo si aggiunge il bagaglio maturato nel circuito Challenger, dove ha raccolto i titoli che gli hanno permesso di accelerare la scalata.
 
 Più che per un singolo grande trofeo, la carriera di Michelsen va letta oggi come un cantiere aperto: un giocatore ancora in piena costruzione, la cui traiettoria sembra puntare verso traguardi più alti di quelli finora raggiunti.

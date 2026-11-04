@@ -1,49 +1,54 @@
 ---
-nome: "Tommy Paul"
+nome: "Jakub Paul"
 slug_profilo: "j-paul"
-titoli: "Titoli ATP e ingresso nella top 10"
-stile_gioco: "Gioco completo e dinamico da fondo, ottimo sul veloce"
-nazionalita: "Stati Uniti"
-data_nascita: "1997-05-17"
+titoli: "dieci titoli di doppio nel circuito Challenger e numerosi titoli ITF; nessun titolo ATP"
+stile_gioco: "Specialista di doppio, gioco a rete coraggioso e volée d'anticipo"
+nazionalita: "Svizzera"
+data_nascita: "1999-03-22"
 mano: "destro"
 rovescio: "due mani"
-altezza: "185 cm"
+altezza: "180 cm"
 categoria: "ATP"
-superficie_preferita: "cemento"
-intro: "Tommy Paul è uno dei volti più solidi del nuovo tennis statunitense: atletismo, continuità e una crescita costante che lo hanno portato stabilmente tra i migliori al mondo."
-descrizione: "Profilo di Tommy Paul: il tennista americano dall'atletismo straordinario, dal talento juniores alla stabile presenza tra i migliori del mondo."
+superficie_preferita: "terra"
+intro: "Cresciuto a Chur e diventato uno dei migliori doppisti svizzeri, Jakub Paul si è fatto conoscere nel 2026 con la corsa alla finale di United Cup in coppia con Belinda Bencic."
+descrizione: "Profilo di Jakub Paul: lo specialista di doppio svizzero, il suo percorso dai Challenger ai tabelloni dello Slam e i momenti chiave della carriera."
 tag:
-  - "Tommy Paul"
+  - "Jakub Paul"
   - "Paul tennis"
-  - "tennista americano"
+  - "tennis svizzero"
+  - "Svizzera"
   - "ATP"
-  - "cemento"
-  - "Stati Uniti"
-  - "Australian Open 2023"
+  - "doppio"
+  - "United Cup 2026"
 pubblicato: true
 generato_il: "2026-10-25T11:24"
 ---
 
 ## Chi è
 
-Tommy Paul rappresenta una delle espressioni più riuscite della nuova generazione del tennis statunitense, cresciuta all'ombra dei grandi campioni di casa e capace, con pazienza, di ritagliarsi un posto stabile tra i migliori del mondo. Nato nel 1997 sulla costa orientale degli Stati Uniti, ha fatto parlare di sé già da giovanissimo, quando nel 2015 si impose nel torneo juniores del Roland Garros superando in finale un altro astro nascente del movimento a stelle e strisce. Quel successo lo consegnò subito alle attese, ma la sua affermazione tra i professionisti è arrivata con gradualità, attraverso le tappe meno appariscenti del circuito prima della piena consacrazione sul tour maggiore.
+Jakub Paul è uno di quei giocatori la cui carriera va letta guardando soprattutto il doppio. Nato a Chur il 22 marzo 1999, si è avvicinato al tennis seguendo il padre e il fratello maggiore nel club della sua città, in un percorso che non ha avuto nulla di precoce o di spettacolare. A tredici anni la scelta di trasferirsi in un'accademia a Kreuzlingen, a diverse ore da casa, dove è rimasto cinque stagioni; a diciotto il passaggio al centro federale di Bienne, cuore del progetto tecnico svizzero.
+
+Proprio in quel periodo è arrivato uno dei primi segnali incoraggianti, con la qualificazione al tabellone juniores dello US Open e due turni superati, esperienza che gli è valsa anche un allenamento con Roger Federer. Da lì è iniziata la lunga gavetta tra i tornei ITF e il circuito Challenger, con la progressiva consapevolezza che il suo spazio migliore fosse nel gioco di squadra.
 
 ## Il suo tennis
 
-Il tratto distintivo di Paul è l'atletismo. Si muove con una scioltezza non comune, copre il campo in ogni direzione e trasforma la corsa in una vera arma, recuperando palloni che sembrano perduti e costringendo l'avversario a un colpo in più. Su questa base ha costruito un gioco solido e sempre più propositivo: il dritto è il colpo con cui cerca di indirizzare lo scambio, mentre il rovescio a due mani gli garantisce stabilità e la possibilità di cambiare direzione in anticipo. Negli anni ha aggiunto maggiore coraggio nella spinta e una crescente confidenza a rete, segno di una maturazione tecnica che lo ha portato a non limitarsi più alla sola attesa dell'errore altrui.
+Il profilo di Paul è quello del doppista moderno: non un giocatore che vive di potenza pura, ma un interprete che costruisce il proprio valore sulla posizione in campo, sull'anticipo e sul coraggio. A rete si muove con decisione, cerca il taglio sulla traiettoria avversaria e non teme di esporsi per rubare un punto che altri lascerebbero sviluppare. È un modo di stare in campo che richiede fiducia e lettura rapida della situazione, e che in coppia con partner esperte e aggressive ha trovato la cornice ideale.
+
+In singolare, dove ha raccolto alcuni titoli nel circuito ITF e una classifica migliore vicina alle prime trecento posizioni, il suo tennis resta ordinato e combattivo, con il rovescio a due mani usato come appoggio e la ricerca di scambi gestiti con disciplina. È una doppia carriera che ha portato con sé una scelta ricorrente: dove concentrare le energie, tra i tabelloni di singolare dei Challenger e un doppio che gli ha aperto le porte dei grandi tornei.
 
 ## Sulle diverse superfici
 
-La superficie che ne esalta le qualità è il cemento, dove la velocità di gambe e la capacità di giocare in anticipo rendono al meglio. Non è però un interprete monocorde: la sua mobilità lo rende competitivo anche sulla terra battuta, terreno che premia chi sa scivolare e prolungare gli scambi, e nel tempo ha mostrato di sapersi adattare pure ai campi rapidi dell'erba, dove il suo tennis diretto trova ulteriore sfogo. Questa versatilità è una delle ragioni della sua continuità di rendimento lungo l'intera stagione.
+La terra battuta è il terreno su cui ha raccolto il miglior rendimento nei tabelloni di doppio, con una percentuale di finali vinte superiore a quella ottenuta sugli altri piani di gioco. Non è però un giocatore legato a una sola superficie: i campi rapidi, indoor compresi, premiano la sua propensione ad accorciare lo scambio e a chiudere di volo, e sono stati lo scenario dei suoi risultati più visibili nelle competizioni a squadre.
 
 ## Trofei e momenti chiave
 
-Il momento che ha segnato la svolta nella carriera di Paul resta la semifinale raggiunta agli Australian Open del 2023, risultato che lo ha proiettato per la prima volta tra i protagonisti di un torneo dello Slam e gli ha portato credito internazionale. Sul circuito maggiore ha conquistato alcuni titoli ATP, confermando di saper reggere la pressione dei match decisivi, e nel corso delle ultime stagioni è entrato stabilmente tra i primi dieci giocatori del mondo, traguardo che fotografa meglio di ogni altro la sua crescita.
+L'esordio nel circuito maggiore risale al torneo di Gstaad del 2018, dove è entrato nel tabellone di doppio con una wild card in coppia con Adrian Bodmer, uscendo ai quarti contro le teste di serie numero uno Robin Haase e Matwe Middelkoop. Tre anni dopo, sempre a Gstaad, è arrivata una semifinale insieme a Leandro Riedi, mentre nel 2022 a Ginevra la coppia ha superato Jamie Murray e Bruno Soares, seconde teste di serie.
+
+Il 2026 è stata la sua stagione: i tabelloni principali di doppio in tutte e quattro le prove dello Slam, con il terzo turno al Roland Garros come miglior risultato, e soprattutto la United Cup, dove ha vinto quattro incontri di doppio misto in coppia con Belinda Bencic trascinando la Svizzera alla prima finale della propria storia nella competizione.
 
 ### Trofei principali
 
-- Titolo juniores al Roland Garros (2015)
-- Semifinale agli Australian Open (2023)
-- Diversi titoli nel circuito ATP
-
-Più che per un singolo trionfo clamoroso, la carriera di Paul va letta come un percorso di costanza: una progressione graduale ma continua, costruita sull'affidabilità fisica e su una fame competitiva che lo hanno reso uno degli avversari più scomodi del panorama attuale.
+- Dieci titoli di doppio nel circuito Challenger e numerosi titoli ITF
+- Terzo turno nel doppio al Roland Garros (2026)
+- Finale di United Cup con la Svizzera (2026), con quattro vittorie nel doppio misto
+- Best ranking di doppio: numero 54 del mondo (2026)

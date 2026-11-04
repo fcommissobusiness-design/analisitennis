@@ -5,9 +5,9 @@ anno: 2026
 citta: "Vienna"
 paese: "Austria"
 categoria: "ATP"
-superficie: "indoor"
-fondato: "anni Settanta"
-intro: "Nel cuore dell'autunno indoor, Vienna accende la Wiener Stadthalle: un ATP 500 elegante e teatrale, dove l'Austria del tennis celebra la sua grande tradizione europea."
+superficie: "cemento"
+fondato: "1974"
+intro: "Nel cuore dell'autunno al coperto, Vienna accende la Wiener Stadthalle: un ATP 500 elegante e teatrale, giocato sul cemento indoor, dove l'Austria del tennis celebra la sua grande tradizione europea."
 descrizione: "Erste Bank Open 2026: storia, campo indoor, albo d'oro recente e curiosità dell'ATP 500 austriaco alla Wiener Stadthalle di Vienna."
 tag:
   - "Erste Bank Open"
@@ -26,7 +26,7 @@ cover_credit: "Wiener Stadthalle 2013 Halle F Halle D b.jpg | Manfred Werner - T
 
 ## La storia
 
-Pochi appuntamenti del circuito indoor sanno coniugare eleganza e calore come il torneo di Vienna. Nato negli anni Settanta, l'evento è cresciuto di pari passo con il tennis austriaco fino a imporsi come una delle tappe autunnali più ambite del calendario maschile, oggi inquadrata nella prestigiosa categoria ATP 500. La sua storia racconta l'evoluzione di un movimento che ha saputo trasformare una manifestazione di dimensioni regionali in una vetrina internazionale, capace di richiamare con regolarità i migliori interpreti del gioco al coperto. Vienna, capitale mitteleuropea di musica e cultura, ha fatto di questa settimana di fine ottobre un rito cittadino, con la Wiener Stadthalle trasformata in cassa di risonanza di un pubblico competente ed entusiasta.
+Pochi appuntamenti del circuito indoor sanno coniugare eleganza e calore come il torneo di Vienna. Nato nel 1974 e giocato su tappeto fino alla fine degli anni Novanta, prima del passaggio definitivo al cemento al coperto, l'evento è cresciuto di pari passo con il tennis austriaco fino a imporsi come una delle tappe autunnali più ambite del calendario maschile, oggi inquadrata nella prestigiosa categoria ATP 500. La sua storia racconta l'evoluzione di un movimento che ha saputo trasformare una manifestazione di dimensioni regionali in una vetrina internazionale, capace di richiamare con regolarità i migliori interpreti del gioco al coperto. Vienna, capitale mitteleuropea di musica e cultura, ha fatto di questa settimana di fine ottobre un rito cittadino, con la Wiener Stadthalle trasformata in cassa di risonanza di un pubblico competente ed entusiasta.
 
 ## Il campo e lo stile
 
@@ -36,11 +36,14 @@ Il torneo si disputa al coperto, su una superficie veloce che premia il servizio
 
 Negli ultimi anni il tabellone ha incoronato campioni di primo piano, alternando interpreti affermati a nuove leve in ascesa:
 
-- Jannik Sinner
-- Daniil Medvedev
-- Alexander Zverev
+- 2021: Alexander Zverev
+- 2022: Daniil Medvedev
+- 2023: Jannik Sinner
+- 2024: Jack Draper
+- 2025: Jannik Sinner
+- 2026: Carlos Alcaraz, in finale su Alex de Minaur
 
-Il torneo ha così confermato la propria capacità di attrarre i protagonisti della volata finale di stagione, offrendo spesso finali di grande intensità davanti a un pubblico numeroso. La collocazione in calendario, a ridosso dell'atto conclusivo dell'annata, ha reso ogni edizione un banco di prova significativo per chi insegue traguardi importanti nella classifica mondiale.
+Sinner è l'unico giocatore a essersi imposto due volte alla Wiener Stadthalle nell'ultimo decennio, mentre il successo di Alcaraz nell'ultima edizione, la cinquantaduesima, ha aggiunto all'albo d'oro un altro nome di assoluto vertice. Il torneo ha così confermato la propria capacità di attrarre i protagonisti della volata finale di stagione, offrendo spesso finali di grande intensità davanti a un pubblico numeroso. La collocazione in calendario, a ridosso dell'atto conclusivo dell'annata, ha reso ogni edizione un banco di prova significativo per chi insegue traguardi importanti nella classifica mondiale.
 
 ## Curiosità
 

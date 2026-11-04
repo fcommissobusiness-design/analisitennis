@@ -1,8 +1,8 @@
 ---
 nome: "Alexandra Eala"
 slug_profilo: "alexandra-eala"
-titoli: "Prima filippina ai vertici giovanili e primi acuti WTA"
-stile_gioco: "Mancina offensiva, dritto e varieta', mentalita' da battaglia"
+titoli: "Prima filippina a vincere un titolo WTA e a entrare in top 20"
+stile_gioco: "Mancina offensiva, dritto e varietà, mentalità da battaglia"
 nazionalita: "Filippine"
 data_nascita: "2005-05-23"
 mano: "mancino"
@@ -10,7 +10,7 @@ rovescio: "due mani"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Prodotto dell'accademia di Rafael Nadal, Alexandra Eala è la prima vera stella del tennis filippino a imporsi all'attenzione del circuito maggiore."
-descrizione: "Profilo di Alexandra Eala: la mancina filippina cresciuta alla Rafa Nadal Academy, pioniera del tennis asiatico nel circuito WTA."
+descrizione: "Profilo di Alexandra Eala: la mancina filippina cresciuta alla Rafa Nadal Academy, pioniera del tennis filippino nel circuito WTA."
 tag:
   - "Alexandra Eala"
   - "Eala"
@@ -43,13 +43,15 @@ La terra battuta, d'altra parte, le è familiare per ragioni biografiche: gli an
 
 ## Trofei e momenti chiave
 
-Il primo capitolo importante della sua storia si è scritto nel settore giovanile, dove Eala ha ottenuto riconoscimenti di assoluto rilievo nei tornei dello Slam, affermazioni che l'hanno segnalata come una delle promesse più serie del suo movimento.
+Il primo capitolo importante della sua storia si è scritto nel settore giovanile, con il titolo in singolare agli US Open junior del 2022, il primo di sempre per una filippina in un torneo dello Slam di categoria, al quale si aggiungono due affermazioni nel doppio junior.
 
-Il salto nell'immaginario collettivo, però, è arrivato con il passaggio al tour maggiore, quando ha dimostrato di poter competere con giocatrici di vertice in un torneo di grande prestigio, firmando un cammino che ha avuto vasta eco mediatica ben oltre i confini delle Filippine.
+Il salto nell'immaginario collettivo è arrivato invece nel marzo del 2025 a Miami, dove, entrata in tabellone da numero 140 del mondo con un invito, ha battuto nell'ordine Jelena Ostapenko, Madison Keys e Iga Swiatek prima di fermarsi in semifinale contro Jessica Pegula: mai una giocatrice delle Filippine si era spinta così avanti in un WTA 1000. Da lì il percorso è stato una scalata costante: la finale di Eastbourne nello stesso anno, poi nel 2026 il quarto turno a Wimbledon (di nuovo con uno scalpo di Swiatek), il bronzo in singolare ai Giochi asiatici e, soprattutto, il primo titolo WTA conquistato a Washington, un 500 che l'ha spinta fino alla diciassettesima posizione mondiale.
 
 **Trofei principali**
 
-- Titoli di rilievo nel circuito giovanile, compreso un successo in singolare in un torneo dello Slam junior
-- Affermazioni e primi acuti nei tornei del circuito professionistico femminile
+- Titolo in singolare agli US Open junior 2022, oltre a due titoli di doppio nei tornei dello Slam giovanili
+- Washington 2026, primo titolo WTA in carriera
+- Semifinale al WTA 1000 di Miami 2025 e finale a Eastbourne 2025
+- Miglior classifica: numero 17 del mondo
 
 Più che un elenco di trofei, ciò che definisce Eala in questa fase è la direzione del suo percorso: quella di una giocatrice ancora giovane, con margini evidenti di crescita, che ha già spostato in avanti l'asticella di ciò che un'atleta filippina può ambire a raggiungere nel tennis mondiale.

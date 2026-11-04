@@ -2,21 +2,21 @@
 nome: "Arthur Fery"
 slug_profilo: "a-fery"
 nazionalita: "Regno Unito"
-data_nascita: "2002-09-20"
+data_nascita: "2002-07-12"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "regolarità da fondo campo e buona mobilità"
-titoli: "alcuni titoli nei circuiti minori (ITF e Challenger), con apparizioni nei tornei maggiori da wild card"
-categoria: "Challenger"
+titoli: "un titolo Challenger e cinque nel circuito ITF; semifinale a Wimbledon 2026 da wild card e best ranking di numero 32 del mondo"
+categoria: "ATP"
 superficie_preferita: "erba"
-intro: "Arthur Fery, britannico cresciuto tra l'Europa e il college americano, è uno dei giovani di scuola inglese che ha saputo ritagliarsi i suoi momenti sul grande palcoscenico."
-descrizione: "Profilo di Arthur Fery: il tennista britannico di formazione universitaria americana, il suo gioco da fondo e i momenti chiave della carriera."
+intro: "Arthur Fery, britannico formatosi a Stanford, è passato dai tornei minori alla semifinale di Wimbledon 2026 da wild card, impresa che nessun britannico aveva firmato nell'era Open."
+descrizione: "Profilo di Arthur Fery: il britannico di formazione universitaria americana, la semifinale di Wimbledon 2026 da wild card, il suo gioco e le superfici."
 tag:
   - "Arthur Fery"
   - "Fery"
   - "tennis britannico"
   - "Regno Unito"
-  - "Challenger"
+  - "ATP"
   - "erba"
   - "Stanford"
   - "Wimbledon"
@@ -26,9 +26,9 @@ generato_il: "2026-10-30T17:09"
 
 ## Chi è
 
-Arthur Fery è un tennista britannico nato a Londra nel 2002, erede di una famiglia dalle radici francesi come lascia intuire il cognome. Il suo percorso ha preso una direzione meno battuta rispetto a quella della maggior parte dei coetanei europei: invece di tuffarsi subito a tempo pieno nel circuito professionistico, ha scelto la strada del tennis universitario statunitense, vestendo i colori di Stanford nella NCAA. È una formazione che lascia il segno, perché unisce la maturazione tecnica a un approccio mentale costruito sulla competizione di squadra e su una gestione graduale del passaggio tra i tornei.
+Arthur Fery è un tennista britannico nato il 12 luglio 2002 a Sèvres, nella banlieue di Parigi, da una famiglia francese: il cognome non inganna. Si è trasferito a Londra a poche settimane di vita ed è cresciuto proprio a Wimbledon, a pochi passi dai campi che vent'anni dopo lo avrebbero reso celebre. Il tennis gli arriva da casa: la madre Olivia è stata una professionista del circuito WTA, con una partecipazione al Roland Garros all'inizio degli anni Novanta, mentre il padre Loic è presidente del Lorient, club della Ligue 1 francese.
 
-Proprio da quel bagaglio Fery è poi rientrato nel circuito maggiore con l'obiettivo di scalare le classifiche, muovendosi soprattutto tra i tornei di livello inferiore e inseguendo le occasioni che il tennis britannico, generoso di inviti sull'erba di casa, può offrire ai suoi giovani.
+Il suo percorso ha preso una direzione meno battuta rispetto a quella della maggior parte dei coetanei europei: invece di tuffarsi subito a tempo pieno nel circuito professionistico, ha scelto la strada del tennis universitario statunitense, vestendo i colori di Stanford nella NCAA. Lì è arrivato fino al primo posto nella classifica nazionale di singolare, cosa che a Stanford non capitava dai tempi di Bob Bryan, ed è uscito due volte All-American. È una formazione che lascia il segno, perché unisce la maturazione tecnica a un approccio mentale costruito sulla competizione di squadra.
 
 ## Il suo tennis
 
@@ -44,6 +44,8 @@ Il cemento, superficie su cui si è formato negli anni del college americano, re
 
 ## Trofei e momenti chiave
 
-Sul piano dei risultati, la carriera di Fery si è mossa soprattutto nei circuiti minori, dove ha raccolto alcuni successi che ne hanno accompagnato la crescita e la risalita nelle classifiche. Il momento che più ha fatto parlare di lui è però arrivato nel tabellone principale di Wimbledon: da wild card, davanti al pubblico di casa, ha firmato una vittoria di prestigio che ha acceso i riflettori su un giocatore fino a quel momento poco conosciuto al grande pubblico.
+Per anni la carriera di Fery si è mossa nei circuiti minori, dove ha raccolto un titolo Challenger e cinque affermazioni nel circuito ITF, senza mai arrivare a un titolo nel tour maggiore. Nel 2025 era arrivata la prima vittoria nel tabellone principale di Wimbledon, contro Alexei Popyrin, prima di cedere al secondo turno.
 
-È il tipo di exploit che racconta bene il suo percorso: un atleta che non parte quasi mai con i favori del pronostico, ma che nelle giornate giuste sa trasformare la propria solidità in un'arma capace di sorprendere. Più che un palmarès ricco di trofei di prima fascia, la sua storia è fatta di tappe costruite con pazienza e di singoli acuti che hanno dimostrato il potenziale di un tennis essenziale ma concreto.
+Poi è arrivato il luglio 2026. Invitato da wild card dopo un avvio di stagione difficile, numero 114 del mondo, Fery ha attraversato il tabellone di Wimbledon battendo tra gli altri Zizou Bergs al terzo turno e, agli ottavi, Grigor Dimitrov al quinto set. Nei quarti ha superato Flavio Cobolli, nona testa di serie, sul Centrale: nessun britannico aveva mai raggiunto la semifinale di uno Slam partendo da un invito, nell'era Open, ed è appena il secondo wild card nella storia di Wimbledon ad arrivare fra i primi quattro, il primo in venticinque anni. Il cammino si è fermato in semifinale contro Alexander Zverev, ma al rientro in classifica Fery era diventato numero uno britannico e, il 2 novembre 2026, ha toccato il suo best ranking di numero 32 del mondo.
+
+È il tipo di exploit che racconta bene il suo percorso: un atleta che non parte quasi mai con i favori del pronostico, ma che nelle giornate giuste sa trasformare la propria solidità in un'arma capace di sorprendere.

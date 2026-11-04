@@ -6,7 +6,7 @@ data_nascita: "1996-01-04"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "aggressività da fondo, dritto pesante e grande mobilità"
-titoli: "titoli WTA tra cui un '1000' sul cemento e il trofeo di Roma sulla terra, oltre all'oro olimpico nel doppio"
+titoli: "tre titoli WTA in singolare, fra cui Dubai 2024 sul cemento e Roma 2025 sulla terra, due finali Slam nel 2024, oro olimpico e Roland Garros 2025 in doppio"
 altezza: "163 cm"
 categoria: "WTA"
 superficie_preferita: "terra"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:40"
 
 ## Chi è
 
-Jasmine Paolini è una delle figure più rappresentative del tennis italiano degli ultimi anni. Nata in Toscana nel 1996, è cresciuta lontano dai grandi riflettori, costruendo la propria carriera un passo alla volta, prima nei tornei minori e poi con pazienza sul tour maggiore. Per lungo tempo è stata una giocatrice solida ma di secondo piano nelle classifiche; poi, con la maturità agonistica, è esplosa diventando una presenza stabile ai vertici della classifica WTA e un punto di riferimento per il movimento azzurro. La sua statura contenuta, spesso citata come un limite, si è trasformata in un tratto distintivo: pochi riescono a trasmettere tanta intensità e tanto entusiasmo in campo.
+Jasmine Paolini è una delle figure più rappresentative del tennis italiano degli ultimi anni. Nata a Castelnuovo di Garfagnana, in Toscana, il 4 gennaio 1996, è cresciuta lontano dai grandi riflettori, costruendo la propria carriera un passo alla volta, prima nei tornei minori e poi con pazienza sul tour maggiore. Per lungo tempo è stata una giocatrice solida ma di secondo piano nelle classifiche; poi, con la maturità agonistica, è esplosa fino al numero 4 del mondo nell'ottobre del 2024, diventando un punto di riferimento per il movimento azzurro. La sua statura contenuta, spesso citata come un limite, si è trasformata in un tratto distintivo: pochi riescono a trasmettere tanta intensità e tanto entusiasmo in campo.
 
 ## Il suo tennis
 
@@ -38,10 +38,11 @@ Paolini ha dimostrato di sapersi esprimere su tutte le superfici, ma è sulla te
 
 ## Trofei e momenti chiave
 
-La svolta della carriera di Paolini è arrivata con una stagione di grande impatto, culminata nel raggiungimento dei vertici della classifica mondiale e in una serie di risultati che hanno segnato il tennis italiano. Si è spinta fino alle fasi finali dei tornei dello Slam, confermandosi tra le migliori interpreti del circuito, e ha saputo alzare trofei di prestigio sia sul cemento sia sulla terra, compreso un titolo particolarmente sentito in casa. Al successo nel singolare ha affiancato un rendimento eccellente nel doppio, dove ha vissuto uno dei momenti più emozionanti con una medaglia d'oro olimpica conquistata in coppia. A questi traguardi individuali si aggiunge il contributo decisivo alla nazionale nelle competizioni a squadre, dove ha dato un apporto fondamentale ai successi dell'Italia.
+La svolta è arrivata con il 2024, una stagione di impatto enorme: il primo grande titolo a Dubai, sul cemento, e soprattutto le due finali consecutive nei tornei dello Slam, al Roland Garros e a Wimbledon, perse rispettivamente da Iga Swiatek e Barbora Krejcikova. Nel 2025 ha completato il quadro alzando a Roma il trofeo più sentito, davanti al proprio pubblico e sulla terra battuta. Al singolare ha affiancato un rendimento eccellente nel doppio insieme a Sara Errani, culminato nell'oro olimpico di Parigi 2024 e nel titolo del Roland Garros 2025. A questi traguardi individuali si aggiunge il contributo decisivo alle due Billie Jean King Cup vinte dall'Italia nel 2024 e nel 2025.
 
 **Trofei principali**
 
-- Titoli WTA in singolare, su superfici diverse
-- Oro olimpico nel doppio
-- Successi con la nazionale italiana nelle competizioni a squadre
+- Tre titoli WTA in singolare, fra cui Dubai 2024 e Roma 2025, entrambi di categoria 1000
+- Finali al Roland Garros e a Wimbledon nel 2024
+- Oro olimpico nel doppio a Parigi 2024 e titolo del Roland Garros 2025 in doppio, con Sara Errani
+- Billie Jean King Cup con l'Italia nel 2024 e nel 2025

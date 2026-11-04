@@ -1,7 +1,7 @@
 ---
 nome: "Daniil Medvedev"
 slug_profilo: "daniil-medvedev"
-titoli: "Un titolo Slam (US Open 2021) e piu' Masters 1000"
+titoli: "Un titolo Slam (US Open 2021) e più Masters 1000"
 stile_gioco: "Difesa da fondo molto arretrata, braccio piatto e profondo, grande lettura"
 nazionalita: "Russia"
 data_nascita: "1996-02-11"

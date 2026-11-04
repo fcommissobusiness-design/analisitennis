@@ -4,14 +4,14 @@ slug_profilo: "francisco-cerundolo"
 titoli: "Titoli ATP e miglior rendimento sulla terra"
 stile_gioco: "Dritto pesante e gioco da fondo costruito sulla terra"
 nazionalita: "Argentina"
-data_nascita: "1998-08-11"
+data_nascita: "1998-08-13"
 mano: "destro"
 rovescio: "due mani"
 altezza: "185 cm"
 categoria: "ATP"
 superficie_preferita: "terra"
 intro: "Potenza da fondo e un dritto pesante: Francisco Cerúndolo è il volto di una generazione argentina cresciuta sulla terra ma capace di adattarsi."
-descrizione: "Profilo di Francisco Cerúndolo: tennista argentino da top 20 ATP, dritto devastante, specialista della terra con buone doti anche sul cemento."
+descrizione: "Profilo di Francisco Cerúndolo: tennista argentino da top 20 ATP, dritto devastante, cresciuto sulla terra e vincente anche su erba e cemento."
 tag:
   - "Francisco Cerúndolo"
   - "Cerundolo"
@@ -40,15 +40,16 @@ Fisicamente solido e dotato di buona mobilità, è un giocatore che ama restare 
 
 La terra battuta resta il suo habitat naturale: è la superficie su cui il suo dritto rotante rende al massimo e su cui ha ottenuto alcuni dei risultati più convincenti. Qui riesce a esprimere il tennis di costruzione e di potenza che gli è più congeniale.
 
-La vera notizia della sua carriera, però, è stata la capacità di tradurre quel bagaglio anche sul cemento. Cerúndolo ha dimostrato di sapersi spingere in profondità nei tabelloni delle superfici rapide, confermando di non essere un giocatore legato a un'unica dimensione. L'erba rimane invece il terreno più ostico, come spesso accade per i tennisti di formazione sudamericana, pur senza che ciò abbia impedito episodi di buon livello.
+La vera notizia della sua carriera, però, è stata la capacità di tradurre quel bagaglio anche altrove. Sul cemento ha dimostrato di sapersi spingere in profondità nei tabelloni, con gli ottavi raggiunti agli Australian Open e agli US Open del 2026. Ancora più sorprendente il rendimento sull'erba, superficie che di solito mette in difficoltà i tennisti di formazione sudamericana: Cerúndolo l'ha invece eletta a terreno di caccia, vincendo a Eastbourne nel 2023 e al Queen's nel 2026, entrambe le volte battendo Tommy Paul in finale.
 
 ## Trofei e momenti chiave
 
 La crescita di Cerúndolo si misura soprattutto nella continuità con cui si è fatto largo tra i big, più che in un singolo trionfo isolato. I passaggi che ne hanno segnato l'affermazione sono essenzialmente questi:
 
-- La conquista del primo titolo ATP in carriera sulla terra battuta europea, tappa decisiva della sua maturazione.
-- Cammini profondi in tornei di alto profilo sul cemento, che hanno certificato la sua versatilità.
-- L'ingresso stabile nelle posizioni di vertice della classifica mondiale, con il raggiungimento di una fascia a lungo inseguita.
-- Prestazioni di rilievo nei tornei dello Slam, dove ha saputo mettere in difficoltà avversari di primissimo piano.
+- La conquista del primo titolo ATP in carriera a Bastad, nel 2022, sulla terra battuta europea: tappa decisiva della sua maturazione.
+- I titoli di Umago nel 2024 e di Buenos Aires nel 2026, che ne hanno confermato il dominio sul rosso.
+- I successi sull'erba di Eastbourne e del Queen's, che hanno certificato la sua versatilità.
+- L'ingresso nella top 20 mondiale, con il numero 18 raggiunto nel maggio del 2025.
+- Gli ottavi di finale in tre prove dello Slam diverse, dove ha saputo mettere in difficoltà avversari di primissimo piano.
 
 Il risultato è il ritratto di un giocatore maturo, che ha trasformato un talento di base in una presenza affidabile ai piani alti del tennis internazionale.

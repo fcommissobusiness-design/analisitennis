@@ -1,7 +1,7 @@
 ---
 nome: "Stefanos Tsitsipas"
 slug_profilo: "stefanos-tsitsipas"
-titoli: "ATP Finals 2019, piu' Masters 1000 e finali Slam"
+titoli: "ATP Finals 2019, tre Masters 1000 a Monte Carlo e due finali Slam"
 stile_gioco: "Rovescio a una mano, gioco completo e offensivo verso rete"
 nazionalita: "Grecia"
 data_nascita: "1998-08-12"
@@ -26,7 +26,7 @@ generato_il: "2026-10-25T11:40"
 
 ## Chi è
 
-Stefanos Tsitsipas è stato uno dei volti più riconoscibili della sua generazione e il primo tennista greco capace di imporsi stabilmente ai vertici del circuito maggiore. Nato ad Atene nel 1998 e cresciuto in una famiglia di sport — il padre Apostolos ne ha seguito a lungo la carriera da allenatore — ha portato sul tour un gioco elegante e una personalità spesso al centro della scena. Nelle sue stagioni migliori ha raggiunto le primissime posizioni della classifica mondiale, arrivando fino al terzo posto.
+Stefanos Tsitsipas è uno dei volti più riconoscibili della sua generazione e il primo tennista greco capace di imporsi stabilmente ai vertici del circuito maggiore. Nato ad Atene il 12 agosto 1998 e cresciuto in una famiglia di sport (il padre Apostolos ne ha seguito a lungo la carriera da allenatore), ha portato sul tour un gioco elegante e una personalità spesso al centro della scena. Nelle sue stagioni migliori ha raggiunto le primissime posizioni della classifica mondiale, arrivando fino al terzo posto nell'agosto del 2021.
 
 ## Il suo tennis
 
@@ -38,10 +38,13 @@ La terra battuta è il terreno su cui ha raccolto alcuni dei risultati più soli
 
 ## Trofei e momenti chiave
 
-Il traguardo più prestigioso resta il titolo alle ATP Finals del 2019, il torneo che a fine stagione riunisce i migliori dell'annata: un successo conquistato da giovanissimo, che lo ha certificato tra i grandi del suo tempo. Sulla terra ha trovato particolare continuità nel Principato, con affermazioni di peso nel Masters 1000 di Monte Carlo. Nei tornei dello Slam ha vissuto le sue notti più intense raggiungendo la finale al Roland Garros e, qualche stagione più tardi, quella degli Australian Open: due atti conclusivi che hanno confermato la sua statura, pur senza il coronamento del titolo. Sono proprio questi appuntamenti, insieme alla costanza mantenuta a lungo nei primi dieci del mondo, a disegnare il ritratto di un giocatore che ha saputo unire talento, spettacolo e risultati concreti.
+Il traguardo più prestigioso resta il titolo alle ATP Finals del 2019, il torneo che a fine stagione riunisce i migliori dell'annata: un successo conquistato da giovanissimo, che lo ha certificato tra i grandi del suo tempo. Sulla terra ha trovato particolare continuità nel Principato, dove ha vinto per tre volte il Masters 1000 di Monte Carlo, nel 2021, nel 2022 e nel 2024. Nei tornei dello Slam ha vissuto le sue notti più intense raggiungendo la finale al Roland Garros nel 2021 e quella degli Australian Open nel 2023, perdendole entrambe contro Novak Djokovic: due atti conclusivi che hanno confermato la sua statura, pur senza il coronamento del titolo.
+
+Il conto complessivo dice tredici titoli nel circuito maggiore, l'ultimo dei quali in ordine di tempo a Dubai nel 2025, il suo primo ATP 500. Le stagioni più recenti sono state complicate dai problemi fisici, in particolare alla schiena, che lo hanno fatto scivolare fuori dalle prime venti posizioni. Resta il ritratto di un giocatore che ha unito talento, spettacolo e risultati concreti, con una costanza mantenuta a lungo nei primi dieci del mondo.
 
 Trofei principali:
 
 - Titolo alle ATP Finals (2019)
-- Più titoli nel Masters 1000 di Monte Carlo
-- Finali raggiunte al Roland Garros e agli Australian Open
+- Tre titoli nel Masters 1000 di Monte Carlo (2021, 2022, 2024)
+- Finali raggiunte al Roland Garros (2021) e agli Australian Open (2023)
+- Tredici titoli ATP in carriera, best ranking numero 3 del mondo

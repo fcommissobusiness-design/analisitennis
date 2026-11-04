@@ -1,16 +1,16 @@
 ---
-nome: "R. Matsuda"
+nome: "Ryuki Matsuda"
 slug_profilo: "r-matsuda"
 stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Giappone"
 mano: "destro"
 categoria: "Challenger"
 superficie_preferita: "cemento"
-intro: "Professionista giapponese cresciuto nel circuito minore asiatico, R. Matsuda ha costruito la sua carriera nei tabelloni Challenger e ITF, un punto alla volta."
-descrizione: "Profilo di R. Matsuda: il tennista giapponese tra Challenger e ITF, il suo stile di gioco, le superfici in cui rende meglio e i momenti chiave."
+intro: "Professionista giapponese cresciuto nel circuito minore asiatico, Ryuki Matsuda ha costruito la sua carriera nei tabelloni Challenger e ITF, un punto alla volta."
+descrizione: "Profilo di Ryuki Matsuda: il tennista giapponese tra Challenger e ITF, il suo stile di gioco, le superfici in cui rende meglio e i momenti chiave."
 tag:
   - "Matsuda"
-  - "R. Matsuda"
+  - "Ryuki Matsuda"
   - "tennista giapponese"
   - "Giappone"
   - "Challenger"
@@ -23,7 +23,7 @@ generato_il: "2026-10-25T12:19"
 
 ## Chi è
 
-R. Matsuda è un tennista giapponese che ha sviluppato la propria carriera lontano dai riflettori dei grandi tornei, nei circuiti di avviamento e di fascia intermedia che fanno da ponte verso il tennis di vertice. Come molti connazionali della sua generazione, ha misurato i propri progressi settimana dopo settimana nei tabelloni Challenger e ITF, soprattutto nella fitta rete di appuntamenti del continente asiatico, dove ogni posizione in classifica si conquista con la continuità più che con un singolo exploit. È il ritratto del professionista di mestiere: un percorso fatto di costanza, viaggi lunghi e lavoro sommerso, più che di parabole fulminee.
+Ryuki Matsuda, nato a Kyoto nel dicembre del 1999, è un tennista giapponese che ha sviluppato la propria carriera lontano dai riflettori dei grandi tornei, nei circuiti di avviamento e di fascia intermedia che fanno da ponte verso il tennis di vertice. Come molti connazionali della sua generazione, ha misurato i propri progressi settimana dopo settimana nei tabelloni Challenger e ITF, soprattutto nella fitta rete di appuntamenti del continente asiatico, dove ogni posizione in classifica si conquista con la continuità più che con un singolo exploit. È il ritratto del professionista di mestiere: un percorso fatto di costanza, viaggi lunghi e lavoro sommerso, più che di parabole fulminee.
 
 ## Il suo tennis
 

@@ -1,20 +1,19 @@
 ---
-nome: "J. Aguilar Cardozo"
+nome: "Joaquín Aguilar Cardozo"
 slug_profilo: "j-aguilar-cardozo"
-nazionalita: "Bolivia"
+nazionalita: "Uruguay"
 mano: "destro"
-rovescio: "due mani"
 stile_gioco: "gioco aggressivo da fondo con dritto propulsivo"
-titoli: "diversi riscontri nei circuiti ITF e Challenger sudamericani"
+titoli: "titoli nel circuito ITF sudamericano e prime presenze in Coppa Davis con l'Uruguay"
 categoria: "Challenger"
 superficie_preferita: "terra"
-intro: "J. Aguilar Cardozo è un prodotto del vivaio sudamericano, cresciuto sulla terra battuta e abituato a farsi largo tra i tornei minori del continente."
-descrizione: "Profilo editoriale di J. Aguilar Cardozo: stile di gioco, superfici preferite e percorso nel circuito sudamericano tra ITF e Challenger."
+intro: "Joaquín Aguilar Cardozo è un prodotto del vivaio sudamericano, cresciuto sulla terra battuta e abituato a farsi largo tra i tornei minori del continente."
+descrizione: "Profilo editoriale di Joaquín Aguilar Cardozo: stile di gioco, superfici preferite e percorso del tennista uruguaiano tra ITF e Challenger."
 tag:
-  - "J. Aguilar Cardozo"
+  - "Joaquín Aguilar Cardozo"
   - "Aguilar Cardozo"
-  - "Bolivia"
-  - "tennis boliviano"
+  - "Uruguay"
+  - "tennis uruguaiano"
   - "Challenger"
   - "terra battuta"
   - "tennis sudamericano"
@@ -24,7 +23,7 @@ generato_il: "2026-10-31T12:02"
 
 ## Chi è
 
-J. Aguilar Cardozo appartiene a quella schiera di tennisti sudamericani che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, nei campi in terra battuta dove si forgia la maggior parte dei giocatori del continente. È un atleta che ha fatto della gavetta la propria cifra: tappe nei circuiti minori, lunghi spostamenti tra un torneo e l'altro e la ricerca costante di quei punti che, settimana dopo settimana, permettono di risalire la classifica mondiale.
+Joaquín Aguilar Cardozo, uruguaiano classe 2005, appartiene a quella schiera di tennisti sudamericani che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, nei campi in terra battuta dove si forgia la maggior parte dei giocatori del continente. È un atleta che ha fatto della gavetta la propria cifra: tappe nei circuiti minori, lunghi spostamenti tra un torneo e l'altro e la ricerca costante di quei punti che, settimana dopo settimana, permettono di risalire la classifica mondiale.
 
 Il suo percorso racconta la realtà meno patinata del tennis professionistico, quella fatta di sacrifici economici e di un calendario che non concede soste. Proprio in questo contesto Aguilar Cardozo ha maturato la mentalità del lottatore, abituato a giocare ogni scambio come se fosse decisivo.
 
@@ -42,6 +41,6 @@ Sul cemento, dove la palla viaggia più rapida e premia chi sa comandare fin dai
 
 ## Trofei e momenti chiave
 
-La carriera di Aguilar Cardozo si è sviluppata prevalentemente nei tornei del circuito minore, dove ha raccolto riscontri significativi soprattutto sulla terra battuta del Sud America. Si tratta di un percorso che, pur lontano dalle cronache dei grandi eventi, rappresenta la base su cui molti professionisti costruiscono la propria crescita.
+La carriera di Aguilar Cardozo si è sviluppata prevalentemente nei tornei del circuito minore, dove ha raccolto riscontri significativi soprattutto sulla terra battuta del Sud America, compresa l'affermazione in un ITF M15 a Mar del Plata. Si tratta di un percorso che, pur lontano dalle cronache dei grandi eventi, rappresenta la base su cui molti professionisti costruiscono la propria crescita. A questo si aggiungono le prime presenze nella squadra uruguaiana di Coppa Davis, segnale della considerazione di cui gode nel movimento di casa.
 
 Più che per un singolo trofeo rimasto nella memoria collettiva, il suo valore va letto nella continuità di una presenza nel circuito e nella capacità di competere con regolarità in un ambiente estremamente selettivo. Ogni stagione diventa così un tassello di un progetto di lungo periodo, in cui l'obiettivo è consolidare il proprio posto tra i professionisti e ritagliarsi nuove occasioni nei tornei di categoria superiore.

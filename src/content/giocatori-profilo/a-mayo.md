@@ -5,7 +5,7 @@ nazionalita: "Stati Uniti"
 data_nascita: "2003-05-14"
 mano: "destro"
 stile_gioco: "gioco solido da fondo campo sul cemento"
-titoli: "alcuni titoli Challenger e best ranking attorno alla posizione n. 269 ATP"
+titoli: "due titoli Challenger e best ranking di numero 269 ATP"
 altezza: "183 cm"
 categoria: "Challenger"
 superficie_preferita: "cemento"
@@ -25,7 +25,7 @@ generato_il: "2026-10-31T11:56"
 
 ## Chi è
 
-Aidan Mayo è un tennista statunitense nato il 14 maggio 2003. Appartiene a quella nutrita pattuglia di giovani americani che negli ultimi anni ha affollato il circuito Challenger, la lunga anticamera che separa le promesse del college e dei tornei minori dal tennis che conta. Il suo è un nome che gli addetti ai lavori hanno imparato a seguire con attenzione: non un predestinato dai titoli roboanti fin dall'adolescenza, ma un giocatore che ha scelto la via più comune e più dura, quella della gavetta settimana dopo settimana. A rendere la sua storia ancora più riconoscibile c'è un dettaglio familiare, visto che anche il fratello Keenan ha calcato i campi del professionismo, segno di una famiglia in cui la racchetta è una faccenda di casa.
+Aidan Mayo è un tennista statunitense nato il 14 maggio 2003 a Sacramento, in California. Appartiene a quella nutrita pattuglia di giovani americani che negli ultimi anni ha affollato il circuito Challenger, la lunga anticamera che separa le promesse del college e dei tornei minori dal tennis che conta. Il suo è un nome che gli addetti ai lavori hanno imparato a seguire con attenzione: non un predestinato dai titoli roboanti fin dall'adolescenza, ma un giocatore che ha scelto la via più comune e più dura, quella della gavetta settimana dopo settimana. A rendere la sua storia ancora più riconoscibile c'è un dettaglio familiare, visto che anche il fratello Keenan ha giocato a tennis a livello giovanile, segno di una famiglia in cui la racchetta è una faccenda di casa.
 
 ## Il suo tennis
 
@@ -39,8 +39,8 @@ Il cemento è il terreno su cui Mayo ha raccolto finora i risultati più signifi
 
 Il cammino di Mayo si misura soprattutto nelle tappe del circuito Challenger, dove ha trasformato buone settimane in titoli veri e propri. I passaggi più indicativi della sua crescita sono:
 
-- La prima affermazione Challenger in Canada, a Drummondville, nel 2024, al coperto sul cemento.
-- Un secondo titolo Challenger conquistato nel 2026, ulteriore conferma della sua continuità a quel livello.
-- La finale raggiunta a Charlottesville alla fine del 2023, uno dei primi segnali concreti del suo valore.
+- La finale raggiunta a Charlottesville nel novembre 2023, persa in due set contro il kazako Beibit Zhukayev: uno dei primi segnali concreti del suo valore.
+- La prima affermazione Challenger in Canada, a Drummondville, nel novembre 2024, al coperto sul cemento, battendo in finale il lussemburghese Chris Rodesch.
+- Il secondo titolo Challenger, conquistato in Giamaica nell'agosto 2026 partendo da lucky loser, ulteriore conferma della sua continuità a quel livello.
 
-Sul piano della classifica, il suo miglior piazzamento lo ha portato attorno alla posizione numero 269 del ranking ATP, soglia che fotografa bene il punto della sua carriera: un giocatore che bussa con insistenza alle porte del grande tennis, chiamato ora a trasformare la solidità mostrata nei Challenger nel salto di categoria che tutti i profili come il suo inseguono. A ventitré anni il margine di crescita resta ampio, e la sua resta una storia ancora tutta da scrivere.
+Sul piano della classifica, il suo miglior piazzamento lo ha portato il 20 maggio 2024 alla posizione numero 269 del ranking ATP, soglia che fotografa bene il punto della sua carriera: un giocatore che bussa con insistenza alle porte del grande tennis, chiamato ora a trasformare la solidità mostrata nei Challenger nel salto di categoria che tutti i profili come il suo inseguono. A ventitré anni il margine di crescita resta ampio, e la sua resta una storia ancora tutta da scrivere.

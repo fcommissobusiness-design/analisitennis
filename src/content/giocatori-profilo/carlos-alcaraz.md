@@ -1,8 +1,8 @@
 ---
 nome: "Carlos Alcaraz Garfia"
 slug_profilo: "carlos-alcaraz"
-titoli: "Piu' titoli Slam su tutte le superfici, gia' numero 1 del mondo"
-stile_gioco: "Esplosivita' atletica, dritto pesante, smorzate e discese a rete"
+titoli: "Sette titoli Slam, Grande Slam in carriera completato, già numero 1 del mondo"
+stile_gioco: "Esplosività atletica, dritto pesante, smorzate e discese a rete"
 nazionalita: "Spagna"
 data_nascita: "2003-05-05"
 mano: "destro"
@@ -26,7 +26,7 @@ generato_il: "2026-10-27T12:31"
 
 ## Chi è
 
-Carlos Alcaraz è il volto più luminoso della nuova generazione del tennis spagnolo. Cresciuto a El Palmar, nella regione di Murcia, ha costruito la sua carriera sotto la guida di Juan Carlos Ferrero, ex numero uno del mondo, che ne ha accompagnato la crescita dalle categorie minori fino ai vertici del circuito maggiore. La sua ascesa è stata rapida e costante: dopo le prime esperienze nei tornei di sviluppo, si è affermato ancora giovanissimo tra i migliori interpreti del gioco, diventando uno dei tennisti più giovani a raggiungere la vetta della classifica mondiale. Il suo nome è ormai sinonimo di entusiasmo e spettacolo, e il pubblico lo segue con un affetto che travalica i confini della Spagna.
+Carlos Alcaraz è il volto più luminoso della nuova generazione del tennis spagnolo. Cresciuto a El Palmar, nella regione di Murcia, ha costruito la sua carriera sotto la guida di Juan Carlos Ferrero, ex numero uno del mondo, che ne ha accompagnato la crescita dalle categorie minori fino ai vertici del circuito maggiore prima della separazione, alla fine del 2025. La sua ascesa è stata rapida e costante: dopo le prime esperienze nei tornei di sviluppo, si è affermato ancora giovanissimo tra i migliori interpreti del gioco, diventando uno dei tennisti più giovani a raggiungere la vetta della classifica mondiale. Il suo nome è ormai sinonimo di entusiasmo e spettacolo, e il pubblico lo segue con un affetto che travalica i confini della Spagna.
 
 ## Il suo tennis
 
@@ -42,9 +42,10 @@ La bacheca di Alcaraz è già ricca di successi di altissimo livello, conquistat
 
 **Trofei principali**
 
-- Titolo agli US Open, successo che lo ha proiettato per la prima volta in cima alla classifica mondiale.
-- Più affermazioni a Wimbledon, sull'erba londinese, in sfide di grande intensità contro i migliori del circuito.
-- Trionfi al Roland Garros, sulla terra rossa parigina.
-- Numerosi titoli nei tornei di vertice del calendario, che ne hanno consolidato lo status tra i protagonisti assoluti.
+- Due titoli agli US Open, il primo dei quali lo ha proiettato in cima alla classifica mondiale nel 2022.
+- Due affermazioni a Wimbledon, sull'erba londinese, in sfide di grande intensità contro i migliori del circuito.
+- Due trionfi al Roland Garros, sulla terra rossa parigina.
+- L'Australian Open 2026, successo che gli ha permesso di completare il Grande Slam in carriera, primo traguardo del genere per un giocatore così giovane.
+- Numerosi titoli nei Masters 1000, che ne hanno consolidato lo status tra i protagonisti assoluti.
 
 Oltre ai titoli, ciò che resta impresso è la dimensione delle sue imprese: finali combattute, rimonte e prestazioni di carattere che lo hanno reso uno dei tennisti più seguiti del momento. La sua capacità di reggere la pressione dei grandi appuntamenti, unita a un entusiasmo contagioso, lascia intendere che il suo percorso sia destinato ad arricchirsi ancora. Per una testata che osserva il tennis con attenzione, Alcaraz rappresenta non soltanto un campione affermato, ma un riferimento per capire dove stia andando il gioco.

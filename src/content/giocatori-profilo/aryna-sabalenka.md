@@ -6,12 +6,12 @@ data_nascita: "1998-05-05"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "potenza da fondo, servizio pesante e dritto d'attacco"
-titoli: "più titoli dello Slam, tutti sul cemento, e numerosi titoli WTA; vetta del ranking mondiale"
+titoli: "quattro titoli dello Slam, tutti sul cemento, e oltre venti titoli WTA; vetta del ranking mondiale"
 altezza: "182 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Aryna Sabalenka ha trasformato la potenza pura in un progetto di dominio, diventando una delle giocatrici più temute e costanti del circuito femminile."
-descrizione: "Profilo di Aryna Sabalenka: stile di gioco, superfici preferite, trofei e i momenti chiave della carriera della tennista bielorussa numero uno al mondo."
+descrizione: "Profilo di Aryna Sabalenka: stile di gioco, superfici preferite, trofei e i momenti chiave della carriera della tennista bielorussa già numero uno al mondo."
 tag:
   - "Aryna Sabalenka"
   - "Sabalenka"
@@ -42,12 +42,12 @@ Sulla terra battuta ha saputo costruirsi un rendimento di buon livello, imparand
 
 ## Trofei e momenti chiave
 
-Il momento di svolta della carriera di Sabalenka coincide con la conquista dei suoi primi titoli dello Slam, tutti arrivati sul cemento, che hanno certificato il passaggio da outsider potente a riferimento assoluto del circuito. A questi traguardi si aggiunge la scalata fino alla prima posizione del ranking mondiale, obiettivo che corona un percorso di crescita costante.
+Il momento di svolta della carriera di Sabalenka coincide con la conquista dei suoi titoli dello Slam, quattro e tutti arrivati sul cemento, che hanno certificato il passaggio da outsider potente a riferimento assoluto del circuito: gli Australian Open nel 2023 e nel 2024, gli US Open nel 2024 e nel 2025. A questi traguardi si aggiunge la scalata fino alla prima posizione del ranking mondiale, raggiunta nel settembre del 2023 e poi tenuta per lunghi tratti.
 
 ### Trofei principali
 
-- Più titoli del Grande Slam, conquistati sul cemento
-- Numerosi titoli WTA in carriera
-- Posizione numero uno del ranking mondiale
+- Quattro titoli del Grande Slam: Australian Open 2023 e 2024, US Open 2024 e 2025
+- Oltre venti titoli WTA in carriera
+- Numero uno del ranking mondiale
 
 Al di là dei singoli trofei, ciò che definisce Sabalenka è la costanza con cui si è insediata ai vertici, trasformando la propria potenza da elemento a tratti incontrollabile in una risorsa affidabile, partita dopo partita.

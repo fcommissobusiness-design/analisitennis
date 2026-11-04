@@ -2,11 +2,11 @@
 nome: "Qinwen Zheng"
 slug_profilo: "qinwen-zheng"
 nazionalita: "Cina"
-data_nascita: "2002-10-21"
+data_nascita: "2002-10-08"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio potente e dritto d'attacco aggressivo da fondo"
-titoli: "oro olimpico in singolare a Parigi 2024, finale Slam e diversi titoli WTA"
+titoli: "oro olimpico in singolare a Parigi 2024, finale all'Australian Open 2024 e sei titoli WTA"
 altezza: "178 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:48"
 
 ## Chi è
 
-Qinwen Zheng è la tennista che ha raccolto l'eredità di una generazione d'oro del tennis cinese e l'ha portata a un livello ancora superiore. Nata nel 2002, è cresciuta rapidamente nelle gerarchie del circuito femminile fino a imporsi tra le migliori giocatrici al mondo, diventando un punto di riferimento sportivo per il suo Paese. Il soprannome "Queen Wen", che l'accompagna ormai da anni, racconta bene l'immagine che si è costruita: ambiziosa, abituata a guardare in alto e a non accontentarsi dei risultati già ottenuti.
+Qinwen Zheng è la tennista che ha raccolto l'eredità di una generazione d'oro del tennis cinese e l'ha portata a un livello ancora superiore. Nata l'8 ottobre 2002 a Shiyan, nella provincia dell'Hubei, è cresciuta rapidamente nelle gerarchie del circuito femminile fino a diventare numero 4 del mondo nel giugno del 2025 e un punto di riferimento sportivo per il suo Paese. Il soprannome "Queen Wen", che l'accompagna ormai da anni, racconta bene l'immagine che si è costruita: ambiziosa, abituata a guardare in alto e a non accontentarsi dei risultati già ottenuti.
 
 La sua ascesa non è stata un lampo improvviso ma il frutto di una progressione costante, stagione dopo stagione, fino a conquistare stabilmente i vertici della classifica e a diventare una presenza fissa nelle fasi decisive dei principali tornei.
 
@@ -44,14 +44,15 @@ Sulla terra battuta ha comunque saputo adattarsi e raccogliere soddisfazioni imp
 
 ## Trofei e momenti chiave
 
-Il traguardo più prestigioso della carriera di Qinwen Zheng è la medaglia d'oro olimpica conquistata nel singolare femminile ai Giochi di Parigi 2024, un risultato storico che l'ha consacrata definitivamente e che ha avuto un'eco enorme in Cina.
+Il traguardo più prestigioso della carriera di Qinwen Zheng è la medaglia d'oro olimpica conquistata nel singolare femminile ai Giochi di Parigi 2024, sulla terra battuta del Roland Garros: un risultato storico che l'ha consacrata definitivamente e che ha avuto un'eco enorme in Cina.
 
-Altrettanto significativa è stata la finale raggiunta in una prova dello Slam, traguardo che ha confermato la sua appartenenza al gruppo ristretto delle giocatrici capaci di arrivare fino in fondo nei tornei più importanti. A questi momenti si aggiungono diversi titoli conquistati sul circuito maggiore, che testimoniano la continuità con cui è riuscita a imporsi.
+Altrettanto significativa è stata la finale dell'Australian Open 2024, persa contro Aryna Sabalenka, traguardo che ha confermato la sua appartenenza al gruppo ristretto delle giocatrici capaci di arrivare fino in fondo nei tornei più importanti. A questi momenti si aggiungono sei titoli conquistati sul circuito maggiore, l'ultimo e più pesante dei quali al China Open di Pechino nel 2026, un WTA 1000 vinto davanti al proprio pubblico.
 
 **Trofei principali:**
 
 - Medaglia d'oro olimpica in singolare (Parigi 2024)
-- Finale in una prova del Grande Slam
-- Diversi titoli sul circuito WTA
+- Finale all'Australian Open 2024
+- WTA 1000 del China Open di Pechino, nel 2026
+- Sei titoli complessivi sul circuito WTA
 
 Il percorso di Zheng appare ancora in piena evoluzione: la combinazione tra talento, potenza e mentalità vincente lascia intendere che i capitoli più interessanti della sua carriera possano essere ancora da scrivere.

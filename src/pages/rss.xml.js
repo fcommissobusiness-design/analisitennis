@@ -1,5 +1,6 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import { tournamentDisplay } from '../lib/hubs.js';
 
 export async function GET(context) {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
@@ -13,7 +14,7 @@ export async function GET(context) {
       pubDate: a.data.data,
       link: `/articoli/${a.slug}`,
       author: a.data.autore,
-      categories: [a.data.categoria, a.data.torneo]
+      categories: [a.data.categoria, tournamentDisplay(a.data.torneo)]
     })),
     customData: `<language>it-IT</language>`
   });

@@ -2,15 +2,15 @@
 nome: "Simona Waltert"
 slug_profilo: "s-waltert"
 nazionalita: "Svizzera"
-data_nascita: "2000-09-06"
+data_nascita: "2000-12-13"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "solidità da fondo e rovescio bimane affidabile"
-titoli: "diversi titoli nei circuiti di sviluppo e presenze nel tennis maggiore"
+titoli: "otto titoli ITF in singolare, un WTA 125 e un titolo WTA in doppio; best ranking numero 81 del mondo"
 categoria: "WTA"
 superficie_preferita: "terra"
-intro: "Svizzera dei Grigioni, classe 2000, Simona Waltert si è fatta strada con pazienza e solidità da fondo campo, trovando nella terra battuta il suo terreno d'elezione naturale."
-descrizione: "Profilo di Simona Waltert, tennista svizzera: stile di gioco, rovescio bimane, rendimento sulle diverse superfici e traguardi di una carriera in crescita."
+intro: "Svizzera dei Grigioni, classe 2000, Simona Waltert si è fatta strada con pazienza e solidità da fondo campo, fino a entrare nelle prime cento del mondo nel 2026."
+descrizione: "Profilo di Simona Waltert, tennista svizzera: stile di gioco, rovescio bimane, rendimento sulle diverse superfici, titoli e best ranking in carriera."
 tag:
   - "Simona Waltert"
   - "Waltert"
@@ -25,7 +25,7 @@ generato_il: "2026-11-02T16:14"
 
 ## Chi è
 
-Simona Waltert appartiene alla generazione di tenniste svizzere cresciute all'ombra dei grandi nomi elvetici, decisa a ritagliarsi uno spazio con pazienza e continuità più che con proclami. Nata nel 2000 e cresciuta nel cantone dei Grigioni, ha costruito la propria carriera soprattutto nei circuiti di sviluppo, quelli dove si forgia il mestiere lontano dai riflettori dei tornei più importanti. È un percorso fatto di gavetta, di settimane passate a inseguire punti e conferme, che ne ha definito il carattere: quello di una giocatrice abituata a lottare su ogni palla.
+Simona Waltert appartiene alla generazione di tenniste svizzere cresciute all'ombra dei grandi nomi elvetici, decisa a ritagliarsi uno spazio con pazienza e continuità più che con proclami. Nata a Coira il 13 dicembre 2000, nel cantone dei Grigioni, ha costruito la propria carriera soprattutto nei circuiti di sviluppo, quelli dove si forgia il mestiere lontano dai riflettori dei tornei più importanti. È un percorso fatto di gavetta, di settimane passate a inseguire punti e conferme, che ne ha definito il carattere: quello di una giocatrice abituata a lottare su ogni palla, e che nel febbraio del 2026 l'ha portata al numero 81 del mondo, il suo best ranking in carriera.
 
 ## Il suo tennis
 
@@ -41,8 +41,8 @@ Sulle superfici rapide il discorso si fa più complesso: il cemento premia chi s
 
 ## Trofei e momenti chiave
 
-Il grosso dei successi di Waltert è arrivato nei circuiti di sviluppo, dove ha raccolto diversi titoli che ne hanno accompagnato la crescita e le hanno permesso di scalare progressivamente le classifiche. Sono traguardi che raccontano più di un semplice palmarès: segnano le tappe di una maturazione graduale, costruita torneo dopo torneo, senza scorciatoie.
+Il grosso dei successi di Waltert è arrivato nei circuiti di sviluppo, con otto titoli ITF in singolare che ne hanno accompagnato la crescita e le hanno permesso di scalare progressivamente le classifiche. Il salto di categoria è arrivato nel 2025 con il successo nel WTA 125 di Rio de Janeiro, sulla terra, mentre nel doppio ha in bacheca un titolo del circuito maggiore, conquistato a Losanna nel 2021 insieme alla connazionale Susan Bandecchi, oltre a una lunga serie di affermazioni nei tornei WTA 125.
 
-A livello maggiore ha avuto l'occasione di confrontarsi con avversarie di rango superiore, accumulando l'esperienza necessaria per alzare l'asticella delle proprie ambizioni. Per la nazionale svizzera ha inoltre risposto presente nella competizione a squadre, vestendo i colori elvetici in un contesto che per molte giocatrici rappresenta un punto d'orgoglio e un banco di prova diverso da quello individuale.
+A livello Slam ha raggiunto il secondo turno al Roland Garros nel 2023, il suo miglior risultato nelle quattro prove maggiori. Per la nazionale svizzera ha inoltre risposto presente nella competizione a squadre, facendo parte del gruppo elvetico che nel 2022 ha vinto la Billie Jean King Cup: un contesto che per molte giocatrici rappresenta un punto d'orgoglio e un banco di prova diverso da quello individuale.
 
 Il quadro complessivo è quello di un'atleta ancora nel pieno del proprio percorso, che continua a cercare la quadratura tra solidità di fondo e maggiore incisività, con la terra battuta come terreno d'elezione da cui ripartire ogni volta.

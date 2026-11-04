@@ -43,10 +43,10 @@ const faq = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
   mainEntity: [{
     '@type': 'Question',
-    name: `Qual e' il bilancio dei precedenti tra ${d.p1} e ${d.p2}?`,
+    name: `Qual è il bilancio dei precedenti tra ${d.p1} e ${d.p2}?`,
     acceptedAnswer: {
       '@type': 'Answer',
-      text: `Nei ${totale} scontri diretti disputati il bilancio e' di ${d.bilancio.p1}-${d.bilancio.p2} ` +
+      text: `Nei ${totale} scontri diretti disputati il bilancio è di ${d.bilancio.p1}-${d.bilancio.p2} ` +
         `${d.bilancio.p1 > d.bilancio.p2 ? 'a favore di ' + d.p1 : d.bilancio.p2 > d.bilancio.p1 ? 'a favore di ' + d.p2 : 'in perfetta parita\''}.`,
     },
   }],

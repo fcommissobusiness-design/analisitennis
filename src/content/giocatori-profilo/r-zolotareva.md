@@ -2,7 +2,6 @@
 nome: "Rada Zolotareva"
 slug_profilo: "r-zolotareva"
 nazionalita: "Russia"
-mano: "destro"
 stile_gioco: "gioco solido da fondo campo in costruzione"
 categoria: "WTA"
 superficie_preferita: "cemento"

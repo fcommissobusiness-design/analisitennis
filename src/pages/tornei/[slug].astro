@@ -78,7 +78,7 @@ const faqTorneoSchema = faqTorneo.length >= 2 ? {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: `${d.nome} ${d.anno} - Storia, curiosita' e albo d'oro`,
+  headline: `${d.nome} ${d.anno} - Storia, curiosità e albo d'oro`,
   description: d.descrizione,
   datePublished: d.generato_il,
   author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
@@ -91,7 +91,7 @@ const articleSchema = {
 };
 ---
 <Base
-  titolo={`${d.nome} ${d.anno} - Storia e curiosita' del torneo - AnalisiTennis`}
+  titolo={`${d.nome} ${d.anno} - Storia e curiosità del torneo - AnalisiTennis`}
   descrizione={d.descrizione}
   tipo="article"
 >

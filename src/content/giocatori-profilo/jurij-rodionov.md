@@ -1,7 +1,7 @@
 ---
 nome: "Jurij Rodionov"
 slug_profilo: "jurij-rodionov"
-titoli: "Mancino in cerca dell'affermazione nel circuito ATP"
+titoli: "otto titoli ATP Challenger in singolare; miglior ranking il numero 87 del mondo"
 stile_gioco: "Servizio mancino e gioco d'attacco, buona potenza"
 nazionalita: "Austria"
 mano: "mancino"
@@ -23,7 +23,7 @@ generato_il: "2026-10-28T09:12"
 
 ## Chi è
 
-Jurij Rodionov è un tennista austriaco mancino, giocatore di lungo corso del circuito abituato a costruire la propria stagione attraverso il lavoro e la perseveranza. Non appartiene alla categoria dei predestinati arrivati presto ai vertici, ma a quella dei professionisti che conquistano palmo a palmo ogni posizione, alternando il circuito maggiore ai tornei minori e alle qualificazioni. Questa gavetta ne ha forgiato il carattere, rendendolo un avversario ostico e mai domo, capace di mettere in difficoltà anche giocatori più quotati quando trova la giornata giusta. Rappresenta una presenza affidabile del tennis austriaco contemporaneo.
+Jurij Rodionov è un tennista austriaco mancino, nato a Norimberga il 16 maggio 1999 da genitori arrivati dalla Bielorussia e cresciuto poi in Austria, Paese che rappresenta in campo internazionale. È un giocatore di lungo corso del circuito, abituato a costruire la propria stagione attraverso il lavoro e la perseveranza. Non appartiene alla categoria dei predestinati arrivati presto ai vertici, ma a quella dei professionisti che conquistano palmo a palmo ogni posizione, alternando il circuito maggiore ai tornei minori e alle qualificazioni: il suo miglior piazzamento, il numero 87 del mondo, è arrivato nel febbraio del 2024, dopo otto titoli vinti nei Challenger. Questa gavetta ne ha forgiato il carattere, rendendolo un avversario ostico e mai domo, capace di mettere in difficoltà anche giocatori più quotati quando trova la giornata giusta.
 
 ## Il suo tennis
 
@@ -31,4 +31,6 @@ Il gioco di Rodionov porta la firma della mano mancina, con rotazioni e traietto
 
 ## Il momento
 
-Il tratto recente del 2026 racconta un bilancio di nove vittorie e sei sconfitte, con il picco raggiunto allo **US Open**. Dopo un percorso di qualificazione superato di slancio, il mancino austriaco ha vinto un match nel tabellone principale contro Mpetshi Perricard prima di cedere a Mensik. In Coppa Davis ha dato il suo contributo battendo Bergs e Onclin, a conferma dell'affidabilità nelle sfide a squadre. Nelle qualificazioni di Lione si è spinto fino alla semifinale, fermato da Herbert. Il finale di stagione lo vede impegnato a raccogliere punti e fiducia sul veloce europeo.
+Il 2026 ha avuto il suo picco allo **US Open**. Dopo un percorso di qualificazione superato di slancio, il mancino austriaco ha vinto un match nel tabellone principale contro Giovanni Mpetshi Perricard prima di cedere in quattro set a Jakub Mensik. Ancora più significativo è stato il rendimento in **Coppa Davis**: a febbraio, a Tokyo, ha chiuso con la vittoria sul giapponese Yoshihito Nishioka la rimonta dell'Austria nel quinto e decisivo incontro; a settembre, a Vienna, ha firmato entrambi i punti pesanti contro il Belgio, battendo prima Gauthier Onclin e poi il numero uno avversario Zizou Bergs, e ha così spinto la sua squadra alla Final 8 di Bologna.
+
+Nel circuito Challenger ha invece raccolto tre finali, a Noumea, Madrid e Dublino, perdendole tutte: il segno di una stagione solida ma senza il titolo che gli avrebbe permesso di rientrare più in alto in classifica. Il finale di anno lo vede impegnato a raccogliere punti e fiducia sul veloce europeo.

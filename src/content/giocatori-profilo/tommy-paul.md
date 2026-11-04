@@ -26,7 +26,7 @@ generato_il: "2026-10-27T12:51"
 
 ## Chi è
 
-Tommy Paul appartiene a quel gruppo di tennisti statunitensi che negli ultimi anni hanno riportato gli Stati Uniti stabilmente nelle zone alte della classifica mondiale. Nato nel 1997, ha costruito la sua reputazione con pazienza, senza clamori precoci ma con una progressione lineare che lo ha portato dai tornei minori ai palcoscenici più importanti del tour maggiore. Già da giovanissimo aveva lasciato intravedere il suo talento, culminato nel titolo juniores al Roland Garros nel 2015, un successo che lo mise sotto i riflettori accanto ad altri coetanei americani destinati a emergere.
+Tommy Paul appartiene a quel gruppo di tennisti statunitensi che negli ultimi anni hanno riportato gli Stati Uniti stabilmente nelle zone alte della classifica mondiale. Nato in New Jersey nel 1997, ha costruito la sua reputazione con pazienza, senza clamori precoci ma con una progressione lineare che lo ha portato dai tornei minori ai palcoscenici più importanti del tour maggiore. Già da giovanissimo aveva lasciato intravedere il suo talento, culminato nel titolo juniores al Roland Garros nel 2015, un successo che lo mise sotto i riflettori accanto ad altri coetanei americani destinati a emergere.
 
 Il passaggio tra i professionisti non è stato immediato né scontato: Paul ha dovuto fare la gavetta attraverso il circuito Challenger, conquistando alcuni titoli in quella categoria e affinando progressivamente un gioco che negli anni si è rivelato più solido di quanto molti avessero previsto.
 
@@ -40,7 +40,7 @@ Molto apprezzata è la sua intelligenza tattica: legge bene i ritmi della partit
 
 Il cemento rappresenta storicamente il terreno su cui Paul esprime il meglio di sé, grazie a un rimbalzo regolare che valorizza la sua rapidità di spostamento e la pulizia dei colpi da fondo. Non a caso i suoi risultati più significativi sono arrivati proprio su questa superficie, compreso un cammino fino alle semifinali agli Australian Open nel 2023.
 
-Non va però sottovalutato il suo rendimento sull'erba, superficie sulla quale ha saputo adattare il gioco con buoni risultati, dimostrando una versatilità che non tutti i suoi connazionali possiedono. Anche sulla terra battuta ha raccolto riscontri apprezzabili, pur trattandosi del fondo che richiede maggiore pazienza e che storicamente mette più alla prova i giocatori abituati ai ritmi rapidi del cemento.
+Non va però sottovalutato il suo rendimento sull'erba, superficie sulla quale ha saputo adattare il gioco con buoni risultati, dimostrando una versatilità che non tutti i suoi connazionali possiedono. Anche sulla terra battuta ha saputo crescere, fino ai quarti di finale al Roland Garros nel 2025 e al primo titolo sul rosso, conquistato a Houston nel 2026: un fondo che richiede maggiore pazienza e che storicamente mette più alla prova i giocatori abituati ai ritmi rapidi del cemento.
 
 ## Trofei e momenti chiave
 
@@ -48,8 +48,8 @@ Il percorso di Paul è segnato da alcune tappe che ne raccontano la crescita cos
 
 - Titolo juniores al Roland Garros nel 2015, primo biglietto da visita internazionale.
 - Alcuni titoli nel circuito Challenger nelle prime stagioni tra i professionisti.
-- Diversi titoli conquistati nel tour maggiore, che ne hanno consolidato lo status.
+- Cinque titoli nel tour maggiore, dal primo di Stoccolma nel 2021 al Queen's nel 2024 e a Houston nel 2026.
 - La semifinale agli Australian Open nel 2023, miglior risultato in un torneo dello Slam.
-- L'ingresso tra i primi dieci giocatori del mondo, traguardo che certifica la sua maturità.
+- L'ingresso tra i primi dieci giocatori del mondo, con il numero 8 toccato nel giugno 2025.
 
 Nel complesso, Tommy Paul si è affermato come uno dei tennisti più solidi e continui del panorama statunitense, un atleta la cui ascesa è il frutto di lavoro, adattabilità e una mentalità battagliera che lo rende un avversario scomodo per chiunque.

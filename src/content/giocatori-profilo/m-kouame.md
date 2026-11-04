@@ -5,7 +5,7 @@ nazionalita: "Francia"
 data_nascita: "2009-03-06"
 mano: "destro"
 stile_gioco: "fisicità, servizio e tennis offensivo da fondo"
-titoli: "primi titoli sul circuito ITF nel 2026 e le prime vittorie sul tour maggiore"
+titoli: "tre titoli ITF nel 2026, il terzo turno al Roland Garros e le prime vittorie sul tour maggiore"
 altezza: "191 cm"
 categoria: "ATP"
 superficie_preferita: "cemento"
@@ -26,7 +26,7 @@ generato_il: "2026-10-31T12:05"
 
 ## Chi è
 
-Moïse Kouamé è uno dei nomi più discussi della nuova generazione del tennis francese. Nato a Sarcelles, nella periferia nord di Parigi, nel marzo del 2009, appartiene a quella rarissima categoria di ragazzi capaci di affacciarsi al circuito maggiore quando i coetanei frequentano ancora quasi esclusivamente i tornei giovanili. Ha iniziato a giocare da bambino e la sua crescita, accompagnata dal sostegno costante della famiglia, lo ha portato rapidamente ai vertici della classifica juniores prima di spingersi verso i professionisti. Dichiaratamente ispirato dai grandi campioni degli ultimi vent'anni, Kouamé incarna le aspettative, spesso pesanti, che il movimento transalpino ripone nei suoi talenti più precoci.
+Moïse Kouamé è uno dei nomi più discussi della nuova generazione del tennis francese. Nato a Sarcelles, nella periferia nord di Parigi, nel marzo del 2009, appartiene a quella rarissima categoria di ragazzi capaci di affacciarsi al circuito maggiore quando i coetanei frequentano ancora quasi esclusivamente i tornei giovanili. Ha iniziato a giocare da bambino e la sua crescita, accompagnata dal sostegno costante della famiglia, lo ha portato fino al numero 14 della classifica juniores combinata, nel marzo 2025, prima di spingersi verso i professionisti. Dichiaratamente ispirato dai grandi campioni degli ultimi vent'anni, Kouamé incarna le aspettative, spesso pesanti, che il movimento transalpino ripone nei suoi talenti più precoci.
 
 ## Il suo tennis
 
@@ -34,10 +34,12 @@ Il tratto che colpisce di più è il fisico: con un'altezza vicina ai 191 centim
 
 ## Sulle diverse superfici
 
-Le prime indicazioni lo collocano a proprio agio sui campi in cemento, dove il servizio e il gioco diretto trovano terreno fertile, comprese le condizioni indoor tipiche di molti appuntamenti europei di inizio stagione. È però prudente non irrigidire troppo un quadro ancora in formazione: a un'età così precoce il rendimento sulle varie superfici resta soggetto a sviluppi importanti, e la terra battuta, molto diffusa nel percorso di crescita dei giovani francesi, fa comunque parte del suo bagaglio. Il profilo tecnico, basato su potenza e aggressività, suggerisce una predisposizione per le superfici più rapide, ma sarà il tempo a definirne con chiarezza i terreni d'elezione.
+Le prime indicazioni lo collocano a proprio agio sui campi in cemento, dove il servizio e il gioco diretto trovano terreno fertile: i suoi primi due titoli ITF, nel gennaio 2026, sono arrivati entrambi al coperto sul veloce, come la qualificazione al tabellone principale di Montpellier. È però prudente non irrigidire troppo un quadro ancora in formazione, perché sulla terra battuta ha firmato il risultato più rilevante della carriera, il terzo turno al Roland Garros, e un altro titolo ITF a Santa Margherita di Pula. A un'età così precoce il rendimento sulle varie superfici resta soggetto a sviluppi importanti, e sarà il tempo a definirne con chiarezza i terreni d'elezione.
 
 ## Trofei e momenti chiave
 
-Il suo cammino ha cominciato a far parlare nel biennio della transizione dal settore giovanile a quello professionistico. Dopo aver raggiunto le posizioni di vertice della classifica juniores, Kouamé ha conquistato i primi titoli sul circuito ITF, segnale concreto della capacità di imporsi tra avversari più esperti. Il salto di categoria è arrivato quando, ancora giovanissimo, ha ottenuto le sue prime vittorie sul tour maggiore, risultati che gli hanno garantito un'eco mediatica notevole e un rapido ingresso tra i primi duecento della classifica mondiale. A questi successi si aggiunge l'esordio nel tabellone principale di uno Slam grazie a una wild card, tappa simbolica per un ragazzo della sua età.
+Il suo cammino ha cominciato a far parlare nel biennio della transizione dal settore giovanile a quello professionistico. Nel gennaio 2026, a sedici anni, è diventato il primo giocatore nato nel 2009 a vincere un torneo professionistico, imponendosi al M25 di Hazebrouck e, sette giorni più tardi, al M15 di Bressuire; in aprile ha aggiunto il terzo titolo ITF sulla terra di Santa Margherita di Pula.
+
+Il salto di categoria è arrivato a Miami, dove con una wild card ha battuto Zachary Svajda diventando il primo giocatore della sua annata a vincere una partita nel tabellone principale ATP. La tappa più importante, però, è stata il Roland Garros 2026: ammesso con una wild card, ha superato Marin Čilić e Adolfo Daniel Vallejo prima di cedere ad Alejandro Tabilo, diventando il più giovane vincitore di un match nel torneo dal 1991. In novembre è salito fino al numero 132 del mondo, suo best ranking.
 
 Resta, inevitabilmente, un profilo in costruzione: i veri trofei di una carriera si misureranno negli anni a venire. Per ora Moïse Kouamé rappresenta soprattutto una promessa concreta, uno di quei nomi che vale la pena seguire con attenzione, consapevoli che la precocità, da sola, non garantisce nulla ma indica quasi sempre un talento fuori dal comune.

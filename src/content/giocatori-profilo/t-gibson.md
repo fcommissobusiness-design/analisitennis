@@ -6,12 +6,12 @@ data_nascita: "2004-06-18"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco aggressivo da fondo, rovescio a due mani"
-titoli: "diversi titoli nel circuito ITF e un titolo WTA 125 in doppio; in singolare una finale nel circuito maggiore, ancora senza titoli del tour"
+titoli: "dodici titoli nel circuito ITF in singolare e un titolo WTA 125 in doppio; in singolare una finale nel circuito maggiore, ancora senza titoli del tour"
 altezza: "176 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Talia Gibson è la nuova stella del tennis australiano: una giocatrice d'attacco che, stagione dopo stagione, ha scalato il ranking fino a diventare numero uno d'Australia."
-descrizione: "Profilo editoriale di Talia Gibson, tennista australiana WTA: il suo stile di gioco, le superfici preferite, il ranking e i momenti chiave di carriera."
+intro: "Talia Gibson è la rivelazione australiana del 2026: una giocatrice d'attacco che, stagione dopo stagione, ha scalato il ranking fino alle prime quaranta posizioni del mondo."
+descrizione: "Profilo editoriale di Talia Gibson, tennista australiana WTA: il suo stile di gioco, le superfici preferite, il best ranking e i momenti chiave di carriera."
 tag:
   - "Talia Gibson"
   - "Gibson tennis"
@@ -26,7 +26,7 @@ generato_il: "2026-10-30T17:17"
 
 ## Chi è
 
-Talia Gibson, nata il 18 giugno 2004, è una delle rappresentanti più in vista della nuova generazione del tennis australiano. Dopo un percorso costruito con pazienza nei tornei minori, nel corso del 2026 si è affermata come numero uno d'Australia nel ranking di singolare, raggiungendo per la prima volta la zona alta della classifica mondiale. È il profilo di una giocatrice che ha scelto di salire di categoria stagione dopo stagione, senza bruciare le tappe, fino a imporsi all'attenzione del circuito maggiore.
+Talia Gibson, nata a Perth il 18 giugno 2004, è una delle rappresentanti più in vista della nuova generazione del tennis australiano. Dopo un percorso costruito con pazienza nei tornei minori, nel corso del 2026 è diventata una delle prime due giocatrici del ranking australiano, raggiungendo per la prima volta la zona alta della classifica mondiale. È il profilo di una giocatrice che ha scelto di salire di categoria stagione dopo stagione, senza bruciare le tappe, fino a imporsi all'attenzione del circuito maggiore.
 
 ## Il suo tennis
 
@@ -38,11 +38,12 @@ Il cemento è la superficie su cui Gibson ha raccolto i risultati più significa
 
 ## Trofei e momenti chiave
 
-Il percorso di Gibson è quello tipico di chi ha costruito la carriera dal basso, accumulando esperienza nel circuito ITF prima di affacciarsi ai palcoscenici più prestigiosi. Tra i passaggi che ne hanno segnato la crescita:
+Il percorso di Gibson è quello tipico di chi ha costruito la carriera dal basso, accumulando esperienza nel circuito ITF, dove ha raccolto dodici titoli in singolare e nove in doppio, prima di affacciarsi ai palcoscenici più prestigiosi. Tra i passaggi che ne hanno segnato la crescita:
 
-- **2023** — esordio nel circuito maggiore e nei tornei dello Slam.
-- **2024** — un'importante doppietta di titoli nei tornei ITF in patria, a conferma del salto di qualità.
-- **2025** — la prima vittoria in un torneo dello Slam, traguardo simbolico della sua maturazione.
-- **2026** — la prima finale nel circuito maggiore, il best ranking in carriera nei dintorni della trentesima posizione e un successo di prestigio contro una delle migliori giocatrici del mondo.
+- **2025**: la prima vittoria in un tabellone principale dello Slam, agli Australian Open contro la turca Zeynep Sönmez.
+- **2026, marzo**: a Indian Wells batte l'italiana Jasmine Paolini, allora numero 7 del mondo, per il suo primo successo contro una top 10, e arriva ai quarti di finale in un WTA 1000.
+- **2026, giugno**: primo titolo WTA 125 in doppio, a Birmingham, in coppia con Janice Tjen.
+- **2026, settembre**: la prima finale del circuito maggiore, al WTA 500 di Singapore, persa contro la canadese Leylah Fernandez.
+- **2026, novembre**: il best ranking in carriera, numero 36 del mondo.
 
-Proprio quest'ultimo risultato, ottenuto contro un'avversaria stabilmente nelle primissime posizioni della classifica, è forse la fotografia più nitida del suo potenziale: la conferma che, quando riesce a esprimere il proprio tennis con continuità, Gibson può confrontarsi con le migliori. Il suo cammino resta in gran parte da scrivere, ma le basi gettate finora raccontano di una giocatrice destinata a far parte stabilmente del vertice del tennis australiano.
+Proprio la vittoria su Paolini è forse la fotografia più nitida del suo potenziale: la conferma che, quando riesce a esprimere il proprio tennis con continuità, Gibson può confrontarsi con le migliori. Nella stessa stagione sono arrivati anche i quarti di finale in doppio agli Australian Open, insieme alla connazionale Kimberly Birrell, e il debutto in Billie Jean King Cup con la maglia dell'Australia. Il suo cammino resta in gran parte da scrivere, ma le basi gettate finora raccontano di una giocatrice destinata a far parte stabilmente del vertice del tennis australiano.

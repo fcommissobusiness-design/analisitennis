@@ -12,7 +12,7 @@ const top = data.righe.slice(0, 5).map(r => `${r.place}. ${r.player}`).join(', '
 ---
 <Base
   titolo="Classifica ATP aggiornata - Ranking tennis maschile - AnalisiTennis"
-  descrizione={`Classifica ATP aggiornata: la top 100 del ranking tennis maschile con punti e nazionalita'. In vetta ${data.righe[0]?.player}.`}
+  descrizione={`Classifica ATP aggiornata: la top 100 del ranking tennis maschile con punti e nazionalità. In vetta ${data.righe[0]?.player}.`}
 >
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Classifica ATP' }]} />
@@ -21,7 +21,7 @@ const top = data.righe.slice(0, 5).map(r => `${r.place}. ${r.player}`).join(', '
     <div class="contenitore">
       <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Ranking</div>
       <h1>Classifica <span class="verde">ATP</span></h1>
-      <p>La top 100 del ranking ATP maschile, con punti e nazionalita'. Attuale vetta: {top}.</p>
+      <p>La top 100 del ranking ATP maschile, con punti e nazionalità. Attuale vetta: {top}.</p>
     </div>
   </section>
   <div class="contenitore">

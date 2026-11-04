@@ -1,12 +1,11 @@
 ---
 nome: "Xinyu Wang"
 slug_profilo: "xinyu-wang"
-titoli: "Titoli WTA"
+titoli: "quattro titoli WTA in doppio, fra cui il Roland Garros 2023, e l'argento olimpico nel doppio misto a Parigi 2024"
 stile_gioco: "Potenza da fondo e buon servizio, resa sul veloce"
 nazionalita: "Cina"
-data_nascita: "2001-09-25"
+data_nascita: "2001-09-26"
 mano: "destro"
-rovescio: "due mani"
 altezza: "182 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,11 +25,11 @@ generato_il: "2026-10-25T11:51"
 
 ## Chi è
 
-Xinyu Wang appartiene a quella nuova leva del tennis cinese che, nel solco tracciato dalle pioniere del movimento, ha saputo imporsi con continuità nel circuito maggiore. Nata nel 2001, fisicamente strutturata e dotata di braccia lunghe che le garantiscono leva e copertura del campo, è cresciuta rapidamente dalle categorie giovanili fino a stabilizzarsi tra le protagoniste del tour. Il suo percorso non è stato quello della meteora, ma di una costruzione progressiva: prima i tornei minori per accumulare fiducia e partite, poi l'approdo stabile nei tabelloni principali dei tornei più importanti, Prove dello Slam comprese.
+Xinyu Wang appartiene a quella nuova leva del tennis cinese che, nel solco tracciato dalle pioniere del movimento, ha saputo imporsi con continuità nel circuito maggiore. Nata a Shenzhen il 26 settembre 2001, professionista dal 2018, fisicamente strutturata e dotata di braccia lunghe che le garantiscono leva e copertura del campo, è cresciuta rapidamente dalle categorie giovanili fino a stabilizzarsi tra le protagoniste del tour. Il suo percorso non è stato quello della meteora, ma di una costruzione progressiva: prima i tornei minori per accumulare fiducia e partite, poi l'approdo stabile nei tabelloni principali dei tornei più importanti, Prove dello Slam comprese.
 
 ## Il suo tennis
 
-Il marchio di fabbrica di Xinyu Wang è la potenza. La statura le consente un servizio pesante, con cui cerca di indirizzare lo scambio fin dal primo colpo, e un diritto profondo che diventa l'arma principale per spingere l'avversaria dietro la linea di fondo. Anche il rovescio a due mani è un colpo affidabile, giocato piatto e tenuto basso, utile sia per difendere sia per cambiare direzione allo scambio. È una giocatrice che preferisce comandare il punto piuttosto che aspettare l'errore altrui: quando il ritmo è il suo, pochi colpi le bastano per chiudere.
+Il marchio di fabbrica di Xinyu Wang è la potenza. La statura le consente un servizio pesante, con cui cerca di indirizzare lo scambio fin dal primo colpo, e un diritto profondo che diventa l'arma principale per spingere l'avversaria dietro la linea di fondo. Anche dal lato del rovescio il colpo resta affidabile, giocato piatto e tenuto basso, utile sia per difendere sia per cambiare direzione allo scambio. È una giocatrice che preferisce comandare il punto piuttosto che aspettare l'errore altrui: quando il ritmo è il suo, pochi colpi le bastano per chiudere.
 
 Il rovescio della medaglia di un tennis così aggressivo è la gestione delle giornate meno brillanti, quando la prima di servizio cala di percentuale e la ricerca dell'angolo si traduce in qualche errore di troppo. La crescita della sua carriera è passata proprio dal lavoro sulla continuità e sulla capacità di restare dentro gli scambi più lunghi senza forzare oltre il necessario. Non va inoltre dimenticata la sua dimestichezza nel gioco di coppia, dove le qualità al servizio e la copertura della rete hanno trovato terreno particolarmente fertile, regalandole alcuni dei risultati più prestigiosi del suo percorso.
 
@@ -40,10 +39,11 @@ Il cemento è l'ambiente che valorizza di più le sue caratteristiche: il rimbal
 
 ## Trofei e momenti chiave
 
-La carriera di Xinyu Wang si è costruita per gradi, con una progressione nel ranking che ha accompagnato i suoi risultati più significativi. Senza inseguire date o punteggi che rischierebbero di essere imprecisi, vale la pena ricordare i tratti consolidati del suo cammino:
+La carriera di Xinyu Wang si è costruita per gradi, con una progressione nel ranking che ha accompagnato i suoi risultati più significativi. Il quadro, oggi, è questo:
 
-- Affermazione nelle categorie minori nelle prime stagioni, utile ad accumulare esperienza e fiducia.
-- Ingresso stabile nei tabelloni principali dei tornei WTA e delle Prove dello Slam.
-- Risultati di rilievo nel doppio, specialità in cui ha raggiunto alcuni dei traguardi più alti del suo percorso.
+- In singolare non ha ancora conquistato un titolo WTA, pur avendo disputato alcune finali, ma è salita fino al numero 30 del mondo nel febbraio del 2026.
+- Negli Slam il suo miglior risultato è il quarto turno, raggiunto agli US Open 2023, a Wimbledon 2024 e agli Australian Open 2026.
+- In doppio ha vinto quattro titoli WTA, il più prestigioso dei quali è il Roland Garros 2023 in coppia con Hsieh Su-wei, e si è spinta fino ai primi venti posti della classifica di specialità.
+- Ai Giochi di Parigi 2024 ha conquistato la medaglia d'argento nel doppio misto.
 
-Più che un singolo trofeo simbolo, è la continuità a definire finora la sua carriera: la capacità di restare ai piani alti del tennis internazionale e di rappresentare, insieme alle connazionali, la solidità raggiunta dal movimento cinese. Resta una giocatrice nel pieno della maturità sportiva, con i margini di chi può ancora alzare l'asticella dei propri obiettivi.
+Più che un singolo trofeo in singolare, è la continuità a definire finora la sua carriera: la capacità di restare ai piani alti del tennis internazionale e di rappresentare, insieme alle connazionali, la solidità raggiunta dal movimento cinese. Resta una giocatrice nel pieno della maturità sportiva, con i margini di chi può ancora alzare l'asticella dei propri obiettivi.

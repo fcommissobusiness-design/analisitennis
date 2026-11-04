@@ -23,7 +23,7 @@ generato_il: "2026-10-25T11:50"
 
 ## Chi è
 
-Xiaodi You è una tennista cinese nata nel 1996, professionista dal 2014. La sua è una carriera di lungo corso, costruita soprattutto nei circuiti di sviluppo e nelle tappe asiatiche, con qualche affaccio sul tour maggiore fin dalle prime stagioni. È una giocatrice che ha saputo restare competitiva per oltre un decennio, alternando il singolare al doppio e trovando spesso in quest'ultimo la dimensione più redditizia. Il suo miglior piazzamento in singolare risale al 2020, quando si è spinta nei pressi della posizione numero 166 del mondo; in doppio, già nel 2016, aveva fatto ancora meglio, avvicinandosi alla top 100. Due dati che raccontano bene la natura della sua carriera: continuità e pazienza più che exploit improvvisi.
+Xiaodi You è una tennista cinese nata nel 1996, professionista dal 2014. La sua è una carriera di lungo corso, costruita soprattutto nei circuiti di sviluppo e nelle tappe asiatiche, con qualche affaccio sul tour maggiore fin dalle prime stagioni. È una giocatrice che ha saputo restare competitiva per oltre un decennio, alternando il singolare al doppio e trovando spesso in quest'ultimo la dimensione più redditizia. Il suo miglior piazzamento in singolare risale al marzo del 2020, quando si è spinta fino alla posizione numero 166 del mondo; in doppio, già nel settembre del 2016, aveva fatto ancora meglio, arrivando al numero 102, a un passo dalla top 100. Due dati che raccontano bene la natura della sua carriera: continuità e pazienza più che exploit improvvisi.
 
 ## Il suo tennis
 
@@ -37,9 +37,8 @@ La gran parte del percorso di Xiaodi You si è sviluppata sul cemento, superfici
 
 Il bilancio di Xiaodi You si legge soprattutto nei numeri del circuito di sviluppo e in alcuni traguardi di prestigio relativo. Tra i risultati principali si possono ricordare:
 
-- un titolo di doppio a livello WTA 125, il gradino più alto raggiunto in questa categoria;
-- sei titoli in singolare e diciannove in doppio nel circuito ITF, a conferma della sua longevità;
-- nel 2025, a Macao, il doppio successo in singolare e in doppio nelle finali del China Tennis Tour riservate alle professioniste;
-- nel 2026, il titolo in singolare in una tappa di categoria W100 e una finale raggiunta in un altro torneo cinese.
+- il titolo di doppio nel WTA 125 di Dalian, nel 2017, in coppia con Jiajing Lu: il gradino più alto raggiunto in questa categoria;
+- sei titoli in singolare e una ventina in doppio nel circuito ITF, a conferma della sua longevità;
+- nel 2026, a quasi dodici anni dall'esordio fra le professioniste, un nuovo titolo in singolare in un torneo ITF a Lu'an, in Cina.
 
-Il suo esordio sul tour maggiore risale invece al 2014, nel torneo di Shenzhen, dove si presentò nel tabellone di doppio. Quei primi passi hanno aperto una carriera che, pur senza mai sfondare stabilmente ai piani alti della classifica, si è distinta per durata e dedizione. Il rendimento ritrovato nelle stagioni più recenti conferma che, a distanza di anni dal debutto, You resta una presenza riconoscibile e rispettata nel tennis cinese.
+I primi passi nel circuito risalgono al 2014 e hanno aperto una carriera che, pur senza mai sfondare stabilmente ai piani alti della classifica, si è distinta per durata e dedizione. Il rendimento ritrovato nelle stagioni più recenti conferma che, a distanza di anni dal debutto, You resta una presenza riconoscibile e rispettata nel tennis cinese.

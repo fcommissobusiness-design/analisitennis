@@ -2,12 +2,12 @@
 nome: "Magda Linette"
 slug_profilo: "m-linette"
 nazionalita: "Polonia"
-data_nascita: "1992-06-12"
+data_nascita: "1992-02-12"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco solido da fondo, pazienza e grande continuità"
-titoli: "alcuni titoli WTA 250 in singolare e una semifinale Slam"
-altezza: "170 cm"
+titoli: "tre titoli WTA in singolare e la semifinale all'Australian Open 2023"
+altezza: "171 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Tennista polacca di grande tenacia, capace di una maturazione tardiva che l'ha portata fino al palcoscenico più alto degli Slam."
@@ -26,7 +26,7 @@ generato_il: "2026-10-28T21:01"
 
 ## Chi è
 
-Magda Linette è una delle figure più rappresentative di un certo tennis polacco fatto di pazienza, applicazione e crescita lenta ma inarrestabile. Nata a Poznań, ha costruito la propria carriera lontano dai riflettori riservati ai talenti precoci, scegliendo la via più lunga: quella del lavoro quotidiano, delle stagioni sui campi secondari e di una progressione graduale nella classifica mondiale. Per anni è stata una presenza stabile ma defilata del circuito maggiore, prima di ritagliarsi uno spazio ben più ampio nella seconda parte della carriera, quando molte colleghe iniziano invece a rallentare.
+Magda Linette è una delle figure più rappresentative di un certo tennis polacco fatto di pazienza, applicazione e crescita lenta ma inarrestabile. Nata a Poznań il 12 febbraio 1992, ha costruito la propria carriera lontano dai riflettori riservati ai talenti precoci, scegliendo la via più lunga: quella del lavoro quotidiano, delle stagioni sui campi secondari e di una progressione graduale nella classifica mondiale. Per anni è stata una presenza stabile ma defilata del circuito maggiore, prima di ritagliarsi uno spazio ben più ampio nella seconda parte della carriera, quando molte colleghe iniziano invece a rallentare.
 
 Proprio questa maturazione tardiva è il tratto che la rende particolare. Linette ha dimostrato che la testa, la gestione delle energie e un'identità tecnica chiara possono valere quanto la precocità, e che il momento migliore può arrivare ben oltre i trent'anni.
 
@@ -40,18 +40,18 @@ Il dritto e il rovescio a due mani lavorano soprattutto in appoggio a questa fil
 
 Linette ha espresso il suo tennis migliore sulle superfici in cemento, dove la traiettoria regolare della palla e i rimbalzi prevedibili premiano la sua capacità di costruire lo scambio con ordine. È proprio sul veloce che ha ottenuto i risultati più prestigiosi e che il suo gioco di posizione trova la massima resa.
 
-Questo non significa che sia estranea alle altre superfici: sa adattarsi alla terra battuta, dove la pazienza negli scambi lunghi si sposa bene con le sue caratteristiche, e ha giocato un tennis dignitoso anche sull'erba, superficie storicamente più ostica per chi fonda tutto sulla regolarità da fondo. Resta però il cemento, indoor o all'aperto, il terreno dove la polacca si sente più a suo agio.
+Questo non significa che sia estranea alle altre superfici: sulla terra battuta, dove la pazienza negli scambi lunghi si sposa bene con le sue caratteristiche, ha conquistato nel 2024 il titolo di Praga, e sull'erba è arrivata in semifinale a Rosmalen nel 2026, a smentire l'idea che sia un terreno proibitivo per chi fonda tutto sulla regolarità da fondo. Resta però il cemento, indoor o all'aperto, il terreno dove la polacca si sente più a suo agio.
 
 ## Trofei e momenti chiave
 
-Il capitolo più luminoso della carriera di Linette si è scritto sui campi in cemento di uno degli Slam più importanti, dove ha raggiunto una storica semifinale: un traguardo arrivato in piena maturità sportiva, che ha riscritto la percezione del suo valore e l'ha proiettata, per la prima volta, tra le migliori interpreti del circuito. Quel cammino, costruito battendo avversarie di alto livello, è diventato il simbolo della sua intera parabola: la ricompensa di anni di costanza.
+Il capitolo più luminoso della carriera di Linette si è scritto sui campi in cemento di Melbourne: all'Australian Open 2023, a trent'anni, ha raggiunto la prima semifinale Slam della carriera, un traguardo che ha riscritto la percezione del suo valore e l'ha proiettata tra le migliori interpreti del circuito. Due mesi dopo, nel marzo 2023, ha toccato il best ranking al numero 19 del mondo.
 
-Accanto a quel risultato, la polacca ha messo in bacheca alcuni titoli nel circuito WTA, soprattutto nei tornei di categoria 250, confermandosi una giocatrice capace di andare fino in fondo quando trova continuità.
+Accanto a quel risultato, la polacca ha messo in bacheca tre titoli nel circuito WTA: il Bronx Open nel 2019 e il torneo di Hua Hin nel 2020, entrambi sul cemento, e il Prague Open nel 2024 sulla terra. E anche negli anni successivi ha continuato a creare problemi alle prime della classe: nel 2026, al secondo turno di Miami, ha battuto Iga Świątek.
 
 ### In sintesi
 
-- Semifinale in un torneo del Grande Slam
-- Alcuni titoli WTA 250 in singolare
-- Ingresso tra le prime posizioni della classifica mondiale in piena maturità
+- Semifinale all'Australian Open 2023, prima e unica in carriera in uno Slam
+- Tre titoli WTA in singolare: Bronx 2019, Hua Hin 2020, Praga 2024
+- Best ranking al numero 19 del mondo nel marzo 2023, a trentun anni compiuti
 
 La storia di Magda Linette è quella di una giocatrice che non ha mai smesso di crederci, trasformando la pazienza in un metodo e il tempo in un alleato.

@@ -6,7 +6,7 @@ data_nascita: "2001-08-16"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "aggressività da fondo con colpi piatti e profondi"
-titoli: "più titoli dello Slam (tra cui Australian Open, US Open e Wimbledon), il titolo delle ATP Finals e la vetta del ranking ATP; numerosi tornei ATP in bacheca"
+titoli: "cinque titoli dello Slam (Australian Open 2024 e 2025, US Open 2024, Wimbledon 2025 e 2026), due ATP Finals e la vetta del ranking ATP; trenta titoli ATP in bacheca"
 altezza: "191 cm"
 categoria: "ATP"
 superficie_preferita: "cemento"
@@ -27,7 +27,7 @@ generato_il: "2026-10-29T16:39"
 
 ## Chi è
 
-Jannik Sinner è nato a San Candido, in Alto Adige, il 16 agosto 2001, in una zona di montagna dove da bambino ha praticato sci agonistico prima di scegliere definitivamente la racchetta. Quella formazione sulla neve gli ha lasciato equilibrio, freddezza competitiva e una capacità di concentrazione poco comune per la sua età. Trasferitosi ancora adolescente nelle Marche per allenarsi lontano da casa, è cresciuto rapidamente fino a imporsi tra i migliori del mondo e a diventare il primo italiano a raggiungere la vetta del ranking ATP, un traguardo che ha cambiato la percezione stessa del movimento tennistico italiano.
+Jannik Sinner è nato a San Candido, in Alto Adige, il 16 agosto 2001, in una zona di montagna dove da bambino ha praticato sci agonistico prima di scegliere definitivamente la racchetta. Quella formazione sulla neve gli ha lasciato equilibrio, freddezza competitiva e una capacità di concentrazione poco comune per la sua età. Trasferitosi a tredici anni a Bordighera, in Liguria, per allenarsi lontano da casa sotto la guida di Riccardo Piatti, è cresciuto fino a imporsi tra i migliori del mondo e a diventare, nel giugno del 2024, il primo italiano a raggiungere la vetta del ranking ATP, un traguardo che ha cambiato la percezione stessa del movimento tennistico italiano.
 
 ## Il suo tennis
 
@@ -39,13 +39,14 @@ La superficie su cui Sinner esprime il meglio di sé è il cemento, dove la comb
 
 ## Trofei e momenti chiave
 
-Il momento che più di ogni altro racconta la sua carriera è l'ascesa alla prima posizione mondiale, culmine di una progressione costante iniziata con alcuni successi nei circuiti minori e proseguita con una lunga serie di affermazioni sul tour maggiore. Nelle stagioni più recenti è diventato protagonista assoluto nelle prove più importanti, conquistando più titoli dello Slam su superfici differenti e affermandosi anche nel torneo che riunisce i migliori giocatori di fine anno. A questi traguardi si aggiunge un ruolo da trascinatore nella Nazionale italiana, con cui ha contribuito ai successi del movimento in competizioni a squadre.
+Il momento che più di ogni altro racconta la sua carriera è l'ascesa alla prima posizione mondiale, culmine di una progressione costante iniziata con alcuni successi nei circuiti minori e proseguita con una lunga serie di affermazioni sul tour maggiore. Nelle stagioni più recenti è diventato protagonista assoluto nelle prove più importanti, conquistando cinque titoli dello Slam su superfici differenti e vincendo per due volte di fila il torneo che riunisce i migliori giocatori di fine anno. A questi traguardi si aggiunge un ruolo da trascinatore nella Nazionale italiana, con cui ha contribuito alle due Coppe Davis consecutive del 2023 e del 2024.
 
 ### Trofei principali
 
-- Più titoli del Grande Slam, tra cui Australian Open, US Open e Wimbledon
-- Titolo delle ATP Finals di fine stagione
-- Prima posizione del ranking ATP
-- Numerosi titoli nel circuito maggiore su superfici diverse
+- Cinque titoli del Grande Slam: Australian Open 2024 e 2025, US Open 2024, Wimbledon 2025 e 2026
+- ATP Finals vinte nel 2024 e nel 2025
+- Prima posizione del ranking ATP, raggiunta nel giugno 2024
+- Trenta titoli nel circuito maggiore, dieci dei quali Masters 1000
+- Coppa Davis con l'Italia nel 2023 e nel 2024
 
 Al di là dei trofei, l'eredità di Sinner sta nell'aver portato il tennis italiano a un livello di competitività stabile ai vertici, imponendosi come riferimento di un'intera generazione.

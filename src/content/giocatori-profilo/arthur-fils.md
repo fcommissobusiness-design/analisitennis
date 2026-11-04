@@ -1,8 +1,8 @@
 ---
 nome: "Arthur Fils"
 slug_profilo: "arthur-fils"
-titoli: "Piu' titoli ATP, tra i migliori giovani del circuito"
-stile_gioco: "Esplosivita' atletica e dritto pesante, tennis d'attacco"
+titoli: "Cinque titoli ATP, fra cui il Masters 1000 di Cincinnati 2026"
+stile_gioco: "Esplosività atletica e dritto pesante, tennis d'attacco"
 nazionalita: "Francia"
 data_nascita: "2004-06-12"
 mano: "destro"
@@ -41,16 +41,18 @@ Accanto alla potenza, ciò che rende il suo tennis interessante è l'esplosivit�
 
 Fils ha mostrato di potersi esprimere su più superfici, con un gioco che per intensità e aggressività si adatta bene ai campi che premiano la spinta. Sul cemento la velocità della palla valorizza il suo dritto e la sua ricerca del comando dello scambio, mentre sulla terra battuta ha saputo ottenere alcuni dei risultati che ne hanno accelerato l'ascesa, dimostrando di saper modulare il gioco anche quando i ritmi si allungano.
 
-L'erba resta, nelle prime stagioni sul tour maggiore, la superficie su cui ha accumulato meno esperienza, pur avendo caratteristiche — servizio e aggressività — potenzialmente adatte. Nel complesso, più che un giocatore legato a un unico terreno, Fils appare come un interprete versatile, capace di restare competitivo in contesti differenti.
+L'erba resta, nelle prime stagioni sul tour maggiore, la superficie su cui ha accumulato meno esperienza, pur avendo caratteristiche (servizio e aggressività) potenzialmente adatte e pur avendo già raggiunto il quarto turno a Wimbledon. Nel complesso, più che un giocatore legato a un unico terreno, Fils appare come un interprete versatile, capace di restare competitivo in contesti differenti.
 
 ## Trofei e momenti chiave
 
-La sua carriera è decollata con l'affermazione che vale sempre uno spartiacque per un giovane: il primo titolo sul circuito maggiore, conquistato in patria, segnale precoce di un potenziale destinato a crescere. Da lì il percorso è proseguito con prestazioni di rilievo nei grandi tornei e con un ingresso stabile tra i migliori giocatori del mondo.
+La sua carriera è decollata con l'affermazione che vale sempre uno spartiacque per un giovane: il primo titolo sul circuito maggiore, conquistato in patria sulla terra di Lione nel 2023, segnale precoce di un potenziale destinato a crescere. Sono seguiti Amburgo e Tokyo nel 2024 e Barcellona nel 2026, fino al salto definitivo dell'agosto 2026, quando a Cincinnati ha messo in bacheca il primo Masters 1000 della carriera entrando nei primi dieci del mondo.
+
+Il percorso, però, non è stato lineare: un problema alla schiena gli ha tolto buona parte della stagione 2025 e una frattura da stress all'anca lo ha fermato di nuovo nella primavera del 2026, rendendo la risalita successiva uno dei tratti più indicativi del suo carattere.
 
 **Trofei principali**
 
-- Primo titolo ATP in carriera in Francia
-- Ulteriori affermazioni sul circuito maggiore nelle stagioni successive
-- Ingresso tra i giocatori di vertice della classifica mondiale in giovane età
+- Masters 1000 di Cincinnati 2026
+- Cinque titoli ATP in totale: Lione 2023, Amburgo e Tokyo 2024, Barcellona e Cincinnati 2026
+- Miglior classifica: numero 7 del mondo (novembre 2026)
 
 Più delle singole cifre, a definirlo in questa fase è la traiettoria: quella di un talento che ha trasformato le attese in risultati concreti, candidandosi a essere uno dei volti del tennis dei prossimi anni.

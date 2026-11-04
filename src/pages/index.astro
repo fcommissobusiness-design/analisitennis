@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import FormEmail from '../components/FormEmail.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, displayPlayerName } from '../lib/hubs.js';
+import { playerSlug, displayPlayerName, tournamentDisplay } from '../lib/hubs.js';
 
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 // Tutti gli articoli (piu' recenti in alto). Lato pagina ne mostriamo un
@@ -146,7 +146,7 @@ const faqHome = {
                     <source srcset={art.data.cover_image.replace(/\.jpg$/, '-card.webp')} type="image/webp" />
                     <img
                       src={art.data.cover_image}
-                      alt={`${art.data.giocatore1} vs ${art.data.giocatore2} - ${art.data.torneo}`}
+                      alt={`${displayPlayerName(art.data.giocatore1)} vs ${displayPlayerName(art.data.giocatore2)} - ${tournamentDisplay(art.data.torneo)}`}
                       width="640"
                       height="360"
                       loading={i < 4 ? 'eager' : 'lazy'}
@@ -155,7 +155,7 @@ const faqHome = {
                   </picture>
                 </a>
               )}
-              <div class="eyebrow">{art.data.giocatore1 === 'Redazione' ? 'Editoriale' : `${art.data.categoria} - ${art.data.torneo}`}</div>
+              <div class="eyebrow">{art.data.giocatore1 === 'Redazione' ? 'Editoriale' : `${art.data.categoria} - ${tournamentDisplay(art.data.torneo)}`}</div>
               <h2><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h2>
               <p class="sottotitolo">{art.data.sottotitolo}</p>
               <div class="data">
@@ -180,8 +180,8 @@ const faqHome = {
         <div class="side-sticky">
           <FormEmail />
           {piuCercati.length > 0 && (
-            <nav class="piu-cercati" aria-label="Giocatori piu' cercati">
-              <h2 class="sezione-eyebrow">I piu' cercati</h2>
+            <nav class="piu-cercati" aria-label="Giocatori più cercati">
+              <h2 class="sezione-eyebrow">I più cercati</h2>
               <ul>
                 {piuCercati.map(p => (
                   <li><a href={`/giocatori/${p.slug}`}>{p.nome}</a></li>

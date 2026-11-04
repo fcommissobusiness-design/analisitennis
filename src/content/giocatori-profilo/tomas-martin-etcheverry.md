@@ -1,10 +1,10 @@
 ---
 nome: "Tomas Martin Etcheverry"
 slug_profilo: "tomas-martin-etcheverry"
-titoli: "Finali ATP sulla terra"
+titoli: "Titolo ATP 500 a Rio 2026 e altre finali sulla terra"
 stile_gioco: "Potenza da fondo e dritto pesante, resa migliore sulla terra"
 nazionalita: "Argentina"
-data_nascita: "1999-05-19"
+data_nascita: "1999-07-18"
 mano: "destro"
 rovescio: "due mani"
 altezza: "196 cm"
@@ -44,6 +44,8 @@ Sul cemento resta comunque competitivo, soprattutto quando le condizioni non son
 
 ## Trofei e momenti chiave
 
-Il momento che ha fatto conoscere Etcheverry al grande pubblico è stato il suo percorso in uno Slam sulla terra, con cui ha raggiunto i turni conclusivi di un torneo del Grande Slam e si è affacciato per la prima volta ai piani alti della classifica mondiale. Da lì ha consolidato la propria presenza fra i protagonisti del circuito, cogliendo i primi riconoscimenti importanti a livello ATP, in particolare proprio sulla sua superficie d'elezione.
+Il momento che ha fatto conoscere Etcheverry al grande pubblico è stato il suo percorso al Roland Garros 2023, chiuso ai quarti di finale: il miglior risultato in uno Slam e il trampolino con cui si è affacciato per la prima volta ai piani alti della classifica mondiale. Nello stesso anno sono arrivate le prime finali a livello ATP, a Santiago del Cile e a Houston, entrambe sulla sua superficie d'elezione.
+
+Il primo trofeo nel circuito maggiore è però maturato soltanto nel 2026, al Rio Open, torneo di categoria 500 sulla terra battuta vinto in finale su Alejandro Tabilo. Nella stessa stagione ha toccato il numero 25 del mondo, miglior piazzamento della sua carriera.
 
 Al di là del singolo risultato, la vicenda sportiva di Etcheverry racconta di un giocatore che ha saputo trasformare un fisico ingombrante in una risorsa, costruendo con metodo una carriera da protagonista stabile del tennis internazionale e portando avanti con dignità la lunga tradizione argentina sulla terra rossa.

@@ -1,21 +1,21 @@
 ---
-nome: "WTA Courmayeur Open"
+nome: "Valle d'Aosta Ladies Open"
 slug_profilo: "courmayeur-italy-2026"
 anno: 2026
 citta: "Courmayeur"
 paese: "Italia"
 categoria: "WTA"
-superficie: "indoor"
+superficie: "cemento"
 fondato: "2021"
-intro: "Ai piedi del Monte Bianco, il Courmayeur Open porta il grande tennis femminile WTA tra le vette della Valle d'Aosta, nella coda indoor della stagione."
-descrizione: "Guida al WTA Courmayeur Open: storia, superficie indoor, albo d'oro e curiosità del torneo femminile ai piedi del Monte Bianco, in Valle d'Aosta."
+intro: "Ai piedi del Monte Bianco il torneo di Courmayeur è tornato nel 2026 con un nome nuovo, Valle d'Aosta Ladies Open: cemento al coperto e categoria WTA 125 a fine ottobre."
+descrizione: "Guida al Valle d'Aosta Ladies Open di Courmayeur: storia dal 2021, cemento indoor, albo d'oro con Donna Vekić e Alina Charaeva, curiosità del torneo valdostano."
 tag:
-  - "Courmayeur Open"
-  - "WTA Courmayeur"
+  - "Valle d'Aosta Ladies Open"
+  - "Courmayeur Ladies Open"
   - "tennis Courmayeur"
-  - "WTA 250 Italia"
+  - "WTA 125"
   - "tennis femminile"
-  - "indoor Monte Bianco"
+  - "cemento indoor"
   - "tornei WTA Italia"
   - "Valle d'Aosta tennis"
 pubblicato: true
@@ -26,26 +26,28 @@ cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 
 ## La storia
 
-Nel panorama del tennis femminile italiano, il Courmayeur Open rappresenta una delle iniziative più recenti e di maggior fascino. Nato all'inizio degli anni Venti del Duemila, il torneo ha avuto il merito di portare un appuntamento del circuito WTA ai piedi del Monte Bianco, in una delle località alpine più celebri d'Italia. Inserito nella categoria WTA 250, l'evento si è ritagliato uno spazio nella parte conclusiva della stagione, quando il calendario internazionale si sposta verso gli appuntamenti al coperto e le giocatrici inseguono gli ultimi punti utili per il ranking o per blindare la qualificazione agli eventi di fine anno.
+Il torneo di Courmayeur ha una storia breve e intermittente. Nasce nel 2021 come Courmayeur Ladies Open, con una licenza WTA 250 nata dalla riorganizzazione del calendario del periodo pandemico: una sola edizione, a fine ottobre, che bastò a far parlare di sé perché portò il circuito maggiore in una località alpina, cosa rarissima nel tennis femminile. Poi, per quattro anni, il silenzio: dal 2022 al 2025 la manifestazione non è stata disputata.
 
-L'idea di fondo è stata ambiziosa fin da subito: unire il richiamo turistico di una destinazione di montagna conosciuta in tutto il mondo alla credibilità di un torneo professionistico. In pochi anni Courmayeur è così entrata nella mappa del tennis che conta, offrendo alle giovani promesse e alle giocatrici affermate un palcoscenico insolito, lontano dalle metropoli che di norma ospitano il grande circuito.
+Il ritorno è arrivato nel 2026, con due cambiamenti importanti. Il primo è il nome: non più Courmayeur Ladies Open ma Valle d'Aosta Ladies Open, scelta che allarga il riferimento dalla singola località all'intera regione. Il secondo è la categoria: non più WTA 250, bensì WTA 125, il livello immediatamente inferiore del circuito femminile, quello che fa da ponte fra i tornei ITF e il tour principale. La sede, invece, non è cambiata: si gioca al Courmayeur Sport Center, con un montepremi di circa 100.000 euro e un tabellone di 32 giocatrici.
 
 ## Il campo e lo stile
 
-Il Courmayeur Open si disputa al coperto, su una superficie veloce che restituisce un tennis diretto e senza troppe pause. L'ambiente indoor, al riparo dal clima rigido della Valle d'Aosta in questa fase dell'anno, garantisce condizioni costanti: niente vento, niente sbalzi di luce, rimbalzo prevedibile. È un contesto che tende a premiare chi serve bene e chi non ha paura di prendere l'iniziativa, accorciando lo scambio e cercando il colpo vincente con anticipo.
+Si gioca al coperto, su cemento, con un manto veloce che restituisce un tennis diretto e senza troppe pause. L'ambiente indoor, al riparo dal clima rigido della Valle d'Aosta in questa fase dell'anno, garantisce condizioni costanti: niente vento, niente sbalzi di luce, rimbalzo prevedibile. È un contesto che tende a premiare chi serve bene e chi non ha paura di prendere l'iniziativa, accorciando lo scambio e cercando il colpo vincente con anticipo.
 
 Su questi campi la battuta diventa un'arma decisiva e il rovescio lungolinea un fendente che può spostare gli equilibri di un game. Le specialiste della terra, abituate a costruire il punto con pazienza, trovano qui un terreno meno congeniale, mentre chi ama attaccare e chiudere a rete può esprimersi al meglio. Ne nasce un tennis d'impatto, apprezzato dal pubblico che riempie le tribune in un'atmosfera raccolta e calorosa, tipica dei tornei indoor di dimensioni contenute.
 
 ## Albo d'oro recente
 
-Trattandosi di un torneo di storia breve, l'albo d'oro è ancora in costruzione, ma non per questo privo di nomi interessanti. L'edizione inaugurale, all'inizio degli anni Venti, consegnò il titolo a una giovane protagonista del tennis europeo:
+Con due sole edizioni disputate, l'albo d'oro è presto riassunto.
 
-- Edizione inaugurale: **Clara Tauson**
+- 2026: Alina Charaeva, che ha battuto in finale Noma Noha Akugue per 6-3, 6-4
+- 2022 - 2025: non disputato
+- 2021: Donna Vekić, che ha battuto in finale Clara Tauson per 7-6(3), 6-2
 
-Per prudenza preferiamo non attribuire con certezza le edizioni successive senza conferma puntuale: il valore di un albo d'oro, del resto, sta nell'esattezza più che nella lunghezza. Ciò che conta è che Courmayeur abbia saputo imporsi, in pochissimo tempo, come una tappa capace di attirare talento e attenzione.
+Vale la pena fermarsi sull'edizione inaugurale, perché viene spesso raccontata male: la finalista fu Clara Tauson, allora giovanissima e in piena ascesa, ma il titolo andò a Donna Vekić. Nel doppio, nel 2021, vinsero Wang Xinyu e Zheng Saisai; nel 2026 la coppia statunitense formata da Catherine Harrison e Dalayna Hewitt.
 
 ## Curiosità
 
-Il tratto che rende unico questo torneo è senza dubbio la cornice. Courmayeur è una delle capitali italiane della montagna e dello sci, affacciata sul versante italiano del Monte Bianco, il tetto delle Alpi. Vedere il circuito WTA approdare in una località legata nell'immaginario collettivo alle piste innevate e all'alpinismo ha un sapore quasi romantico, e conferma come il tennis sappia reinventare i propri scenari.
+Il tratto che rende unico questo torneo è senza dubbio la cornice. Courmayeur è una delle capitali italiane della montagna e dello sci, affacciata sul versante italiano del Monte Bianco, il tetto delle Alpi. Vedere un torneo del circuito femminile approdare in una località legata nell'immaginario collettivo alle piste innevate e all'alpinismo ha un sapore quasi romantico, e conferma come il tennis sappia reinventare i propri scenari.
 
-La collocazione in quota e la stagione di svolgimento fanno sì che le giocatrici arrivino spesso dopo mesi intensi, con l'occasione di chiudere l'annata in un ambiente suggestivo. Non capita tutti i giorni di disputare un torneo professionistico con il massiccio del Monte Bianco come sfondo: ed è anche per questo che il Courmayeur Open, pur giovane, si è già conquistato un posto speciale nel cuore degli appassionati italiani.
+La collocazione a quota alpina e la stagione di svolgimento fanno sì che le giocatrici arrivino dopo mesi intensi, con l'occasione di chiudere l'annata in un ambiente suggestivo. Il passaggio dal WTA 250 al WTA 125 ha cambiato il profilo del tabellone, che oggi raccoglie soprattutto giocatrici in cerca del salto di categoria anziché nomi già affermati: una fisionomia diversa, ma non meno interessante per chi segue il tennis in costruzione. Non capita tutti i giorni di disputare un torneo professionistico con il massiccio del Monte Bianco come sfondo, ed è anche per questo che la manifestazione, pur con una storia fatta di stop e ripartenze, resta un appuntamento a cui gli appassionati italiani guardano con curiosità.

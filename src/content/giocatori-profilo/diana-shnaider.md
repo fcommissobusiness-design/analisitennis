@@ -1,10 +1,11 @@
 ---
 nome: "Diana Shnaider"
 slug_profilo: "diana-shnaider"
-titoli: "Piu' titoli WTA, giovane nella top 20"
+titoli: "Sei titoli WTA, argento olimpico in doppio e best ranking numero 11"
 stile_gioco: "Mancina offensiva e solida da fondo, buona potenza"
 nazionalita: "Russia"
-data_nascita: "2004-03-01"
+data_nascita: "2004-04-02"
+altezza: "170 cm"
 mano: "mancino"
 rovescio: "due mani"
 categoria: "WTA"
@@ -26,7 +27,7 @@ generato_il: "2026-10-25T01:21"
 
 ## Chi è
 
-Diana Shnaider è una delle tenniste russe che negli ultimi anni ha bruciato le tappe con maggiore nettezza. Nata il 1º marzo 2004, mancina, ha scelto un percorso insolito per il tennis europeo: prima di buttarsi a tempo pieno sul circuito professionistico ha giocato tennis universitario negli Stati Uniti, un'esperienza che le ha dato struttura competitiva e maturità agonistica. Il passaggio dal college al tour maggiore è stato rapido, e nel giro di poche stagioni si è ritrovata stabilmente tra le giocatrici che contano, entrando per la prima volta nelle posizioni alte della classifica mondiale ancora giovanissima.
+Diana Shnaider è una delle tenniste russe che negli ultimi anni ha bruciato le tappe con maggiore nettezza. Nata il 2 aprile 2004, mancina, ha scelto un percorso insolito per il tennis europeo: prima di passare a tempo pieno al circuito professionistico ha giocato tennis universitario negli Stati Uniti, alla North Carolina State University, un'esperienza che le ha dato struttura competitiva e maturità agonistica. Il passaggio dal college al tour maggiore è stato rapido: professionista dal 2023, nel maggio del 2025 era già numero 11 del mondo, posizione che resta il suo best ranking in singolare.
 
 ## Il suo tennis
 
@@ -42,10 +43,12 @@ Questo non significa che sia a disagio altrove. Da mancina con buona rotazione p
 
 ## Trofei e momenti chiave
 
-La svolta della carriera coincide con la stagione in cui ha messo in bacheca i primi titoli del circuito maggiore, confermando con i risultati le attese che accompagnavano il suo nome fin dai tornei minori, dove aveva già raccolto diversi successi nelle categorie inferiori.
+La svolta della carriera coincide con il 2024, la stagione in cui ha messo in bacheca quattro titoli del circuito maggiore, da Hua Hin a Bad Homburg, da Budapest a Hong Kong, confermando con i risultati le attese che accompagnavano il suo nome.
 
-- **Primi titoli WTA** conquistati nella stagione del salto di qualità, con un'ottima continuità di risultati
+- **Sei titoli WTA in singolare**, i primi quattro raccolti nel 2024, poi Monterrey nel 2025 e Tokyo nel 2026
 - **Medaglia d'argento olimpica nel doppio** ai Giochi di Parigi 2024, in coppia con la connazionale Mirra Andreeva
-- **Ingresso tra le prime posizioni del ranking mondiale** in singolare, raggiunto in giovanissima età
+- **Tre titoli WTA in doppio** sempre con Andreeva, fra cui due tornei di categoria 1000, a Miami nel 2025 e a Roma nel 2026
+- **Semifinale al Roland Garros 2026**, suo miglior risultato in uno Slam, con la vittoria nei quarti su Aryna Sabalenka
+- **Best ranking di numero 11 del mondo** in singolare, raggiunto nel maggio del 2025
 
 Il percorso resta in piena evoluzione. Shnaider ha mostrato di avere il carattere e gli strumenti per restare ai piani alti, e il margine che la separa dalle migliori appare più una questione di esperienza che di talento. Per una giocatrice arrivata così presto così in alto, è una premessa tutt'altro che banale.

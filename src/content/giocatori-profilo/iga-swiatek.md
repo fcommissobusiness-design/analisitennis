@@ -6,7 +6,7 @@ data_nascita: "2001-05-31"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "dritto in top spin pesante e aggressività da fondo"
-titoli: "Più titoli del Grande Slam (plurime vittorie al Roland Garros, un titolo negli Stati Uniti e uno sull'erba) e oltre venti titoli WTA, con lunghi periodi da numero uno del mondo"
+titoli: "Sei titoli del Grande Slam (quattro Roland Garros, US Open 2022 e Wimbledon 2025), ventisei titoli WTA e oltre centoventi settimane da numero uno del mondo"
 altezza: "176 cm"
 categoria: "WTA"
 superficie_preferita: "terra"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:42"
 
 ## Chi è
 
-Iga Swiatek è la tennista polacca che ha ridefinito gli equilibri del circuito femminile negli ultimi anni. Nata a Varsavia, è salita giovanissima in cima alla classifica mondiale, diventando il punto di riferimento della sua generazione. Cresciuta in una famiglia di sportivi, ha coltivato fin da ragazza una mentalità da atleta professionista, abbinando al talento una cura quasi maniacale per la preparazione mentale: un tratto che l'ha accompagnata in tutte le sue stagioni di vertice e che la distingue nei momenti di maggiore pressione.
+Iga Swiatek è la tennista polacca che ha ridefinito gli equilibri del circuito femminile negli ultimi anni. Nata a Varsavia il 31 maggio 2001, è salita giovanissima in cima alla classifica mondiale, diventando numero uno nell'aprile 2022 e il punto di riferimento della sua generazione. Cresciuta in una famiglia di sportivi, ha coltivato fin da ragazza una mentalità da atleta professionista, abbinando al talento una cura quasi maniacale per la preparazione mentale: un tratto che l'ha accompagnata in tutte le sue stagioni di vertice e che la distingue nei momenti di maggiore pressione.
 
 ## Il suo tennis
 
@@ -38,13 +38,13 @@ La terra rossa è il suo habitat naturale: il rimbalzo alto esalta le rotazioni 
 
 ## Trofei e momenti chiave
 
-Il cuore del suo palmarès è il Roland Garros, torneo che ha vinto più volte diventandone una delle regine moderne. A Parigi ha espresso la versione più intimidatoria del suo tennis, con cavalcate in cui ha lasciato pochissimo alle avversarie. Al di là della terra parigina, ha saputo imporsi anche negli Stati Uniti e, più di recente, ha completato il percorso aggiungendo un titolo sull'erba, chiudendo un cerchio che pareva difficile. A questi successi si affiancano numerosi altri titoli sul circuito maggiore e lunghi periodi da numero uno del mondo, con tante settimane in vetta alla classifica che l'hanno consacrata tra le dominatrici della sua epoca.
+Il cuore del suo palmarès è il Roland Garros, vinto quattro volte, nel 2020 e poi in sequenza dal 2022 al 2024: a Parigi ha espresso la versione più intimidatoria del suo tennis, con cavalcate in cui ha lasciato pochissimo alle avversarie. Al di là della terra parigina si è imposta allo US Open nel 2022 e, nel 2025, ha completato il percorso con il titolo di Wimbledon, chiudendo un cerchio che pareva difficile. A questi sei major si affiancano le Finals del 2023, il bronzo olimpico di Parigi 2024 e un totale di ventisei titoli WTA, oltre a più di centoventi settimane in vetta alla classifica che l'hanno consacrata tra le dominatrici della sua epoca.
 
 ### Trofei principali
 
-- Più titoli del Grande Slam, con particolare feeling per il Roland Garros
-- Successo in un major sul cemento negli Stati Uniti
-- Un titolo del Grande Slam anche sull'erba
-- Numerosi altri titoli WTA e lunghe permanenze da numero uno del mondo
+- Quattro titoli al Roland Garros (2020, 2022, 2023, 2024)
+- US Open 2022 e Wimbledon 2025
+- WTA Finals 2023 e medaglia di bronzo olimpica a Parigi 2024
+- Ventisei titoli WTA e oltre centoventi settimane da numero uno del mondo
 
 Oltre ai trofei, resta il modo in cui ha saputo gestire il peso del ruolo da favorita: la continuità di rendimento, più ancora dei singoli trionfi, è il tratto che la distingue e che la rende un metro di paragone per chiunque voglia salire ai vertici del tennis femminile.

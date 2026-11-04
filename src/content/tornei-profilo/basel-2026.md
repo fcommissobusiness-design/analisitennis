@@ -5,9 +5,9 @@ anno: 2026
 citta: "Basilea"
 paese: "Svizzera"
 categoria: "ATP"
-superficie: "indoor"
+superficie: "cemento"
 fondato: "1970"
-intro: "Nel cuore dell'autunno indoor, Basilea accende la St. Jakobshalle: un ATP 500 di culto, elegante e caldissimo, dove la Svizzera del tennis ha scritto pagine memorabili."
+intro: "Nel cuore dell'autunno al coperto, Basilea accende la St. Jakobshalle: un ATP 500 di culto, elegante e caldissimo, giocato sul cemento indoor, dove la Svizzera del tennis ha scritto pagine memorabili."
 descrizione: "Swiss Indoors Basel 2026: storia, campo indoor, albo d'oro recente e curiosità dell'ATP 500 svizzero nella St. Jakobshalle di Basilea."
 tag:
   - "Swiss Indoors Basel"
@@ -26,7 +26,7 @@ cover_credit: "St Jakobshalle Basel.JPG | --Wladyslaw Disk. | CC BY-SA 3.0"
 
 ## La storia
 
-Pochi tornei del circuito indoor conservano un'aura come quella degli Swiss Indoors Basel. Nati agli inizi degli anni Settanta, sono cresciuti fino a diventare una delle tappe autunnali più prestigiose del calendario maschile, oggi inquadrata nella categoria ATP 500. La loro parabola racconta bene l'evoluzione del tennis svizzero: da appuntamento di nicchia per gli appassionati della regione renana a vetrina internazionale, capace di attrarre con regolarità i migliori interpreti del gioco al coperto. Basilea, città di confine affacciata sul Reno e crocevia tra Svizzera, Francia e Germania, ha fatto di questa settimana di fine ottobre un rito cittadino, con la St. Jakobshalle trasformata in cassa di risonanza di un pubblico competente e caloroso.
+Pochi tornei del circuito indoor conservano un'aura come quella degli Swiss Indoors Basel. Nati nel 1970, sono cresciuti fino a diventare una delle tappe autunnali più prestigiose del calendario maschile, inquadrata nella categoria ATP 500 dal 2009. La loro parabola racconta bene l'evoluzione del tennis svizzero: da appuntamento di nicchia per gli appassionati della regione renana a vetrina internazionale, capace di attrarre con regolarità i migliori interpreti del gioco al coperto. Basilea, città di confine affacciata sul Reno e crocevia tra Svizzera, Francia e Germania, ha fatto di questa settimana di fine ottobre un rito cittadino, con la St. Jakobshalle trasformata in cassa di risonanza di un pubblico competente e caloroso.
 
 ## Il campo e lo stile
 
@@ -36,10 +36,13 @@ Il torneo si gioca al coperto, su una superficie veloce che premia il servizio, 
 
 Negli ultimi anni il tabellone ha incoronato campioni di primo piano, alternando interpreti affermati a nuove leve in ascesa:
 
-- Hubert Hurkacz
-- Félix Auger-Aliassime
+- 2022: Félix Auger-Aliassime, in finale su Holger Rune
+- 2023: Félix Auger-Aliassime, in finale su Hubert Hurkacz
+- 2024: Giovanni Mpetshi Perricard, in finale su Ben Shelton
+- 2025: João Fonseca, in finale su Alejandro Davidovich Fokina
+- 2026: Valentin Vacherot, in finale su Jiří Lehečka
 
-Il nome che però resta inciso nella memoria del torneo è quello di Roger Federer, legato a Basilea da un filo sentimentale unico e capace di sollevare il trofeo in numerose occasioni nell'arco della sua carriera. La sua ultima affermazione risale alla fine degli anni Dieci, a suggello di un rapporto quasi simbiotico tra il campione e la sua città.
+Le edizioni del 2020 e del 2021 non furono disputate a causa della pandemia. Il nome che resta inciso nella memoria del torneo è però quello di Roger Federer, legato a Basilea da un filo sentimentale unico: dieci titoli, record della manifestazione, l'ultimo dei quali nel 2019, a suggello di un rapporto quasi simbiotico tra il campione e la sua città.
 
 ## Curiosità
 

@@ -1,8 +1,8 @@
 ---
 nome: "Novak Djokovic"
 slug_profilo: "novak-djokovic"
-titoli: "24 titoli del Grande Slam, record assoluto, oltre 90 titoli ATP"
-stile_gioco: "Ritorno e difesa d'elite, elasticita' unica e colpi piatti profondissimi da fondo"
+titoli: "24 titoli del Grande Slam, record assoluto, oltre 100 titoli ATP"
+stile_gioco: "Ritorno e difesa d'elite, elasticità unica e colpi piatti profondissimi da fondo"
 nazionalita: "Serbia"
 data_nascita: "1987-05-22"
 mano: "destro"
@@ -31,6 +31,19 @@ Novak Djokovic è nato a Belgrado nel maggio del 1987 e ha trasformato una carri
 
 Il gioco di Djokovic è il manifesto della completezza. La sua **risposta al servizio** è considerata la migliore di sempre, capace di neutralizzare le battute più potenti e trasformare la difesa in attacco in un solo colpo. L'elasticità delle sue aperture e la capacità di arrivare su qualsiasi pallina gli permettono di estendere gli scambi oltre il limite che quasi tutti gli avversari riescono a sopportare. Il rovescio a due mani è un modello di precisione lungolinea e in diagonale, mentre lo spostamento laterale resta un marchio di fabbrica anche nelle fasi più avanzate della carriera. Sul cemento, superficie che ne esalta i tempi di reazione, ha raccolto alcune delle sue imprese più nette, ma la sua adattabilità lo ha reso competitivo ovunque.
 
-## Il momento
+## Sulle diverse superfici
 
-La stagione 2026 lo ha visto alternare lampi di grande livello a qualche battuta d'arresto. A Wimbledon è arrivato fino alla semifinale, dove ha ceduto a Jannik Sinner, dopo aver superato nei turni precedenti avversari come Felix Auger-Aliassime e Alexander Zverev, quest'ultimo battuto nei quarti di Pechino. In autunno il cammino si è fatto più discontinuo, con lo stop contro Hubert Hurkacz a Shanghai e un primo turno complicato agli US Open contro Mariano Navone. L'approdo a Basilea sul veloce indoor rappresenta un'occasione per ritrovare continuità in un finale di stagione in cui la gestione delle energie diventa decisiva.
+Il cemento resta la superficie che ne ha esaltato più di ogni altra i tempi di reazione e la qualità della risposta: è lì che ha costruito la parte più ampia del suo palmarès, con dieci titoli all'Australian Open. Sull'erba ha saputo tradurre lo stesso repertorio in una dominanza prolungata a Wimbledon, adattando gli appoggi e il gioco in avanzamento a un rimbalzo più basso. La terra battuta, superficie che per anni lo ha visto sbattere contro Rafael Nadal a Parigi, è stata quella conquistata più tardi e con maggiore fatica, eppure anche al Roland Garros ha finito per imporsi, completando un percorso che pochi nella storia possono rivendicare su tutti e quattro i fondi.
+
+## Trofei e momenti chiave
+
+Il bilancio di Djokovic è il più ricco del tennis maschile: **24 titoli del Grande Slam**, primato assoluto nel circuito maschile, **40 Masters 1000** e sette ATP Finals, altri due record, per un totale di carriera che ha oltrepassato la soglia dei cento titoli sul tour. A questi si aggiungono le **428 settimane da numero uno del mondo**, più di qualsiasi altro giocatore, e un oro olimpico nel singolare conquistato a Parigi 2024, sedici anni dopo il bronzo di Pechino 2008.
+
+Trofei e primati principali:
+
+- **24 titoli del Grande Slam**, record del tennis maschile
+- **40 titoli Masters 1000** e sette ATP Finals, entrambi record
+- **428 settimane da numero uno**, record assoluto
+- **Oro olimpico** nel singolare a Parigi 2024, bronzo a Pechino 2008
+
+Anche nella stagione 2026, a trentanove anni, ha continuato a stare dove contano i tornei: finale all'Australian Open, semifinale a Wimbledon e il titolo numero 102 conquistato al China Open di Pechino, il settimo nella capitale cinese. È il tratto che più lo definisce, al di là delle cifre: la capacità di restare competitivo ai massimi livelli molto oltre l'età in cui la maggior parte dei campioni ha già smesso.

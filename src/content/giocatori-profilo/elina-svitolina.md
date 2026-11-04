@@ -6,7 +6,7 @@ data_nascita: "1994-09-12"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "contrattacco da fondo, movimento eccellente e grande solidità"
-titoli: "Vittoria alle WTA Finals, una medaglia olimpica e numerosi titoli WTA in singolare, con un passato da numero 3 del mondo"
+titoli: "WTA Finals 2018, bronzo olimpico a Tokyo e venti titoli WTA in singolare, con un passato da numero 3 del mondo"
 altezza: "174 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:49"
 
 ## Chi è
 
-Elina Svitolina è una delle tenniste ucraine più rappresentative della sua generazione, capace di stabilirsi con continuità ai vertici della classifica mondiale fino a raggiungere il terzo posto del ranking WTA. Nata a Odessa nel 1994, si è imposta sul circuito maggiore ancora molto giovane, costruendo una carriera fatta di solidità ai massimi livelli più che di exploit isolati. Oltre al valore sportivo, è diventata nel tempo una figura simbolica per il tennis del suo Paese, soprattutto negli anni più difficili per l'Ucraina, e il suo rientro nel circuito dopo la maternità ne ha ulteriormente rafforzato l'immagine di atleta tenace e determinata.
+Elina Svitolina è una delle tenniste ucraine più rappresentative della sua generazione, capace di stabilirsi con continuità ai vertici della classifica mondiale fino al terzo posto del ranking WTA, raggiunto nel settembre del 2017. Nata a Odessa nel 1994, si è imposta sul circuito maggiore ancora molto giovane, costruendo una carriera fatta di solidità ai massimi livelli più che di exploit isolati. Oltre al valore sportivo, è diventata nel tempo una figura simbolica per il tennis del suo Paese, soprattutto negli anni più difficili per l'Ucraina, e il suo rientro nel circuito dopo la maternità ne ha ulteriormente rafforzato l'immagine di atleta tenace e determinata: nel 2026, a oltre trent'anni, è tornata nelle prime dieci posizioni del mondo.
 
 ## Il suo tennis
 
@@ -42,15 +42,15 @@ Sull'erba, meno congeniale a un'interprete d'attesa come lei, ha comunque ottenu
 
 ## Trofei e momenti chiave
 
-Il traguardo più luminoso della sua carriera resta la vittoria alle WTA Finals del 2018, il torneo che riunisce le migliori otto giocatrici della stagione: un successo che ha sancito il suo ingresso stabile tra le protagoniste assolute del tennis femminile. A questo si aggiunge una medaglia olimpica, conquistata ai Giochi di Tokyo, che ha un valore particolare per il significato che riveste rappresentare il proprio Paese ai massimi livelli.
+Il traguardo più luminoso della sua carriera resta la vittoria alle WTA Finals del 2018, il torneo che riunisce le migliori otto giocatrici della stagione: un successo che ha sancito il suo ingresso stabile tra le protagoniste assolute del tennis femminile. A questo si aggiunge la medaglia di bronzo in singolare ai Giochi di Tokyo, disputati nel 2021, che ha un valore particolare per il significato che riveste rappresentare il proprio Paese ai massimi livelli.
 
-Nel corso degli anni Svitolina ha inoltre collezionato numerosi titoli WTA in singolare e si è spinta più volte nelle fasi conclusive delle prove dello Slam, confermandosi tra le giocatrici più continue del circuito. Particolarmente significativo è stato il suo cammino nei tornei maggiori dopo il ritorno dalla maternità, segno di una rara capacità di reinventarsi.
+Nel corso degli anni Svitolina ha collezionato venti titoli WTA in singolare, cinque dei quali nella categoria più ricca dopo gli Slam, e si è spinta più volte nelle fasi conclusive delle prove maggiori: semifinale a Wimbledon nel 2019 e nel 2023, agli US Open nel 2019 e all'Australian Open nel 2026. Particolarmente significativo è stato il suo cammino nei tornei maggiori dopo il ritorno dalla maternità, segno di una rara capacità di reinventarsi.
 
 ### Trofei principali
 
-- Vittoria alle WTA Finals
-- Medaglia olimpica in singolare
-- Numerosi titoli WTA in singolare, con affermazioni di prestigio anche sulla terra
-- Semifinali nelle prove dello Slam
+- Vittoria alle WTA Finals 2018
+- Medaglia di bronzo olimpica in singolare a Tokyo
+- Venti titoli WTA in singolare, con affermazioni di prestigio anche sulla terra
+- Quattro semifinali nelle prove dello Slam, l'ultima all'Australian Open 2026
 
 Tra passato da numero 3 del mondo e capacità di tornare competitiva dopo una pausa importante, Elina Svitolina continua a incarnare la figura dell'atleta che fa della costanza e della resilienza i propri tratti distintivi.

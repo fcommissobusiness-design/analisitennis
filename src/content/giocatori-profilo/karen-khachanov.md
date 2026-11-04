@@ -1,7 +1,7 @@
 ---
 nome: "Karen Khachanov"
 slug_profilo: "karen-khachanov"
-titoli: "Masters 1000 Parigi 2018 e oro olimpico 2021"
+titoli: "Masters 1000 Parigi 2018 e argento olimpico a Tokyo 2021"
 stile_gioco: "Potenza da fondo e servizio pesante, gioco lineare e fisico"
 nazionalita: "Russia"
 data_nascita: "1996-05-21"
@@ -26,7 +26,7 @@ generato_il: "2026-10-27T12:40"
 
 ## Chi è
 
-Karen Khachanov è uno dei volti più riconoscibili del tennis russo degli ultimi anni, un giocatore che ha costruito la propria identità sulla potenza e su una struttura fisica fuori dal comune. Alto quasi due metri, con una presenza in campo che si nota a prima vista, è approdato giovanissimo sul tour maggiore dopo aver fatto esperienza nei circuiti minori, dove ha raccolto alcuni successi che gli hanno spianato la strada verso i tornei più importanti. Nel corso della carriera si è stabilmente collocato nei piani alti della classifica mondiale, toccando posizioni molto vicine ai primi dieci e restando a lungo un avversario temuto da chiunque.
+Karen Khachanov è uno dei volti più riconoscibili del tennis russo degli ultimi anni, un giocatore che ha costruito la propria identità sulla potenza e su una struttura fisica fuori dal comune. Alto quasi due metri, con una presenza in campo che si nota a prima vista, è approdato giovanissimo sul tour maggiore dopo aver fatto esperienza nei circuiti minori, dove ha raccolto alcuni successi che gli hanno spianato la strada verso i tornei più importanti. Nel corso della carriera si è stabilmente collocato nei piani alti della classifica mondiale, entrando tra i primi dieci con il best ranking di numero 8 raggiunto nel luglio 2019 e restando a lungo un avversario temuto da chiunque.
 
 ## Il suo tennis
 
@@ -40,9 +40,9 @@ Il cemento, soprattutto nelle condizioni al coperto, è l'ambiente ideale per le
 
 ## Trofei e momenti chiave
 
-Il momento che ha dato una svolta alla sua carriera è arrivato con il trionfo al Masters 1000 di Parigi-Bercy nel 2018, dove superò in finale il numero uno del mondo: un risultato che lo proiettò definitivamente tra i grandi del circuito. A livello internazionale ha vissuto un'altra pagina importante conquistando la medaglia d'argento ai Giochi Olimpici, un riconoscimento che pesa in modo particolare nella sua terra d'origine.
+Il momento che ha dato una svolta alla sua carriera è arrivato con il trionfo al Masters 1000 di Parigi-Bercy nel 2018, dove superò in finale Novak Djokovic, allora numero uno del mondo: un risultato che lo proiettò definitivamente tra i grandi del circuito ed è rimasto il più prestigioso dei sette titoli ATP conquistati fin qui. A livello internazionale ha vissuto un'altra pagina importante conquistando la medaglia d'argento ai Giochi Olimpici di Tokyo, nel 2021, dove si arrese nella finale ad Alexander Zverev: un riconoscimento che pesa in modo particolare nella sua terra d'origine.
 
-Nelle prove del Grande Slam ha saputo spingersi fino alle fasi finali dei tabelloni, raggiungendo in più di un'occasione le semifinali e confermando di poter competere con i migliori sulla distanza dei cinque set. Oltre ai titoli, la sua carriera è segnata dalla costanza con cui, stagione dopo stagione, è rimasto un protagonista dei tornei più prestigiosi.
+Nelle prove del Grande Slam ha saputo spingersi fino alle fasi finali dei tabelloni, con le semifinali raggiunte agli US Open nel 2022 e nel 2026 e all'Australian Open nel 2023, oltre a diversi quarti di finale a Parigi e a Wimbledon, confermando di poter competere con i migliori sulla distanza dei cinque set. Oltre ai titoli, la sua carriera è segnata dalla costanza con cui, stagione dopo stagione, è rimasto un protagonista dei tornei più prestigiosi.
 
 ### In sintesi
 

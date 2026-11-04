@@ -2,11 +2,11 @@
 nome: "Anna Bondár"
 slug_profilo: "a-bondar"
 nazionalita: "Ungheria"
-data_nascita: "1997-10-02"
+data_nascita: "1997-05-27"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco paziente da fondo e grande tenuta atletica"
-titoli: "numerosi titoli nel circuito ITF e affermazioni sul tour maggiore soprattutto sulla terra, con un best ranking nei pressi della top 50"
+titoli: "due titoli WTA 125 e due titoli WTA in doppio, oltre a numerosi successi nel circuito ITF, con un best ranking di numero 50 del mondo"
 categoria: "WTA"
 superficie_preferita: "terra"
 intro: "Anna Bondár è la tennista ungherese che ha costruito la propria scalata sulla terra battuta, premiando pazienza, ordine tattico e resistenza."
@@ -27,7 +27,7 @@ generato_il: "2026-10-28T20:45"
 
 Anna Bondár appartiene a quella generazione di tenniste dell'Europa centrale che hanno scalato le classifiche senza clamori, accumulando chilometri nel circuito minore prima di ritagliarsi uno spazio stabile sul tour maggiore. Ungherese, ha fatto della costanza e della disciplina il tratto distintivo della propria carriera, affermandosi come una delle rappresentanti più riconoscibili del tennis magiaro degli ultimi anni e come presenza regolare nella squadra nazionale nelle competizioni a squadre.
 
-La sua traiettoria non è stata quella della predestinata lanciata giovanissima, ma quella della giocatrice che costruisce mattone su mattone: tanti tornei nei circuiti inferiori, una lunga gavetta e un progresso misurato che l'ha portata, nella fase migliore del suo percorso, a sfiorare la parte alta della classifica mondiale.
+La sua traiettoria non è stata quella della predestinata lanciata giovanissima, ma quella della giocatrice che costruisce mattone su mattone: tanti tornei nei circuiti inferiori, una lunga gavetta e un progresso misurato che l'ha portata, nel luglio 2022, fino alla cinquantesima posizione mondiale, il miglior piazzamento della sua carriera. Anche in doppio ha raccolto molto, con un best ranking di numero 43 del mondo.
 
 ## Il suo tennis
 
@@ -45,6 +45,6 @@ Sul cemento e sulle superfici più rapide il discorso si complica. La velocità 
 
 ## Trofei e momenti chiave
 
-La carriera di Bondár si è nutrita a lungo dei tornei del circuito minore, dove ha messo insieme diversi successi che le hanno permesso di guadagnare fiducia e classifica. È in quel contesto che ha affinato il proprio tennis, prima di trasferire sul tour maggiore la stessa solidità.
+La carriera di Bondár si è nutrita a lungo dei tornei del circuito minore, dove ha messo insieme una quantità notevole di successi, diciassette in singolare, che le hanno permesso di guadagnare fiducia e classifica. È in quel contesto che ha affinato il proprio tennis, prima di trasferire sul tour maggiore la stessa solidità.
 
-I suoi momenti più alti coincidono con la fase in cui si è avvicinata alla top 50 mondiale, risultato che rappresenta il coronamento di un percorso di crescita graduale. A questo si aggiunge l'impegno con la nazionale ungherese, un capitolo che testimonia il suo valore come giocatrice affidabile anche nelle sfide a squadre. Più che per un singolo trionfo clamoroso, il suo profilo si legge nella continuità: una carriera costruita con metodo, che ha fatto della terra battuta il proprio marchio di fabbrica.
+Nel circuito maggiore il titolo in singolare non è ancora arrivato, ma la bacheca racconta comunque una carriera concreta: due affermazioni di categoria WTA 125, in Argentina nel 2021 e ad Amburgo nel 2024, entrambe sul rosso, e due titoli WTA in doppio, a Palermo nel 2022 con Kimberley Zimmermann e a Losanna nel 2023 con Diane Parry. Ad Amburgo è poi arrivata due volte in finale in singolare, nel 2025 e nel 2026. A questo si aggiunge l'impegno con la nazionale ungherese in Billie Jean King Cup, un capitolo che testimonia il suo valore come giocatrice affidabile anche nelle sfide a squadre. Più che per un singolo trionfo clamoroso, il suo profilo si legge nella continuità: una carriera costruita con metodo, che ha fatto della terra battuta il proprio marchio di fabbrica.

@@ -25,7 +25,7 @@ generato_il: "2026-10-25T11:14"
 
 ## Chi è
 
-Henry Bernet è uno dei nomi più discussi tra i giovani del tennis svizzero. Nato a Basilea il 25 gennaio 2007 — la stessa città che ha dato i natali a Roger Federer — ha costruito la propria crescita nel vivaio elvetico fino a raggiungere il vertice del circuito juniores. Il suo momento di maggiore notorietà è arrivato proprio nel giorno del suo diciottesimo compleanno, quando ha conquistato il titolo di singolare ragazzi all'Australian Open 2025, diventando il primo svizzero a riuscirci. Un traguardo che lo ha immediatamente proiettato tra i prospetti più seguiti della sua generazione.
+Henry Bernet è uno dei nomi più discussi tra i giovani del tennis svizzero. Nato a Basilea il 25 gennaio 2007, la stessa città che ha dato i natali a Roger Federer, ha costruito la propria crescita nel vivaio elvetico fino a raggiungere il vertice del circuito juniores. Il suo momento di maggiore notorietà è arrivato proprio nel giorno del suo diciottesimo compleanno, quando ha conquistato il titolo di singolare ragazzi all'Australian Open 2025, diventando il primo svizzero a riuscirci. Un traguardo che lo ha immediatamente proiettato tra i prospetti più seguiti della sua generazione.
 
 ## Il suo tennis
 
@@ -45,6 +45,6 @@ Il riferimento obbligato resta il titolo juniores conquistato in Australia, un r
 
 **Trofei principali**
 
-- Titolo di singolare ragazzi all'Australian Open 2025, il primo per un tennista svizzero in questa competizione
+- Titolo di singolare ragazzi all'Australian Open 2025, battendo in finale lo statunitense Benjamin Willwerth: il primo per un tennista svizzero in questa competizione
 
 Accanto a questo traguardo si colloca il lavoro di transizione verso il tennis maschile maggiore, fase in cui i giovani talenti si misurano con i tornei di categoria inferiore prima di affermarsi ai livelli più alti. Per Bernet si tratta di trasformare le promesse mostrate tra gli juniores in continuità di risultati, un passaggio delicato che ha segnato le carriere di molti predestinati. L'eredità ideale dei grandi campioni svizzeri è un peso e insieme uno stimolo: la testata seguirà con attenzione le prossime tappe del suo cammino.

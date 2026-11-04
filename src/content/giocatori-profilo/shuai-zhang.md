@@ -1,17 +1,17 @@
 ---
 nome: "Shuai Zhang"
 slug_profilo: "shuai-zhang"
-titoli: "Titolo WTA in singolo e numerosi titoli in doppio"
-stile_gioco: "Solidita' e profondita' da fondo, grande esperienza"
+titoli: "Tre titoli WTA in singolare e tre titoli dello Slam in doppio"
+stile_gioco: "Solidità e profondità da fondo, grande esperienza"
 nazionalita: "Cina"
 data_nascita: "1989-01-21"
 mano: "destro"
 rovescio: "due mani"
-altezza: "175 cm"
+altezza: "177 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Veterana del tennis cinese, Shuai Zhang ha trasformato anni di attese in un palmarès solido, tra acuti negli Slam in singolare e grandi trionfi nel doppio."
-descrizione: "Profilo di Shuai Zhang: la tennista cinese tra la svolta australiana in singolare e i titoli dello Slam conquistati nel doppio femminile."
+intro: "Veterana del tennis cinese, Shuai Zhang ha trasformato anni di attese in un palmarès solido, tra acuti negli Slam in singolare e tre titoli maggiori nel doppio."
+descrizione: "Profilo di Shuai Zhang: la tennista cinese tra la svolta australiana del 2016 in singolare e i tre titoli dello Slam conquistati nel doppio femminile."
 tag:
   - "Shuai Zhang"
   - "Zhang"
@@ -32,25 +32,25 @@ Shuai Zhang, nata a Tianjin nel 1989, è una delle figure più riconoscibili del
 
 Il gioco di Zhang si fonda su colpi da fondo piatti e profondi, con un dritto che sa aumentare il ritmo dello scambio e un rovescio bimane affidabile nel comandare le direzioni. Non è una giocatrice che vive di spettacolarità: la sua forza sta nella solidità, nella lettura dello scambio e in un servizio che, nelle giornate giuste, le permette di accorciare i punti e di prendere l'iniziativa. Questa impostazione ordinata e priva di fronzoli l'ha resa una tennista scomoda da affrontare, capace di mettere in difficoltà anche avversarie più quotate quando riesce a imporre i propri tempi.
 
-Proprio queste doti di controllo e di gioco pulito sono emerse con ancora più evidenza nel doppio, specialità in cui Zhang ha saputo esaltarsi. Il senso della posizione, la precisione negli appoggi e la capacità di leggere la coppia avversaria l'hanno portata ai vertici assoluti di questa disciplina, fino alla vetta del ranking di specialità.
+Proprio queste doti di controllo e di gioco pulito sono emerse con ancora più evidenza nel doppio, specialità in cui Zhang ha saputo esaltarsi. Il senso della posizione, la precisione negli appoggi e la capacità di leggere la coppia avversaria l'hanno portata ai vertici assoluti di questa disciplina, fino al numero 2 del ranking di specialità, raggiunto nel luglio del 2022.
 
 ## Sulle diverse superfici
 
-La superficie che storicamente ha valorizzato di più il tennis di Zhang è il cemento, dove i suoi colpi piatti e il rimbalzo regolare le consentono di esprimere al meglio potenza e profondità. È sul veloce che sono arrivati i suoi risultati più significativi in singolare, a conferma di un feeling naturale con queste condizioni.
+La superficie che storicamente ha valorizzato di più il tennis di Zhang è il cemento, dove i suoi colpi piatti e il rimbalzo regolare le consentono di esprimere al meglio potenza e profondità. È sul veloce che sono arrivati i suoi risultati più significativi in singolare, dai quarti di Melbourne al numero 22 del mondo toccato nel gennaio 2023, a conferma di un feeling naturale con queste condizioni.
 
-L'erba, pur meno frequentata in singolare, le ha regalato grandi soddisfazioni nel doppio, dove la rapidità di mano e la qualità al servizio e in risposta diventano armi ancora più preziose. La terra battuta, al contrario, è rimasta la superficie meno congeniale al suo modo di giocare, più orientato alla velocità dello scambio che alla costruzione prolungata del punto.
+Il cemento è anche il fondo dei suoi tre titoli dello Slam in doppio, tutti arrivati fra Melbourne e New York: una conferma di quanto la rapidità di mano e la qualità al servizio e in risposta rendano su superfici che non concedono tempo. La terra battuta, al contrario, è rimasta quella meno congeniale al suo modo di giocare, più orientato alla velocità dello scambio che alla costruzione prolungata del punto.
 
 ## Trofei e momenti chiave
 
-Il momento che ha cambiato la percezione di Zhang nel circuito maggiore è arrivato agli Australian Open del 2016, quando, entrata dalle qualificazioni dopo una lunga serie di eliminazioni al primo turno negli Slam, firmò una vittoria di enorme prestigio all'esordio e proseguì la corsa fino ai quarti di finale. Fu una svolta emotiva prima ancora che tecnica, la dimostrazione che anni di attesa potevano trasformarsi in un risultato di altissimo livello.
+Il momento che ha cambiato la percezione di Zhang nel circuito maggiore è arrivato agli Australian Open del 2016, quando, entrata dalle qualificazioni dopo quattordici sconfitte consecutive al primo turno negli Slam, batté in due set la romena Simona Halep, allora numero 2 del mondo, e proseguì la corsa fino ai quarti di finale. Fu una svolta emotiva prima ancora che tecnica, la dimostrazione che anni di attesa potevano trasformarsi in un risultato di altissimo livello.
 
-Sul piano dei titoli, è nel doppio femminile che Zhang ha raggiunto i traguardi più alti, conquistando più di uno Slam in coppia con partner di primo piano e salendo al numero uno del ranking di specialità. In singolare ha saputo imporsi in alcuni tornei del circuito maggiore, confermando una continuità rara per longevità.
+Sul piano dei titoli, è nel doppio femminile che Zhang ha raggiunto i traguardi più alti: tre successi dello Slam, gli Australian Open del 2019 e lo US Open del 2021 in coppia con l'australiana Samantha Stosur, poi di nuovo Melbourne nel 2026 insieme alla belga Elise Mertens. In singolare ha vinto tre tornei del circuito maggiore, Canton nel 2013 e nel 2017 e Lione nel 2022, e ha toccato il proprio best ranking nel gennaio del 2023, al numero 22 del mondo.
 
 ### Trofei principali
 
-- Titoli dello Slam nel doppio femminile
-- Numero uno del mondo nel ranking di doppio
+- Tre titoli dello Slam nel doppio femminile (Australian Open 2019 e 2026, US Open 2021)
+- Numero 2 del mondo nel ranking di doppio (2022)
 - Quarti di finale agli Australian Open in singolare (2016)
-- Titoli WTA in singolare
+- Tre titoli WTA in singolare (Canton 2013 e 2017, Lione 2022)
 
 Nel complesso, la carriera di Zhang racconta una giocatrice capace di resistere, adattarsi e trovare il proprio apice quando molti l'avrebbero data per conclusa.

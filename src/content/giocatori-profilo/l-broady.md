@@ -6,7 +6,7 @@ data_nascita: "1994-01-04"
 mano: "mancino"
 rovescio: "due mani"
 stile_gioco: "gioco mancino da fondo, solidità e angoli in rovescio"
-titoli: "diversi titoli a livello Challenger e un best ranking attorno ai primi cento del mondo"
+titoli: "tre titoli a livello Challenger e un best ranking di numero 93 del mondo"
 categoria: "ATP"
 superficie_preferita: "erba"
 intro: "Mancino britannico cresciuto in una famiglia di tennisti, Liam Broady ha costruito la sua carriera a colpi di pazienza tra Challenger e grandi palcoscenici."
@@ -25,7 +25,7 @@ generato_il: "2026-10-28T20:56"
 
 ## Chi è
 
-Liam Broady è un tennista britannico nato nel gennaio 1994, mancino, cresciuto in una famiglia in cui la racchetta è sempre stata di casa: anche la sorella Naomi ha calcato i campi del circuito professionistico. Fin da ragazzo Broady si è messo in luce nel panorama giovanile, con risultati di rilievo a Wimbledon a livello junior, dove ha raggiunto le fasi conclusive sia in singolare sia in doppio. Da lì è iniziato un percorso lungo e tutt'altro che lineare, fatto di gavetta nei tornei minori, di infortuni e di una progressione costruita più sulla tenacia che su una rapida esplosione di talento.
+Liam Broady è un tennista britannico nato il 4 gennaio 1994 a Stockport, mancino, cresciuto in una famiglia in cui la racchetta è sempre stata di casa: anche la sorella maggiore Naomi ha calcato i campi del circuito professionistico. Fin da ragazzo Broady si è messo in luce nel panorama giovanile, soprattutto a Wimbledon: nel 2010 vinse il torneo di doppio juniores in coppia con Tom Farquharson, primo titolo britannico in quella specialità dopo quindici anni, e nel 2011 raggiunse la finale del singolare. Da lì è iniziato un percorso lungo e tutt'altro che lineare, fatto di gavetta nei tornei minori, di infortuni e di una progressione costruita più sulla tenacia che su una rapida esplosione di talento.
 
 Il pubblico britannico lo ha imparato a conoscere soprattutto nelle settimane di casa, quando il calendario porta i riflettori sui campi inglesi e un giocatore di questo profilo può trasformare una partita in un evento. La sua è la storia di un professionista che ha dovuto conquistarsi ogni posizione, senza il paracadute di un posto garantito ai piani alti della classifica.
 
@@ -39,10 +39,10 @@ Il tennis di Broady nasce da fondo campo. Da mancino, sfrutta l'angolo naturale 
 
 La superficie che meglio ne esalta le caratteristiche è l'erba. Sui campi veloci e irregolari del verde, la sua provenienza britannica non è soltanto un fatto anagrafico: il rimbalzo basso e lo scambio breve si sposano con un tennis essenziale e con la capacità di sfruttare l'effetto mancino sul servizio e in risposta. È sull'erba che sono arrivate alcune delle sue prestazioni più ricordate davanti al pubblico di casa.
 
-Sul cemento e sulla terra battuta Broady ha comunque saputo raccogliere risultati, soprattutto nel circuito Challenger, dove la continuità da fondo paga nel lungo periodo. La terra, con scambi più lunghi, lo costringe a costruire con maggiore applicazione, mentre sul cemento riesce a esprimere un tennis più diretto.
+Sul cemento Broady ha comunque saputo raccogliere i suoi titoli, perché è su questo fondo, in buona parte al coperto, che sono arrivate tutte le sue affermazioni nel circuito Challenger, dove la continuità da fondo paga nel lungo periodo. La terra, con scambi più lunghi, lo costringe invece a costruire con maggiore applicazione e resta la superficie meno presente nel suo bilancio.
 
 ## Trofei e momenti chiave
 
-La carriera di Broady si è sviluppata soprattutto nel circuito Challenger, dove ha messo in bacheca diversi titoli che gli hanno permesso di avvicinarsi, nei periodi migliori, alla soglia dei primi cento giocatori del mondo. Più che da un singolo trofeo di prestigio, il suo percorso è segnato da una costante risalita e da alcune serate memorabili nei tornei più importanti, in cui ha saputo mettere in difficoltà avversari di rango nettamente superiore, in particolare nell'appuntamento londinese dello Slam su erba.
+La carriera di Broady si è sviluppata soprattutto nel circuito Challenger, dove ha messo in bacheca tre titoli, a Biel nel 2021, a Vilnius nel 2023 e a Miyazaki nel 2026, che gli hanno permesso di entrare per la prima volta tra i primi cento giocatori del mondo, con il best ranking di numero 93 toccato nel settembre 2023. Più che da un singolo trofeo di prestigio, il suo percorso è segnato da una costante risalita e da alcune serate memorabili nei tornei più importanti, quasi tutte a Wimbledon: nel 2022 la vittoria in cinque set su Diego Schwartzman, dodicesima testa di serie, e nel 2023 il successo su Casper Ruud, allora numero 4 del mondo, che gli valse il terzo turno e resta la sua pagina più bella. Alle Olimpiadi di Tokyo, nel 2021, aveva già battuto Hubert Hurkacz.
 
 Sono questi gli episodi che raccontano meglio la sua parabola: quella di un giocatore che non ha mai dominato le classifiche, ma che ha saputo ritagliarsi momenti da protagonista a forza di dedizione, trasformando la perseveranza nel suo tratto più riconoscibile.

@@ -1,13 +1,13 @@
 ---
 nome: "Mariano Navone"
 slug_profilo: "mariano-navone"
-titoli: "Titolo e finali ATP sulla terra"
+titoli: "Un titolo ATP a Bucarest nel 2026 e altre finali sulla terra"
 stile_gioco: "Costanza e resistenza fisica da fondo, specialista della terra"
 nazionalita: "Argentina"
-data_nascita: "2001-03-27"
+data_nascita: "2001-02-27"
 mano: "destro"
 rovescio: "due mani"
-altezza: "183 cm"
+altezza: "178 cm"
 categoria: "ATP"
 superficie_preferita: "terra"
 intro: "Prodotto autentico della scuola argentina, Mariano Navone ha trasformato la pazienza della terra battuta in un'ascesa rapida e sorprendente nel tennis maggiore."
@@ -26,9 +26,9 @@ generato_il: "2026-10-27T12:43"
 
 ## Chi è
 
-Mariano Navone appartiene a quella tradizione argentina che ha fatto della terra battuta una scuola di carattere prima ancora che di tecnica. Nato nel 2001, è cresciuto lontano dai riflettori, costruendo la propria carriera gradino dopo gradino nei tornei minori del continente sudamericano. Per diverse stagioni il suo nome è rimasto confinato nei circuiti Challenger, dove ha accumulato partite, chilometri e quella durezza mentale che distingue chi è abituato a vincere il proprio posto senza scorciatoie.
+Mariano Navone appartiene a quella tradizione argentina che ha fatto della terra battuta una scuola di carattere prima ancora che di tecnica. Nato il 27 febbraio 2001 a Nueve de Julio, nella provincia di Buenos Aires, è cresciuto lontano dai riflettori, costruendo la propria carriera gradino dopo gradino nei tornei minori del continente sudamericano. Per diverse stagioni il suo nome è rimasto confinato nei circuiti Challenger, dove ha accumulato partite, chilometri e quella durezza mentale che distingue chi è abituato a vincere il proprio posto senza scorciatoie.
 
-La svolta è arrivata quando quel lavoro silenzioso si è tradotto in una scalata rapida verso le posizioni che contano del ranking mondiale, con un ingresso stabile tra i protagonisti del tour maggiore e un salto di classifica che ha sorpreso molti osservatori per la sua velocità. Navone si è presentato al grande pubblico non come una meteora, ma come un giocatore già formato, consapevole dei propri mezzi.
+La svolta è arrivata nel 2024, quando quel lavoro silenzioso si è tradotto in una scalata rapida verso le posizioni che contano del ranking mondiale: in giugno ha toccato il numero 29, il suo best ranking, dopo una stagione d'esordio sul tour maggiore che ha sorpreso molti osservatori per la velocità del salto di classifica. Navone si è presentato al grande pubblico non come una meteora, ma come un giocatore già formato, consapevole dei propri mezzi.
 
 ## Il suo tennis
 
@@ -44,6 +44,6 @@ Sul cemento e sulle superfici più rapide il discorso si fa più complesso: la m
 
 ## Trofei e momenti chiave
 
-Il momento più alto della sua carriera recente è stato l'approdo a una finale importante sul circuito maggiore, risultato che ha certificato il salto di qualità e lo ha proiettato stabilmente tra i giocatori da seguire. Prima di allora il suo percorso si era nutrito di affermazioni nei circuiti inferiori, con alcuni titoli Challenger che avevano accompagnato la sua progressione.
+Il momento più alto della sua carriera è arrivato nell'aprile del 2026 a Bucarest, dove ha conquistato il primo titolo ATP battendo in finale lo spagnolo Daniel Mérida. Un successo atteso, perché due anni prima, nel 2024, si era già spinto due volte fino all'ultimo atto di un torneo del circuito maggiore: a Rio de Janeiro, dove partendo dalle qualificazioni perse la finale di un ATP 500 contro il connazionale Sebastián Báez, e proprio a Bucarest, dove si fermò davanti a Márton Fucsovics. Prima di allora il suo percorso si era nutrito di affermazioni nei circuiti inferiori, con nove titoli Challenger che avevano accompagnato la sua progressione.
 
 Più dei singoli trofei, a definire Navone è la traiettoria: quella di un giocatore che ha scalato la classifica partendo dal basso, confermando che la pazienza e la costanza restano valute pregiate anche in un tennis sempre più votato alla potenza. La sua storia è ancora in piena scrittura, e il margine di crescita rappresenta forse l'aspetto più interessante da osservare nelle prossime stagioni.

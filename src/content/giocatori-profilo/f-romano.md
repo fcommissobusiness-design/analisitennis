@@ -1,44 +1,57 @@
 ---
-nome: "F. Romano"
+nome: "Filippo Romano"
 slug_profilo: "f-romano"
-stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
+stile_gioco: "Gioco solido da fondo campo e ottimo rendimento in doppio"
 nazionalita: "Italia"
+data_nascita: "2005-07-07"
+mano: "destro"
+rovescio: "due mani"
+altezza: "188 cm"
+titoli: "Primo titolo Challenger in singolare a Firenze nel 2026, più titoli Challenger e ITF in doppio"
 categoria: "Challenger"
 superficie_preferita: "terra"
-intro: "F. Romano è un tennista italiano cresciuto tra qualificazioni e tornei del circuito cadetto, impegnato nella lunga scalata che dai piani bassi del ranking conduce verso il grande tennis."
-descrizione: "Profilo editoriale di F. Romano, tennista italiano del circuito Challenger: il suo gioco, le superfici più congeniali e il percorso di crescita nel tour."
+intro: "Filippo Romano è un tennista italiano della classe 2005 che nel 2026 ha vinto il suo primo titolo Challenger in singolare, dopo essersi fatto notare soprattutto nel doppio."
+descrizione: "Profilo editoriale di Filippo Romano, tennista italiano del circuito Challenger: il suo gioco, le superfici più congeniali e il percorso di crescita nel tour."
 tag:
-  - "F. Romano"
+  - "Filippo Romano"
   - "Romano tennis"
   - "tennista italiano"
   - "Challenger"
   - "terra battuta"
   - "tennis Italia"
-  - "circuito ATP"
+  - "doppio"
 pubblicato: true
 generato_il: "2026-10-25T12:23"
 ---
 
 ## Chi è
 
-Romano appartiene a quella fascia di tennisti italiani che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, nei tabelloni cadetti e soprattutto nelle qualificazioni, dove ogni punto conquistato pesa sulla classifica e spesso decide se una settimana diventerà memorabile o resterà un rimpianto. Il suo nome compare negli eventi del circuito di categoria inferiore, quelli in cui si affronta un reticolo fittissimo di avversari dal valore molto simile e in cui la differenza la fanno la continuità e la capacità di reggere la pressione partita dopo partita.
+Filippo Romano, nato il 7 luglio 2005, appartiene a quella fascia di tennisti italiani che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, nei tabelloni cadetti e nelle qualificazioni, dove ogni punto conquistato pesa sulla classifica e spesso decide se una settimana diventerà memorabile o resterà un rimpianto. Destro, con rovescio a due mani e una struttura fisica di 188 centimetri, è passato attraverso il reticolo fittissimo del circuito ITF prima di affacciarsi con continuità ai Challenger.
 
-È un profilo da leggere, più che attraverso un palmarès già scritto, come un lavoro ancora in costruzione: la storia di un giocatore che tenta di trasformare la propria solidità in risultati tangibili, nella consapevolezza che il salto di qualità, a questi livelli, arriva per gradini stretti e mai garantiti.
+Il suo 2026 ha segnato il passaggio dalla promessa al risultato. A febbraio è arrivata la prima semifinale Challenger in carriera, a Cesenatico, con una wild card; a marzo la prima finale, in Francia; in ottobre il primo titolo, a Firenze, battendo in tre set il connazionale Michele Ribecai. Nel frattempo la sua classifica di singolare è salita fino al proprio best ranking, intorno alla 240esima posizione mondiale, nel novembre del 2026.
 
 ## Il suo tennis
 
-Proprio perché la sua carriera si gioca nei tornei minori, il tennis di Romano va interpretato più per ciò che il livello richiede che per un repertorio spettacolare e riconoscibile. A questa altitudine del circuito contano la regolarità da fondo campo, la gestione attenta dei propri turni di servizio e la lucidità nei punti che spezzano l'inerzia di un set: qualità silenziose, meno appariscenti del colpo vincente ma decisive nell'economia di un incontro combattuto.
+Il tennis di Romano va letto per quello che il suo livello richiede più che per un repertorio già spettacolare e riconoscibile. A questa altitudine del circuito contano la regolarità da fondo campo, la gestione attenta dei propri turni di servizio e la lucidità nei punti che spezzano l'inerzia di un set: qualità silenziose, meno appariscenti del colpo vincente ma decisive nell'economia di un incontro combattuto. La statura gli consente di appoggiarsi al servizio come primo elemento di spinta, mentre il rovescio bimane resta il colpo di controllo.
 
-Il suo percorso racconta di un giocatore che cerca di fondare il proprio rendimento sulla disciplina e sulla resistenza mentale, armi indispensabili per chi deve spesso vincere più partite ravvicinate, comprese quelle di qualificazione, per guadagnare l'accesso ai tabelloni principali. In un contesto in cui margini ed episodi sono minimi, la differenza passa dalla costanza con cui si tengono alti i propri standard.
+C'è poi un capitolo che racconta bene il giocatore: il doppio. È lì che i suoi numeri sono migliori, con una classifica entrata nelle prime centosettanta posizioni del mondo nel corso del 2026, diversi titoli Challenger e una lunga serie di successi nel circuito ITF. Il senso della posizione e la lettura della rete sono qualità che nel tennis maschile di oggi si coltivano poco, e che a lui hanno già aperto porte importanti, compreso l'esordio in un tabellone principale ATP, a Roma nel 2025, con una wild card in coppia con Mattia Bellucci.
 
 ## Sulle diverse superfici
 
-La formazione del tennis italiano passa quasi sempre dalla terra battuta, e per un giocatore cresciuto in questo ambiente il rosso resta verosimilmente il terreno più congeniale: ritmi più lunghi, scambi costruiti con pazienza e la possibilità di far pesare la propria solidità premiano chi è abituato a lavorare lo scambio piuttosto che a chiuderlo in due colpi.
+La formazione del tennis italiano passa quasi sempre dalla terra battuta, e per un giocatore cresciuto in questo ambiente il rosso resta il terreno più congeniale: ritmi più lunghi, scambi costruiti con pazienza e la possibilità di far pesare la propria solidità premiano chi è abituato a lavorare lo scambio piuttosto che a chiuderlo in due colpi. Non a caso il primo titolo Challenger è arrivato su questa superficie, a Firenze.
 
-Questo non significa che il suo calendario si limiti a una sola superficie. Come accade a tutti i tennisti del circuito, Romano incrocia anche il cemento e i tornei al coperto, dove le condizioni più rapide impongono un adattamento diverso nei tempi di gioco e nella risposta. La capacità di esprimersi su ritmi differenti è, del resto, una delle prove che distinguono chi riesce a emergere da chi resta ancorato ai piani bassi del ranking.
+Il suo calendario, però, non si limita a una sola superficie, e il 2026 lo ha dimostrato. Sull'erba inglese ha superato le qualificazioni a Birmingham spingendosi fino ai quarti di finale, e ha passato il turno preliminare anche a Ilkley: segnali di una adattabilità che a questi livelli fa la differenza fra chi emerge e chi resta ancorato ai piani bassi del ranking. Il cemento e i tornei al coperto completano un percorso stagionale che, come per tutti i giocatori del circuito cadetto, impone continui cambi di ritmo.
 
 ## Trofei e momenti chiave
 
-Il percorso di Romano non annovera, allo stato attuale, titoli di primo piano del tour maggiore: i capitoli più significativi della sua carriera appartengono al circuito di sviluppo e restano in larga parte ancora da scrivere. In questo scenario i veri momenti chiave non si misurano in trofei celebri, ma nelle singole settimane in cui una qualificazione superata o una vittoria pesante possono spostare in avanti la classifica e alimentare la fiducia.
+Il percorso di Romano non annovera, allo stato attuale, titoli del tour maggiore: i capitoli più significativi della sua carriera appartengono al circuito di sviluppo, ma nel 2026 hanno smesso di essere soltanto promesse.
 
-È un profilo che va seguito con attenzione proprio per questo: nel tennis dei tornei minori la crescita è fatta di passaggi graduali, e ogni risultato va letto come un tassello all'interno di una traiettoria ancora aperta.
+**Trofei e tappe principali**
+
+- Primo titolo Challenger in singolare a Firenze, nell'ottobre del 2026, contro Michele Ribecai
+- Prima semifinale Challenger a Cesenatico e prima finale in Francia, entrambe nel 2026
+- Diversi titoli Challenger in doppio e una lunga serie di successi ITF nella stessa specialità
+- Quarti di finale sull'erba di Birmingham, nel 2026, partendo dalle qualificazioni
+- Medaglia d'oro nel doppio misto ai Giochi del Mediterraneo di Taranto 2026
+
+È un profilo che va seguito con attenzione: nel tennis dei tornei minori la crescita è fatta di passaggi graduali, e il salto di qualità, a questi livelli, arriva per gradini stretti e mai garantiti.

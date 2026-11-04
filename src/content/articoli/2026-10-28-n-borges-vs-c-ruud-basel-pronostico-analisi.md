@@ -16,7 +16,7 @@ tag:
   - "cemento indoor"
   - "ottavi"
   - "pronostico tennis"
-verdetto: "Oggi la puo' spuntare Ruud: avanti due a uno nei precedenti e con entrambe le vittorie arrivate proprio sul cemento, superficie dove ha gia' trovato le misure a Borges. Il portoghese resta pericoloso, ma il norvegese parte con qualche riferimento in piu'."
+verdetto: "Oggi la può spuntare Ruud: avanti due a uno nei precedenti e con entrambe le vittorie arrivate proprio sul cemento, superficie dove ha già trovato le misure a Borges. Il portoghese resta pericoloso, ma il norvegese parte con qualche riferimento in più."
 descrizione: "Borges sfida Ruud negli ottavi di Basilea sul cemento indoor: tre precedenti divisi, forma recente e stile di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-n-borges-vs-c-ruud-basel-pronostico-analisi.jpg"

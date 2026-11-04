@@ -1,13 +1,13 @@
 ---
 nome: "Dayana Yastremska"
 slug_profilo: "dayana-yastremska"
-titoli: "Titoli WTA e semifinale Slam"
-stile_gioco: "Aggressivita' e colpi piatti da fondo, gioco ad alto rischio"
+titoli: "Tre titoli WTA e una semifinale Slam, best ranking numero 21"
+stile_gioco: "Aggressività e colpi piatti da fondo, gioco ad alto rischio"
 nazionalita: "Ucraina"
 data_nascita: "2000-05-15"
 mano: "destro"
 rovescio: "due mani"
-altezza: "171 cm"
+altezza: "175 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Ucraina dal gioco aggressivo e verticale, Dayana Yastremska ha costruito la sua identità sulla potenza pura e sul coraggio di dettare lo scambio."
@@ -42,11 +42,12 @@ Sulla terra battuta deve lavorare di più: il rimbalzo più alto e i tempi di gi
 
 ## Trofei e momenti chiave
 
-Yastremska si è messa in luce molto presto, conquistando alcuni titoli WTA già nelle prime stagioni sul tour maggiore e segnalandosi come una delle giovani più promettenti della sua generazione. Il risultato che ne ha consacrato la dimensione da grande palcoscenico è però arrivato in uno Slam: una semifinale raggiunta all'Australian Open partendo dalle qualificazioni, un percorso che ha confermato quanto il suo tennis, nelle condizioni giuste, possa reggere il confronto con le migliori su una distanza impegnativa.
+Yastremska si è messa in luce molto presto, conquistando tre titoli WTA fra il 2018 e il 2019, a Hong Kong, a Hua Hin e a Strasburgo, e segnalandosi come una delle giovani più promettenti della sua generazione. Nel gennaio del 2020 è salita fino al numero 21 del mondo, suo best ranking. Il risultato che ne ha consacrato la dimensione da grande palcoscenico è però arrivato nel 2024, in uno Slam: la semifinale all'Australian Open raggiunta partendo dalle qualificazioni, un percorso che ha confermato quanto il suo tennis, nelle condizioni giuste, possa reggere il confronto con le migliori su una distanza impegnativa.
 
 **Trofei principali**
 
-- Diversi titoli in singolare nel circuito WTA, conquistati soprattutto nelle prime stagioni di carriera
-- Semifinale in una prova dello Slam (Australian Open), raggiunta passando dalle qualificazioni
+- Tre titoli in singolare nel circuito WTA, conquistati nelle prime stagioni di carriera
+- Semifinale all'Australian Open 2024, raggiunta passando dalle qualificazioni
+- Best ranking di numero 21 del mondo, toccato nel gennaio del 2020
 
-Al di là dei singoli trofei, la carriera di Yastremska si misura soprattutto nella continuità con cui ha saputo riaffacciarsi ai piani alti del ranking dopo le fasi più complicate, confermandosi una presenza stabile e temuta nel panorama femminile.
+Al di là dei singoli trofei, la carriera di Yastremska si misura soprattutto nella capacità di riaffacciarsi ai piani alti del ranking dopo le fasi più complicate: un percorso fatto di oscillazioni di classifica, ma anche di giornate in cui il suo tennis resta temibile per chiunque.

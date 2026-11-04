@@ -1,11 +1,11 @@
 ---
 nome: "Tereza Valentová"
 slug_profilo: "tereza-valentova"
-stile_gioco: "Gioco paziente da fondo campo, costruzione lunga sulla terra"
+stile_gioco: "Gioco solido e ordinato da fondo campo, buona lettura del punto"
 nazionalita: "Repubblica Ceca"
 mano: "destro"
 categoria: "WTA"
-superficie_preferita: "terra"
+superficie_preferita: "cemento"
 intro: "Giovane promessa del tennis ceco, Tereza Valentová si è imposta all'attenzione internazionale con un percorso juniores di altissimo livello e un gioco solido da fondo campo."
 descrizione: "Profilo di Tereza Valentová: la tennista ceca, il suo gioco da fondo campo, le superfici preferite e i momenti chiave di una carriera in ascesa."
 tag:
@@ -13,7 +13,7 @@ tag:
   - "Valentová"
   - "tennis ceco"
   - "WTA"
-  - "terra battuta"
+  - "cemento"
   - "juniores"
   - "Roland Garros juniores"
 pubblicato: true
@@ -30,15 +30,18 @@ Il gioco di Valentová si fonda su una grande solidità da fondo campo e su una 
 
 ## Sulle diverse superfici
 
-La terra battuta è la superficie sulla quale Valentová ha espresso finora il meglio del proprio repertorio. Il ritmo più lento e i rimbalzi alti si sposano con il suo tennis fatto di pazienza e costruzione, permettendole di valorizzare la profondità dei colpi e lo spostamento dell'avversaria. Non per questo risulta estranea alle superfici più rapide: sul cemento il suo tennis ordinato può comunque dire la sua, anche se richiede un adattamento nei tempi di gioco e una maggiore incisività nei primi colpi dello scambio. Sull'erba, come per molte giocatrici cresciute prevalentemente sul rosso, il percorso di apprendimento è ancora in corso, e sarà uno dei banchi di prova delle prossime stagioni.
+Il cemento è la superficie sulla quale Valentová ha raccolto finora i risultati più significativi: il rimbalzo regolare asseconda il suo tennis ordinato e le ha consentito di spingersi fino al terzo turno degli Australian Open e a più di una finale sul tour. Il rosso resta comunque un terreno che conosce bene, come dimostra la finale raggiunta a Saint-Malo, perché il ritmo più lento valorizza la profondità dei colpi e la capacità di spostare l'avversaria. Anche sull'erba, superficie spesso ostica per chi si forma sul rosso, ha già mostrato buoni segnali con un quarto di finale a Eastbourne, segno di una versatilità rara in un'atleta così giovane.
 
 ## Trofei e momenti chiave
 
-Il risultato che ha proiettato Valentová sulla ribalta internazionale è il successo nel singolare femminile juniores del Roland Garros, uno dei titoli più prestigiosi che una giovane tennista possa conquistare e un biglietto da visita importante per chi punta a una carriera di vertice. A questo si sono affiancati i primi riscontri nel tennis professionistico, con affermazioni nei tornei dei circuiti minori che segnano le tappe naturali di un percorso di crescita.
+Il risultato che ha proiettato Valentová sulla ribalta internazionale è la doppietta juniores al Roland Garros 2024, con il titolo nel singolare femminile conquistato nella prima finale tutta ceca della storia dei tornei giovanili del Grande Slam e quello nel doppio. Un biglietto da visita importante per chi punta a una carriera di vertice.
+
+Il passaggio tra le professioniste è stato rapido: nel 2025 sono arrivati due titoli nel circuito WTA 125, la prima semifinale sul tour maggiore a Praga, l'ingresso nelle prime cento del mondo e la prima finale sul tour, persa in Giappone contro Leylah Fernandez. Nel 2026 la classifica si è spinta fino alle prime cinquanta posizioni, accompagnata da un'altra finale sul tour e dal terzo turno agli Australian Open.
 
 Trofei principali:
 
-- Titolo nel singolare femminile juniores al Roland Garros
-- Primi titoli nei circuiti professionistici minori
+- Titolo nel singolare e nel doppio juniores al Roland Garros 2024
+- Due titoli nel circuito WTA 125 nel 2025
+- Finali sul tour maggiore e ingresso nelle prime cinquanta del ranking
 
-Il quadro complessivo è quello di un'atleta ancora all'inizio del proprio cammino tra le professioniste, ma con basi tecniche e caratteriali che ne fanno una delle promesse più interessanti del tennis ceco. La sfida dei prossimi anni sarà trasformare la solidità mostrata da juniores in continuità di risultati sul tour maggiore, un passaggio che richiede tempo e che la giovane ceca sembra attrezzata ad affrontare.
+Il quadro complessivo è quello di un'atleta che ha già superato la fase di apprendistato, con basi tecniche e caratteriali che ne fanno una delle promesse più interessanti del tennis ceco. La sfida dei prossimi anni sarà trasformare la solidità mostrata finora nel primo titolo sul tour maggiore, un passaggio che richiede tempo e che la giovane ceca sembra attrezzata ad affrontare.

@@ -1,17 +1,17 @@
 ---
 nome: "Harriet Dart"
 slug_profilo: "harriet-dart"
-titoli: "Stabilmente nel circuito WTA"
+titoli: "Primo titolo WTA a Canton nel 2026"
 stile_gioco: "Gioco offensivo con servizio e dritto, resa migliore sull'erba"
 nazionalita: "Regno Unito"
 data_nascita: "1996-07-28"
 mano: "destro"
 rovescio: "due mani"
-altezza: "circa 180 cm"
+altezza: "175 cm"
 categoria: "WTA"
 superficie_preferita: "erba"
-intro: "Harriet Dart incarna la solidità del tennis britannico femminile: una giocatrice combattiva, capace di accendersi nelle giornate importanti davanti al pubblico di casa."
-descrizione: "Profilo editoriale di Harriet Dart, tennista britannica del circuito WTA: lo stile di gioco, le superfici preferite e i momenti chiave della carriera."
+intro: "Harriet Dart incarna la solidità del tennis britannico femminile: una giocatrice combattiva, premiata nel 2026 dal primo titolo WTA dopo una lunga gavetta."
+descrizione: "Profilo editoriale di Harriet Dart, tennista britannica del circuito WTA: lo stile di gioco, le superfici preferite e il primo titolo conquistato a Canton nel 2026."
 tag:
   - "Harriet Dart"
   - "Dart"
@@ -26,11 +26,11 @@ generato_il: "2026-10-25T11:15"
 
 ## Chi è
 
-Harriet Dart, nata a Londra nel 1996, è una delle interpreti più riconoscibili del tennis femminile britannico degli ultimi anni. Cresciuta all'interno del movimento d'oltremanica, ha costruito la propria carriera con pazienza, passando attraverso la lunga gavetta dei tornei minori prima di ritagliarsi uno spazio stabile nel circuito maggiore. È una giocatrice che ha fatto della dedizione e della continuità il proprio marchio di fabbrica, rappresentando con regolarità il proprio Paese nelle competizioni a squadre e diventando un volto familiare per il pubblico di casa.
+Harriet Dart, nata a Hampstead, nel nord di Londra, il 28 luglio 1996, è una delle interpreti più riconoscibili del tennis femminile britannico degli ultimi anni. Cresciuta all'interno del movimento d'oltremanica, ha costruito la propria carriera con pazienza, passando attraverso la lunga gavetta dei tornei minori prima di ritagliarsi uno spazio stabile nel circuito maggiore, con il numero 70 del mondo raggiunto nel settembre del 2024. È una giocatrice che ha fatto della dedizione e della continuità il proprio marchio di fabbrica, rappresentando con regolarità il proprio Paese nelle competizioni a squadre e diventando un volto familiare per il pubblico di casa.
 
 ## Il suo tennis
 
-Destra, con rovescio a due mani, Dart propone un tennis fondato sull'intensità e sull'impegno fisico più che sull'eleganza fine a se stessa. Il suo è un gioco solido da fondo campo, sostenuto da un dritto che può diventare arma offensiva quando trova il tempo giusto per prendere l'iniziativa. La statura le garantisce una buona leva al servizio, colpo che, nelle giornate positive, le consente di aprirsi il campo e di comandare lo scambio fin dai primi colpi.
+Destra, con rovescio a due mani, Dart propone un tennis fondato sull'intensità e sull'impegno fisico più che sull'eleganza fine a se stessa. Il suo è un gioco solido da fondo campo, sostenuto da un dritto che può diventare arma offensiva quando trova il tempo giusto per prendere l'iniziativa. Senza la leva delle giocatrici più alte, al servizio compensa con il tempismo e con la ricerca degli angoli, e nelle giornate positive il colpo le consente di aprirsi il campo e di comandare lo scambio fin dai primi colpi.
 
 Il tratto che più la contraddistingue, tuttavia, è il carattere. Dart è una combattente che raramente concede punti gratuiti e che sa trascinarsi in partita anche quando il livello tecnico degli avversari è superiore. Questa tenacia la rende particolarmente insidiosa nelle sfide ravvicinate, dove la gestione dei momenti decisivi e delle palle break fa spesso la differenza.
 
@@ -42,14 +42,16 @@ Questo non significa che si trovi a disagio altrove. Sul cemento, superficie su 
 
 ## Trofei e momenti chiave
 
-Il percorso di Dart si è costruito soprattutto nei circuiti minori, dove ha conquistato titoli che le hanno fornito classifica e fiducia per affacciarsi con continuità al tour maggiore. Proprio la crescita costante nelle prime stagioni sul circuito principale ha rappresentato il vero salto di qualità della sua carriera.
+Il percorso di Dart si è costruito a lungo nei circuiti minori, dove ha conquistato sette titoli in singolare che le hanno fornito classifica e fiducia per affacciarsi con continuità al tour maggiore. La ricompensa è arrivata soltanto nel 2026, a trent'anni, con il primo titolo WTA conquistato all'Open di Canton: in finale ha superato l'austriaca Lilli Tagger per 4-6, 6-3, 6-4, dopo avere battuto nel torneo anche Paula Badosa. Nella stessa stagione sono arrivati i primi due trofei in doppio, a Nottingham e a Praga.
 
-Tra i capitoli più significativi vanno ricordati gli appuntamenti sui grandi palcoscenici dello Slam, in particolare quelli disputati in patria, vissuti come vetrina e banco di prova davanti al proprio pubblico. A questo si aggiunge la frequente convocazione nella squadra nazionale, segno della stima di cui gode all'interno del movimento e della sua affidabilità nelle competizioni a squadre.
+Tra i capitoli più significativi vanno ricordati gli appuntamenti sui grandi palcoscenici dello Slam, in particolare quelli disputati in patria: a Wimbledon ha raggiunto il terzo turno nel 2019 e nel 2024, suo miglior risultato in una prova dello Slam. A questo si aggiunge la frequente convocazione nella squadra nazionale, con cui dal 2019 ha disputato la Billie Jean King Cup contribuendo alle semifinali del 2022 e del 2024.
 
 **Trofei principali**
 
-- Titoli nel circuito ITF, utili per la scalata in classifica
-- Presenze stabili nei tabelloni principali dei tornei dello Slam
-- Convocazioni con la nazionale britannica nelle competizioni a squadre
+- Open di Canton 2026, primo titolo WTA in singolare
+- Due titoli WTA in doppio nel 2026, a Nottingham e a Praga
+- Sette titoli in singolare nel circuito ITF
+- Terzo turno a Wimbledon nel 2019 e nel 2024
+- Convocazioni con la nazionale britannica in Billie Jean King Cup
 
 Nel complesso, la carriera di Harriet Dart racconta la storia di una giocatrice che ha fatto della costanza e della combattività i propri punti di forza, trasformando la fatica quotidiana in una presenza affidabile e rispettata del tennis femminile.

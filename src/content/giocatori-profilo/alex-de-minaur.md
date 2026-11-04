@@ -1,8 +1,8 @@
 ---
 nome: "Alex de Minaur"
 slug_profilo: "alex-de-minaur"
-titoli: "Numerosi titoli ATP, stabilmente nella top 10"
-stile_gioco: "Velocita' di gambe, difesa e contrattacco continuo da fondo"
+titoli: "Undici titoli ATP e best ranking numero 5 del mondo"
+stile_gioco: "Velocità di gambe, difesa e contrattacco continuo da fondo"
 nazionalita: "Australia"
 data_nascita: "1999-02-17"
 mano: "destro"
@@ -25,7 +25,7 @@ generato_il: "2026-10-28T09:11"
 
 ## Chi è
 
-Alex de Minaur è nato a Sydney nel febbraio del 1999 e porta con sé una doppia anima, australiana e spagnola, che ha segnato la sua formazione tennistica tra Alicante e la terra d'origine. Soprannominato "Demon" per l'intensità con cui affronta ogni punto, è cresciuto fino a diventare il punto di riferimento del movimento australiano, erede di una tradizione gloriosa. La sua ascesa è stata graduale ma inarrestabile, costruita match dopo match con una professionalità che lo ha portato stabilmente nei piani alti della classifica mondiale e nelle fasi avanzate dei tornei più importanti.
+Alex de Minaur è nato a Sydney nel febbraio del 1999 e porta con sé una doppia anima, australiana e spagnola, che ha segnato la sua formazione tennistica tra Alicante e la terra d'origine. Soprannominato "Demon" per l'intensità con cui affronta ogni punto, è cresciuto fino a diventare il punto di riferimento del movimento australiano, erede di una tradizione gloriosa. La sua ascesa è stata graduale ma inarrestabile, costruita match dopo match con una professionalità che lo ha portato stabilmente nei piani alti della classifica mondiale, fino al quinto posto raggiunto nel luglio del 2026, e nelle fasi avanzate dei tornei più importanti: nei quattro tornei dello Slam è arrivato più volte ai quarti di finale.
 
 ## Il suo tennis
 
@@ -33,4 +33,4 @@ Il tratto distintivo di de Minaur è la **velocità di gambe**, forse la più al
 
 ## Il momento
 
-Il 2026 racconta un de Minaur in grande continuità, con un bilancio recente di dodici vittorie e tre sconfitte. A Pechino ha inanellato una serie di successi di peso, battendo Andrey Rublev nei quarti e superando nei turni precedenti Quentin Halys e Mariano Navone. A Shanghai ha regolato Karen Khachanov negli ottavi prima di arrendersi ad Alexander Zverev nei quarti, mentre a Vienna ha aperto il torneo piegando Tomas Machac. La sfida con il giovane Learner Tien lo vede arrivare da favorito, forte di una condizione che lo accompagna con regolarità in questo scorcio finale di stagione sul veloce indoor.
+L'autunno del 2026 ha restituito un de Minaur di nuovo competitivo nei tornei che contano, dopo una prima parte di stagione più faticosa. A Pechino è arrivato fino all'atto conclusivo, superando fra gli altri Mariano Navone e Quentin Halys e approdando in finale dopo il ritiro di Hubert Hurkacz in semifinale: contro Novak Djokovic, però, un problema fisico lo ha costretto ad alzare bandiera bianca all'inizio del secondo set. A Shanghai ha regolato Karen Khachanov negli ottavi prima di arrendersi ad Alexander Zverev nei quarti. A Vienna, infine, ha aperto il torneo rimontando Tomas Machac e si è spinto fino alla finale battendo in semifinale lo stesso Zverev, prima di cedere a Carlos Alcaraz il primo novembre. Un finale di stagione che lo ha riportato nelle prime dieci posizioni del ranking mondiale.

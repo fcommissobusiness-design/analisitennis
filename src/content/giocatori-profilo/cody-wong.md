@@ -31,15 +31,16 @@ Il tennis di Cody Wong si fonda più sull'ordine e sulla continuità che su un s
 
 ## Sulle diverse superfici
 
-Come gran parte dei giocatori cresciuti nel tennis di Hong Kong, Cody Wong ha maturato gran parte della propria esperienza sul cemento, superficie che resta la più congeniale al suo modo di stare in campo. Il rimbalzo regolare e i tempi di gioco del veloce assecondano la sua ricerca di continuità e la precisione dei suoi appoggi. Sulla terra battuta è chiamata a un lavoro di pazienza supplementare, con scambi più lunghi e costruzioni più elaborate, mentre l'erba — superficie di esposizione più limitata nel suo percorso — richiede adattamenti che restano meno abituali. Nel complesso, è sul cemento che la sua proposta tecnica trova la cornice più naturale.
+Come gran parte dei giocatori cresciuti nel tennis di Hong Kong, Cody Wong ha maturato gran parte della propria esperienza sul cemento, superficie che resta la più congeniale al suo modo di stare in campo. Il rimbalzo regolare e i tempi di gioco del veloce assecondano la sua ricerca di continuità e la precisione dei suoi appoggi. Sulla terra battuta è chiamata a un lavoro di pazienza supplementare, con scambi più lunghi e costruzioni più elaborate, mentre l'erba, superficie di esposizione più limitata nel suo percorso, richiede adattamenti che restano meno abituali. Nel complesso, è sul cemento che la sua proposta tecnica trova la cornice più naturale.
 
 ## Trofei e momenti chiave
 
-Il tratto più significativo della carriera di Cody Wong è il legame con la rappresentativa di Hong Kong, con cui ha preso parte alle competizioni internazionali a squadre, vivendo quelle sfide come uno dei momenti più sentiti del proprio percorso. Sul piano individuale, la sua crescita è passata soprattutto attraverso i tornei del circuito di sviluppo.
+Il tratto più significativo della carriera di Cody Wong è il legame con la rappresentativa di Hong Kong, con cui ha preso parte alla Billie Jean King Cup e ai Giochi asiatici, vivendo quelle sfide come uno dei momenti più sentiti del proprio percorso: ai Giochi asiatici di Aichi-Nagoya, nel 2026, ha conquistato il bronzo nel doppio femminile. Sul piano individuale la sua crescita è passata soprattutto attraverso i tornei del circuito ITF, dove il doppio è diventato la sua specialità più redditizia, con un bottino di titoli ampio e una classifica che in questa disciplina l'ha portata attorno alla posizione numero 150. Da ragazza aveva già lasciato il segno nel tennis giovanile, spingendosi fino ai quarti di finale dell'Australian Open juniores, miglior risultato di sempre per una giocatrice di Hong Kong in quel torneo.
 
 **Trofei e tappe principali:**
 
-- Alcuni titoli e finali nei tornei del circuito ITF, con un rendimento particolarmente apprezzabile nel doppio
-- La partecipazione alle competizioni a squadre con la rappresentativa di Hong Kong
+- Numerosi titoli nel circuito ITF, con un rendimento particolarmente apprezzabile nel doppio
+- Bronzo nel doppio femminile ai Giochi asiatici del 2026
+- Le presenze in Billie Jean King Cup con la rappresentativa di Hong Kong
 
 Più che un singolo risultato clamoroso, è la continuità del percorso a definirla: una carriera costruita passo dopo passo, nella quale ogni stagione ha aggiunto esperienza e consapevolezza a una giocatrice che ha fatto della dedizione la propria firma.

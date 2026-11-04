@@ -16,7 +16,7 @@ tag:
   - "cemento"
   - "quarti di finale"
   - "tennis"
-verdetto: "Oggi la puo' spuntare Delaney: il bilancio recente resta in positivo e la finale appena centrata a Jinan gli danno piu' continuita', mentre Broady arriva da un periodo altalenante nonostante la bella rimonta di Ningbo."
+verdetto: "Oggi la può spuntare Delaney: il bilancio recente resta in positivo e la finale appena centrata a Jinan gli danno più continuità, mentre Broady arriva da un periodo altalenante nonostante la bella rimonta di Ningbo."
 descrizione: "Ai quarti del Challenger di Ningbo si sfidano Ja. Delaney e L. Broady: nessun precedente diretto, due cammini diversi e un posto in semifinale sul cemento."
 pubblicato: true
 generato_il: "2026-10-30T07:27"

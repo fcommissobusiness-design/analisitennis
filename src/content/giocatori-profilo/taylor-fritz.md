@@ -1,7 +1,7 @@
 ---
 nome: "Taylor Fritz"
 slug_profilo: "taylor-fritz"
-titoli: "Masters 1000 Indian Wells 2022, finalista Slam, top 5"
+titoli: "Masters 1000 Indian Wells 2022, finalista US Open 2024, numero 4 del mondo"
 stile_gioco: "Servizio e dritto potenti, tennis offensivo sul veloce"
 nazionalita: "Stati Uniti"
 data_nascita: "1997-10-28"
@@ -27,7 +27,7 @@ generato_il: "2026-10-27T12:50"
 
 ## Chi è
 
-Taylor Fritz è nato in California il 28 ottobre 1997 ed è diventato, nel corso delle sue stagioni sul tour maggiore, il principale punto di riferimento del tennis maschile statunitense. Cresciuto in una famiglia legata a questo sport — la madre è stata a sua volta una giocatrice professionista — Fritz ha portato fin da giovanissimo l'etichetta di grande promessa americana, salendo in modo progressivo fino alle posizioni di vertice della classifica mondiale e stabilizzandosi tra i migliori del circuito.
+Taylor Fritz è nato in California il 28 ottobre 1997 ed è diventato, nel corso delle sue stagioni sul tour maggiore, il principale punto di riferimento del tennis maschile statunitense. Cresciuto in una famiglia legata a questo sport (la madre, Kathy May, è stata una giocatrice professionista da top ten), Fritz ha portato fin da giovanissimo l'etichetta di grande promessa americana, salendo in modo progressivo fino alle posizioni di vertice della classifica mondiale e stabilizzandosi tra i migliori del circuito.
 
 La sua parabola non è stata quella del fenomeno esplosivo, ma quella del giocatore che migliora di anno in anno, limando i difetti e aggiungendo solidità a un gioco che partiva da basi fisiche importanti. Questo lo ha reso, con continuità, il numero uno d'America e un cliente scomodo per chiunque, soprattutto nei tornei più prestigiosi.
 
@@ -41,12 +41,12 @@ Il rovescio a due mani è affidabile e gli consente di reggere lo scambio in att
 
 Il cemento è senza dubbio il terreno che più valorizza le sue qualità. Sulle superfici rapide, e in particolare al coperto, il suo servizio e il suo dritto rendono al massimo, e non a caso è lì che ha ottenuto i risultati più pesanti della carriera.
 
-Anche l'erba si sposa bene con il suo repertorio: la battuta efficace e il gioco diretto gli hanno permesso di esprimersi con buoni rendimenti nella stagione sul verde. La terra battuta resta invece la superficie storicamente meno congeniale: i ritmi più lenti e gli scambi prolungati tolgono parte dei vantaggi che il suo tennis trae dalla velocità del campo, pur senza impedirgli di cogliere buone prestazioni.
+Anche l'erba si sposa bene con il suo repertorio: la battuta efficace e il gioco diretto gli hanno permesso di arrivare fino alle semifinali di Wimbledon nel 2025, dopo i titoli di Stoccarda ed Eastbourne nella stessa stagione sul verde. La terra battuta resta invece la superficie storicamente meno congeniale: i ritmi più lenti e gli scambi prolungati tolgono parte dei vantaggi che il suo tennis trae dalla velocità del campo, pur senza impedirgli di cogliere buone prestazioni.
 
 ## Trofei e momenti chiave
 
-Il momento di svolta della carriera di Fritz è arrivato con la conquista del Masters 1000 di Indian Wells, successo di grande prestigio ottenuto superando in finale un avversario del calibro di Rafael Nadal. Quel titolo ne ha certificato l'ingresso stabile nell'élite del circuito.
+Il momento di svolta della carriera di Fritz è arrivato nel 2022 con la conquista del Masters 1000 di Indian Wells, successo di grande prestigio ottenuto superando in finale un avversario del calibro di Rafael Nadal. Quel titolo ne ha certificato l'ingresso stabile nell'élite del circuito.
 
-Negli anni successivi è arrivata anche la grande affermazione nei tornei dello Slam, con la finale raggiunta agli US Open, il traguardo più importante mai centrato da un uomo statunitense in casa da molto tempo. A questa si è aggiunta la qualificazione alle Finals di fine stagione, riservate ai migliori dell'anno, dove ha disputato una grande edizione arrivando fino all'atto conclusivo.
+Il risultato più importante nei tornei dello Slam è invece la finale raggiunta agli US Open nel 2024, dove ha ceduto a Jannik Sinner: nessun uomo statunitense ci era riuscito in casa dai tempi di Andy Roddick. Poche settimane dopo è arrivata anche la finale alle Finals di fine stagione, riservate ai migliori dell'anno, persa di nuovo contro Sinner. Quell'autunno lo ha portato al numero 4 del mondo, il suo miglior piazzamento in carriera.
 
-Accanto a questi acuti, Fritz ha raccolto nel corso del tempo diversi titoli sul tour maggiore, soprattutto sulle superfici veloci, confermandosi come uno dei giocatori più solidi e presenti della sua generazione.
+Accanto a questi acuti, Fritz ha raccolto nel corso del tempo una decina di titoli sul tour maggiore, soprattutto sulle superfici veloci, oltre alla United Cup vinta con la squadra statunitense nel 2025, confermandosi come uno dei giocatori più solidi e presenti della sua generazione.

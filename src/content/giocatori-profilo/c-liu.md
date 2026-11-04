@@ -3,14 +3,14 @@ nome: "Claire Liu"
 slug_profilo: "c-liu"
 nazionalita: "Stati Uniti"
 data_nascita: "2000-05-25"
-mano: "mancino"
+mano: "destro"
 rovescio: "due mani"
-stile_gioco: "tennis aggressivo da fondo con servizio mancino insidioso"
-titoli: "campionessa junior a Wimbledon nel 2017; a livello professionistico diversi titoli nei circuiti ITF e di categoria 125 e una finale sul tour maggiore"
+stile_gioco: "tennis aggressivo da fondo, ricerca costante dell'anticipo"
+titoli: "campionessa junior a Wimbledon nel 2017; a livello professionistico otto titoli ITF, due titoli WTA 125 e una finale sul tour maggiore"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Mancina dal talento precoce, Claire Liu è passata dal trionfo giovanile a Wimbledon alla fatica quotidiana del tour maggiore, dove costruisce la sua carriera con pazienza."
-descrizione: "Profilo di Claire Liu: la mancina statunitense campionessa junior a Wimbledon, il suo tennis aggressivo da fondo e sulle superfici in cui rende meglio."
+intro: "Talento precoce, Claire Liu è passata dal trionfo giovanile a Wimbledon alla fatica quotidiana del tour maggiore, dove costruisce la sua carriera con pazienza."
+descrizione: "Profilo di Claire Liu: la statunitense campionessa junior a Wimbledon, il suo tennis aggressivo da fondo e le superfici in cui rende meglio."
 tag:
   - "Claire Liu"
   - "Liu tennis"
@@ -29,7 +29,7 @@ Claire Liu appartiene a quella generazione di tenniste statunitensi cresciute ne
 
 ## Il suo tennis
 
-Mancina e dotata di un rovescio a due mani solido e piatto, Liu interpreta il gioco in chiave offensiva, cercando di prendere l'iniziativa da fondo campo e di accorciare gli scambi quando l'occasione si presenta. La sua mano sinistra è una risorsa preziosa soprattutto al servizio, dove le consente di aprirsi angoli scomodi per l'avversaria e di comandare il punto successivo con il dritto. È una giocatrice che preferisce dettare il ritmo piuttosto che rincorrere, e quando il braccio è sciolto trova con naturalezza le righe. Il margine di crescita, come spesso accade nelle carriere di questo profilo, passa dalla continuità: mantenere alto il livello per un intero incontro e gestire i momenti di tensione resta la sfida principale.
+Destrimane e dotata di un rovescio a due mani solido e piatto, Liu interpreta il gioco in chiave offensiva, cercando di prendere l'iniziativa da fondo campo e di accorciare gli scambi quando l'occasione si presenta. Il dritto è il colpo con cui prova a comandare il punto appena il servizio le apre il campo, mentre sul lato del rovescio difende bene e cambia direzione con precisione. È una giocatrice che preferisce dettare il ritmo piuttosto che rincorrere, e quando il braccio è sciolto trova con naturalezza le righe. Il margine di crescita, come spesso accade nelle carriere di questo profilo, passa dalla continuità: mantenere alto il livello per un intero incontro e gestire i momenti di tensione resta la sfida principale.
 
 ## Sulle diverse superfici
 
@@ -42,7 +42,7 @@ Il momento più luminoso della sua carriera resta la vittoria nel torneo giovani
 ### Trofei principali
 
 - Titolo giovanile a Wimbledon (2017)
-- Diversi titoli nei circuiti ITF e di categoria WTA 125
-- Una finale raggiunta sul circuito WTA maggiore
+- Otto titoli nel circuito ITF e due titoli di categoria WTA 125
+- Una finale sul circuito WTA maggiore, a Rabat nel 2022
 
 Al di là dei numeri, la storia sportiva di Claire Liu racconta soprattutto costanza e dedizione: la parabola di una giocatrice che, dopo un debutto da predestinata, ha scelto di lavorare lontano dai riflettori per ritagliarsi uno spazio solido nel tennis che conta.

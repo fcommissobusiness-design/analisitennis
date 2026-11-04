@@ -3,11 +3,14 @@ nome: "Emerson Jones"
 slug_profilo: "emerson-jones"
 stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Australia"
+data_nascita: "2008-07-07"
 mano: "destro"
 rovescio: "due mani"
+altezza: "160 cm"
+titoli: "Numero uno del ranking juniores nel 2024 e quattro titoli ITF in singolare"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Tra le promesse più luminose del tennis australiano della nuova generazione, Emerson Jones è cresciuta fino a diventare un riferimento del circuito giovanile internazionale."
+intro: "Tra le promesse più luminose del tennis australiano della nuova generazione, Emerson Jones è stata numero uno del ranking juniores e ha già cominciato la scalata del circuito maggiore."
 descrizione: "Profilo di Emerson Jones, giovane tennista australiana salita al vertice del ranking juniores: il suo tennis, le superfici e i momenti chiave."
 tag:
   - "Emerson Jones"
@@ -24,7 +27,7 @@ generato_il: "2026-10-27T12:33"
 
 ## Chi è
 
-Emerson Jones appartiene a quella schiera di giovani australiane su cui il movimento nazionale ha scelto di investire con convinzione. Cresciuta all'interno del vivaio del tennis australiano, si è imposta all'attenzione internazionale ancora adolescente, costruendo passo dopo passo una reputazione da predestinata nel circuito giovanile. La sua ascesa non è stata un fuoco improvviso, ma il frutto di una progressione continua, culminata nel raggiungimento del vertice della classifica juniores: un traguardo che pochissime riescono a toccare e che, nel suo caso, ha confermato le aspettative riposte in lei fin dalle prime apparizioni.
+Emerson Jones, nata sulla Gold Coast il 7 luglio 2008, appartiene a quella schiera di giovani australiane su cui il movimento nazionale ha scelto di investire con convinzione. Cresciuta all'interno del vivaio del tennis australiano, si è imposta all'attenzione internazionale ancora adolescente, costruendo passo dopo passo una reputazione da predestinata nel circuito giovanile. La sua ascesa non è stata un fuoco improvviso, ma il frutto di una progressione continua, culminata nel settembre del 2024 con il numero uno della classifica juniores: era la prima australiana a riuscirci dai tempi di Jelena Dokic, nel 1998.
 
 Il suo percorso si inserisce nella tradizione australiana di talenti precoci, abituati fin da piccoli a misurarsi sui campi veloci e a sviluppare un gioco diretto. In questo contesto Jones ha maturato la mentalità di chi non si accontenta del risultato di categoria, ma guarda già alla transizione verso il tennis maggiore come orizzonte naturale.
 
@@ -42,6 +45,6 @@ Nelle prime esperienze sull'erba e sulla terra battuta ha comunque dimostrato di
 
 ## Trofei e momenti chiave
 
-Il risultato che meglio fotografa il suo valore è la conquista della vetta del ranking mondiale juniores, approdo di una stagione di grande solidità nei tornei giovanili più importanti. A livello Slam under 18 ha saputo spingersi fino alle fasi decisive, mettendo in mostra nelle grandi occasioni la personalità che la distingue dalle coetanee, con prestazioni di rilievo sia in singolare sia nel doppio.
+Il risultato che meglio fotografa il suo valore è la conquista della vetta del ranking mondiale juniores, approdo di una stagione di grande solidità nei tornei giovanili più importanti. A livello Slam under 18 si è spinta per due volte fino alla finale del singolare, agli Australian Open e a Wimbledon del 2024, perse entrambe contro la slovacca Renáta Jamrichová, e nel 2025 ha giocato anche la finale del doppio juniores a Melbourne.
 
-Più che la somma dei singoli risultati, però, è la traiettoria a definire Emerson Jones: quella di un'atleta che ha dominato la propria categoria e che ora affronta la sfida più delicata, la transizione verso il circuito maggiore. È lì che si capirà fino a dove potrà arrivare uno dei nomi più attesi del tennis femminile australiano.
+La transizione verso il circuito maggiore è già cominciata. Nel 2025 ha vinto la sua prima partita a livello WTA all'Adelaide International, battendo una giocatrice di vertice come Wang Xinyu, e ha esordito nel tabellone principale degli Australian Open. Nel 2026 ha aggiunto il primo successo in un torneo di categoria 1000, a Miami, l'esordio in Billie Jean King Cup con la maglia australiana e la partecipazione, con una wild card, al Roland Garros. A ottobre dello stesso anno è salita fino al numero 122 del mondo, con quattro titoli ITF già in bacheca. Più che la somma dei singoli risultati, però, è la traiettoria a definire Emerson Jones: è lì che si capirà fino a dove potrà arrivare uno dei nomi più attesi del tennis femminile australiano.

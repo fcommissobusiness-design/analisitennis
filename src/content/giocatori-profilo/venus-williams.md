@@ -6,7 +6,7 @@ data_nascita: "1980-06-17"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio esplosivo e aggressione da fondo campo"
-titoli: "7 titoli del Grande Slam in singolare, numerosi titoli WTA e diversi ori olimpici"
+titoli: "7 titoli del Grande Slam in singolare, 49 titoli WTA e quattro ori olimpici"
 altezza: "185 cm"
 categoria: "WTA"
 superficie_preferita: "erba"
@@ -26,7 +26,7 @@ generato_il: "2026-11-02T16:15"
 
 ## Chi è
 
-Venus Williams è una delle giocatrici che più hanno segnato il tennis femminile a cavallo tra gli anni Novanta e i decenni successivi. Statunitense, arrivata sul circuito maggiore da giovanissima, ha imposto fin dalle prime stagioni un modello fisico e atletico che avrebbe cambiato il modo di interpretare il gioco. Insieme alla sorella Serena ha dato vita a una delle rivalità e, al tempo stesso, delle alleanze più celebri dello sport, affrontandosi in finali di altissimo profilo e vincendo moltissimo in coppia. La sua carriera si è distinta anche per una longevità fuori dal comune, con una presenza nei tornei prolungata ben oltre l'età in cui molte colleghe si erano già ritirate.
+Venus Williams è una delle giocatrici che più hanno segnato il tennis femminile a cavallo tra gli anni Novanta e i decenni successivi. Statunitense, arrivata sul circuito maggiore da giovanissima, ha imposto fin dalle prime stagioni un modello fisico e atletico che avrebbe cambiato il modo di interpretare il gioco. Insieme alla sorella Serena ha dato vita a una delle rivalità e, al tempo stesso, delle alleanze più celebri dello sport, affrontandosi in finali di altissimo profilo e vincendo moltissimo in coppia. La sua carriera si è distinta anche per una longevità fuori dal comune: a 46 anni compiuti, senza avere mai annunciato un ritiro formale, continua a comparire nei tabelloni con un calendario selettivo, ben oltre l'età in cui la quasi totalità delle colleghe della sua generazione si era già fermata.
 
 ## Il suo tennis
 
@@ -40,9 +40,9 @@ Anche sul cemento ha trovato un terreno congeniale, grazie alla stessa capacità
 
 ## Trofei e momenti chiave
 
-La bacheca di Venus Williams è tra le più ricche della sua generazione. In singolare ha conquistato sette titoli del Grande Slam, diventando anche numero uno del mondo e confermandosi per anni ai vertici della classifica. A questi traguardi si aggiungono un gran numero di titoli sul circuito WTA e un rendimento olimpico di assoluto rilievo, con medaglie d'oro che testimoniano la sua capacità di brillare anche nelle competizioni più sentite.
+La bacheca di Venus Williams è tra le più ricche della sua generazione. In singolare ha conquistato sette titoli del Grande Slam, cinque a Wimbledon e due agli US Open, diventando numero uno del mondo il 25 febbraio 2002 e confermandosi per anni ai vertici della classifica. A questi traguardi si aggiungono 49 titoli complessivi sul circuito WTA e un rendimento olimpico di assoluto rilievo: quattro medaglie d'oro, una in singolare a Sydney 2000 e tre in doppio (2000, 2008 e 2012), alle quali si affianca l'argento nel doppio misto di Rio 2016.
 
-Un capitolo a parte merita il doppio, dove in coppia con la sorella ha costruito uno dei sodalizi più vincenti della storia, aggiungendo numerosi titoli dello Slam alla collezione. Al di là dei numeri, alcuni momenti restano impressi nella memoria collettiva: le finali di Wimbledon giocate ai massimi livelli, i confronti diretti con le migliori interpreti del suo tempo e la capacità di tornare competitiva dopo periodi difficili. Proprio questa resilienza, unita a una presenza sul circuito lunghissima, ne ha fatto un punto di riferimento e un modello per tante giocatrici arrivate dopo di lei.
+Un capitolo a parte merita il doppio, dove in coppia con la sorella ha costruito uno dei sodalizi più vincenti della storia, con quattordici titoli dello Slam conquistati insieme. Al di là dei numeri, alcuni momenti restano impressi nella memoria collettiva: le finali di Wimbledon giocate ai massimi livelli, i confronti diretti con le migliori interpreti del suo tempo e la capacità di tornare competitiva dopo periodi difficili. Proprio questa resilienza, unita a una presenza sul circuito lunghissima, ne ha fatto un punto di riferimento e un modello per tante giocatrici arrivate dopo di lei.
 
 ### Un'eredità oltre il campo
 

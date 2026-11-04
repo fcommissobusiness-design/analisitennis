@@ -6,7 +6,7 @@ data_nascita: "2002-10-09"
 mano: "mancino"
 rovescio: "due mani"
 stile_gioco: "servizio esplosivo e dritto d'attacco mancino"
-titoli: "diversi titoli ATP sul circuito maggiore, con i migliori risultati Slam sul cemento"
+titoli: "sette titoli ATP, fra cui due Masters 1000 a Montreal, e una finale Slam"
 altezza: "193 cm"
 categoria: "ATP"
 superficie_preferita: "cemento"
@@ -41,18 +41,20 @@ Il dritto è il naturale completamento del servizio: colpo esplosivo, cercato co
 
 Il cemento è il terreno su cui Shelton ha costruito i risultati più significativi: la rapidità del rimbalzo esalta il suo servizio e il suo gioco diretto, premiando l'aggressività. Non sorprende che proprio sui campi veloci siano arrivate le soddisfazioni più grandi della sua carriera fin qui.
 
-L'erba rappresenta una superficie teoricamente congeniale, perché il servizio e il gioco d'anticipo trovano terreno fertile, anche se la confidenza con il verde resta in costruzione. Sulla terra battuta, invece, le insidie aumentano: i ritmi più lenti e gli scambi prolungati mettono alla prova la sua pazienza e la costruzione del punto, ma Shelton ha comunque mostrato segnali di crescita anche su questa superficie, segno di una volontà di completarsi.
+La sorpresa, però, è arrivata altrove. Sull'erba, dove servizio e gioco d'anticipo trovano terreno fertile, ha vinto il torneo di Stoccarda nel 2026; sulla terra battuta, teoricamente la superficie più ostica per chi preferisce accorciare lo scambio, si era già imposto a Houston nel 2024 e ha aggiunto Monaco di Baviera nel 2026. Proprio quell'annata lo ha reso il primo americano dal 2010 capace di vincere un titolo su cemento, terra ed erba nella stessa stagione, la prova più concreta della sua volontà di completarsi.
 
 ## Trofei e momenti chiave
 
-Il momento che ne ha segnato la consacrazione internazionale è stato il percorso fino alle fasi conclusive degli US Open, raggiunte da giovanissimo e vissute davanti al pubblico di casa: una cavalcata che lo ha proiettato nell'élite e ne ha certificato il potenziale.
+Il momento che ne ha segnato la consacrazione internazionale è stata la semifinale raggiunta a vent'anni agli US Open del 2023, davanti al pubblico di casa: una cavalcata che lo ha proiettato nell'élite e ne ha certificato il potenziale. Ne è seguita un'altra semifinale Slam all'Australian Open del 2025 e, soprattutto, la prima finale major della carriera di nuovo a New York, nel 2026, dove si è arreso ad Alexander Zverev.
 
-Sul piano dei titoli, Shelton ha saputo imporsi in diversi tornei del circuito maggiore, confermando sul cemento le sue qualità migliori.
+Sul piano dei titoli, Shelton si è imposto sette volte sul circuito maggiore, con due affermazioni di peso assoluto: il Masters 1000 di Montreal nel 2025, il primo della sua carriera, e la difesa dello stesso titolo nel 2026. Il percorso lo ha portato fino al quarto posto del ranking mondiale.
 
 **Trofei principali:**
 
-- Affermazione nel circuito universitario statunitense prima del passaggio al professionismo
-- Diversi titoli ATP sul tour maggiore
-- Importante semifinale Slam sul cemento, trampolino della sua carriera
+- Due Masters 1000 a Montreal (2025 e 2026)
+- Sette titoli ATP complessivi sul tour maggiore
+- Finale agli US Open 2026 e semifinali agli US Open 2023 e all'Australian Open 2025
+- Titolo NCAA in singolare nel 2022 con l'Università della Florida
+- Miglior classifica: numero 4 del mondo
 
 Resta uno dei giocatori più attesi della sua generazione: se continuerà ad affinare la gestione dello scambio e la continuità, il margine di crescita appare ancora ampio.

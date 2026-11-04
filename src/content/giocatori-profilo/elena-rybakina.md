@@ -1,7 +1,7 @@
 ---
 nome: "Elena Rybakina"
 slug_profilo: "elena-rybakina"
-titoli: "Wimbledon 2022 e titoli WTA, top 5"
+titoli: "Tre titoli Slam (Wimbledon 2022, Australian Open e US Open 2026), WTA Finals 2025 e numero uno del mondo"
 stile_gioco: "Servizio e colpi piatti potentissimi, tennis d'attacco"
 nazionalita: "Kazakistan"
 data_nascita: "1999-06-17"
@@ -10,8 +10,8 @@ rovescio: "due mani"
 altezza: "184 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Nata a Mosca e passata sotto bandiera kazaka, Elena Rybakina ha costruito la sua ascesa su un servizio tra i piu' temuti del circuito femminile."
-descrizione: "Profilo di Elena Rybakina: il tennis potente della campionessa kazaka, le superfici preferite, Wimbledon 2022 e i momenti chiave della carriera."
+intro: "Nata a Mosca e passata sotto bandiera kazaka, Elena Rybakina ha costruito su un servizio tra i più temuti del circuito femminile un'ascesa che nel 2026 l'ha portata al numero uno del mondo."
+descrizione: "Profilo di Elena Rybakina: il tennis potente della numero uno kazaka, le superfici preferite, i tre titoli Slam e i momenti chiave della carriera."
 tag:
   - "Elena Rybakina"
   - "Rybakina"
@@ -20,6 +20,7 @@ tag:
   - "cemento"
   - "servizio"
   - "Wimbledon 2022"
+  - "numero uno WTA"
   - "tennis femminile"
 pubblicato: true
 generato_il: "2026-10-25T11:07"
@@ -27,7 +28,7 @@ generato_il: "2026-10-25T11:07"
 
 ## Chi è
 
-Elena Rybakina è una delle giocatrici più riconoscibili del tennis femminile contemporaneo. Nata a Mosca nel 1999, ha iniziato il suo percorso agonistico sotto bandiera russa per poi scegliere, in giovane età, di rappresentare il Kazakistan, Paese che ne ha sostenuto la crescita sul tour maggiore. È proprio con la casacca kazaka che ha conquistato i risultati più prestigiosi della sua carriera, imponendosi come riferimento di una generazione di atlete capaci di unire potenza e solidità.
+Elena Rybakina è la giocatrice che ha chiuso il 2026 in testa alla classifica mondiale. Nata a Mosca nel 1999, ha iniziato il suo percorso agonistico sotto bandiera russa per poi scegliere, nel 2018, di rappresentare il Kazakistan, Paese che ne ha sostenuto la crescita sul tour maggiore. È proprio con la casacca kazaka che ha conquistato i risultati più prestigiosi della sua carriera, diventando nel settembre del 2026 la prima tennista del suo Paese, fra uomini e donne, a raggiungere il vertice del ranking mondiale.
 
 Rybakina gioca con la mano destra e colpisce il rovescio a due mani. La sua statura elevata, vicina al metro e ottantaquattro, è parte integrante del suo gioco e della sua identità sportiva.
 
@@ -47,14 +48,16 @@ Particolarmente efficace si è dimostrata anche sull'erba, dove la combinazione 
 
 ## Trofei e momenti chiave
 
-Il momento più alto della carriera di Rybakina resta la vittoria a Wimbledon nel 2022, un successo che l'ha proiettata tra le protagoniste assolute del circuito e che le ha regalato il suo primo titolo dello Slam. L'anno seguente ha confermato il proprio valore raggiungendo la finale degli Australian Open, a riprova di una solidità ormai acquisita nei tornei più importanti.
+Il primo capitolo importante è la vittoria a Wimbledon nel 2022, il successo che l'ha proiettata tra le protagoniste assolute del circuito. L'anno seguente ha confermato il proprio valore raggiungendo la finale degli Australian Open, poi persa, a riprova di una solidità ormai acquisita nei tornei più importanti.
 
-Accanto ai risultati del Grande Slam, la kazaka ha saputo imporsi anche in eventi di primo piano del calendario WTA, aggiungendo al proprio palmarès diversi titoli di rilievo nelle stagioni successive.
+La svolta decisiva è però arrivata più tardi. Nel novembre del 2025 ha vinto le WTA Finals di Riad senza perdere una partita, battendo in finale la numero uno del mondo Aryna Sabalenka, e ha chiuso l'anno al quinto posto del ranking. Il 2026 è stata la stagione della consacrazione: titolo agli Australian Open in gennaio, poi il successo agli US Open contro la stessa Sabalenka, che le è valso il primo posto in classifica dal settembre del 2026, e in ottobre la certezza di chiudere l'anno da numero uno.
 
 **Trofei principali:**
 
-- Wimbledon 2022 (titolo del Grande Slam)
+- Wimbledon 2022, Australian Open 2026 e US Open 2026 (tre titoli del Grande Slam)
+- WTA Finals 2025, conquistate da imbattuta
 - Finale agli Australian Open 2023
-- Diversi titoli nel circuito WTA
+- Numero uno del mondo dal settembre 2026 e numero uno di fine anno 2026
+- Quindici titoli complessivi nel circuito WTA
 
-Il percorso di Rybakina resta quello di una giocatrice capace di incidere sui palcoscenici più prestigiosi, forte di un tennis essenziale e di una personalità sportiva inconfondibile.
+Il percorso di Rybakina è quello di una giocatrice che ha costruito il proprio dominio con pazienza, senza cambiare le proprie caratteristiche: un tennis essenziale, un servizio capace di decidere le partite e una personalità sportiva inconfondibile.

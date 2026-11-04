@@ -33,7 +33,7 @@ Matsuda arriva all'appuntamento con un recente giro di tornei ITF. A ottobre si 
 Honda, dal canto suo, ha vissuto un autunno fatto di semifinali raggiunte. L'ultima a Guangzhou, il 18 ottobre, persa al terzo set contro K. Samrej, preceduta dai penultimi atti di Wuning 3 e Jingshan. A metà settembre aveva invece alzato un trofeo a Guangzhou 2, battendo in finale J. Flores dopo aver regolato H. Duan in semifinale.
 
 ### Primo incrocio e avversari in comune
-Non esistono scontri diretti tra i due: sarà un inedito assoluto. Qualche indizio indiretto, però, lo offrono gli avversari incontrati da entrambi. A settembre, al M25 di Urayasu, tutti e due hanno ceduto a N. Nakagawa — Matsuda in finale, Honda agli ottavi — e sempre a inizio settembre erano usciti presto dal M25 di Sapporo, battuti al primo turno rispettivamente da Y. Tanaka e R. Tanuma.
+Non esistono scontri diretti tra i due: sarà un inedito assoluto. Qualche indizio indiretto, però, lo offrono gli avversari incontrati da entrambi. A settembre, al M25 di Urayasu, tutti e due hanno ceduto a N. Nakagawa (Matsuda in finale, Honda agli ottavi) e sempre a inizio settembre erano usciti presto dal M25 di Sapporo, battuti al primo turno rispettivamente da Y. Tanaka e R. Tanuma.
 
 I loro cammini si erano poi sfiorati anche nelle qualificazioni di Wuning 3, a inizio ottobre: Matsuda si è arreso nella finale del tabellone cadetto contro Y. Kikuchi, Honda in semifinale contro K. Tamm. Segnali che raccontano due giocatori che frequentano gli stessi tornei e, spesso, gli stessi avversari, senza che emerga una gerarchia evidente tra i due.
 

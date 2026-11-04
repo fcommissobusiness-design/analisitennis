@@ -6,7 +6,7 @@ data_nascita: "2000-12-31"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio devastante e gioco d'attacco da fondo"
-titoli: "un titolo WTA in singolare (Lione 2023) e alcuni titoli di doppio, tra cui un WTA 1000; diversi titoli nel circuito Challenger"
+titoli: "un titolo WTA in singolare (Lione 2023) e due in doppio, tra cui il WTA 1000 di Cincinnati; diversi titoli nel circuito ITF"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Potenza allo stato puro e uno dei servizi più rapidi del circuito femminile: Alycia Parks è la statunitense che punta tutto sull'aggressività."
@@ -39,12 +39,12 @@ Il cemento è il terreno che meglio esalta le sue qualità. Le superfici rapide 
 
 ## Trofei e momenti chiave
 
-Il momento che ha fatto conoscere Alycia Parks al grande pubblico è arrivato all'inizio del 2023, con la conquista del torneo di Lione: la sua prima affermazione nel circuito maggiore in singolare, ottenuta superando in finale una delle giocatrici più forti del lotto. Un risultato che ha rappresentato il naturale coronamento di un percorso di crescita costante.
+Il momento che ha fatto conoscere Alycia Parks al grande pubblico è arrivato nel febbraio 2023, con la conquista del torneo di Lione: la sua prima affermazione nel circuito maggiore in singolare, ottenuta battendo in finale la prima testa di serie Caroline Garcia. Pochi mesi dopo, nell'agosto 2023, è salita al suo best ranking di numero 40 del mondo.
 
 **Trofei principali**
 
 - Un titolo WTA in singolare (Lione, 2023)
-- Alcuni titoli WTA in doppio, tra cui un WTA 1000
-- Diversi titoli nel circuito Challenger
+- Due titoli WTA in doppio: Ostrava 2022 con Caty McNally e Cincinnati 2023, un WTA 1000, con Taylor Townsend
+- Diversi titoli nel circuito ITF
 
-Accanto ai trofei, resta impressa nella memoria la sua capacità di battere record di velocità al servizio nei tornei del Grande Slam, a conferma di un talento fisico fuori dal comune. La sua storia è quella di una giocatrice che ha fatto della potenza una filosofia e che, quando riesce a incanalarla, sa trasformarsi in un problema per chiunque la affronti.
+Accanto ai trofei, resta impressa nella memoria una battuta cronometrata a 129 miglia orarie agli US Open 2021, la più veloce mai registrata dal torneo in campo femminile, alla pari con Venus Williams. La sua storia è quella di una giocatrice che ha fatto della potenza una filosofia e che, quando riesce a incanalarla, sa trasformarsi in un problema per chiunque la affronti.

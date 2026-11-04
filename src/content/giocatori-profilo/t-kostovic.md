@@ -25,7 +25,7 @@ generato_il: "2026-10-25T11:45"
 
 ## Chi è
 
-Teodora Kostović è una tennista serba nata a Novi Sad il 28 giugno 2007. Appartiene a quella generazione di giocatrici dell'Europa dell'Est che arriva al professionismo dopo un percorso giovanile di assoluto rilievo: sul circuito juniores è salita fino alle posizioni di vertice della classifica mondiale, un risultato che l'ha segnalata presto tra le promesse più attese del tennis serbo. Cresciuta in una famiglia dalla forte vocazione sportiva, ha compiuto la transizione verso il tour maggiore ancora giovanissima, confermando sul campo le attese costruite tra le ragazze.
+Teodora Kostović è una tennista serba nata a Novi Sad il 28 giugno 2007. Appartiene a quella generazione di giocatrici dell'Europa dell'Est che arriva al professionismo dopo un percorso giovanile di assoluto rilievo: sul circuito juniores è salita fino al numero 6 della classifica mondiale e nel settembre del 2024 ha vinto il campionato europeo under 18, risultati che l'hanno segnalata presto tra le promesse più attese del tennis serbo. La transizione verso il tour maggiore è arrivata ancora giovanissima, e sul campo ha confermato le attese costruite tra le ragazze.
 
 ## Il suo tennis
 
@@ -43,9 +43,10 @@ Il bilancio di Kostović è quello, in costruzione, di una giocatrice all'inizio
 
 **Traguardi principali:**
 
-- Posizione di assoluto vertice nella classifica mondiale giovanile
-- Un primo titolo conquistato nel circuito ITF
-- Esordio nel tabellone principale di un torneo dello Slam
-- Ingresso stabile tra le prime duecento della classifica WTA, con un best ranking nei pressi della top 150
+- Numero 6 della classifica mondiale juniores e titolo europeo under 18 nel 2024
+- Due titoli conquistati nel circuito ITF, nel 2025 in Serbia e nel 2026 ad Amstetten
+- Esordio nel tabellone principale di uno Slam a Wimbledon, nel 2026
+- Primi quarti di finale in un torneo WTA, nel 2026, con la vittoria sulla lettone Darja Semeņistaja
+- Best ranking al numero 146 della classifica WTA, raggiunto il 27 luglio 2026
 
-Sono risultati che, letti insieme, raccontano una progressione lineare e coerente: dal dominio tra le juniores ai primi passi concreti nel tennis che conta. Per una ragazza nata nel 2007, sono premesse che giustificano l'attenzione crescente attorno al suo nome e lasciano intravedere ulteriori margini di sviluppo nelle prossime stagioni.
+Sono risultati che, letti insieme, raccontano una progressione lineare e coerente: dai vertici del circuito juniores ai primi passi concreti nel tennis che conta. Per una ragazza nata nel 2007, sono premesse che giustificano l'attenzione crescente attorno al suo nome e lasciano intravedere ulteriori margini di sviluppo nelle prossime stagioni.

@@ -1,7 +1,7 @@
 ---
 nome: "Alexander Bublik"
 slug_profilo: "alexander-bublik"
-titoli: "Piu' titoli ATP"
+titoli: "Nove titoli ATP e best ranking numero 10 del mondo"
 stile_gioco: "Servizio imprevedibile, smorzate e colpi estrosi, grande talento"
 nazionalita: "Kazakistan"
 data_nascita: "1997-06-17"
@@ -26,7 +26,7 @@ generato_il: "2026-10-25T01:10"
 
 ## Chi è
 
-Alexander Bublik è uno dei personaggi più riconoscibili del circuito maschile, un tennista capace di dividere il pubblico tra ammirazione e incredulità. Nato nel 1997 in Russia, ha scelto di rappresentare il Kazakistan, Paese di cui è diventato in breve tempo uno dei volti sportivi più noti. Giocatore destro, con un rovescio a due mani e una struttura fisica imponente, superiore ai 190 centimetri, ha costruito la propria identità su un tennis anticonvenzionale, dove l'istinto conta spesso quanto la tattica. Nel corso delle sue stagioni sul tour maggiore è riuscito a stabilizzarsi tra i migliori del mondo, toccando posizioni di classifica di assoluto rilievo.
+Alexander Bublik è uno dei personaggi più riconoscibili del circuito maschile, un tennista capace di dividere il pubblico tra ammirazione e incredulità. Nato nel 1997 in Russia, ha scelto di rappresentare il Kazakistan, Paese di cui è diventato in breve tempo uno dei volti sportivi più noti. Giocatore destro, con un rovescio a due mani e una struttura fisica imponente, superiore ai 190 centimetri, ha costruito la propria identità su un tennis anticonvenzionale, dove l'istinto conta spesso quanto la tattica. Nel corso delle sue stagioni sul tour maggiore è riuscito a stabilizzarsi tra i migliori del mondo, fino a entrare nei primi dieci della classifica nel gennaio del 2026, primo kazako di sempre a riuscirci nel singolare maschile.
 
 ## Il suo tennis
 
@@ -38,16 +38,16 @@ Proprio questa natura istintiva spiega la discontinuità che accompagna la sua c
 
 ## Sulle diverse superfici
 
-Il rendimento di Bublik è legato alla velocità del campo. Sul cemento trova l'habitat più congeniale: il rimbalzo regolare e i ritmi elevati valorizzano il servizio e il suo gioco d'anticipo, ed è su questa superficie che ha raccolto buona parte dei risultati più solidi. Anche l'erba si sposa bene con le sue caratteristiche, perché premia chi sa chiudere lo scambio in pochi colpi e sfruttare la battuta, e proprio sui campi veloci ha firmato alcune delle sue prestazioni più convincenti. Sulla terra battuta, dove i ritmi si allungano e la pazienza diventa decisiva, il suo tennis trova maggiori difficoltà, pur avendo mostrato nel tempo una crescita nella capacità di adattarsi.
+Il rendimento di Bublik è legato alla velocità del campo. Sul cemento trova l'habitat più congeniale: il rimbalzo regolare e i ritmi elevati valorizzano il servizio e il suo gioco d'anticipo, ed è su questa superficie che ha raccolto buona parte dei risultati più solidi. Anche l'erba si sposa bene con le sue caratteristiche, perché premia chi sa chiudere lo scambio in pochi colpi e sfruttare la battuta, e non è un caso che il torneo di Halle lo abbia visto vincitore in due occasioni. Sulla terra battuta, dove i ritmi si allungano e la pazienza diventa decisiva, il suo tennis sembrava destinato a soffrire: proprio nel 2025, però, ha smentito l'etichetta vincendo di fila Gstaad e Kitzbühel e spingendosi fino ai quarti di finale al Roland Garros, dove si è arreso soltanto a Jannik Sinner.
 
 ## Trofei e momenti chiave
 
-Bublik ha confermato il proprio valore conquistando diversi titoli sul circuito maggiore, soprattutto in tornei disputati su superfici rapide, e completando un percorso di crescita che lo ha portato dalle categorie inferiori fino ai piani alti della classifica mondiale. Prima dell'affermazione sul tour principale aveva costruito la propria esperienza anche nel circuito Challenger, tappa quasi obbligata per chi punta in alto.
+Bublik ha confermato il proprio valore conquistando nove titoli sul circuito maggiore, il primo a Montpellier nel 2022 e il più recente a Hong Kong nel 2026, e completando un percorso di crescita che lo ha portato dalle categorie inferiori fino ai piani alti della classifica mondiale. Il 2025 è stata la sua stagione più piena: quattro titoli, i quarti di finale al Roland Garros e la semifinale nel Masters 1000 di Parigi. Prima dell'affermazione sul tour principale aveva costruito la propria esperienza anche nel circuito Challenger, tappa quasi obbligata per chi punta in alto.
 
 **Trofei principali:**
 
-- Più titoli ATP conquistati in carriera, prevalentemente su superfici veloci
-- Affermazioni nel circuito Challenger nelle prime stagioni da professionista
-- Miglior classifica raggiunta tra i primi del mondo
+- Nove titoli ATP, fra cui due volte l'erba di Halle e i due tornei sulla terra di Gstaad e Kitzbühel
+- Quarti di finale al Roland Garros 2025, miglior risultato nei tornei dello Slam
+- Miglior classifica: numero 10 del mondo (gennaio 2026)
 
 Al di là dei numeri, l'eredità sportiva di Bublik è legata soprattutto al modo in cui gioca. In un circuito spesso uniforme nelle soluzioni, lui ha scelto di restare fedele a un'idea personale e spettacolare del tennis, diventando un intrattenitore oltre che un competitore. È questa combinazione di talento e irriverenza a renderlo una presenza impossibile da ignorare ogni volta che scende in campo.

@@ -4,7 +4,6 @@ slug_profilo: "anastasia-zakharova"
 stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Russia"
 mano: "destro"
-rovescio: "due mani"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Anastasia Zakharova è una tennista russa cresciuta nella lunga gavetta dei circuiti minori, con un tennis aggressivo costruito sul cemento."
@@ -29,7 +28,7 @@ La sua progressione è stata quella tipica di chi accumula esperienza nelle cate
 
 ## Il suo tennis
 
-Zakharova è una giocatrice di fondo campo dal rendimento aggressivo. Il suo gioco si fonda sulla spinta da entrambi i lati, con un dritto che cerca di prendere l'iniziativa e un rovescio a due mani piatto e penetrante, usato sia per controllare lo scambio sia per cambiare improvvisamente direzione. L'impostazione è quella di chi vuole comandare il punto, imprimendo ritmo e profondità per mandare l'avversaria in difficoltà prima di chiudere.
+Zakharova è una giocatrice di fondo campo dal rendimento aggressivo. Il suo gioco si fonda sulla spinta da entrambi i lati, con un dritto che cerca di prendere l'iniziativa e un rovescio piatto e penetrante, usato sia per controllare lo scambio sia per cambiare improvvisamente direzione. L'impostazione è quella di chi vuole comandare il punto, imprimendo ritmo e profondità per mandare l'avversaria in difficoltà prima di chiudere.
 
 È un tennis che dà il meglio quando la palla viaggia tesa e veloce, con traiettorie orizzontali più che caricate di rotazione. La risposta è una fase su cui costruisce buona parte della propria pressione, cercando di entrare subito nello scambio e di non concedere tempo. Come spesso accade nei profili orientati all'attacco, la continuità resta la variabile decisiva: quando trova la giusta misura tra rischio e margine, diventa una cliente scomoda per chiunque.
 
@@ -41,6 +40,6 @@ Sulla terra battuta il discorso si complica, come per molte interpreti dello ste
 
 ## Trofei e momenti chiave
 
-Nel raccontare i risultati di Zakharova conviene muoversi con prudenza, perché la parte più consistente del suo palmarès si è formata nei circuiti minori più che nelle bacheche dei grandi tornei. La sua crescita è passata attraverso titoli e finali nei tornei di categoria inferiore, tappe che hanno nutrito progressivamente la sua posizione in classifica e la fiducia necessaria per misurarsi con avversarie di rango superiore.
+Nel raccontare i risultati di Zakharova conviene muoversi con prudenza, perché la parte più consistente del suo palmarès si è formata nei circuiti minori più che nelle bacheche dei grandi tornei: nel singolare ha vinto una quindicina di tornei ITF, mentre sul tour maggiore il primo trofeo manca ancora. La sua crescita è passata proprio attraverso titoli e finali nei tornei di categoria inferiore, tappe che hanno nutrito progressivamente la sua posizione in classifica e la fiducia necessaria per misurarsi con avversarie di rango superiore. I segnali più incoraggianti sono arrivati nel 2025, con la prima semifinale WTA a Cleveland e con i successi su Donna Vekic e Viktoria Azarenka, e nella primavera del 2026, quando è entrata tra le prime ottanta del mondo.
 
 Il momento chiave della sua carriera non va cercato in un singolo trofeo clamoroso, quanto nel salto di continuità dal circuito secondario a quello maggiore: il passaggio in cui una giocatrice smette di essere un nome che compare occasionalmente nei tabelloni e comincia a frequentarli con regolarità. È su questa soglia che si gioca la parte più significativa del suo percorso, ed è da qui che andranno misurati i prossimi capitoli.

@@ -24,23 +24,23 @@ generato_il: "2026-10-25T11:39"
 
 ## Chi è
 
-Sebastian Sorger è un tennista austriaco nato alla fine del 2005, appartenente a quella generazione che si affaccia al professionismo con pazienza, mattone dopo mattone. Non è un prodotto da copertina né un predestinato annunciato a gran voce: è piuttosto un ragazzo che ha scelto la via lunga, quella che passa dai campi secondari del circuito ITF e dai primi tabelloni Challenger, dove si forgiano davvero i giocatori destinati a durare. Cresciuto tennisticamente in un movimento, quello austriaco, che negli ultimi anni ha saputo produrre figure di rilievo, Sorger porta con sé l'impronta di una scuola che privilegia la solidità e la continuità più dell'estro improvviso.
+Sebastian Sorger è un tennista austriaco nato a Graz il 19 dicembre 2005, appartenente a quella generazione che si affaccia al professionismo con pazienza, mattone dopo mattone. Non è un prodotto da copertina né un predestinato annunciato a gran voce: è piuttosto un ragazzo che ha scelto la via lunga, quella che passa dai campi secondari del circuito ITF e dai primi tabelloni Challenger, dove si forgiano davvero i giocatori destinati a durare. Cresciuto tennisticamente in un movimento, quello austriaco, che negli ultimi anni ha saputo produrre figure di rilievo, Sorger porta con sé l'impronta di una scuola che privilegia la solidità e la continuità più dell'estro improvviso.
 
 ## Il suo tennis
 
-Il tennis di Sorger è quello tipico di un giocatore formatosi sulla terra: ordinato, paziente, costruito sulla capacità di rimanere nello scambio senza fretta. Destrimano, non dispone di una statura imponente — si aggira attorno ai 178 centimetri — e proprio per questo ha dovuto costruire il proprio rendimento sull'intelligenza tattica più che sulla potenza bruta. Il suo gioco vive della regolarità da fondo campo, della disponibilità a spostare l'avversario e a logorarlo nel corso di scambi prolungati, qualità che spiegano bene il suo buon rendimento complessivo in carriera. È il profilo del lottatore che raramente regala punti gratuiti e che fa della disciplina il proprio biglietto da visita.
+Il tennis di Sorger è quello tipico di un giocatore formatosi sulla terra: ordinato, paziente, costruito sulla capacità di rimanere nello scambio senza fretta. Destrimano, non dispone di una statura imponente (si aggira attorno ai 178 centimetri) e proprio per questo ha dovuto costruire il proprio rendimento sull'intelligenza tattica più che sulla potenza bruta. Il suo gioco vive della regolarità da fondo campo, della disponibilità a spostare l'avversario e a logorarlo nel corso di scambi prolungati, qualità che spiegano bene il suo buon rendimento complessivo in carriera. È il profilo del lottatore che raramente regala punti gratuiti e che fa della disciplina il proprio biglietto da visita.
 
 ## Sulle diverse superfici
 
-La terra battuta è, senza dubbi, il suo habitat naturale. La netta maggioranza dei suoi incontri si è giocata sul rosso, ed è lì che ha maturato la parte più consistente delle proprie vittorie: una superficie che premia la pazienza, lo scivolamento e la costruzione progressiva del punto, tutte caratteristiche che gli appartengono. Sul cemento mantiene un rendimento dignitoso, segno di un bagaglio tecnico adattabile, mentre sui campi indoor ha avuto meno occasioni di esprimersi con continuità. Resta, a oggi, un giocatore che dà il meglio di sé quando sotto i piedi ha la terra e il ritmo dello scambio può diventare la sua arma principale.
+La terra battuta è l'ambiente che più assomiglia alla sua idea di tennis: una superficie che premia la pazienza, lo scivolamento e la costruzione progressiva del punto, tutte caratteristiche che gli appartengono, e sulla quale ha costruito buona parte delle proprie vittorie. Il suo calendario, però, non si esaurisce sul rosso: i titoli conquistati in Austria, in Polonia e in Slovenia raccontano di un giocatore chiamato ad adattarsi a condizioni diverse nel giro di poche settimane. Resta, a oggi, un giocatore che dà il meglio di sé quando il ritmo dello scambio può diventare la sua arma principale.
 
 ## Trofei e momenti chiave
 
-Il percorso di Sorger è ancora nella sua fase di costruzione, fatta di tappe graduali più che di exploit clamorosi. Nel circuito ITF ha già saputo conquistare alcuni titoli, risultati preziosi per un giocatore giovane che deve accumulare fiducia e punti per scalare la classifica.
+Il percorso di Sorger è ancora nella sua fase di costruzione, fatta di tappe graduali più che di exploit clamorosi. Il primo titolo ITF è arrivato nel luglio del 2025, al M15 di Telfs, in casa; il 2026 ha portato il salto di categoria, con le affermazioni nei tornei M25 di Pszczyna, in Polonia, a fine febbraio e di Slovenj Gradec, in Slovenia, in agosto, oltre a un ulteriore successo a Bolzano. Sono risultati preziosi per un giocatore giovane che deve accumulare fiducia e punti per scalare la classifica.
 
 **Trofei principali**
 
-- Alcuni titoli nel circuito ITF (eventi di categoria professionistica minore)
-- Primi ingressi nei tabelloni Challenger nel corso della stagione più recente
+- Primo titolo ITF al M15 di Telfs (luglio 2025)
+- Titoli ITF di categoria M25 nel corso del 2026, fra cui Pszczyna e Slovenj Gradec
 
-Il momento chiave della sua ancora breve carriera coincide con l'avvicinamento alle prime centinaia della classifica mondiale, traguardo che segna il passaggio da promessa a giocatore da seguire con attenzione. Per un classe 2005 è un punto di partenza incoraggiante: la direzione è quella giusta, e il margine di crescita resta ampio.
+Il momento chiave della sua ancora breve carriera coincide con un best ranking che lo ha portato nei dintorni della quattrocentesima posizione mondiale, traguardo che segna il passaggio da promessa a giocatore da seguire con attenzione. Per un classe 2005 è un punto di partenza incoraggiante: la direzione è quella giusta, e il margine di crescita resta ampio.

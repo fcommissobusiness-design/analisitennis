@@ -1,6 +1,6 @@
 ---
 titolo: "Musetti e Tiafoe a Vienna: settima puntata di una saga"
-sottotitolo: "Italiano e statunitense si ritrovano sul veloce indoor austriaco dopo sei precedenti e un bilancio che racconta una rivalita' vera."
+sottotitolo: "Italiano e statunitense si ritrovano sul veloce indoor austriaco dopo sei precedenti e un bilancio che racconta una rivalità vera."
 data: "2026-10-28"
 autore: "Redazione AnalisiTennis"
 torneo: "Vienna"
@@ -16,7 +16,7 @@ tag:
   - "cemento indoor"
   - "primo turno"
   - "pronostico tennis"
-verdetto: "Match da terzo set senza un favorito netto: i precedenti dicono Tiafoe, avanti quattro a due e piu' a suo agio sul veloce, ma Musetti arriva dal titolo di Lione e da una fiducia ritrovata al coperto. Lo scenario piu' plausibile e' un 2-1 deciso nel finale."
+verdetto: "Match da terzo set senza un favorito netto: i precedenti dicono Tiafoe, avanti quattro a due e più a suo agio sul veloce, ma Musetti arriva dal titolo di Lione e da una fiducia ritrovata al coperto. Lo scenario più plausibile è un 2-1 deciso nel finale."
 descrizione: "Musetti sfida Tiafoe al primo turno di Vienna sul cemento indoor: sei precedenti divisi, forma recente e stile di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-l-musetti-vs-f-tiafoe-vienna-pronostico-analisi.jpg"

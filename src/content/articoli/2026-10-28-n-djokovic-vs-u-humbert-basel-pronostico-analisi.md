@@ -16,7 +16,7 @@ tag:
   - "cemento indoor"
   - "primo turno"
   - "pronostico tennis"
-verdetto: "Oggi nettamente Djokovic: il divario di forma e' ampio, con il serbo reduce da una semifinale a Wimbledon e dal successo su Zverev, mentre Humbert arriva da due vittorie nelle ultime nove. Al francese servira' una giornata perfetta al servizio."
+verdetto: "Oggi nettamente Djokovic: il divario di forma è ampio, con il serbo reduce da una semifinale a Wimbledon e dal successo su Zverev, mentre Humbert arriva da due vittorie nelle ultime nove. Al francese servirà una giornata perfetta al servizio."
 descrizione: "Djokovic sfida Humbert al primo turno di Basilea sul cemento indoor: nessun precedente, forma recente e stile di gioco a confronto."
 pubblicato: true
 generato_il: "2026-10-28T08:55"

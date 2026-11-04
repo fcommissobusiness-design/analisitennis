@@ -6,10 +6,10 @@ data_nascita: "2009-06-12"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "aggressività da fondo e grande maturità tattica"
-titoli: "titoli a livello ITF, tra cui un titolo W35, e un percorso di crescita dalle categorie giovanili"
+titoli: "primo titolo ITF W35 a Lagos nel 2026, in singolare e in doppio"
 altezza: "175 cm"
 categoria: "WTA"
-superficie_preferita: "terra"
+superficie_preferita: "cemento"
 intro: "Maaya Rajeshwaran Revathi è una delle promesse più luminose del tennis indiano: giovanissima, già capace di imporsi nel professionismo con personalità."
 descrizione: "Profilo di Maaya Rajeshwaran Revathi, giovane tennista indiana in rapida ascesa dal circuito giovanile al professionismo WTA."
 tag:
@@ -18,7 +18,7 @@ tag:
   - "tennis India"
   - "WTA"
   - "promesse tennis"
-  - "terra battuta"
+  - "cemento"
   - "tennis femminile"
 pubblicato: true
 generato_il: "2026-11-03T11:08"
@@ -28,7 +28,7 @@ generato_il: "2026-11-03T11:08"
 
 Maaya Rajeshwaran Revathi è una tennista indiana nata il 12 giugno 2009 a Coimbatore, nel Tamil Nadu. Nonostante l'età ancora acerba, è già considerata una delle prospettive più interessanti del movimento indiano, un Paese che negli ultimi anni ha faticato a esprimere giovani di talento nel settore femminile. La sua formazione ha un respiro internazionale: ha lavorato alla Rafa Nadal Academy in Spagna e si è poi perfezionata in Francia, all'Elite Tennis Centre di Cannes, due ambienti che hanno plasmato la sua impostazione tecnica e la sua mentalità professionistica fin da adolescente.
 
-Il suo percorso è quello classico di chi brucia le tappe: prima i piani alti delle classifiche giovanili, poi l'ingresso progressivo nel professionismo, con il passaggio tra i professionisti che si colloca nelle sue primissime stagioni sul circuito maggiore.
+Il suo percorso è quello classico di chi brucia le tappe: prima la scalata fino alle prime sessanta posizioni della classifica juniores, poi il passaggio al professionismo nel 2025, quando aveva appena sedici anni.
 
 ## Il suo tennis
 
@@ -38,7 +38,7 @@ La sensazione, osservando il suo tennis, è quella di una giocatrice che non viv
 
 ## Sulle diverse superfici
 
-La sua formazione affonda le radici nei principi del gioco su terra battuta, superficie che premia la pazienza e la capacità di spostare l'avversaria, qualità che le appartengono. Al tempo stesso ha mostrato di sapersi adattare anche al cemento, dove la sua capacità di prendere l'iniziativa trova spazio.
+Finora i risultati che contano sono arrivati tutti sul cemento, la superficie più diffusa in India e nei tornei che ha frequentato: sul veloce ha vinto il primo titolo da professionista e ha ottenuto i suoi migliori piazzamenti. La formazione europea, tra Spagna e Francia, le ha però lasciato in dote anche i principi del gioco su terra battuta, superficie che premia la pazienza e la capacità di spostare l'avversaria.
 
 Trattandosi di una giocatrice ancora giovanissima, il suo rendimento sulle varie superfici è in piena evoluzione: sarebbe prematuro cristallizzare un giudizio definitivo, ma la base tecnica suggerisce una buona versatilità più che una dipendenza da un unico fondo.
 
@@ -46,8 +46,9 @@ Trattandosi di una giocatrice ancora giovanissima, il suo rendimento sulle varie
 
 Il cammino di Revathi è ancora all'inizio, ma ha già lasciato segnali concreti del suo potenziale:
 
-- Un titolo in singolare a livello ITF W35, risultato che ne ha certificato la precocità sul piano professionistico.
-- Un percorso di rilievo nelle categorie giovanili, con l'ingresso tra le migliori del ranking juniores internazionale.
-- Buoni piazzamenti in tornei di categoria superiore, affrontati spesso da nettamente più giovane rispetto alle avversarie.
+- Il primo titolo da professionista nell'ottobre 2026, al W35 di Lagos in Portogallo, dove si è imposta anche nel doppio.
+- La semifinale al WTA 125 di Mumbai nel 2025, raggiunta da qualificata con una wild card.
+- La prima vittoria in un tabellone principale WTA, al Chennai Open 2026 contro Katarzyna Kawa, rimontando da 2-5 nel terzo set.
+- Nelle categorie giovanili, l'ingresso tra le prime sessanta del ranking juniores e la semifinale di doppio allo US Open 2026.
 
 Al di là dei singoli trofei, il dato più significativo resta la rapidità della sua ascesa: pochi giovani riescono a tradurre così presto le promesse del settore giovanile in risultati tra le professioniste. Per questo il suo nome è ormai stabilmente tra quelli da seguire nel panorama del tennis indiano e, in prospettiva, internazionale.

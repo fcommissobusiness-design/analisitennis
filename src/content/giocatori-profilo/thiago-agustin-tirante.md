@@ -37,16 +37,16 @@ Le sue qualità migliori emergono quando può dettare i tempi dello scambio: mov
 
 La terra rossa resta il suo habitat naturale: è lì che il suo tennis di consistenza e di gambe trova la cornice ideale, ed è sulla terra che ha raccolto le soddisfazioni più significative della carriera. Il ritmo più lento della superficie amplifica le sue virtù di regolarista e attenua la mancanza di una potenza devastante.
 
-Sul cemento il discorso si fa più complesso, come accade spesso ai giocatori di estrazione terraiola. Le superfici rapide riducono i tempi di preparazione e premiano chi comanda fin dai primi colpi dello scambio, un contesto in cui Tirante deve adattare il proprio approccio e aggiungere aggressività alla sua natura di attendista. È un terreno di crescita, più che un punto di forza consolidato, e rappresenta uno dei fronti su cui si misura la sua maturazione.
+Sul cemento il discorso è stato per anni più complesso, come accade spesso ai giocatori di estrazione terraiola: le superfici rapide riducono i tempi di preparazione e premiano chi comanda fin dai primi colpi dello scambio. Proprio su quel fondo, però, è arrivata la svolta della sua carriera, con i quarti di finale del Masters 1000 di Cincinnati nel 2026, preceduti dal quarto turno di Montreal. Un segnale di maturazione che ha reso il suo tennis meno prevedibile e meno legato a una sola superficie.
 
 ## Trofei e momenti chiave
 
-La carriera di Tirante si è costruita soprattutto nel circuito Challenger, dove ha messo insieme risultati di rilievo sulla terra battuta, la superficie che gli ha permesso di scalare le classifiche e di guadagnarsi l'accesso stabile ai tornei del tour maggiore.
+La carriera di Tirante si è costruita soprattutto nel circuito Challenger, dove ha messo insieme sei titoli, in buona parte sulla terra battuta, la superficie che gli ha permesso di scalare le classifiche e di guadagnarsi l'accesso stabile ai tornei del tour maggiore. Nel circuito maggiore non è ancora arrivato un trofeo, ma nel 2026 è salito fino alle prime cinquanta posizioni del mondo, firmando vittorie di prestigio contro avversari di vertice.
 
 **Tappe principali:**
 
-- Affermazione nel circuito Challenger, con diversi acuti sulla terra rossa
-- Ingresso nelle prime posizioni che contano del ranking mondiale
-- Progressivo inserimento nei tabelloni dei tornei ATP e delle prove dello Slam
+- Sei titoli nel circuito Challenger, con diversi acuti sulla terra rossa
+- Ingresso nelle prime cinquanta posizioni del ranking mondiale nel 2026
+- Terzo turno al Roland Garros e quarti di finale al Masters 1000 di Cincinnati nel 2026
 
 Al di là dei singoli trofei, il momento più significativo del suo percorso è il salto di categoria: il passaggio da giocatore di Challenger a protagonista del circuito maggiore. È la fase in cui il lavoro degli anni di gavetta ha iniziato a dare i frutti più concreti, confermando Tirante come uno dei rappresentanti della continuità argentina sulla terra battuta.

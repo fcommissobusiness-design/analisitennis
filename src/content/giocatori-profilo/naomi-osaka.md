@@ -6,7 +6,7 @@ data_nascita: "1997-10-16"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio potente e aggressione da fondo con il dritto"
-titoli: "quattro titoli dello Slam, tutti sul cemento, ed ex numero 1 del mondo"
+titoli: "quattro titoli dello Slam, tutti sul cemento, sette titoli WTA ed ex numero 1 del mondo"
 altezza: "180 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:46"
 
 ## Chi è
 
-Naomi Osaka è una delle tenniste che hanno segnato più in profondità il circuito femminile dell'ultimo decennio. Nata a Osaka, in Giappone, da madre giapponese e padre haitiano, è cresciuta negli Stati Uniti, dove ha costruito buona parte del proprio percorso tecnico. Rappresenta il Giappone ed è stata la prima tennista asiatica a raggiungere la vetta del ranking mondiale in singolare, un traguardo che da solo racconta la portata della sua affermazione.
+Naomi Osaka è una delle tenniste che hanno segnato più in profondità il circuito femminile dell'ultimo decennio. Nata a Osaka, in Giappone, il 16 ottobre 1997, da madre giapponese e padre haitiano, è cresciuta negli Stati Uniti, dove ha costruito buona parte del proprio percorso tecnico. Rappresenta il Giappone ed è stata la prima tennista asiatica a raggiungere la vetta del ranking mondiale in singolare, nel gennaio del 2019, un traguardo che da solo racconta la portata della sua affermazione.
 
 Il suo arrivo tra le grandi non è stato graduale ma improvviso: dopo stagioni di maturazione, nel giro di pochi mesi Osaka è passata dalla cerchia delle promesse a quella delle giocatrici capaci di vincere i tornei più importanti. Da allora il suo nome è stabilmente associato ai vertici del movimento, pur con alti e bassi legati anche alla gestione della pressione e della continuità lungo l'intera stagione.
 
@@ -40,7 +40,7 @@ Da fondo campo cerca di prendere l'iniziativa il più presto possibile, soprattu
 
 La superficie su cui Osaka ha espresso il meglio di sé è il cemento, campo che esalta la combinazione fra servizio e aggressione immediata. Su questo tipo di campi ha conquistato i risultati più prestigiosi e ha mostrato la versione più completa e dominante del proprio gioco, sia all'aperto sia nelle condizioni più rapide.
 
-Sulla terra battuta il rendimento è stato storicamente meno brillante: i tempi di gioco più lunghi e la necessità di costruire con pazienza il punto si sposano meno naturalmente con un tennis costruito sulla rapidità e sulla potenza. Anche sull'erba il suo cammino nei grandi appuntamenti è risultato più discontinuo. Resta, in ogni caso, una giocatrice il cui marchio di fabbrica è legato al cemento, dove la sua potenza trova la cornice ideale.
+Sulla terra battuta il rendimento è stato storicamente meno brillante: i tempi di gioco più lunghi e la necessità di costruire con pazienza il punto si sposano meno naturalmente con un tennis fondato sulla rapidità e sulla potenza. Anche sul rosso, però, qualcosa si è mosso di recente, con il primo titolo in carriera su questa superficie, un WTA 125 a Saint-Malo nel 2025, e il quarto turno del Roland Garros 2026. L'erba, a lungo il capitolo più discontinuo del suo percorso, le ha regalato nel 2026 i quarti di finale di Wimbledon, miglior risultato nel torneo londinese, oltre a una finale sull'erba tedesca di Bad Homburg. Resta, in ogni caso, una giocatrice il cui marchio di fabbrica è legato al cemento, dove la sua potenza trova la cornice ideale.
 
 ## Trofei e momenti chiave
 
@@ -50,6 +50,7 @@ Il cuore del palmarès di Naomi Osaka è rappresentato dai quattro titoli dello 
 
 - US Open (2018 e 2020)
 - Australian Open (2019 e 2021)
-- Posizione numero 1 del ranking mondiale raggiunta nell'arco della carriera
+- Sette titoli WTA complessivi in singolare
+- Numero 1 del ranking mondiale, raggiunto per la prima volta il 28 gennaio 2019
 
 Oltre ai titoli, il percorso di Osaka è stato segnato da alcuni momenti che ne hanno fatto una figura discussa anche fuori dal campo, dalla gestione della pressione mediatica alle scelte legate al proprio benessere. Sono passaggi che hanno accompagnato la sua maturazione e che continuano a rendere la sua parabola una delle più seguite del tennis contemporaneo.

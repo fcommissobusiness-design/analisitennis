@@ -6,7 +6,7 @@ data_nascita: "1987-08-08"
 mano: "destro"
 rovescio: "una mano"
 stile_gioco: "slice insistito, varietà e frequenti discese a rete"
-titoli: "alcuni titoli WTA e una semifinale di Wimbledon, oltre a numerosi successi nei tornei minori"
+titoli: "quattro titoli WTA e la semifinale di Wimbledon 2022, oltre a numerosi successi nei tornei minori"
 categoria: "WTA"
 superficie_preferita: "erba"
 intro: "Tedesca dal gioco anticonvenzionale, fatto di slice e varietà, Tatjana Maria è tornata ai vertici dopo la maternità fino a una semifinale di Wimbledon."
@@ -41,6 +41,6 @@ Anche la terra battuta, però, le ha regalato soddisfazioni importanti: il ritmo
 
 ## Trofei e momenti chiave
 
-Il momento che ha definito la sua carriera agli occhi del grande pubblico è stata la corsa fino alle semifinali di Wimbledon, un risultato che ha reso evidente quanto il suo tennis anticonvenzionale potesse spingersi in alto nei tornei che contano. A livello WTA ha saputo conquistare alcuni titoli, dando sostanza a un percorso fatto di continuità e longevità più che di exploit isolati, con numerosi successi anche nei tornei del circuito minore lungo gli anni.
+Il momento che ha definito la sua carriera agli occhi del grande pubblico è stata la corsa fino alle semifinali di Wimbledon nel 2022, un risultato che ha reso evidente quanto il suo tennis anticonvenzionale potesse spingersi in alto nei tornei che contano. A livello WTA ha conquistato quattro titoli, dal primo successo a Maiorca nel 2018 ai due trofei di Bogotà, fino al torneo sull'erba del Queen's nel 2025, il più prestigioso della sua carriera. Nel luglio 2025, a quasi trentotto anni, ha inoltre toccato il suo miglior piazzamento in classifica, dando sostanza a un percorso fatto di continuità e longevità più che di exploit isolati.
 
 Al di là dei trofei, il lascito di Maria sta nell'aver dimostrato che si può restare ad altissimo livello conciliando la maternità con l'agonismo, e che un'identità tecnica netta e personale resta un valore anche in un tennis sempre più uniformato.

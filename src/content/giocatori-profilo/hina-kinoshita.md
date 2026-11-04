@@ -3,10 +3,9 @@ nome: "Hina Kinoshita"
 slug_profilo: "hina-kinoshita"
 stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Giappone"
-mano: "destro"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Hina Kinoshita rappresenta la nuova leva del tennis femminile giapponese, cresciuta nei circuiti minori con l'ambizione di stabilizzarsi ai piani alti del tour."
+intro: "Hina Kinoshita appartiene alla leva del tennis femminile giapponese cresciuta nei circuiti minori, con l'ambizione di stabilizzarsi ai piani alti del tour."
 descrizione: "Profilo editoriale di Hina Kinoshita: il percorso della tennista giapponese, il suo stile di gioco e il rendimento sulle diverse superfici."
 tag:
   - "Hina Kinoshita"
@@ -16,7 +15,7 @@ tag:
   - "WTA"
   - "tennis femminile"
   - "cemento"
-pubblicato: true
+pubblicato: false
 generato_il: "2026-10-25T11:16"
 ---
 
@@ -40,6 +39,6 @@ Sulle superfici più lente il suo tennis di rimessa può trovare ulteriore spazi
 
 ## Trofei e momenti chiave
 
-Il percorso di Kinoshita si è costruito finora soprattutto nei circuiti di sviluppo, dove ha accumulato l'esperienza necessaria per misurarsi con avversarie di livello crescente. In questa fase della carriera i risultati vanno letti non tanto attraverso i singoli titoli, quanto come tappe di un cammino di maturazione ancora aperto.
+Il percorso di Kinoshita si è costruito finora soprattutto nei circuiti di sviluppo, dove ha accumulato l'esperienza necessaria per misurarsi con avversarie di livello crescente. In questa fase della carriera i risultati vanno letti non tanto attraverso i singoli titoli, quanto come tappe di un cammino di maturazione ancora aperto: non ci sono traguardi di assoluto rilievo da attribuirle, e sarebbe scorretto costruirne di immaginari.
 
 Per una giocatrice del suo profilo, i momenti chiave coincidono con la capacità di trasformare le buone prestazioni nei tornei minori in una presenza sempre più stabile ai livelli superiori. È su questa continuità che si gioca il futuro di Hina Kinoshita: la conferma, stagione dopo stagione, di poter appartenere al grande tennis femminile internazionale.

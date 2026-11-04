@@ -2,11 +2,11 @@
 nome: "Jil Teichmann"
 slug_profilo: "j-teichmann"
 nazionalita: "Svizzera"
-data_nascita: "1997-05-15"
+data_nascita: "1997-07-15"
 mano: "mancino"
 rovescio: "due mani"
 stile_gioco: "tennis mancino da fondo, varietà di angoli e rotazioni"
-titoli: "due titoli WTA sulla terra battuta e una finale di rilievo sul cemento"
+titoli: "due titoli WTA sulla terra battuta (Praga e Palermo 2019), la finale di Cincinnati 2021 e il best ranking di numero 21 del mondo"
 categoria: "WTA"
 superficie_preferita: "terra"
 intro: "Mancina cresciuta in Spagna e portabandiera del tennis svizzero, Jil Teichmann unisce solidità da fondo e angoli insoliti: un gioco che si esalta sulla terra battuta."
@@ -33,14 +33,15 @@ Il suo gioco ruota attorno alla mano sinistra, una caratteristica che da sempre 
 
 ## Sulle diverse superfici
 
-La terra battuta è il terreno su cui ha mosso i primi passi importanti e resta la superficie che ne esalta le caratteristiche: il tempo in più per preparare i colpi e l'efficacia delle rotazioni mancine sposano bene il suo tennis. Ciò non significa che sul cemento sia meno competitiva — anzi, proprio sui campi veloci è arrivata una delle sue prestazioni più prestigiose — ma è sul rosso che il suo repertorio trova la cornice più naturale. Sull'erba, come accade a molte giocatrici di impostazione analoga, l'adattamento richiede più tempo e la resa tende a essere meno continua.
+La terra battuta è il terreno su cui ha mosso i primi passi importanti e resta la superficie che ne esalta le caratteristiche: il tempo in più per preparare i colpi e l'efficacia delle rotazioni mancine sposano bene il suo tennis. Ciò non significa che sul cemento sia meno competitiva: anzi, proprio sui campi veloci è arrivata una delle sue prestazioni più prestigiose, ma è sul rosso che il suo repertorio trova la cornice più naturale. Sull'erba, come accade a molte giocatrici di impostazione analoga, l'adattamento richiede più tempo e la resa tende a essere meno continua.
 
 ## Trofei e momenti chiave
 
-I traguardi più noti della sua carriera arrivano nel 2019, stagione in cui conquista i suoi primi titoli WTA sulla terra battuta, confermando la vocazione per la superficie. Il momento di maggiore visibilità, però, coincide con la corsa alla finale in un importante torneo sul cemento nordamericano nel 2021, percorso che la proietta fino a lambire le prime venti del ranking mondiale, suo miglior piazzamento in carriera. Attorno a questi exploit si colloca una carriera fatta di presenze regolari nei tornei più importanti e della ricerca costante di quella brillantezza che, nelle giornate migliori, le consente di mettere in difficoltà anche le avversarie più quotate.
+I traguardi più noti della sua carriera arrivano nel 2019, stagione in cui conquista i suoi due titoli WTA sulla terra battuta: prima a Praga, in finale su Karolína Muchová, poi a Palermo contro Kiki Bertens. Il momento di maggiore visibilità coincide invece con il 2021, quando da wild card raggiunge la finale di Cincinnati, fermata soltanto dalla numero uno del mondo Ashleigh Barty. Quella stagione apre la strada al suo miglior piazzamento in carriera, il numero 21 del ranking toccato nel luglio 2022. Attorno a questi exploit si colloca una carriera fatta di presenze regolari nei tornei più importanti, di buoni risultati anche in doppio e della ricerca costante di quella brillantezza che, nelle giornate migliori, le consente di mettere in difficoltà anche le avversarie più quotate.
 
 ### Trofei principali
 
-- Due titoli WTA conquistati sulla terra battuta (2019)
-- Finale in un torneo WTA di primo piano sul cemento (2021)
-- Miglior ranking in carriera nei pressi delle prime venti del mondo
+- Due titoli WTA sulla terra battuta: Praga e Palermo (2019)
+- Finale al torneo di Cincinnati (2021)
+- Due titoli WTA in doppio, ad Amburgo (2021) e a Cluj (2023)
+- Best ranking: numero 21 del mondo (luglio 2022)

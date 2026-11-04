@@ -1,7 +1,7 @@
 ---
 nome: "Alexander Zverev"
 slug_profilo: "alexander-zverev"
-titoli: "Oro olimpico 2021, piu' Masters 1000, finalista Slam"
+titoli: "Roland Garros e US Open 2026, oro olimpico 2021, numero 1 del mondo"
 stile_gioco: "Servizio potente e scambio da fondo con rovescio bimane molto solido"
 nazionalita: "Germania"
 data_nascita: "1997-04-20"
@@ -10,8 +10,8 @@ rovescio: "due mani"
 altezza: "198 cm"
 categoria: "ATP"
 superficie_preferita: "indoor"
-intro: "Alexander Zverev è da anni uno dei pilastri del tennis tedesco e mondiale: fisico imponente, servizio devastante e una costanza che l'ha portato ai vertici del ranking."
-descrizione: "Profilo di Alexander Zverev: il tennista tedesco dal grande servizio, oro olimpico e tra i migliori interpreti del circuito ATP sul cemento e indoor."
+intro: "Alexander Zverev è da anni uno dei pilastri del tennis tedesco e mondiale: fisico imponente, servizio devastante e una costanza che nel 2026 l'ha portato in cima al ranking."
+descrizione: "Profilo di Alexander Zverev: il tennista tedesco dal grande servizio, oro olimpico, campione Slam nel 2026 e numero uno del ranking ATP."
 tag:
   - "Alexander Zverev"
   - "Zverev"
@@ -27,7 +27,7 @@ generato_il: "2026-10-27T12:29"
 
 ## Chi è
 
-Alexander Zverev, per tutti "Sascha", è nato ad Amburgo nel 1997 in una famiglia profondamente legata al tennis: il padre, ex giocatore, è stato per anni il suo punto di riferimento tecnico, e anche il fratello maggiore ha avuto una carriera da professionista. Cresciuto in questo ambiente, Zverev si è imposto molto presto come uno dei più grandi talenti della sua generazione, bruciando le tappe e affacciandosi ai piani alti del circuito ancora giovanissimo. Da lì è diventato per lunghi tratti il principale rappresentante del tennis tedesco maschile, capace di stabilizzarsi tra i primissimi del ranking mondiale e di arrivare fino alla seconda posizione.
+Alexander Zverev, per tutti "Sascha", è nato ad Amburgo nel 1997 in una famiglia profondamente legata al tennis: il padre, ex giocatore, è stato per anni il suo punto di riferimento tecnico, e anche il fratello maggiore ha avuto una carriera da professionista. Cresciuto in questo ambiente, Zverev si è imposto molto presto come uno dei più grandi talenti della sua generazione, bruciando le tappe e affacciandosi ai piani alti del circuito ancora giovanissimo. Da lì è diventato per lunghi tratti il principale rappresentante del tennis tedesco maschile, capace di stabilizzarsi tra i primissimi del ranking mondiale e di arrivare, nel novembre del 2026, fino alla prima posizione.
 
 ## Il suo tennis
 
@@ -39,19 +39,20 @@ Nelle prime stagioni sul tour maggiore il suo tennis appariva talvolta troppo pa
 
 Zverev ha dimostrato di sapersi esprimere ad alto livello praticamente ovunque, ma è sul cemento e soprattutto al coperto che il suo tennis trova la sintonia migliore: le condizioni veloci e controllate degli indoor esaltano il servizio e la profondità dei suoi colpi, e non a caso è in questo contesto che ha firmato alcuni dei suoi risultati più prestigiosi.
 
-Non va però sottovalutato il suo rendimento sulla terra battuta, dove la pazienza negli scambi e la resistenza fisica lo rendono competitivo nei tornei più importanti della stagione europea, come confermano le finali e i titoli raccolti su questa superficie. L'erba, al contrario, è rimasta storicamente la superficie su cui ha faticato maggiormente a trovare continuità.
+Non va però sottovalutato il suo rendimento sulla terra battuta, dove la pazienza negli scambi e la resistenza fisica lo rendono competitivo nei tornei più importanti della stagione europea: lo confermano i due titoli di Madrid, quelli di Monaco di Baviera e, soprattutto, il Roland Garros vinto nel 2026. L'erba è stata a lungo la superficie su cui ha faticato maggiormente a trovare continuità, un ritardo colmato almeno in parte dalla finale raggiunta a Wimbledon nel 2026.
 
 ## Trofei e momenti chiave
 
-La carriera di Zverev è costellata di traguardi che lo collocano stabilmente nell'élite del tennis maschile. Il momento simbolo è senza dubbio la medaglia d'oro olimpica conquistata nel singolare, un traguardo che porta con sé un valore sportivo e personale enorme. A questo si aggiungono i successi nel torneo di fine anno che riunisce i migliori del circuito, vinto in più di un'occasione, e una lunga serie di affermazioni nei grandi tornei Masters.
+La carriera di Zverev è costellata di traguardi che lo collocano stabilmente nell'élite del tennis maschile. Per anni il momento simbolo è stata la medaglia d'oro olimpica conquistata nel singolare a Tokyo nel 2021, un traguardo dal valore sportivo e personale enorme, affiancato dai due successi nel torneo di fine anno che riunisce i migliori del circuito, vinto nel 2018 e nel 2021, e da sette affermazioni nei tornei Masters 1000.
 
-Nel suo percorso non sono mancate le finali nei tornei del Grande Slam, nelle quali si è presentato da protagonista pur senza ancora riuscire a sollevare il trofeo. Sono proprio questi appuntamenti a rappresentare il capitolo che il tedesco insegue con maggiore determinazione, forte di un bagaglio di esperienza ormai notevole.
+Il capitolo che a lungo gli era mancato si è aperto nel 2026. Dopo quattro finali Slam perse (US Open 2020, Roland Garros 2024, Australian Open 2025 e Wimbledon 2026) il tedesco ha sollevato il suo primo trofeo del Grande Slam sulla terra del Roland Garros, battendo in cinque set Flavio Cobolli, e ha completato l'annata vincendo anche gli US Open a spese di Ben Shelton. Quella doppietta lo ha portato per la prima volta in cima al ranking mondiale.
 
 I suoi trofei principali comprendono, in sintesi:
 
-- **Oro olimpico** nel singolare
-- **Titoli nelle ATP Finals** di fine stagione
-- **Numerosi titoli Masters 1000**
-- **Finali nei tornei del Grande Slam**
+- **Roland Garros 2026** e **US Open 2026**, i primi titoli dello Slam
+- **Oro olimpico** nel singolare a Tokyo 2021
+- **Due titoli nelle ATP Finals** di fine stagione (2018 e 2021)
+- **Sette titoli Masters 1000**
+- **Numero uno del ranking mondiale**
 
 Resta uno dei giocatori più solidi e riconoscibili del panorama internazionale, un atleta che unisce potenza, continuità e ambizione.

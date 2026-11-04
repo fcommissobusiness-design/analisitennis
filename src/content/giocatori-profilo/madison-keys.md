@@ -6,7 +6,7 @@ data_nascita: "1995-02-17"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio pesante e dritto d'attacco da fondo"
-titoli: "diversi titoli WTA e un titolo dello Slam"
+titoli: "undici titoli WTA, l'Australian Open 2025 e il numero 5 del mondo"
 altezza: "178 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -38,18 +38,19 @@ Il suo gioco verticale, costruito sull'aggressività, ha il rovescio della medag
 
 ## Sulle diverse superfici
 
-Il cemento è l'habitat naturale di Madison Keys. Su questa superficie la rapidità del rimbalzo esalta la potenza del servizio e del dritto, e non è un caso che i suoi risultati più significativi siano arrivati proprio sui campi veloci, sia all'aperto sia al coperto. L'erba, per caratteristiche simili di velocità, le si adatta altrettanto bene: il suo tennis d'attacco trova sul verde un terreno congeniale, premiando il suo coraggio nel prendere l'iniziativa. La terra battuta resta invece la superficie più complessa per il suo stile: il rimbalzo più alto e gli scambi più lunghi tendono a ridurre l'efficacia dei suoi colpi vincenti, anche se la sua struttura atletica le ha comunque permuto di ottenere buoni risultati anche sul rosso.
+Il cemento è l'habitat naturale di Madison Keys. Su questa superficie la rapidità del rimbalzo esalta la potenza del servizio e del dritto, e non è un caso che i suoi risultati più significativi siano arrivati proprio sui campi veloci, sia all'aperto sia al coperto. L'erba, per caratteristiche simili di velocità, le si adatta altrettanto bene: il suo tennis d'attacco trova sul verde un terreno congeniale, premiando il suo coraggio nel prendere l'iniziativa. La terra battuta resta invece la superficie più complessa per il suo stile: il rimbalzo più alto e gli scambi più lunghi tendono a ridurre l'efficacia dei suoi colpi vincenti, anche se la sua struttura atletica le ha comunque permesso di ottenere buoni risultati anche sul rosso, dalla semifinale del Roland Garros 2018 ai quarti del 2025.
 
 ## Trofei e momenti chiave
 
-La carriera di Keys ai vertici del circuito è stata lunga e regolare, con una presenza stabile nelle prime posizioni della classifica mondiale e diversi titoli WTA conquistati nel corso delle stagioni. Per anni è stata una delle protagoniste più attese degli appuntamenti dello Slam, arrivando a giocarsi le fasi decisive dei tornei più importanti e vivendo anche la delusione di una finale major sfumata.
+La carriera di Keys ai vertici del circuito è stata lunga e regolare, con undici titoli WTA conquistati nel corso delle stagioni e una presenza quasi ininterrotta nelle prime trenta posizioni della classifica mondiale. Per anni è stata una delle protagoniste più attese degli appuntamenti dello Slam, arrivando a giocarsi le fasi decisive dei tornei più importanti e vivendo anche la delusione di una finale major sfumata, quella dello US Open 2017.
 
-Il coronamento di questo percorso è arrivato con la conquista di un titolo dello Slam, traguardo che ha dato senso pieno a una carriera costruita sul talento e sulla perseveranza, trasformando la promessa degli esordi in una certezza del tennis mondiale.
+Il coronamento di questo percorso è arrivato nel gennaio del 2025 a Melbourne, con la conquista dell'Australian Open: in quel tabellone ha battuto nell'ordine la numero 2 del mondo Iga Świątek in semifinale e la numero 1 Aryna Sabalenka in finale. Poche settimane dopo ha toccato il proprio best ranking, il numero 5 del mondo. Un traguardo che ha dato senso pieno a una carriera costruita sul talento e sulla perseveranza, trasformando la promessa degli esordi in una certezza del tennis mondiale.
 
 ### Trofei principali
 
-- Diversi titoli WTA
-- Un titolo dello Slam
-- Stabile presenza nelle posizioni di vertice della classifica mondiale
+- Australian Open 2025, primo titolo dello Slam
+- Undici titoli WTA, fra cui tre volte Eastbourne
+- Finalista allo US Open 2017 e semifinalista al Roland Garros 2018
+- Best ranking: numero 5 del mondo, febbraio 2025
 
 Madison Keys resta oggi una delle interpreti più riconoscibili del tennis di potenza, un'atleta il cui nome continua a evocare l'immagine di un dritto scagliato senza timori verso la riga avversaria.

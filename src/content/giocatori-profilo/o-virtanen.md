@@ -5,7 +5,7 @@ nazionalita: "Finlandia"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio potente e iniziativa aggressiva col dritto"
-titoli: "alcuni titoli nel circuito Challenger e un ruolo nella nazionale finlandese di Coppa Davis"
+titoli: "otto titoli nel circuito Challenger, best ranking numero 91, e un ruolo nella nazionale finlandese di Coppa Davis"
 categoria: "ATP"
 superficie_preferita: "cemento"
 intro: "Il tennista finlandese Otto Virtanen si è ritagliato uno spazio nel circuito maggiore a colpi di servizio, imponendosi come una delle speranze del movimento del suo Paese."
@@ -37,4 +37,4 @@ Come molti giocatori cresciuti nel Nord Europa, Virtanen trova sul cemento e nei
 
 ## Trofei e momenti chiave
 
-Sul piano dei risultati, la carriera di Virtanen si è nutrita soprattutto dei successi maturati nel circuito Challenger, i tornei che gli hanno permesso di accumulare punti e fiducia e di avvicinare le posizioni che contano della classifica mondiale. Accanto al percorso individuale va ricordato il contributo in Coppa Davis con la Finlandia, nazionale che proprio negli ultimi anni ha vissuto le sue pagine più prestigiose, spingendosi fino alle fasi finali della competizione: in quel contesto Virtanen ha avuto modo di misurarsi con avversari di primo piano, in match dal forte peso specifico. Senza inseguire numeri che non gli appartengono, il suo bilancio è quello di un giocatore che si è conquistato sul campo il diritto di stare tra i professionisti del tour, con la prospettiva di consolidare quanto di buono ha già mostrato.
+Sul piano dei risultati, la carriera di Virtanen si è nutrita soprattutto dei successi maturati nel circuito Challenger, dove ha raccolto otto titoli in singolare: i tornei che gli hanno permesso di accumulare punti e fiducia e di avvicinare le posizioni che contano della classifica mondiale, fino al best ranking di numero 91 del mondo toccato nel novembre del 2024. Nei tornei del Grande Slam il suo riferimento resta il secondo turno, raggiunto a Wimbledon e agli US Open. Accanto al percorso individuale va ricordato il contributo in Coppa Davis con la Finlandia, nazionale che proprio negli ultimi anni ha vissuto le sue pagine più prestigiose, spingendosi fino alle fasi finali della competizione: in quel contesto Virtanen ha avuto modo di misurarsi con avversari di primo piano, in match dal forte peso specifico. Il suo bilancio è quello di un giocatore che si è conquistato sul campo il diritto di stare tra i professionisti del tour, con la prospettiva di consolidare quanto di buono ha già mostrato.

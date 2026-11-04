@@ -1,7 +1,7 @@
 ---
 nome: "Andrey Rublev"
 slug_profilo: "andrey-rublev"
-titoli: "Piu' titoli ATP 500 e un Masters 1000"
+titoli: "Diciotto titoli ATP, di cui due Masters 1000"
 stile_gioco: "Dritto iper-aggressivo e ritmo altissimo, gioco sempre in spinta"
 nazionalita: "Russia"
 data_nascita: "1997-10-20"
@@ -26,7 +26,7 @@ generato_il: "2026-10-27T12:28"
 
 ## Chi è
 
-Andrey Rublev è uno dei volti più riconoscibili del tennis maschile degli ultimi anni, non solo per i risultati ma per il modo in cui li costruisce. Russo, cresciuto a Mosca, è salito con costanza nelle posizioni di vertice del ranking mondiale fino a stabilirsi stabilmente tra i primi giocatori del circuito, toccando come best ranking la quinta piazza. La sua carriera si è fatta notare presto, con buoni risultati tra i giovani e nelle categorie minori prima dell'affermazione definitiva sul tour maggiore.
+Andrey Rublev è uno dei volti più riconoscibili del tennis maschile degli ultimi anni, non solo per i risultati ma per il modo in cui li costruisce. Russo, cresciuto a Mosca, è salito con costanza nelle posizioni di vertice del ranking mondiale fino a restare per anni tra i primi dieci del circuito, toccando come best ranking la quinta piazza nel settembre del 2021. La sua carriera si è fatta notare presto, con buoni risultati tra i giovani e nelle categorie minori prima dell'affermazione definitiva sul tour maggiore.
 
 Chi lo segue sa cosa aspettarsi: un agonismo totale, una gestione delle emozioni sempre sul filo, momenti di frustrazione che diventano quasi parte dello spettacolo. Rublev gioca ogni punto come se fosse decisivo, e questa è insieme la sua forza e il suo limite.
 
@@ -44,12 +44,13 @@ Sulla terra battuta, pur non essendo lo scenario più naturale per un giocatore 
 
 ## Trofei e momenti chiave
 
-Rublev ha costruito un palmarès ricco di titoli sul circuito ATP, con un'ottima produttività nelle categorie intermedie, dove per anni è stato tra i giocatori più vincenti. Il traguardo più prestigioso a livello individuale è arrivato con il successo in un torneo Masters 1000, che ha certificato il salto di qualità verso i grandi appuntamenti.
+Rublev ha costruito un palmarès di diciotto titoli sul circuito ATP, con un'ottima produttività nelle categorie intermedie, dove per anni è stato tra i giocatori più vincenti. I traguardi più prestigiosi a livello individuale sono arrivati con i due successi nei Masters 1000, a Monte-Carlo nel 2023 e a Madrid nel 2024, entrambi sulla terra battuta: la conferma che il suo tennis può imporsi anche quando lo scambio si allunga.
 
-Nei tornei dello Slam ha vissuto una lunga rincorsa, raggiungendo più volte i quarti di finale senza riuscire a superare quello scoglio, in una serie diventata quasi un capitolo a sé della sua carriera. Tra le soddisfazioni più grandi figura anche l'oro olimpico conquistato nel doppio misto a Tokyo, un risultato che resta tra i momenti più alti del suo percorso.
+Nei tornei dello Slam ha vissuto invece una lunga rincorsa: ha raggiunto i quarti di finale in tutti e quattro i major, più volte, senza mai riuscire a superare quello scoglio, in una serie diventata quasi un capitolo a sé della sua carriera. Tra le soddisfazioni più grandi figura anche l'oro olimpico conquistato nel doppio misto a Tokyo in coppia con Anastasia Pavlyuchenkova, un risultato che resta tra i momenti più alti del suo percorso.
 
 **Trofei principali**
 
-- Un titolo in un torneo Masters 1000
-- Numerosi titoli sul circuito ATP, soprattutto su cemento e indoor
-- Oro olimpico nel doppio misto a Tokyo
+- Due titoli Masters 1000: Monte-Carlo 2023 e Madrid 2024
+- Diciotto titoli sul circuito ATP, soprattutto su cemento e indoor
+- Oro olimpico nel doppio misto a Tokyo 2021
+- Miglior classifica: numero 5 del mondo

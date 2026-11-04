@@ -1,7 +1,7 @@
 ---
 nome: "Nikoloz Basilashvili"
 slug_profilo: "nikoloz-basilashvili"
-titoli: "Piu' titoli ATP e finali Masters 1000"
+titoli: "Cinque titoli ATP e la finale Masters 1000 di Indian Wells 2021"
 stile_gioco: "Colpi piattissimi e rischiosi da fondo, gioco ad altissimo rischio"
 nazionalita: "Georgia"
 data_nascita: "1992-02-23"
@@ -40,13 +40,15 @@ Il gioco esplosivo e orizzontale di Basilashvili rende particolarmente efficaci 
 
 ## Trofei e momenti chiave
 
-Il punto più alto della carriera di Basilashvili è arrivato quando è entrato stabilmente tra i primi giocatori del mondo, raggiungendo come best ranking una posizione all'interno della top 20 e diventando il georgiano più in alto di sempre nella classifica mondiale. I suoi titoli raccontano bene la sua capacità di alzare il livello nei tornei importanti.
+Il punto più alto della carriera di Basilashvili è arrivato nel maggio del 2019, quando ha toccato come best ranking il numero 16 del mondo, diventando il georgiano più in alto di sempre nella classifica mondiale. I suoi cinque titoli ATP raccontano bene la sua capacità di alzare il livello nei tornei importanti.
 
 Trofei principali:
 
-- **Amburgo** (ATP 500, terra) — titolo conquistato in due edizioni, nel 2018 e nel 2019
-- **China Open di Pechino** (ATP 500, cemento) — successo nel 2018
-- **Doha** (ATP 250, cemento) — titolo nel 2021
-- **Monaco di Baviera** (ATP 250, terra) — titolo nel 2021
+- **Amburgo** (ATP 500, terra), titolo conquistato in due edizioni, nel 2018 e nel 2019
+- **China Open di Pechino** (ATP 500, cemento), successo nel 2018
+- **Doha** (ATP 250, cemento), titolo nel 2021
+- **Monaco di Baviera** (ATP 250, terra), titolo nel 2021
+
+A questi va aggiunto il risultato più prestigioso senza trofeo: la finale raggiunta a Indian Wells nell'ottobre del 2021, primo georgiano di sempre a spingersi fino all'ultimo atto di un Masters 1000, dove si è arreso a Cameron Norrie dopo aver vinto il primo set.
 
 Accanto ai trofei, la carriera di Basilashvili è costellata di vittorie di prestigio contro avversari di altissimo livello, frutto di quelle giornate in cui il suo diritto diventa semplicemente ingestibile. È il ritratto di un giocatore che non ha mai cercato scorciatoie tattiche: ha scelto la via della potenza e dell'aggressività, accettandone i rischi e trasformandola, nei suoi momenti migliori, in un'arma capace di fare la differenza ai massimi livelli.

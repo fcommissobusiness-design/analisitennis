@@ -3,13 +3,13 @@ nome: "Maddison Inglis"
 slug_profilo: "maddison-inglis"
 stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
 nazionalita: "Australia"
-data_nascita: "1997-10-08"
+data_nascita: "1998-01-14"
 mano: "destro"
 rovescio: "due mani"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Tennista australiana dal gioco aggressivo e diretto, cresciuta tra i campi in cemento del suo Paese e capace di accendersi nei tornei di casa."
-descrizione: "Profilo di Maddison Inglis, tennista australiana WTA: gioco offensivo sul cemento, miglior rendimento agli Slam di casa e carriera sul tour."
+descrizione: "Profilo di Maddison Inglis, tennista australiana WTA: gioco offensivo sul cemento, il miglior rendimento all'Australian Open e la carriera sul tour."
 tag:
   - "Maddison Inglis"
   - "Inglis"
@@ -24,7 +24,7 @@ generato_il: "2026-10-25T11:32"
 
 ## Chi è
 
-Maddison Inglis è una tennista australiana che ha costruito la propria carriera salendo i gradini del circuito femminile a partire dai tornei minori fino ad affacciarsi con continuità al tour maggiore. Nata nell'ottobre del 1997 e cresciuta sportivamente in Australia, ha fatto del cemento, la superficie su cui si è formata, il terreno naturale del suo tennis. È una giocatrice destra con rovescio a due mani, un profilo tecnico che ne ha accompagnato la crescita dalle categorie di sviluppo fino ai palcoscenici internazionali.
+Maddison Inglis è una tennista australiana che ha costruito la propria carriera salendo i gradini del circuito femminile a partire dai tornei minori fino ad affacciarsi con continuità al tour maggiore. Nata a Perth il 14 gennaio 1998 e cresciuta sportivamente in Australia, ha fatto del cemento, la superficie su cui si è formata, il terreno naturale del suo tennis. È una giocatrice destra con rovescio a due mani, un profilo tecnico che ne ha accompagnato la crescita dalle categorie di sviluppo fino ai palcoscenici internazionali.
 
 Il suo percorso non è stato quello della predestinata lanciata subito ai vertici, ma piuttosto quello di un'atleta che ha dovuto conquistare punto dopo punto il proprio spazio, alternando stagioni di assestamento a improvvise accelerazioni. Proprio questa gavetta ne ha definito il carattere competitivo: una giocatrice che dà il meglio quando può esprimere il proprio tennis senza troppi calcoli.
 
@@ -42,13 +42,14 @@ Sulle superfici più lente il discorso si fa più complesso: la terra battuta, c
 
 ## Trofei e momenti chiave
 
-La pagina più luminosa della carriera di Maddison Inglis porta la data dell'Australian Open 2022, quando davanti al pubblico di casa raggiunse il terzo turno del torneo, il miglior risultato in una prova dello Slam. Quella cavalcata, costruita su un tennis coraggioso e sostenuta dal calore del suo Paese, rappresenta il punto di riferimento emotivo e sportivo del suo percorso.
+Le pagine più luminose della carriera di Maddison Inglis portano entrambe la data dell'Australian Open. Nel 2022, partita dalle qualificazioni, raggiunse il terzo turno davanti al pubblico di casa; quattro anni dopo, nel 2026, si è spinta un passo oltre, fino al quarto turno, il suo miglior risultato in una prova dello Slam. Quelle cavalcate, costruite su un tennis coraggioso e sostenute dal calore del suo Paese, restano il punto di riferimento emotivo e sportivo del suo percorso.
 
-Il resto del suo palmarès si è nutrito soprattutto della lunga tradizione dei tornei del circuito di sviluppo, dove ha saputo conquistare titoli e accumulare la fiducia necessaria per affacciarsi stabilmente tra le prime cento.
+Il resto del suo palmarès si è nutrito soprattutto della lunga tradizione dei tornei del circuito di sviluppo, dove ha conquistato nove titoli in singolare e otto in doppio. In classifica il suo massimo è stato il numero 112 del mondo, toccato nel marzo del 2020: le prime cento posizioni sono rimaste un obiettivo sfiorato, mai raggiunto.
 
 ### Trofei principali
 
-- Miglior risultato nello Slam: terzo turno all'Australian Open 2022
-- Diversi titoli nei tornei del circuito ITF
+- Miglior risultato nello Slam: quarto turno all'Australian Open 2026, dopo il terzo turno del 2022
+- Nove titoli in singolare nel circuito ITF
+- Best ranking: numero 112 del mondo, marzo 2020
 
 Più che per un singolo trofeo di prestigio, la carriera di Inglis va letta nella sua continuità: quella di una giocatrice che ha trasformato la tenacia in metodo e che, nelle grandi occasioni di casa, ha saputo mostrare il meglio di sé.

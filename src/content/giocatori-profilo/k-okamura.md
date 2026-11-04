@@ -4,7 +4,7 @@ slug_profilo: "k-okamura"
 nazionalita: "Giappone"
 mano: "destro"
 stile_gioco: "solidità da fondo e attitudine al doppio"
-titoli: "diversi titoli nel circuito ITF, con particolare continuità in doppio"
+titoli: "quattro titoli ITF in singolare e dodici in doppio; finale al WTA 125 di Suzhou 2026"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Kyoka Okamura rappresenta la scuola giapponese fatta di ordine, disciplina e costanza: una professionista cresciuta tra i tornei minori e specializzata soprattutto nel doppio."
@@ -23,7 +23,7 @@ generato_il: "2026-11-02T16:04"
 
 ## Chi è
 
-Kyoka Okamura appartiene a quella folta e preparata pattuglia di tenniste giapponesi che hanno costruito la propria carriera lontano dai riflettori dei grandi tornei, accumulando esperienza e chilometri nel fitto calendario dei tornei minori. È una professionista nel senso più pieno del termine: metodo, applicazione quotidiana e una gestione attenta delle energie lungo una stagione che, per chi vive in prevalenza del circuito di livello inferiore, non conosce quasi mai pause.
+Kyoka Okamura, nata a Okayama il 6 ottobre 1995, appartiene a quella folta e preparata pattuglia di tenniste giapponesi che hanno costruito la propria carriera lontano dai riflettori dei grandi tornei, accumulando esperienza e chilometri nel fitto calendario dei tornei minori. È una professionista nel senso più pieno del termine: metodo, applicazione quotidiana e una gestione attenta delle energie lungo una stagione che, per chi vive in prevalenza del circuito di livello inferiore, non conosce quasi mai pause.
 
 Il suo nome è diventato familiare soprattutto agli addetti ai lavori e al pubblico asiatico, dove la cultura del tennis femminile è radicata e competitiva. Okamura ha fatto della regolarità la propria cifra distintiva, trovando nel doppio una dimensione particolarmente congeniale, nella quale la lettura degli spazi e la capacità di dialogare con la compagna contano quanto il colpo pulito.
 
@@ -41,6 +41,8 @@ Sulla terra battuta il quadro cambia: il ritmo più lento e i rimbalzi più alti
 
 ## Trofei e momenti chiave
 
-Il percorso di Okamura va letto con la lente corretta: non quella dei grandi titoli del tour maggiore, ma quella della solidità costruita nel tempo nei tornei del circuito ITF. È in questa dimensione che ha raccolto i risultati più significativi, soprattutto nel doppio, specialità nella quale la sua affidabilità l'ha resa una compagna ricercata e una presenza costante nei tabelloni.
+Il percorso di Okamura va letto con la lente corretta: non quella dei grandi titoli del tour maggiore, ma quella della solidità costruita nel tempo nei tornei del circuito ITF, dove ha vinto quattro titoli in singolare e dodici in doppio. È soprattutto nel gioco di coppia che l'affidabilità l'ha resa una compagna ricercata e una presenza costante nei tabelloni.
+
+Il singolare, però, le ha riservato le soddisfazioni più recenti: nel febbraio del 2025 è salita fino al numero 178 del mondo, suo miglior piazzamento, e nel 2026 ha raggiunto la finale al WTA 125 di Suzhou, fermata da Rebecca Sramkova. Nel 2024, al Pan Pacific Open di Tokyo, era entrata in tabellone da ripescata e aveva superato un turno prima di arrendersi a Katie Boulter.
 
 Più che un singolo trofeo simbolo, la sua carriera racconta la perseveranza di chi affronta settimana dopo settimana avversarie agguerrite, lontano dalle luci dei grandi eventi, trasformando la continuità in un patrimonio. In questo senso Okamura incarna il profilo della professionista giapponese: rigorosa, disciplinata e capace di ritagliarsi uno spazio importante grazie a dedizione e intelligenza tattica, qualità che il doppio mette particolarmente in risalto.

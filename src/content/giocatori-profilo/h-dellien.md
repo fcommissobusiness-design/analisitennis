@@ -2,12 +2,12 @@
 nome: "Hugo Dellien"
 slug_profilo: "h-dellien"
 nazionalita: "Bolivia"
-data_nascita: "1993-03-18"
+data_nascita: "1993-06-16"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "regista di fondo, pazienza e pesantezza di palla sulla terra"
-titoli: "diversi titoli a livello Challenger, quasi tutti sulla terra battuta, e lunghe stagioni dentro o nei pressi della top 100"
-altezza: "183 cm"
+titoli: "numerosi titoli a livello Challenger, tutti sulla terra battuta, e lunghe stagioni dentro o nei pressi della top 100"
+altezza: "180 cm"
 categoria: "ATP"
 superficie_preferita: "terra"
 intro: "Hugo Dellien è il volto del tennis boliviano moderno: un terraiolo paziente, costruito sulla gamba e sulla continuità, che ha portato il suo Paese stabilmente nel circuito maggiore."
@@ -26,7 +26,7 @@ generato_il: "2026-10-31T12:01"
 
 ## Chi è
 
-Hugo Dellien è, da oltre un decennio, il riferimento del tennis boliviano. Nato nel 1993 a Trinidad, nel cuore del Paese, ha costruito una carriera lontano dai riflettori dei grandi tornei ma con una costanza che pochi giocatori sudamericani della sua generazione hanno saputo garantire. Per lungo tempo è stato il numero uno di Bolivia e il suo giocatore simbolo, capace di stabilizzarsi dentro o nei pressi della top 100 mondiale e di trascinare la squadra nazionale nelle competizioni per Paesi.
+Hugo Dellien è, da oltre un decennio, il riferimento del tennis boliviano. Nato nel giugno del 1993 a Trinidad, nel cuore del Paese, ha costruito una carriera lontano dai riflettori dei grandi tornei ma con una costanza che pochi giocatori sudamericani della sua generazione hanno saputo garantire. Per lungo tempo è stato il numero uno di Bolivia e il suo giocatore simbolo, capace di stabilizzarsi dentro o nei pressi della top 100 mondiale, con un massimo in carriera al numero 64 nell'agosto del 2022, e di trascinare la squadra nazionale nelle competizioni per Paesi.
 
 La sua è una storia di tennis costruito dal basso, fatta di tanti chilometri tra i tornei Challenger e di una progressione graduale, senza scorciatoie. Proprio questo percorso ne ha definito l'identità agonistica: un giocatore solido, affidabile, che non si risparmia e che trova la propria dimensione naturale sulla terra battuta.
 
@@ -44,11 +44,11 @@ Sul cemento la musica cambia. Le condizioni più rapide tolgono tempo alla sua p
 
 ## Trofei e momenti chiave
 
-La carriera di Dellien si misura soprattutto nel circuito Challenger, dove ha raccolto diversi titoli, quasi tutti conquistati sulla terra battuta. Sono questi successi, uniti alla continuità di ranking, ad averlo portato a stabilizzarsi come giocatore da tabellone principale nei tornei del circuito maggiore e a disputare le qualificazioni e i primi turni delle prove dello Slam.
+La carriera di Dellien si misura soprattutto nel circuito Challenger, dove ha raccolto una ventina di titoli, tutti conquistati sulla terra battuta, ai quali si aggiungono i successi nei tornei ITF degli anni di formazione. Sono questi risultati, uniti alla continuità di ranking, ad averlo portato a stabilizzarsi come giocatore da tabellone principale nei tornei del circuito maggiore e nelle prove dello Slam. Nel 2021 ha inoltre rappresentato la Bolivia ai Giochi olimpici di Tokyo.
 
-Accanto al percorso individuale, un capitolo centrale è quello con la maglia della nazionale: Dellien è stato per anni il punto fermo della Bolivia nelle competizioni a squadre, assumendosi il peso delle sfide più delicate. Il suo valore, più che in un singolo trofeo di prestigio, va letto nell'insieme: aver tenuto in alto il tennis di un Paese dalla tradizione non ricchissima, diventandone l'ambasciatore più riconoscibile a livello internazionale.
+Accanto al percorso individuale, un capitolo centrale è quello con la maglia della nazionale: Dellien è stato per anni il punto fermo della Bolivia in Coppa Davis, assumendosi il peso delle sfide più delicate. Il suo valore, più che in un singolo trofeo di prestigio, va letto nell'insieme: aver tenuto in alto il tennis di un Paese dalla tradizione non ricchissima, diventandone l'ambasciatore più riconoscibile a livello internazionale.
 
 **Trofei principali**
 
-- Diversi titoli a livello Challenger, in prevalenza sulla terra battuta
-- Lunga militanza come numero uno di Bolivia e leader della squadra nazionale
+- Numerosi titoli a livello Challenger, tutti sulla terra battuta
+- Lunga militanza come numero uno di Bolivia e leader della squadra di Coppa Davis

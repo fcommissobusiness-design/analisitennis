@@ -6,11 +6,11 @@ data_nascita: "1997-06-08"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco ultra-aggressivo da fondo, colpi piatti e potentissimi"
-titoli: "il titolo al Roland Garros 2017, diversi titoli WTA in singolare e importanti traguardi in doppio, dove è arrivata in vetta al ranking mondiale"
+titoli: "il titolo al Roland Garros 2017, nove titoli WTA in singolare e importanti traguardi in doppio, compreso lo US Open 2024"
 altezza: "177 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "La lettone che a vent'anni non ancora compiuti conquistò Parigi da outsider assoluta: tennis senza compromessi, tutto potenza e anticipo da fondo campo."
+intro: "La lettone che a vent'anni appena compiuti conquistò Parigi da outsider assoluta: tennis senza compromessi, tutto potenza e anticipo da fondo campo."
 descrizione: "Profilo di Jelena Ostapenko: la tennista lettone vincitrice del Roland Garros 2017, gioco aggressivo, colpi piatti e potenti da fondo campo."
 tag:
   - "Jelena Ostapenko"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:50"
 
 ## Chi è
 
-Jelena Ostapenko è una tennista lettone nata a Riga nel 1997. Il suo nome è legato indissolubilmente a una delle imprese più clamorose del tennis recente: la vittoria al Roland Garros 2017, ottenuta da giocatrice non testa di serie e ancora adolescente nell'anagrafe sportiva, quando pochissimi la indicavano tra le favorite. Quel trionfo ne ha fatto una figura riconoscibile del circuito maggiore, dove da allora si è stabilmente collocata ai vertici, toccando anche le primissime posizioni della classifica mondiale.
+Jelena Ostapenko è una tennista lettone nata a Riga l'8 giugno 1997. Il suo nome è legato indissolubilmente a una delle imprese più clamorose del tennis recente: la vittoria al Roland Garros 2017, ottenuta da giocatrice non testa di serie, prima donna a riuscirci a Parigi dal 1933, e con i vent'anni compiuti appena due giorni prima della finale, quando pochissimi la indicavano tra le favorite. Quel trionfo ne ha fatto una figura riconoscibile del circuito maggiore, nel quale ha raggiunto il numero 5 del mondo nel marzo del 2018 restando poi a lungo una presenza fissa nei tabelloni dei tornei più importanti.
 
 ## Il suo tennis
 
@@ -38,12 +38,13 @@ Paradossalmente il suo risultato più celebre è arrivato sulla terra battuta di
 
 ## Trofei e momenti chiave
 
-Il momento che definisce la carriera di Ostapenko resta la corsa parigina del 2017, un cammino in cui superò avversarie di alto livello esprimendo un tennis privo di esitazioni. Da lì è nata una carriera di primo piano, arricchita da diversi titoli nel circuito WTA e da un rendimento costante nei tornei più importanti. A questo si aggiunge una dimensione meno nota al grande pubblico ma altrettanto significativa: il doppio, specialità in cui la lettone ha raggiunto risultati di assoluto rilievo, arrivando fino in cima al ranking mondiale di categoria.
+Il momento che definisce la carriera di Ostapenko resta la corsa parigina del 2017, un cammino in cui superò avversarie di alto livello esprimendo un tennis privo di esitazioni. Da lì è nata una carriera di primo piano, arricchita da nove titoli nel circuito WTA in singolare e da un rendimento costante nei tornei più importanti. A questo si aggiunge una dimensione meno nota al grande pubblico ma altrettanto significativa: il doppio, specialità in cui la lettone ha vinto lo US Open 2024 in coppia con Lyudmyla Kichenok, ha disputato altre tre finali dello Slam ed è salita fino al numero 3 della classifica mondiale di categoria, nel luglio del 2025.
 
 **Trofei principali:**
 
 - Titolo del Roland Garros 2017 in singolare
-- Diversi titoli WTA in singolare nel corso della carriera
-- Numero 1 del mondo in doppio, con importanti successi nelle prove maggiori
+- Nove titoli WTA in singolare nel corso della carriera
+- Titolo del doppio agli US Open 2024, con Lyudmyla Kichenok
+- Numero 3 del mondo in doppio
 
 Al di là dell'albo d'oro, la sua eredità è soprattutto stilistica. In un'epoca in cui molte giocatrici alternano fasi di costruzione e accelerazione, Ostapenko ha scelto di premere sempre, trasformando l'aggressività in un'identità riconoscibile. È questo che la rende, ancora oggi, una delle presenze più imprevedibili e spettacolari del tennis femminile.

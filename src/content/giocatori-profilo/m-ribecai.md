@@ -24,9 +24,9 @@ generato_il: "2026-10-25T12:21"
 
 ## Chi è
 
-Michele Ribecai è un tennista italiano nato nel 2003, legato al vivaio toscano e cresciuto nella zona di Lucca. Appartiene a quella generazione di azzurri che si è formata nel circuito minore e che sta provando, stagione dopo stagione, a guadagnarsi uno spazio stabile nelle categorie superiori. Con una struttura fisica non imponente — attorno ai 173 centimetri — Ribecai rappresenta il profilo del giocatore che non può affidarsi alla pura potenza, ma deve costruire i propri risultati sull'intelligenza tattica, sulla continuità e sulla capacità di restare dentro gli scambi.
+Michele Ribecai è un tennista italiano nato il 4 febbraio 2003, legato al vivaio toscano e cresciuto nella zona di Lucca. Appartiene a quella generazione di azzurri che si è formata nel circuito minore e che sta provando, stagione dopo stagione, a guadagnarsi uno spazio stabile nelle categorie superiori. Con una struttura fisica non imponente, attorno ai 173 centimetri, Ribecai rappresenta il profilo del giocatore che non può affidarsi alla pura potenza, ma deve costruire i propri risultati sull'intelligenza tattica, sulla continuità e sulla capacità di restare dentro gli scambi.
 
-Nel corso del 2026 ha vissuto una delle sue annate più significative, avvicinandosi per la prima volta in modo concreto alle posizioni che contano della classifica mondiale e toccando il proprio best ranking nella prima parte dell'estate. È il tipo di progressione graduale che racconta un atleta ancora in piena fase di maturazione agonistica.
+Il 2026 è stato di gran lunga la sua annata migliore: partito da oltre la quattrocentesima posizione, è entrato per la prima volta tra i primi trecento del mondo e il 22 giugno ha toccato il best ranking, il numero 259. È il tipo di progressione graduale che racconta un atleta ancora in piena fase di maturazione agonistica.
 
 ## Il suo tennis
 
@@ -42,7 +42,7 @@ Sulle superfici rapide, dove il servizio e i primi colpi pesano maggiormente, il
 
 ## Trofei e momenti chiave
 
-La carriera di Ribecai si è finora sviluppata soprattutto nei circuiti ITF e Challenger, dove ha raccolto una serie di risultati di rilievo che gli hanno permesso di costruire progressivamente la propria classifica. Il 2026 è stato l'anno della consacrazione a questo livello, con diversi piazzamenti importanti e corse nelle fasi avanzate dei tornei Challenger che hanno attirato l'attenzione sul suo nome.
+La carriera di Ribecai si è finora sviluppata soprattutto nei circuiti ITF e Challenger, dove ha raccolto una serie di risultati che gli hanno permesso di costruire progressivamente la propria classifica, fino al titolo ITF di Monastir nell'ottobre 2025. Il passaggio più importante porta la data del marzo 2026: a Barletta, sulla terra battuta pugliese, ha raggiunto la prima finale Challenger della carriera, arrendendosi soltanto all'austriaco Lukas Neumayer dopo aver vinto il primo set. Nella stessa stagione si è anche misurato con le qualificazioni di un torneo ATP, a Kitzbühel.
 
 ### Gli obiettivi
 

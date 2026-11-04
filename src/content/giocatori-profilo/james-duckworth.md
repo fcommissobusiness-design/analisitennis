@@ -44,6 +44,6 @@ Sulla terra battuta, al contrario, il suo gioco trova maggiori resistenze: i rit
 
 ## Trofei e momenti chiave
 
-Più che da un albo d'oro ricco di titoli importanti, la carriera di Duckworth va letta attraverso la continuità con cui è rimasto aggrappato al tour nonostante le difficoltà. Nelle prime stagioni sul circuito maggiore si è costruito una reputazione da giocatore capace di qualche exploit contro nomi di rilievo, e nel tempo ha saputo raggiungere una posizione apprezzabile in classifica dopo essere ripartito dalle retrovie.
+Più che da un albo d'oro ricco di titoli importanti, la carriera di Duckworth va letta attraverso la continuità con cui è rimasto aggrappato al tour nonostante le difficoltà. Nelle prime stagioni sul circuito maggiore si è costruito una reputazione da giocatore capace di qualche exploit contro nomi di rilievo, e nel gennaio del 2022, dopo essere ripartito più volte dalle retrovie, ha toccato il suo miglior piazzamento in carriera, il numero 46 del mondo. Nelle prove dello Slam il risultato di riferimento resta il terzo turno raggiunto a Wimbledon nel 2021.
 
 Accanto ai risultati individuali, va ricordato il suo legame con la nazionale australiana, in cui ha trovato occasioni per rappresentare il proprio Paese. Il suo lascito, però, è soprattutto umano e sportivo: la testimonianza di un atleta che ha fatto della perseveranza il proprio marchio, trasformando ogni ritorno in campo in un piccolo traguardo a sé.

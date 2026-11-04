@@ -1,7 +1,7 @@
 ---
 nome: "Denis Shapovalov"
 slug_profilo: "denis-shapovalov"
-titoli: "Titoli ATP e semifinale Slam"
+titoli: "Quattro titoli ATP, semifinale a Wimbledon 2021 e un passato da numero 10 del mondo"
 stile_gioco: "Mancino offensivo con rovescio a una mano spettacolare e rischioso"
 nazionalita: "Canada"
 data_nascita: "1999-04-15"
@@ -29,8 +29,22 @@ Denis Shapovalov è nato a Tel Aviv nell'aprile del 1999 da genitori di origine 
 
 ## Il suo tennis
 
-Shapovalov è un **mancino dal tennis esplosivo**, costruito attorno a un rovescio a una mano tra i più belli e spettacolari del circuito, colpo capace di produrre vincenti da posizioni impossibili. Il suo è un gioco d'attacco ad alto rischio, che cerca costantemente l'accelerazione e il punto rapido, sostenuto da un servizio insidioso grazie all'angolazione del braccio sinistro. Quando trova il ritmo diventa quasi ingiocabile, ma la stessa aggressività che lo rende pericoloso può tradursi in alti e bassi all'interno dello stesso match. Il cemento, con il suo rimbalzo regolare, è la superficie che meglio asseconda la sua voglia di comandare lo scambio.
+Shapovalov è un **mancino dal tennis esplosivo**, costruito attorno a un rovescio a una mano tra i più belli e spettacolari del circuito, colpo capace di produrre vincenti da posizioni impossibili. Il suo è un gioco d'attacco ad alto rischio, che cerca costantemente l'accelerazione e il punto rapido, sostenuto da un servizio insidioso grazie all'angolazione del braccio sinistro. Quando trova il ritmo diventa quasi ingiocabile, ma la stessa aggressività che lo rende pericoloso può tradursi in alti e bassi all'interno dello stesso match, e la gestione dei momenti di appannamento è sempre stata il crinale su cui si decidono le sue partite.
 
-## Il momento
+## Sulle diverse superfici
 
-Il 2026 ha restituito uno Shapovalov in buona salute, con un bilancio recente di undici vittorie e quattro sconfitte. A Tokyo ha firmato successi di rilievo superando Alejandro Tabilo e Sho Shimabukuro, mentre a Chengdu aveva costruito un ottimo cammino battendo Tallon Griekspoor, Vit Kopriva e Adrian Mannarino prima di cedere in semifinale a Hubert Hurkacz. Agli US Open si era spinto fino agli ottavi, fermato da Ben Shelton. L'esordio di Basilea contro Remy Bertola lo vede arrivare con fiducia sul veloce indoor, superficie che valorizza la sua ricerca costante dell'attacco.
+Il cemento, con il suo rimbalzo regolare, è la superficie che meglio asseconda la sua voglia di comandare lo scambio: tre dei suoi quattro titoli nel circuito maggiore sono arrivati sul veloce, due dei quali al coperto o in condizioni rapide, dove il servizio mancino e il rovescio lungolinea trovano spazio immediato.
+
+Sull'erba, nonostante il calendario ridotto, ha firmato il suo miglior risultato in uno Slam, segno che la rapidità del campo premia il suo tennis di anticipo. Sulla terra battuta il quadro è più complesso, perché il rimbalzo alto e gli scambi lunghi riducono il margine di un gioco così sbilanciato in avanti: anche qui, però, ha saputo vincere un torneo del tour, a conferma di una adattabilità maggiore di quella che il suo repertorio lascerebbe immaginare.
+
+## Trofei e momenti chiave
+
+Il punto più alto della carriera di Shapovalov resta la semifinale a Wimbledon nel 2021, preceduta dai quarti agli US Open 2020 e seguita da quelli all'Australian Open 2022. Nel settembre del 2020 è salito fino al numero 10 del mondo, unico ingresso in top ten di una carriera che si è poi assestata nelle posizioni immediatamente successive.
+
+**Trofei principali:**
+
+- Quattro titoli ATP in singolare: Stoccolma 2019, Belgrado 2024, Dallas e Los Cabos nel 2025
+- Semifinale a Wimbledon 2021, miglior risultato in una prova dello Slam
+- Best ranking di numero 10 del mondo, raggiunto nel settembre del 2020
+
+Il 2026 ha offerto un rendimento alterno. Agli US Open si è fermato al terzo turno, battuto da Ben Shelton in quattro set dopo una partita conclusa nel cuore della notte. A settembre, a Chengdu, ha costruito il suo cammino più convincente della stagione, superando Tallon Griekspoor, Vit Kopriva e Adrian Mannarino prima di cedere in semifinale a Hubert Hurkacz. A Tokyo, poche settimane dopo, è arrivato ai quarti, dove un problema fisico lo ha costretto al ritiro. È la fotografia di un giocatore che resta capace di battere chiunque in una singola partita, ma che deve ancora ritrovare la continuità dei suoi anni migliori.

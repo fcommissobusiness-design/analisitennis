@@ -1,22 +1,22 @@
 ---
-nome: "Abierto de Querétaro"
+nome: "Querétaro Open"
 slug_profilo: "queretaro-2026"
 anno: 2026
 citta: "Santiago de Querétaro"
 paese: "Messico"
-categoria: "Challenger"
-superficie: "cemento"
-fondato: "anni Dieci del Duemila"
-intro: "Nel cuore del Messico, l'Abierto de Querétaro porta il grande tennis del circuito Challenger sul cemento, tra altopiano, pubblico caloroso e giovani in ascesa."
-descrizione: "Guida all'Abierto de Querétaro 2026: storia, campo in cemento, albo d'oro recente e curiosità del Challenger messicano più vivace dell'altopiano."
+categoria: "WTA"
+superficie: "terra"
+fondato: "2025"
+intro: "Nel cuore del Messico, il Querétaro Open porta il tennis femminile sulla terra battuta del Club Campestre, tra quota, pubblico caloroso e giocatrici in cerca di rilancio."
+descrizione: "Guida al Querétaro Open 2026: storia, campo in terra battuta, albo d'oro e curiosità del WTA 125 messicano di fine ottobre."
 tag:
-  - "Abierto de Querétaro"
-  - "Challenger Querétaro"
+  - "Querétaro Open"
+  - "WTA 125"
   - "tennis Messico"
-  - "ATP Challenger"
-  - "cemento"
+  - "tennis femminile"
+  - "terra rossa"
   - "Santiago de Querétaro"
-  - "tennis altura"
+  - "Bianca Andreescu"
   - "torneo 2026"
 pubblicato: true
 generato_il: "2026-11-01T12:06"
@@ -26,26 +26,26 @@ cover_credit: "David X. Marks Tennis Stadium (USC).jpg | Spatms | CC BY-SA 4.0"
 
 ## La storia
 
-L'Abierto de Querétaro è uno di quei tornei che raccontano bene la vitalità del tennis messicano lontano dai riflettori dei grandi eventi. Nato relativamente di recente, negli anni Dieci del Duemila, si è ritagliato uno spazio preciso nel calendario del circuito Challenger, la categoria che fa da ponte tra le speranze del futuro e i veterani in cerca di punti e fiducia. La sede, Santiago de Querétaro, non è una scelta casuale: città coloniale dal centro storico patrimonio dell'umanità, posta nel cuore dell'altopiano centrale, ha saputo accostare alla propria vocazione culturale una crescente passione sportiva. Il torneo ha accompagnato questa evoluzione, diventando appuntamento atteso dagli appassionati della regione e tappa utile per chi insegue la top 100.
+Il Querétaro Open è un torneo giovanissimo: nasce nel 2025 e nel 2026 ha vissuto appena la sua seconda edizione, disputata dal 26 ottobre al 1 novembre. La sua creazione ha segnato un piccolo spartiacque per la città, che prima di allora non aveva mai ospitato un evento tennistico internazionale. La sede, Santiago de Querétaro, non è una scelta casuale: città coloniale dal centro storico patrimonio dell'umanità, posta nel cuore dell'altopiano centrale messicano, ha saputo accostare alla propria vocazione culturale una crescente passione sportiva.
 
-Come molti eventi dello stesso rango, l'Abierto ha vissuto le oscillazioni tipiche del circuito minore: cambi di collocazione nel calendario, aggiustamenti di montepremi, stagioni più ricche di nomi e altre più sperimentali. Ma la direzione è rimasta stabile, fondata sull'idea di offrire tennis di buon livello in un contesto accogliente.
+Il torneo appartiene alla fascia WTA 125, il livello immediatamente sotto il circuito maggiore, con un montepremi di 115.000 dollari, trentadue giocatrici in tabellone principale, undici posti riservati alle qualificate e otto coppie nel doppio. È una categoria che svolge una funzione precisa: raccogliere chi sta risalendo la classifica, chi torna da un infortunio e chi cerca punti utili a entrare nei tabelloni WTA senza passare dalle qualificazioni. Non sorprende che in Messico, dove il calendario femminile di fine stagione si è infittito negli ultimi anni, un appuntamento del genere abbia trovato spazio in fretta.
 
 ## Il campo e lo stile
 
-Si gioca sul cemento, superficie che a Querétaro assume una fisionomia particolare. L'altitudine dell'altopiano messicano, infatti, rende l'aria più rarefatta: la palla viaggia più veloce e rimbalza più alta, premiando chi serve con potenza e chi non ha paura di prendersi rischi da fondo campo. È un tennis diretto, spesso spettacolare, nel quale i turni di servizio pesano e gli scambi tendono a chiudersi in pochi colpi. Chi arriva da climi e superfici diverse ha bisogno di qualche giorno per calibrare i tempi, e non di rado proprio l'adattamento alle condizioni fa la differenza tra un'uscita precoce e una corsa fino al weekend.
+Si gioca sulla terra battuta all'aperto del Club Campestre de Querétaro, e la combinazione tra rosso e quota dà al torneo una fisionomia tutta sua. La terra, di per sé, dilata gli scambi, premia la pazienza nella costruzione del punto e la tenuta atletica, riducendo il vantaggio di chi fa del servizio la propria arma principale. L'altitudine dell'altopiano, poco oltre i 1.800 metri, lavora però in direzione opposta: l'aria più rarefatta rende la palla più veloce e il rimbalzo più alto di quanto si aspetti chi arriva dalla terra europea.
 
-Questa impronta rende il torneo ideale per i giocatori offensivi e per i grandi battitori, ma lascia spazio anche ai ribattitori più solidi, capaci di trasformare la velocità del campo in un'arma per controbattere. Ne esce un tabellone spesso imprevedibile, dove le teste di serie non possono permettersi distrazioni.
+Il risultato è un rosso meno lento della media, nel quale chi colpisce con molta rotazione guadagna rimbalzi difficili da gestire e chi attacca trova varchi che su altri campi in terra non esistono. Chi arriva da climi e superfici diverse ha bisogno di qualche giorno per calibrare i tempi, e non di rado proprio l'adattamento alle condizioni fa la differenza tra un'uscita precoce e una corsa fino al weekend. Ne esce un tabellone imprevedibile, dove le teste di serie non possono permettersi distrazioni.
 
 ## Albo d'oro recente
 
-Trattandosi di un evento Challenger, l'albo d'oro recente è soprattutto una galleria di storie in divenire. Vi figurano:
+Due edizioni, due storie diverse:
 
-- giovani talenti in rampa di lancio, poi affermatisi nel circuito maggiore;
-- specialisti del cemento veloce, a loro agio con le condizioni d'altura;
-- giocatori di casa e del continente americano, sostenuti da un pubblico generoso.
+- **Bianca Andreescu** si è imposta nel 2026 battendo in finale **Tatjana Maria** per 6-1 2-6 6-3, al termine di una settimana che ha visto la canadese e la tedesca arrivare all'ultimo atto senza grandi scossoni
+- **Sára Bejlek** ha vinto la prima edizione, nel 2025, superando **Katrina Scott** per 6-2 6-1
+- nel doppio, l'ucraina **Valeriya Strakhova** ha fatto doppietta: campionessa nel 2025 con Alicia Herrero Liñana e nel 2026 con Sofia Costoulas
 
-Più che i singoli nomi, è la funzione a definire questo torneo: una vetrina di passaggio, dove il vincitore di oggi può diventare il protagonista di domani.
+Più che i singoli nomi, è la funzione a definire questo torneo: una vetrina di passaggio, dove la vincitrice di oggi può diventare la protagonista di domani.
 
 ## Curiosità
 
-Il fascino di Querétaro sta anche nel contorno. L'altitudine, già citata come fattore tecnico, è parte del racconto: non capita spesso di vedere il cemento comportarsi in modo così reattivo, e gli addetti ai lavori ne parlano come di una delle insidie più sottovalutate del calendario. C'è poi il contesto urbano, con acquedotti, chiese barocche e piazze che fanno da cornice alle giornate di gioco, regalando all'evento un'identità che va oltre il punteggio. Infine, il clima: giornate luminose e serate fresche compongono un ritmo particolare, nel quale le sessioni serali diventano spesso le più suggestive. È in questo equilibrio tra sport e territorio che l'Abierto de Querétaro trova la propria cifra, confermandosi uno degli appuntamenti più vivaci del tennis messicano.
+Il fascino di Querétaro sta anche nel contorno. L'altitudine, già citata come fattore tecnico, è parte del racconto: non capita spesso di vedere la terra battuta comportarsi in modo così reattivo, e gli addetti ai lavori ne parlano come di una delle insidie più sottovalutate del calendario. C'è poi il contesto urbano, con acquedotti, chiese barocche e piazze che fanno da cornice alle giornate di gioco, regalando all'evento un'identità che va oltre il punteggio. Infine, il clima: giornate luminose e serate fresche compongono un ritmo particolare, nel quale le sessioni serali diventano spesso le più suggestive. È in questo equilibrio tra sport e territorio che il Querétaro Open ha trovato in fretta la propria cifra, confermandosi uno degli appuntamenti più vivaci del tennis femminile messicano.

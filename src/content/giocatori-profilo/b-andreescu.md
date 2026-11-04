@@ -44,11 +44,12 @@ Sulle altre superfici il rendimento è stato più altalenante, anche a causa del
 
 ## Trofei e momenti chiave
 
-Il capolavoro della sua carriera resta il trionfo nello Slam americano del 2019, ottenuto al termine di una stagione di grande spessore che l'ha vista imporsi in alcuni dei tornei più prestigiosi del circuito proprio sul cemento. Quel filotto l'ha proiettata ai vertici della classifica mondiale, avvicinandola alle primissime posizioni.
+Il capolavoro della sua carriera resta il trionfo nello Slam americano del 2019, costruito in finale contro Serena Williams al termine di una stagione di grande spessore che l'ha vista imporsi anche a Indian Wells e nel torneo di casa, il Canadian Open, sempre sul cemento. Quel filotto l'ha proiettata fino al quarto posto del ranking mondiale, nell'ottobre dello stesso anno.
 
 **Trofei principali:**
 
 - Titolo del Grande Slam negli Stati Uniti (2019)
-- Successi di rilievo sul cemento nel corso della stagione 2019
+- Indian Wells e Canadian Open nel 2019, sempre sul cemento
+- Miglior classifica: numero 4 del mondo (ottobre 2019)
 
 Gli anni successivi sono stati condizionati dagli infortuni, che ne hanno limitato la presenza e il rendimento. Nonostante ciò, il suo nome continua a evocare quel talento cristallino emerso nel 2019, e ogni suo ritorno in campo viene seguito con attenzione da chi ricorda di cosa è capace quando riesce a esprimersi al meglio.

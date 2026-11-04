@@ -6,7 +6,7 @@ data_nascita: "2003-05-06"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "attaccante a tutto campo, chiusure a rete"
-titoli: "titolo nazionale NCAA 2024 con la Texas A&M, alcuni titoli nel circuito ITF"
+titoli: "titolo nazionale NCAA 2024 con la Texas A&M, tre titoli nel circuito ITF"
 altezza: "168 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,7 +26,7 @@ generato_il: "2026-11-02T16:11"
 
 ## Chi è
 
-Mary Stoiana appartiene a quella generazione di tenniste statunitensi cresciute nel sistema universitario prima di affacciarsi stabilmente al circuito maggiore. Nata il 6 maggio 2003, porta nel cognome le radici romene della famiglia paterna, ma compete sotto la bandiera degli Stati Uniti. Il suo percorso si è costruito lontano dai riflettori precoci: quattro stagioni alla Texas A&M University, dove ha lasciato un segno profondo prima di provare a trasformare i risultati del college in una carriera professionistica. Il suo è un approccio tipicamente nordamericano, fatto di maturazione graduale, di un bagaglio di partite accumulato negli anni dell'ateneo e dell'ambizione di portare quella solidità tra le professioniste solo dopo aver costruito basi concrete.
+Mary Stoiana appartiene a quella generazione di tenniste statunitensi cresciute nel sistema universitario prima di affacciarsi stabilmente al circuito maggiore. Nata il 6 maggio 2003 a Southbury, nel Connecticut, porta nel cognome le radici romene del padre, emigrato negli Stati Uniti da bambino, e compete sotto la bandiera americana. Il suo percorso si è costruito lontano dai riflettori precoci: quattro stagioni alla Texas A&M University, dove ha lasciato un segno profondo prima di provare a trasformare i risultati del college in una carriera professionistica. Il suo è un approccio tipicamente nordamericano, fatto di maturazione graduale, di un bagaglio di partite accumulato negli anni dell'ateneo e dell'ambizione di portare quella solidità tra le professioniste solo dopo aver costruito basi concrete.
 
 ## Il suo tennis
 
@@ -34,16 +34,16 @@ Stoiana è una giocatrice d'attacco a tutto campo, a suo agio quando può cambia
 
 ## Sulle diverse superfici
 
-La sua formazione nel tennis universitario americano l'ha abituata soprattutto al cemento, superficie sulla quale ha maturato gran parte delle sue esperienze e che si sposa bene con un gioco rapido e votato alla verticalità. Nel corso del 2026 ha avuto modo di misurarsi con i ritmi più diversi, prendendo parte a tutti e quattro i tornei dello Slam. Proprio la varietà di impegni affrontati in quella stagione racconta di un apprendistato accelerato, fatto di tanti confronti ravvicinati contro avversarie di livello superiore a quello incontrato fino ad allora. Resta una giocatrice ancora in fase di adattamento al circuito maggiore, ma il suo tennis propositivo sembra trovare nelle superfici più rapide il contesto più congeniale.
+La sua formazione nel tennis universitario americano l'ha abituata soprattutto al cemento, superficie sulla quale ha maturato gran parte delle sue esperienze e che si sposa bene con un gioco rapido e votato alla verticalità. Nel corso del 2026 ha provato a misurarsi con i ritmi più diversi, presentandosi alle qualificazioni di tutti e quattro i tornei dello Slam: ad Australian Open, Roland Garros e Wimbledon la corsa si è fermata prima del tabellone principale, mentre allo US Open ha ottenuto l'accesso diretto, uscendo al primo turno. Proprio quella trafila racconta di un apprendistato accelerato, fatto di confronti ravvicinati contro avversarie di livello superiore a quello incontrato fino ad allora. Resta una giocatrice ancora in fase di adattamento al circuito maggiore, ma il suo tennis propositivo sembra trovare nelle superfici più rapide il contesto più congeniale.
 
 ## Trofei e momenti chiave
 
-Il capitolo più luminoso della sua carriera resta, almeno finora, quello universitario. Con la Texas A&M ha contribuito alla conquista del titolo nazionale NCAA nel 2024, un traguardo storico per il programma dell'ateneo, impresa nella quale è stata premiata come MVP del torneo. Individualmente è salita in cima alle classifiche universitarie, diventando la prima giocatrice della sua università a raggiungere la vetta del ranking ITA e a essere nominata migliore giocatrice dell'anno a livello nazionale, oltre a un doppio riconoscimento come migliore della propria conference.
+Il capitolo più luminoso della sua carriera resta, almeno finora, quello universitario. Con la Texas A&M ha contribuito alla conquista del titolo nazionale NCAA nel 2024, un traguardo storico per il programma dell'ateneo, impresa nella quale è stata premiata come MVP del torneo. Individualmente è salita in cima alle classifiche universitarie, diventando la prima giocatrice della Texas A&M a raggiungere la vetta del ranking ITA in singolare, dopo il successo all'ITA All-American Championships nell'autunno del 2023. Nel 2024 ha poi messo in fila i riconoscimenti più ambiti del college: giocatrice dell'anno a livello nazionale, Honda Sports Award e, per la seconda volta, premio di migliore della SEC, la propria conference.
 
-Nel passaggio al professionismo ha aggiunto alcuni titoli nel circuito ITF e, nel corso del 2026, ha ottenuto le prime vittorie nel tabellone principale di tornei WTA, avvicinandosi per la prima volta alle posizioni di classifica che davvero contano. Il quadro è quello di una giocatrice che sta provando a tradurre un percorso formativo di altissimo livello in una dimensione professionistica solida, con margini di crescita ancora ampi.
+Nel passaggio al professionismo ha aggiunto tre titoli nel circuito ITF e, nel 2026, ha ottenuto le prime vittorie nel tabellone principale di un torneo WTA: al SP Open di San Paolo ha superato Claire Liu e Dominika Šalková, spingendosi fino ai quarti di finale. Nell'ottobre dello stesso anno ha toccato il proprio best ranking, il numero 113 del mondo. Il quadro è quello di una giocatrice che sta provando a tradurre un percorso formativo di altissimo livello in una dimensione professionistica solida, con margini di crescita ancora ampi.
 
 ### Trofei principali
 
 - Titolo nazionale NCAA con la Texas A&M (2024), con premio di MVP del torneo
-- Alcuni titoli nel circuito ITF
-- Riconoscimenti individuali di vertice nel tennis universitario statunitense
+- Giocatrice dell'anno del tennis universitario statunitense e Honda Sports Award nel 2024
+- Tre titoli nel circuito ITF e quarti di finale al SP Open di San Paolo nel 2026

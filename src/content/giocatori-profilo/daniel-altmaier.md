@@ -2,11 +2,11 @@
 nome: "Daniel Altmaier"
 slug_profilo: "daniel-altmaier"
 titoli: "Acuti nei Slam, in cerca del primo titolo ATP"
-stile_gioco: "Difesa e pazienza da fondo, miglior rendimento sulla terra"
+stile_gioco: "Difesa e pazienza da fondo, rovescio a una mano, miglior rendimento sulla terra"
 nazionalita: "Germania"
-data_nascita: "1998-01-12"
+data_nascita: "1998-09-12"
 mano: "destro"
-rovescio: "due mani"
+rovescio: "una mano"
 altezza: "188 cm"
 categoria: "ATP"
 superficie_preferita: "terra"
@@ -26,13 +26,13 @@ generato_il: "2026-10-27T12:33"
 
 ## Chi è
 
-Daniel Altmaier appartiene a quella categoria di giocatori che non arrivano per primi, ma che, una volta arrivati, restano. Tedesco, cresciuto tennisticamente sulla terra rossa europea, ha costruito la propria carriera lontano dai riflettori, salendo gradino dopo gradino attraverso il circuito minore prima di ritagliarsi uno spazio stabile nel tour maggiore. È un profilo che racconta bene la pazienza: nessuna esplosione precocissima, ma una maturazione costante, fatta di settimane di Challenger, di infortuni superati nelle prime stagioni e di una fiducia costruita colpo dopo colpo.
+Daniel Altmaier appartiene a quella categoria di giocatori che non arrivano per primi, ma che, una volta arrivati, restano. Tedesco, nato a Kempen nel settembre del 1998 e cresciuto tennisticamente sulla terra rossa europea, ha costruito la propria carriera lontano dai riflettori, salendo gradino dopo gradino attraverso il circuito minore prima di ritagliarsi uno spazio stabile nel tour maggiore. È un profilo che racconta bene la pazienza: nessuna esplosione precocissima, ma una maturazione costante, fatta di settimane di Challenger, di infortuni superati nelle prime stagioni e di una fiducia costruita colpo dopo colpo.
 
 Il suo nome è legato soprattutto ad alcune serate che hanno travalicato i suoi risultati ordinari, momenti in cui ha dimostrato di poter mettere in difficoltà avversari di rango nettamente superiore. Proprio quelle imprese hanno definito l'immagine che il pubblico ha di lui: un giocatore scomodo, capace di alzare il livello quando la posta si fa pesante.
 
 ## Il suo tennis
 
-Altmaier è un tennista di costruzione, non di accelerazione improvvisa. Il suo gioco si fonda sulla solidità da fondocampo e su un diritto pesante, carico di rotazione, con cui spinge l'avversario sempre più indietro fino a trovare l'apertura del campo. Il rovescio a due mani è affidabile e gli consente di reggere scambi lunghi senza concedere strappi.
+Altmaier è un tennista di costruzione, non di accelerazione improvvisa. Il suo gioco si fonda sulla solidità da fondocampo e su un diritto pesante, carico di rotazione, con cui spinge l'avversario sempre più indietro fino a trovare l'apertura del campo. Il rovescio è a una mano, scelta rara nel circuito di oggi e adottata da ragazzo: gli serve per variare le traiettorie, per accompagnare lo slice difensivo e, nelle giornate giuste, per cambiare direzione allo scambio con il colpo che più lo rende riconoscibile.
 
 La qualità che più lo distingue è però la resistenza, mentale prima ancora che fisica. Altmaier non teme le partite che si allungano: anzi, è nei match a oltranza che spesso trova la sua dimensione migliore, quando la pazienza e la capacità di restare lucido nei punti decisivi diventano un'arma. Non è un giocatore che cerca scorciatoie a rete, ma uno che preferisce logorare l'avversario, spostarlo, costringerlo all'errore. Negli scontri diretti contro i migliori ha dimostrato di saper leggere la partita e di adattare le proprie scelte, rinunciando alla potenza fine a sé stessa in favore di un tennis più ragionato.
 
@@ -46,9 +46,9 @@ Questo non significa che sia un giocatore limitato a un solo scenario: sul cemen
 
 Sul piano dei titoli, la carriera di Altmaier si è nutrita soprattutto di successi a livello Challenger, tappe fondamentali per la sua crescita e per la scalata del ranking. Nel circuito maggiore si è spinto fino alle fasi avanzate di diversi tornei, confermandosi un avversario rispettato.
 
-I suoi momenti più celebri restano però legati allo Slam parigino. Partendo dalle qualificazioni, riuscì a raggiungere le fasi finali del tabellone del Roland Garros, firmando un cammino che lo impose all'attenzione internazionale. Anni dopo, sempre a Parigi, fu protagonista di una lunghissima battaglia al meglio dei cinque set contro uno dei migliori giovani del circuito, una vittoria epica che ribadì la sua natura di giocatore capace di sovvertire i pronostici nelle grandi occasioni.
+I suoi momenti più celebri restano però legati allo Slam parigino. Nel 2020, partendo dalle qualificazioni, raggiunse gli ottavi di finale del Roland Garros battendo fra gli altri Jan-Lennard Struff e Matteo Berrettini, settima testa di serie, un cammino che lo impose all'attenzione internazionale. Tre anni più tardi, sempre a Parigi, fu protagonista di una battaglia di cinque ore e ventisei minuti contro Jannik Sinner, ottavo favorito del seeding, vinta al quinto set: una partita che ribadì la sua natura di giocatore capace di sovvertire i pronostici nelle grandi occasioni. Nel 2025 ha poi ripetuto gli ottavi parigini, mentre il miglior piazzamento in classifica, il numero 44, è arrivato all'inizio del 2026.
 
 ### In sintesi
 
-- Diversi titoli a livello Challenger
-- Risultati di prestigio al Roland Garros, culminati in alcune imprese rimaste nella memoria del pubblico
+- Sette titoli a livello Challenger
+- Ottavi di finale al Roland Garros nel 2020 e nel 2025, con la vittoria su Sinner nel 2023

@@ -2,7 +2,7 @@
 nome: "Coco Gauff"
 slug_profilo: "coco-gauff"
 nazionalita: "Stati Uniti"
-data_nascita: "2004-03-11"
+data_nascita: "2004-03-13"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "velocità, difesa atletica e solido rovescio a due mani"
@@ -26,7 +26,7 @@ generato_il: "2026-10-29T16:43"
 
 ## Chi è
 
-Coco Gauff, statunitense nata in Florida nel 2004, è entrata nell'immaginario del tennis quando era ancora un'adolescente. Il suo nome è diventato familiare al grande pubblico a Wimbledon, dove a soli quindici anni superò Venus Williams in uno dei debutti più discussi degli ultimi anni. Da quel momento la crescita è stata costante: non più soltanto la giovane promessa su cui tutti riponevano aspettative, ma una giocatrice capace di reggere la pressione dei palcoscenici più importanti e di trasformarla in risultati concreti.
+Coco Gauff, statunitense del 2004 cresciuta a Delray Beach, in Florida, è entrata nell'immaginario del tennis quando era ancora un'adolescente. Il suo nome è diventato familiare al grande pubblico a Wimbledon nel 2019, dove a soli quindici anni superò Venus Williams in uno dei debutti più discussi degli ultimi anni. Da quel momento la crescita è stata costante: non più soltanto la giovane promessa su cui tutti riponevano aspettative, ma una giocatrice capace di reggere la pressione dei palcoscenici più importanti e di trasformarla in risultati concreti.
 
 ## Il suo tennis
 
@@ -42,7 +42,7 @@ La terra battuta, però, le si addice più di quanto il suo profilo atletico las
 
 ## Trofei e momenti chiave
 
-Il percorso di Gauff ha già toccato le vette più alte del tennis femminile. Il primo trionfo nel singolare in una prova dello Slam, arrivato agli US Open, ha rappresentato la conferma di un talento di cui si parlava da anni. A quel successo si è aggiunto il titolo al Roland Garros, su una superficie diversa, segno della sua versatilità. Nel frattempo è arrivata anche l'affermazione alle WTA Finals, il torneo che riunisce le migliori giocatrici della stagione.
+Il percorso di Gauff ha già toccato le vette più alte del tennis femminile. Il primo trionfo nel singolare in una prova dello Slam, arrivato agli US Open nel 2023, ha rappresentato la conferma di un talento di cui si parlava da anni. A quel successo si è aggiunto il titolo al Roland Garros nel 2025, su una superficie diversa, segno della sua versatilità. Nel frattempo era arrivata anche l'affermazione alle WTA Finals del 2024, il torneo che riunisce le migliori giocatrici della stagione.
 
 Accanto ai risultati in singolare, va ricordata una carriera parallela di altissimo livello nel doppio, specialità in cui ha occupato la posizione di numero uno del mondo. I suoi traguardi principali si possono riassumere così:
 

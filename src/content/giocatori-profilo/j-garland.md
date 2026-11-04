@@ -8,8 +8,8 @@ mano: "destro"
 rovescio: "due mani"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Cresciuta tra l'Inghilterra e Taiwan, Joanna Garland è diventata la numero uno taiwanese: una regolarista tenace che sul tour maggiore ha trovato la sua dimensione."
-descrizione: "Profilo di Joanna Garland, numero uno taiwanese: il percorso dai tornei ITF alla top 120 WTA, il suo tennis e i risultati chiave."
+intro: "Cresciuta tra l'Inghilterra e Taiwan, Joanna Garland è il volto di riferimento del tennis femminile taiwanese: una regolarista tenace che sul tour maggiore ha trovato la sua dimensione."
+descrizione: "Profilo di Joanna Garland, prima tennista di Taipei Cinese: il percorso dai tornei ITF alla top 120 WTA, il suo tennis e i risultati chiave."
 tag:
   - "Joanna Garland"
   - "Garland"
@@ -24,9 +24,9 @@ generato_il: "2026-10-25T11:23"
 
 ## Chi è
 
-Joanna Garland è la principale rappresentante del tennis di Taipei Cinese, la numero uno taiwanese della sua generazione. Nata il 16 luglio 2001 a Stevenage, in Inghilterra, cresce in una famiglia dalla doppia radice, britannica e taiwanese, prima di trasferirsi a Taiwan intorno ai dieci anni. È in quel passaggio che prende forma la sua identità sportiva: formazione europea nei primi anni, poi la scelta di difendere i colori di Taiwan, di cui è diventata il riferimento nel circuito femminile.
+Joanna Garland è la principale rappresentante del tennis femminile di Taipei Cinese. Nata il 16 luglio 2001 a Stevenage, in Inghilterra, cresce in una famiglia dalla doppia radice, britannica e taiwanese, prima di trasferirsi a Taiwan da ragazza. È in quel passaggio che prende forma la sua identità sportiva: formazione europea nei primi anni, poi la scelta di difendere i colori di Taiwan, di cui è diventata il riferimento nel circuito femminile.
 
-Il suo è stato un percorso di costruzione paziente, lontano dai riflettori precoci: anni di tornei nelle categorie minori, chilometri e trasferte, prima di affacciarsi stabilmente ai livelli più alti e issarsi nei dintorni della top 120 mondiale, con il best ranking raggiunto all'inizio del 2026.
+Il suo è stato un percorso di costruzione paziente, lontano dai riflettori precoci: anni di tornei nelle categorie minori, chilometri e trasferte, prima di affacciarsi stabilmente ai livelli più alti e issarsi fino al numero 117 del mondo, best ranking raggiunto il 12 gennaio 2026.
 
 ## Il suo tennis
 
@@ -46,9 +46,9 @@ La parte più corposa del suo bottino arriva dal circuito ITF, dove ha messo ins
 
 **Momenti principali:**
 
-- Sedici titoli in singolare nel circuito ITF, base della sua ascesa
+- Oltre quindici titoli in singolare nel circuito ITF, base della sua ascesa
 - Titolo al Canberra Tennis International 2026 (WTA 125), con successo in finale su Polina Kudermetova
 - Secondo turno al Roland Garros 2025, dopo aver superato Katie Volynets all'esordio
 - Semifinale al torneo WTA di Chennai nel 2025
 
-Sono risultati che raccontano una traiettoria in ascesa e, soprattutto, il consolidamento del suo status di prima tennista taiwanese: un punto d'arrivo importante e, allo stesso tempo, una base da cui provare a spingersi ancora più in alto.
+Sono risultati che raccontano una traiettoria in ascesa e, soprattutto, il consolidamento del suo ruolo di riferimento per il tennis femminile taiwanese: un punto d'arrivo importante e, allo stesso tempo, una base da cui provare a spingersi ancora più in alto.

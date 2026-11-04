@@ -1,14 +1,14 @@
 ---
 nome: "Adan Freire Da Silva"
 slug_profilo: "a-freire-da-silva"
-stile_gioco: "Gioco aggressivo da fondo campo, a suo agio sul cemento"
+stile_gioco: "Gioco da fondo campo, attività concentrata sui tornei ITF in cemento"
 nazionalita: "Francia"
 data_nascita: "1999-05-05"
 mano: "destro"
 categoria: "Challenger"
 superficie_preferita: "cemento"
-intro: "Tennista francese del 1999, Adan Freire Da Silva costruisce la sua carriera nei circuiti di base del tennis internazionale, con il cemento come terreno d'elezione."
-descrizione: "Profilo di Adan Freire Da Silva, tennista francese destrimane nato nel 1999: il suo tennis, il rendimento sul cemento e il percorso nei circuiti minori."
+intro: "Tennista francese del 1999, Adan Freire Da Silva costruisce la sua carriera nei circuiti di base del tennis internazionale, soprattutto nei tornei ITF di casa."
+descrizione: "Profilo di Adan Freire Da Silva, tennista francese destrimane nato nel 1999: il suo tennis, le superfici e il percorso nei circuiti d'ingresso al professionismo."
 tag:
   - "Adan Freire Da Silva"
   - "Freire Da Silva"
@@ -17,28 +17,28 @@ tag:
   - "cemento"
   - "circuito ITF"
   - "Challenger"
-  - "ATP"
+  - "tennis maschile"
 pubblicato: true
 generato_il: "2026-10-27T12:25"
 ---
 
 ## Chi è
 
-Adan Freire Da Silva è un tennista francese, nato il 5 maggio 1999. Ha preso in mano la racchetta da piccolissimo, intorno ai cinque anni, e appartiene a quella vasta categoria di professionisti che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, nei circuiti di base del tennis internazionale. Il suo è un cammino fatto di tabelloni periferici, trasferte continue e punti conquistati uno alla volta, ben distante dalla visibilità riservata ai nomi di vertice del ranking mondiale.
+Adan Freire Da Silva è un tennista francese, nato il 5 maggio 1999. Appartiene a quella vasta categoria di professionisti che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, nei circuiti di base del tennis internazionale: la sua attività si concentra sui tornei ITF da 15.000 e 25.000 dollari di montepremi, in larga parte in Francia. Il suo è un cammino fatto di tabelloni periferici, trasferte continue e punti conquistati uno alla volta, ben distante dalla visibilità riservata ai nomi di vertice del ranking mondiale, dove si muove oltre la novecentesima posizione.
 
 Destrimane, Freire Da Silva rientra tra i giocatori la cui attività si concentra prevalentemente nei tornei dei circuiti d'ingresso al professionismo, dove ci si gioca la possibilità di salire gradino dopo gradino verso i livelli superiori del tennis che conta. È il tipo di atleta il cui nome difficilmente compare nelle cronache dei tornei più seguiti, ma che rappresenta la base larga e competitiva su cui poggia l'intero movimento.
 
 ## Il suo tennis
 
-Per un giocatore che milita soprattutto nelle categorie minori, il profilo tecnico resta meno documentato rispetto a quello dei protagonisti del grande circuito. Quel che è certo è che Freire Da Silva gioca con la mano destra e ha impostato la propria crescita soprattutto sulle superfici rapide, un dato che lascia intuire un tennis orientato alla concretezza e al ritmo da fondo campo più che alle lunghe costruzioni tipiche dei campi lenti.
+Per un giocatore che milita soprattutto nelle categorie minori, il profilo tecnico resta meno documentato rispetto a quello dei protagonisti del grande circuito. Quel che è certo è che Freire Da Silva gioca con la mano destra ed è un atleta di statura media per il tour, attorno al metro e ottantatré, con un fisico che non lascia pensare a un tennis di sola potenza.
 
 Come accade spesso per gli atleti di questa fascia, la posta in palio di ogni incontro non è soltanto il risultato del singolo match, ma la manciata di punti utile a muovere una classifica che, a questi livelli, cambia volto settimana dopo settimana. È una dimensione del tennis in cui continuità, tenuta fisica e capacità di reggere la pressione nei turni decisivi pesano quanto il talento puro.
 
 ## Sulle diverse superfici
 
-La superficie che meglio si addice al suo gioco è il cemento, indicato come terreno di riferimento nella sua scheda. È la superficie più diffusa nei circuiti in cui è impegnato e quella su cui, con ogni probabilità, ha accumulato la maggior parte della propria esperienza agonistica.
+Il cemento, all'aperto e soprattutto al coperto, è la superficie più diffusa nei tornei ITF in cui è impegnato ed è quella su cui ha accumulato la maggior parte della propria esperienza agonistica. Il calendario francese di categoria minore, però, alterna il duro alla terra battuta con una certa regolarità, e anche sul rosso Freire Da Silva ha disputato un buon numero di incontri.
 
-Sulla terra battuta e sull'erba, come per molti giocatori del suo profilo, il rendimento va valutato con maggiore prudenza: sono superfici che richiedono adattamenti specifici e che, nei circuiti minori, offrono un calendario più frammentato. In assenza di riscontri ampi e consolidati, è corretto considerare il cemento come l'ambiente in cui Freire Da Silva si esprime con maggiore naturalezza.
+Sull'erba, come per quasi tutti i giocatori del suo livello, i riscontri sono praticamente inesistenti: è una superficie che nei circuiti d'ingresso al professionismo offre un calendario quasi nullo. In assenza di una base statistica ampia, il quadro più onesto è quello di un giocatore che si muove su tutte le superfici che il suo calendario gli propone, senza una specializzazione dimostrata.
 
 ## Trofei e momenti chiave
 

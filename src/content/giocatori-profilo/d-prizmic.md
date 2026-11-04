@@ -2,11 +2,11 @@
 nome: "Dino Prizmic"
 slug_profilo: "d-prizmic"
 nazionalita: "Croazia"
-data_nascita: "2005-11-06"
+data_nascita: "2005-08-05"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "attaccante da fondo, solidità e maturità tattica"
-titoli: "vincitore del Roland Garros juniores 2023, con alcuni successi nei circuiti minori all'inizio del percorso tra i professionisti"
+titoli: "vincitore del Roland Garros juniores 2023, tre titoli Challenger e cinque titoli ITF"
 categoria: "ATP"
 superficie_preferita: "terra"
 intro: "Giovane promessa del tennis croato, Dino Prizmic si è imposto presto all'attenzione internazionale grazie a un gioco maturo da fondo e a una mentalità battagliera."
@@ -43,6 +43,6 @@ Il cemento ne valorizza la precisione e la capacità di prendere l'iniziativa, c
 
 ## Trofei e momenti chiave
 
-Il risultato che ha fatto conoscere Prizmic al grande pubblico è il titolo nel singolare maschile juniores al Roland Garros nel 2023, un traguardo che lo ha inserito di diritto tra i giovani più attesi del circuito. Nel percorso di avvicinamento al tennis dei grandi ha poi raccolto alcuni successi nei tornei minori, tappe utili alla sua progressione in classifica.
+Il risultato che ha fatto conoscere Prizmic al grande pubblico è il titolo nel singolare maschile juniores al Roland Garros nel 2023, un traguardo che lo ha inserito di diritto tra i giovani più attesi del circuito. Nel percorso di avvicinamento al tennis dei grandi ha poi raccolto tre titoli Challenger, a Banja Luka nel 2023 e nella doppietta Zagabria-Bratislava del 2025, tappe decisive per la sua progressione in classifica.
 
-Il momento di maggiore visibilità è però arrivato agli Australian Open del 2024, quando, uscito dalle qualificazioni, ha affrontato Novak Djokovic al primo turno costringendolo a una battaglia lunga e combattuta sulla distanza. Pur uscendo sconfitto, la prestazione ha mostrato al mondo la stoffa del giocatore e ha rappresentato un banco di prova dal quale ripartire per costruire il resto del cammino.
+La prima grande vetrina è arrivata agli Australian Open del 2024, quando, uscito dalle qualificazioni, ha affrontato Novak Djokovic al primo turno costringendolo a una battaglia di quattro ore. Due anni più tardi, agli Internazionali d'Italia del 2026, il copione si è ribaltato: Prizmic ha battuto proprio Djokovic, terza testa di serie, e poi Ugo Humbert, raggiungendo gli ottavi. Nella stessa stagione aveva già superato Ben Shelton a Madrid, primo successo contro un giocatore da top ten, e si è spinto fino al suo miglior piazzamento in classifica, attorno alla settantesima posizione mondiale.

@@ -1,6 +1,6 @@
 ---
 titolo: "Vienna, atto finale: Neumayer sfida Droguet per il titolo"
-sottotitolo: "Il padrone di casa contro il francese lanciatissimo: chi alzera' il trofeo al termine di una settimana logorante sul veloce indoor?"
+sottotitolo: "Il padrone di casa contro il francese lanciatissimo: chi alzerà il trofeo al termine di una settimana logorante sul veloce indoor?"
 data: "2026-10-25"
 autore: "Redazione AnalisiTennis"
 torneo: "Vienna"

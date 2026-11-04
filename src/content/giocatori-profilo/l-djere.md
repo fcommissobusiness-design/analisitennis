@@ -2,11 +2,11 @@
 nome: "Laslo Djere"
 slug_profilo: "l-djere"
 nazionalita: "Serbia"
-data_nascita: "1995-07-02"
+data_nascita: "1995-06-02"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "dritto pesante e solidità da fondo sulla terra"
-titoli: "un titolo ATP 500 sulla terra (Rio de Janeiro) e un secondo titolo sul tour maggiore, sempre sul rosso"
+titoli: "tre titoli ATP, tutti sulla terra: Rio de Janeiro 2019, Sardegna 2020 e Santiago del Cile 2025"
 categoria: "ATP"
 superficie_preferita: "terra"
 intro: "Serbo cresciuto sul rosso, Laslo Djere ha fatto della pazienza da fondo e di un dritto profondo le armi della sua carriera sul tour maggiore."
@@ -25,9 +25,9 @@ generato_il: "2026-10-28T20:58"
 
 ## Chi è
 
-Laslo Djere è un tennista serbo nato nel 1995 a Senta, nel nord del Paese, in una zona di confine di cultura mista. Cresciuto tennisticamente sulla terra battuta, ha costruito la sua ascesa attraverso il circuito minore prima di ritagliarsi una collocazione stabile tra i protagonisti del tour maggiore. La sua è una storia fatta di gavetta più che di precocità clamorosa: un giocatore che è migliorato per gradi, fino a entrare per diverse stagioni nella parte alta del ranking mondiale e a confrontarsi, in più occasioni, con avversari di primissimo piano.
+Laslo Djere è un tennista serbo nato il 2 giugno 1995 a Senta, nel nord del Paese, da una famiglia della minoranza ungherese di Serbia. Cresciuto tennisticamente sulla terra battuta, ha costruito la sua ascesa attraverso il circuito minore prima di ritagliarsi una collocazione stabile tra i protagonisti del tour maggiore. La sua è una storia fatta di gavetta più che di precocità clamorosa: un giocatore che è migliorato per gradi, fino al best ranking di numero 27 del mondo nel giugno 2019 e a confrontarsi, in più occasioni, con avversari di primissimo piano.
 
-Il suo percorso è segnato anche da una vicenda personale dolorosa, avendo perso entrambi i genitori in giovane età: un dato biografico che la stampa ha spesso richiamato per spiegare la maturità e la compostezza con cui affronta il campo.
+Il suo percorso è segnato anche da una vicenda personale dolorosa, avendo perso entrambi i genitori per un tumore quando era ancora ragazzo: un dato biografico che la stampa ha spesso richiamato per spiegare la maturità e la compostezza con cui affronta il campo.
 
 ## Il suo tennis
 
@@ -43,13 +43,14 @@ Sull'erba, come per molti specialisti del rosso, l'adattamento è stato storicam
 
 ## Trofei e momenti chiave
 
-Il risultato che ha dato una svolta alla sua carriera è arrivato a Rio de Janeiro nel 2019, dove ha conquistato il suo primo titolo sul tour maggiore in un torneo di categoria 500, giocato sulla terra. Fu un successo pesante, che gli valse un balzo significativo in classifica e lo proiettò tra i giocatori da seguire sul rosso.
+Il risultato che ha dato una svolta alla sua carriera è arrivato a Rio de Janeiro nel 2019, dove ha conquistato il suo primo titolo sul tour maggiore in un torneo di categoria 500, giocato sulla terra: lungo il percorso superò Dominic Thiem, prima vittoria in carriera contro un top 10, e in finale Felix Auger-Aliassime. Fu un successo pesante, che gli valse un balzo significativo in classifica e lo proiettò tra i giocatori da seguire sul rosso, e che dedicò ai genitori scomparsi.
 
-Negli anni successivi ha aggiunto un ulteriore titolo sul circuito maggiore, anch'esso maturato sulla terra battuta, confermando la propria vocazione per questa superficie. A questi vanno affiancati i traguardi del circuito minore e diverse affermazioni di prestigio contro avversari di alto livello, che ne hanno accompagnato la permanenza nelle posizioni che contano del ranking.
+Negli anni successivi ha aggiunto altri due titoli sul circuito maggiore, il Sardegna Open nel 2020 e il Chile Open nel 2025, anch'essi maturati sulla terra battuta, confermando la propria vocazione per questa superficie. A questi vanno affiancati i traguardi del circuito minore e diverse affermazioni di prestigio, come quelle su Juan Martin del Potro a Madrid nel 2019 e su Casper Ruud ad Auckland nel 2023. Nelle prove del Grande Slam il suo miglior risultato è il terzo turno, raggiunto a Parigi, a Wimbledon e agli US Open.
 
 ### Trofei principali
 
 - Titolo ATP 500 sulla terra a Rio de Janeiro (2019)
-- Un ulteriore titolo sul tour maggiore, sempre sul rosso
+- Sardegna Open 2020 e Chile Open 2025, entrambi ATP 250 sul rosso
+- Best ranking di numero 27 del mondo (2019)
 
 Nel complesso, la carriera di Djere racconta quella di un terraiolo autentico: mai sopra le righe, ma capace di giocarsela con chiunque quando il campo rallenta e la partita diventa questione di gambe, pazienza e dritto.

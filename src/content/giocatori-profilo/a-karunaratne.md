@@ -4,7 +4,7 @@ slug_profilo: "a-karunaratne"
 nazionalita: "Hong Kong"
 data_nascita: "2001-12-04"
 stile_gioco: "solidità da fondo e continuità negli scambi"
-titoli: "diversi titoli nel circuito ITF, soprattutto a livello W15; miglior classifica WTA in singolare attorno alla posizione numero 280"
+titoli: "cinque titoli in singolare nel circuito ITF; miglior classifica WTA in singolare alla posizione numero 278"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Nata in Sri Lanka e cresciuta a Hong Kong, Adithya Karunaratne è una delle tenniste più tenaci del circuito ITF, un tennis costruito lontano dai riflettori."
@@ -24,7 +24,7 @@ generato_il: "2026-11-02T16:00"
 
 ## Chi è
 
-Adithya Karunaratne appartiene a quella categoria di tenniste la cui storia personale pesa quanto i risultati sul campo. Nata in Sri Lanka il 4 dicembre 2001 e trasferitasi a Hong Kong da bambina, ha costruito la propria carriera attraversando confini e federazioni: oggi scende in campo sotto la bandiera di Hong Kong, pur restando un nome di riferimento per il tennis femminile srilankese, di cui è stata a lungo l'atleta più in vista nelle classifiche internazionali. La sua è una traiettoria da professionista di frontiera, lontana dai grandi tornei televisivi ma pienamente dentro il circuito ITF, dove si gioca la parte meno raccontata e più dura del tennis mondiale. A completare il ritratto c'è una formazione personale fuori dal comune, tra gli studi e la passione per la musica, che l'ha resa una figura particolare nel panorama del tennis asiatico.
+Adithya Karunaratne appartiene a quella categoria di tenniste la cui storia personale pesa quanto i risultati sul campo. Nata in Sri Lanka il 4 dicembre 2001 e trasferitasi a Hong Kong con la famiglia a cinque anni, ha costruito la propria carriera attraversando confini e federazioni: oggi scende in campo sotto la bandiera di Hong Kong, pur restando un nome di riferimento per il tennis femminile srilankese, di cui è stata a lungo l'atleta più in vista nelle classifiche internazionali. Dal 2015 si allena in Spagna, nei pressi di Barcellona, sostenuta da una borsa dello Hong Kong Sports Institute. La sua è una traiettoria da professionista di frontiera, lontana dai grandi tornei televisivi ma pienamente dentro il circuito ITF, dove si gioca la parte meno raccontata e più dura del tennis mondiale. A completare il ritratto ci sono gli studi di diritto e la chitarra classica, due strade che ha coltivato in parallelo al tennis e che l'hanno resa una figura particolare nel panorama del tennis asiatico.
 
 ## Il suo tennis
 
@@ -40,8 +40,9 @@ Il capitolo dei risultati va letto nella cornice corretta, quella del circuito I
 
 **Trofei e traguardi principali:**
 
-- Diversi titoli nel circuito ITF, concentrati soprattutto nei tornei di categoria più accessibile
-- Miglior classifica WTA in singolare toccata nei dintorni della posizione numero 280
+- Cinque titoli in singolare nel circuito ITF, dal 2021 al 2026, tra Tunisia, Bulgaria e Serbia
+- Due titoli in doppio nel circuito ITF
+- Miglior classifica WTA in singolare alla posizione numero 278
 - Riconosciuta come una delle tenniste di riferimento per il movimento femminile legato allo Sri Lanka
 
 Il senso della sua storia, più che nei numeri, sta nella perseveranza: quella di un'atleta che ha scelto di inseguire il tennis professionistico percorrendo una strada tutt'altro che scontata, tra due culture e lontano dai grandi riflettori, trasformando la determinazione nel proprio tratto distintivo.

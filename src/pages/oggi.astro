@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import FormEmail from '../components/FormEmail.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import { tournamentDisplay } from '../lib/hubs.js';
 
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 // Trova la data piu' recente in archivio e mostra quei match (al build time)
@@ -19,7 +20,7 @@ const articoli = tutti
 const perTorneo = new Map();
 for (const a of articoli) {
   const k = a.data.torneo;
-  if (!perTorneo.has(k)) perTorneo.set(k, { torneo: k, categoria: a.data.categoria, superficie: a.data.superficie, articoli: [] });
+  if (!perTorneo.has(k)) perTorneo.set(k, { torneo: tournamentDisplay(k), categoria: a.data.categoria, superficie: a.data.superficie, articoli: [] });
   perTorneo.get(k).articoli.push(a);
 }
 const gruppi = [...perTorneo.values()].sort((a, b) => a.torneo.localeCompare(b.torneo, 'it'));

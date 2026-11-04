@@ -6,7 +6,7 @@ data_nascita: "1998-11-11"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio pesante e colpi da fondo aggressivi"
-titoli: "diversi titoli WTA, con il primo conquistato sull'erba e una stagione particolarmente ricca a metà percorso"
+titoli: "cinque titoli WTA, il primo sull'erba di Berlino nel 2021, e un best ranking di numero 12 del mondo"
 altezza: "182 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -26,9 +26,9 @@ generato_il: "2026-11-03T11:05"
 
 ## Chi è
 
-Liudmila Samsonova è una tennista russa nata nel 1998, figura ormai stabile delle zone alte del circuito femminile. La sua storia ha però un legame profondo con l'Italia: è cresciuta nel nostro Paese e si è formata tennisticamente qui, un dettaglio che l'ha resa una presenza familiare e simpatica agli occhi del pubblico italiano. Parla la nostra lingua e in più occasioni ha raccontato quanto quegli anni abbiano inciso sul suo modo di stare in campo e fuori.
+Liudmila Samsonova è una tennista russa nata l'11 novembre 1998 a Olenegorsk, nella regione di Murmansk, figura ormai stabile delle zone alte del circuito femminile. La sua storia ha però un legame profondo con l'Italia: la famiglia si è trasferita nel nostro Paese quando lei aveva circa un anno e si è formata tennisticamente qui, al centro di Riccardo Piatti a Bordighera, arrivando a rappresentare l'Italia nelle competizioni giovanili fino al 2018, prima di passare alla Russia. Parla la nostra lingua e in più occasioni ha raccontato quanto quegli anni abbiano inciso sul suo modo di stare in campo e fuori.
 
-Sul piano agonistico, Samsonova si è fatta notare per una progressione decisa che l'ha portata a stabilirsi stabilmente tra le prime posizioni del ranking mondiale, con un best ranking che l'ha collocata tra le migliori giocatrici del mondo. Non una meteora, dunque, ma un'atleta che ha saputo consolidare i propri risultati stagione dopo stagione.
+Sul piano agonistico, Samsonova si è fatta notare per una progressione decisa che l'ha portata a stabilirsi tra le prime posizioni del ranking mondiale, fino al best ranking di numero 12 raggiunto nel febbraio 2023. Non una meteora, dunque, ma un'atleta che ha saputo consolidare i propri risultati stagione dopo stagione.
 
 ## Il suo tennis
 
@@ -40,13 +40,13 @@ La filosofia è chiara: prendere l'iniziativa, accorciare gli scambi, portare l'
 
 Il cemento è il terreno che valorizza al meglio le sue caratteristiche: il rimbalzo regolare e la velocità della superficie si sposano perfettamente con un gioco fatto di potenza e anticipo. È qui che ha raccolto alcuni dei risultati più significativi della carriera.
 
-Anche l'erba, però, premia il suo tennis: il servizio e i colpi tesi rendono ancora più incisivo un repertorio già aggressivo, e non a caso proprio sul verde è arrivato uno dei suoi successi più importanti. Sulla terra battuta, dove i ritmi si allungano e la pazienza conta di più, deve invece lavorare maggiormente di costruzione, adattando il proprio istinto offensivo a scambi più lunghi.
+Anche l'erba, però, premia il suo tennis: il servizio e i colpi tesi rendono ancora più incisivo un repertorio già aggressivo, e non a caso sul verde sono arrivati due dei suoi titoli e il miglior risultato in uno Slam, il quarto di finale a Wimbledon nel 2025. Sulla terra battuta, dove i ritmi si allungano e la pazienza conta di più, deve invece lavorare maggiormente di costruzione, adattando il proprio istinto offensivo a scambi più lunghi.
 
 ## Trofei e momenti chiave
 
-Samsonova ha conquistato diversi titoli nel circuito maggiore, costruendosi una bacheca di tutto rispetto. Il suo primo trofeo di rilievo è arrivato sull'erba, una tappa che ne ha certificato il potenziale e ne ha accelerato l'ascesa nelle gerarchie del tennis femminile.
+Samsonova ha conquistato cinque titoli nel circuito maggiore, costruendosi una bacheca di tutto rispetto. Il primo è arrivato sull'erba di Berlino nel 2021, partendo dalle qualificazioni e superando lungo il cammino avversarie come Victoria Azarenka e Belinda Bencic: una tappa che ne ha certificato il potenziale e ne ha accelerato l'ascesa nelle gerarchie del tennis femminile.
 
-Il periodo più brillante è stato caratterizzato da una serie ravvicinata di affermazioni sul cemento, con vittorie che hanno confermato la sua capacità di incatenare prestazioni di alto livello nell'arco di poche settimane. Quei risultati l'hanno proiettata stabilmente tra le protagoniste del tour, trasformando le promesse dei primi anni in una presenza concreta ai piani alti.
+Il periodo più brillante è stato il 2022, con tre affermazioni ravvicinate sul cemento a Washington, Cleveland e Tokyo, e con la prima vittoria contro una top 5, Aryna Sabalenka a Guadalajara. Nel 2024 è arrivato il quinto titolo, di nuovo sull'erba, a Rosmalen. Quei risultati l'hanno proiettata stabilmente tra le protagoniste del tour, trasformando le promesse dei primi anni in una presenza concreta ai piani alti, confermata nel 2025 dal quarto di finale a Wimbledon.
 
 ### Cosa aspettarsi
 

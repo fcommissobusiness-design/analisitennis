@@ -1,8 +1,8 @@
 ---
 nome: "Valentin Vacherot"
 slug_profilo: "valentin-vacherot"
-titoli: "Sorprendente corsa al Masters 1000 di Shanghai 2025"
-stile_gioco: "Gioco solido e combattivo da fondo, grande solidita' mentale"
+titoli: "Masters 1000 di Shanghai 2025 da qualificato e Swiss Indoors di Basilea 2026"
+stile_gioco: "Gioco solido e combattivo da fondo, grande solidità mentale"
 nazionalita: "Monaco"
 mano: "destro"
 rovescio: "due mani"
@@ -24,9 +24,9 @@ generato_il: "2026-10-27T12:55"
 
 ## Chi è
 
-Valentin Vacherot è un tennista monegasco che ha costruito la propria carriera lontano dai riflettori del grande circuito, per poi irrompere sulla scena internazionale in modo tanto improvviso quanto clamoroso. La sua formazione sportiva passa anche per gli Stati Uniti, dove ha giocato a livello universitario nel sistema NCAA prima di dedicarsi in pianta stabile al professionismo. Per diverse stagioni il suo orizzonte è rimasto quello dei tornei minori, fatto di lunghe trasferte, classifiche ballerine e match disputati davanti a tribune semivuote. È in questo contesto che ha affinato pazienza e mentalità, qualità che si sarebbero rivelate decisive nel momento della svolta.
+Valentin Vacherot, nato il 16 novembre 1998 a Roquebrune-Cap-Martin, è un tennista monegasco che ha costruito la propria carriera lontano dai riflettori del grande circuito, per poi irrompere sulla scena internazionale in modo tanto improvviso quanto clamoroso. Ha rappresentato la Francia fino al 2022, quando è passato a difendere i colori del Principato. La sua formazione sportiva passa anche per gli Stati Uniti, dove ha giocato a livello universitario nel sistema NCAA prima di dedicarsi in pianta stabile al professionismo. Per diverse stagioni il suo orizzonte è rimasto quello dei tornei minori, fatto di lunghe trasferte, classifiche ballerine e match disputati davanti a tribune semivuote. È in questo contesto che ha affinato pazienza e mentalità, qualità che si sarebbero rivelate decisive nel momento della svolta.
 
-Un dettaglio che accompagna spesso il suo nome è il legame familiare con il connazionale di campo Arthur Rinderknech, suo cugino: una parentela che ha dato vita a una delle pagine più romanzesche viste di recente sul tour maggiore.
+Un dettaglio che accompagna spesso il suo nome è il legame familiare con il tennista francese Arthur Rinderknech, suo cugino: una parentela che ha dato vita a una delle pagine più romanzesche viste di recente sul tour maggiore.
 
 ## Il suo tennis
 
@@ -42,13 +42,14 @@ Sulle superfici più lente il suo tennis mantiene dignità e ordine, ma è sul v
 
 ## Trofei e momenti chiave
 
-Il capitolo che ha cambiato la percezione del personaggio è legato al grande torneo Master 1000 di Shanghai del 2025, dove Vacherot ha firmato una delle imprese più improbabili della storia recente del circuito. Partito dalle qualificazioni e con una classifica ben lontana dai piani alti, ha inanellato una serie di vittorie fino a conquistare il titolo, superando in finale proprio il cugino Arthur Rinderknech in un epilogo dal sapore quasi cinematografico.
+Il capitolo che ha cambiato la percezione del personaggio è legato al Masters 1000 di Shanghai del 2025, dove Vacherot ha firmato una delle imprese più improbabili della storia recente del circuito. Partito dalle qualificazioni e con una classifica ben lontana dai piani alti, ha inanellato una serie di vittorie fino a conquistare il titolo, superando in finale proprio il cugino Arthur Rinderknech per 4-6 6-3 6-3, in un epilogo dal sapore quasi cinematografico.
 
-Un successo di questa portata, maturato partendo da fuori dai primi duecento del ranking, ha avuto un impatto enorme sulla sua posizione in classifica e sulla sua notorietà, proiettandolo in una dimensione del tutto nuova.
+Un successo di questa portata, maturato partendo dal numero 204 del ranking, ha avuto un impatto enorme sulla sua posizione in classifica e sulla sua notorietà, proiettandolo in una dimensione del tutto nuova. La domanda che accompagnò quella settimana riguardava la continuità, ed è la stagione successiva ad avere fornito la risposta: nel 2026 Vacherot si è stabilizzato ai piani alti, ha spinto il proprio best ranking fino al numero 14 del mondo il 5 ottobre e ha aggiunto un secondo titolo in bacheca vincendo gli Swiss Indoors di Basilea, battendo in finale Jiri Lehecka per 2-6 6-3 6-3.
 
 **Trofei principali:**
 
 - Titolo nel Masters 1000 di Shanghai 2025, da qualificato
-- Diverse affermazioni nei circuiti minori nelle stagioni precedenti alla svolta
+- Titolo negli Swiss Indoors di Basilea 2026
+- Best ranking: numero 14 del mondo, il miglior piazzamento di sempre per un tennista monegasco
 
-Resta ora da capire quanto di quella straordinaria settimana riuscirà a trasformarsi in continuità: la sfida più difficile, per chi arriva al vertice da una storia così, è spesso proprio quella di restarci.
+Resta ora da capire quanto a lungo riuscirà a mantenere questa dimensione: la sfida più difficile, per chi arriva al vertice da una storia così, è spesso proprio quella di restarci.

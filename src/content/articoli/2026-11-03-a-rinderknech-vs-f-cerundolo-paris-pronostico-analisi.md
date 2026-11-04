@@ -36,7 +36,7 @@ I due si sono affrontati soltanto in due occasioni, entrambe datate 2022. A Phoe
 
 Il presente, invece, racconta una storia differente. **Cerundolo** si presenta a Parigi dopo settimane di discreta continuità: nel recente torneo di Bruxelles ha raggiunto la semifinale, superando nell'ordine Damm e Chidekh prima di arrendersi a Griekspoor, e in precedenza aveva messo insieme buone prove sul cemento asiatico, con una vittoria su Mensik a Pechino e un successo su Safiullin a Shanghai. Più indietro nel calendario restano i colpi più pesanti, le vittorie agli US Open contro Struff e Fritz prima dello stop con Blockx. Non sono però mancate le battute d'arresto, come l'uscita immediata di Vienna contro Norrie.
 
-Rinderknech, al contrario, attraversa un periodo più complicato. L'ultima uscita, sul veloce indoor di Basilea, si è conclusa con una sconfitta già al primo turno contro Kym, e il bilancio delle sue ultime apparizioni racconta di più sconfitte che vittorie. I segnali incoraggianti non sono mancati — a New York aveva eliminato Shimabukuro e Munar prima di cedere a Medvedev — ma la continuità di rendimento è quella che gli è venuta a mancare con maggiore evidenza nelle settimane più recenti.
+Rinderknech, al contrario, attraversa un periodo più complicato. L'ultima uscita, sul veloce indoor di Basilea, si è conclusa con una sconfitta già al primo turno contro Kym, e il bilancio delle sue ultime apparizioni racconta di più sconfitte che vittorie. I segnali incoraggianti non sono mancati (a New York aveva eliminato Shimabukuro e Munar prima di cedere a Medvedev) ma la continuità di rendimento è quella che gli è venuta a mancare con maggiore evidenza nelle settimane più recenti.
 
 ### Stile di gioco e superficie
 

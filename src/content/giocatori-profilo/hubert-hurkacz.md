@@ -1,7 +1,7 @@
 ---
 nome: "Hubert Hurkacz"
 slug_profilo: "hubert-hurkacz"
-titoli: "Masters 1000 Miami 2021 e piu' titoli ATP"
+titoli: "Masters 1000 di Miami 2021 e Shanghai 2023, otto titoli ATP e best ranking di numero 6 del mondo"
 stile_gioco: "Servizio dominante e gioco rapido con frequenti discese a rete"
 nazionalita: "Polonia"
 data_nascita: "1997-02-11"
@@ -27,7 +27,7 @@ generato_il: "2026-10-27T12:35"
 
 ## Chi è
 
-Hubert Hurkacz è il tennista che più di ogni altro ha riportato il movimento maschile polacco stabilmente ai piani alti del circuito. Nato a Wrocław nel 1997, è cresciuto fino a diventare una presenza fissa tra i migliori giocatori del mondo, con una scalata costruita non su exploit isolati ma su una continuità che lo ha portato a stabilizzarsi nelle posizioni di vertice della classifica. La sua statura notevole, intorno ai 196 centimetri, non è un dettaglio marginale: è la base fisica su cui poggia l'intera sua identità tennistica. Giocatore destro con rovescio a due mani, Hurkacz unisce la stazza a una mobilità e a una compostezza che sorprendono chi lo osserva per la prima volta.
+Hubert Hurkacz è il tennista che più di ogni altro ha riportato il movimento maschile polacco stabilmente ai piani alti del circuito. Nato a Wrocław nel 1997, è cresciuto fino a diventare una presenza fissa tra i migliori giocatori del mondo, con una scalata costruita non su exploit isolati ma su una continuità che nell'agosto 2024 lo ha portato fino al numero 6 della classifica, miglior piazzamento di sempre per un tennista polacco nell'era Open. La sua statura notevole, intorno ai 196 centimetri, non è un dettaglio marginale: è la base fisica su cui poggia l'intera sua identità tennistica. Giocatore destro con rovescio a due mani, Hurkacz unisce la stazza a una mobilità e a una compostezza che sorprendono chi lo osserva per la prima volta.
 
 ## Il suo tennis
 
@@ -43,12 +43,13 @@ La terra rossa resta invece la superficie più complessa. I rimbalzi alti e i te
 
 ## Trofei e momenti chiave
 
-La carriera di Hurkacz ha avuto il suo punto di svolta con l'affermazione in un torneo Masters 1000, traguardo che lo ha proiettato in una dimensione diversa e ne ha certificato il valore ai massimi livelli. A quel successo ha fatto seguito un cammino profondo in uno dei tornei dello Slam su erba, con una corsa fino alle fasi conclusive che è rimasta tra le pagine più nitide del suo percorso.
+La carriera di Hurkacz ha avuto il suo punto di svolta nel 2021, con l'affermazione al Masters 1000 di Miami: un traguardo che lo ha proiettato in una dimensione diversa e ne ha certificato il valore ai massimi livelli. Poche settimane più tardi è arrivata la semifinale a Wimbledon, la corsa rimasta tra le pagine più nitide del suo percorso. Nel 2023 ha aggiunto un secondo Masters 1000, quello di Shanghai, portando a otto il totale dei titoli ATP, mentre agli Australian Open del 2024 si è spinto fino ai quarti di finale.
 
-Negli anni successivi ha continuato ad aggiungere titoli importanti al proprio palmarès, confermandosi tra i protagonisti del circuito, in particolare sui campi veloci.
+Il capitolo più complicato si è aperto nel giugno 2025, con un intervento in artroscopia al ginocchio destro che lo ha tenuto fuori per circa sette mesi, costringendolo a rinunciare a Wimbledon e allo US Open. Il rientro è passato dalla United Cup vinta con la Polonia a inizio 2026, seguita da una lenta ricostruzione della classifica: una stagione segnata da un'uscita temporanea dalle prime cento posizioni e, allo stesso tempo, da segnali di ritorno come gli ottavi a Wimbledon e il successo su Novak Djokovic a Shanghai.
 
 ### Trofei principali
 
-- Titolo in un torneo Masters 1000
-- Semifinale in un torneo dello Slam
-- Diversi titoli ATP sul circuito maggiore
+- Masters 1000 di Miami (2021) e di Shanghai (2023)
+- Semifinale a Wimbledon (2021) e quarti di finale agli Australian Open (2024)
+- Otto titoli ATP in singolare e best ranking di numero 6 del mondo (agosto 2024)
+- United Cup vinta con la Polonia (2026)

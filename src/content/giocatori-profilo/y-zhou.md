@@ -6,7 +6,7 @@ data_nascita: "2005-03-14"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio profondo da gran statura e dritto propulsivo"
-titoli: "nessun titolo ATP; alcuni risultati di rilievo nel circuito Challenger, inclusa una finale raggiunta"
+titoli: "nessun titolo ATP; tre finali raggiunte nel circuito Challenger"
 altezza: "193 cm"
 categoria: "Challenger"
 superficie_preferita: "cemento"
@@ -27,7 +27,7 @@ generato_il: "2026-10-28T21:04"
 
 ## Chi è
 
-Yi Zhou, il cui nome cinese è Zhou Yi, è un tennista nato il 14 marzo 2005. Appartiene alla generazione di giovani cinesi che, sulla scia dell'interesse crescente per il tennis nel Paese, sta provando a ritagliarsi uno spazio stabile nel professionismo. Dotato di un fisico imponente — è alto circa 1,93 metri — Zhou ha costruito la propria ascesa soprattutto nel circuito Challenger, la categoria che fa da ponte tra le qualificazioni e i tornei del tour maggiore, portando il suo ranking nei dintorni delle prime trecento posizioni mondiali nel corso del 2026.
+Yi Zhou, il cui nome cinese è Zhou Yi, è un tennista nato a Pechino il 14 marzo 2005. Appartiene alla generazione di giovani cinesi che, sulla scia dell'interesse crescente per il tennis nel Paese, sta provando a ritagliarsi uno spazio stabile nel professionismo. Dotato di un fisico imponente (è alto 1,93 metri), Zhou ha costruito la propria ascesa soprattutto nel circuito Challenger, la categoria che fa da ponte tra le qualificazioni e i tornei del tour maggiore, spingendosi fino al numero 217 del mondo nel maggio 2026, il suo miglior piazzamento in classifica.
 
 La sua è la storia di un ragazzo ancora in piena fase di maturazione, che alterna progressi evidenti a passaggi di assestamento tipici di chi sta imparando a reggere il ritmo e la continuità richiesti dal tennis di alto livello.
 
@@ -45,6 +45,6 @@ Sulle superfici più lente il discorso si fa più impegnativo, perché lo scambi
 
 ## Trofei e momenti chiave
 
-Yi Zhou non ha ancora conquistato titoli nel tour maggiore: il suo percorso, per età e collocazione in classifica, è quello di un giocatore in costruzione. Nel circuito Challenger ha però già vissuto settimane importanti, raggiungendo almeno una finale e firmando i risultati che gli hanno permesso di avvicinarsi alla soglia dei tornei ATP.
+Yi Zhou non ha ancora conquistato titoli nel tour maggiore: il suo percorso, per età e collocazione in classifica, è quello di un giocatore in costruzione. Nel circuito Challenger ha però già vissuto settimane importanti, con tre finali raggiunte (Tyler e Shenzhen nel 2025, Phan Thiet all'inizio del 2026), tutte perse, e con i risultati che gli hanno permesso di avvicinarsi alla soglia dei tornei ATP.
 
-Il capitolo più interessante della sua carriera, con ogni probabilità, deve ancora essere scritto. Per un classe 2005 la priorità è la continuità: trasformare le buone settimane in un rendimento stabile e confermare, torneo dopo torneo, di poter appartenere ai piani alti del tennis internazionale.
+Nei tabelloni maggiori si è fatto notare soprattutto in casa: nel 2025 ha battuto Cameron Norrie a Chengdu, e nell'ottobre 2026 ha superato Lorenzo Musetti al Masters 1000 di Shanghai, arrivando al terzo turno. Il capitolo più interessante della sua carriera, con ogni probabilità, deve ancora essere scritto. Per un classe 2005 la priorità è la continuità: trasformare le buone settimane in un rendimento stabile e confermare, torneo dopo torneo, di poter appartenere ai piani alti del tennis internazionale.

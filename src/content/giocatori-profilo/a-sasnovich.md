@@ -6,7 +6,7 @@ data_nascita: "1994-03-22"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco piatto da fondo, risposta profonda e dritto d'iniziativa"
-titoli: "Nessun titolo WTA in singolare, ma diverse finali e vittorie di prestigio contro avversarie di vertice; successi nei circuiti minori"
+titoli: "Nessun titolo WTA in singolare, ma cinque finali e vittorie di prestigio contro avversarie di vertice; undici titoli ITF in singolare"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Tennista bielorussa dal gioco piatto e ordinato, Aliaksandra Sasnovich è da anni una presenza solida e rispettata del circuito femminile."
@@ -25,7 +25,7 @@ generato_il: "2026-11-02T16:01"
 
 ## Chi è
 
-Aliaksandra Sasnovich è una tennista bielorussa, nata a Minsk nel 1994, che da anni rappresenta una presenza stabile e rispettata nel circuito femminile. Non ha mai conosciuto il clamore delle grandi promesse adolescenti: la sua è stata piuttosto una carriera di costruzione paziente, fatta di stagioni intere trascorse dentro o ai margini delle prime cinquanta del mondo e di qualche incursione nelle zone più alte della classifica. Il suo miglior piazzamento l'ha portata nei pressi della trentesima posizione mondiale, traguardo raggiunto grazie a una continuità di rendimento più che a exploit isolati.
+Aliaksandra Sasnovich è una tennista bielorussa, nata a Minsk nel 1994, che da anni rappresenta una presenza stabile e rispettata nel circuito femminile. Non ha mai conosciuto il clamore delle grandi promesse adolescenti: la sua è stata piuttosto una carriera di costruzione paziente, fatta di stagioni intere trascorse dentro o ai margini delle prime cinquanta del mondo e di qualche incursione nelle zone più alte della classifica. Il suo miglior piazzamento l'ha portata al numero 29 del mondo, nel settembre 2022, traguardo raggiunto grazie a una continuità di rendimento più che a exploit isolati.
 
 ## Il suo tennis
 
@@ -33,8 +33,8 @@ Destra, con rovescio a due mani, Sasnovich è una giocatrice da fondo campo nel 
 
 ## Sulle diverse superfici
 
-Il cemento è la superficie su cui Sasnovich si è espressa con maggiore regolarità nel corso della carriera. Il rimbalzo più prevedibile e la velocità costante del campo si sposano bene con un tennis fatto di tempi anticipati e colpi distesi, dove la sua precisione in risposta trova le condizioni ideali. Sull'erba il suo gioco piatto e radente può risultare insidioso, anche se le occasioni per metterlo in mostra sono più rare. Sulla terra battuta, invece, tende a soffrire maggiormente: i ritmi più lenti e gli scambi allungati chiedono una capacità di costruzione paziente e un margine sopra la rete che non appartengono in modo naturale al suo repertorio più aggressivo.
+Il cemento è la superficie su cui Sasnovich si è espressa con maggiore regolarità nel corso della carriera. Il rimbalzo più prevedibile e la velocità costante del campo si sposano bene con un tennis fatto di tempi anticipati e colpi distesi, dove la sua precisione in risposta trova le condizioni ideali. Sull'erba il suo gioco piatto e radente risulta altrettanto insidioso, come dimostra il quarto turno raggiunto a Wimbledon nel 2018. Anche sulla terra battuta, superficie che a prima vista sembra meno adatta a un tennis di traiettorie tese, ha saputo trovare il suo spazio: il suo miglior risultato Slam in assoluto porta la data del Roland Garros 2022, dove si è spinta fino agli ottavi di finale. Resta comunque il cemento il terreno su cui il suo repertorio si esprime con meno adattamenti.
 
 ## Trofei e momenti chiave
 
-Il momento più luminoso in un torneo del circuito maggiore resta la finale raggiunta a Brisbane all'inizio del 2018, dove si arrese soltanto all'ultimo atto. In singolare non è mai arrivata al titolo WTA, ma la sua bacheca racconta comunque di vittorie che valgono più di molti trofei: su tutte spicca il successo contro Emma Raducanu, allora campionessa degli US Open in carica, al primo turno di Indian Wells nel 2021, uno di quei risultati che confermano quanto possa essere temibile quando entra in ritmo. Nel corso degli anni ha saputo mettere in difficoltà più di una giocatrice di vertice e ha raccolto riscontri importanti anche nelle prove dello Slam, spingendosi in alcune occasioni oltre i primi turni. A completare il quadro ci sono i successi ottenuti nei circuiti minori, tappe utili a forgiare quella solidità che è diventata il suo tratto distintivo. Più che una collezione di titoli, la carriera di Sasnovich è il ritratto di una professionista capace di restare competitiva a lungo, trovando nelle grandi serate le motivazioni per alzare il proprio livello.
+Il momento più luminoso in un torneo del circuito maggiore resta la finale raggiunta a Brisbane all'inizio del 2018, dove si arrese soltanto all'ultimo atto. In singolare non è mai arrivata al titolo WTA, ma ha disputato cinque finali, dal Korea Open 2015 al Grand Prix di Budapest 2024, e la sua bacheca racconta di vittorie che valgono più di molti trofei: su tutte spicca il successo contro Emma Raducanu, allora campionessa degli US Open in carica e diciassettesima testa di serie, al secondo turno di Indian Wells nel 2021, chiuso 6-2 6-4. Nelle prove dello Slam si è spinta due volte agli ottavi di finale, a Wimbledon nel 2018 e al Roland Garros nel 2022, e in doppio è arrivata fino alla semifinale degli US Open 2019. A completare il quadro ci sono gli undici titoli in singolare ottenuti nel circuito ITF, tappe utili a forgiare quella solidità che è diventata il suo tratto distintivo. Più che una collezione di titoli, la carriera di Sasnovich è il ritratto di una professionista capace di restare competitiva a lungo, trovando nelle grandi serate le motivazioni per alzare il proprio livello.

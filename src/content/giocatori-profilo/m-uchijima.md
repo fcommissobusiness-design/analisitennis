@@ -2,15 +2,15 @@
 nome: "Moyuka Uchijima"
 slug_profilo: "m-uchijima"
 nazionalita: "Giappone"
-data_nascita: "2001-12-01"
+data_nascita: "2001-08-11"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco aggressivo da fondo con colpi piatti e profondi"
-titoli: "diversi titoli nel circuito ITF e l'ingresso tra le prime cento del mondo"
+titoli: "tredici titoli ITF, due titoli WTA 125 nel 2026 e il numero 47 del mondo"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Moyuka Uchijima è una delle tenniste giapponesi emerse negli ultimi anni, cresciuta nei circuiti minori prima di affacciarsi stabilmente sul grande palcoscenico."
-descrizione: "Profilo di Moyuka Uchijima: la tennista giapponese dal gioco aggressivo da fondo, dalla gavetta ITF all'ingresso tra le top 100 WTA."
+descrizione: "Profilo di Moyuka Uchijima: la tennista giapponese dal gioco aggressivo da fondo, dalla gavetta ITF al numero 47 del ranking WTA."
 tag:
   - "Moyuka Uchijima"
   - "Uchijima"
@@ -25,9 +25,9 @@ generato_il: "2026-11-02T16:11"
 
 ## Chi è
 
-Moyuka Uchijima appartiene a quella generazione di tenniste giapponesi che ha scelto la via più lunga per arrivare ai piani alti del circuito: non il salto immediato dal vivaio juniores alla ribalta, ma una gavetta paziente, costruita settimana dopo settimana nei tornei minori. Nata all'inizio degli anni Duemila, ha legato buona parte del suo percorso iniziale al circuito ITF, dove ha accumulato partite, chilometri e fiducia prima di guadagnarsi un posto stabile nelle classifiche che contano.
+Moyuka Uchijima appartiene a quella generazione di tenniste giapponesi che ha scelto la via più lunga per arrivare ai piani alti del circuito: non il salto immediato dal vivaio juniores alla ribalta, ma una gavetta paziente, costruita settimana dopo settimana nei tornei minori. Nata l'11 agosto 2001 a Kuala Lumpur, in Malaysia, ha legato buona parte del suo percorso iniziale al circuito ITF, dove ha raccolto tredici titoli in singolare accumulando partite, chilometri e fiducia prima di guadagnarsi un posto nelle classifiche che contano.
 
-È una giocatrice che non ha bruciato le tappe e che proprio per questo arriva al tour maggiore con un bagaglio di esperienza superiore a quello di molte coetanee. L'ingresso tra le prime cento del ranking mondiale ha rappresentato il naturale coronamento di quella lunga rincorsa, più che un exploit improvviso.
+È una giocatrice che non ha bruciato le tappe e che proprio per questo arriva al tour maggiore con un bagaglio di esperienza superiore a quello di molte coetanee. Il numero 47 del mondo, best ranking toccato nel maggio del 2025, ha rappresentato il naturale coronamento di quella lunga rincorsa, più che un exploit improvviso.
 
 ## Il suo tennis
 
@@ -39,7 +39,7 @@ Non è una giocatrice che vive di attesa: quando trova la misura, prende l'inizi
 
 ### I margini di crescita
 
-Come spesso accade alle giocatrici con questo profilo, la crescita passa dalla capacità di variare: alternare la spinta a soluzioni più costruite, gestire i momenti in cui l'aggressività non paga e trovare alternative quando la prima intenzione non basta a chiudere il punto. Sono i dettagli che distinguono una presenza stabile nelle prime cento da un salto verso posizioni ancora più alte.
+Come spesso accade alle giocatrici con questo profilo, la crescita passa dalla capacità di variare: alternare la spinta a soluzioni più costruite, gestire i momenti in cui l'aggressività non paga e trovare alternative quando la prima intenzione non basta a chiudere il punto. Sono i dettagli che distinguono una presenza stabile nelle prime cinquanta da un rientro nel gruppo di chi deve ricostruire classifica, come le è capitato nella seconda parte del 2026.
 
 ## Sulle diverse superfici
 
@@ -47,11 +47,13 @@ Il suo tennis trova sul cemento la cornice più naturale. I campi in cemento pre
 
 ## Trofei e momenti chiave
 
-Il capitolo più significativo della carriera di Uchijima resta la lunga costruzione nei circuiti inferiori, dove ha raccolto titoli e certezze prima di affacciarsi al tour maggiore.
+Il capitolo più significativo della carriera di Uchijima resta la lunga costruzione nei circuiti inferiori, dove ha raccolto titoli e certezze prima di affacciarsi al tour maggiore. Il suo risultato più prestigioso porta però la data della primavera 2025, quando a Madrid ha raggiunto i primi quarti di finale in un WTA 1000 della carriera battendo lungo la strada la numero 3 del mondo Jessica Pegula, prima vittoria contro una top 25.
 
 ### I traguardi
 
-- Diversi titoli conquistati nel circuito ITF nelle prime stagioni di carriera
-- L'ingresso stabile tra le prime cento giocatrici del ranking WTA
+- Tredici titoli conquistati nel circuito ITF in singolare
+- Due titoli WTA 125 nel 2026, ad Antalya e a Saint-Malo
+- Quarti di finale al WTA 1000 di Madrid nel 2025, con la vittoria su Jessica Pegula
+- Best ranking: numero 47 del mondo, maggio 2025
 
-Più che un singolo trofeo spartiacque, è proprio la continuità di questo percorso il dato che meglio la racconta: una progressione graduale, senza scorciatoie, che l'ha portata a misurarsi con regolarità contro avversarie di primo piano. Per una giocatrice cresciuta lontano dai riflettori, raggiungere con stabilità i grandi tornei del circuito maggiore è già di per sé un risultato che dà la misura del lavoro svolto.
+Più che un singolo trofeo spartiacque, è proprio la continuità di questo percorso il dato che meglio la racconta: una progressione graduale, senza scorciatoie, che l'ha portata a misurarsi con regolarità contro avversarie di primo piano. Per una giocatrice cresciuta lontano dai riflettori, arrivare a giocarsi i grandi tornei del circuito maggiore è già di per sé un risultato che dà la misura del lavoro svolto.

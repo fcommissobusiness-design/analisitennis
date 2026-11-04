@@ -27,7 +27,7 @@ generato_il: "2026-10-27T12:53"
 
 Valerio Miguel Ángel Aboian, nato il 14 giugno 2002, è un tennista argentino di origine armena, come lascia intuire il cognome. Mancino, alto 183 centimetri, appartiene a quella nutrita pattuglia di giocatori sudamericani che si formano lontano dai riflettori dei grandi tornei, costruendo la propria carriera un punto alla volta tra i campi in terra battuta del continente e le tappe del circuito minore. Seguito dal tecnico Fabián Blengino, Aboian ha vissuto buona parte del suo percorso tra i tornei ITF e i Challenger, l'anticamera obbligata per chi punta a stabilizzarsi più in alto.
 
-Non è un predestinato dei settori giovanili più chiacchierati, ma un atleta che ha scelto la via della pazienza: migliorare gradualmente, accumulare partite e fiducia, e provare a far coincidere la crescita tecnica con quella del ranking. Nelle ultime stagioni questo lavoro ha iniziato a dare i suoi frutti, portandolo attorno alle prime trecento posizioni della classifica mondiale di singolare.
+Non è un predestinato dei settori giovanili più chiacchierati, ma un atleta che ha scelto la via della pazienza: migliorare gradualmente, accumulare partite e fiducia, e provare a far coincidere la crescita tecnica con quella del ranking. Nelle ultime stagioni questo lavoro ha iniziato a dare i suoi frutti, portandolo entro le prime trecento posizioni della classifica mondiale di singolare.
 
 ## Il suo tennis
 
@@ -43,15 +43,15 @@ Sul cemento e sulle superfici più rapide il quadro è, allo stato attuale, meno
 
 ## Trofei e momenti chiave
 
-Il bottino di Aboian racconta bene il suo cammino di costruzione. In singolare ha conquistato alcuni titoli nel circuito ITF, mentre in doppio il suo rendimento è stato ancora più prolifico, con diversi successi e un titolo a livello Challenger ottenuto nel 2023 a Coquimbo in coppia con Murkel Dellien.
+Il bottino di Aboian racconta bene il suo cammino di costruzione. In singolare ha conquistato quattro titoli nel circuito ITF, mentre in doppio il suo rendimento è stato ancora più prolifico, con diversi successi nei tornei minori e due trofei a livello Challenger: il primo nel 2023 a Coquimbo in coppia con Murkel Dellien, il secondo a Plovdiv nel 2026 con Juan Manuel La Serna.
 
-Tra i momenti più recenti e significativi spicca la finale raggiunta al Cali Open 2026, su terra battuta, dove ha ceduto al brasiliano Matheus Pucinelli de Almeida: un traguardo che ha accompagnato il suo avvicinamento ai migliori piazzamenti di sempre nel ranking di singolare, attorno alla posizione numero 283 raggiunta nell'autunno dello stesso anno.
+Tra i momenti più recenti e significativi spicca la finale raggiunta al Challenger di Cali nell'ottobre 2026, su terra battuta, dove ha ceduto al brasiliano Matheus Pucinelli de Almeida: la sua prima finale a questo livello in singolare, che ha accompagnato il miglior piazzamento di sempre nel ranking, il numero 258 raggiunto a inizio novembre.
 
 I numeri parlano di un giocatore ancora in fase di affermazione, ma la direzione è chiara: consolidare quanto fatto sulla terra e trasformare le buone settimane in una presenza stabile ai piani più alti del circuito.
 
 **Trofei principali**
 
-- Alcuni titoli ITF in singolare
+- Quattro titoli ITF in singolare
 - Diversi titoli ITF in doppio
-- Un titolo Challenger in doppio (Coquimbo 2023, con Murkel Dellien)
-- Finalista al Cali Open 2026 in singolare (terra)
+- Due titoli Challenger in doppio (Coquimbo 2023 con Murkel Dellien, Plovdiv 2026 con Juan Manuel La Serna)
+- Finalista al Challenger di Cali 2026 in singolare (terra)

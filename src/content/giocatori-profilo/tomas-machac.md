@@ -1,10 +1,10 @@
 ---
 nome: "Tomas Machac"
 slug_profilo: "tomas-machac"
-titoli: "Primo titolo ATP e oro olimpico misto 2024"
+titoli: "Due titoli ATP e oro olimpico nel doppio misto 2024"
 stile_gioco: "Gioco rapido e completo da fondo, ottima copertura del campo"
 nazionalita: "Repubblica Ceca"
-data_nascita: "2000-08-13"
+data_nascita: "2000-10-13"
 mano: "destro"
 rovescio: "due mani"
 altezza: "183 cm"
@@ -42,12 +42,13 @@ Comunque, come molti cechi, non è affatto a disagio sulla terra battuta, superf
 
 ## Trofei e momenti chiave
 
-Il momento più luminoso del percorso di Machac è legato ai Giochi Olimpici di Parigi 2024, dove ha conquistato la medaglia d'oro nel doppio misto in coppia con la connazionale Katerina Siniakova: un risultato di altissimo prestigio che ne ha certificato il valore sul palcoscenico più importante. In parallelo, il salto di qualità nel singolare lo ha portato a raggiungere le sue prime finali sul tour maggiore e ad affermarsi stabilmente ai vertici della classifica.
+Il momento più luminoso del percorso di Machac è legato ai Giochi Olimpici di Parigi 2024, dove ha conquistato la medaglia d'oro nel doppio misto in coppia con la connazionale Katerina Siniakova: un risultato di altissimo prestigio che ne ha certificato il valore sul palcoscenico più importante. In parallelo, il salto di qualità nel singolare lo ha portato ai primi titoli sul tour maggiore, l'Acapulco di categoria 500 nel febbraio 2025 e Adelaide nel gennaio 2026, e fino al numero 20 del mondo, miglior piazzamento della sua carriera.
 
 Prima di arrivare su questi livelli aveva costruito le basi tra i tornei minori, mettendo insieme nelle prime stagioni risultati di rilievo nei circuiti inferiori. Ha inoltre dato il proprio contributo alla nazionale ceca nelle competizioni a squadre, confermando quell'attaccamento alla maglia che è una costante della tradizione tennistica del suo Paese.
 
 **Trofei principali:**
 
 - Medaglia d'oro nel doppio misto ai Giochi Olimpici di Parigi 2024 (con Katerina Siniakova)
-- Affermazioni a livello di circuito maggiore e stabile presenza ai vertici della classifica
+- Due titoli nel circuito maggiore: Acapulco 2025 e Adelaide 2026
+- Miglior classifica in carriera: numero 20 del mondo nel marzo 2025
 - Risultati di rilievo nei circuiti minori nelle prime stagioni di carriera

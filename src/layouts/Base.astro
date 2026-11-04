@@ -141,7 +141,7 @@ const siteWeb = {
     </>
   ) : (
     <>
-      <link rel="alternate" hreflang="it-it" href={url} />
+      <link rel="alternate" hreflang={hreflangOf(lang)} href={url} />
       <link rel="alternate" hreflang="x-default" href={url} />
     </>
   )}
@@ -175,7 +175,7 @@ const siteWeb = {
     <header class="en-chrome en-top">
       <div class="en-inner">
         <a href="/en" class="en-logo">AnalisiTennis</a>
-        {xDefaultHref && <a href={xDefaultHref} class="en-switch" hreflang="it-it" rel="alternate">Leggi in italiano</a>}
+        <a href={xDefaultHref || '/'} class="en-switch" hreflang="it-it" rel="alternate">Leggi in italiano</a>
       </div>
     </header>
   ) : (
@@ -187,8 +187,8 @@ const siteWeb = {
   {lang === 'en' ? (
     <footer class="en-chrome en-bottom">
       <div class="en-inner">
-        <p>AnalisiTennis — tennis read through the numbers. Editorial analysis of ATP and WTA players and matches.</p>
-        {xDefaultHref && <p><a href={xDefaultHref} hreflang="it-it" rel="alternate">Versione italiana</a></p>}
+        <p>AnalisiTennis: tennis read through the numbers. Editorial analysis of ATP and WTA players and matches.</p>
+        <p><a href={xDefaultHref || '/'} hreflang="it-it" rel="alternate">Versione italiana</a></p>
       </div>
     </footer>
   ) : (

@@ -25,9 +25,9 @@ generato_il: "2026-10-25T11:33"
 
 ## Chi è
 
-Mei Yamaguchi è una tennista giapponese nata il 14 giugno 1999. Destra, con rovescio a due mani e una statura contenuta, intorno ai 159 centimetri, appartiene a quella categoria di giocatrici che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, un passo alla volta, tra la fitta rete di eventi del circuito ITF e le prime affacciate sul tour maggiore. Il suo nome è diventato gradualmente più familiare agli appassionati del tennis asiatico, dove si concentra buona parte della sua attività agonistica.
+Mei Yamaguchi è una tennista giapponese nata il 14 giugno 1999 a Saitama. Destra, con rovescio a due mani e una statura contenuta, intorno ai 159 centimetri, appartiene a quella categoria di giocatrici che costruiscono la propria carriera lontano dai riflettori dei grandi tornei, un passo alla volta, tra la fitta rete di eventi del circuito ITF e le prime affacciate sul tour maggiore. Il suo nome è diventato gradualmente più familiare agli appassionati del tennis asiatico, dove si concentra buona parte della sua attività agonistica.
 
-Non è una giocatrice da titoli di cartello, ma il suo percorso racconta bene la realtà di chi lavora per anni per avvicinarsi stabilmente ai primi duecentocinquanta posti della classifica mondiale, un obiettivo che ha sfiorato toccando il proprio best ranking in singolare nel corso del 2025.
+Non è una giocatrice da titoli di cartello, ma il suo percorso racconta bene la realtà di chi lavora per anni per guadagnarsi qualche metro di classifica mondiale: nel maggio del 2025 ha toccato il proprio best ranking in singolare, la posizione numero 242, entrando per la prima volta dentro i primi duecentocinquanta posti del ranking WTA.
 
 ## Il suo tennis
 
@@ -43,13 +43,13 @@ Il suo bagaglio comprende comunque esperienze anche su altre superfici, maturate
 
 ## Trofei e momenti chiave
 
-Il percorso di Mei Yamaguchi è fatto soprattutto di tappe nel circuito ITF, dove ha conquistato alcuni titoli che hanno sostenuto la sua progressione in classifica. Nel tour maggiore, invece, i momenti chiave riguardano le prime apparizioni e le prime vittorie a quel livello.
+Il percorso di Mei Yamaguchi è fatto soprattutto di tappe nel circuito ITF, dove ha conquistato alcuni titoli che hanno sostenuto la sua progressione in classifica. Nel tour maggiore, invece, i momenti chiave riguardano il debutto e la prima vittoria a quel livello.
 
 ### Risultati principali
 
-- Un paio di titoli nel circuito ITF, ottenuti in tornei di categoria d'ingresso
-- Debutto nel tabellone principale WTA al torneo di Tokyo (Pan Pacific Open) nel 2024
-- Prima vittoria a livello WTA Tour ottenuta nel 2025, partendo dalle qualificazioni
-- Best ranking in singolare raggiunto nel corso del 2025
+- Due titoli nel circuito ITF, ottenuti in tornei di categoria d'ingresso
+- Debutto nel tabellone principale WTA al Pan Pacific Open di Tokyo nel 2024, con sconfitta al primo turno contro Bianca Andreescu
+- Prima vittoria a livello WTA Tour nel 2025 al torneo di Chennai, raggiunto dalle qualificazioni
+- Best ranking in singolare, numero 242, raggiunto nel maggio 2025
 
 Sono traguardi che fotografano una carriera ancora in costruzione, quella di una giocatrice che continua a cercare con continuità il salto verso una presenza più stabile nel tennis che conta.

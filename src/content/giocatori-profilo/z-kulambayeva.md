@@ -5,10 +5,10 @@ nazionalita: "Kazakistan"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "aggressività ordinata da fondo con rovescio bimane solido"
-titoli: "alcuni titoli sul circuito ITF, con progressione graduale di classifica"
+titoli: "sette titoli ITF in singolare e una quarantina in doppio, con progressione graduale di classifica"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Zhibek Kulambayeva rappresenta la nuova leva del tennis kazako: una giocatrice da fondo campo costruita passo dopo passo nel circuito, con l'ambizione di stabilizzarsi ai piani alti."
+intro: "Zhibek Kulambayeva è una delle kazake più presenti nel circuito: una giocatrice da fondo campo costruita passo dopo passo, che nel doppio ha trovato i risultati migliori."
 descrizione: "Profilo di Zhibek Kulambayeva, tennista kazaka da fondo campo: stile di gioco, superfici preferite e percorso tra circuito ITF e tornei maggiori."
 tag:
   - "Zhibek Kulambayeva"
@@ -24,7 +24,7 @@ generato_il: "2026-11-02T16:18"
 
 ## Chi è
 
-Zhibek Kulambayeva è una tennista kazaka che si è fatta strada nel tennis femminile internazionale percorrendo la trafila classica delle nuove leve del suo Paese. Appartiene a quel gruppo di giocatrici che il movimento kazako ha saputo valorizzare negli ultimi anni, costruendo la propria carriera soprattutto attraverso il circuito ITF e le prime esperienze ai livelli superiori. La sua è la storia di una progressione graduale, fatta di tornei lontano dai riflettori e di una classifica conquistata punto dopo punto, senza scorciatoie e con la pazienza di chi sa che la crescita passa dalla continuità.
+Zhibek Kulambayeva, nata ad Almaty il 26 marzo 2000, è una tennista kazaka che si è fatta strada nel tennis femminile internazionale percorrendo la trafila classica dei professionisti del suo Paese. Appartiene a quel gruppo di giocatrici che il movimento kazako ha saputo valorizzare negli ultimi anni, costruendo la propria carriera soprattutto attraverso il circuito ITF e le prime esperienze ai livelli superiori. La sua è la storia di una progressione graduale, fatta di tornei lontano dai riflettori e di una classifica conquistata punto dopo punto, senza scorciatoie e con la pazienza di chi sa che la crescita passa dalla continuità.
 
 ## Il suo tennis
 
@@ -36,4 +36,4 @@ Il rendimento migliore arriva sul cemento, superficie sulla quale il suo tennis 
 
 ## Trofei e momenti chiave
 
-Il percorso di Kulambayeva si è sviluppato principalmente sul circuito ITF, dove ha raccolto risultati e titoli che le hanno permesso di far crescere la classifica e di affacciarsi progressivamente a palcoscenici più importanti. Più che un singolo trofeo di prestigio, il tratto distintivo della sua carriera è la costanza con cui ha accumulato esperienza nei tornei di base, tappa quasi obbligata per chi punta a consolidarsi tra le professioniste. In questo cammino ha anche avuto modo di contribuire al tennis kazako nelle competizioni internazionali, un riconoscimento del lavoro svolto e un ulteriore stimolo a migliorarsi. Per una giocatrice del suo profilo, i momenti chiave non vanno cercati in un'unica impresa clamorosa, ma nella capacità di confermarsi di stagione in stagione e di continuare a bussare alla porta dei tornei che contano, costruendo mattone dopo mattone una carriera destinata a definirsi meglio nel tempo.
+Il percorso di Kulambayeva si è sviluppato principalmente sul circuito ITF, dove ha conquistato sette titoli in singolare e dove ha costruito la classifica che l'ha portata, nel luglio 2025, al numero 292 del mondo, il suo miglior piazzamento. La sua dimensione più fruttuosa, però, è il doppio: lì i titoli ITF sono diventati una quarantina, a cui si sono aggiunti due successi nella categoria WTA 125, a Huzhou nel 2025 e a Caldas da Rainha nel 2026, e una finale nel WTA 250 di Iasi. Nell'agosto 2026 è arrivata fino al numero 102 della classifica di specialità. In questo cammino ha anche vestito la maglia del Kazakistan, con il debutto in Fed Cup nel 2018 e le convocazioni per le Finals di Billie Jean King Cup e per la United Cup nel 2023. Per una giocatrice del suo profilo, i momenti chiave non vanno cercati in un'unica impresa clamorosa, ma nella capacità di confermarsi di stagione in stagione e di continuare a bussare alla porta dei tornei che contano, costruendo mattone dopo mattone una carriera destinata a definirsi meglio nel tempo.

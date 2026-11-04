@@ -16,7 +16,7 @@ tag:
   - "cemento indoor"
   - "primo turno"
   - "pronostico tennis"
-verdetto: "Oggi nettamente Medvedev: il russo arriva dal titolo di Almaty con quattordici vittorie nelle ultime quindici e il precedente di Wimbledon a favore, su una superficie che esalta il suo tennis. Merida Aguilar dovra' giocare la partita perfetta."
+verdetto: "Oggi nettamente Medvedev: il russo arriva dal titolo di Almaty con quattordici vittorie nelle ultime quindici e il precedente di Wimbledon a favore, su una superficie che esalta il suo tennis. Merida Aguilar dovrà giocare la partita perfetta."
 descrizione: "Merida Aguilar sfida Medvedev al primo turno di Vienna sul cemento indoor: unico precedente, forma recente e stile di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-d-merida-aguilar-vs-d-medvedev-vienna-pronostico-analisi.jpg"

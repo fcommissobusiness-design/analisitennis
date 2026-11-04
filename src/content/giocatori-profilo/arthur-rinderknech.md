@@ -1,7 +1,7 @@
 ---
 nome: "Arthur Rinderknech"
 slug_profilo: "arthur-rinderknech"
-titoli: "Finali ATP"
+titoli: "Due finali ATP e best ranking numero 24 del mondo"
 stile_gioco: "Servizio potente e dritto d'attacco, gioco diretto"
 nazionalita: "Francia"
 data_nascita: "1995-07-24"
@@ -9,7 +9,7 @@ mano: "destro"
 altezza: "196 cm"
 categoria: "ATP"
 superficie_preferita: "cemento"
-intro: "Francese di grande statura e servizio pesante, Arthur Rinderknech ha costruito la sua carriera sul cemento, con una scalata lenta ma tenace fino ai vertici del tennis mondiale."
+intro: "Francese di grande statura e servizio pesante, Arthur Rinderknech ha costruito la sua carriera sul cemento, con una scalata lenta ma tenace fino ai primi venticinque del ranking mondiale."
 descrizione: "Profilo di Arthur Rinderknech: tennista francese dal servizio potente e dal gioco aggressivo sul cemento, con un percorso di crescita costante nel tour ATP."
 tag:
   - "Arthur Rinderknech"
@@ -42,6 +42,6 @@ Il cemento è il terreno che ne esalta maggiormente le qualità. Le superfici ve
 
 ## Trofei e momenti chiave
 
-La carriera di Rinderknech è fatta di una progressione graduale: diversi titoli nei circuiti minori e Challenger hanno accompagnato la sua maturazione prima dell'approdo stabile tra i professionisti di vertice. Tra i momenti più significativi va ricordata la straordinaria cavalcata al Masters di Shanghai nel 2025, culminata in una finale dal sapore quasi romanzesco contro il cugino Valentin Vacherot, un epilogo che ha fatto il giro del mondo per la sua rarità e per il forte significato familiare.
+La carriera di Rinderknech è fatta di una progressione graduale: i titoli raccolti nei circuiti minori e Challenger hanno accompagnato la sua maturazione prima dell'approdo stabile tra i professionisti di vertice. Il trofeo sul circuito maggiore gli manca ancora, ma in due occasioni si è fermato a un passo: la prima nel gennaio del 2022 ad Adelaide, la seconda al termine della straordinaria cavalcata al Masters 1000 di Shanghai nel 2025, culminata in una finale dal sapore quasi romanzesco contro il cugino Valentin Vacherot, un epilogo che ha fatto il giro del mondo per la sua rarità e per il forte significato familiare. Per arrivarci aveva piegato, fra gli altri, Felix Auger-Aliassime e Daniil Medvedev.
 
-Accanto a questo, restano preziosi i piazzamenti raggiunti nei principali appuntamenti e i successi contro avversari di primo piano, risultati che hanno contribuito alla sua miglior classifica in carriera e che confermano la sostanza di un giocatore cresciuto con tenacia più che con scorciatoie.
+Quella settimana e i piazzamenti successivi lo hanno portato alla miglior classifica in carriera, la ventiquattresima posizione mondiale toccata nel maggio del 2026, a conferma della sostanza di un giocatore cresciuto con tenacia più che con scorciatoie.

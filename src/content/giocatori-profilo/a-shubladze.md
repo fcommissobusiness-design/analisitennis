@@ -1,47 +1,56 @@
 ---
-nome: "Aleksandre Shubladze"
+nome: "Alexandra Shubladze"
 slug_profilo: "a-shubladze"
-nazionalita: "Georgia"
+nazionalita: "Russia"
+data_nascita: "2005-09-06"
 mano: "destro"
-rovescio: "due mani"
-stile_gioco: "gioco aggressivo da fondo con dritto pesante"
-titoli: "alcuni riscontri nei circuiti minori (ITF e Challenger)"
-categoria: "Challenger"
+stile_gioco: "gioco solido da fondo campo e grande volume di partite"
+titoli: "un titolo WTA 125 (Jingshan 2026) e tredici titoli in singolare nel circuito ITF, con un best ranking di numero 132 del mondo"
+categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Aleksandre Shubladze è tra i prospetti del tennis georgiano, cresciuto nei circuiti minori con un tennis offensivo costruito attorno al dritto."
-descrizione: "Profilo di Aleksandre Shubladze, tennista georgiano in crescita sui circuiti ITF e Challenger: stile di gioco, superfici e percorso."
+intro: "Alexandra Shubladze, russa classe 2005, è salita dalla trafila dei tornei ITF al primo titolo WTA 125 e alla soglia delle prime cento del mondo."
+descrizione: "Profilo di Alexandra Shubladze: tennista russa classe 2005, titolo WTA 125 a Jingshan nel 2026, tredici titoli ITF e best ranking di numero 132."
 tag:
-  - "Aleksandre Shubladze"
+  - "Alexandra Shubladze"
   - "Shubladze"
-  - "tennis Georgia"
-  - "Challenger"
+  - "Russia"
+  - "WTA"
+  - "tennis femminile"
   - "cemento"
-  - "ITF"
-  - "tennista georgiano"
+  - "circuito ITF"
 pubblicato: true
 generato_il: "2026-11-03T10:53"
 ---
 
 ## Chi è
 
-Aleksandre Shubladze appartiene a quella generazione di tennisti georgiani che, sulla scia del movimento guidato dai nomi più noti del Paese, sta provando a ritagliarsi uno spazio nel professionismo. È un giocatore che si è formato lontano dai grandi palcoscenici, costruendo il proprio percorso partita dopo partita nei tornei di categoria inferiore, dove la continuità e la gestione della stagione contano spesso quanto il singolo exploit. La sua è la traiettoria tipica del prospetto che cerca conferme: molti chilometri, molte settimane di tornei e la necessità di trasformare in risultati concreti il potenziale mostrato in allenamento.
+Alexandra Shubladze è una tennista russa nata il 6 settembre 2005 a Rostov sul Don. Passata al professionismo nel 2022, appartiene a quella generazione di giovani dell'Est europeo che costruisce la propria carriera accumulando un volume di partite impressionante: quasi duecentoquaranta incontri in singolare nei primi cinque anni di attività, con un bilancio netto in attivo.
 
-Parlarne significa muoversi con prudenza sui dettagli, perché la sua carriera è ancora in una fase di definizione e i numeri cambiano di mese in mese. Ciò che emerge con maggiore chiarezza è il profilo di un atleta che punta sull'iniziativa più che sull'attesa, e che ha nella fase offensiva il proprio tratto distintivo.
+La sua è la traiettoria classica di chi non arriva dalla vetrina dei grandi tornei juniores ma dai tabelloni periferici del circuito ITF, dove ogni settimana vale punti e fiducia. Il 2026 ha segnato il passaggio di categoria: il primo titolo in un torneo WTA 125 e, il 12 ottobre, il best ranking di numero 132 del mondo, con un parallelo numero 226 in doppio raggiunto lo stesso giorno.
 
 ## Il suo tennis
 
-Shubladze è un giocatore destro che imposta lo scambio cercando di comandare da fondocampo. Il dritto è il colpo attorno a cui ruota la sua idea di gioco: lo usa per spingere, per aprirsi il campo e per chiudere il punto quando trova l'angolo giusto. È un tennis che vive di anticipo e di pressione, nel quale la ricerca del punto arriva presto nello scambio piuttosto che attraverso lunghe fasi di costruzione.
+Shubladze è una giocatrice destra che imposta il proprio tennis da fondo campo, dove la continuità conta più della ricerca del colpo risolutore. Il profilo che emerge dai suoi risultati è quello di un'atleta che vince per accumulo: tredici titoli in singolare e nove in doppio nel circuito ITF non si costruiscono senza una tenuta fisica notevole e senza la capacità di reggere settimane di tornei consecutivi.
 
-Il rovescio a due mani gli garantisce solidità nel tenere la diagonale e nel rispondere, anche se è dal lato del dritto che tende ad accendersi la sua manovra. Come per molti giocatori di questa impronta, i margini di crescita si giocano sulla costanza: trovare l'equilibrio tra l'aggressività che lo rende pericoloso e il controllo necessario per limitare gli errori nei momenti di tensione è il passaggio chiave per salire di livello. La capacità di difendere quando viene messo sotto pressione, e di rientrare nello scambio senza concedere campo, resta uno degli aspetti su cui misurare i suoi progressi.
+È un bagaglio che si misura meno su un singolo fondamentale e più sulla gestione complessiva della partita, cosa che ai piani intermedi del tennis femminile fa spesso la differenza. Il doppio, coltivato con continuità, le ha dato in più un'abitudine al gioco in avanti e ai tempi rapidi che non tutte le coetanee di formazione analoga possiedono.
 
 ## Sulle diverse superfici
 
-Il cemento rappresenta il terreno più congeniale al suo stile: la velocità della superficie e il rimbalzo regolare premiano chi cerca l'iniziativa e sa indirizzare il dritto, caratteristiche che si sposano con le sue corde migliori. Sulle superfici più lente il discorso si fa più complesso, perché la terra battuta chiede pazienza, variazioni e una gestione diversa dello scambio, mettendo alla prova proprio la sua propensione a chiudere in fretta.
+I numeri indicano nel cemento la superficie che le rende di più. Nelle finali ITF in singolare il suo bilancio sul duro è nettamente positivo, e proprio sul cemento è arrivato il titolo più prestigioso della carriera. La velocità regolare del campo e il rimbalzo prevedibile si sposano con un tennis che vive di ritmo e di scambi ordinati.
 
-È un aspetto che riguarda molti giocatori offensivi: la crescita passa anche dalla capacità di adattare il proprio tennis a contesti che non esaltano le qualità naturali. Per questo i tornei sul rosso diventano un banco di prova interessante per valutare la sua maturazione complessiva.
+Sulla terra battuta il rendimento resta buono, con diverse finali raggiunte e vinte sul rosso, segno di una giocatrice che non ha bisogno di stravolgere il proprio tennis per adattarsi a tempi di gioco più lunghi. L'erba, come accade a quasi tutte le giocatrici che salgono dai circuiti minori, è la superficie su cui ha accumulato meno esperienza, per la semplice ragione che il calendario a quei livelli ne offre pochissima.
 
 ## Trofei e momenti chiave
 
-Sul piano dei risultati, il percorso di Shubladze si colloca finora nei circuiti minori, tra tornei ITF e appuntamenti di livello Challenger, dove ha raccolto i riscontri utili a costruire il proprio ranking. Non si tratta ancora di affermazioni sui grandi palcoscenici del tour maggiore, ma di quei passaggi intermedi che per un giovane professionista rappresentano la vera fase di apprendimento.
+Il capitolo decisivo della sua storia sportiva porta la data del 2026, con la conquista del Jingshan Open, torneo di categoria WTA 125 disputato sul cemento in Cina. In finale Shubladze ha battuto la spagnola Jéssica Bouzas Maneiro per 6-3 6-2, firmando il primo successo della carriera al di sopra del livello ITF.
 
-Il capitolo più significativo della sua storia sportiva, con ogni probabilità, è ancora da scrivere: i prossimi anni diranno se il potenziale offensivo mostrato finora saprà tradursi in un salto di categoria stabile. Per ora resta un prospetto da seguire con curiosità, da inquadrare per quello che è: un tennista in costruzione che sta cercando la propria strada.
+Prima di quel titolo c'era stata la lunga semina: tredici affermazioni in singolare nei tornei ITF, distribuite tra cemento e terra battuta, e nove in doppio, con cinque finali perse in singolare e quattro in doppio a completare un palmarès già corposo per una ventunenne.
+
+### Trofei principali
+
+- Un titolo WTA 125 (Jingshan Open, 2026, cemento)
+- Tredici titoli in singolare nel circuito ITF
+- Nove titoli in doppio nel circuito ITF
+- Miglior classifica mondiale alla posizione numero 132 in singolare (ottobre 2026)
+
+Il quadro complessivo è quello di una giocatrice arrivata alla soglia delle prime cento del mondo senza scorciatoie, con il passo più importante, quello verso i tabelloni principali del circuito maggiore e dello Slam, ancora da compiere.

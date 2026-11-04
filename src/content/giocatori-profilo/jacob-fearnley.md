@@ -3,7 +3,7 @@ nome: "Jacob Fearnley"
 slug_profilo: "jacob-fearnley"
 titoli: "Emergente dal college statunitense con primi acuti ATP"
 stile_gioco: "Gioco solido e combattivo da fondo, in rapida crescita"
-nazionalita: "Gran Bretagna"
+nazionalita: "Regno Unito"
 mano: "destro"
 rovescio: "due mani"
 categoria: "ATP"
@@ -14,7 +14,7 @@ tag:
   - "Jacob Fearnley"
   - "Fearnley"
   - "tennista britannico"
-  - "Gran Bretagna"
+  - "Regno Unito"
   - "ATP"
   - "cemento"
   - "Wimbledon"
@@ -24,7 +24,7 @@ generato_il: "2026-10-25T11:21"
 
 ## Chi è
 
-Jacob Fearnley è un tennista britannico, cresciuto in Scozia, che ha scelto un percorso meno convenzionale per approdare al tennis professionistico. Prima di dedicarsi interamente al circuito maggiore, ha costruito le proprie fondamenta nel tennis universitario statunitense, militando tra le file della Texas Christian University, dove si è imposto come uno dei collegiali più solidi e completi del panorama americano. Quell'esperienza, insolita per un europeo di talento, gli ha concesso il tempo di maturare fisicamente e mentalmente, lontano dalle pressioni precoci che spesso accompagnano i giovani proiettati subito sul tour. Il salto definitivo tra i professionisti è arrivato in età leggermente più avanzata rispetto alla media, ma con una consapevolezza tecnica evidente fin dai primi tornei.
+Jacob Fearnley è un tennista britannico, nato a Worcester il 15 luglio 2001 e cresciuto in Scozia, a Dalkeith alle porte di Edimburgo, che ha scelto un percorso meno convenzionale per approdare al tennis professionistico. Prima di dedicarsi interamente al circuito maggiore, ha costruito le proprie fondamenta nel tennis universitario statunitense, militando tra le file della Texas Christian University, dove si è imposto come uno dei collegiali più solidi e completi del panorama americano. Quell'esperienza, insolita per un europeo di talento, gli ha concesso il tempo di maturare fisicamente e mentalmente, lontano dalle pressioni precoci che spesso accompagnano i giovani proiettati subito sul tour. Il salto definitivo tra i professionisti è arrivato in età leggermente più avanzata rispetto alla media, ma con una consapevolezza tecnica evidente fin dai primi tornei.
 
 ## Il suo tennis
 
@@ -36,10 +36,13 @@ La superficie che meglio valorizza le sue caratteristiche è il cemento, dove la
 
 ## Trofei e momenti chiave
 
-La stagione della svolta è stata quella del passaggio definitivo tra i professionisti, dopo l'addio al tennis universitario. In quella fase Fearnley ha inanellato una serie di risultati di rilievo nel circuito Challenger, conquistando alcuni titoli che gli hanno permesso una rapida scalata della classifica mondiale. Il momento che ne ha fatto conoscere il nome al grande pubblico è però arrivato a Wimbledon, dove — da wild card — ha affrontato Novak Djokovic in uno dei turni iniziali, riuscendo a strappare un set al campione serbo e mostrando personalità su uno dei palcoscenici più prestigiosi del tennis mondiale. Da lì la sua progressione non si è arrestata, con un ingresso sempre più stabile tra i giocatori di riferimento della nuova generazione britannica.
+La stagione della svolta è stata il 2024, quella del passaggio definitivo tra i professionisti dopo l'addio al tennis universitario. In quei mesi Fearnley ha inanellato una serie di risultati di rilievo nel circuito Challenger, con quattro titoli (Nottingham, Lincoln, Rennes e Orléans) che gli hanno permesso una rapida scalata della classifica mondiale. Il momento che ne ha fatto conoscere il nome al grande pubblico è però arrivato a Wimbledon 2024, dove, in tabellone da wild card e al debutto in uno Slam, ha affrontato Novak Djokovic al secondo turno: una sconfitta in quattro set, con un parziale strappato al serbo e molta personalità mostrata su uno dei palcoscenici più prestigiosi del tennis mondiale.
+
+Il 2025 lo ha visto spingersi fino al numero 49 del mondo, suo miglior piazzamento, con il terzo turno agli Australian Open e al Roland Garros e i primi quarti di finale ATP al Queen's. Il 2026 è stato invece più accidentato, tra uscite immediate nelle prove maggiori e un ritorno frequente nei tornei Challenger, dove ha comunque vinto a Newport: il percorso di consolidamento, a conti fatti, è ancora aperto.
 
 Momenti chiave in breve:
 
 - Affermazione come uno dei migliori interpreti del tennis universitario statunitense.
-- Diversi titoli Challenger nella stagione del salto tra i professionisti.
-- La sfida a Wimbledon contro Novak Djokovic, con un set conquistato.
+- Quattro titoli Challenger nel 2024, stagione del salto tra i professionisti.
+- La sfida a Wimbledon 2024 contro Novak Djokovic, con un set conquistato.
+- Il numero 49 del mondo raggiunto nel giugno 2025.

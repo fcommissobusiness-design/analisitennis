@@ -1,13 +1,13 @@
 ---
 nome: "Corentin Moutet"
 slug_profilo: "corentin-moutet"
-titoli: "Primo titolo ATP"
-stile_gioco: "Mancino estroso, tocco, smorzate e grande varieta' di colpi"
+titoli: "Tre finali ATP e titoli nel circuito Challenger"
+stile_gioco: "Mancino estroso, tocco, smorzate e grande varietà di colpi"
 nazionalita: "Francia"
 data_nascita: "1999-04-19"
 mano: "mancino"
 rovescio: "due mani"
-altezza: "175 cm"
+altezza: "180 cm"
 categoria: "ATP"
 superficie_preferita: "terra"
 intro: "Mancino francese dal talento istintivo e dal tennis d'artista, Corentin Moutet è tra i giocatori più creativi e imprevedibili del circuito maggiore."
@@ -26,9 +26,9 @@ generato_il: "2026-10-25T01:16"
 
 ## Chi è
 
-Corentin Moutet è un tennista francese nato a Parigi nel 1999, mancino, tra le figure più riconoscibili della nuova generazione transalpina. In un circuito che premia sempre più la potenza e la standardizzazione del gesto, lui ha scelto la strada opposta: quella del giocatore d'istinto, capace di costruire il punto con fantasia e di sorprendere avversari e pubblico con soluzioni che pochi altri, oggi, osano tentare.
+Corentin Moutet è un tennista francese nato nel 1999 a Neuilly-sur-Seine, alle porte di Parigi, mancino, tra le figure più riconoscibili della nuova generazione transalpina. In un circuito che premia sempre più la potenza e la standardizzazione del gesto, lui ha scelto la strada opposta: quella del giocatore d'istinto, capace di costruire il punto con fantasia e di sorprendere avversari e pubblico con soluzioni che pochi altri, oggi, osano tentare.
 
-La sua è una carriera cresciuta gradino dopo gradino, passando dalle categorie inferiori del tennis professionistico fino a stabilirsi con continuità nel tour maggiore. Il percorso non è stato lineare, e proprio questa irregolarità fa parte della sua identità: Moutet è un giocatore che divide, amato per l'estro e discusso per un temperamento acceso, che in campo sa trasformarsi tanto in risorsa quanto in zavorra.
+La sua è una carriera cresciuta gradino dopo gradino, passando dalle categorie inferiori del tennis professionistico fino a stabilirsi con continuità nel tour maggiore e a toccare, nella primavera del 2026, il miglior piazzamento in classifica, attorno alla trentesima posizione mondiale. Il percorso non è stato lineare, e proprio questa irregolarità fa parte della sua identità: Moutet è un giocatore che divide, amato per l'estro e discusso per un temperamento acceso, che in campo sa trasformarsi tanto in risorsa quanto in zavorra.
 
 ## Il suo tennis
 
@@ -46,6 +46,6 @@ Ciò non significa che sia un giocatore di sola terra. Il suo tocco e la capacit
 
 ## Trofei e momenti chiave
 
-La carriera di Moutet si è costruita soprattutto nel circuito Challenger, dove ha raccolto alcuni titoli che gli hanno permesso di consolidare la propria posizione tra i professionisti e di guadagnarsi la ribalta del tour maggiore.
+La carriera di Moutet si è costruita soprattutto nel circuito Challenger, dove ha raccolto una serie di titoli che gli hanno permesso di consolidare la propria posizione tra i professionisti e di guadagnarsi la ribalta del tour maggiore.
 
-Sul circuito ATP si è ritagliato risultati di rilievo, spingendosi nelle fasi avanzate di diversi tornei e misurandosi con regolarità contro avversari di vertice. Più che da un singolo trofeo, la sua identità sportiva è definita dai match in cui il talento è esploso con pienezza: partite spettacolari, spesso combattute, che hanno confermato quanto, nelle giornate giuste, Corentin Moutet sappia essere un avversario capace di mettere in difficoltà chiunque.
+Sul circuito ATP il titolo manca ancora, ma ha disputato tre finali: a Doha nel 2020, poi a Maiorca e ad Almaty nel 2025. Nel frattempo si è spinto nelle fasi avanzate di diversi tornei, con una semifinale in un ATP 500 a Washington, e si è misurato con regolarità contro avversari di vertice, battendo più di un giocatore da top ten. Più che da un singolo trofeo, la sua identità sportiva è definita dai match in cui il talento è esploso con pienezza: partite spettacolari, spesso combattute, che hanno confermato quanto, nelle giornate giuste, Corentin Moutet sappia essere un avversario capace di mettere in difficoltà chiunque.

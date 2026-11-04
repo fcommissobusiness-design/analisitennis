@@ -1,13 +1,13 @@
 ---
 nome: "Alejandro Tabilo"
 slug_profilo: "alejandro-tabilo"
-titoli: "Titoli ATP (Auckland e Mallorca)"
+titoli: "Tre titoli ATP (Auckland e Maiorca 2024, Chengdu 2025) e best ranking di numero 19 del mondo"
 stile_gioco: "Mancino ordinato e piatto, costruzione pulita da fondo"
 nazionalita: "Cile"
 data_nascita: "1997-06-02"
 mano: "mancino"
 rovescio: "due mani"
-altezza: "185 cm"
+altezza: "188 cm"
 categoria: "ATP"
 superficie_preferita: "cemento"
 intro: "Mancino dal tennis piatto e aggressivo, Alejandro Tabilo è diventato una delle facce più riconoscibili del movimento cileno sul tour maggiore."
@@ -26,7 +26,7 @@ generato_il: "2026-10-27T12:29"
 
 ## Chi è
 
-Alejandro Tabilo è un tennista cileno nato nel 1997 a Toronto, in Canada, da una famiglia di origine cilena: una doppia appartenenza che ne ha accompagnato la formazione e che spiega il percorso agonistico diviso tra Nord America e Sud America. Mancino, con un fisico asciutto e longilineo, ha costruito la propria carriera partendo dai tornei minori per poi ritagliarsi uno spazio stabile nel tennis che conta, fino a diventare uno dei portabandiera più riconoscibili del movimento cileno insieme ai connazionali più celebri della sua generazione.
+Alejandro Tabilo è un tennista cileno nato il 2 giugno 1997 a Toronto, in Canada, da una famiglia di origine cilena: una doppia appartenenza che ne ha accompagnato la formazione e che spiega il percorso agonistico diviso tra Nord America e Sud America. Mancino, con un fisico asciutto e longilineo, ha costruito la propria carriera partendo dai tornei minori per poi ritagliarsi uno spazio stabile nel tennis che conta, fino a diventare uno dei portabandiera più riconoscibili del movimento cileno insieme ai connazionali più celebri della sua generazione.
 
 Il suo arrivo tra i protagonisti non è stato immediato né scontato: Tabilo ha attraversato a lungo il circuito Challenger prima di imporsi con continuità ai livelli superiori, un apprendistato che ne ha temprato la solidità mentale e la capacità di gestire le fasi difficili della stagione.
 
@@ -46,12 +46,13 @@ La terra battuta, superficie di casa per gran parte del tennis sudamericano, lo 
 
 ## Trofei e momenti chiave
 
-La svolta della carriera di Tabilo è arrivata quando ha iniziato a trasformare le buone prestazioni in titoli e vittorie di prestigio sul tour maggiore, dopo essersi fatto le ossa con alcuni successi nel circuito Challenger. Il passaggio a un ruolo da protagonista si è tradotto nella conquista di titoli ATP e in una scalata della classifica che lo ha portato stabilmente a ridosso dei primi venti del mondo, il miglior piazzamento della sua carriera.
+La svolta della carriera di Tabilo è arrivata nel gennaio 2024, con il primo titolo ATP ad Auckland, superando in finale Taro Daniel. Cinque mesi dopo è arrivato il secondo, sull'erba di Maiorca contro Sebastian Ofner: due trofei in una stagione che il primo luglio 2024 lo ha portato al numero 19 del mondo, il miglior piazzamento della sua carriera. Nel 2025 ha aggiunto il terzo titolo a Chengdu, dove ha battuto Lorenzo Musetti rimontando da 1-4 nel tie-break decisivo.
 
-Tra i momenti che lo hanno fatto conoscere a un pubblico più ampio ci sono i successi di grande peso ottenuti contro alcuni dei giocatori più forti della sua epoca, risultati che hanno confermato quanto il suo tennis, nelle giornate giuste, possa mettere in difficoltà chiunque.
+Il risultato che lo ha fatto conoscere al pubblico internazionale, però, non è un titolo: è la vittoria contro Novak Djokovic agli Internazionali d'Italia nel 2024, replicata l'anno successivo al Masters di Monte-Carlo. Due successi sul rosso che hanno confermato quanto il suo tennis, nelle giornate giuste, possa mettere in difficoltà chiunque.
 
 ### Trofei principali
 
-- Titoli ATP in singolare
+- Tre titoli ATP in singolare: Auckland e Maiorca nel 2024, Chengdu nel 2025
+- Due vittorie contro Novak Djokovic, a Roma nel 2024 e a Monte-Carlo nel 2025
 - Diversi successi nel circuito Challenger nelle prime stagioni
-- Miglior classifica in carriera a ridosso dei primi venti del ranking mondiale
+- Miglior classifica in carriera di numero 19 del ranking mondiale (luglio 2024)

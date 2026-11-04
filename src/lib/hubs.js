@@ -112,13 +112,36 @@ export function playerSlug(raw) {
   return slugify(displayPlayerName(raw));
 }
 
+// Nomi italiani delle sedi, per allineare gli articoli ai profili torneo
+// (il profilo dice "Basilea", l'articolo diceva "Basel").
+const TOURNAMENT_LABELS = {
+  'Basel': 'Basilea',
+  'Paris': 'Parigi',
+  'Brussels': 'Bruxelles',
+  'Lisbon': 'Lisbona',
+  'Florence': 'Firenze',
+  'Lyon': 'Lione',
+  'Queretaro': 'Querétaro',
+  'Vienna': 'Vienna',
+};
+
+// Forma leggibile dal lettore: via il suffisso tecnico "- Qualification" che
+// arriva grezzo dall'API, via il paese fra parentesi, poi nome italiano.
+// NON usare per costruire slug: cambierebbe le URL gia' pubblicate.
 export function tournamentDisplay(raw) {
+  const base = tournamentKey(raw).replace(/\s*\([^)]*\)\s*$/, '').trim();
+  return TOURNAMENT_LABELS[base] || base;
+}
+
+// Forma tecnica stabile usata per gli slug: toglie solo "- Qualification",
+// esattamente come prima, cosi' "lyon-france-2026" resta "lyon-france-2026".
+export function tournamentKey(raw) {
   return (raw || '').replace(/\s*-\s*Qualification$/i, '').trim();
 }
 
 // slug torneo include l'anno della data per permettere "vienna-2026" vs "vienna-2027"
 export function tournamentSlug(raw, year) {
-  return `${slugify(tournamentDisplay(raw))}-${year}`;
+  return `${slugify(tournamentKey(raw))}-${year}`;
 }
 
 // Raccoglie i giocatori con conteggio e lista articoli.

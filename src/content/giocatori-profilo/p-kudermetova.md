@@ -1,22 +1,22 @@
 ---
 nome: "Polina Kudermetova"
 slug_profilo: "p-kudermetova"
-nazionalita: "Russia"
+nazionalita: "Uzbekistan"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "gioco aggressivo da fondo con colpi piatti e profondi"
-titoli: "affermazione a livello ITF e alcuni titoli nei tornei minori, con la prima importante finale sul tour maggiore all'inizio del 2025"
+titoli: "nove titoli ITF in singolare, la finale al Brisbane International 2025 e un titolo WTA nel doppio"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Polina Kudermetova, giovane tennista russa, si è imposta all'attenzione del circuito con un tennis diretto e coraggioso, costruito sulla potenza da fondo campo."
-descrizione: "Profilo di Polina Kudermetova: tennista russa dal gioco aggressivo da fondo, sorella di Veronika, rivelazione del circuito WTA sul cemento."
+intro: "Nata a Mosca e dal 2026 in gara per l'Uzbekistan, Polina Kudermetova si è imposta all'attenzione del circuito con un tennis diretto e coraggioso, costruito sulla potenza da fondo campo."
+descrizione: "Profilo di Polina Kudermetova: gioco aggressivo da fondo, sorella minore di Veronika, dal 2026 in gara per l'Uzbekistan dopo il cambio di bandiera."
 tag:
   - "Polina Kudermetova"
   - "Kudermetova"
-  - "Russia"
+  - "Uzbekistan"
   - "WTA"
   - "cemento"
-  - "tennis russo"
+  - "cambio di bandiera"
   - "tennis femminile"
 pubblicato: true
 generato_il: "2026-11-03T11:09"
@@ -24,9 +24,9 @@ generato_il: "2026-11-03T11:09"
 
 ## Chi è
 
-Polina Kudermetova appartiene a quella generazione di tenniste russe cresciute con un modello di gioco moderno, fatto di anticipo e aggressività. Il suo cognome è noto agli appassionati anche per la sorella maggiore Veronika, da anni stabilmente tra le prime del ranking mondiale: un confronto ingombrante che Polina ha scelto di affrontare costruendosi un'identità tecnica propria, senza limitarsi a seguire le orme di casa.
+Nata a Mosca il 4 giugno 2003, Polina Kudermetova appartiene a quella generazione di tenniste cresciute nella scuola russa con un modello di gioco moderno, fatto di anticipo e aggressività. Dal 2026 scende in campo sotto la bandiera dell'Uzbekistan, dopo il cambio di nazionalità sportiva che ha chiuso il capitolo iniziato nel 2019 fra le tenniste russe. Il suo cognome è noto agli appassionati anche per la sorella maggiore Veronika, a lungo stabilmente fra le prime dieci del ranking mondiale: un confronto ingombrante che Polina ha scelto di affrontare costruendosi un'identità tecnica propria, senza limitarsi a seguire le orme di casa.
 
-Per buona parte delle prime stagioni il suo percorso si è sviluppato lontano dai riflettori, tra i tornei minori del circuito, dove ha accumulato partite, fiducia e la consapevolezza di poter reggere ritmi sempre più alti. È un percorso tipico delle giocatrici che maturano gradualmente, costruendo i risultati un mattone alla volta prima di trovare la ribalta del tour maggiore.
+Per buona parte delle prime stagioni il suo percorso si è sviluppato lontano dai riflettori, tra i tornei minori del circuito, dove ha messo in bacheca nove titoli ITF in singolare e ha accumulato partite, fiducia e la consapevolezza di poter reggere ritmi sempre più alti. È un percorso tipico delle giocatrici che maturano gradualmente, costruendo i risultati un mattone alla volta prima di trovare la ribalta del tour maggiore.
 
 ## Il suo tennis
 
@@ -40,11 +40,13 @@ Il cemento è l'ambiente che ne esalta le caratteristiche. I rimbalzi regolari e
 
 ## Trofei e momenti chiave
 
-Il momento che ha fatto conoscere Polina Kudermetova al grande pubblico è arrivato all'inizio del 2025, quando ha raggiunto la finale in un torneo WTA sul cemento, inanellando una serie di vittorie contro avversarie più quotate e fermandosi soltanto all'ultimo atto. È stato il traguardo che ha dato sostanza a un talento fino ad allora espresso soprattutto nei tornei minori.
+Il momento che ha fatto conoscere Polina Kudermetova al grande pubblico è arrivato nel gennaio del 2025, al Brisbane International: sul cemento australiano ha superato fra le altre Daria Kasatkina, allora fra le prime dieci del mondo, e si è fermata soltanto in finale contro Aryna Sabalenka. Nei mesi successivi è arrivato il best ranking di numero 54 del mondo, toccato ad aprile dello stesso anno. Nel 2026 ha poi aggiunto il primo titolo WTA della carriera, nel doppio, al Guangzhou Open in coppia con Maria Timofeeva.
 
 ### Traguardi principali
 
-- Affermazioni e finali a livello dei tornei minori del circuito
-- Prima importante finale sul tour maggiore all'inizio del 2025, sul cemento
+- Nove titoli ITF in singolare nelle stagioni di formazione
+- Finale al Brisbane International nel gennaio 2025, sul cemento
+- Best ranking di numero 54 del mondo nell'aprile 2025
+- Titolo WTA nel doppio al Guangzhou Open 2026 con Maria Timofeeva
 
 Più dei singoli trofei, a raccontare la sua storia è la traiettoria: quella di una giovane giocatrice che ha scelto un tennis coraggioso e ha iniziato a raccoglierne i frutti nel momento in cui ha trovato la ribalta del grande circuito. La direzione è tracciata, e la sensazione è che il meglio debba ancora arrivare.

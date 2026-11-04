@@ -6,11 +6,11 @@ data_nascita: "2004-09-22"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio potente e gioco aggressivo da fondo"
-titoli: "un titolo Challenger (Columbus 2026) e titoli a livello ITF; campione NCAA di doppio con Virginia"
+titoli: "un titolo Challenger (Columbus 2026) e un titolo a livello ITF; campione NCAA di doppio con Virginia"
 altezza: "193 cm"
 categoria: "Challenger"
 superficie_preferita: "cemento"
-intro: "Svizzero classe 2004 forgiato nel college americano, Dylan Dietrich nel 2026 ha vinto il primo titolo Challenger e portato il suo nome ai margini dei primi 250 del mondo."
+intro: "Svizzero classe 2004 forgiato nel college americano, Dylan Dietrich nel 2026 ha vinto il primo titolo Challenger e portato il suo nome alle porte dei primi 180 del mondo."
 descrizione: "Profilo di Dylan Dietrich, tennista svizzero classe 2004: stile, superfici e i traguardi del 2026, dal college di Virginia al primo titolo Challenger."
 tag:
   - "Dylan Dietrich"
@@ -26,7 +26,7 @@ generato_il: "2026-10-31T11:58"
 
 ## Chi è
 
-Dylan Dietrich è un tennista svizzero nato il 22 settembre 2004. Appartiene a quella generazione elvetica che ha scelto una strada meno battuta dai connazionali, quella del tennis universitario statunitense, costruendo la propria maturità agonistica fra i campi dei college americani prima di misurarsi stabilmente con il circuito professionistico. La sua statura, un metro e novantatré, ne fa una figura imponente anche a rete, e nel corso del 2026 il suo nome ha cominciato a comparire con regolarità nelle cronache del tennis minore, fino ad affacciarsi ai margini dei primi 250 della classifica mondiale. È il profilo tipico del giocatore in ascesa, ancora lontano dai riflettori dei grandi tornei ma ormai dentro il gruppo di chi bussa alla porta del tour maggiore.
+Dylan Dietrich è un tennista svizzero nato il 22 settembre 2004. Appartiene a quella generazione elvetica che ha scelto una strada meno battuta dai connazionali, quella del tennis universitario statunitense, costruendo la propria maturità agonistica fra i campi dei college americani prima di misurarsi stabilmente con il circuito professionistico. La sua statura, un metro e novantatré, ne fa una figura imponente anche a rete, e nel corso del 2026 il suo nome ha cominciato a comparire con regolarità nelle cronache del tennis minore, fino ad affacciarsi attorno alla posizione numero 190 della classifica mondiale. È il profilo tipico del giocatore in ascesa, ancora lontano dai riflettori dei grandi tornei ma ormai dentro il gruppo di chi bussa alla porta del tour maggiore.
 
 ## Il suo tennis
 
@@ -42,7 +42,7 @@ Il 2026 è stato l'anno della svolta. Dietrich ha conquistato il suo primo titol
 
 - Primo titolo Challenger: Columbus 2026
 - Esordio nel tabellone principale ATP: Swiss Open di Gstaad 2026
-- Miglior classifica in singolare: ai margini dei primi 250 del mondo
+- Miglior classifica in singolare: numero 189 del mondo, nel novembre 2026
 - Titolo di doppio nel campionato universitario statunitense con Virginia
 
 Resta ora da capire se questi risultati segnino l'inizio di una progressione stabile verso i piani alti del circuito o un primo, promettente assaggio ancora da confermare.

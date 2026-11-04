@@ -29,7 +29,7 @@ La settimana appena archiviata ha parlato quasi una sola lingua, quella del ceme
 
 ### Vacherot e Alcaraz, due storie opposte a Basilea e Vienna
 
-A Basilea il copione ha riservato la sorpresa più grande. Valentin Vacherot ha costruito un cammino solido — superando tra gli altri Rinky Hijikata e un cliente scomodo come Holger Rune — fino a prendersi il titolo in finale contro Jiri Lehecka, rimontato dopo un primo set perso per 2-6 e piegato 6-3 6-3. Lehecka, che lungo la strada aveva regolato Jakub Kym, si è dovuto arrendere solo all'ultimo atto. Nel tabellone avevano acceso la settimana anche il confronto tra Taylor Fritz e Stefanos Tsitsipas e la sfida tra Giovanni Mpetshi Perricard e Arthur Fils.
+A Basilea il copione ha riservato la sorpresa più grande. Valentin Vacherot ha costruito un cammino solido (superando tra gli altri Rinky Hijikata e un cliente scomodo come Holger Rune) fino a prendersi il titolo in finale contro Jiri Lehecka, rimontato dopo un primo set perso per 2-6 e piegato 6-3 6-3. Lehecka, che lungo la strada aveva regolato Jakub Kym, si è dovuto arrendere solo all'ultimo atto. Nel tabellone avevano acceso la settimana anche il confronto tra Taylor Fritz e Stefanos Tsitsipas e la sfida tra Giovanni Mpetshi Perricard e Arthur Fils.
 
 A Vienna, invece, nessuna sorpresa ma una conferma di classe assoluta. Carlos Alcaraz ha attraversato il tabellone con autorità, superando Tommy Paul e Karen Khachanov, per poi liquidare in finale Alex de Minaur con un perentorio 6-1 6-4. Spettacolo anche attorno a lui: Matteo Berrettini si è messo in luce contro De Minaur e Tomas Martin Etcheverry, mentre Lorenzo Musetti ha incrociato Frances Tiafoe e Daniil Medvedev ha dato vita a due battaglie con Cameron Norrie e Adrian Mannarino.
 
@@ -43,4 +43,4 @@ Altrove la settimana non ha ancora emesso il suo verdetto. A Chennai, Ningbo, Br
 
 ### Verso la settimana che inizia
 
-Si riparte ancora al coperto, con la stagione che corre spedita verso la sua chiusura. Chi ha brillato in questi sette giorni — su tutti un Alcaraz in stato di grazia e un Vacherot capace di trasformare l'occasione in titolo — porterà fiducia nei prossimi tabelloni. Il cemento resta il giudice, e le gerarchie sono tutt'altro che congelate.
+Si riparte ancora al coperto, con la stagione che corre spedita verso la sua chiusura. Chi ha brillato in questi sette giorni, su tutti un Alcaraz in stato di grazia e un Vacherot capace di trasformare l'occasione in titolo, porterà fiducia nei prossimi tabelloni. Il cemento resta il giudice, e le gerarchie sono tutt'altro che congelate.

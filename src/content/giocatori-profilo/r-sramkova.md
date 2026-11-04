@@ -5,7 +5,7 @@ nazionalita: "Slovacchia"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio solido e tennis d'attacco da fondo campo"
-titoli: "alcuni titoli nei circuiti minori e il primo titolo nel circuito WTA"
+titoli: "tredici titoli ITF e il primo titolo WTA a Hua Hin nel 2024, con best ranking numero 33"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Rebecca Šramková incarna la pazienza del tennis slovacco: anni di gavetta nei tornei minori prima di affacciarsi, con autorità, nelle posizioni che contano del circuito maggiore."
@@ -38,9 +38,10 @@ Il rendimento migliore di Šramková è arrivato sulle superfici rapide, in part
 
 Il percorso di Šramková è stato segnato da una lunga fase di maturazione nei tornei minori prima del salto di qualità nel circuito maggiore. Tra i riferimenti della sua carriera si possono indicare:
 
-- alcuni titoli nei circuiti ITF e nelle categorie inferiori, raccolti nelle stagioni di formazione;
-- il primo titolo nel circuito WTA, arrivato all'inizio del 2025, autentico spartiacque della sua carriera;
-- la conseguente ascesa in classifica, che l'ha portata a toccare le posizioni più alte mai raggiunte;
-- il contributo alla nazionale slovacca nelle competizioni a squadre.
+- tredici titoli nel circuito ITF in singolare, raccolti nelle stagioni di formazione;
+- il primo titolo nel circuito WTA, conquistato a Hua Hin nel settembre del 2024 battendo in finale Laura Siegemund: autentico spartiacque della sua carriera e primo successo slovacco sul tour dal 2018;
+- la conseguente ascesa in classifica, che nel luglio del 2025 l'ha portata al best ranking di numero 33 del mondo;
+- il titolo nel circuito WTA 125 a Suzhou, nell'ottobre del 2026;
+- il contributo alla nazionale slovacca nelle competizioni a squadre, con la finale di Billie Jean King Cup raggiunta nel 2024.
 
-Proprio il successo di inizio 2025 rappresenta il momento che ha dato nuova credibilità al suo percorso, trasformando anni di lavoro silenzioso in un risultato concreto e aprendo una fase in cui le aspettative nei suoi confronti sono cresciute. Resta una giocatrice che dà il meglio quando può dettare il gioco, e il suo futuro dipenderà dalla capacità di rendere costante quel rendimento di alto livello già mostrato a sprazzi.
+Proprio il successo di Hua Hin rappresenta il momento che ha dato nuova credibilità al suo percorso, trasformando anni di lavoro silenzioso in un risultato concreto e aprendo una fase in cui le aspettative nei suoi confronti sono cresciute. Resta una giocatrice che dà il meglio quando può dettare il gioco, e il suo futuro dipenderà dalla capacità di rendere costante quel rendimento di alto livello già mostrato a sprazzi.

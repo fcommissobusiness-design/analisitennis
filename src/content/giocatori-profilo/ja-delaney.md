@@ -39,7 +39,7 @@ La sua carriera si è sviluppata in buona parte sui campi in cemento, superficie
 
 ## Trofei e momenti chiave
 
-Il risultato che ha dato lustro alla sua trafila giovanile è arrivato presto: nel 2015 Delaney ha conquistato il titolo di doppio nel tabellone junior degli Australian Open, in coppia con il connazionale Marc Polmans, un traguardo che lo ha segnalato come prospetto interessante del tennis australiano. Da professionista ha poi confermato la propria indole di specialista del doppio con alcuni successi significativi nei tornei del circuito maggiore minore.
+Il risultato che ha dato lustro alla sua trafila giovanile è arrivato presto: nel 2015 Delaney ha conquistato il titolo di doppio nel tabellone junior degli Australian Open, in coppia con il connazionale Marc Polmans, un traguardo che lo ha segnalato come prospetto interessante del tennis australiano. Da professionista ha poi confermato la propria indole di specialista del doppio con quattro titoli vinti nei tornei del circuito Challenger.
 
 **Trofei principali:**
 

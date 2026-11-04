@@ -34,7 +34,7 @@ Kouame ha disegnato un tabellone pulito: superato H. Grenier all'ingresso, ha po
 Damm, dal canto suo, ha avuto un percorso leggermente più lungo. Dopo i successi in due set su S. Gueymard Wayenburg, U. Blanchet e C. Tabur, si è guadagnato la finale nella semifinale più combattuta, quella contro D. Prizmic, risolta solo al terzo set. Due strade parallele che convergono nello stesso epilogo, con qualche game in più speso dalla parte di Damm e un match in meno nelle gambe per Kouame.
 
 ### L'unico precedente
-Il confronto diretto parla una lingua sola, ma lo fa a bassa voce. L'unico incrocio risale al febbraio 2025, in uno dei tornei M15 di Sharm El Sheikh, nei quarti di finale: in quell'occasione fu **Damm** a spuntarla al terzo set. Un dato che vale poco in assoluto — superficie diversa, categoria inferiore, oltre un anno e mezzo di distanza — ma che resta l'unico fotogramma reale di questa sfida, e come tale va registrato.
+Il confronto diretto parla una lingua sola, ma lo fa a bassa voce. L'unico incrocio risale al febbraio 2025, in uno dei tornei M15 di Sharm El Sheikh, nei quarti di finale: in quell'occasione fu **Damm** a spuntarla al terzo set. Un dato che vale poco in assoluto (superficie diversa, categoria inferiore, oltre un anno e mezzo di distanza) ma che resta l'unico fotogramma reale di questa sfida, e come tale va registrato.
 
 ### Il mese di ottobre
 Allargando lo sguardo oltre Brest, i due hanno vissuto un autunno di tono differente. Kouame ha alternato buone prove e passi falsi: nelle qualificazioni di Lyon ha firmato un successo su L. Sonego prima di arrendersi a L. Musetti, mentre a Roanne aveva battuto D. Dedura cedendo poi a N. Budkov Kjaer. Un rendimento altalenante, ma punteggiato da scalpi di un certo valore.

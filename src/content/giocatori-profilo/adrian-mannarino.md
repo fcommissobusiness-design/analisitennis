@@ -1,13 +1,13 @@
 ---
 nome: "Adrian Mannarino"
 slug_profilo: "adrian-mannarino"
-titoli: "Piu' titoli ATP, specialista delle superfici veloci"
+titoli: "Cinque titoli ATP in singolare, specialista delle superfici veloci"
 stile_gioco: "Mancino piatto e molto anticipato, efficace sull'erba"
 nazionalita: "Francia"
 data_nascita: "1988-06-29"
 mano: "mancino"
 rovescio: "due mani"
-altezza: "183 cm"
+altezza: "180 cm"
 categoria: "ATP"
 superficie_preferita: "erba"
 intro: "Mancino atipico e longevo, Adrian Mannarino ha fatto del gioco piatto e della lettura del campo la sua firma inconfondibile sul circuito."
@@ -26,7 +26,7 @@ generato_il: "2026-10-25T01:13"
 
 ## Chi è
 
-Adrian Mannarino è uno dei mancini più riconoscibili e particolari dell'intero circuito maschile. Francese, in attività da molti anni ad alto livello, ha costruito una carriera che rappresenta quasi un'eccezione nel tennis contemporaneo: lontano dalla potenza pura e dai centimetri che oggi dominano, ha trovato il suo spazio grazie a un bagaglio tecnico fuori moda e a una continuità rara. Nel corso delle stagioni si è stabilmente collocato ai piani alti della classifica mondiale, toccando posizioni da vertice della top 20, segno di una solidità mantenuta ben oltre i trent'anni.
+Adrian Mannarino è uno dei mancini più riconoscibili e particolari dell'intero circuito maschile. Nato a Soisy-sous-Montmorency, nella regione parigina, il 29 giugno 1988, ha costruito una carriera che rappresenta quasi un'eccezione nel tennis contemporaneo: con un metro e ottanta di statura, lontano dalla potenza pura e dai centimetri che oggi dominano, ha trovato il suo spazio grazie a un bagaglio tecnico fuori moda e a una continuità rara. La prova più nitida di questa longevità sta nella data del suo miglior piazzamento: il numero 17 del mondo, toccato il 29 gennaio 2024, a trentacinque anni compiuti e dopo oltre quindici stagioni da professionista.
 
 ## Il suo tennis
 
@@ -42,12 +42,12 @@ Sulla terra battuta il quadro è più complesso. Il rimbalzo più alto e i tempi
 
 ## Trofei e momenti chiave
 
-La carriera di Mannarino è fatta più di continuità che di singoli trionfi clamorosi, ma non mancano i successi di prestigio. Ha conquistato titoli nel circuito ATP e ha saputo imporsi in diverse finali, costruendo nel tempo un palmarès solido per un giocatore del suo profilo. Agli Slam ha raggiunto le fasi avanzate in più occasioni, confermandosi avversario temibile per molte teste di serie.
+La carriera di Mannarino è fatta più di continuità che di singoli trionfi clamorosi, ma non mancano i successi di prestigio. Ha conquistato cinque titoli nel circuito ATP in singolare, costruendo nel tempo un palmarès solido per un giocatore del suo profilo. Negli Slam il suo tetto sono gli ottavi di finale, raggiunti in tutti e tre i tornei che si giocano su superficie rapida: a Wimbledon nel 2013, nel 2017 e nel 2018, agli Australian Open nel 2022 e nel 2024, agli US Open nel 2025. Sulla terra del Roland Garros, invece, non è mai andato oltre il secondo turno.
 
 ### Trofei principali
 
-- Titoli nel circuito ATP in singolare
-- Buoni risultati negli Slam, con avanzamenti oltre i primi turni
-- Una longevità in classifica che lo ha mantenuto a lungo tra i migliori
+- Cinque titoli nel circuito ATP in singolare
+- Ottavi di finale negli Slam sul veloce: Wimbledon, Australian Open e US Open
+- Miglior classifica di numero 17 del mondo, raggiunta nel gennaio 2024
 
 Più dei singoli episodi, resta il senso complessivo di una carriera coerente: un mancino che, senza doti fisiche eccezionali, ha saputo ritagliarsi un posto stabile ai vertici grazie a tecnica, lettura e perseveranza.

@@ -38,6 +38,12 @@ export async function GET(context) {
       changefreq: 'weekly',
       priority: '0.6',
     })),
+    {
+      loc: `${site}/en`,
+      lastmod: today,
+      changefreq: 'weekly',
+      priority: '0.6',
+    },
     ...Object.keys(profilesEn).map(slug => ({
       loc: `${site}/en/players/${slug}`,
       lastmod: today,

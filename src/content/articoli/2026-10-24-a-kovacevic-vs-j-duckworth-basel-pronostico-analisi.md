@@ -49,6 +49,6 @@ Duckworth risponde con una continuità di successi nei turni di qualificazione e
 
 ### Stile e superficie
 
-Sul veloce al coperto i due condividono alcune caratteristiche: entrambi destri, costruiscono gran parte del loro gioco attorno al servizio e alla ricerca immediata del comando dello scambio. Le condizioni indoor, che tendono a premiare la battuta e i colpi piatti, si adattano in linea di principio alle qualità di entrambi, lasciando ai dettagli — qualità della risposta, gestione dei punti importanti, tenuta nei turni di servizio delicati — il compito di indirizzare la sfida.
+Sul veloce al coperto i due condividono alcune caratteristiche: entrambi destri, costruiscono gran parte del loro gioco attorno al servizio e alla ricerca immediata del comando dello scambio. Le condizioni indoor, che tendono a premiare la battuta e i colpi piatti, si adattano in linea di principio alle qualità di entrambi, lasciando ai dettagli, qualità della risposta, gestione dei punti importanti, tenuta nei turni di servizio delicati, il compito di indirizzare la sfida.
 
 La semifinale di Basel si presenta dunque come un confronto senza un favorito marcato, in cui la freschezza fisica, la capacità di difendere il servizio e la lucidità nei momenti chiave peseranno più dei precedenti o della semplice risonanza dei nomi. Due carriere che si sono sfiorate tante volte in stagione si ritrovano a un passo dalla finale, pronte a giocarsi tutto in pochi game.

@@ -2,14 +2,14 @@
 nome: "Vit Kopriva"
 slug_profilo: "vit-kopriva"
 titoli: "Lunga carriera tra Challenger e ATP"
-stile_gioco: "Regolarita' e top spin da fondo, specialista della terra"
+stile_gioco: "Regolarità e top spin da fondo, specialista della terra"
 nazionalita: "Repubblica Ceca"
-data_nascita: "1997-06-17"
+data_nascita: "1997-06-15"
 mano: "destro"
 rovescio: "due mani"
 categoria: "ATP"
 superficie_preferita: "terra"
-intro: "Vit Kopriva e' il mediano ceco che ha costruito la carriera sui campi Challenger, guadagnandosi con pazienza un posto nel tabellone principale del circuito maggiore."
+intro: "Vit Kopriva è il mediano ceco che ha costruito la carriera sui campi Challenger, guadagnandosi con pazienza un posto nel tabellone principale del circuito maggiore."
 descrizione: "Profilo di Vit Kopriva, tennista ceco di scuola terraiola: gioco, superfici preferite e momenti chiave di una carriera costruita dal basso."
 tag:
   - "Vit Kopriva"
@@ -43,14 +43,14 @@ Sul cemento ha comunque saputo ritagliarsi spazio, adattando il gioco a condizio
 
 ## Trofei e momenti chiave
 
-La carriera di Kopriva si è costruita soprattutto nel circuito Challenger, dove ha messo insieme diversi titoli e molte settimane di tennis di alto livello, in larga parte sulla terra battuta. È proprio questo lavoro di accumulo a rappresentare la spina dorsale del suo percorso, prima del salto verso il palcoscenico più importante.
+La carriera di Kopriva si è costruita soprattutto nel circuito Challenger, dove ha messo insieme sei titoli in singolare e molte settimane di tennis di alto livello, in larga parte sulla terra battuta, ai quali vanno aggiunte le affermazioni nei tornei ITF delle prime stagioni. È proprio questo lavoro di accumulo a rappresentare la spina dorsale del suo percorso, prima del salto verso il palcoscenico più importante.
 
-Il traguardo che meglio sintetizza il suo cammino è l'ingresso nella fascia alta della classifica mondiale e l'accesso con continuità ai tabelloni principali dei tornei del grande circuito, Slam compresi. Un risultato che per un giocatore di estrazione Challenger non è mai scontato e che certifica la bontà di un percorso costruito con costanza.
+Il traguardo che meglio sintetizza il suo cammino è l'ingresso stabile nei primi cento del mondo, con un best ranking al numero 55 raggiunto il 4 maggio 2026, e l'accesso con continuità ai tabelloni principali dei tornei del grande circuito, Slam compresi, dove il suo miglior risultato è il secondo turno. Un percorso che per un giocatore di estrazione Challenger non è mai scontato e che certifica la bontà di un lavoro costruito con costanza.
 
 **Trofei principali**
 
-- Diversi titoli nel circuito Challenger, in prevalenza sulla terra battuta
-- Ingresso nella fascia alta della classifica mondiale
+- Sei titoli nel circuito Challenger, in prevalenza sulla terra battuta
+- Best ranking: numero 55 del mondo, il 4 maggio 2026
 - Presenze nei tabelloni principali dei tornei del Grande Slam
 
 Più che la bacheca, è la traiettoria a raccontarlo: un tennista che ha trasformato la pazienza in metodo e il metodo in carriera.

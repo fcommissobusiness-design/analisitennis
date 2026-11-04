@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import profilesEn from '../../data/profiles-en.json';
+
+const site = 'https://analisitennis.it';
+const enUrl = `${site}/en`;
+const players = Object.entries(profilesEn)
+  .map(([slug, d]) => ({ slug, nome: d.nome, eyebrow: d.eyebrow, description: d.description }))
+  .sort((a, b) => a.nome.localeCompare(b.nome, 'en'));
+
+const collection = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'AnalisiTennis in English',
+  url: enUrl,
+  description: 'English player profiles from AnalisiTennis, an Italian tennis editorial publication.',
+  hasPart: players.map(p => ({
+    '@type': 'ProfilePage',
+    name: p.nome,
+    url: `${site}/en/players/${p.slug}`,
+  })),
+};
+---
+<Base
+  titolo="AnalisiTennis in English - Player profiles"
+  descrizione="English player profiles from AnalisiTennis: playing style, preferred surfaces and the key moments of each career."
+  canonical={enUrl}
+  lang="en"
+>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">English edition</div>
+      <h1>AnalisiTennis in English</h1>
+      <p>
+        AnalisiTennis is an Italian tennis publication. A selection of our player profiles is
+        also available in English: who they are, how they play, the surfaces that suit them and
+        the moments that shaped their careers.
+      </p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="en-index">
+      <h2>Player profiles</h2>
+      <ul class="en-lista">
+        {players.map(p => (
+          <li>
+            <a href={`/en/players/${p.slug}`}>
+              <span class="en-nome">{p.nome}</span>
+              <span class="en-eyebrow">{p.eyebrow}</span>
+              <span class="en-desc">{p.description}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="en-it-link">
+        <a href="/" hreflang="it-it" rel="alternate">Vai al sito in italiano, con tutte le analisi quotidiane &rarr;</a>
+      </p>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify(collection)} />
+</Base>
+
+<style>
+  .en-index { max-width: 760px; margin: 0 auto; padding: 8px 0 56px; }
+  .en-index h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem; font-weight: 700; margin: 0 0 18px;
+  }
+  .en-lista { list-style: none; margin: 0; padding: 0; }
+  .en-lista li { border-top: 1px solid var(--linea, #e5e5e5); }
+  .en-lista li:last-child { border-bottom: 1px solid var(--linea, #e5e5e5); }
+  .en-lista a { display: block; padding: 18px 0; text-decoration: none; color: inherit; }
+  .en-lista a:hover .en-nome { text-decoration: underline; }
+  .en-nome {
+    display: block; font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.2rem; font-weight: 700; color: var(--testo, #1a1a1a);
+  }
+  .en-eyebrow {
+    display: block; margin: 4px 0 6px; font-size: 0.78rem; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--verde-scuro, #1e9c37); font-weight: 600;
+  }
+  .en-desc { display: block; color: var(--testo-secondario, #4b5563); line-height: 1.5; }
+  .en-it-link { margin-top: 32px; }
+  .en-it-link a { color: var(--verde-scuro, #1e9c37); font-weight: 600; }
+</style>

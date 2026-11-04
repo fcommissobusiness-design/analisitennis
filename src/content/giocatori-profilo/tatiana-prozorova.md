@@ -23,7 +23,7 @@ generato_il: "2026-10-27T12:52"
 
 ## Chi è
 
-Tatiana Prozorova è una tennista russa che si è fatta conoscere percorrendo la trafila classica delle giovani dell'Europa dell'Est: tanti tornei del circuito minore, lunghe trasferte e una costruzione gradiente della propria classifica, senza scorciatoie. Appartiene a quel folto gruppo di atlete russe che negli ultimi anni ha alimentato il ricambio generazionale del tennis femminile, cresciute con un'impostazione tecnica rigorosa e un approccio al lavoro quotidiano quasi professionale fin dall'adolescenza.
+Tatiana Prozorova è una tennista russa che si è fatta conoscere percorrendo la trafila classica delle giovani dell'Europa dell'Est: tanti tornei del circuito minore, lunghe trasferte e una costruzione graduale della propria classifica, senza scorciatoie. Appartiene a quel folto gruppo di atlete russe che negli ultimi anni ha alimentato il ricambio generazionale del tennis femminile, cresciute con un'impostazione tecnica rigorosa e un approccio al lavoro quotidiano quasi professionale fin dall'adolescenza.
 
 Il suo nome circola soprattutto tra gli addetti ai lavori che seguono da vicino i tornei di sviluppo, dove le giocatrici affinano colpi e carattere lontano dai riflettori. È in quel contesto che Prozorova ha messo insieme le prime esperienze significative, imparando a gestire partite lunghe e avversarie di livello eterogeneo.
 
@@ -41,6 +41,6 @@ Sul cemento deve invece adattarsi a tempi più compressi, dove la rapidità di e
 
 ## Trofei e momenti chiave
 
-Sul piano dei risultati, il percorso di Prozorova va letto nella prospettiva di una carriera ancora in costruzione, fatta soprattutto di esperienze maturate nei tornei del circuito di sviluppo. In quel contesto ha raccolto affermazioni e piazzamenti utili ad accumulare punti e a far crescere la classifica, nel segno di una progressione gradita ma non esplosiva.
+Sul piano dei risultati, il percorso di Prozorova va letto nella prospettiva di una carriera ancora in costruzione, fatta soprattutto di esperienze maturate nei tornei del circuito di sviluppo. In quel contesto ha raccolto affermazioni e piazzamenti utili ad accumulare punti e a far crescere la classifica, fino all'ingresso nelle prime duecento posizioni del ranking mondiale, nel segno di una progressione graduale ma non esplosiva. Come le altre atlete russe, gareggia nei tornei internazionali sotto status neutrale.
 
 Per rispetto della precisione, è corretto inquadrarla come un'atleta il cui valore si misura più nella continuità del lavoro che in un singolo risultato clamoroso. I passaggi più significativi della sua stagione vanno cercati nelle settimane in cui è riuscita a incatenare più vittorie di fila, segnale della capacità di reggere l'urto di tornei impegnativi dal punto di vista fisico e mentale. È su questa base che si gioca la sua possibilità di ritagliarsi uno spazio stabile ai livelli più alti del tennis femminile.

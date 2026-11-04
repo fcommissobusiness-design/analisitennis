@@ -16,7 +16,7 @@ tag:
   - "cemento indoor"
   - "primo turno"
   - "pronostico tennis"
-verdetto: "Oggi la puo' spuntare Shapovalov: forma piu' solida nelle ultime settimane e un bagaglio tecnico superiore sul veloce indoor. Attenzione pero' al fattore campo e alla fiducia di Bertola, reduce da un torneo vinto in casa."
+verdetto: "Oggi la può spuntare Shapovalov: forma più solida nelle ultime settimane e un bagaglio tecnico superiore sul veloce indoor. Attenzione però al fattore campo e alla fiducia di Bertola, reduce da un torneo vinto in casa."
 descrizione: "Bertola sfida Shapovalov al primo turno di Basilea sul cemento indoor: nessun precedente, forma recente e fattore campo a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-r-bertola-vs-d-shapovalov-basel-pronostico-analisi.jpg"

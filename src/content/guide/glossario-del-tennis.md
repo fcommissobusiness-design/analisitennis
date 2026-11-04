@@ -1,5 +1,5 @@
 ---
-titolo: "Glossario del tennis: i termini piu' usati"
+titolo: "Glossario del tennis: i termini più usati"
 descrizione: "Ace, break, tie-break, top spin, slice, drop shot: il glossario dei termini del tennis spiegati in modo chiaro e veloce."
 sommario: "Il dizionario del tennis: dall'ace al tie-break, tutti i termini che senti in telecronaca spiegati in una riga."
 ordine: 4
@@ -7,7 +7,7 @@ aggiornato: "2026-10-28"
 pubblicato: true
 ---
 
-Il tennis ha un linguaggio tutto suo, spesso in inglese. Ecco i termini che ricorrono di piu' in telecronaca e nelle nostre analisi, spiegati in modo semplice.
+Il tennis ha un linguaggio tutto suo, spesso in inglese. Ecco i termini che ricorrono di più in telecronaca e nelle nostre analisi, spiegati in modo semplice.
 
 ## Colpi e servizio
 
@@ -28,9 +28,11 @@ Il tennis ha un linguaggio tutto suo, spesso in inglese. Ecco i termini che rico
 - **Break**: vincere il game quando serve l'avversario. Spesso decisivo.
 - **Controbreak**: recuperare subito il break appena subito.
 - **Palla break**: il punto che, se vinto da chi risponde, vale il break.
-- **Tie-break**: il game speciale che decide il set sul 6 pari.
-- **Deuce (parita')**: il 40 pari, da cui servono due punti di fila per chiudere.
-- **Vantaggio**: il punto giocato dopo il deuce.
+- **Tie-break**: il game speciale che decide il set sul 6 pari. Si vince a 7 punti con due di scarto.
+- **Super tie-break**: il tie-break ai 10 punti. Decide il set finale nelle quattro prove dello Slam e, in molti tornei, sostituisce il terzo set nel doppio.
+- **Deuce (parità)**: il 40 pari, da cui servono due punti di fila per chiudere.
+- **Vantaggio**: la situazione di chi, dal 40 pari, ha vinto un punto e si trova a uno dalla conquista del game.
+- **Let**: il punto o la battuta da rigiocare, per esempio quando il servizio tocca il nastro ed entra comunque nel rettangolo giusto.
 - **Set point / match point**: il punto che, se vinto, chiude il set o la partita.
 - **Bagel**: un set vinto 6-0.
 
@@ -50,4 +52,4 @@ Il tennis ha un linguaggio tutto suo, spesso in inglese. Ecco i termini che rico
 - **Controgiocatore**: chi difende, rimanda e sfrutta gli errori altrui.
 - **Attaccante**: chi cerca il punto rapido con colpi potenti e anticipati.
 
-Conoscere questi termini rende ogni partita e ogni nostra analisi molto piu' facili da seguire. Nei profili dei giocatori usiamo spesso queste parole per descrivere lo stile di ognuno.
+Conoscere questi termini rende ogni partita e ogni nostra analisi molto più facili da seguire. Nei profili dei giocatori usiamo spesso queste parole per descrivere lo stile di ognuno.

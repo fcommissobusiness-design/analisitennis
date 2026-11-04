@@ -1,10 +1,10 @@
 ---
 nome: "Rinky Hijikata"
 slug_profilo: "rinky-hijikata"
-titoli: "Titolo Slam in doppio (Australian Open 2023)"
-stile_gioco: "Agonismo e regolarita' da fondo nonostante il fisico contenuto"
+titoli: "Due titoli ATP in doppio, fra cui lo Slam dell'Australian Open 2023"
+stile_gioco: "Agonismo e regolarità da fondo nonostante il fisico contenuto"
 nazionalita: "Australia"
-data_nascita: "2001-06-01"
+data_nascita: "2001-02-23"
 mano: "destro"
 rovescio: "due mani"
 altezza: "178 cm"
@@ -27,7 +27,7 @@ generato_il: "2026-10-27T12:48"
 
 ## Chi è
 
-Rinky Hijikata è un tennista australiano nato nel 2001 e cresciuto nell'area di Sydney, in una famiglia di origini giapponesi. Appartiene a quella generazione di giocatori australiani che è passata attraverso il tennis universitario statunitense prima di provare l'approdo al professionismo: ha infatti studiato e giocato all'Università del North Carolina, esperienza che ne ha plasmato sia il carattere agonistico sia la solidità mentale. Di statura contenuta rispetto agli standard odierni del circuito, ha dovuto costruire il proprio tennis attorno all'intensità e alla capacità di lavorare lo scambio, più che sulla potenza bruta del servizio.
+Rinky Hijikata è un tennista australiano nato a Sydney il 23 febbraio 2001, in una famiglia di origini giapponesi. Appartiene a quella generazione di giocatori australiani che è passata attraverso il tennis universitario statunitense prima di provare l'approdo al professionismo: ha infatti studiato e giocato all'Università del North Carolina, esperienza che ne ha plasmato sia il carattere agonistico sia la solidità mentale. Di statura contenuta rispetto agli standard odierni del circuito, ha dovuto costruire il proprio tennis attorno all'intensità e alla capacità di lavorare lo scambio, più che sulla potenza bruta del servizio.
 
 ## Il suo tennis
 
@@ -39,7 +39,9 @@ Il cemento è storicamente il terreno su cui Hijikata si esprime meglio, coerent
 
 ## Trofei e momenti chiave
 
-Il momento più celebre della carriera di Hijikata è senza dubbio il titolo nel doppio maschile all'Australian Open 2023, conquistato in coppia con il connazionale Jason Kubler. I due, partiti da wild card e quindi senza i favori del pronostico, firmarono un'impresa che ebbe grande risonanza nel loro Paese, confermando la tradizione australiana nella specialità del doppio. In singolare il percorso è stato quello tipico di chi parte dal basso: alcuni risultati di rilievo nel circuito Challenger gli hanno permesso di scalare posizioni e di affacciarsi stabilmente tra i giocatori del tabellone principale dei tornei maggiori, fino a entrare nelle prime cento posizioni della classifica mondiale.
+Il momento più celebre della carriera di Hijikata è senza dubbio il titolo nel doppio maschile all'Australian Open 2023, conquistato in coppia con il connazionale Jason Kubler. I due, partiti da wild card e quindi senza i favori del pronostico, firmarono un'impresa che ebbe grande risonanza nel loro Paese, confermando la tradizione australiana nella specialità del doppio. Nello stesso 2023 è arrivato un secondo titolo ATP di doppio, al torneo di Tokyo insieme a Max Purcell, mentre nel 2025 è stato finalista a Wimbledon con l'olandese David Pel. Il best ranking di specialità lo ha portato fino al numero 23 del mondo.
+
+In singolare il percorso è stato quello tipico di chi parte dal basso: i risultati nel circuito Challenger gli hanno permesso di scalare posizioni e di affacciarsi stabilmente nei tabelloni principali dei tornei maggiori, fino al numero 62 della classifica mondiale raggiunto nell'agosto del 2024. Il suo miglior cammino in uno Slam resta il quarto turno allo US Open del 2023.
 
 ### Una crescita da seguire
 

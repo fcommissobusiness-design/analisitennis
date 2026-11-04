@@ -6,7 +6,7 @@ data_nascita: "2002-05-06"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "servizio pesante, contropiede e colpi puliti da fondo"
-titoli: "primo titolo WTA in singolare (Chennai 2025) e la prima vittoria indonesiana in un match dello Slam da oltre vent'anni; alcuni titoli in doppio"
+titoli: "primo titolo WTA in singolare (Chennai 2025) e la prima vittoria indonesiana in un match dello Slam da oltre vent'anni; quattro titoli in doppio"
 altezza: "171 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
@@ -38,4 +38,6 @@ I risultati che l'hanno fatta conoscere al grande pubblico sono arrivati sul cem
 
 ## Trofei e momenti chiave
 
-La stagione 2025 è stata quella della consacrazione. Partita dalle profondità della classifica mondiale, Tjen ha scalato posizioni con una rapidità che ha pochi precedenti recenti, chiudendo l'anno stabilmente dentro le prime posizioni del professionismo. Il momento simbolo è il primo titolo sul circuito maggiore, conquistato al torneo di Chennai: un successo che l'ha resa la prima indonesiana a vincere un torneo WTA in singolare dopo oltre vent'anni, riaccendendo l'attenzione su un movimento rimasto a lungo in ombra. Altrettanto pesante, sul piano storico, la vittoria in un incontro dello US Open, dove è diventata la prima indonesiana a superare un turno in una prova dello Slam da oltre due decenni. A questi traguardi vanno aggiunti alcuni risultati nel doppio e una classifica che, nel 2026, l'ha avvicinata ai primi trenta posti del mondo. Per un Paese senza grande tradizione recente nel tennis femminile, la sua ascesa ha un valore che va ben oltre i numeri.
+La stagione 2025 è stata quella della consacrazione. Partita dalle profondità della classifica mondiale, Tjen ha scalato posizioni con una rapidità che ha pochi precedenti recenti, entrando tra le prime cento nell'ottobre di quell'anno. Il momento simbolo è il primo titolo sul circuito maggiore, conquistato al torneo di Chennai: un successo che l'ha resa la prima indonesiana a vincere un torneo WTA in singolare dopo ventitré anni, riaccendendo l'attenzione su un movimento rimasto a lungo in ombra. Nella stessa stagione erano arrivate la finale al debutto in un WTA 250 a San Paolo e il titolo WTA 125 di Jinan.
+
+Altrettanto pesante, sul piano storico, la vittoria allo US Open 2025 contro Veronika Kudermetova, allora testa di serie numero 24: la prima indonesiana a superare un turno in una prova dello Slam da oltre due decenni. A questi traguardi vanno aggiunti quattro titoli WTA in doppio, le medaglie ai Giochi del Sud-est asiatico e una classifica che nell'agosto 2026 è salita fino al numero 35 del mondo. Per un Paese senza grande tradizione recente nel tennis femminile, la sua ascesa ha un valore che va ben oltre i numeri.

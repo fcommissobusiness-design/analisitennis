@@ -6,8 +6,8 @@ data_nascita: "1995-07-25"
 mano: "destro"
 rovescio: "due mani"
 stile_gioco: "dritto potente e straordinaria preparazione atletica"
-titoli: "alcuni titoli WTA, tra cui un torneo di categoria superiore, e due semifinali nei tornei dello Slam"
-altezza: "171 cm"
+titoli: "due titoli WTA, tra cui il 1000 di Guadalajara 2023, e due semifinali Slam nel 2021"
+altezza: "172 cm"
 categoria: "WTA"
 superficie_preferita: "cemento"
 intro: "Simbolo del tennis greco femminile, Maria Sakkari ha scalato la classifica mondiale grazie a un gioco aggressivo e a una condizione atletica tra le migliori del circuito."
@@ -26,7 +26,7 @@ generato_il: "2026-11-02T16:08"
 
 ## Chi è
 
-Nata ad Atene nel 1995, Maria Sakkari è cresciuta in una famiglia legata al tennis: la madre è stata a sua volta giocatrice professionista, e questo ha segnato fin da subito il suo percorso. Diventata rapidamente la più nota rappresentante del movimento ellenico femminile, si è imposta all'attenzione internazionale per una combinazione rara di potenza e dedizione atletica, qualità che l'hanno portata stabilmente ai vertici della classifica mondiale.
+Nata ad Atene il 25 luglio 1995, Maria Sakkari è cresciuta in una famiglia legata al tennis: la madre, Angeliki Kanellopoulou, è stata una professionista entrata tra le prime cinquanta del mondo, e anche il nonno ha giocato a livello agonistico. Diventata rapidamente la più nota rappresentante del movimento ellenico femminile, si è imposta all'attenzione internazionale per una combinazione rara di potenza e dedizione atletica, qualità che l'hanno portata stabilmente ai vertici della classifica mondiale.
 
 ## Il suo tennis
 
@@ -38,4 +38,6 @@ Il cemento resta la superficie sulla quale ha raccolto i risultati più pesanti,
 
 ## Trofei e momenti chiave
 
-Il periodo più brillante della sua carriera coincide con la scalata ai vertici della classifica, fino a entrare tra le prime giocatrici al mondo. Tra i traguardi più significativi figurano due semifinali nei tornei dello Slam nel 2021, risultati che l'hanno consacrata tra le protagoniste della stagione e che restano a oggi i suoi migliori piazzamenti nei major. In bacheca conta alcuni titoli nel circuito maggiore, tra cui un trofeo di grande prestigio in un torneo di categoria superiore, oltre a numerose finali e semifinali che testimoniano una presenza costante nelle fasi conclusive. Al di là dei singoli risultati, la sua carriera racconta soprattutto la storia di un'atleta capace di portare per la prima volta il tennis greco femminile sul proscenio internazionale, diventando un punto di riferimento per le generazioni successive.
+Il periodo più brillante della sua carriera coincide con la scalata ai vertici della classifica, culminata nel marzo 2022 con il numero 3 del mondo. Tra i traguardi più significativi figurano le due semifinali Slam del 2021, al Roland Garros contro Barbora Krejčíková e allo US Open contro Emma Raducanu: fu la prima greca della storia a spingersi così avanti in un major, e restano a oggi i suoi migliori piazzamenti. In bacheca ha due titoli nel circuito maggiore, il torneo di Rabat del 2019 sulla terra e soprattutto il WTA 1000 di Guadalajara del 2023 sul cemento, oltre a numerose finali e semifinali che testimoniano una presenza costante nelle fasi conclusive.
+
+Nel 2026 è tornata in finale ad Atene, dove si è arresa a Krejčíková: un cerchio che si chiude quarant'anni dopo la finale raggiunta nella stessa città da sua madre. Al di là dei singoli risultati, la sua carriera racconta la storia di un'atleta capace di portare per la prima volta il tennis greco femminile sul proscenio internazionale, diventando un punto di riferimento per le generazioni successive.

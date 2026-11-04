@@ -1,15 +1,15 @@
 ---
 nome: "Linda Fruhvirtová"
 slug_profilo: "linda-fruhvirtova"
-titoli: "Titolo WTA da giovanissima"
-stile_gioco: "Gioco maturo e aggressivo da fondo nonostante l'eta'"
+titoli: "Un titolo WTA, Chennai 2022, conquistato a diciassette anni"
+stile_gioco: "Gioco maturo e aggressivo da fondo nonostante l'età"
 nazionalita: "Repubblica Ceca"
 data_nascita: "2005-05-01"
 mano: "destro"
 rovescio: "due mani"
 categoria: "WTA"
 superficie_preferita: "cemento"
-intro: "Talento ceco maturato molto presto, Linda Fruhvirtová è una delle giocatrici più seguite della sua generazione, capace di imporre il ritmo da fondo campo."
+intro: "Talento ceco maturato molto presto, Linda Fruhvirtová è cresciuta tra le giocatrici più seguite della sua generazione, capace di imporre il ritmo da fondo campo."
 descrizione: "Profilo di Linda Fruhvirtová: la tennista ceca classe 2005, il suo gioco aggressivo da fondo, le superfici preferite e i momenti chiave della carriera."
 tag:
   - "Linda Fruhvirtová"
@@ -25,7 +25,7 @@ generato_il: "2026-10-27T12:41"
 
 ## Chi è
 
-Linda Fruhvirtová è una tennista ceca nata a Praga nel 2005, cresciuta in una famiglia in cui il tennis è una storia condivisa: anche la sorella minore, Brenda, ha intrapreso la carriera professionistica, e il parallelo tra le due è diventato uno dei racconti più ricorrenti quando si parla del movimento femminile della Repubblica Ceca. Fin da giovanissima Linda è stata indicata come una delle promesse più interessanti della sua generazione, grazie a un percorso di formazione svolto in parte lontano da casa, in un ambiente d'accademia internazionale, che le ha permesso di confrontarsi presto con avversarie più grandi ed esperte.
+Linda Fruhvirtová è una tennista ceca nata a Praga il 1 maggio 2005, cresciuta in una famiglia in cui il tennis è una storia condivisa: anche la sorella minore, Brenda, classe 2007, ha intrapreso la carriera professionistica, e il parallelo tra le due è diventato uno dei racconti più ricorrenti quando si parla del movimento femminile della Repubblica Ceca. Le sorelle hanno persino firmato un piccolo primato di famiglia ai Petits As, il torneo giovanile di Tarbes: Linda lo ha vinto nel 2019, Brenda nel 2020. Fin da giovanissima Linda è stata indicata come una delle promesse più interessanti della sua generazione, grazie a un percorso di formazione svolto lontano da casa, alla Mouratoglou Tennis Academy nel sud della Francia, che le ha permesso di confrontarsi presto con avversarie più grandi ed esperte.
 
 La sua è una storia di maturazione precoce: ha bruciato le tappe passando dai tornei giovanili al tour maggiore con una rapidità non comune, attirando su di sé attenzioni e aspettative che fanno parte, nel bene e nel male, del percorso di chi viene etichettato presto come predestinato.
 
@@ -43,12 +43,12 @@ Sulla terra battuta può contare su una buona mobilità e sull'abitudine a costr
 
 ## Trofei e momenti chiave
 
-Il momento che ha dato una svolta alla sua carriera è stato il primo titolo conquistato nel circuito WTA, ottenuto giovanissima su cemento: un successo che l'ha proiettata rapidamente verso la prima parte della classifica mondiale e ha confermato le previsioni di chi la seguiva dai tempi dell'attività giovanile, nella quale si era già messa in luce come una delle migliori della sua categoria.
+Il momento che ha dato una svolta alla sua carriera è stato il titolo conquistato al Chennai Open 2022, sul cemento indiano, superando in finale Magda Linette quando aveva appena diciassette anni: resta il suo unico trofeo nel circuito WTA e ha confermato le previsioni di chi la seguiva dai tempi dell'attività giovanile, nella quale era arrivata fino al numero 2 della classifica juniores.
 
 **Momenti principali:**
 
-- Primo titolo nel circuito WTA, conquistato da giovanissima su cemento.
-- Un percorso giovanile di rilievo, che l'aveva già segnalata tra le promesse della sua generazione.
-- La scalata fino ai dintorni delle prime posizioni della classifica, raggiunta in piena adolescenza sportiva.
+- Titolo WTA al Chennai Open 2022 su cemento, a diciassette anni.
+- Numero 2 del ranking juniores nel dicembre 2021, dopo il successo ai Petits As del 2019.
+- Best ranking in singolare al numero 49 del mondo, raggiunto nel giugno 2023.
 
-Resta una giocatrice giovane, con margini di crescita ancora ampi: il suo profilo è quello di un'atleta su cui il tennis ceco e gli appassionati continuano a guardare con attenzione, in attesa delle prossime tappe di un percorso iniziato prestissimo.
+Le stagioni successive sono state più faticose, tra cali di classifica e la necessità di ricostruire fiducia nei tornei di categoria inferiore: nel 2025 è arrivata al terzo turno a Miami battendo Beatriz Haddad Maia, nel 2026 ai quarti di finale a Ostrava. Resta una giocatrice giovane, con margini di crescita ancora ampi: il suo profilo è quello di un'atleta su cui il tennis ceco e gli appassionati continuano a guardare con attenzione.

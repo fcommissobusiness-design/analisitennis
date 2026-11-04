@@ -1,12 +1,12 @@
 ---
 nome: "Martín Landaluce"
 slug_profilo: "martin-landaluce"
-titoli: "Giovane spagnolo in crescita, titoli giovanili"
+titoli: "US Open juniores 2022, numero 1 del mondo juniores, due titoli Challenger"
 stile_gioco: "Dritto pesante e fisico, profilo offensivo da fondo"
 nazionalita: "Spagna"
 mano: "destro"
 rovescio: "due mani"
-altezza: "circa 190 cm"
+altezza: "193 cm"
 categoria: "ATP"
 superficie_preferita: "cemento"
 intro: "Prospetto spagnolo cresciuto in fretta, Martín Landaluce unisce servizio potente e un temperamento competitivo che lo ha portato presto sotto i riflettori del tour maggiore."
@@ -25,9 +25,9 @@ generato_il: "2026-10-27T12:42"
 
 ## Chi è
 
-Martín Landaluce appartiene a quella generazione di tennisti spagnoli nati a metà degli anni Duemila che ha iniziato a far parlare di sé molto presto, prima ancora del definitivo salto tra i professionisti. Formatosi nel solido vivaio iberico, si è messo in luce nel circuito giovanile imponendosi come uno dei nomi più attesi del suo Paese. La sua ascesa non è passata inosservata perché unisce una struttura fisica importante a un carattere battagliero, qualità che in Spagna vengono riconosciute e valorizzate fin dalle categorie di base.
+Martín Landaluce, nato a Madrid l'8 gennaio 2006, appartiene a quella generazione di tennisti spagnoli che ha iniziato a far parlare di sé molto presto, prima ancora del definitivo salto tra i professionisti. Formatosi nel solido vivaio iberico, si è messo in luce nel circuito giovanile imponendosi come uno dei nomi più attesi del suo Paese. La sua ascesa non è passata inosservata perché unisce una struttura fisica importante a un carattere battagliero, qualità che in Spagna vengono riconosciute e valorizzate fin dalle categorie di base.
 
-Il suo percorso lo ha portato gradualmente a misurarsi con i tornei del circuito maggiore, dopo aver costruito fiducia e classifica nelle tappe secondarie. È un tennista che ha dovuto imparare a gestire presto le aspettative, consapevole che il talento, da solo, non basta a reggere il ritmo dei migliori.
+Il suo percorso lo ha portato gradualmente a misurarsi con i tornei del circuito maggiore, dopo aver costruito fiducia e classifica nelle tappe secondarie: nel giugno del 2026 ha toccato il proprio best ranking, il numero 55 del mondo, a vent'anni. È un tennista che ha dovuto imparare a gestire presto le aspettative, consapevole che il talento, da solo, non basta a reggere il ritmo dei migliori.
 
 ## Il suo tennis
 
@@ -43,9 +43,9 @@ La terra battuta, superficie di casa per la tradizione spagnola, rappresenta un 
 
 ## Trofei e momenti chiave
 
-Il momento che ne ha certificato il talento a livello internazionale è arrivato nel circuito giovanile, dove Landaluce si è affermato come uno dei migliori interpreti della sua annata vincendo a livello junior e raggiungendo posizioni di vertice nella classifica di categoria. Quel riconoscimento lo ha proiettato tra i nomi da seguire per il futuro del tennis spagnolo.
+Il momento che ne ha certificato il talento a livello internazionale è arrivato nel circuito giovanile, con la vittoria nel singolare maschile juniores degli US Open 2022: un titolo che, pochi mesi più tardi, lo ha portato in cima alla classifica combinata junior, numero 1 del mondo di categoria nel febbraio 2023. Quel riconoscimento lo ha proiettato tra i nomi da seguire per il futuro del tennis spagnolo.
 
-Nel passaggio al professionismo ha poi raccolto i primi risultati di rilievo nelle tappe del circuito minore, costruendo il proprio cammino con alcuni titoli e finali che gli hanno permesso di guadagnare terreno in classifica e di guadagnarsi l'accesso agli appuntamenti del tour maggiore.
+Nel passaggio al professionismo ha poi raccolto i primi risultati di rilievo nelle tappe del circuito minore: un titolo ITF a Vila Real de Santo António nel 2024 e due titoli Challenger, a Olbia nello stesso anno e a Orléans nel 2025, tutti su superfici rapide. Nel 2026 sono arrivate le prime soddisfazioni nei tornei più importanti, con i quarti di finale raggiunti sia a Miami sia a Roma e il terzo turno del Roland Garros.
 
 ### Prospettive
 

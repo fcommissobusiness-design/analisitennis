@@ -65,8 +65,10 @@ function calcolaEta(iso) {
   return eta > 0 && eta < 120 ? eta : null;
 }
 const eta = calcolaEta(d.data_nascita);
-// "Nato" per gli uomini, "Nata" per le donne (deduciamo dal circuito WTA).
-const natoLabel = d.categoria === 'WTA' ? 'Nata' : 'Nato';
+// Etichetta neutra: dedurre il genere dal circuito e' sbagliato (una giocatrice
+// classificata Challenger o ITF verrebbe descritta al maschile), quindi non lo
+// deduciamo affatto.
+const natoLabel = 'Nascita';
 
 const personSchema = {
   '@context': 'https://schema.org',
@@ -98,13 +100,14 @@ const articleSchema = {
 // Domande frequenti costruite SOLO da dati gia' nel profilo (nessun fatto
 // nuovo inventato): rese visibili in pagina e come FAQPage schema. Aiuta i
 // risultati arricchiti e la citabilita' da parte degli assistenti AI (GEO).
-const genereArt = d.categoria === 'WTA' ? 'una tennista' : 'un tennista';
+// Niente articoli di genere: il circuito non e' una fonte attendibile del sesso
+// del giocatore e una frase sbagliata su questo e' un errore editoriale grave.
 const annoNascita = d.data_nascita ? String(d.data_nascita).slice(0, 4) : null;
 const faqItems = [];
-if (d.nazionalita) faqItems.push({ q: `Di dov'e' ${d.nome}?`, a: `${d.nome} e' ${genereArt} di nazionalita' ${d.nazionalita}.` });
+if (d.nazionalita) faqItems.push({ q: `Di dov'è ${d.nome}?`, a: `${d.nome} gioca per ${d.nazionalita}.` });
 if (eta) faqItems.push({ q: `Quanti anni ha ${d.nome}?`, a: `${d.nome} ha ${eta} anni${annoNascita ? ` (classe ${annoNascita})` : ''}.` });
 if (d.stile_gioco) faqItems.push({ q: `Che stile di gioco ha ${d.nome}?`, a: `Il gioco di ${d.nome} si caratterizza per ${d.stile_gioco}.` });
-if (d.superficie_preferita) faqItems.push({ q: `Qual e' la superficie preferita di ${d.nome}?`, a: `${d.nome} rende al meglio su ${d.superficie_preferita}.` });
+if (d.superficie_preferita) faqItems.push({ q: `Qual è la superficie preferita di ${d.nome}?`, a: `${d.nome} rende al meglio su ${d.superficie_preferita}.` });
 if (d.titoli) faqItems.push({ q: `Quali titoli ha vinto ${d.nome}?`, a: `In carriera ${d.nome} ha conquistato ${d.titoli}.` });
 
 // hreflang reciproco verso la versione inglese, solo se esiste (pilota EN).
@@ -146,7 +149,7 @@ const faqSchema = faqItems.length >= 2 ? {
   <section class="homepage-hero" style="padding-top: 10px;">
     <div class="contenitore">
       <div class="articolo-eyebrow" style="justify-content: center; display: flex;">
-        {d.categoria || 'ATP'}{d.nazionalita ? ` · ${d.nazionalita}` : ''}{d.mano ? ` · ${d.mano}` : ''}
+        {d.categoria}{d.nazionalita ? ` · ${d.nazionalita}` : ''}{d.mano ? ` · ${d.mano}` : ''}
       </div>
       <h1>{d.nome}</h1>
       <p>{d.intro}</p>
