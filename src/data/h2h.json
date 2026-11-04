@@ -2577,10 +2577,18 @@
     "slug_p1": "ben-shelton",
     "slug_p2": "cameron-norrie",
     "bilancio": {
-      "p1": 0,
+      "p1": 1,
       "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-03",
+        "torneo": "Paris",
+        "g1": "B. Shelton",
+        "g2": "C. Norrie",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2022-08-19",
         "torneo": "Cincinnati",
@@ -2588,6 +2596,178 @@
         "g2": "C. Norrie",
         "risultato": "0 - 2",
         "winner": "Second Player"
+      }
+    ]
+  },
+  "alex-molcan-vs-taylor-fritz": {
+    "p1": "Alex Molcan",
+    "p2": "Taylor Fritz",
+    "slug_p1": "alex-molcan",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-04",
+        "torneo": "Paris",
+        "g1": "A. Molcan",
+        "g2": "T. Fritz",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-07-02",
+        "torneo": "Wimbledon",
+        "g1": "A. Molcan",
+        "g2": "T. Fritz",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "alexander-zverev-vs-lorenzo-musetti": {
+    "p1": "Alexander Zverev",
+    "p2": "Lorenzo Musetti",
+    "slug_p1": "alexander-zverev",
+    "slug_p2": "lorenzo-musetti",
+    "bilancio": {
+      "p1": 1,
+      "p2": 4
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-04",
+        "torneo": "Paris",
+        "g1": "A. Zverev",
+        "g2": "L. Musetti",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-10-25",
+        "torneo": "Vienna",
+        "g1": "L. Musetti",
+        "g2": "A. Zverev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-05-14",
+        "torneo": "Rome",
+        "g1": "L. Musetti",
+        "g2": "A. Zverev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-10-25",
+        "torneo": "ATP Vienna",
+        "g1": "A. Zverev",
+        "g2": "L. Musetti",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-08-01",
+        "torneo": "Olympic Games",
+        "g1": "A. Zverev",
+        "g2": "L. Musetti",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "matteo-berrettini-vs-ugo-humbert": {
+    "p1": "Matteo Berrettini",
+    "p2": "Ugo Humbert",
+    "slug_p1": "matteo-berrettini",
+    "slug_p2": "ugo-humbert",
+    "bilancio": {
+      "p1": 2,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2025-10-16",
+        "torneo": "Stockholm",
+        "g1": "U. Humbert",
+        "g2": "M. Berrettini",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-08-29",
+        "torneo": "ATP US Open",
+        "g1": "U. Humbert",
+        "g2": "M. Berrettini",
+        "risultato": "0 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-01-04",
+        "torneo": "ATP ATP Cup",
+        "g1": "M. Berrettini",
+        "g2": "U. Humbert",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "novak-djokovic-vs-rinky-hijikata": {
+    "p1": "Novak Djokovic",
+    "p2": "Rinky Hijikata",
+    "slug_p1": "novak-djokovic",
+    "slug_p2": "rinky-hijikata",
+    "bilancio": {
+      "p1": 2,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-04",
+        "torneo": "Paris",
+        "g1": "N. Djokovic",
+        "g2": "R. Hijikata",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-03-21",
+        "torneo": "Miami",
+        "g1": "R. Hijikata",
+        "g2": "N. Djokovic",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-12-31",
+        "torneo": "Brisbane",
+        "g1": "N. Djokovic",
+        "g2": "R. Hijikata",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "frances-tiafoe-vs-quentin-halys": {
+    "p1": "Frances Tiafoe",
+    "p2": "Quentin Halys",
+    "slug_p1": "frances-tiafoe",
+    "slug_p2": "quentin-halys",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-04",
+        "torneo": "Paris",
+        "g1": "Q. Halys",
+        "g2": "F. Tiafoe",
+        "risultato": "2 - 1",
+        "winner": "First Player"
       }
     ]
   }
