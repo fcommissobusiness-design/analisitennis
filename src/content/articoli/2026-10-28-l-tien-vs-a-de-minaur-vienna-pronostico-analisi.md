@@ -41,7 +41,7 @@ Tien, dal canto suo, vive una fase di crescita con un bilancio recente di otto v
 
 Il contrasto stilistico è uno degli aspetti più interessanti. De Minaur basa il suo gioco sulla **velocità** di gambe e sulla capacità di rimettere in campo qualsiasi pallone, trasformando la difesa in contrattacco e logorando l'avversario con la sua regolarità. Pochi come lui riescono a coprire il campo con tale efficacia, e la sua capacità di accelerare quando l'avversario sente di avere il punto in pugno è una costante.
 
-Tien, mancino, prova a sfruttare gli angoli e le traiettorie particolari che la sua impugnatura permette, cercando di spezzare il ritmo e di costruire il punto con intelligenza più che con la sola potenza. Il giovane statunitense ha dalla sua la freschezza e l'incoscienza di chi ha poco da perdere, elementi che in un ottavo possono tradursi in coraggio nei momenti decisivi e nella voglia di prendersi dei rischi quando conta.
+Tien, mancino, prova a sfruttare gli angoli e le traiettorie particolari che la sua mano sinistra permette, cercando di spezzare il ritmo e di costruire il punto con intelligenza più che con la sola potenza. Il giovane statunitense ha dalla sua la freschezza e l'incoscienza di chi ha poco da perdere, elementi che in un ottavo possono tradursi in coraggio nei momenti decisivi e nella voglia di prendersi dei rischi quando conta.
 
 ### Il fattore indoor
 

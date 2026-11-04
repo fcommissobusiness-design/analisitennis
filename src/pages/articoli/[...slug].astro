@@ -231,7 +231,7 @@ const faq = {
       )}
       <div class="articolo-meta">
         <span>{d.autore}</span>
-        <span>-</span>
+        <span class="sep" aria-hidden="true">-</span>
         <span>
           {d.generato_il
             ? new Date(d.generato_il).toLocaleString('it-IT', {
@@ -241,7 +241,7 @@ const faq = {
             : new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
           }
         </span>
-        <span>-</span>
+        <span class="sep" aria-hidden="true">-</span>
         <span aria-label="Tempo di lettura stimato">{readingMinutes} min di lettura</span>
       </div>
 

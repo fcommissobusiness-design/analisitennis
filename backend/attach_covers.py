@@ -132,16 +132,9 @@ NAME_MAP = {
 # Mappatura torneo -> query venue su Commons (nome venue + "tennis")
 VENUE_MAP = {
     'Vienna': 'Wiener Stadthalle',
-    'Brussels': 'Palais 12 Bruxelles',
     'Tokyo': 'Ariake Tennis Center',
-    # NB: "Shameen Tennis Ground" su Commons e' in realta' una foto di
-    # strada di Shamian Island, non un campo. Usiamo il vero impianto del
-    # torneo (Guangzhou International Tennis Center) + fallback generico.
-    'Guangzhou': 'Guangzhou International Tennis Center',
     'Almaty': 'Almaty Arena',
     'Ningbo': 'Ningbo Yinzhou Tennis Center',
-    'Lyon (France) - Qualification': 'Palais des Sports Lyon tennis',
-    'Lyon': 'Palais des Sports Lyon tennis',
     'Basel': 'St. Jakobshalle',
     'Cali': 'Club Campestre Cali tennis',
     'Fort Worth (Usa)': 'Fort Worth tennis',
@@ -149,10 +142,27 @@ VENUE_MAP = {
     'Florence (Italy) - Qualification': 'Palazzo Wanny Firenze',
     'Florence': 'Palazzo Wanny Firenze',
     'Firenze': 'Palazzo Wanny Firenze',
-    'Brest': 'Open de Brest tennis',
-    'Lisbon': 'Estoril Open tennis',
-    'Lisboa': 'Estoril Open tennis',
     'Cali (Colombia)': 'Nalbandian tennis Colombia',
+    # --- Impianti VERI verificati 04/11/2026 ---------------------------
+    # Questi otto tornei avevano una cover di un impianto di un altro
+    # continente (tre condividevano la stessa foto di Rio de Janeiro).
+    # La causa era qui: query di venue sbagliate o assenti. Sotto ci sono
+    # i nomi degli impianti realmente usati dai tornei, cosi' la prossima
+    # generazione parte dal posto giusto.
+    'Brest': 'Open Brest Arena tennis',            # Brest Arena, cemento indoor
+    'Brussels': 'Palais 12 Brussels ING Arena',    # ING Arena, Brussels Expo
+    'Courmayeur (Italy) - Qualification': 'Courmayeur Valle d Aosta',
+    'Courmayeur': 'Courmayeur Valle d Aosta',      # Courmayeur Sport Center
+    # NB: "Shameen Tennis Ground" su Commons e' in realta' una foto di
+    # strada di Shamian Island, non un campo. Il torneo si gioca al
+    # Nansha International Tennis Center (su Commons non c'e', 04/11/2026).
+    'Guangzhou': 'Nansha International Tennis Center Guangzhou',
+    'Guayaquil': 'Guayaquil Tennis Club',          # terra, Ecuador
+    'Lisbon': 'Clube Internacional de Foot-ball Lisboa',   # terra, CIF
+    'Lisboa': 'Clube Internacional de Foot-ball Lisboa',
+    'Lyon (France) - Qualification': 'LDLC Arena Decines-Charpieu',
+    'Lyon': 'LDLC Arena Decines-Charpieu',         # cemento indoor
+    'Queretaro': 'Club Campestre de Queretaro',    # terra, Messico
 }
 
 # File specifici di Commons noti come NON pertinenti ma che superano le

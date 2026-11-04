@@ -15,7 +15,7 @@ tag:
   - "ATP"
   - "cemento indoor"
   - "primo turno"
-verdetto: "Oggi nettamente Basilashvili: arriva dalla finale di Almaty con un ruolino quasi perfetto nelle ultime quindici gare e ha già superato Rodionov nella finale di Bucharest. Il gap di forma e il precedente pendono dalla sua parte, con la stanchezza unica vera incognita."
+verdetto: "Oggi nettamente Basilashvili: arriva dalla finale di Almaty con dodici vittorie nelle ultime quindici gare e ha già superato Rodionov nel turno decisivo delle qualificazioni di Bucharest. Il gap di forma e il precedente pendono dalla sua parte, con la stanchezza unica vera incognita."
 descrizione: "Rodionov e Basilashvili aprono Vienna sul cemento indoor: precedente, forma recente e stato dei due a confronto in una sfida dal pronostico aperto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-j-rodionov-vs-n-basilashvili-vienna-pronostico-analisi.jpg"
@@ -27,15 +27,15 @@ Il tabellone di **Vienna** consegna subito un confronto dal sapore particolare, 
 
 ### Il momento dei due
 
-Basilashvili si presenta all'appuntamento con un ruolino recente impressionante, tredici vittorie e due sole sconfitte negli ultimi quindici incontri. Il georgiano arriva dalla finale di Almaty persa in tre set contro Daniil Medvedev lo scorso 25 ottobre, un cammino che gli aveva fruttato i successi su Stefanos Tsitsipas in semifinale e su Adrian Mannarino nei quarti. Prima ancora, tra Chengdu e Shanghai, aveva inanellato un filotto di vittorie che racconta di un periodo di grande fiducia, con il braccio sciolto e la sensazione di poter mettere pressione a chiunque dal primo scambio.
+Basilashvili si presenta all'appuntamento con un ruolino recente impressionante, dodici vittorie e tre sole sconfitte negli ultimi quindici incontri. Il georgiano arriva dalla finale di Almaty persa in tre set contro Daniil Medvedev lo scorso 25 ottobre, un cammino partito dalle qualificazioni e che gli aveva fruttato i successi su Stefanos Tsitsipas in semifinale e su Adrian Mannarino nei quarti. Prima ancora, a Chengdu, era arrivato in semifinale ancora partendo dal tabellone cadetto: una serie di risultati che lo ha riportato nei primi cento del mondo per la prima volta da un anno, con il braccio sciolto e la sensazione di poter mettere pressione a chiunque dal primo scambio.
 
-Rodionov, dal canto suo, vive una fase più altalenante. Il bilancio recente dice nove vittorie e sei sconfitte, con l'ultimo impegno datato 18 ottobre e chiuso con un ko in semifinale nelle qualificazioni di Lione contro Pierre-Hugues Herbert. L'austriaco aveva comunque raccolto buone soddisfazioni in estate, con un percorso solido tra gli impegni di Davis Cup, dove aveva superato Zizou Bergs, e alcuni tornei minori in cui era riuscito ad arrivare in fondo. Il quadro è quello di un giocatore capace di buoni lampi ma meno continuo rispetto all'avversario di giornata.
+Rodionov, dal canto suo, vive una fase più altalenante. Il bilancio recente dice nove vittorie e sei sconfitte, con l'ultimo impegno datato 18 ottobre e chiuso con un ko al primo turno delle qualificazioni di Lione contro Pierre-Hugues Herbert. L'austriaco aveva comunque raccolto buone soddisfazioni tra fine agosto e settembre, con il secondo turno raggiunto allo US Open e due vittorie in Coppa Davis, dove aveva superato Zizou Bergs e Gauthier Onclin, oltre alle finali sfiorate in alcuni tornei minori nella prima parte dell'anno. Il quadro è quello di un giocatore capace di buoni lampi ma meno continuo rispetto all'avversario di giornata.
 
 ### I precedenti
 
-I due si sono già affrontati una volta, e il ricordo è freschissimo. Lo scorso 30 marzo, nella finale di Bucharest, fu **Basilashvili** ad avere la meglio al termine di un match combattuto chiuso al terzo set. Un dato che pesa, perché racconta di un confronto diretto in cui il georgiano ha saputo imporre il proprio ritmo in un'occasione che valeva un titolo, resistendo al tentativo di rimonta del mancino.
+I due si sono già affrontati una volta, e il ricordo è freschissimo. Lo scorso 30 marzo, nel turno decisivo delle qualificazioni di Bucharest, fu **Basilashvili** ad avere la meglio al termine di un match combattuto chiuso al terzo set. Un dato che pesa, perché racconta di un confronto diretto in cui il georgiano ha saputo imporre il proprio ritmo in un'occasione che valeva l'ingresso in tabellone, resistendo al tentativo di rimonta del mancino.
 
-Resta un solo incrocio in archivio, troppo poco per parlare di una tradizione consolidata, ma abbastanza per dare a Basilashvili un riferimento concreto su come gestire gli scambi contro il mancino austriaco. Dall'altra parte, Rodionov sa di dover alzare il proprio livello rispetto a quella finale per ribaltare l'esito.
+Resta un solo incrocio in archivio, troppo poco per parlare di una tradizione consolidata, ma abbastanza per dare a Basilashvili un riferimento concreto su come gestire gli scambi contro il mancino austriaco. Dall'altra parte, Rodionov sa di dover alzare il proprio livello rispetto a quel confronto sulla terra rossa romena per ribaltare l'esito.
 
 ### Stile e superficie
 

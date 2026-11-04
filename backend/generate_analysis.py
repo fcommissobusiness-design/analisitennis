@@ -204,11 +204,37 @@ def build_data_block(match):
     stats_p1 = {'W': sum(1 for r in recent1 if r['result'] == 'W'), 'L': sum(1 for r in recent1 if r['result'] == 'L')}
     stats_p2 = {'W': sum(1 for r in recent2 if r['result'] == 'W'), 'L': sum(1 for r in recent2 if r['result'] == 'L')}
 
+    # Attributi verificati di giocatori e torneo, dall'archivio redazionale.
+    # Senza questo blocco il modello si inventava mano, rovescio, nazionalita'
+    # e superficie, ed erano proprio i dati che il gate di fact-check non
+    # controllava: e' cosi' che e' uscito il caso Falkowska.
+    try:
+        from fact_store import blocco_giocatore, blocco_torneo
+        anno = None
+        try:
+            anno = int(str(match.get('event_date'))[:4])
+        except (TypeError, ValueError):
+            pass
+        schede = (
+            f"{blocco_giocatore(p1)}\n{blocco_giocatore(p2)}\n"
+            f"{blocco_torneo(match.get('tournament_name', ''), anno)}"
+        )
+    except Exception as e:
+        schede = (f'  (archivio attributi non disponibile: {e})\n'
+                  f'  NON scrivere mano, rovescio, nazionalita, eta, altezza o superficie.')
+
     return f"""
 ================================================================
 DATI AUTORITATIVI API TENNIS - FONTE UNICA DELLA VERITA'
 Non inventare dati non presenti qui sotto. Non desumere score o
 risultati da nomi di tornei. Usa ESCLUSIVAMENTE questi record.
+
+ATTRIBUTI VERIFICATI (archivio redazionale, controllato su fonti
+ufficiali di circuito). Mano, rovescio, nazionalita', eta', altezza e
+superficie si scrivono SOLO se compaiono qui sotto. Se un attributo e'
+elencato come NON VERIFICATO, non va scritto in nessuna forma, nemmeno
+allusiva ("le traiettorie del mancino", "il piu' giovane dei due"):
+{schede}
 
 REGOLA FASI E QUALIFICAZIONI (OBBLIGATORIA): rispetta ALLA LETTERA il
 campo round di ogni match. Un round di qualificazione (etichette tipo
@@ -439,8 +465,28 @@ Non essere pedante su particolari stilistici. Cerca SOLO:
 
 Se un fatto non e' citato nel blocco e nemmeno nell'articolo, non e' un errore.
 Se un fatto e' nell'articolo ma contraddice il blocco, e' un errore.
-Se un fatto e' nell'articolo e il blocco non lo copre (es. descrizione generale
-di superficie, nazionalita' nota, mano dominante nota), NON e' un errore.
+
+ATTRIBUTI DEI GIOCATORI E DEL TORNEO: questa e' la regola che in passato ha
+lasciato passare un errore grave segnalato poi da un lettore (una giocatrice
+destra descritta come mancina in tutto il profilo). Il blocco DATI AUTORITATIVI
+contiene ora una sezione ATTRIBUTI VERIFICATI. Quindi:
+- mano dominante, rovescio, nazionalita', eta' o data di nascita, altezza,
+  categoria del giocatore, superficie e sede del torneo NON sono piu' fatti
+  "di contesto": sono fatti verificabili contro il blocco, esattamente come
+  gli score.
+- Se l'articolo afferma uno di questi attributi e il blocco dice il contrario,
+  e' un ERRORE e il verdetto e' FAIL.
+- Se l'articolo afferma uno di questi attributi e il blocco lo elenca come NON
+  VERIFICATO, oppure non lo contiene affatto, e' un ERRORE: non si pubblica un
+  attributo che la redazione non ha verificato.
+- Vale anche per le allusioni indirette: "le traiettorie del mancino", "gli
+  angoli che apre il braccio sinistro", "il piu' giovane dei due", "il
+  rimbalzo alto della terra" quando la superficie e' un'altra. Contano come
+  affermazioni dell'attributo a tutti gli effetti.
+
+Restano fatti di contesto ammessi senza riscontro nel blocco solo le
+osservazioni generiche che non attribuiscono nulla a nessuno in particolare
+(es. "sul veloce gli scambi tendono ad accorciarsi").
 """
 
 

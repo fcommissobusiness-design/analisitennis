@@ -45,12 +45,26 @@ def categoria(tipo):
     return 'ATP'
 
 
-def superficie(torneo_name, tipo):
-    # Euristica base: mapping torneo->superficie. Default 'cemento' perche' la
-    # grande maggioranza del calendario (hard indoor/outdoor) e' su cemento, ma
-    # i tornei su TERRA ed ERBA vanno riconosciuti per nome, altrimenti
-    # finiscono erroneamente marcati 'cemento' (lo schema accetta solo
-    # cemento/terra/erba/indoor: vedi src/content/config.ts).
+def superficie(torneo_name, tipo, anno=None):
+    # PRIMA FONTE: l'archivio dei tornei verificati (fact_store). I profili
+    # torneo sono stati controllati uno per uno su fonti ufficiali, quindi la
+    # superficie che leggiamo li' e' un dato, non una supposizione.
+    #
+    # Prima qui c'era solo l'euristica a parole chiave qui sotto, con default
+    # 'cemento': e' cosi' che il Challenger di Cali, che si gioca sulla terra
+    # rossa, e' stato pubblicato per giorni come torneo su cemento, con
+    # l'articolo che si contraddiceva da solo (il testo diceva terra).
+    try:
+        from fact_store import superficie_torneo
+        verificata = superficie_torneo(torneo_name, anno)
+        if verificata:
+            return verificata
+    except Exception as e:
+        print(f'[superficie] archivio non disponibile ({e}), uso l\'euristica')
+
+    # RIPIEGO: euristica a parole chiave, per i tornei che non hanno ancora un
+    # profilo verificato. Resta una supposizione: ogni articolo che finisce
+    # qui va considerato da controllare.
     n = (torneo_name or '').lower()
     # Erba
     if 'wimbledon' in n or 'halle' in n or 'queen' in n or 'eastbourne' in n \
@@ -87,7 +101,12 @@ def write(match, analysis, out_dir):
     data = match.get('event_date')
     torneo = match.get('tournament_name', '')
     cat = categoria(match.get('event_type_type'))
-    sup = superficie(torneo, match.get('event_type_type'))
+    anno_match = None
+    try:
+        anno_match = int(str(data)[:4])
+    except (TypeError, ValueError):
+        pass
+    sup = superficie(torneo, match.get('event_type_type'), anno_match)
 
     slug_base = slugify(f"{p1}-vs-{p2}-{torneo}-pronostico-analisi")
     slug = f"{data}-{slug_base}"

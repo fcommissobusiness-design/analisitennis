@@ -1,7 +1,7 @@
 ---
 nome: "Alex de Minaur"
 slug_profilo: "alex-de-minaur"
-titoli: "Undici titoli ATP e best ranking numero 5 del mondo"
+titoli: "Undici titoli ATP e best ranking di numero 5 del mondo (luglio 2026)"
 stile_gioco: "Velocità di gambe, difesa e contrattacco continuo da fondo"
 nazionalita: "Australia"
 data_nascita: "1999-02-17"
@@ -31,6 +31,24 @@ Alex de Minaur è nato a Sydney nel febbraio del 1999 e porta con sé una doppia
 
 Il tratto distintivo di de Minaur è la **velocità di gambe**, forse la più alta dell'intero circuito. La sua capacità di coprire il campo trasforma palle che sembrano vincenti in altri scambi, costringendo gli avversari a cercare sempre un colpo in più. Attorno a questa dote ha costruito un tennis di grande solidità, fatto di risposte profonde, passanti precisi e un rovescio a due mani affidabile in ogni situazione. Negli anni ha aggiunto peso al dritto e coraggio nelle discese a rete, limando il limite storico della potenza pura. Il cemento resta la superficie ideale per la sua corsa e i suoi tempi di reazione, anche se la sua disciplina lo rende competitivo ovunque.
 
-## Il momento
+## Sulle diverse superfici
 
-L'autunno del 2026 ha restituito un de Minaur di nuovo competitivo nei tornei che contano, dopo una prima parte di stagione più faticosa. A Pechino è arrivato fino all'atto conclusivo, superando fra gli altri Mariano Navone e Quentin Halys e approdando in finale dopo il ritiro di Hubert Hurkacz in semifinale: contro Novak Djokovic, però, un problema fisico lo ha costretto ad alzare bandiera bianca all'inizio del secondo set. A Shanghai ha regolato Karen Khachanov negli ottavi prima di arrendersi ad Alexander Zverev nei quarti. A Vienna, infine, ha aperto il torneo rimontando Tomas Machac e si è spinto fino alla finale battendo in semifinale lo stesso Zverev, prima di cedere a Carlos Alcaraz il primo novembre. Un finale di stagione che lo ha riportato nelle prime dieci posizioni del ranking mondiale.
+Il **cemento** è la superficie di gran lunga più redditizia per de Minaur, che su questo fondo ha costruito la quasi totalità dei suoi titoli e la maggior parte dei quarti di finale raggiunti nello Slam: agli US Open nel 2020, nel 2024 e nel 2025, agli Australian Open nel 2025 e nel 2026. Sempre sul veloce sono arrivati la finale in un Masters 1000, al Canadian Open del 2023, i due titoli di Acapulco (2023 e 2024) e quello di Washington nel 2025.
+
+L'**erba** è però il terreno su cui ha saputo sorprendere: il gioco anticipato e la copertura del campo si sposano bene con il rimbalzo basso, e lo dimostrano i titoli di Eastbourne nel 2021 e di Rosmalen nel 2024, oltre ai quarti di finale di Wimbledon nel 2024, interrotti da un infortunio all'anca che gli è poi costato diverse settimane di stagione. Sulla terra battuta il rendimento è più altalenante, ma la sua disciplina gli ha comunque permesso di raggiungere i quarti al Roland Garros e a Monte-Carlo nel 2024 e la semifinale di Barcellona nel 2022.
+
+## Trofei e momenti chiave
+
+La bacheca di de Minaur conta undici titoli nel circuito maggiore, il primo dei quali a Sydney nel gennaio 2019, e un piazzamento massimo di numero 5 del mondo raggiunto il 13 luglio 2026. Il suo biglietto da visita, più che un singolo trofeo, è la continuità: il debutto alle **ATP Finals** nel 2024 a Torino e la semifinale raggiunta nella stessa competizione nel 2025 raccontano una presenza stabile fra i migliori otto della stagione, confermata nell'autunno del 2026 dalle finali di Pechino e di Vienna.
+
+Accanto al percorso individuale c'è il capitolo della Nazionale, che per un australiano pesa in modo particolare: ha trascinato la squadra alle finali di **Coppa Davis** del 2022 e del 2023, entrambe perse, e in United Cup ha messo in fila vittorie di grande valore, su Rafael Nadal all'esordio nel dicembre 2022 e su Novak Djokovic nel 2024. Da juniores era arrivato al numero 2 del mondo di categoria e aveva vinto il doppio agli Australian Open 2016 con Blake Ellis, mentre nel circuito maggiore ha aggiunto anche un titolo in doppio di livello Masters 1000, a Cincinnati nel 2020 con Pablo Carreno Busta.
+
+### Trofei principali
+
+- Undici titoli ATP in singolare, fra cui Acapulco nel 2023 e nel 2024 e Washington nel 2025
+- Due titoli sull'erba: Eastbourne 2021 e Rosmalen 2024
+- Semifinale alle ATP Finals 2025
+- Finale in un Masters 1000 al Canadian Open 2023
+- Sette quarti di finale nei tornei dello Slam
+- Miglior classifica in carriera di numero 5 del mondo (13 luglio 2026)
+- Due finali di Coppa Davis con l'Australia, nel 2022 e nel 2023

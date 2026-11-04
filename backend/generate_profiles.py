@@ -90,19 +90,93 @@ def _claude_call(prompt: str, timeout: int = 900) -> dict:
 
 # ---------- PROMPT ----------
 
+# Stadio 1: RICERCA. Prima si verifica, poi si scrive.
+# Fino al novembre 2026 questo stadio non esisteva: il profilo veniva scritto
+# direttamente dalla memoria del modello, e il campo `mano` era perfino chiesto
+# come scelta binaria obbligata "destro|mancino". Su un giocatore poco noto era
+# una tirata a indovinare, ed e' cosi' che Weronika Falkowska, destra, e' stata
+# pubblicata come mancina in ogni riga della sua scheda finche' un lettore non
+# l'ha segnalato via email alla redazione.
+PROMPT_RICERCA_GIOCATORE = """Sei il documentalista della testata AnalisiTennis.
+NON devi scrivere un articolo. Devi VERIFICARE sul web chi e' il tennista "{nome}"
+e restituire solo i dati che hai davvero riscontrato.
+
+Il nome che ti diamo arriva da un tabellone e puo' essere abbreviato o storpiato
+(es. "W. Falkowska", "H. Shi", "J. Paul"). Il tuo primo compito e' capire di chi
+si tratta davvero, incrociando nazionalita', data di nascita e risultati recenti.
+Attenzione agli omonimi e ai casi padre/figlio.
+
+FONTI AMMESSE, in ordine di priorita':
+1. atptour.com, wtatennis.com, itftennis.com (le schede giocatore riportano
+   "Plays: Right/Left Handed", nazionalita' e data di nascita)
+2. Wikipedia, preferibilmente in inglese (campo "Plays")
+3. tennisabstract.com, Sofascore, Flashscore come conferma incrociata
+Per la MANO servono almeno due fonti concordi oppure una scheda ufficiale di
+circuito. Stessa soglia per il rovescio.
+
+REGOLA ASSOLUTA: se un dato non lo verifichi, il valore e' null. Mai indovinare,
+mai dedurre dal nome, dalla nazionalita' o dal tipo di gioco. Un campo vuoto non
+fa alcun danno, un campo sbagliato e' un errore pubblicato che i lettori vedono.
+
+Restituisci SOLO questo JSON, nulla prima e nulla dopo:
+
+```json
+{{
+  "identificato": true/false,
+  "nome": "nome completo come compare nel circuito, oppure null",
+  "sesso": "m|f|null (serve per non descrivere una giocatrice al maschile)",
+  "nazionalita": "in italiano, oppure null",
+  "data_nascita": "YYYY-MM-DD oppure null",
+  "altezza": "es. 189 cm, oppure null",
+  "mano": "destro|mancino|null",
+  "rovescio": "una mano|due mani|null",
+  "categoria": "ATP|WTA|Challenger|ITF|null",
+  "fonti": ["URL effettivamente consultati, uno per dato chiave"],
+  "fatti_verificati": [
+    "elenco di fatti accertati con la fonte accanto: titoli con nome e anno,
+     best ranking con la data, risultati Slam, medaglie, infortuni rilevanti,
+     cambi di bandiera. Solo cio' che hai riscontrato."
+  ],
+  "non_verificati": ["dati che hai cercato e NON sei riuscito a confermare"]
+}}
+```
+
+Se dopo la ricerca non riesci a stabilire con certezza di chi si tratti, metti
+"identificato": false e lascia null tutto il resto: la redazione non pubblica
+schede su persone che non sa identificare.
+"""
+
+
 PROMPT_GIOCATORE = """Sei un giornalista sportivo italiano, redattore della testata editoriale
 AnalisiTennis. Devi scrivere un PROFILO EDITORIALE del tennista {nome}.
+
+DOSSIER VERIFICATO (fonte unica della verita'):
+{dossier}
+
+REGOLA SUGLI ATTRIBUTI: mano, rovescio, nazionalita', data di nascita, altezza e
+categoria si scrivono SOLO se compaiono nel dossier qui sopra con un valore.
+Dove il dossier dice null, il campo va OMESSO dal JSON e l'attributo non va
+nominato nel testo in nessuna forma, nemmeno allusiva ("le traiettorie del
+mancino", "il piu' giovane dei due"). Non dedurre il sesso dal circuito: usalo
+dal campo "sesso" del dossier, e se e' null scrivi in modo neutro.
 
 REGOLE NON NEGOZIABILI:
 1. PROSA fluida in italiano, nessun elenco puntato nel corpo tranne nelle sezioni
    "Trofei principali" dove un elenco markdown e' consentito.
 2. Lunghezza 450-700 parole totali.
 3. Tono: redazionale, autorevole, mai da scommesse, mai da bookmaker.
-4. ANTI-ALLUCINAZIONE: cita solo fatti NOTORI e consolidati del giocatore.
-   Se non ricordi con certezza un dato specifico (un titolo preciso, un anno
-   esatto), usa formulazioni generiche ("alcuni titoli Challenger", "nelle
-   prime stagioni sul tour maggiore") senza INVENTARE date, score o eventi
-   non noti. MEGLIO una frase piu' prudente che un fatto sbagliato.
+4. ANTI-ALLUCINAZIONE: i fatti specifici (titoli, anni, ranking, risultati
+   Slam, medaglie) si prendono dal dossier verificato. Quello che nel dossier
+   non c'e', non si scrive: usa formulazioni generiche ("alcuni titoli
+   Challenger", "nelle prime stagioni sul tour maggiore") senza INVENTARE
+   date, score o eventi. MEGLIO una frase piu' prudente che un fatto sbagliato.
+   Non fidarti della tua memoria nemmeno sui giocatori famosi: i numeri di
+   titoli e i best ranking cambiano ogni settimana e la tua e' vecchia.
+4-bis. NIENTE CONTENUTO DEPERIBILE: il profilo deve restare vero anche fra sei
+   mesi. Vietati i bilanci stagionali ("nove vittorie e sei sconfitte"), i
+   riferimenti a partite imminenti e le formule tipo "in questi giorni" o
+   "arriva da favorito". Le classifiche vanno sempre ancorate a una data
+   esplicita ("numero 5 del mondo nel luglio 2026"), mai date al presente.
 5. Niente riferimenti a bookmaker, quote, scommesse, stake, EV, pick.
 6. Niente abbreviazioni oscure (sempre "scontri diretti" non "H2H", "palle
    break" non "BP").
@@ -121,9 +195,9 @@ REGOLE NON NEGOZIABILI:
 {{
   "nome": "nome completo del giocatore come appare nel circuito",
   "nazionalita": "Italia (o altra, in italiano)",
-  "data_nascita": "YYYY-MM-DD se nota con certezza, altrimenti omettila",
-  "mano": "destro|mancino",
-  "rovescio": "una mano|due mani (se noto)",
+  "data_nascita": "copiala dal dossier; se li' e' null, OMETTI il campo",
+  "mano": "copiala dal dossier; se li' e' null, OMETTI il campo (mai indovinare)",
+  "rovescio": "copialo dal dossier; se li' e' null, OMETTI il campo",
   "stile_gioco": "breve descrizione tecnica dello stile, 4-9 parole (es. 'servizio potente e dritto d'attacco', 'difesa e varieta' da fondo'). NON il solo rovescio.",
   "titoli": "sintesi onesta dei titoli/traguardi (es. '24 Slam, oltre 90 titoli ATP', 'un titolo ATP sulla terra', 'alcuni titoli Challenger'). Se non sei certo di numeri, resta qualitativo. Ometti del tutto il campo se non hai nulla di affidabile.",
   "altezza": "es. 189 cm (se noto)",
@@ -138,8 +212,62 @@ REGOLE NON NEGOZIABILI:
 """
 
 
+PROMPT_RICERCA_TORNEO = """Sei il documentalista della testata AnalisiTennis.
+NON devi scrivere un articolo. Devi VERIFICARE sul web quale torneo di tennis sia
+"{nome}" nell'edizione {anno} e restituire solo i dati riscontrati.
+
+ATTENZIONE, errore tipico da evitare: il nome di una citta' NON identifica un
+torneo. In molte sedi convivono un evento maschile e uno femminile, con nomi
+ufficiali, storie e albi d'oro completamente separati, e in diverse citta' un
+torneo storico e' stato dismesso o trasferito e sostituito da un altro. Il nome
+grezzo che ti diamo arriva da un tabellone e puo' contenere rumore come
+"- Qualification" o il paese fra parentesi. Il nome originale e': "{raw}".
+
+Stabilisci con certezza DI QUALE evento si tratta nel {anno}: circuito (ATP,
+WTA, Challenger, ITF), livello esatto, sede, superficie reale e se si gioca al
+coperto. Verifica anche se il torneo abbia cambiato citta', nome o periodo.
+
+FONTI AMMESSE: atptour.com, wtatennis.com, itftennis.com, il sito ufficiale del
+torneo, Wikipedia (pagina del torneo e pagina dell'edizione specifica).
+Per l'albo d'oro incrocia la pagina del torneo con quella delle singole edizioni.
+
+REGOLA ASSOLUTA: se un dato non lo verifichi, il valore e' null e l'albo d'oro
+resta vuoto. Mai dedurre un vincitore dalla fama del giocatore.
+
+Restituisci SOLO questo JSON, nulla prima e nulla dopo:
+
+```json
+{{
+  "identificato": true/false,
+  "nome": "nome ufficiale corrente dell'evento, oppure null",
+  "citta": "oppure null", "paese": "in italiano, oppure null",
+  "categoria": "ATP|WTA|Challenger|Slam|Masters|null",
+  "superficie": "cemento|terra|erba|null (il materiale, non la condizione)",
+  "al_coperto": true/false/null,
+  "impianto": "nome dell'impianto, oppure null",
+  "fondato": "anno della prima edizione, oppure null",
+  "fonti": ["URL effettivamente consultati"],
+  "albo_oro": ["una riga per edizione verificata: anno, vincitore, finalista"],
+  "note_storiche": ["trasferimenti di sede, cambi di nome, interruzioni, e
+                     l'eventuale esistenza di un altro torneo nella stessa
+                     citta' da non confondere con questo"],
+  "non_verificati": ["dati che hai cercato e non hai confermato"]
+}}
+```
+"""
+
+
 PROMPT_TORNEO = """Sei un giornalista sportivo italiano, redattore della testata editoriale
 AnalisiTennis. Devi scrivere un PROFILO EDITORIALE del torneo {nome} {anno}.
+
+DOSSIER VERIFICATO (fonte unica della verita'):
+{dossier}
+
+REGOLA SUI DATI: nome ufficiale, citta', paese, categoria, superficie, anno di
+fondazione e albo d'oro si prendono SOLO dal dossier. Un vincitore che non e'
+nell'albo d'oro del dossier non si cita, nemmeno se ti sembra ovvio. Nel campo
+`superficie` scrivi il materiale (cemento, terra, erba): se si gioca al coperto
+dillo nel testo, perche' "indoor" e' una condizione, non una superficie.
 
 REGOLE NON NEGOZIABILI:
 1. PROSA fluida in italiano, nessun elenco puntato nel corpo tranne nelle sezioni
@@ -205,6 +333,100 @@ def _write_frontmatter(path: Path, fm: dict, body: str):
     path.write_text('\n'.join(lines))
 
 
+PROMPT_GATE_PROFILO = """Sei il revisore dei fatti di AnalisiTennis. Controlli un profilo
+PRIMA della pubblicazione. Sii severo: quello che passa di qui finisce online.
+
+DOSSIER VERIFICATO (fonte unica della verita'):
+{dossier}
+
+PROFILO DA CONTROLLARE:
+{profilo}
+
+Cerca questi errori, in quest'ordine di gravita':
+1. ATTRIBUTI NON VERIFICATI O CONTRADDETTI. Mano, rovescio, nazionalita', data
+   di nascita, altezza, categoria: se il profilo li afferma e il dossier dice
+   altro, o dice null, e' un errore grave. Vale anche per le allusioni
+   indirette ("le traiettorie del mancino", "il braccio sinistro").
+   Questo e' il controllo piu' importante: un errore di questo tipo e' gia'
+   stato segnalato alla redazione da un lettore.
+2. SESSO SBAGLIATO. Se il dossier dice "f" e il testo usa il maschile (o
+   viceversa), e' un errore grave: va corretto in tutta la prosa.
+3. FATTI NON NEL DOSSIER. Titoli, anni, ranking, risultati Slam, medaglie,
+   convocazioni in nazionale: se non sono nel dossier, non si pubblicano.
+4. CONTENUTO DEPERIBILE. Bilanci stagionali, anteprime di partite, classifiche
+   date al presente senza una data: invecchiano male e diventano falsi da soli.
+5. STILE. Trattino lungo (vietato), apostrofo ASCII al posto delle lettere
+   accentate ("e'" invece di "e"), lessico da scommesse o pronostici.
+
+Restituisci SOLO questo JSON:
+
+```json
+{{
+  "verdict": "PASS|FAIL",
+  "errori": ["elenco preciso: la frase incriminata e perche' e' sbagliata"],
+  "correzioni_suggerite": ["per ogni errore, come andrebbe scritto"]
+}}
+```
+"""
+
+
+def _ricerca_giocatore(nome_display: str) -> dict:
+    """Stadio 1: verifica sul web chi e' il giocatore e cosa e' documentato.
+
+    Se la ricerca fallisce, ripieghiamo sugli attributi gia' verificati in
+    archivio (fact_store): meglio pochi dati certi che molti inventati.
+    """
+    try:
+        dossier = _claude_call(PROMPT_RICERCA_GIOCATORE.format(nome=nome_display))
+        if dossier.get('identificato'):
+            return dossier
+        print(f'[player] NON identificato dalla ricerca: {nome_display}')
+        return dossier
+    except Exception as e:
+        print(f'[player] ricerca fallita ({e}), ripiego sull\'archivio verificato')
+    try:
+        from fact_store import fatti_giocatore
+        d = fatti_giocatore(nome_display) or {}
+        return {
+            'identificato': bool(d),
+            'nome': d.get('nome') or nome_display,
+            'sesso': None,
+            'nazionalita': d.get('nazionalita'),
+            'data_nascita': d.get('data_nascita'),
+            'altezza': d.get('altezza'),
+            'mano': d.get('mano'),
+            'rovescio': d.get('rovescio'),
+            'categoria': d.get('categoria'),
+            'fonti': [], 'fatti_verificati': [], 'non_verificati': [],
+        }
+    except Exception:
+        return {'identificato': False}
+
+
+def _ricerca_torneo(nome_display: str, anno: int, raw_name: str = '') -> dict:
+    """Stadio 1 per i tornei: stabilisce DI QUALE evento stiamo parlando."""
+    try:
+        dossier = _claude_call(PROMPT_RICERCA_TORNEO.format(
+            nome=nome_display, anno=anno, raw=raw_name or nome_display))
+        if not dossier.get('identificato'):
+            print(f'[tournament] NON identificato dalla ricerca: {nome_display} {anno}')
+        return dossier
+    except Exception as e:
+        print(f'[tournament] ricerca fallita ({e}), ripiego sull\'archivio verificato')
+    try:
+        from fact_store import fatti_torneo
+        d = fatti_torneo(nome_display, anno) or {}
+        return {
+            'identificato': bool(d),
+            'nome': d.get('nome'), 'citta': d.get('citta'), 'paese': d.get('paese'),
+            'categoria': d.get('categoria'), 'superficie': d.get('superficie'),
+            'al_coperto': None, 'impianto': None, 'fondato': d.get('fondato'),
+            'fonti': [], 'albo_oro': [], 'note_storiche': [], 'non_verificati': [],
+        }
+    except Exception:
+        return {'identificato': False}
+
+
 def generate_player_profile(raw_name: str, overwrite: bool = False) -> Path | None:
     nome_display = display_player_name(raw_name)
     if nome_display in ('Redazione', 'Lettori'):
@@ -218,11 +440,52 @@ def generate_player_profile(raw_name: str, overwrite: bool = False) -> Path | No
         print(f'[player] gia esistente: {slug}')
         return dest
     print(f'[player] genero profilo: {nome_display} ({slug})')
+
+    # Stadio 1: ricerca e verifica. Senza identificazione non si pubblica.
+    dossier = _ricerca_giocatore(nome_display)
+    if not dossier.get('identificato'):
+        print(f'[player] SALTATO {slug}: giocatore non identificato con certezza. '
+              f'Meglio nessuna scheda che una scheda inventata.')
+        return None
+    dossier_txt = json.dumps(dossier, ensure_ascii=False, indent=2)
+
+    # Stadio 2: scrittura, ancorata al dossier.
     try:
-        data = _claude_call(PROMPT_GIOCATORE.format(nome=nome_display))
+        data = _claude_call(PROMPT_GIOCATORE.format(nome=nome_display, dossier=dossier_txt))
     except Exception as e:
         print(f'[player] errore claude: {e}')
         return None
+
+    # Stadio 3: gate di fact-check. Un solo tentativo di rigenerazione, poi
+    # si rinuncia: pubblicare un profilo che non passa il controllo sarebbe
+    # esattamente l'errore che questo gate esiste per impedire.
+    for tentativo in (1, 2):
+        try:
+            esito = _claude_call(PROMPT_GATE_PROFILO.format(
+                dossier=dossier_txt,
+                profilo=json.dumps(data, ensure_ascii=False, indent=2)[:12000],
+            ))
+        except Exception as e:
+            print(f'[player] gate non eseguito ({e}): pubblico con riserva')
+            break
+        if esito.get('verdict') == 'PASS':
+            print(f'[player] gate superato ({slug})')
+            break
+        errori = esito.get('errori') or []
+        print(f'[player] gate FALLITO ({slug}), tentativo {tentativo}: {errori[:3]}')
+        if tentativo == 2:
+            print(f'[player] SALTATO {slug}: il profilo non supera il fact-check.')
+            return None
+        try:
+            data = _claude_call(
+                PROMPT_GIOCATORE.format(nome=nome_display, dossier=dossier_txt)
+                + '\n\nIl tentativo precedente e\' stato respinto dal revisore per questi '
+                  'errori, da non ripetere:\n' + json.dumps(errori, ensure_ascii=False)
+            )
+        except Exception as e:
+            print(f'[player] rigenerazione fallita: {e}')
+            return None
+
     fm = {
         'nome': data.get('nome') or nome_display,
         'slug_profilo': slug,
@@ -256,11 +519,51 @@ def generate_tournament_profile(raw_name: str, year: int, overwrite: bool = Fals
         print(f'[tournament] gia esistente: {slug}')
         return dest
     print(f'[tournament] genero profilo: {nome_display} {year} ({slug})')
+
+    # Stadio 1: ricerca. Il nome di una citta' NON identifica un torneo: in
+    # molte sedi convivono un evento maschile e uno femminile, con storie e
+    # albi d'oro separati. Senza questo passaggio il sito ha pubblicato per
+    # giorni l'albo d'oro maschile dell'ATP di Chennai sotto le partite del
+    # WTA di Chennai, e ha attribuito ad Almaty un titolo di Djokovic che era
+    # di Astana.
+    dossier = _ricerca_torneo(nome_display, year, raw_name)
+    if not dossier.get('identificato'):
+        print(f'[tournament] SALTATO {slug}: torneo non identificato con certezza.')
+        return None
+    dossier_txt = json.dumps(dossier, ensure_ascii=False, indent=2)
+
+    # Stadio 2 e 3: scrittura ancorata al dossier, poi gate di fact-check.
     try:
-        data = _claude_call(PROMPT_TORNEO.format(nome=nome_display, anno=year))
+        data = _claude_call(PROMPT_TORNEO.format(nome=nome_display, anno=year, dossier=dossier_txt))
     except Exception as e:
         print(f'[tournament] errore claude: {e}')
         return None
+    for tentativo in (1, 2):
+        try:
+            esito = _claude_call(PROMPT_GATE_PROFILO.format(
+                dossier=dossier_txt,
+                profilo=json.dumps(data, ensure_ascii=False, indent=2)[:12000],
+            ))
+        except Exception as e:
+            print(f'[tournament] gate non eseguito ({e}): pubblico con riserva')
+            break
+        if esito.get('verdict') == 'PASS':
+            print(f'[tournament] gate superato ({slug})')
+            break
+        errori = esito.get('errori') or []
+        print(f'[tournament] gate FALLITO ({slug}), tentativo {tentativo}: {errori[:3]}')
+        if tentativo == 2:
+            print(f'[tournament] SALTATO {slug}: non supera il fact-check.')
+            return None
+        try:
+            data = _claude_call(
+                PROMPT_TORNEO.format(nome=nome_display, anno=year, dossier=dossier_txt)
+                + '\n\nIl tentativo precedente e\' stato respinto per questi errori, '
+                  'da non ripetere:\n' + json.dumps(errori, ensure_ascii=False)
+            )
+        except Exception as e:
+            print(f'[tournament] rigenerazione fallita: {e}')
+            return None
     fm = {
         'nome': data.get('nome') or nome_display,
         'slug_profilo': slug,

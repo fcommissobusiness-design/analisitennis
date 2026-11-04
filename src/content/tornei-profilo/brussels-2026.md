@@ -21,7 +21,7 @@ tag:
 pubblicato: true
 generato_il: "2026-10-25T12:00"
 cover_image: "/covers/tornei/brussels-2026.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Palais 12 Brussels.png | Marcbxlexpo | CC0"
 ---
 
 ## La storia

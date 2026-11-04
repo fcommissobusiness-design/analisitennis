@@ -507,6 +507,9 @@ strong { font-weight: 700; color: var(--testo); }
   .articolo-titolo { font-size: 1.9rem; }
   .articolo-sottotitolo { font-size: 1.08rem; }
   .site-footer .contenitore { grid-template-columns: 1fr; }
+  /* Da telefono i link del footer erano alti 17px, sotto la soglia comoda per
+     il dito: li rendiamo blocchi con respiro verticale senza toccare il desktop. */
+  .site-footer p a { display: inline-block; padding: 8px 0; }
   .homepage-hero h1 { font-size: 2.1rem; }
   .homepage-hero p { font-size: 1.05rem; }
   .layout-home { padding: 32px 0; }
@@ -543,6 +546,9 @@ strong { font-weight: 700; color: var(--testo); }
   .articolo-titolo { font-size: 1.55rem; }
   .articolo-sottotitolo { font-size: 1rem; margin-bottom: 20px; }
   .articolo-meta { gap: 10px; font-size: 0.78rem; flex-wrap: wrap; }
+  /* Da telefono la riga va a capo e il trattino separatore restava
+     sospeso a fine riga: su schermo stretto lo togliamo, basta il gap. */
+  .articolo-meta .sep { display: none; }
   .articolo-corpo p { font-size: 1.02rem; line-height: 1.7; }
   .articolo-corpo h2 { font-size: 1.3rem; }
   .homepage-hero { padding: 48px 16px 36px; }

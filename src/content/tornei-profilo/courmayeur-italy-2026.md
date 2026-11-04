@@ -21,7 +21,7 @@ tag:
 pubblicato: true
 generato_il: "2026-10-30T17:18"
 cover_image: "/covers/tornei/courmayeur-italy-2026.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Courmayeur - Valle d' Aosta, Italy - panoramio.jpg | Michael Paraskevas | CC BY-SA 3.0"
 ---
 
 ## La storia

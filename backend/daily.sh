@@ -142,6 +142,21 @@ python3 check_round_claims.py --date="${OGGI}" --fix 2>&1 | tee -a "$LOG" || tru
 log_section "[4-TITOLI/5] Gate anti-bias sui titoli della giornata"
 python3 check_title_bias.py --date="${OGGI}" 2>&1 | tee -a "$LOG" || true
 
+# 4-FATTI. Audit permanente dei fatti su TUTTO l'archivio, non solo sugli
+# articoli di oggi. Nato dopo la segnalazione di un lettore (4/11/2026) che
+# aveva trovato una giocatrice destra descritta come mancina in tutta la sua
+# scheda: quel controllo rivelo' che l'errore non era isolato e che i profili
+# di giocatori e tornei erano scritti senza alcun ancoraggio ai dati.
+# Incrocia articoli, profili giocatore e profili torneo fra loro e segnala le
+# contraddizioni: la mano di un giocatore raccontata al contrario del suo
+# profilo, la superficie di un articolo diversa da quella del torneo, schede
+# pubblicate su persone non identificate, attributi affermati nel testo ma non
+# verificati nei dati, contenuto deperibile, lessico da scommesse.
+# Non chiama il modello e non costa nulla: gira a ogni esecuzione.
+# Non blocca la pipeline, ma i problemi gravi finiscono nel log e vanno letti.
+log_section "[4-FATTI/5] Audit incrociato dei fatti su tutto l'archivio"
+python3 audit_fatti.py 2>&1 | tee -a "$LOG" || true
+
 # 4-bis. Audit cover: ogni articolo deve avere cover corretta, pertinente,
 # non sfasata. Lo script corregge in-place le cover problematiche (file
 # mancanti, foto non-tennis, favorito con foto Commons disponibile ma

@@ -21,7 +21,7 @@ tag:
 pubblicato: true
 generato_il: "2026-11-01T12:06"
 cover_image: "/covers/tornei/queretaro-2026.jpg"
-cover_credit: "David X. Marks Tennis Stadium (USC).jpg | Spatms | CC BY-SA 4.0"
+cover_credit: "Mirador de los Arcos de Querétaro (22122021).jpg | Juan Carlos Fonseca Mata | CC BY-SA 4.0"
 ---
 
 ## La storia

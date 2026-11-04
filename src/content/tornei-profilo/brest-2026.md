@@ -21,7 +21,7 @@ tag:
 pubblicato: true
 generato_il: "2026-10-27T12:59"
 cover_image: "/covers/tornei/brest-2026.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Open Brest Arena 2015 - huitième - Siksling-Tabatruong - 029.jpg | Thesupermat | CC BY-SA 4.0"
 ---
 
 Il Brest Open, per anni conosciuto come Open de Brest Crédit Agricole e oggi intitolato al suo sponsor Groupe Vert, è uno degli appuntamenti più riconoscibili del calendario Challenger francese: un torneo che ogni autunno accende l'estremità occidentale della Bretagna e trasforma Brest in una piccola capitale del tennis al coperto. Pur senza i riflettori del circuito maggiore, l'appuntamento bretone si è ritagliato una reputazione solida, fatta di organizzazione curata, pubblico competente e di un tabellone capace di mescolare veterani in cerca di punti e giovani promesse desiderose di mettersi in mostra.

@@ -21,7 +21,7 @@ tag:
 pubblicato: true
 generato_il: "2026-10-25T12:02"
 cover_image: "/covers/tornei/guangzhou-2026.jpg"
-cover_credit: "Arena principal do Centro Olímpico de Tênis.jpg | Luã Leal | CC BY-SA 4.0"
+cover_credit: "Diamond Court, National Tennis Center (20240821134822).jpg | N509FZ | CC BY-SA 4.0"
 ---
 
 ## La storia

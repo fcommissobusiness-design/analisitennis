@@ -20,7 +20,7 @@ tag:
 pubblicato: true
 generato_il: "2026-10-31T12:14"
 cover_image: "/covers/tornei/guayaquil-2026.jpg"
-cover_credit: "Marks Tennis Stadium-Michael Uytengsu Tennis Pavilion (USC).jpg | Spatms | CC BY-SA 4.0"
+cover_credit: "Canchas de tenis en Las Palmas - Santa Cruz de la Sierra, Bolivia.jpg | Ruditaly | CC BY-SA 4.0"
 ---
 
 ## La storia
