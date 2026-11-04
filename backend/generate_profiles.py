@@ -66,12 +66,26 @@ def player_slug(raw: str) -> str:
 
 # ---------- claude CLI ----------
 
-def _claude_call(prompt: str, timeout: int = 900) -> dict:
+def _claude_call(prompt: str, timeout: int = 900, web: bool = False) -> dict:
+    """Chiama la CLI headless di Claude e restituisce il primo oggetto JSON.
+
+    web=True abilita la ricerca sul web (WebSearch + WebFetch) per lo stadio di
+    documentazione: senza questo flag la CLI headless non ha alcun accesso alla
+    rete e il modello scrive solo dalla sua memoria, che e' vecchia e produce i
+    dossier magri all'origine dei profili respinti dal gate. Scrittura e gate
+    NON usano il web: restano ancorati al dossier verificato.
+    """
     claude_bin = shutil.which('claude') or os.path.expanduser('~/.local/node/bin/claude')
     env = os.environ.copy()
     env['PATH'] = f"{os.path.expanduser('~/.local/node/bin')}:{env.get('PATH','')}"
+    cmd = [claude_bin, '-p', prompt, '--output-format', 'json']
+    if web:
+        # In modalita' headless i tool elencati qui sono auto-approvati; tutto il
+        # resto resta negato, quindi la ricerca non puo' toccare il filesystem.
+        # L'agente cicla da solo (cerca -> apri -> verifica) fino alla risposta.
+        cmd += ['--allowedTools', 'WebSearch', 'WebFetch']
     result = subprocess.run(
-        [claude_bin, '-p', prompt, '--output-format', 'json'],
+        cmd,
         capture_output=True, text=True, timeout=timeout, env=env
     )
     if result.returncode != 0:
@@ -377,7 +391,8 @@ def _ricerca_giocatore(nome_display: str) -> dict:
     archivio (fact_store): meglio pochi dati certi che molti inventati.
     """
     try:
-        dossier = _claude_call(PROMPT_RICERCA_GIOCATORE.format(nome=nome_display))
+        dossier = _claude_call(PROMPT_RICERCA_GIOCATORE.format(nome=nome_display),
+                               timeout=1200, web=True)
         if dossier.get('identificato'):
             return dossier
         print(f'[player] NON identificato dalla ricerca: {nome_display}')
@@ -407,7 +422,8 @@ def _ricerca_torneo(nome_display: str, anno: int, raw_name: str = '') -> dict:
     """Stadio 1 per i tornei: stabilisce DI QUALE evento stiamo parlando."""
     try:
         dossier = _claude_call(PROMPT_RICERCA_TORNEO.format(
-            nome=nome_display, anno=anno, raw=raw_name or nome_display))
+            nome=nome_display, anno=anno, raw=raw_name or nome_display),
+            timeout=1200, web=True)
         if not dossier.get('identificato'):
             print(f'[tournament] NON identificato dalla ricerca: {nome_display} {anno}')
         return dossier
