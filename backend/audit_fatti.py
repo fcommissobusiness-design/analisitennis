@@ -97,11 +97,18 @@ def controlla(a: Audit):
     for slug, d in giocatori.items():
         if d['nome'] and d['mano']:
             per_cognome[norm(d['nome'].split()[-1])] = (d['nome'], d['mano'])
+    # Si segnala solo l'APPOSIZIONE DIRETTA ("Rossi, mancino", "il mancino
+    # Rossi"), non la semplice vicinanza nella frase: in un pezzo su due
+    # giocatori la frase "dare a Basilashvili un riferimento su come gestire
+    # gli scambi contro il mancino austriaco" nomina il destro e il mancino
+    # nella stessa riga, e un controllo per prossimita' urlerebbe al falso.
+    APPOSIZIONE = re.compile(
+        r"\*{0,2}([A-ZÀ-Ý][a-zà-ÿ]{3,18})\*{0,2}[,\s]+(?:(?:è|e')\s*)?"
+        r'(?:un[oa]?\s+|il\s+|la\s+)?mancin[oa]\b'
+        r'|(?:il|la)\s+mancin[oa]\s+\*{0,2}([A-ZÀ-Ý][a-zà-ÿ]{3,18})')
     for p in articoli:
         fm, body = leggi(p)
-        for m in re.finditer(
-                r'([A-ZÀ-Ý][a-zà-ÿ]{3,15})[^.]{0,80}?\bmancin[oa]\b'
-                r'|\bmancin[oa]\b[^.]{0,60}?([A-ZÀ-Ý][a-zà-ÿ]{3,15})', body):
+        for m in APPOSIZIONE.finditer(body):
             cog = norm(m.group(1) or m.group(2) or '')
             if cog in per_cognome:
                 nome, mano = per_cognome[cog]
