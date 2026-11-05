@@ -146,6 +146,13 @@ class ApiTennisNoData(RuntimeError):
     pass
 
 
+class WebFactCheckFail(RuntimeError):
+    """Sollevata quando la verifica fattuale indipendente sul web trova errori
+    che la correzione automatica non riesce a sanare. Il match NON si pubblica:
+    meglio un buco che un articolo con fatti falsi online."""
+    pass
+
+
 def build_data_block(match):
     """Costruisce il blocco di dati autoritativi API Tennis.
     Se API Tennis non risponde o non ha dati sufficienti sui due giocatori,
@@ -534,12 +541,22 @@ osservazioni generiche che non attribuiscono nulla a nessuno in particolare
 """
 
 
-def _claude_call(prompt, timeout=1800):
+def _claude_call(prompt, timeout=1800, web=False):
+    """Chiama la CLI headless di Claude e ritorna il primo oggetto JSON.
+
+    web=True abilita WebSearch + WebFetch per lo stadio di verifica fattuale
+    indipendente: la generazione e il gate interno NON usano il web (restano
+    ancorati ai dati), ma il fact-check finale va a controllare i fatti sulle
+    fonti reali, dove i dati API possono essere sbagliati.
+    """
     claude_bin = shutil.which('claude') or os.path.expanduser('~/.local/node/bin/claude')
     env = os.environ.copy()
     env['PATH'] = f"{os.path.expanduser('~/.local/node/bin')}:{env.get('PATH','')}"
+    cmd = [claude_bin, '-p', prompt, '--output-format', 'json']
+    if web:
+        cmd += ['--allowedTools', 'WebSearch', 'WebFetch']
     result = subprocess.run(
-        [claude_bin, '-p', prompt, '--output-format', 'json'],
+        cmd,
         capture_output=True, text=True, timeout=timeout, env=env
     )
     if result.returncode != 0:
@@ -563,6 +580,171 @@ def _today_strings():
     today_human = f'{today.day} {italian_months[today.month - 1]} {today.year}'
     today_short = today.strftime('%d/%m/%Y')
     return today_human, today_short
+
+
+# ---- Stadio di verifica fattuale INDIPENDENTE sul web -------------------
+# Il gate a 3 pilastri controlla la coerenza con i DATI AUTORITATIVI, ma quei
+# dati a volte sono gia' sbagliati (etichette di turno errate, omonimi), e in
+# quel caso l'articolo coerente coi dati resta sbagliato nei fatti. Il 05/11/2026
+# una verifica indipendente sul web ha trovato 6 articoli su 15 con finali e
+# titoli inventati nati proprio da dati API corrotti. Questo stadio replica
+# quella verifica dentro la pipeline: va a controllare i fatti sulle fonti reali.
+
+PROMPT_WEB_FACTCHECK = """Sei un fact-checker INDIPENDENTE della testata AnalisiTennis.
+OGGI E' {today_short}. L'articolo qui sotto e' l'anteprima di un match che si gioca
+OGGI tra {p1} e {p2} ({torneo}).
+
+REGOLA ASSOLUTA ANTI-SPOILER: NON cercare, NON aprire, NON dedurre e NON riportare
+MAI il risultato, il punteggio o il vincitore del match in anteprima di oggi. Se un
+risultato di ricerca lo mostra, ignoralo. Verifichi SOLO fatti datati PRIMA di oggi.
+
+Il tuo compito: controllare sul web, su FONTI AUTOREVOLI (atptour.com, wtatennis.com,
+itftennis.com, Wikipedia EN, database tennistici affidabili), ogni affermazione
+fattuale verificabile dell'articolo, e segnalare quelle SBAGLIATE. Controlla in
+particolare, perche' sono le piu' soggette a errore:
+- nazionalita', mano (destro/mancino), rovescio dei due giocatori;
+- NOMI PROPRI: se l'articolo da' il nome di battesimo di un giocatore, verifica che
+  sia quello giusto (errore tipico: nome inventato da un'iniziale, es. "Daria"
+  Shnaider mentre e' Diana, "Jakub" Kym mentre e' Jerome);
+- scontri diretti: numero di precedenti, chi ha vinto, anno, sede, superficie;
+- risultati recenti: ATTENZIONE alle FINALI e ai TITOLI attribuiti a un giocatore.
+  Verifica che li abbia davvero raggiunti/vinti; un errore tipico e' descrivere come
+  "finale" o "titolo" un torneo in cui il giocatore e' in realta' uscito presto;
+- dati del torneo: superficie, indoor/outdoor, citta', sede, categoria.
+- riferimenti temporali incoerenti con oggi (es. "lo scorso mese"/"reduce da" che
+  puntano a un evento molto piu' vecchio).
+
+NON e' un errore cio' che non riesci a verificare: in quel caso lascialo stare. Segnala
+solo cio' che le fonti CONTRADDICONO in modo chiaro.
+
+ARTICOLO DA VERIFICARE:
+{article_json}
+
+Restituisci SOLO questo JSON, nulla prima e nulla dopo:
+```json
+{{
+  "verdict": "PASS se non hai trovato errori fattuali, FAIL se ne hai trovato almeno uno",
+  "errori": ["descrizione sintetica di ogni errore trovato"],
+  "correzioni": [
+    {{"sbagliato": "cosa dice l'articolo", "corretto": "il fatto giusto verificato", "fonte": "URL"}}
+  ]
+}}
+```
+Se e' tutto corretto: verdict "PASS", liste vuote.
+"""
+
+
+PROMPT_WEB_CORREGGI = """Sei il redattore di AnalisiTennis. Un fact-checker indipendente ha
+verificato sul web l'articolo qui sotto e ha trovato alcuni errori fattuali. Devi
+RISCRIVERE l'articolo correggendo ESATTAMENTE quegli errori e NULLA ALTRO.
+
+Le CORREZIONI qui sotto sono verita' verificata sulle fonti e hanno la PRECEDENZA su
+qualunque dato: dove un dato del blocco autoritativo contraddice una correzione, vale la
+correzione. Applica ogni correzione nel titolo, sottotitolo, descrizione, corpo, verdetto
+e tag ovunque l'errore compaia, e se un errore era portante per il verdetto (es. un
+precedente o un titolo rivelatosi falso) RICALIBRA il verdetto di conseguenza.
+
+CORREZIONI VERIFICATE (fonte unica di verita' per questi punti):
+{correzioni}
+
+REGOLE: nessun trattino lungo (usa virgole o due punti), lettere accentate corrette (e'
+sbagliato scrivere "citta'", si scrive "citta"), tono editoriale non da scommesse, e NON
+introdurre fatti nuovi non presenti nell'articolo originale o nelle correzioni. NON
+nominare il risultato del match di oggi.
+
+ARTICOLO DA CORREGGERE:
+{article_json}
+
+Restituisci SOLO il JSON completo dell'articolo corretto, con gli stessi campi
+dell'originale (titolo, sottotitolo, descrizione, corpo_markdown, verdetto, tag,
+probabilita_favorito, probabilita_percent, ...), nulla prima e nulla dopo.
+"""
+
+
+def web_fact_check(article, match):
+    """Verifica fattuale indipendente sul web. Ritorna {verdict, errori, correzioni}.
+
+    Non riceve il blocco dati API: deve controllare contro il mondo reale, non
+    contro la stessa fonte che puo' essere sbagliata.
+    """
+    _, today_short = _today_strings()
+    article_slim = {
+        'titolo': article.get('titolo'),
+        'sottotitolo': article.get('sottotitolo'),
+        'descrizione': article.get('descrizione'),
+        'corpo_markdown': article.get('corpo_markdown'),
+        'verdetto': article.get('verdetto'),
+    }
+    prompt = PROMPT_WEB_FACTCHECK.format(
+        today_short=today_short,
+        p1=match.get('event_first_player', ''),
+        p2=match.get('event_second_player', ''),
+        torneo=match.get('tournament_name', ''),
+        article_json=json.dumps(article_slim, ensure_ascii=False, indent=2),
+    )
+    # timeout generoso: e' una ricerca web agentica (piu' round).
+    return _claude_call(prompt, timeout=1200, web=True)
+
+
+def _correggi_con_web(article, correzioni):
+    """Riscrive l'articolo applicando le correzioni verificate sul web."""
+    prompt = PROMPT_WEB_CORREGGI.format(
+        correzioni=json.dumps(correzioni, ensure_ascii=False, indent=2),
+        article_json=json.dumps(article, ensure_ascii=False, indent=2),
+    )
+    return _claude_call(prompt, timeout=600)
+
+
+def _stadio_web(article, match, max_correzioni=2):
+    """Stadio 4: verifica web indipendente, con fino a max_correzioni giri.
+
+    - PASS: l'articolo e' confermato dalle fonti, si pubblica.
+    - errori con correzioni: si riscrive con la verita' del web e si ri-verifica;
+      si ripete fino a max_correzioni volte finche' non torna PASS.
+    - errori senza correzioni applicabili, o ancora errori dopo l'ultimo giro:
+      si solleva WebFactCheckFail e il match NON si pubblica.
+    - errore infrastrutturale (timeout, rete): NON si blocca l'intero palinsesto,
+      si pubblica con riserva e lo si annota, cosi' un guasto non svuota la giornata.
+    """
+    tutte_correzioni = []
+    for giro in range(max_correzioni + 1):
+        try:
+            esito = web_fact_check(article, match)
+        except Exception as e:
+            print(f'  [web] verifica non eseguita ({e}): pubblico con riserva', flush=True)
+            article['web_fact_check'] = {'verdict': 'SKIP_INFRA', 'motivo': str(e)[:300]}
+            if tutte_correzioni:
+                article['web_corrections_applied'] = tutte_correzioni
+            return article
+
+        errori = esito.get('errori') or []
+        if esito.get('verdict') == 'PASS' and not errori:
+            etichetta = 'PASS' if giro == 0 else f'PASS dopo {giro} correzione/i'
+            print(f'  [web] verifica indipendente sul web: {etichetta}', flush=True)
+            article['web_fact_check'] = esito
+            if tutte_correzioni:
+                article['web_corrections_applied'] = tutte_correzioni
+            return article
+
+        correzioni = esito.get('correzioni') or []
+        print(f'  [web] verifica indipendente (giro {giro + 1}): {len(errori)} errori factuali', flush=True)
+        for e in errori[:5]:
+            print(f'    - {e}', flush=True)
+
+        if giro == max_correzioni:
+            raise WebFactCheckFail(f'ancora errori dopo {max_correzioni} correzioni: {errori[:3]}')
+        if not correzioni:
+            raise WebFactCheckFail(f'errori senza correzioni applicabili: {errori[:3]}')
+
+        print('  [web] riscrivo con le correzioni verificate e ri-verifico...', flush=True)
+        tutte_correzioni.extend(correzioni)
+        corrected = _correggi_con_web(article, correzioni)
+        corrected['fact_check'] = article.get('fact_check')
+        corrected['data_block_used'] = article.get('data_block_used')
+        article = corrected
+
+    # Non raggiungibile (il loop ritorna o solleva), ma per sicurezza:
+    raise WebFactCheckFail('verifica web non conclusa')
 
 
 def fact_check(article, data_block):
@@ -618,6 +800,13 @@ def genera(match, max_tentativi=2):
             print(f'  Fact-check: PASS su tutti e 3 i pilastri', flush=True)
             article['fact_check'] = check
             article['data_block_used'] = data_block
+            # Stadio 4: verifica fattuale INDIPENDENTE sul web. Il gate a 3
+            # pilastri conferma la coerenza coi dati API, ma se i dati sono
+            # sbagliati l'articolo coerente resta falso: qui si controlla contro
+            # il mondo reale. Disattivabile con ANALISITENNIS_FACTCHECK_WEB=0.
+            if os.environ.get('ANALISITENNIS_FACTCHECK_WEB', '1') != '0':
+                print(f'  Verifica indipendente sul web (anti dati-API-sbagliati)...', flush=True)
+                article = _stadio_web(article, match)
             return article
 
         last_err = {
@@ -641,6 +830,7 @@ if __name__ == '__main__':
     outdir = Path(sys.argv[1]).parent / 'analyses'
     outdir.mkdir(exist_ok=True)
     skipped_no_data = []
+    skipped_factcheck = []
     for m in selected:
         mid = m.get('event_key')
         p1, p2 = m.get('event_first_player'), m.get('event_second_player')
@@ -669,6 +859,17 @@ if __name__ == '__main__':
                 'tournament': m.get('tournament_name'),
                 'motivo': str(e),
             })
+        except WebFactCheckFail as e:
+            # Skip pulito: l'articolo non ha superato la verifica indipendente
+            # sul web e la correzione non e' bastata. NON si pubblica.
+            msg = f'[WEB-FACTCHECK] match {mid} {p1} vs {p2}: {e}'
+            print(f'  {msg}', file=sys.stderr, flush=True)
+            skipped_factcheck.append({
+                'event_key': mid,
+                'player1': p1, 'player2': p2,
+                'tournament': m.get('tournament_name'),
+                'motivo': str(e),
+            })
         except Exception as e:
             print(f'  ERRORE: {e}', file=sys.stderr, flush=True)
 
@@ -680,4 +881,14 @@ if __name__ == '__main__':
         print(f'\n*** {len(skipped_no_data)} match SKIPPATI per mancanza dati API Tennis ***', flush=True)
         print(f'Report in {report}', flush=True)
         for s in skipped_no_data:
+            print(f'  - {s["player1"]} vs {s["player2"]} @ {s["tournament"]}: {s["motivo"][:80]}', flush=True)
+
+    # Report finale skipped-factcheck: match non pubblicati perche' non hanno
+    # superato la verifica indipendente sul web nemmeno dopo la correzione.
+    if skipped_factcheck:
+        report = outdir.parent / f'skipped_factcheck_{Path(sys.argv[1]).stem.split("_")[-1]}.json'
+        report.write_text(json.dumps(skipped_factcheck, indent=2, ensure_ascii=False))
+        print(f'\n*** {len(skipped_factcheck)} match NON pubblicati per fact-check web fallito ***', flush=True)
+        print(f'Report in {report}', flush=True)
+        for s in skipped_factcheck:
             print(f'  - {s["player1"]} vs {s["player2"]} @ {s["tournament"]}: {s["motivo"][:80]}', flush=True)

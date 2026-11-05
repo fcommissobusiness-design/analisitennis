@@ -105,8 +105,13 @@ python3 select_matches.py "fixtures_${OGGI}.json" 2>&1 | tee -a "$LOG"
 log_section "[2-bis/5] Verifica round via web (conferma/smentisce API Tennis)"
 python3 verify_rounds.py "selected_${OGGI}.json" 2>&1 | tee -a "$LOG" || true
 
-# 3. Generazione analisi (framework FASE 1-4 + sanity 3 pilastri)
-log_section "[3/5] Generazione analisi (claude CLI, fact-check anti-bias+anti-hallucination)"
+# 3. Generazione analisi (framework FASE 1-4 + sanity 3 pilastri + fact-check web)
+# Ogni articolo passa: generazione -> gate interno 3 pilastri (coerenza coi dati)
+# -> verifica fattuale INDIPENDENTE sul web (controlla i fatti sulle fonti reali,
+# dove i dati API possono sbagliare). Un articolo che non supera la verifica web
+# nemmeno dopo le correzioni automatiche NON viene pubblicato.
+# Si puo' disattivare la verifica web con ANALISITENNIS_FACTCHECK_WEB=0.
+log_section "[3/5] Generazione analisi (gate 3 pilastri + fact-check web indipendente)"
 python3 generate_analysis.py "selected_${OGGI}.json" 2>&1 | tee -a "$LOG"
 
 # Segnala in modo visibile se ci sono stati match skippati per mancanza dati
@@ -116,6 +121,15 @@ if [ -f "$SKIPPED_REPORT" ]; then
     log_section "[ATTENZIONE] Match SKIPPATI per API Tennis senza dati"
     log "File: $SKIPPED_REPORT"
     cat "$SKIPPED_REPORT" | tee -a "$LOG"
+fi
+
+# Segnala i match NON pubblicati perche' non hanno superato la verifica
+# fattuale indipendente sul web nemmeno dopo le correzioni automatiche.
+FACTCHECK_REPORT="skipped_factcheck_${OGGI}.json"
+if [ -f "$FACTCHECK_REPORT" ]; then
+    log_section "[ATTENZIONE] Match NON pubblicati per fact-check web fallito"
+    log "File: $FACTCHECK_REPORT"
+    cat "$FACTCHECK_REPORT" | tee -a "$LOG"
 fi
 
 # 4. Scrittura articoli markdown
