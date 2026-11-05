@@ -2685,10 +2685,18 @@
     "slug_p1": "matteo-berrettini",
     "slug_p2": "ugo-humbert",
     "bilancio": {
-      "p1": 2,
+      "p1": 3,
       "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-04",
+        "torneo": "Paris",
+        "g1": "M. Berrettini",
+        "g2": "U. Humbert",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2025-10-16",
         "torneo": "Stockholm",
@@ -2767,6 +2775,154 @@
         "g1": "Q. Halys",
         "g2": "F. Tiafoe",
         "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "arthur-rinderknech-vs-ben-shelton": {
+    "p1": "Arthur Rinderknech",
+    "p2": "Ben Shelton",
+    "slug_p1": "arthur-rinderknech",
+    "slug_p2": "ben-shelton",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2025-06-17",
+        "torneo": "London",
+        "g1": "A. Rinderknech",
+        "g2": "B. Shelton",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "casper-ruud-vs-jan-lennard-struff": {
+    "p1": "Casper Ruud",
+    "p2": "Jan-Lennard Struff",
+    "slug_p1": "casper-ruud",
+    "slug_p2": "jan-lennard-struff",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2023-09-29",
+        "torneo": "ATP Beijing",
+        "g1": "J-L. Struff",
+        "g2": "C. Ruud",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-04-13",
+        "torneo": "ATP Monte Carlo",
+        "g1": "J-L. Struff",
+        "g2": "C. Ruud",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2020-07-08",
+        "torneo": "Thiem's Seven",
+        "g1": "J-L. Struff",
+        "g2": "C. Ruud",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "carlos-alcaraz-vs-matteo-berrettini": {
+    "p1": "Carlos Alcaraz",
+    "p2": "Matteo Berrettini",
+    "slug_p1": "carlos-alcaraz",
+    "slug_p2": "matteo-berrettini",
+    "bilancio": {
+      "p1": 3,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2023-07-10",
+        "torneo": "ATP Wimbledon",
+        "g1": "C. Alcaraz",
+        "g2": "M. Berrettini",
+        "risultato": "3 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-02-19",
+        "torneo": "Rio de Janeiro",
+        "g1": "M. Berrettini",
+        "g2": "C. Alcaraz",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-01-21",
+        "torneo": "Australian Open",
+        "g1": "C. Alcaraz",
+        "g2": "M. Berrettini",
+        "risultato": "2 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-10-29",
+        "torneo": "Vienna",
+        "g1": "C. Alcaraz",
+        "g2": "M. Berrettini",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "quentin-halys-vs-tommy-paul": {
+    "p1": "Quentin Halys",
+    "p2": "Tommy Paul",
+    "slug_p1": "quentin-halys",
+    "slug_p2": "tommy-paul",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-05",
+        "torneo": "Paris",
+        "g1": "T. Paul",
+        "g2": "Q. Halys",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alexandra-eala-vs-tereza-valentova": {
+    "p1": "Alexandra Eala",
+    "p2": "Tereza Valentova",
+    "slug_p1": "alexandra-eala",
+    "slug_p2": "tereza-valentova",
+    "bilancio": {
+      "p1": 0,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-02-09",
+        "torneo": "WTA Doha",
+        "g1": "A. Eala",
+        "g2": "T. Valentova",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-10-14",
+        "torneo": "Osaka",
+        "g1": "T. Valentova",
+        "g2": "A. Eala",
+        "risultato": "2 - 0",
         "winner": "First Player"
       }
     ]
