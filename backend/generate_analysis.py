@@ -196,9 +196,15 @@ def build_data_block(match):
     def fmt_recent(name, rows):
         if not rows:
             return f'  (nessun match recente registrato per {name})'
+        # NB: il campo "round" dei match recenti (Final, Semi-finals...) arriva
+        # dal fornitore ed e' inaffidabile (duplica e sbaglia i turni, assegnando
+        # p.es. "Final" a piu' match dello stesso torneo). E' la fonte delle
+        # finali/titoli inventati, quindi NON lo includiamo: data, esito,
+        # avversario, torneo e punteggio bastano a descrivere la forma e sono
+        # affidabili. I round restano solo nei precedenti diretti (H2H).
         lines = []
         for r in rows:
-            lines.append(f"  {r['date']} {r['result']} vs {r['opponent']} - {r['tournament']} {r['round']} - {r['score']}")
+            lines.append(f"  {r['date']} {r['result']} vs {r['opponent']} - {r['tournament']} - {r['score']}")
         return '\n'.join(lines)
 
     stats_p1 = {'W': sum(1 for r in recent1 if r['result'] == 'W'), 'L': sum(1 for r in recent1 if r['result'] == 'L')}
@@ -306,6 +312,18 @@ DEVE essere direttamente estratto dal blocco DATI AUTORITATIVI qui sopra.
   significa che B ha vinto, non A.
 - Per ogni dato citato, prima di scrivere la frase, verifica mentalmente di averlo visto
   nel blocco. Se non e' li', NON scriverlo.
+- NOMI PROPRI: se nel blocco un giocatore compare con la sola iniziale puntata (es.
+  "D. Shnaider", "A. Falei", "J. Kym"), NON inventare il nome di battesimo. Scrivi il
+  cognome da solo oppure riporta l'iniziale com'e'. Indovinare il nome ("Daria" per
+  "D. Shnaider" che e' Diana, "Jakub" per "J. Kym" che e' Jerome) e' un errore pubblicato.
+- ETICHETTE DI TURNO DEI MATCH RECENTI INAFFIDABILI: nell'elenco "ULTIMI 15 MATCH" il
+  campo del turno (Final, Semi-finals, 1/8-finals...) proviene da un fornitore che spesso
+  SBAGLIA, duplica e assegna "Final" a piu' match dello stesso torneo (a volte con una "W"
+  accanto a un punteggio di sconfitta). Percio' NON dedurre da quelle etichette che un
+  giocatore "ha raggiunto la finale/semifinale", "ha vinto un titolo" o "si e' spinto fino
+  agli ultimi atti". Descrivi la forma recente per vittorie e sconfitte contro avversari
+  nominati (quelli si', affidabili), non per i turni raggiunti. Un titolo o una finale si
+  afferma solo se e' un fatto notorio e consolidato, mai sulla base del solo campo turno.
 
 Fatti ammessi senza fonte diretta (background culturale non controverso):
 - Nazionalita' nota del giocatore
@@ -320,6 +338,24 @@ Fatti NON ammessi senza dato autoritativo nel blocco:
 - Ranking numerico specifico
 - Bilancio stagionale W-L
 - Nomi specifici di avversari battuti/persi
+
+**REGOLA SULLA RECENCY DELLA FORMA (non negoziabile)**:
+"Forma recente" significa le ultime settimane rispetto a OGGI {today_short}, non
+il risultato piu' altisonante del blocco. Leggi i match in ordine di data: quelli
+piu' vicini a oggi pesano di piu' nel descrivere la condizione attuale. Un
+risultato di spicco ma lontano nel tempo (ad esempio una finale o un titolo di
+uno o due mesi fa) e' CONTESTO di stagione, non forma del momento. Puoi citarlo
+UNA volta come sfondo, ma:
+- non presentarlo come forma recente ne' con formule tipo "arriva da" o "reduce
+  da" se nel frattempo il giocatore ha disputato altri tornei piu' recenti;
+- se i match piu' recenti raccontano un andamento diverso (sconfitte,
+  discontinuita'), la fotografia della forma e' quella, e va detta chiaramente;
+- non farne il fattore portante del verdetto quando i dati piu' recenti lo
+  contraddicono o lo ridimensionano.
+Errore tipico da evitare: dare per "in grande forma" o "reduce dalla finale" chi
+due mesi fa ha raggiunto una finale importante ma da allora ha perso diversi
+match piu' recenti. In quel caso la finale e' sfondo, e la forma vera e' quella
+delle ultime settimane.
 
 **OUTPUT RICHIESTO** (un singolo JSON, nessun testo prima o dopo):
 
@@ -427,6 +463,14 @@ Verifica che la narrativa NON sia infettata da uno di questi bias:
   importante ignorando i dati recenti.
 - **Bias recency**: narrativa che pesa solo gli ultimi 2-3 match ignorando il
   campione piu' ampio dei recenti.
+- **Bias risultato-vetrina**: un risultato di spicco ma datato (es. una finale o
+  un titolo di piu' di un mese fa rispetto a oggi {today_short}) presentato come
+  forma attuale ("reduce da", "arriva dalla finale di...", "in grande forma") o
+  usato come fattore portante del verdetto, quando nel blocco esistono match piu'
+  recenti che danno una fotografia diversa della condizione. La forma del momento
+  si misura dai match piu' vicini a oggi; un acuto lontano nel tempo e' solo
+  sfondo di stagione. FAIL se la forma recente o il verdetto si reggono su un
+  risultato datato scavalcando i match piu' recenti.
 - **Bias home-crowd**: assunzione che il pubblico aiuti senza verificare pattern
   storico home del giocatore.
 
