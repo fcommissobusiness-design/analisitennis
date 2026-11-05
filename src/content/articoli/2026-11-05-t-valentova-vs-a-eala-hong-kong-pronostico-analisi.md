@@ -1,6 +1,6 @@
 ---
 titolo: "A Hong Kong il mancino di Eala contro Valentova sul cemento"
-sottotitolo: "Al secondo turno del torneo di Hong Kong si ritrovano due giocatrici che si sono gia affrontate due volte nell'ultimo anno"
+sottotitolo: "Al secondo turno del torneo di Hong Kong si ritrovano due giocatrici che si sono già affrontate due volte nell'ultimo anno"
 data: "2026-11-05"
 autore: "Redazione AnalisiTennis"
 torneo: "Hong Kong"
@@ -16,7 +16,7 @@ tag:
   - "tennis WTA"
   - "cemento"
   - "secondo turno"
-verdetto: "Oggi la può spuntare Valentová: entrambi i precedenti sono suoi e il rendimento recente, con il titolo di Tokyo, la mette un gradino avanti. Ma Eala conosce l'avversaria e un set può strapparlo."
+verdetto: "Oggi la può spuntare Valentová: entrambi i precedenti sono suoi e il rendimento recente la mette un gradino avanti. Ma Eala conosce l'avversaria e un set può strapparlo."
 descrizione: "Tereza Valentova e Alexandra Eala al secondo turno del WTA di Hong Kong, sul cemento: precedenti, forma recente e stili a confronto in un match dall'esito aperto."
 pubblicato: true
 probabilita_favorito: "Valentová"
@@ -26,7 +26,7 @@ cover_image: "/covers/2026-11-05-t-valentova-vs-a-eala-hong-kong-pronostico-anal
 cover_credit: "Alex Eala (2024 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
 ---
 
-Il tabellone del Prudential Hong Kong Tennis Open propone al secondo turno un confronto tra Tereza Valentová e Alexandra Eala, due giocatrici arrivate a questo appuntamento con lo stesso biglietto da visita. Entrambe hanno superato il proprio match d'ingresso lo stesso giorno, il 3 novembre: la ceca ha regolato Himari Sakatsume, la filippina ha avuto la meglio su Emma Jones. Ora il sorteggio le mette una di fronte all'altra sul **cemento** di Hong Kong, con un posto al turno successivo come premio immediato.
+Il tabellone del Prudential Hong Kong Tennis Open propone al secondo turno un confronto tra Tereza Valentová e Alexandra Eala, due giocatrici arrivate a questo appuntamento con lo stesso biglietto da visita. Entrambe hanno superato il proprio match d'ingresso nei primi giorni del torneo: la ceca ha regolato Himeno Sakatsume, la filippina ha avuto la meglio su Alycia Parks. Ora il sorteggio le mette una di fronte all'altra sul **cemento** di Hong Kong, con un posto al turno successivo come premio immediato.
 
 ### I precedenti
 
@@ -36,11 +36,11 @@ Vale la pena ricordare che il confronto di Osaka risale a poco più di un anno f
 
 ### Il momento di forma
 
-Nelle ultime settimane Valentová ha vissuto un periodo ricco di appuntamenti spinti fino in fondo. Ha conquistato il trofeo di Tokyo superando in finale Shuai Zhang, e in estate si era issata fino all'atto conclusivo a Philadelphia, al termine di una settimana in cui aveva messo in fila diverse avversarie prima di arrendersi solo in finale a Katie Volynets. Il suo bilancio nelle ultime quindici uscite racconta di più vittorie che sconfitte.
+Negli ultimi mesi Valentová ha messo insieme un buon rendimento: in estate si era issata fino all'atto conclusivo a Philadelphia, al termine di una settimana in cui aveva superato diverse avversarie prima di arrendersi solo in finale a Katie Volynets. Il suo bilancio nelle ultime quindici uscite racconta di più vittorie che sconfitte.
 
-Non sono mancate le battute d'arresto, come lo stop di Osaka contro Lucija Tagger o le sconfitte patite contro avversarie di rango nel cuore dell'estate americana. È il ritratto di una giocatrice capace di produrre serie positive importanti, ma che deve ancora trovare la massima continuità da un torneo all'altro.
+Non sono mancate le battute d'arresto contro avversarie di rango nel cuore dell'estate americana. È il ritratto di una giocatrice capace di produrre serie positive importanti, ma che deve ancora trovare la massima continuità da un torneo all'altro.
 
-Eala, dal canto suo, ha alternato buoni acuti a frenate altrettanto frequenti. A Tokyo si è spinta fino ai quarti battendo tra le altre Torri Gibson, prima di cedere a Daria Shnaider, la stessa avversaria che l'aveva già fermata a Ningbo poche settimane prima. Agli US Open aveva superato un paio di turni prima di uscire, e anche il suo score recente si muove in sostanziale equilibrio tra successi e sconfitte, segno di un momento in cui i risultati faticano a concatenarsi con continuità.
+Eala, dal canto suo, ha alternato buoni acuti a frenate altrettanto frequenti. A Tokyo si è spinta fino ai quarti battendo tra le altre Talia Gibson, prima di cedere a Diana Shnaider, la stessa avversaria che l'aveva già fermata a Ningbo poche settimane prima. Agli US Open aveva superato un paio di turni prima di uscire, e anche il suo score recente si muove in sostanziale equilibrio tra successi e sconfitte, segno di un momento in cui i risultati faticano a concatenarsi con continuità.
 
 ### Stili a confronto
 

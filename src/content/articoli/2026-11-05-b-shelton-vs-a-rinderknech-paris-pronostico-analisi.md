@@ -47,7 +47,7 @@ Sullo sfondo resta la grande estate nordamericana, culminata con la finale raggi
 
 Rinderknech, nello stesso arco temporale, ha raccolto cinque vittorie e nove sconfitte, un cammino più accidentato in cui il successo su Bellucci rappresenta una boccata d'ossigeno. Anche lui, allo US Open, aveva vinto un paio di turni prima di fermarsi contro Daniil Medvedev.
 
-Un dettaglio li accomuna proprio nelle settimane scorse: a Basilea entrambi hanno dovuto arrendersi a Jakub Kym, segnale che nessuno dei due arriva all'appuntamento parigino in uno stato di forma inattaccabile. Letti in fila, i loro risultati raccontano l'incertezza tipica di questa parte di stagione, quando la stanchezza accumulata rende i valori meno nitidi del solito.
+Un dettaglio li accomuna proprio nelle settimane scorse: a Basilea entrambi hanno dovuto arrendersi a Jerome Kym, segnale che nessuno dei due arriva all'appuntamento parigino in uno stato di forma inattaccabile. Letti in fila, i loro risultati raccontano l'incertezza tipica di questa parte di stagione, quando la stanchezza accumulata rende i valori meno nitidi del solito.
 
 ### Servizio e superficie
 Il **cemento indoor** di Parigi tende a premiare chi serve con continuità e chi sa accorciare lo scambio, limitando le occasioni di risposta. Shelton, da mancino, dispone di una battuta capace di aprire angoli insoliti e di un diritto particolarmente esplosivo.

@@ -1,6 +1,6 @@
 ---
 titolo: "Struff e Ruud di nuovo di fronte: l'ottavo di Parigi"
-sottotitolo: "Struff arriva da settimane intense tra Brussels e Basilea, Ruud cerca continuità sul cemento indoor di Parigi: pesano anche i tre precedenti"
+sottotitolo: "Struff arriva da settimane intense tra Brussels e Basilea, Ruud cerca continuità sul cemento indoor di Parigi: pesano anche i quattro precedenti"
 data: "2026-11-05"
 autore: "Redazione AnalisiTennis"
 torneo: "Paris"
@@ -17,7 +17,7 @@ tag:
   - "Masters 1000"
   - "ottavi di finale"
 verdetto: "Oggi la può spuntare Struff: i precedenti pendono leggermente dalla sua parte e arriva da settimane più continue tra Brussels e Basilea, con il cemento indoor a fare da ulteriore alleato. Ruud resta però capace di riaprire tutto con la sua solidità da fondo."
-descrizione: "Struff e Ruud si affrontano negli ottavi del Masters di Parigi sul cemento indoor: forma recente, tre precedenti e chiavi tattiche nell'analisi."
+descrizione: "Struff e Ruud si affrontano negli ottavi del Masters di Parigi sul cemento indoor: forma recente, quattro precedenti e chiavi tattiche nell'analisi."
 pubblicato: true
 probabilita_favorito: "Struff"
 probabilita_percent: 61
@@ -26,12 +26,12 @@ cover_credit: "Jan-Lennard Struff, Košice Open 2011 (3).jpg | Rl91 | CC BY-SA 3
 generato_il: "2026-11-05T07:07"
 ---
 
-Il Rolex Paris Masters entra nel vivo e porta sul cemento al coperto di Bercy un ottavo di finale dal sapore particolare: Jan-Lennard Struff e Casper Ruud tornano a incrociarsi per la quarta volta in carriera, dopo una storia di confronti già abbastanza ricca da lasciare qualche indizio. Entrambi hanno superato i primi due turni del tabellone parigino e si presentano all'appuntamento con la sensazione di poter andare ancora avanti in un finale di stagione dove ogni partita conta doppio.
+Il Rolex Paris Masters entra nel vivo e porta sul cemento al coperto di Parigi un ottavo di finale dal sapore particolare: Jan-Lennard Struff e Casper Ruud tornano a incrociarsi per la quinta volta in carriera, dopo una storia di confronti già abbastanza ricca da lasciare qualche indizio. Entrambi hanno superato i primi due turni del tabellone parigino e si presentano all'appuntamento con la sensazione di poter andare ancora avanti in un finale di stagione dove ogni partita conta doppio.
 
 ### I precedenti
-Gli scontri diretti raccontano un equilibrio che pende leggermente da una parte. Nei tre confronti disputati finora, **Struff** si è imposto in due occasioni, mentre **Ruud** ha risposto con una vittoria. Il primo incrocio risale al 2020, poi i due si sono ritrovati nel 2023, prima a Monte Carlo e poi a Pechino, in contesti e su superfici differenti.
+Gli scontri diretti raccontano un equilibrio che pende leggermente da una parte. Nei quattro confronti disputati finora, **Struff** si è imposto in tre occasioni, mentre **Ruud** ha risposto con una vittoria. Il primo incrocio risale al 2017, a Monte Carlo; i due si sono poi ritrovati nel 2019 agli US Open e di nuovo nel 2023, ancora a Monte Carlo e poi a Pechino, in contesti e su superfici differenti.
 
-È un bagaglio che consegna a Struff un piccolo margine nei numeri, ma tre partite distribuite su più stagioni vanno pesate con prudenza: i rapporti di forza nel tennis cambiano in fretta e un precedente di tre anni fa dice poco sul giocatore di oggi. Resta però un dato di fatto che, quando si sono trovati l'uno di fronte all'altro, entrambi hanno già saputo imporsi almeno una volta.
+È un bagaglio che consegna a Struff un margine nei numeri, ma quattro partite distribuite su più stagioni vanno pesate con prudenza: i rapporti di forza nel tennis cambiano in fretta e un precedente di tre anni fa dice poco sul giocatore di oggi. Resta però un dato di fatto che, quando si sono trovati l'uno di fronte all'altro, entrambi hanno già saputo imporsi almeno una volta.
 
 ### Il momento di forma
 Il periodo recente di **Struff** è stato intenso e produttivo. A Brussels è arrivato fino all'ultimo atto del torneo, poi a Basilea ha firmato un cammino profondo fino alle semifinali, lasciando per strada avversari di valore, compreso un successo di prestigio contro Novak Djokovic. Il quadro delle ultime settimane lo descrive come un giocatore in fiducia, capace di incatenare vittorie e di reggere l'urto dei match ravvicinati, e a Parigi ha confermato il buon momento passando i due turni d'apertura contro Gea e Tirante.
@@ -48,4 +48,4 @@ Molto passerà dalla battaglia al servizio e dalla capacità di comandare lo sca
 
 Conterà anche la gestione mentale dei frangenti chiave. Entrambi hanno l'esperienza per non scomporsi, ma in un ottavo di un Masters, con la stagione agli sgoccioli e punti pesanti in palio, la tenuta nervosa nelle fasi decisive può incidere tanto quanto il colpo vincente. Sarà interessante vedere chi, tra i due, saprà restare più presente quando il punteggio si farà corto.
 
-Quello che si profila a Bercy è dunque un confronto tra due giocatori che arrivano con buone sensazioni e con motivazioni forti, in una fase dell'anno in cui ogni vittoria vale doppio. I precedenti dicono una cosa, la forma recente ne aggiunge un'altra, la superficie ne suggerisce una terza: starà ai due, in campo, stabilire quale di questi elementi finirà per pesare di più.
+Quello che si profila a Parigi è dunque un confronto tra due giocatori che arrivano con buone sensazioni e con motivazioni forti, in una fase dell'anno in cui ogni vittoria vale doppio. I precedenti dicono una cosa, la forma recente ne aggiunge un'altra, la superficie ne suggerisce una terza: starà ai due, in campo, stabilire quale di questi elementi finirà per pesare di più.

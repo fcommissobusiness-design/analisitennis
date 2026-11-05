@@ -26,7 +26,7 @@ cover_image: "/covers/2026-11-05-m-uchijima-vs-m-linette-chennai-pronostico-anal
 cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
 ---
 
-Gli **ottavi di finale** di Chennai mettono di fronte Moyuka Uchijima e Magda Linette sul cemento indoor indiano, una superficie che le ha già viste incrociarsi in passato. Entrambe hanno superato il primo ostacolo del tabellone appena due giorni fa e si presentano all'appuntamento del 5 novembre con la stessa esigenza: trasformare una settimana appena avviata in qualcosa di concreto. I numeri che le riguardano raccontano storie più simili di quanto i rispettivi profili lascerebbero immaginare.
+Gli **ottavi di finale** di Chennai mettono di fronte Moyuka Uchijima e Magda Linette sul cemento indiano, una superficie che le ha già viste incrociarsi in passato. Entrambe hanno superato il primo ostacolo del tabellone appena due giorni fa e si presentano all'appuntamento del 5 novembre con la stessa esigenza: trasformare una settimana appena avviata in qualcosa di concreto. I numeri che le riguardano raccontano storie più simili di quanto i rispettivi profili lascerebbero immaginare.
 
 ### I precedenti
 Il filo che unisce le due giocatrici parte proprio da Chennai. Qui, nel 2022, si affrontarono per la prima volta e fu la polacca a imporsi con un netto due set a zero. Il secondo capitolo arrivò a Pechino nel 2024, ancora con **Linette** avanti al termine di un confronto più combattuto.
@@ -34,7 +34,7 @@ Il filo che unisce le due giocatrici parte proprio da Chennai. Qui, nel 2022, si
 Il terzo, e più recente, porta invece la firma di **Uchijima**: agli Australian Open del gennaio 2025 la giapponese ribaltò la tendenza imponendosi al terzo set. Il bilancio complessivo degli **scontri diretti** dice così due a uno per Linette, ma l'ultimo atto della serie appartiene all'avversaria, un dettaglio che toglie certezze a chi prova a leggere la storia del confronto in un'unica direzione.
 
 ### L'ingresso nel torneo
-Il percorso di avvicinamento è stato parallelo. Il 3 novembre Uchijima ha regolato Rebecca Sramkova per due set a zero nel turno d'esordio, mentre Linette ha avuto bisogno di un set in più per avere la meglio su Alina Falei. Due vittorie che valgono lo stesso identico traguardo e che restituiscono l'immagine di due giocatrici capaci di reggere la pressione dei primi scambi.
+Il percorso di avvicinamento è stato parallelo. Il 3 novembre Uchijima ha regolato Rebecca Sramkova per due set a zero nel turno d'esordio, mentre Linette ha avuto bisogno di un set in più per avere la meglio su Aliona Falei. Due vittorie che valgono lo stesso identico traguardo e che restituiscono l'immagine di due giocatrici capaci di reggere la pressione dei primi scambi.
 
 Arrivare agli ottavi di finale senza spendere energie di troppo è un vantaggio che entrambe hanno saputo guadagnarsi, pur con modalità differenti: più rapida la via della giapponese, più sofferta quella della polacca.
 

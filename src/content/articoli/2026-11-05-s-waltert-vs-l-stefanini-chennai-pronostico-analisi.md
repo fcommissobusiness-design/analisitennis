@@ -26,17 +26,17 @@ cover_image: "/covers/2026-11-05-s-waltert-vs-l-stefanini-chennai-pronostico-ana
 cover_credit: "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
 ---
 
-Il tabellone di Chennai propone agli ottavi di finale un confronto tra due giocatrici che hanno appena mosso i primi passi nel torneo con un segnale incoraggiante. Simona Waltert, svizzera, e Lucrezia Stefanini, italiana, si ritrovano sul cemento indiano dopo aver entrambe superato l'ostacolo iniziale lo stesso giorno, il 3 novembre. Non risultano precedenti tra le due, e questo aggiunge un elemento di curiosità a una partita in cui nessuna parte con il vantaggio psicologico di un confronto già vissuto.
+Il tabellone di Chennai propone agli ottavi di finale un confronto tra due giocatrici che hanno appena mosso i primi passi nel torneo con un segnale incoraggiante. Simona Waltert, svizzera, e Lucrezia Stefanini, italiana, si ritrovano sul cemento indiano dopo aver entrambe superato l'ostacolo iniziale nei primi giorni del torneo. Non risultano precedenti tra le due, e questo aggiunge un elemento di curiosità a una partita in cui nessuna parte con il vantaggio psicologico di un confronto già vissuto.
 
 ### Il mese di ottobre
 
-Le ultime settimane raccontano due cammini differenti. Stefanini arriva in India con un bilancio recente nettamente positivo, impreziosito dalla **finale** raggiunta a Samsun, dove si è arresa soltanto all'ultimo atto contro Aksu dopo aver messo in fila diverse vittorie consecutive. Il mese di ottobre le ha dato continuità anche a Rovereto, con il quarto di finale, e un ulteriore rodaggio tra impegni di categoria inferiore e turni di qualificazione affrontati a Courmayeur.
+Le ultime settimane raccontano due cammini differenti. Stefanini arriva in India con un bilancio recente nettamente positivo, impreziosito dalla **finale** raggiunta a Samsun, dove si è arresa soltanto all'ultimo atto contro Aksu dopo aver messo in fila diverse vittorie consecutive. Il mese di ottobre le ha dato continuità anche a Rovereto, con il quarto di finale, e un ulteriore rodaggio tra impegni di categoria inferiore.
 
-Waltert, dal canto suo, ha vissuto un periodo più altalenante sul piano dei risultati, ma su palcoscenici mediamente più impegnativi. La svizzera ha raggiunto la **semifinale** a Ningbo a metà ottobre, prima di una serie di uscite anticipate, come quella contro Teichmann a Guangzhou. Il suo calendario recente l'ha vista misurarsi spesso con tenniste del circuito maggiore, con un bilancio di vittorie e sconfitte più in equilibrio.
+Waltert, dal canto suo, ha vissuto un periodo più altalenante sul piano dei risultati, ma su palcoscenici mediamente più impegnativi. La svizzera ha attraversato una serie di uscite anticipate, come quella contro Teichmann a Guangzhou, in un calendario che l'ha vista misurarsi spesso con tenniste del circuito maggiore, con un bilancio di vittorie e sconfitte più in equilibrio.
 
 ### La corsa a Chennai
 
-Il primo turno indiano ha confermato che entrambe sono entrate in sintonia con le condizioni locali. Waltert ha superato Yamalapalli, mentre Stefanini ha avuto la meglio su Zolotareva. Due successi arrivati nello stesso turno che valgono questo incrocio diretto e che permettono a entrambe di presentarsi agli ottavi di finale senza il peso di un avvio ancora da sciogliere.
+Il primo turno indiano ha confermato che entrambe sono entrate in sintonia con le condizioni locali. Waltert ha superato Yamalapalli, mentre Stefanini ha avuto la meglio su Jacquemot. Due successi arrivati nello stesso turno che valgono questo incrocio diretto e che permettono a entrambe di presentarsi agli ottavi di finale senza il peso di un avvio ancora da sciogliere.
 
 ### Profili a confronto
 

@@ -1,6 +1,6 @@
 ---
 titolo: "Hong Kong: Stoiana cavalca la forma, Cirstea l'esperienza"
-sottotitolo: "Reduce da un titolo a Osaka e dal colpo su Venus Williams, l'americana trova una giocatrice capace di battere le migliori"
+sottotitolo: "Reduce dai quarti a Osaka e dal colpo su Venus Williams, l'americana trova una giocatrice capace di battere le migliori"
 data: "2026-11-05"
 autore: "Redazione AnalisiTennis"
 torneo: "Hong Kong"
@@ -34,7 +34,7 @@ Entrambe hanno superato il turno d'apertura in questo torneo. Cirstea ha regolat
 
 ### Il mese appena passato
 
-È guardando all'ultimo mese che emergono le differenze. Stoiana arriva da un ottobre produttivo: ha vinto una finale a Osaka, superando Matsuda in semifinale e imponendosi poi nell'atto conclusivo contro Ishii, e in un secondo appuntamento giapponese si è spinta fino ai quarti prima di cedere a Siniakova. Un rendimento recente nettamente positivo, con dieci vittorie nelle ultime quindici uscite. Cirstea, invece, ha vissuto settimane più discontinue: accanto a vittorie come quella su Shi a Ningbo, sono arrivate sconfitte con Joint a Tokyo e con Bejlek sempre a Ningbo, per un cammino più vicino all'equilibrio tra acuti e battute d'arresto.
+È guardando all'ultimo mese che emergono le differenze. Stoiana arriva da un ottobre produttivo: a Osaka, superate le qualificazioni, si è spinta fino ai quarti di finale prima di cedere a Siniakova. Un rendimento recente nettamente positivo, con dieci vittorie nelle ultime quindici uscite. Cirstea, invece, ha vissuto settimane più discontinue: accanto a vittorie come quella su Shi a Ningbo, sono arrivate sconfitte con Joint a Tokyo e con Bejlek sempre a Ningbo, per un cammino più vicino all'equilibrio tra acuti e battute d'arresto.
 
 ### Gli scalpi che pesano
 
