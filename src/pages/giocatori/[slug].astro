@@ -6,6 +6,17 @@ import { getCollection } from 'astro:content';
 import { playerSlug, slugify } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
 import profilesEn from '../../data/profiles-en.json';
+import standingsAtp from '../../data/standings-atp.json';
+import standingsWta from '../../data/standings-wta.json';
+
+// Ranking live dai dati classifica (aggiornati ogni giorno dalla pipeline).
+// Mappa per nome normalizzato (senza accenti) -> posizione, cosi' il profilo
+// mostra un dato fresco e fattuale, e si collega alla pagina classifica.
+// Solo top-100: per chi e' fuori non si mostra nulla (niente numeri inventati).
+const _norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+const rankMap = {};
+for (const r of standingsWta.righe) rankMap[_norm(r.player)] = { tour: 'WTA', place: r.place, points: r.points, updated: standingsWta.aggiornato_il };
+for (const r of standingsAtp.righe) rankMap[_norm(r.player)] = { tour: 'ATP', place: r.place, points: r.points, updated: standingsAtp.aggiornato_il };
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
@@ -47,6 +58,10 @@ const { profilo, relatedArticles, h2hLinks } = Astro.props;
 const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
+
+// Ranking attuale del giocatore (se in top-100), per il banner e lo schema.
+const ranking = rankMap[_norm(d.nome)] || null;
+const rankingUrl = ranking ? (ranking.tour === 'ATP' ? '/classifica-atp' : '/classifica-wta') : null;
 
 // Eta' corrente dal campo data_nascita (ISO "YYYY-MM-DD" o anche solo "YYYY").
 // Mostrata tra parentesi accanto alla data di nascita nel banner panoramico.
@@ -104,6 +119,10 @@ const articleSchema = {
 // del giocatore e una frase sbagliata su questo e' un errore editoriale grave.
 const annoNascita = d.data_nascita ? String(d.data_nascita).slice(0, 4) : null;
 const faqItems = [];
+if (ranking) {
+  const dataAgg = ranking.updated ? new Date(ranking.updated).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
+  faqItems.push({ q: `Che posizione occupa ${d.nome} nel ranking ${ranking.tour}?`, a: `${d.nome} è attualmente n. ${ranking.place} del ranking ${ranking.tour} con ${ranking.points} punti${dataAgg ? ` (aggiornato al ${dataAgg})` : ''}.` });
+}
 if (d.nazionalita) faqItems.push({ q: `Di dov'è ${d.nome}?`, a: `${d.nome} gioca per ${d.nazionalita}.` });
 if (eta) faqItems.push({ q: `Quanti anni ha ${d.nome}?`, a: `${d.nome} ha ${eta} anni${annoNascita ? ` (classe ${annoNascita})` : ''}.` });
 if (d.stile_gioco) faqItems.push({ q: `Che stile di gioco ha ${d.nome}?`, a: `Il gioco di ${d.nome} si caratterizza per ${d.stile_gioco}.` });
@@ -160,6 +179,7 @@ const faqSchema = faqItems.length >= 2 ? {
     <div class="layout-articolo">
       <article class="articolo">
         <div class="profilo-stats">
+          {ranking && <div><strong>Ranking {ranking.tour}</strong>{' '}<a href={rankingUrl}>n. {ranking.place}</a>{' '}· {ranking.points} punti</div>}
           {d.data_nascita && <div><strong>{natoLabel}</strong>{' '}{d.data_nascita}{eta ? ` (${eta} anni)` : ''}</div>}
           {d.categoria && <div><strong>Circuito</strong>{' '}{d.categoria}</div>}
           {d.superficie_preferita && <div><strong>Superficie</strong>{' '}{d.superficie_preferita}</div>}
