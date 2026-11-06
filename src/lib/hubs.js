@@ -140,6 +140,37 @@ function _nrm(s) {
   return (s || '').toString().normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 }
 
+// Stesso giocatore anche fra forma abbreviata ("J. Fonseca") ed estesa
+// ("Joao Fonseca"): se un lato ha un solo cognome utile, basta il cognome in
+// comune e l'iniziale del nome presente fra le iniziali dell'altro. Serve a
+// collegare gli articoli (nomi abbreviati) ai profili creati da nome completo.
+export function samePersonLoose(a, b) {
+  const ta = nameTokens(a), tb = nameTokens(b);
+  if (!ta.size || !tb.size) return false;
+  const shared = [...ta].filter(t => tb.has(t));
+  if (!shared.length) return false;
+  if (ta.size >= 2 && tb.size >= 2) return samePlayer(a, b);
+  const init = (s) => {
+    const n = _nrm(s);
+    return n ? n[0] : '';
+  };
+  const abbr = ta.size <= tb.size ? a : b;
+  const full = ta.size <= tb.size ? b : a;
+  const fullInitials = new Set([...nameTokens(full)].map(t => t[0]));
+  return fullInitials.has(init(abbr));
+}
+
+// Slug del profilo che rappresenta questo giocatore, fra una lista di profili
+// {slug, nome}: prima match esatto sullo slug calcolato, poi match per persona.
+// Ritorna null se nessun profilo corrisponde.
+export function resolveProfileSlug(rawName, profili) {
+  const direct = playerSlug(rawName);
+  for (const p of profili) if (p.slug === direct) return direct;
+  const display = displayPlayerName(rawName);
+  for (const p of profili) if (samePersonLoose(display, p.nome) || samePersonLoose(rawName, p.nome)) return p.slug;
+  return null;
+}
+
 // Cerca il ranking di un giocatore nelle righe classifica ATP/WTA.
 // Prima prova il match esatto sul nome completo, poi quello robusto per token.
 export function findRanking(nome, righeAtp = [], righeWta = []) {

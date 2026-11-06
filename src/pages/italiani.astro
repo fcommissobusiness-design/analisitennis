@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import FormEmail from '../components/FormEmail.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, tournamentDisplay, findRanking } from '../lib/hubs.js';
+import { tournamentDisplay, findRanking, samePersonLoose } from '../lib/hubs.js';
 import standingsAtp from '../data/standings-atp.json';
 import standingsWta from '../data/standings-wta.json';
 
@@ -21,10 +21,10 @@ const italiani = profili
   }))
   .sort((a, b) => (a.ranking ? a.ranking.place : 9999) - (b.ranking ? b.ranking.place : 9999) || a.nome.localeCompare(b.nome, 'it'));
 
-const italianSlugs = new Set(italiani.map(i => i.slug));
+const isItaliano = (name) => italiani.some(i => samePersonLoose(name, i.nome));
 const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 const analisi = articoli
-  .filter(a => italianSlugs.has(playerSlug(a.data.giocatore1)) || italianSlugs.has(playerSlug(a.data.giocatore2)))
+  .filter(a => isItaliano(a.data.giocatore1) || isItaliano(a.data.giocatore2))
   .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
   .slice(0, 24);
 

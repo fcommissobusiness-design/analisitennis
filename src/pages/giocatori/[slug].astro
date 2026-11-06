@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, slugify, findRanking } from '../../lib/hubs.js';
+import { playerSlug, slugify, findRanking, samePersonLoose } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
 import profilesEn from '../../data/profiles-en.json';
 import standingsAtp from '../../data/standings-atp.json';
@@ -19,7 +19,7 @@ export async function getStaticPaths() {
   return profili.map(p => {
     const slug = p.data.slug_profilo;
     const relatedArticles = articoli
-      .filter(a => playerSlug(a.data.giocatore1) === slug || playerSlug(a.data.giocatore2) === slug)
+      .filter(a => samePersonLoose(a.data.giocatore1, p.data.nome) || samePersonLoose(a.data.giocatore2, p.data.nome))
       .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
       .slice(0, 20);
     // Scontri diretti del giocatore: ogni voce h2h che lo coinvolge diventa
@@ -190,7 +190,7 @@ const faqSchema = faqItems.length >= 2 ? {
             <ul>
               {relatedArticles.map(a => {
                 const dataIt = new Date(a.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
-                const avv = playerSlug(a.data.giocatore1) === d.slug_profilo ? a.data.giocatore2 : a.data.giocatore1;
+                const avv = samePersonLoose(a.data.giocatore1, d.nome) ? a.data.giocatore2 : a.data.giocatore1;
                 return (
                   <li>
                     <a href={`/articoli/${a.slug}`}>

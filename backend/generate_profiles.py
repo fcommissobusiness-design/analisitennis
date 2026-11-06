@@ -34,6 +34,62 @@ PROFILI_TORNEI = ROOT / 'src' / 'content' / 'tornei-profilo'
 PROFILI_GIOCATORI.mkdir(parents=True, exist_ok=True)
 PROFILI_TORNEI.mkdir(parents=True, exist_ok=True)
 
+
+# --- Identita' robusta: un giocatore = un profilo ---
+# Il sito identifica i giocatori con lo slug derivato dal nome abbreviato
+# dell'API ("J. Fonseca" -> j-fonseca), mentre la copertura classifica parte
+# dal nome completo ("Joao Fonseca" -> joao-fonseca). Senza un confronto per
+# persona si creerebbero profili duplicati. Qui si riconosce lo stesso
+# giocatore anche fra forma abbreviata ed estesa, con ordine nomi diverso e
+# cognomi multipli.
+def _nome_norm(s):
+    return ''.join(c for c in unicodedata.normalize('NFKD', str(s or ''))
+                   if not unicodedata.combining(c)).lower()
+
+
+def _nome_token(s):
+    return [t for t in re.split(r'[^a-z]+', _nome_norm(s)) if len(t) > 1]
+
+
+def _stessa_persona(a, b):
+    """True se a e b indicano lo stesso giocatore. Con entrambi i nomi estesi
+    (>=2 token) usa il sottoinsieme di token (tollera ordine e cognomi
+    multipli). Con un lato abbreviato (un solo cognome) richiede cognome in
+    comune e iniziale del nome presente fra le iniziali dell'altro."""
+    ta, tb = set(_nome_token(a)), set(_nome_token(b))
+    if not ta or not tb:
+        return False
+    shared = ta & tb
+    if not shared:
+        return False
+    if len(ta) >= 2 and len(tb) >= 2:
+        small, big = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+        return small <= big and len(small & big) >= 2
+    # un lato abbreviato: confronta l'iniziale del nome
+    def iniziale(x):
+        n = _nome_norm(x).strip()
+        return n[0] if n else ''
+    abbr, full = (a, b) if len(ta) <= len(tb) else (b, a)
+    full_iniziali = {t[0] for t in _nome_token(full)}
+    return iniziale(abbr) in full_iniziali
+
+
+def _profili_esistenti():
+    out = []
+    for f in PROFILI_GIOCATORI.glob('*.md'):
+        m = re.search(r'^nome:\s*"?(.*?)"?\s*$', f.read_text(), re.M)
+        if m:
+            out.append((f.stem, m.group(1)))
+    return out
+
+
+def _slug_profilo_persona(nome):
+    """Slug del profilo esistente che rappresenta questa persona, o None."""
+    for slug, prof_nome in _profili_esistenti():
+        if _stessa_persona(nome, prof_nome):
+            return slug
+    return None
+
 # Mappa nomi abbreviati -> nome completo. Sincronizzata con attach_covers.NAME_MAP.
 try:
     from attach_covers import NAME_MAP
@@ -455,6 +511,14 @@ def generate_player_profile(raw_name: str, overwrite: bool = False) -> Path | No
     if dest.exists() and not overwrite:
         print(f'[player] gia esistente: {slug}')
         return dest
+    # Dedup per persona: evita un secondo profilo quando lo stesso giocatore
+    # esiste gia' con uno slug diverso (es. coperto come "Joao Fonseca" ->
+    # joao-fonseca, poi incontrato in un match come "J. Fonseca" -> j-fonseca).
+    if not overwrite:
+        esistente = _slug_profilo_persona(nome_display)
+        if esistente and esistente != slug:
+            print(f'[player] stessa persona gia a profilo ({esistente}), skip {slug}')
+            return PROFILI_GIOCATORI / f'{esistente}.md'
     print(f'[player] genero profilo: {nome_display} ({slug})')
 
     # Stadio 1: ricerca e verifica. Senza identificazione non si pubblica.

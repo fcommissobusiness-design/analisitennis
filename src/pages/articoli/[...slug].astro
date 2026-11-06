@@ -6,7 +6,7 @@ import ProbabilitaVittoria from '../../components/ProbabilitaVittoria.astro';
 import CoverArticolo from '../../components/CoverArticolo.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify } from '../../lib/hubs.js';
+import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify, resolveProfileSlug } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
 
 export async function getStaticPaths() {
@@ -71,10 +71,13 @@ const tSlug = tournamentSlug(d.torneo, anno);
 const tDisplay = tournamentDisplay(d.torneo);
 const g1Display = displayPlayerName(d.giocatore1);
 const g2Display = displayPlayerName(d.giocatore2);
-const g1Slug = playerSlug(d.giocatore1);
-const g2Slug = playerSlug(d.giocatore2);
-const hasG1 = playerSlugs.has(g1Slug);
-const hasG2 = playerSlugs.has(g2Slug);
+// Risoluzione robusta: collega anche i profili creati da nome completo
+// (es. "Joao Fonseca" -> joao-fonseca) quando l'articolo usa l'abbreviato.
+const profiliMin = giocatoriProfili.map(p => ({ slug: p.data.slug_profilo, nome: p.data.nome }));
+const g1Slug = resolveProfileSlug(d.giocatore1, profiliMin);
+const g2Slug = resolveProfileSlug(d.giocatore2, profiliMin);
+const hasG1 = !!g1Slug;
+const hasG2 = !!g2Slug;
 const hasTourn = tournamentSlugs.has(tSlug);
 
 // Pagina scontri diretti (H2H) per questa coppia, se esiste. Lo slug e'
