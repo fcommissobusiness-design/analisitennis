@@ -717,6 +717,40 @@ def ensure_profiles_for_match(p1: str, p2: str, torneo: str, data: str):
         print(f'[tournament] errore: {e}')
 
 
+def missing_top100():
+    """Nomi dei giocatori top-100 ATP/WTA senza un profilo (match per persona),
+    ordinati per posizione. Base della copertura proattiva degli evergreen."""
+    import json as _json
+    nomi_prof = [n for _, n in _profili_esistenti()]
+    out = []
+    for lab in ('atp', 'wta'):
+        f = ROOT / 'src' / 'data' / f'standings-{lab}.json'
+        if not f.exists():
+            continue
+        for r in _json.loads(f.read_text()).get('righe', []):
+            name = r.get('player')
+            if not name:
+                continue
+            if not any(_stessa_persona(name, pn) for pn in nomi_prof):
+                out.append((r.get('place', 999), name))
+    out.sort()
+    return [n for _, n in out]
+
+
+def coverage(limit=None):
+    """Genera i profili dei giocatori top-100 mancanti. Con limit ne crea al
+    massimo N (per il sweep giornaliero, che riempie un po' alla volta)."""
+    mancanti = missing_top100()
+    if limit:
+        mancanti = mancanti[:limit]
+    print(f'[coverage] {len(mancanti)} profili top-100 da creare')
+    for name in mancanti:
+        try:
+            generate_player_profile(name)
+        except Exception as e:
+            print(f'[coverage] errore su {name}: {e}')
+
+
 def backfill_from_articles():
     """Scorre tutti gli articoli e genera profili per giocatori/tornei mancanti."""
     articoli_dir = ROOT / 'src' / 'content' / 'articoli'
@@ -759,6 +793,8 @@ if __name__ == '__main__':
         generate_tournament_profile(sys.argv[2], int(sys.argv[3]))
     elif cmd == 'backfill':
         backfill_from_articles()
+    elif cmd == 'coverage':
+        coverage(int(sys.argv[2]) if len(sys.argv) >= 3 else None)
     else:
         print('Comando non valido', file=sys.stderr)
         sys.exit(1)

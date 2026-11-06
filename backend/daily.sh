@@ -263,10 +263,15 @@ log_section "COMPLETATA pipeline - $(date)"
 touch "$SENTINEL"
 
 # [POST] Profili editoriali in background.
-# Idempotente: skippa i profili gia' esistenti, crea solo quelli mancanti
-# per i giocatori/tornei nuovi incontrati oggi. Non blocca la pubblicazione:
-# il sito e' gia' live quando questo gira, i profili arrivano con calma.
-log_section "[POST] Profili editoriali (background)"
+# Due passi, in sequenza:
+#  1) backfill: profili per i giocatori/tornei NUOVI incontrati negli articoli;
+#  2) coverage: riempie qualche profilo mancante della TOP-100 ATP/WTA (anche
+#     giocatori non ancora comparsi in un match). Bounded a pochi per run cosi'
+#     la copertura dei giocatori che contano si completa e resta completa senza
+#     pesare. Entrambi idempotenti e vettati (gate anti-allucinazione); i
+#     profili arrivano con calma e vengono committati al run successivo.
+log_section "[POST] Profili editoriali + copertura top-100 (background)"
 cd "$HOME/analisitennis/backend"
-nohup python3 generate_profiles.py backfill > "$LOG_DIR/profiles_${OGGI}.log" 2>&1 &
-log "Lanciato backfill profili in background (pid $!)"
+nohup bash -c 'python3 generate_profiles.py backfill; python3 generate_profiles.py coverage 8' \
+    > "$LOG_DIR/profiles_${OGGI}.log" 2>&1 &
+log "Lanciato backfill + coverage profili in background (pid $!)"

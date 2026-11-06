@@ -35,6 +35,29 @@ def _rows(event_type: str):
     return out[:TOP_N]
 
 
+def _punti(r):
+    try:
+        return int(str(r.get('points', '')).replace('.', '').replace(',', '').replace(' ', '') or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _sane(rows):
+    """Controllo di sanita' sul dato classifica, per non far finire live una
+    risposta API anomala (ne' propagarla ai profili). Ritorna (ok, motivo)."""
+    if len(rows) < 50:
+        return False, f'solo {len(rows)} righe (<50)'
+    if rows[0]['place'] != 1:
+        return False, f"prima posizione {rows[0]['place']} != 1"
+    if any(not r.get('player') for r in rows):
+        return False, 'nomi vuoti presenti'
+    vals = [_punti(r) for r in rows]
+    inversioni = sum(1 for i in range(len(vals) - 1) if vals[i] < vals[i + 1])
+    if inversioni > 3:  # qualche pari-merito o assestamento e' tollerato
+        return False, f'{inversioni} inversioni nei punti (ordine incoerente)'
+    return True, 'ok'
+
+
 def main():
     try:
         from zoneinfo import ZoneInfo
@@ -50,6 +73,11 @@ def main():
             continue
         if not rows:
             print(f'[standings] {et}: 0 righe, salto (non sovrascrivo)', file=sys.stderr)
+            continue
+        ok, motivo = _sane(rows)
+        if not ok:
+            print(f'[standings] {et}: dato ANOMALO ({motivo}), salto per non '
+                  f'sovrascrivere la classifica buona', file=sys.stderr)
             continue
         payload = {
             'circuito': et,
