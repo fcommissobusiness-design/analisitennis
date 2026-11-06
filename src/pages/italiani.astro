@@ -3,17 +3,12 @@ import Base from '../layouts/Base.astro';
 import FormEmail from '../components/FormEmail.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, tournamentDisplay } from '../lib/hubs.js';
+import { playerSlug, tournamentDisplay, findRanking } from '../lib/hubs.js';
 import standingsAtp from '../data/standings-atp.json';
 import standingsWta from '../data/standings-wta.json';
 
 const site = 'https://analisitennis.it';
 const _norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
-
-// Ranking live dai dati classifica (aggiornati ogni giorno).
-const rankMap = {};
-for (const r of standingsWta.righe) rankMap[_norm(r.player)] = { tour: 'WTA', place: r.place, points: r.points };
-for (const r of standingsAtp.righe) rankMap[_norm(r.player)] = { tour: 'ATP', place: r.place, points: r.points };
 
 const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
 const italiani = profili
@@ -22,7 +17,7 @@ const italiani = profili
     nome: p.data.nome,
     slug: p.data.slug_profilo,
     categoria: p.data.categoria,
-    ranking: rankMap[_norm(p.data.nome)] || null,
+    ranking: findRanking(p.data.nome, standingsAtp.righe, standingsWta.righe),
   }))
   .sort((a, b) => (a.ranking ? a.ranking.place : 9999) - (b.ranking ? b.ranking.place : 9999) || a.nome.localeCompare(b.nome, 'it'));
 

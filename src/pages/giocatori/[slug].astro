@@ -3,20 +3,11 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, slugify } from '../../lib/hubs.js';
+import { playerSlug, slugify, findRanking } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
 import profilesEn from '../../data/profiles-en.json';
 import standingsAtp from '../../data/standings-atp.json';
 import standingsWta from '../../data/standings-wta.json';
-
-// Ranking live dai dati classifica (aggiornati ogni giorno dalla pipeline).
-// Mappa per nome normalizzato (senza accenti) -> posizione, cosi' il profilo
-// mostra un dato fresco e fattuale, e si collega alla pagina classifica.
-// Solo top-100: per chi e' fuori non si mostra nulla (niente numeri inventati).
-const _norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
-const rankMap = {};
-for (const r of standingsWta.righe) rankMap[_norm(r.player)] = { tour: 'WTA', place: r.place, points: r.points, updated: standingsWta.aggiornato_il };
-for (const r of standingsAtp.righe) rankMap[_norm(r.player)] = { tour: 'ATP', place: r.place, points: r.points, updated: standingsAtp.aggiornato_il };
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
@@ -60,8 +51,10 @@ const d = profilo.data;
 const site = 'https://analisitennis.it';
 
 // Ranking attuale del giocatore (se in top-100), per il banner e lo schema.
-const ranking = rankMap[_norm(d.nome)] || null;
+// Match robusto: tollera ordine nomi, cognomi multipli, accenti (vedi hubs.js).
+const ranking = findRanking(d.nome, standingsAtp.righe, standingsWta.righe);
 const rankingUrl = ranking ? (ranking.tour === 'ATP' ? '/classifica-atp' : '/classifica-wta') : null;
+const rankingUpdated = ranking ? (ranking.tour === 'ATP' ? standingsAtp.aggiornato_il : standingsWta.aggiornato_il) : null;
 
 // Eta' corrente dal campo data_nascita (ISO "YYYY-MM-DD" o anche solo "YYYY").
 // Mostrata tra parentesi accanto alla data di nascita nel banner panoramico.
@@ -120,7 +113,7 @@ const articleSchema = {
 const annoNascita = d.data_nascita ? String(d.data_nascita).slice(0, 4) : null;
 const faqItems = [];
 if (ranking) {
-  const dataAgg = ranking.updated ? new Date(ranking.updated).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
+  const dataAgg = rankingUpdated ? new Date(rankingUpdated).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
   faqItems.push({ q: `Che posizione occupa ${d.nome} nel ranking ${ranking.tour}?`, a: `${d.nome} è attualmente n. ${ranking.place} del ranking ${ranking.tour} con ${ranking.points} punti${dataAgg ? ` (aggiornato al ${dataAgg})` : ''}.` });
 }
 if (d.nazionalita) faqItems.push({ q: `Di dov'è ${d.nome}?`, a: `${d.nome} gioca per ${d.nazionalita}.` });

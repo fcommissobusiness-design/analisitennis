@@ -108,6 +108,55 @@ export function displayPlayerName(raw) {
   return FULL_NAMES[raw] || raw;
 }
 
+// --- Aggancio nomi giocatore <-> righe classifica (robusto) ---
+// L'API Tennis scrive i nomi in modo incoerente rispetto ai profili: ordine
+// diverso ("Martin Etcheverry Tomas" vs "Tomas Martin Etcheverry"), cognomi
+// multipli ("Carlos Alcaraz" vs "Carlos Alcaraz Garfia"), accenti e trattini
+// ("Carreno-Busta" vs "Carreño Busta"). Un match esatto perdeva il ranking di
+// giocatori di primo piano (Alcaraz n.3 incluso). Qui si confronta per token.
+function nameTokens(s) {
+  return new Set(
+    (s || '').toString().normalize('NFKD').replace(/[̀-ͯ]/g, '')
+      .toLowerCase().split(/[^a-z]+/).filter(t => t.length > 1)
+  );
+}
+
+// Stesso giocatore se i token del nome piu' corto sono TUTTI contenuti nel piu'
+// lungo e ne condividono almeno due (evita falsi positivi fra omonimi parziali
+// come "Maria Sakkari" / "Maria Timofeeva").
+export function samePlayer(a, b) {
+  const ta = nameTokens(a), tb = nameTokens(b);
+  if (!ta.size || !tb.size) return false;
+  const [small, big] = ta.size <= tb.size ? [ta, tb] : [tb, ta];
+  let shared = 0;
+  for (const t of small) {
+    if (big.has(t)) shared++;
+    else return false;
+  }
+  return shared >= 2;
+}
+
+function _nrm(s) {
+  return (s || '').toString().normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+}
+
+// Cerca il ranking di un giocatore nelle righe classifica ATP/WTA.
+// Prima prova il match esatto sul nome completo, poi quello robusto per token.
+export function findRanking(nome, righeAtp = [], righeWta = []) {
+  const tutte = [
+    ...righeWta.map(r => ({ r, tour: 'WTA' })),
+    ...righeAtp.map(r => ({ r, tour: 'ATP' })),
+  ];
+  const n = _nrm(nome);
+  for (const { r, tour } of tutte) {
+    if (_nrm(r.player) === n) return { tour, place: r.place, points: r.points, player: r.player };
+  }
+  for (const { r, tour } of tutte) {
+    if (samePlayer(nome, r.player)) return { tour, place: r.place, points: r.points, player: r.player };
+  }
+  return null;
+}
+
 export function playerSlug(raw) {
   return slugify(displayPlayerName(raw));
 }
