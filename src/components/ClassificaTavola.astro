@@ -22,7 +22,7 @@ const agg = data.aggiornato_il
           <tr>
             <td class="c-pos">{r.place}</td>
             <td class="c-gioc">{haProfilo ? <a href={`/giocatori/${slug}`}>{r.player}</a> : r.player}</td>
-            <td class="c-naz">{r.country}</td>
+            <td class="c-naz">{r.country === 'World' ? 'Neutrale' : r.country}</td>
             <td class="c-pt">{r.points}</td>
           </tr>
         );
