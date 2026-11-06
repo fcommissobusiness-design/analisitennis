@@ -32,6 +32,56 @@ def slugify(s):
     return s[:80]
 
 
+# --- Normalizzazione tipografica (regole di stile della testata) ---
+# Il modello, quando lascia cadere l'accento, scrive le troncature accentate
+# con un apostrofo ASCII ("piu'", "capacita'", "puo'") e ogni tanto usa il
+# trattino lungo (em dash), entrambi vietati dallo stile. Qui si normalizza a
+# monte, una volta per tutte, cosi' non vanno piu' corretti a mano a ogni run.
+_ACUTE_E = {
+    'perche': 'perché', 'poiche': 'poiché', 'finche': 'finché',
+    'affinche': 'affinché', 'benche': 'benché', 'nonche': 'nonché',
+    'giacche': 'giacché', 'sicche': 'sicché', 'cosicche': 'cosicché',
+    'allorche': 'allorché', 'anziche': 'anziché', 'fuorche': 'fuorché',
+}
+# Troncature che MANTENGONO l'apostrofo (non sono accenti caduti).
+_PROTECT_APOS = {"po'", "mo'", "be'", "to'"}
+_VOW_GRAVE = {'a': 'à', 'o': 'ò', 'i': 'ì', 'u': 'ù'}
+
+
+def _accenta_parola(tok):
+    """'piu' -> 'più', 'perche' -> 'perché', protegge 'po''."""
+    low = tok.lower()
+    if low in _PROTECT_APOS:
+        return tok
+    lastv = tok[-2].lower()
+    stem = tok[:-2]
+    if lastv == 'e':
+        rep = _ACUTE_E.get(low[:-1], stem + 'è')
+    elif lastv in _VOW_GRAVE:
+        rep = stem + _VOW_GRAVE[lastv]
+    else:
+        return tok
+    if tok[0].isupper():
+        rep = rep[0].upper() + rep[1:]
+    return rep
+
+
+def normalizza_tipografia(text):
+    """Converte troncature con apostrofo ASCII in accenti veri e i trattini
+    lunghi in virgole. Non tocca le elisioni (l', d', un', dell': finiscono in
+    consonante) ne' le troncature legittime (po', mo')."""
+    if not text:
+        return text
+    # parola che finisce in vocale + apostrofo ASCII
+    text = re.sub(r"[A-Za-zàèéìòùÀÈÉÌÒÙ]*[aeiouAEIOU]'",
+                  lambda m: _accenta_parola(m.group(0)), text)
+    # trattino lungo (em dash U+2014) -> virgola, preservando la spaziatura
+    text = (text.replace(' — ', ', ').replace(' —', ',')
+                .replace('— ', ', ').replace('—', ', '))
+    text = re.sub(r',\s*,', ',', text)
+    return text
+
+
 def categoria(tipo):
     t = (tipo or '').lower()
     if 'grand slam' in t: return 'Slam'
@@ -89,12 +139,12 @@ def superficie(torneo_name, tipo, anno=None):
 
 
 def write(match, analysis, out_dir):
-    titolo = analysis['titolo']
-    sottotitolo = analysis['sottotitolo']
-    descrizione = analysis['descrizione']
-    corpo = analysis['corpo_markdown']
-    verdetto = analysis['verdetto']
-    tag = analysis.get('tag', [])
+    titolo = normalizza_tipografia(analysis['titolo'])
+    sottotitolo = normalizza_tipografia(analysis['sottotitolo'])
+    descrizione = normalizza_tipografia(analysis['descrizione'])
+    corpo = normalizza_tipografia(analysis['corpo_markdown'])
+    verdetto = normalizza_tipografia(analysis['verdetto'])
+    tag = [normalizza_tipografia(t) for t in analysis.get('tag', [])]
 
     p1 = match.get('event_first_player', '').strip()
     p2 = match.get('event_second_player', '').strip()
