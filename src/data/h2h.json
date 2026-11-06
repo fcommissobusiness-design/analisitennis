@@ -2034,9 +2034,17 @@
     "slug_p2": "taylor-fritz",
     "bilancio": {
       "p1": 1,
-      "p2": 0
+      "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-05",
+        "torneo": "Paris",
+        "g1": "A. Fils",
+        "g2": "T. Fritz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2024-09-26",
         "torneo": "ATP Tokyo",
@@ -2786,9 +2794,17 @@
     "slug_p2": "ben-shelton",
     "bilancio": {
       "p1": 1,
-      "p2": 0
+      "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-05",
+        "torneo": "Paris",
+        "g1": "B. Shelton",
+        "g2": "A. Rinderknech",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
       {
         "data": "2025-06-17",
         "torneo": "London",
@@ -2805,10 +2821,18 @@
     "slug_p1": "casper-ruud",
     "slug_p2": "jan-lennard-struff",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-11-05",
+        "torneo": "Paris",
+        "g1": "J-L. Struff",
+        "g2": "C. Ruud",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2023-09-29",
         "torneo": "ATP Beijing",
@@ -2905,10 +2929,18 @@
     "slug_p1": "alexandra-eala",
     "slug_p2": "tereza-valentova",
     "bilancio": {
-      "p1": 0,
+      "p1": 1,
       "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-11-05",
+        "torneo": "Hong Kong",
+        "g1": "T. Valentova",
+        "g2": "A. Eala",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-02-09",
         "torneo": "WTA Doha",
@@ -2922,6 +2954,126 @@
         "torneo": "Osaka",
         "g1": "T. Valentova",
         "g2": "A. Eala",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "ben-shelton-vs-tommy-paul": {
+    "p1": "Ben Shelton",
+    "p2": "Tommy Paul",
+    "slug_p1": "ben-shelton",
+    "slug_p2": "tommy-paul",
+    "bilancio": {
+      "p1": 2,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2024-02-10",
+        "torneo": "ATP Dallas",
+        "g1": "B. Shelton",
+        "g2": "T. Paul",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-10-20",
+        "torneo": "ATP Tokyo",
+        "g1": "T. Paul",
+        "g2": "B. Shelton",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-09-03",
+        "torneo": "ATP US Open",
+        "g1": "T. Paul",
+        "g2": "B. Shelton",
+        "risultato": "1 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-01-25",
+        "torneo": "Australian Open",
+        "g1": "B. Shelton",
+        "g2": "T. Paul",
+        "risultato": "1 - 3",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "carlos-alcaraz-vs-taylor-fritz": {
+    "p1": "Carlos Alcaraz",
+    "p2": "Taylor Fritz",
+    "slug_p1": "carlos-alcaraz",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 7,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-09-26",
+        "torneo": "ATP Laver Cup",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-11-11",
+        "torneo": "Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-10-16",
+        "torneo": "Six Kings Slam",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-09-30",
+        "torneo": "Tokyo",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-09-21",
+        "torneo": "ATP Laver Cup",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-07-11",
+        "torneo": "Wimbledon",
+        "g1": "T. Fritz",
+        "g2": "C. Alcaraz",
+        "risultato": "1 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-09-22",
+        "torneo": "ATP Laver Cup",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-03-31",
+        "torneo": "ATP Miami",
+        "g1": "C. Alcaraz",
+        "g2": "T. Fritz",
         "risultato": "2 - 0",
         "winner": "First Player"
       }
