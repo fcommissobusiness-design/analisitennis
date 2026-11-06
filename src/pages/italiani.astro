@@ -1,0 +1,127 @@
+---
+import Base from '../layouts/Base.astro';
+import FormEmail from '../components/FormEmail.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { playerSlug, tournamentDisplay } from '../lib/hubs.js';
+import standingsAtp from '../data/standings-atp.json';
+import standingsWta from '../data/standings-wta.json';
+
+const site = 'https://analisitennis.it';
+const _norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+
+// Ranking live dai dati classifica (aggiornati ogni giorno).
+const rankMap = {};
+for (const r of standingsWta.righe) rankMap[_norm(r.player)] = { tour: 'WTA', place: r.place, points: r.points };
+for (const r of standingsAtp.righe) rankMap[_norm(r.player)] = { tour: 'ATP', place: r.place, points: r.points };
+
+const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
+const italiani = profili
+  .filter(p => _norm(p.data.nazionalita) === 'italia')
+  .map(p => ({
+    nome: p.data.nome,
+    slug: p.data.slug_profilo,
+    categoria: p.data.categoria,
+    ranking: rankMap[_norm(p.data.nome)] || null,
+  }))
+  .sort((a, b) => (a.ranking ? a.ranking.place : 9999) - (b.ranking ? b.ranking.place : 9999) || a.nome.localeCompare(b.nome, 'it'));
+
+const italianSlugs = new Set(italiani.map(i => i.slug));
+const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+const analisi = articoli
+  .filter(a => italianSlugs.has(playerSlug(a.data.giocatore1)) || italianSlugs.has(playerSlug(a.data.giocatore2)))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+  .slice(0, 24);
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Tennisti italiani',
+  itemListElement: italiani.map((i, idx) => ({
+    '@type': 'ListItem', position: idx + 1, url: `${site}/giocatori/${i.slug}`, name: i.nome,
+  })),
+};
+---
+<Base
+  titolo="Tennisti italiani: ranking, profili e analisi - AnalisiTennis"
+  descrizione="Gli italiani del circuito, dal ranking ai profili fino alle nostre analisi partita per partita: Sinner, Musetti, Paolini, Cobolli, Berrettini e gli altri azzurri in campo."
+  canonical={`${site}/italiani`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+
+  <div class="contenitore" style="padding-top: 24px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Italiani' }]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Azzurri</div>
+      <h1>Gli italiani in campo</h1>
+      <p>
+        Tutti i tennisti italiani che seguiamo, dal ranking attuale ai profili fino alle analisi
+        delle loro partite. Un punto solo per restare dietro agli azzurri, giorno per giorno.
+      </p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        <section aria-label="Tennisti italiani">
+          <h2>I profili degli azzurri</h2>
+          <div class="griglia-italiani">
+            {italiani.map(i => (
+              <a class="card-italiano" href={`/giocatori/${i.slug}`}>
+                <span class="ci-nome">{i.nome}</span>
+                <span class="ci-meta">
+                  {i.ranking ? <span class="ci-rank">n. {i.ranking.place} {i.ranking.tour}</span> : <span class="ci-cat">{i.categoria}</span>}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        {analisi.length > 0 && (
+          <section aria-label="Analisi recenti sugli italiani" style="margin-top: 40px;">
+            <h2>Le nostre analisi sugli italiani</h2>
+            <div class="griglia-articoli" style="padding: 0;">
+              {analisi.map(art => (
+                <article class="card-articolo">
+                  <div class="eyebrow">{tournamentDisplay(art.data.torneo)} - {art.data.superficie}</div>
+                  <h3><a href={`/articoli/${art.slug}`}>{art.data.titolo}</a></h3>
+                  <p class="sottotitolo">{art.data.sottotitolo}</p>
+                  <div class="data">{new Date(art.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+
+  <style>
+    .griglia-italiani {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+    .card-italiano {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 14px 16px;
+      border: 1px solid var(--bordo, #e5e7eb);
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      background: var(--sfondo-card, #fff);
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    .card-italiano:hover { border-color: var(--accento, #16a34a); transform: translateY(-2px); }
+    .ci-nome { font-weight: 700; }
+    .ci-meta { font-size: .85rem; color: var(--testo-secondario, #6b7280); }
+    .ci-rank { font-variant-numeric: tabular-nums; }
+  </style>
+</Base>
