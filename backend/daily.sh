@@ -212,7 +212,20 @@ if [ "$(date +%u)" = "1" ]; then
     python3 weekly_recap.py "$OGGI" 2>&1 | tee -a "$LOG" || true
 fi
 
+# 4-news. NEWSROOM: scopre le notizie di tennis del giorno da fonti reali,
+# le VERIFICA in modo indipendente (>=2 fonti o una ufficiale) e scrive solo
+# quelle confermate, passate dal gate anti-allucinazione. Mai una notizia
+# generata o non verificata. Si disattiva con ANALISITENNIS_NEWS=0.
+log_section "[4-news/5] Newsroom (scoperta + verifica fonti + gate)"
+cd "$HOME/analisitennis/backend"
+python3 fetch_news.py "$OGGI" 2>&1 | tee -a "$LOG" || true
+NEWS_SCARTATE="news_scartate_${OGGI}.json"
+if [ -f "$NEWS_SCARTATE" ]; then
+    log "Notizie scartate (non confermate / gate): $NEWS_SCARTATE"
+fi
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
+cd "$HOME/analisitennis"
 log_section "[5/5] Commit e push"
 cd "$HOME/analisitennis"
 # IMPORTANTE: committare anche public/covers/*.jpg altrimenti gli articoli
@@ -226,6 +239,7 @@ cd "$HOME/analisitennis"
 git add src/content/articoli/*.md \
         src/content/tornei-profilo/*.md \
         src/content/giocatori-profilo/*.md \
+        src/content/news/*.md \
         src/data/*.json \
         public/covers/ 2>&1 | tee -a "$LOG" || true
 if git diff --cached --quiet; then

@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
+  return news.map(n => ({ params: { slug: n.slug }, props: { n } }));
+}
+
+const { n } = Astro.props;
+const { Content } = await n.render();
+const d = n.data;
+const site = 'https://analisitennis.it';
+
+const CAT_LABEL = {
+  'cambio-allenatore': 'Cambio allenatore', 'infortunio': 'Infortunio',
+  'forfait': 'Forfait', 'ritiro-carriera': 'Fine carriera', 'titolo': 'Titolo',
+  'traguardo': 'Traguardo', 'squalifica': 'Squalifica', 'wild-card': 'Wild card',
+  'rientro': 'Rientro', 'altro': 'News',
+};
+const catLabel = CAT_LABEL[d.categoria] || 'News';
+const dataIt = new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: d.titolo,
+  description: d.sommario,
+  datePublished: d.generato_il || new Date(d.data).toISOString(),
+  dateModified: d.generato_il || new Date(d.data).toISOString(),
+  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'AnalisiTennis',
+    logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` },
+  },
+  mainEntityOfPage: `${site}/news/${n.slug}`,
+  ...(d.fonte_url ? { citation: { '@type': 'CreativeWork', name: d.fonte_nome || 'Fonte', url: d.fonte_url } } : {}),
+};
+---
+<Base titolo={`${d.titolo} - News - AnalisiTennis`} descrizione={d.sommario} tipo="article">
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <div class="contenitore" style="padding-top: 24px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'News', url: '/news' }, { nome: d.titolo }]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">{catLabel} · {dataIt}</div>
+      <h1>{d.titolo}</h1>
+      {d.sommario && <p>{d.sommario}</p>}
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-articolo">
+      <article class="articolo">
+        <div class="articolo-corpo">
+          <Content />
+        </div>
+        {d.fonte_url && (
+          <p class="news-fonte">
+            Fonte: <a href={d.fonte_url} target="_blank" rel="noopener nofollow">{d.fonte_nome || d.fonte_url}</a>
+          </p>
+        )}
+        <p class="news-disclaimer">
+          AnalisiTennis riporta notizie verificate su fonti indipendenti. Segnala una correzione a redazione@analisitennis.it.
+        </p>
+      </article>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+
+  <style>
+    .news-fonte { margin-top: 24px; font-size: .95rem; }
+    .news-disclaimer { margin-top: 12px; font-size: .8rem; color: var(--testo-secondario, #6b7280); }
+  </style>
+</Base>

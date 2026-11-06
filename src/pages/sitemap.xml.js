@@ -7,6 +7,7 @@ export async function GET(context) {
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
   const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);
+  const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
 
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
   const today = new Date().toISOString().split('T')[0];
@@ -15,7 +16,7 @@ export async function GET(context) {
     '', '/oggi', '/pronostici', '/calendario', '/chi-siamo', '/contatti', '/privacy', '/cookie',
     '/categoria/atp', '/categoria/wta', '/categoria/slam',
     '/categoria/challenger', '/categoria/masters', '/categoria/itf',
-    '/giocatori', '/italiani', '/tornei', '/risultati', '/guide', '/tag',
+    '/giocatori', '/italiani', '/news', '/tornei', '/risultati', '/guide', '/tag',
     '/classifica-atp', '/classifica-wta',
   ];
 
@@ -31,6 +32,12 @@ export async function GET(context) {
       lastmod: today,
       changefreq: 'monthly',
       priority: '0.6',
+    })),
+    ...news.map(nw => ({
+      loc: `${site}/news/${nw.slug}`,
+      lastmod: (nw.data.generato_il?.slice(0, 10)) || today,
+      changefreq: 'daily',
+      priority: '0.7',
     })),
     ...Object.keys(h2hData).map(coppia => ({
       loc: `${site}/scontri-diretti/${coppia}`,

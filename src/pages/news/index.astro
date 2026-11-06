@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const site = 'https://analisitennis.it';
+const CAT_LABEL = {
+  'cambio-allenatore': 'Cambio allenatore', 'infortunio': 'Infortunio',
+  'forfait': 'Forfait', 'ritiro-carriera': 'Fine carriera', 'titolo': 'Titolo',
+  'traguardo': 'Traguardo', 'squalifica': 'Squalifica', 'wild-card': 'Wild card',
+  'rientro': 'Rientro', 'altro': 'News',
+};
+
+const news = (await getCollection('news', ({ data }) => data.pubblicato !== false))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+---
+<Base
+  titolo="News di tennis - Ultime notizie ATP e WTA - AnalisiTennis"
+  descrizione="Le ultime notizie di tennis verificate: cambi di allenatore, infortuni, forfait, ritiri, titoli e traguardi del circuito ATP e WTA, sempre con la fonte."
+  canonical={`${site}/news`}
+>
+  <div class="contenitore" style="padding-top: 24px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'News' }]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Attualità</div>
+      <h1>News di tennis</h1>
+      <p>
+        Le notizie del circuito, verificate su fonti indipendenti e sempre con il link alla fonte:
+        cambi di panchina, infortuni, forfait, ritiri, titoli e traguardi di ATP e WTA.
+      </p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {news.length === 0 ? (
+          <p style="color: var(--testo-secondario); padding: 48px 0;">Nessuna notizia pubblicata al momento.</p>
+        ) : (
+          <div class="griglia-articoli" style="padding: 0;">
+            {news.map(nw => (
+              <article class="card-articolo">
+                <div class="eyebrow">{CAT_LABEL[nw.data.categoria] || 'News'} · {new Date(nw.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
+                <h2><a href={`/news/${nw.slug}`}>{nw.data.titolo}</a></h2>
+                {nw.data.sommario && <p class="sottotitolo">{nw.data.sommario}</p>}
+                {nw.data.fonte_nome && <div class="data">Fonte: {nw.data.fonte_nome}</div>}
+              </article>
+            ))}
+          </div>
+        )}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>

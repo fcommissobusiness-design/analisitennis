@@ -4,33 +4,31 @@ import { getCollection } from 'astro:content';
 
 export async function GET(context) {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
 
   const now = Date.now();
   const windowMs = 48 * 60 * 60 * 1000;
-  const recenti = articoli.filter(a => {
-    const t = (a.data.generato_il ? new Date(a.data.generato_il) : a.data.data).valueOf();
-    return now - t <= windowMs;
-  });
+  const tempo = (x) => (x.data.generato_il ? new Date(x.data.generato_il) : new Date(x.data.data)).valueOf();
 
-  recenti.sort((a, b) => {
-    const ta = (a.data.generato_il ? new Date(a.data.generato_il) : a.data.data).valueOf();
-    const tb = (b.data.generato_il ? new Date(b.data.generato_il) : b.data.data).valueOf();
-    return tb - ta;
-  });
+  // Articoli-partita e notizie, entrambi nella finestra 48h di Google News.
+  const entries = [
+    ...articoli.map(a => ({ loc: `/articoli/${a.slug}`, t: tempo(a), titolo: a.data.titolo })),
+    ...news.map(n => ({ loc: `/news/${n.slug}`, t: tempo(n), titolo: n.data.titolo })),
+  ].filter(e => now - e.t <= windowMs).sort((a, b) => b.t - a.t);
 
-  const items = recenti.map(a => {
-    const dt = (a.data.generato_il ? new Date(a.data.generato_il) : a.data.data).toISOString();
+  const items = entries.map(e => {
+    const dt = new Date(e.t).toISOString();
     const esc = s => (s || '').replace(/[<>&"']/g, c => ({ '<':'&lt;', '>':'&gt;', '&':'&amp;', '"':'&quot;', "'":'&apos;' }[c]));
     return `  <url>
-    <loc>${site}/articoli/${a.slug}</loc>
+    <loc>${site}${e.loc}</loc>
     <news:news>
       <news:publication>
         <news:name>AnalisiTennis</news:name>
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>${dt}</news:publication_date>
-      <news:title>${esc(a.data.titolo)}</news:title>
+      <news:title>${esc(e.titolo)}</news:title>
     </news:news>
   </url>`;
   }).join('\n');

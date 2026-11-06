@@ -70,6 +70,23 @@ const torneiProfilo = defineCollection({
   })
 });
 
+const news = defineCollection({
+  type: 'content',
+  schema: z.object({
+    titolo: z.string(),
+    sommario: z.string().default(''),
+    data: z.coerce.date(),
+    autore: z.string().default('Redazione AnalisiTennis'),
+    categoria: z.string(),
+    chiave: z.string().optional(),
+    fonte_nome: z.string().optional(),
+    fonte_url: z.string().optional(),
+    tag: z.array(z.string()).default([]),
+    generato_il: z.string().optional(),
+    pubblicato: z.boolean().default(true),
+  }),
+});
+
 const guide = defineCollection({
   type: 'content',
   schema: z.object({
@@ -86,5 +103,6 @@ export const collections = {
   articoli,
   'giocatori-profilo': giocatoriProfilo,
   'tornei-profilo': torneiProfilo,
+  news,
   guide,
 };
