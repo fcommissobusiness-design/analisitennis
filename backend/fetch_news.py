@@ -100,11 +100,17 @@ def _claude_call(prompt, timeout=900, web=False):
 
 
 def _estrai_json(txt, array=False):
-    pat = r'\[.*\]' if array else r'\{.*\}'
-    m = re.search(pat, txt, re.S)
-    if not m:
+    """Estrae il primo valore JSON completo, ignorando eventuale testo dopo
+    (il modello a volte aggiunge una spiegazione in coda all'array/oggetto)."""
+    open_ch = '[' if array else '{'
+    i = txt.find(open_ch)
+    if i < 0:
         raise ValueError('nessun JSON trovato nella risposta')
-    return json.loads(m.group(0))
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(txt[i:])
+        return obj
+    except ValueError as e:
+        raise ValueError(f'JSON non interpretabile: {e}')
 
 
 PROMPT_SCOPERTA = """Sei un cronista di tennis. Usa la ricerca web per trovare le notizie di tennis SIGNIFICATIVE di oggi {data} e delle ultime 48 ore, da fonti affidabili: siti ufficiali (ATP, WTA, ITF, Federtennis), grandi testate sportive, account ufficiali verificati.
@@ -141,20 +147,25 @@ CATEGORIA: {category}
 
 Stile: cronaca sobria e professionale, niente trattino lungo (usa la virgola), accenti corretti (è, più, città, perché), niente linguaggio da scommesse. Cita la fonte nel corpo (es. "secondo {fonte_principale}"). Non pronosticare, non speculare.
 
+IMPORTANTE: NON aggiungere nessun dettaglio che non sia nel fatto verificato: niente nazionalità, età, palmares, cause, cifre o dichiarazioni non presenti. Riporta solo il fatto e la sua attribuzione alla fonte. Se il fatto è scarno, la notizia è scarna: va bene.
+
 Restituisci SOLO JSON:
 {{"titolo":"titolo giornalistico chiaro","sommario":"una frase di sintesi","corpo_markdown":"2-4 paragrafi brevi, con l'attribuzione alla fonte","tag":["entita' principali, 2-5 tag"]}}"""
 
-PROMPT_GATE = """Controlla che questa notizia non affermi NULLA che non sia contenuto nel fatto verificato. E' un gate anti-allucinazione.
+PROMPT_GATE = """Gate anti-allucinazione per una notizia di tennis. Verifica che la notizia non affermi FATTI SOSTANZIALI non supportati.
 
-FATTO VERIFICATO: {fatto}
+FATTO VERIFICATO (confermato dalle fonti): {fatto}
+FONTI CONFERMANTI: {fonti}
 
 NOTIZIA SCRITTA:
 titolo: {titolo}
 corpo: {corpo}
 
-Se la notizia aggiunge dettagli non presenti nel fatto verificato (numeri, nomi, cause, date, dichiarazioni, contesto non confermato), oppure ne travisa il senso, allora ok=false.
+Metti ok=false SOLO se la notizia afferma un fatto sostanziale, cioe' un numero, un risultato, una data, una causa, una dichiarazione o un attributo (es. nazionalita', eta', titoli), che NON e' contenuto nel fatto verificato ne' deducibile da esso.
 
-Restituisci SOLO JSON: {{"ok":true o false,"problemi":["elenco dei dettagli non supportati dal fatto verificato"]}}"""
+NON segnalare come problema: l'attribuzione a una delle fonti conferma (citare la fonte e' corretto e richiesto), la riformulazione del fatto verificato, le frasi di contesto generiche che non introducono nuovi fatti.
+
+Restituisci SOLO JSON: {{"ok":true o false,"problemi":["solo i fatti sostanziali non supportati, se ce ne sono"]}}"""
 
 
 def _chiave_notizia(cat, entities, data_fatto):
@@ -201,9 +212,10 @@ def scrivi(fatto, fonti, category):
     return _estrai_json(txt)
 
 
-def gate(fatto, art):
-    txt = _claude_call(PROMPT_GATE.format(fatto=fatto, titolo=art.get('titolo', ''),
-                                          corpo=art.get('corpo_markdown', '')), timeout=300)
+def gate(fatto, fonti, art):
+    txt = _claude_call(PROMPT_GATE.format(
+        fatto=fatto, fonti=json.dumps(fonti, ensure_ascii=False),
+        titolo=art.get('titolo', ''), corpo=art.get('corpo_markdown', '')), timeout=300)
     try:
         return _estrai_json(txt)
     except Exception:
@@ -282,7 +294,7 @@ def run(data_iso):
         except Exception as e:
             print(f'[news]   scrittura fallita: {e}', flush=True)
             continue
-        g = gate(fatto, art)
+        g = gate(fatto, fonti, art)
         if not g.get('ok'):
             print(f'[news]   gate FALLITO: {g.get("problemi")}', flush=True)
             scartate.append({'headline': hd, 'motivo': 'gate: ' + '; '.join(g.get('problemi', []))})
