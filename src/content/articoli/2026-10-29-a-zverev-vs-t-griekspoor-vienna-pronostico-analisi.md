@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Zverev: gli scontri diretti pendono 7-3 dalla sua par
 descrizione: "Zverev contro Griekspoor a Vienna: scontri diretti, forma recente e caratteristiche dell'indoor a confronto in un match dal passato ricco di sfide."
 pubblicato: true
 cover_image: "/covers/2026-10-29-a-zverev-vs-t-griekspoor-vienna-pronostico-analisi.jpg"
-cover_credit: "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21122372629).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
+cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21122372629).jpg"
 generato_il: "2026-10-29T07:17"
 ---
 

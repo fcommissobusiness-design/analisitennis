@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Musetti"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-02-l-musetti-vs-h-hurkacz-paris-pronostico-analisi.jpg"
-cover_credit: "Lorenzo Musetti at 2025 Miami Open.jpg | Vbrunophotog | CC BY-SA 4.0"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Lorenzo Musetti at 2025 Miami Open.jpg"
 generato_il: "2026-11-02T07:52"
 ---
 

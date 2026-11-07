@@ -19,7 +19,8 @@ verdetto: "Oggi nettamente Basilashvili: arriva dalla finale di Almaty con dodic
 descrizione: "Rodionov e Basilashvili aprono Vienna sul cemento indoor: precedente, forma recente e stato dei due a confronto in una sfida dal pronostico aperto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-j-rodionov-vs-n-basilashvili-vienna-pronostico-analisi.jpg"
-cover_credit: "Paris-FR-75-open de tennis-2-6-17-Roland Garros-Nikoloz Basilashvili-08.jpg | François GOGLINS | CC BY-SA 4.0"
+cover_credit: "François GOGLINS / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Paris-FR-75-open de tennis-2-6-17-Roland Garros-Nikoloz Basilashvili-08.jpg"
 generato_il: "2026-10-28T08:56"
 ---
 

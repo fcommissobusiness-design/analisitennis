@@ -23,7 +23,8 @@ probabilita_favorito: "Shelton"
 probabilita_percent: 61
 generato_il: "2026-11-07T07:02"
 cover_image: "/covers/2026-11-07-l-van-assche-vs-b-shelton-paris-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "CivArmy / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"
 ---
 
 La seconda semifinale del Masters di Parigi mette di fronte due giocatori che, fino a oggi, non si erano mai incrociati sul circuito maggiore. Luca van Assche, francese classe 2004, e Ben Shelton, statunitense nato nel 2002, si presentano alla Paris La Défense Arena di Nanterre da storie diverse ma con un elemento in comune: una settimana, finora, praticamente perfetta sul cemento della capitale francese.

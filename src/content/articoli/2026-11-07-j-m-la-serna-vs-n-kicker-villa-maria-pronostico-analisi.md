@@ -23,7 +23,8 @@ probabilita_favorito: "Kicker"
 probabilita_percent: 53
 generato_il: "2026-11-07T07:23"
 cover_image: "/covers/2026-11-07-j-m-la-serna-vs-n-kicker-villa-maria-pronostico-analisi.jpg"
-cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
+cover_credit: "GuillaumeG / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:PP Olympic Stadium - Tennis courts.jpg"
 ---
 
 Il penultimo atto di Villa Maria mette uno di fronte all'altro due giocatori che non si erano mai incrociati prima in carriera. **La Serna** e **Kicker** arrivano a questa semifinale per strade diverse ma con lo stesso biglietto da visita: una serie aperta di tre vittorie consecutive dentro il torneo. L'assenza di scontri diretti alle spalle lascia parlare soltanto quello che i due hanno mostrato sul campo nelle ultime settimane, ed è da lì che conviene partire.

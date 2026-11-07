@@ -20,7 +20,8 @@ descrizione: "Tien e De Minaur si affrontano a Vienna sul cemento indoor in un o
 pubblicato: true
 generato_il: "2026-10-28T08:38"
 cover_image: "/covers/2026-10-28-l-tien-vs-a-de-minaur-vienna-pronostico-analisi.jpg"
-cover_credit: "Alex De Minaur (28940702537).jpg | Keith Allison from Hanover, MD, USA | CC BY-SA 2.0"
+cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Alex De Minaur (28940702537).jpg"
 ---
 
 Gli ottavi di **Vienna** propongono un confronto inedito e per questo ricco di curiosità, con il giovane Learner Tien chiamato a misurarsi contro un Alex de Minaur che attraversa un ottimo periodo di forma. Sul cemento indoor della capitale austriaca si incrociano due generazioni e due modi diversi di stare in campo, senza alcun precedente a fare da bussola e con tanta voglia di raggiungere i quarti.

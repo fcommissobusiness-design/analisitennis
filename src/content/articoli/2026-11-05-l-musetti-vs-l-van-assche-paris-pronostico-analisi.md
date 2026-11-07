@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Musetti"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-05-l-musetti-vs-l-van-assche-paris-pronostico-analisi.jpg"
-cover_credit: "Musetti 2023.png | LHC88 | CC BY 4.0"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Musetti 2023.png"
 generato_il: "2026-11-05T07:44"
 ---
 

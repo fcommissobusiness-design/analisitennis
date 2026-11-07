@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Buse"
 probabilita_percent: 52
 cover_image: "/covers/2026-11-05-n-borges-vs-i-buse-paris-pronostico-analisi.jpg"
-cover_credit: "Borges Rosmalen.jpg | Tvx1 | CC BY-SA 4.0"
+cover_credit: "Tvx1 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Borges Rosmalen.jpg"
 generato_il: "2026-11-05T07:14"
 ---
 

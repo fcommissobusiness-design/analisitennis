@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Ruud"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-06-c-ruud-vs-n-borges-paris-pronostico-analisi.jpg"
-cover_credit: "Casper Ruud, Norwegian professional tennis player, ATP 500 Basel 2025.jpg | Skyscraper2010 | CC BY-SA 4.0"
+cover_credit: "Skyscraper2010 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Casper Ruud, Norwegian professional tennis player, ATP 500 Basel 2025.jpg"
 generato_il: "2026-11-06T07:06"
 ---
 

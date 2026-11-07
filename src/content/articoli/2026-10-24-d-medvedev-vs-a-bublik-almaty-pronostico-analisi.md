@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Medvedev: la continuità di risultati delle ultime se
 descrizione: "Semifinale ATP Almaty: Daniil Medvedev sfida Alexander Bublik. Forma, scontri diretti e caratteristiche a confronto in un match dal pronostico aperto."
 pubblicato: true
 cover_image: "/covers/2026-10-24-d-medvedev-vs-a-bublik-almaty-pronostico-analisi.jpg"
-cover_credit: "Daniil Medvedev Practicing Tennis 01.jpg | Amaury Laporte | CC BY 2.0"
+cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Daniil Medvedev Practicing Tennis 01.jpg"
 ---
 
 La semifinale di **Almaty** mette di fronte Daniil Medvedev e Alexander Bublik, due giocatori che si conoscono a memoria e che arrivano all'appuntamento del 24 ottobre con un posto in finale come posta in palio sul veloce kazako. È un incrocio che il circuito ha già visto molte volte negli anni, e che oggi si rinnova con dinamiche in parte nuove.

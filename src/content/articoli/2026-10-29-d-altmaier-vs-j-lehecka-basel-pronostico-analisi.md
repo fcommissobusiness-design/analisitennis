@@ -21,7 +21,8 @@ verdetto: "Oggi la può spuntare Lehecka: la finale recente di Tokyo e l'unico p
 descrizione: "Altmaier contro Lehecka negli ottavi di Basilea sul cemento indoor: forma recente, precedenti e percorso dei due a confronto in una sfida dall'esito apertissimo."
 pubblicato: true
 cover_image: "/covers/2026-10-29-d-altmaier-vs-j-lehecka-basel-pronostico-analisi.jpg"
-cover_credit: "Daniel Altmaier (2023 US Open) 11.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Daniel Altmaier (2023 US Open) 11.jpg"
 generato_il: "2026-10-29T06:57"
 ---
 

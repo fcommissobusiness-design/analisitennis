@@ -23,7 +23,8 @@ descrizione: "Finale del Challenger di Sioux Falls tra Dietrich e Draxl: forma r
 pubblicato: true
 generato_il: "2026-11-01T07:30"
 cover_image: "/covers/2026-11-01-d-dietrich-vs-l-draxl-sioux-falls-pronostico-analisi.jpg"
-cover_credit: "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg | Johann Jaritz | CC BY-SA 4.0"
+cover_credit: "Johann Jaritz / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg"
 ---
 
 La **finale** di **Sioux Falls** mette di fronte due giocatori arrivati all'ultimo atto da strade molto diverse, ciascuno con argomenti solidi da portare in campo. Da una parte Dennis Dietrich, che ha costruito la propria settimana con regolarità; dall'altra Liam Draxl, reduce da un periodo in cui ha incrociato avversari di assoluto rilievo. È un confronto inedito, e questo aggiunge incognita a una sfida che sulla carta promette equilibrio.

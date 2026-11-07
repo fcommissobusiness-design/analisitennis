@@ -23,7 +23,8 @@ probabilita_favorito: "Mrva"
 probabilita_percent: 53
 generato_il: "2026-11-06T07:38"
 cover_image: "/covers/2026-11-06-m-mrva-vs-m-martineau-taranto-italy-pronostico-analisi.jpg"
-cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
+cover_credit: "GuillaumeG / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:PP Olympic Stadium - Tennis courts.jpg"
 ---
 
 Il torneo di Taranto è arrivato alla fase dei quarti di finale e tra gli accoppiamenti spicca un confronto fotografato quasi allo specchio: **Mrva** e **Martineau** si presentano entrambi reduci da due successi nel tabellone e con la stessa voglia di prolungare la settimana. Due giocatori che hanno vissuto un avvicinamento diverso, ma che oggi condividono lo stesso stato di salute agonistico, il che rende la vigilia particolarmente difficile da decifrare in anticipo.

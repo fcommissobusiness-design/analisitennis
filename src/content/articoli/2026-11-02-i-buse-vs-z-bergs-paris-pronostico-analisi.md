@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Bergs"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-02-i-buse-vs-z-bergs-paris-pronostico-analisi.jpg"
-cover_credit: "Zizou Bergs (2023 US Open) 03.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Zizou Bergs (2023 US Open) 03.jpg"
 generato_il: "2026-11-02T07:33"
 ---
 

@@ -23,7 +23,8 @@ probabilita_favorito: "Kym"
 probabilita_percent: 58
 generato_il: "2026-11-07T07:35"
 cover_image: "/covers/2026-11-07-j-kym-vs-m-dodig-bratislava-2-pronostico-analisi.jpg"
-cover_credit: "RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg | Vssun | CC BY-SA 3.0"
+cover_credit: "Vssun / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg"
 ---
 
 Il torneo di **Bratislava 2** è arrivato alle semifinali e mette di fronte due giocatori che ci sono approdati vincendo tre partite a testa. Da una parte **Jérôme Kym**, svizzero classe 2003, dall'altra Dodig: un confronto che entrambi raggiungono dopo un cammino netto nelle prime uscite della settimana, senza passi falsi lungo la strada. Due percorsi paralleli che ora si incrociano, con in palio un posto nell'ultimo atto.

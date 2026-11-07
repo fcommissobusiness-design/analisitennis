@@ -23,7 +23,8 @@ probabilita_favorito: "Montgomery"
 probabilita_percent: 62
 generato_il: "2026-11-06T07:12"
 cover_image: "/covers/2026-11-06-r-montgomery-vs-m-rajeshwaran-revathi-chennai-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
+cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
 ---
 
 Il tabellone del WTA di Chennai consegna ai **quarti di finale** un incrocio che non si era mai visto prima: da una parte Robin Montgomery, statunitense mancina di ventidue anni, dall'altra Maaya Rajeshwaran Revathi, padrona di casa indiana che di anni ne ha diciassette. Sul **cemento** di Chennai si affrontano due giocatrici separate da una generazione e da percorsi recenti molto diversi, entrambe però arrivate a questo turno vincendo i primi due match della settimana.

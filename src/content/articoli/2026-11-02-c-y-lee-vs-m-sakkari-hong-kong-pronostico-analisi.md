@@ -24,7 +24,8 @@ probabilita_favorito: "Sakkari"
 probabilita_percent: 69
 generato_il: "2026-11-02T07:15"
 cover_image: "/covers/2026-11-02-c-y-lee-vs-m-sakkari-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Universityofbath indoor tennis courts arp.jpg | Adrian Pingstone (Arpingstone) | Public domain"
+cover_credit: "Adrian Pingstone (Arpingstone) / Public domain / Wikimedia Commons"
+cover_file: "File:Universityofbath indoor tennis courts arp.jpg"
 ---
 
 Il primo turno del torneo di **Hong Kong** mette in fila due percorsi recenti molto diversi, quello di C. Y. Lee e quello di M. Sakkari. Le due giocatrici arrivano all'appuntamento con un bilancio quasi speculare nelle ultime quindici uscite, otto vittorie e sette sconfitte a testa, eppure il contesto in cui quei risultati sono maturati le ha portate su binari lontani. Proprio per questo l'esordio sul cemento asiatico porta con sé più di un interrogativo, e capire da dove arrivano aiuta a immaginare cosa potrà succedere in campo.

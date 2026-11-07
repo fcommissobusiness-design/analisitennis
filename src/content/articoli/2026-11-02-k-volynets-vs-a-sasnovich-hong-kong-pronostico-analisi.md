@@ -23,7 +23,8 @@ probabilita_favorito: "Volynets"
 probabilita_percent: 53
 generato_il: "2026-11-02T07:14"
 cover_image: "/covers/2026-11-02-k-volynets-vs-a-sasnovich-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "CivArmy / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"
 ---
 
 Il primo turno del torneo di Hong Kong mette di fronte due giocatrici che si conoscono bene e che arrivano all'appuntamento con sensazioni quasi opposte. Da una parte l'americana **Katie Volynets**, dall'altra la bielorussa **Aliaksandra Sasnovich**: due profili diversi per esperienza, ritmo partita e abitudini di gioco, chiamati a misurarsi sul cemento rapido asiatico in un match che sulla carta sembra un semplice antipasto, ma che nei dettagli nasconde più di uno spunto interessante.

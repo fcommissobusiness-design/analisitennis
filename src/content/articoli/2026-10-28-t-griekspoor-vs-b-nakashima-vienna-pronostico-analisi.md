@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Griekspoor: l'olandese arriva dal titolo di Bru
 descrizione: "Tallon Griekspoor affronta Brandon Nakashima al primo turno di Vienna: scontri diretti, forma recente e stile di gioco a confronto sul cemento indoor."
 pubblicato: true
 cover_image: "/covers/2026-10-28-t-griekspoor-vs-b-nakashima-vienna-pronostico-analisi.jpg"
-cover_credit: "Tallon Griekspoor - Roland-Garros - 28.05.2024.jpg | Kuberzog | CC BY 4.0"
+cover_credit: "Kuberzog / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Tallon Griekspoor - Roland-Garros - 28.05.2024.jpg"
 generato_il: "2026-10-28T08:34"
 ---
 

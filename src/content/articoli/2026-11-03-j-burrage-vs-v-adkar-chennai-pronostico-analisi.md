@@ -23,7 +23,8 @@ probabilita_favorito: "Burrage"
 probabilita_percent: 62
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-j-burrage-vs-v-adkar-chennai-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "CivArmy / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"
 ---
 
 Il cemento di **Chennai** apre le sue porte a un confronto tra due giocatrici che, nelle ultime settimane, hanno abitato mondi tennistici piuttosto distanti. Da una parte Jodie Burrage, britannica reduce da un autunno trascorso in buona parte su palcoscenici di livello superiore; dall'altra Vaidehi Adkar, che arriva a questo appuntamento dopo una lunga serie di partite nei tornei del circuito minore. Non esistono precedenti tra le due, e questo rende la lettura del match un esercizio di confronto tra traiettorie, più che tra ricordi comuni.

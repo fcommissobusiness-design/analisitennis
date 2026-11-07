@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Berrettini"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-04-m-berrettini-vs-u-humbert-paris-pronostico-analisi.jpg"
-cover_credit: "Matteo Berrettini at 2025 Miami Open 01.jpg | Vbrunophotog | CC BY-SA 4.0"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Matteo Berrettini at 2025 Miami Open 01.jpg"
 generato_il: "2026-11-04T07:32"
 ---
 

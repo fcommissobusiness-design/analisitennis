@@ -23,7 +23,8 @@ probabilita_favorito: "Shelton"
 probabilita_percent: 71
 generato_il: "2026-11-05T07:37"
 cover_image: "/covers/2026-11-05-b-shelton-vs-a-rinderknech-paris-pronostico-analisi.jpg"
-cover_credit: "Rinderknech REN21 (2).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Rinderknech REN21 (2).jpg"
 ---
 
 Gli **ottavi di finale** del Rolex Paris Masters mettono di fronte due giocatori accomunati da una statura importante e da un tennis che parte dai colpi d'inizio gioco. Lo statunitense Ben Shelton, mancino di ventiquattro anni, affronta il francese Arthur Rinderknech, chiamato a esprimersi davanti al proprio pubblico sul veloce al coperto della capitale.

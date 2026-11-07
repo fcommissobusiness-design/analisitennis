@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Zverev: il tedesco arriva dal titolo allo US Open e d
 descrizione: "Analisi di Zverev-Landaluce al primo turno di Vienna: forma recente, precedenti assenti e caratteristiche del veloce indoor in un esordio tutto da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi.jpg"
-cover_credit: "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20691907103).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
+cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20691907103).jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

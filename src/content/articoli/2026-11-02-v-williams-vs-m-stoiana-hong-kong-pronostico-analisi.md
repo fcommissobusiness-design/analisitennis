@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Stoiana"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-02-v-williams-vs-m-stoiana-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Secretary Kerry Watches As Venus Williams Prepares to Receive a Serve During A Tennis Match (28736162851).jpg | U.S. | Public domain"
+cover_credit: "U.S. / Public domain / Wikimedia Commons"
+cover_file: "File:Secretary Kerry Watches As Venus Williams Prepares to Receive a Serve During A Tennis Match (28736162851).jpg"
 generato_il: "2026-11-02T07:14"
 ---
 

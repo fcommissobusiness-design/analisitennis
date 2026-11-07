@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Sonmez"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-05-m-stojsavljevic-vs-z-sonmez-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Mika Stojsavljevic 2026 Birmingham Open.jpg | Daniel Cooper | CC BY-SA 4.0"
+cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Mika Stojsavljevic 2026 Birmingham Open.jpg"
 generato_il: "2026-11-05T07:21"
 ---
 

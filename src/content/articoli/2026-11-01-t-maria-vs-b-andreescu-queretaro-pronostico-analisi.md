@@ -23,7 +23,8 @@ descrizione: "Tatjana Maria contro Bianca Andreescu a Queretaro: primo confronto
 pubblicato: true
 generato_il: "2026-11-01T07:11"
 cover_image: "/covers/2026-11-01-t-maria-vs-b-andreescu-queretaro-pronostico-analisi.jpg"
-cover_credit: "RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg | Vssun | CC BY-SA 3.0"
+cover_credit: "Vssun / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg"
 ---
 
 Il tabellone di **Queretaro** regala un confronto dal fascino particolare: due giocatrici arrivate a questo appuntamento senza aver ceduto nemmeno un set nel torneo messicano si ritrovano l'una di fronte all'altra, ciascuna con alle spalle un autunno fitto di impegni. La tedesca Tatjana Maria e la canadese **Bianca Andreescu** non si sono mai affrontate in un incontro ufficiale registrato, elemento che aggiunge un'ulteriore incognita a una sfida già di per sé aperta.

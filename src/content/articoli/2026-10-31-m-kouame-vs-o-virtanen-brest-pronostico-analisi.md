@@ -21,7 +21,8 @@ descrizione: "Semifinale del Challenger di Brest tra M. Kouame e O. Virtanen: fo
 pubblicato: true
 generato_il: "2026-10-31T06:58"
 cover_image: "/covers/2026-10-31-m-kouame-vs-o-virtanen-brest-pronostico-analisi.jpg"
-cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
+cover_credit: "GuillaumeG / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:PP Olympic Stadium - Tennis courts.jpg"
 ---
 
 La semifinale del Challenger di **Brest** mette di fronte M. Kouame e O. Virtanen, due giocatori arrivati all'ultimo atto senza aver ancora ceduto un set nel torneo. È un incrocio del tutto inedito: i due non si sono mai affrontati prima in un match ufficiale, e questo toglie ogni riferimento diretto a chi prova a leggere la sfida in anticipo. Da un lato c'è la curiosità del primo confronto, dall'altro la consapevolezza che nessuno dei due potrà contare sulla memoria di un successo passato.

@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Medvedev: il veloce indoor sposa il suo tennis,
 descrizione: "Medvedev e Alcaraz si sfidano nella semifinale di Vienna sul veloce indoor: scontri diretti, forma recente e i numeri di una rivalità ancora apertissima."
 pubblicato: true
 cover_image: "/covers/2026-10-31-d-medvedev-vs-c-alcaraz-vienna-pronostico-analisi.jpg"
-cover_credit: "Daniil Medvedev Practicing Tennis 02.jpg | Amaury Laporte | CC BY 2.0"
+cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Daniil Medvedev Practicing Tennis 02.jpg"
 generato_il: "2026-10-31T07:08"
 ---
 

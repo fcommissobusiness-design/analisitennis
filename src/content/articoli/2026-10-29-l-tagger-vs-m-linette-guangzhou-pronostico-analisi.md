@@ -21,7 +21,8 @@ descrizione: "Guangzhou, ottavi di finale: Lisa Tagger sfida Magda Linette in un
 pubblicato: true
 generato_il: "2026-10-29T06:53"
 cover_image: "/covers/2026-10-29-l-tagger-vs-m-linette-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
+cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
 ---
 
 Il tabellone di Guangzhou propone negli ottavi un confronto del tutto inedito tra l'austriaca **Lisa Tagger** e la polacca Magda Linette, due giocatrici arrivate a questo turno superando il rispettivo match d'esordio sul cemento cinese. Entrambe hanno vinto all'ingresso nel torneo, e già questo basta a dare al duello una cornice di equilibrio formale, con due donne in fiducia che si giocano l'accesso ai quarti.

@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Kasatkina: l'esperienza ai livelli più alti e 
 descrizione: "Semifinale WTA di Tokyo tra Y. Ma e D. Kasatkina: forma recente, stili a confronto e nessun precedente diretto. Analisi del match sul cemento giapponese."
 pubblicato: true
 cover_image: "/covers/2026-10-24-y-ma-vs-d-kasatkina-tokyo-pronostico-analisi.jpg"
-cover_credit: "Daria Kasatkina at the 2025 Eastbourne Open.jpg | Daniel Cooper | CC BY-SA 4.0"
+cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Daria Kasatkina at the 2025 Eastbourne Open.jpg"
 ---
 
 La semifinale WTA di **Tokyo** mette di fronte due giocatrici che non si sono mai incontrate prima su un campo da tennis. Y. Ma e D. Kasatkina arrivano all'ultimo ostacolo prima della finale da direzioni opposte, con bagagli di esperienza e calendari recenti piuttosto diversi, e proprio l'assenza di riferimenti comuni rende questo appuntamento più difficile del solito da inquadrare in partenza. Da un lato una giocatrice reduce da settimane intense sul circuito asiatico, dall'altro una interprete che conosce bene cosa significhi arrivare in fondo a un torneo: ingredienti sufficienti per un match dall'esito tutt'altro che scontato.

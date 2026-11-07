@@ -21,7 +21,8 @@ verdetto: "Oggi la può spuntare Zverev: guida gli scontri diretti cinque a tre 
 descrizione: "Zverev e de Minaur si sfidano nella semifinale di Vienna sul veloce indoor: scontri diretti, forma recente e stili a confronto in un match da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-31-a-zverev-vs-a-de-minaur-vienna-pronostico-analisi.jpg"
-cover_credit: "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21125107898).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
+cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21125107898).jpg"
 generato_il: "2026-10-31T07:28"
 ---
 

@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Boulter: il rodaggio accumulato nei tornei del 
 descrizione: "Katie Boulter e Ishii si giocano un posto in finale al WTA di Tokyo: forma recente, cammini, precedenti e contesto di una semifinale tutta da leggere."
 pubblicato: true
 cover_image: "/covers/2026-10-24-k-boulter-vs-s-ishii-tokyo-pronostico-analisi.jpg"
-cover_credit: "Katie Boulter Return of Serve.jpg | Chris Czermak | CC BY 2.0"
+cover_credit: "Chris Czermak / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Katie Boulter Return of Serve.jpg"
 ---
 
 Il tabellone del torneo di **Tokyo** regala una semifinale dai contorni curiosi, con la britannica Katie Boulter opposta a Ishii sul cemento giapponese. Due giocatrici che arrivano a questo appuntamento da percorsi molto diversi, con un calendario fittissimo alle spalle e la posta in palio di un posto nell'ultimo atto. È il genere di confronto in cui l'esperienza accumulata nei palcoscenici maggiori e lo slancio di chi sta vivendo un periodo positivo finiscono per pesare in direzioni opposte, rendendo difficile tracciare un pronostico netto a tavolino.

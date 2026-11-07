@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Struff: il momento gioca dalla sua parte, reduc
 descrizione: "Struff contro Borges nei quarti di Basel: forma recente, precedenti e superficie indoor a confronto in una sfida equilibrata per la semifinale ATP."
 pubblicato: true
 cover_image: "/covers/2026-10-30-j-l-struff-vs-n-borges-basel-pronostico-analisi.jpg"
-cover_credit: "Jan-Lennard Struff (45658733462).jpg | Carine06 from UK | CC BY-SA 2.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Jan-Lennard Struff (45658733462).jpg"
 generato_il: "2026-10-30T07:13"
 ---
 

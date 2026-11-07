@@ -23,7 +23,8 @@ probabilita_favorito: "Sramkova"
 probabilita_percent: 62
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-m-uchijima-vs-r-sramkova-chennai-pronostico-analisi.jpg"
-cover_credit: "Centre Court Scoreboard.JPG | Clavecin | Public domain"
+cover_credit: "Clavecin / Public domain / Wikimedia Commons"
+cover_file: "File:Centre Court Scoreboard.JPG"
 ---
 
 Il primo turno di Chennai propone un confronto dal sapore particolare tra la giapponese **Mayo Uchijima** e la slovacca **Rebecca Sramkova**, due interpreti che si presentano sul cemento indiano con percorsi stagionali ricchi ma momenti recenti piuttosto diversi tra loro. È una di quelle sfide d'apertura che raramente finiscono in archivio senza battaglia, perché entrambe hanno mostrato nel corso del 2026 di saper alzare il livello quando il contesto si fa impegnativo. Capire quale delle due riuscirà a imporre le proprie caratteristiche fin dai primi game sarà la vera chiave della giornata.

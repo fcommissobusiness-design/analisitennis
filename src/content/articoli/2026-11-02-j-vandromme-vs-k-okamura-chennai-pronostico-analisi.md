@@ -24,7 +24,8 @@ probabilita_favorito: "Okamura"
 probabilita_percent: 61
 generato_il: "2026-11-02T07:22"
 cover_image: "/covers/2026-11-02-j-vandromme-vs-k-okamura-chennai-pronostico-analisi.jpg"
-cover_credit: "Leeton Indoor Stadium and Leeton District Tennis Club tennis courts.jpg | Bidgee | CC BY-SA 3.0 au"
+cover_credit: "Bidgee / CC BY-SA 3.0 au / Wikimedia Commons"
+cover_file: "File:Leeton Indoor Stadium and Leeton District Tennis Club tennis courts.jpg"
 ---
 
 Il **primo turno** del torneo WTA di **Chennai** mette di fronte J. Vandromme e K. Okamura in una sfida inedita, senza alcun confronto diretto alle spalle. Due giocatrici che arrivano all'appuntamento lungo traiettorie molto diverse per quantità di partite nelle gambe e tipo di avvicinamento, il che rende l'incrocio difficile da inquadrare con una semplice lettura dei nomi.

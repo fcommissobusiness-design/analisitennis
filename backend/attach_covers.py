@@ -341,6 +341,129 @@ def clean_author(s: str) -> str:
     return first
 
 
+def build_credit(pick: dict) -> str:
+    """Credito foto su UNA sola riga: autore, licenza, Wikimedia Commons.
+    Niente nome-file lungo (prima causa di didascalie da 7-15 righe su mobile).
+    L'attribuzione Commons richiede autore + licenza + fonte, non il filename."""
+    author = clean_author(pick.get('author'))
+    lic = strip_html(pick.get('license') or '').strip() or 'licenza Wikimedia'
+    cred = f"{author} / {lic} / Wikimedia Commons"
+    cred = re.sub(r'\s+', ' ', cred).strip()
+    if len(cred) > 110:
+        cred = cred[:107].rstrip(' ,;/') + '...'
+    return cred
+
+
+# --- Risoluzione nome abbreviato -> nome completo per la ricerca foto --------
+# Oltre alla NAME_MAP hardcoded, pesca da src/data/name-map.json e dai nomi
+# dei profili giocatore gia' scritti: cosi' MOLTI piu' match ricevono una foto
+# del giocatore invece di ripiegare su un venue (meno "stadi che giocatori").
+_EXTRA_NAMES = None
+_PROFILE_NAMES = None
+
+
+def _norm_tok(s: str) -> str:
+    import unicodedata
+    s = unicodedata.normalize('NFD', s or '')
+    s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
+    return re.sub(r'[^a-z]', '', s.lower())
+
+
+def _load_extra_names() -> dict:
+    global _EXTRA_NAMES
+    if _EXTRA_NAMES is not None:
+        return _EXTRA_NAMES
+    m = {}
+    try:
+        nm = json.loads((ROOT / 'src' / 'data' / 'name-map.json').read_text())
+        if isinstance(nm, dict):
+            m.update(nm)
+    except Exception:
+        pass
+    _EXTRA_NAMES = m
+    return m
+
+
+def _profile_fullnames() -> list:
+    global _PROFILE_NAMES
+    if _PROFILE_NAMES is not None:
+        return _PROFILE_NAMES
+    names = []
+    pdir = ROOT / 'src' / 'content' / 'giocatori-profilo'
+    if pdir.exists():
+        for f in pdir.glob('*.md'):
+            try:
+                t = f.read_text()
+                mm = re.search(r'^nome:\s*"?(.*?)"?\s*$', t, re.M)
+                if mm:
+                    names.append(mm.group(1).strip())
+            except Exception:
+                pass
+    _PROFILE_NAMES = names
+    return names
+
+
+def _match_profile_fullname(abbrev: str):
+    """abbrev tipo 'L. Sonego' / 'J-L. Struff' -> nome completo di un profilo
+    con stessa iniziale del nome e stesso cognome. None se nessun match certo."""
+    parts = abbrev.replace('.', ' ').split()
+    if len(parts) < 2:
+        return None
+    surname = _norm_tok(parts[-1])
+    initial = _norm_tok(parts[0])[:1]
+    if len(surname) < 4 or not initial:
+        return None
+    cand = []
+    for full in _profile_fullnames():
+        fp = full.split()
+        if len(fp) < 2:
+            continue
+        if _norm_tok(fp[-1]) == surname and _norm_tok(fp[0])[:1] == initial:
+            cand.append(full)
+    # Solo se il match e' univoco (evita di confondere due omonimi di cognome).
+    return cand[0] if len(cand) == 1 else None
+
+
+def resolve_full(abbrev: str):
+    """Nome completo da nome abbreviato, in ordine: NAME_MAP -> name-map.json
+    -> profili esistenti (iniziale+cognome). None se davvero non risolvibile."""
+    if not abbrev:
+        return None
+    if abbrev in NAME_MAP:
+        return NAME_MAP[abbrev]
+    extra = _load_extra_names()
+    if abbrev in extra:
+        return extra[abbrev]
+    return _match_profile_fullname(abbrev)
+
+
+def all_used_cover_files(skip_slug: str = '') -> set:
+    """Tutti i file Commons ('File:...') gia' usati come cover in QUALSIASI
+    articolo. Serve al dedup GLOBALE: nessuna foto deve ripetersi tra articoli
+    diversi (richiesta esplicita: basta con 'sempre le stesse immagini').
+    Legge il campo cover_file se presente, altrimenti il primo segmento del
+    vecchio cover_credit (filename)."""
+    used = set()
+    for art in ARTICOLI.glob('2026-*.md'):
+        if skip_slug and art.stem == skip_slug:
+            continue
+        try:
+            fm, _ = parse_frontmatter(art)
+        except Exception:
+            continue
+        if not fm:
+            continue
+        cf = (fm.get('cover_file') or '').strip()
+        if not cf:
+            cf = (fm.get('cover_credit') or '').split('|')[0].strip()
+        if not cf:
+            continue
+        if not cf.startswith('File:'):
+            cf = 'File:' + cf
+        used.add(cf)
+    return used
+
+
 def used_covers_for_player(last_name: str, skip_slug: str = '') -> set:
     """Titoli file ('File:...') gia' usati come cover negli articoli che
     riguardano un giocatore (match del cognome nella credit). Serve a NON
@@ -412,13 +535,20 @@ def _rank(result):
         score -= 40
     if 'cropped' in t:
         score -= 12
-    # Recency: una foto recente racconta il giocatore di OGGI.
+    # Recency: una foto recente racconta il giocatore di OGGI. Pesata forte:
+    # l'utente non vuole scatti di molti anni fa (giocatore piu' giovane, altra
+    # immagine). Una foto <2016 viene scartata quasi sempre se ne esiste una
+    # recente dello stesso giocatore.
     anno = _anno_foto(result['title'])
     if anno:
-        if anno >= 2024: score += 16
-        elif anno >= 2022: score += 10
-        elif anno >= 2020: score += 5
-        elif anno < 2016: score -= 6
+        if anno >= 2024: score += 30
+        elif anno >= 2022: score += 18
+        elif anno >= 2020: score += 8
+        elif anno >= 2018: score += 0
+        elif anno >= 2016: score -= 12
+        else: score -= 30
+    else:
+        score -= 3  # anno ignoto: leggera sfiducia (spesso foto vecchie)
     # Depenalizza le foto che ritraggono DUE persone (es. "Djokovic vs
     # Alcaraz", "X and Y"): per una cover singola vogliamo il giocatore
     # da solo, non un duello a figura intera che confonde il soggetto.
@@ -604,22 +734,26 @@ def _venue_rank(result):
     return score
 
 
-def pick_venue(torneo: str, slug_hint: str = ''):
+def pick_venue(torneo: str, slug_hint: str = '', exclude=None):
     """Sceglie una foto venue per il torneo.
     slug_hint: slug dell'articolo. Quando passato, varia la scelta tra i
     top candidati venue in modo deterministico, cosi' articoli diversi
     dello stesso torneo prendono foto DIVERSE del venue (evita cover
-    identica su piu' articoli)."""
+    identica su piu' articoli).
+    exclude: file ('File:...') gia' usati come cover in ALTRI articoli: non
+    vanno riproposti (dedup globale)."""
     import hashlib
+    excl = set(exclude or ())
     q = VENUE_MAP.get(torneo) or torneo
     best_fallback = None
     for query in (q, f'{torneo} tennis', f'{torneo} tennis center', f'{torneo} tennis stadium'):
         results = commons_search(query)
         # Scarta loghi/cartelloni/cerimonie (BAD_SCENE) a monte: non devono
-        # finire nemmeno nel best_fallback.
+        # finire nemmeno nel best_fallback. Scarta anche i file gia' usati.
         results = [r for r in results
                    if (_looks_tennis(r['title']) or _is_venue_photo(r['title']))
-                   and not _BAD_SCENE_RE.search(r['title'])]
+                   and not _BAD_SCENE_RE.search(r['title'])
+                   and r['title'] not in excl]
         if not results:
             continue
         venue_only = [r for r in results if _is_venue_photo(r['title'])]
@@ -648,7 +782,7 @@ def pick_venue(torneo: str, slug_hint: str = ''):
                   'WTA tennis stadium', 'tennis centre court match',
                   'hard court tennis stadium', 'clay court tennis stadium'):
         for r in commons_search(query):
-            if r['title'] in seen:
+            if r['title'] in seen or r['title'] in excl:
                 continue
             if _looks_tennis(r['title']) and _is_venue_photo(r['title']):
                 seen.add(r['title'])

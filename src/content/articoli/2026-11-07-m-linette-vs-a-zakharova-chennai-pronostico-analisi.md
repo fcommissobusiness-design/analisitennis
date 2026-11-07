@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Linette"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi.jpg"
-cover_credit: "Anastasia Zakharova (2025 DC Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Anastasia Zakharova (2025 DC Open) 02.jpg"
 generato_il: "2026-11-07T07:17"
 ---
 

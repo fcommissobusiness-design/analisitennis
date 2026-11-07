@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Cerundolo"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-02-c-ruud-vs-j-m-cerundolo-paris-pronostico-analisi.jpg"
-cover_credit: "Casper Ruud (2023 US Open) 01.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Casper Ruud (2023 US Open) 01.jpg"
 generato_il: "2026-11-02T07:45"
 ---
 

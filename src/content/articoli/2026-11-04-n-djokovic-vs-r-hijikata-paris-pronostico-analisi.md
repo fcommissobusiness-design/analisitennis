@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Djokovic"
 probabilita_percent: 64
 cover_image: "/covers/2026-11-04-n-djokovic-vs-r-hijikata-paris-pronostico-analisi.jpg"
-cover_credit: "Novak Djokovic Practicing Tennis 06.jpg | Amaury Laporte | CC BY 2.0"
+cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Novak Djokovic Practicing Tennis 06.jpg"
 generato_il: "2026-11-04T07:16"
 ---
 

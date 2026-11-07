@@ -21,7 +21,8 @@ descrizione: "Finale ATP di Vienna tra Adrian Mannarino e Alex Molcan sul veloce
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-a-mannarino-vs-a-molcan-vienna-pronostico-analisi.jpg"
-cover_credit: "Adrian Mannarino at the 2010 US Open 01.jpg | Robbie Mendelson | CC BY-SA 2.0"
+cover_credit: "Robbie Mendelson / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Adrian Mannarino at the 2010 US Open 01.jpg"
 ---
 
 Vienna chiude la sua settimana con una finale dal sapore inatteso: da una parte il francese **Adrian Mannarino**, dall'altra lo slovacco **Alex Molcan**, due giocatori che hanno attraversato il tabellone con ritmi e storie diverse per ritrovarsi oggi, 25 ottobre, a contendersi il titolo sul veloce indoor austriaco. Nessuno dei due partiva come favorito d'obbligo a inizio torneo, e questo rende l'ultimo atto ancora più aperto alla lettura.

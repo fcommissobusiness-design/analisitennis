@@ -23,7 +23,8 @@ probabilita_favorito: "Valentová"
 probabilita_percent: 62
 generato_il: "2026-11-05T07:13"
 cover_image: "/covers/2026-11-05-t-valentova-vs-a-eala-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Alex Eala (2024 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Alex Eala (2024 US Open) 02.jpg"
 ---
 
 Il tabellone del Prudential Hong Kong Tennis Open propone al secondo turno un confronto tra Tereza Valentová e Alexandra Eala, due giocatrici arrivate a questo appuntamento con lo stesso biglietto da visita. Entrambe hanno superato il proprio match d'ingresso nei primi giorni del torneo: la ceca ha regolato Himeno Sakatsume, la filippina ha avuto la meglio su Alycia Parks. Ora il sorteggio le mette una di fronte all'altra sul **cemento** di Hong Kong, con un posto al turno successivo come premio immediato.

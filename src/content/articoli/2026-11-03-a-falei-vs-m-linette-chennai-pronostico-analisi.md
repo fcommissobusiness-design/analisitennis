@@ -23,7 +23,8 @@ probabilita_favorito: "Falei"
 probabilita_percent: 71
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-a-falei-vs-m-linette-chennai-pronostico-analisi.jpg"
-cover_credit: "Magda Linette (2024 US Open) 01.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Magda Linette (2024 US Open) 01.jpg"
 ---
 
 Il tabellone di **Chennai** propone al primo turno un confronto inedito tra Falei e Magda Linette, due giocatrici che arrivano in campo con storie recenti molto diverse tra loro. Le due non si sono mai affrontate in carriera sul circuito maggiore, e l'assenza di un passato comune rende più complicato pesare in anticipo le rispettive possibilità. È una di quelle partite in cui contano soprattutto il momento, la condizione del giorno e la capacità di imporre il proprio ritmo fin dai primi scambi, senza un precedente a fare da bussola.

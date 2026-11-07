@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Alcaraz"
 probabilita_percent: 72
 cover_image: "/covers/2026-11-06-t-fritz-vs-c-alcaraz-paris-pronostico-analisi.jpg"
-cover_credit: "Carlos Alcaraz (2026 US Open) - 07.jpg | Oleg Yunakov | CC BY-SA 4.0"
+cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Carlos Alcaraz (2026 US Open) - 07.jpg"
 generato_il: "2026-11-06T07:21"
 ---
 

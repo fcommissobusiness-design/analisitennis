@@ -21,7 +21,8 @@ descrizione: "Primo turno di qualificazione del Challenger di Ningbo tra X. Yang
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-x-yang-vs-t-derepasko-ningbo-pronostico-analisi.jpg"
-cover_credit: "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg | Johann Jaritz | CC BY-SA 4.0"
+cover_credit: "Johann Jaritz / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg"
 ---
 
 Il tabellone preliminare del Challenger di **Ningbo** mette di fronte X. Yang e T. Derepasko al primo turno delle qualificazioni, alla vigilia di una settimana sul cemento cinese che prenderà il via lunedì con il main draw. Due percorsi differenti convergono qui, in una di quelle giornate in cui conta meno l'etichetta del tabellone e di più il modo in cui ciascuno dei due si è presentato all'appuntamento. Il cinese entra con una wild card concessa dagli organizzatori, il russo con il numero 10 di testa di serie del tabellone cadetto: due strade diverse per arrivare allo stesso bivio, quello che separa dal tabellone principale.

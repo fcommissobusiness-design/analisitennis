@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Zverev: fresco campione dello US Open, reduce da un o
 descrizione: "Zverev e Fery si sfidano nei quarti di Vienna sul cemento indoor: cammino, forma recente e l'unico precedente di Wimbledon a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-30-a-zverev-vs-a-fery-vienna-pronostico-analisi.jpg"
-cover_credit: "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21302358712).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
+cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21302358712).jpg"
 generato_il: "2026-10-30T07:21"
 ---
 

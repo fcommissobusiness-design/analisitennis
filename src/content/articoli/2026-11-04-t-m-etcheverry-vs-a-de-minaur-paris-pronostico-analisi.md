@@ -23,7 +23,8 @@ probabilita_favorito: "de Minaur"
 probabilita_percent: 71
 generato_il: "2026-11-04T07:40"
 cover_image: "/covers/2026-11-04-t-m-etcheverry-vs-a-de-minaur-paris-pronostico-analisi.jpg"
-cover_credit: "Tomás Martin Etcheverry - 2024 Olympics.jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Tomás Martin Etcheverry - 2024 Olympics.jpg"
 ---
 
 Il tabellone del **Rolex Paris Masters** propone al secondo turno un confronto che i due protagonisti conoscono già bene. Sul cemento indoor della capitale francese, torneo di categoria Masters nato nel 1969, Etcheverry e de Minaur si ritrovano dopo essersi affrontati in tre occasioni sparse tra uno Slam, una competizione a squadre e la stagione sulla terra. È un incrocio che porta con sé una piccola storia personale e che arriva, questa volta, in un momento di stagione molto diverso per ciascuno dei due.

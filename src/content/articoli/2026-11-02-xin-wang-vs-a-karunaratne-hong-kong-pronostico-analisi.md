@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Wang"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-02-xin-wang-vs-a-karunaratne-hong-kong-pronostico-analisi.jpg"
-cover_credit: "XINYU WANG 20220919a9.jpg | 江戸村のとくぞう | CC BY-SA 4.0"
+cover_credit: "江戸村のとくぞう / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:XINYU WANG 20220919a9.jpg"
 generato_il: "2026-11-02T07:08"
 ---
 

@@ -21,7 +21,8 @@ descrizione: "Matteo Berrettini affronta Alex De Minaur nei quarti dell'ATP di V
 pubblicato: true
 generato_il: "2026-10-30T07:30"
 cover_image: "/covers/2026-10-30-m-berrettini-vs-a-de-minaur-vienna-pronostico-analisi.jpg"
-cover_credit: "Matteo Berrettini at 2025 Miami Open 03.jpg | Vbrunophotog | CC BY-SA 4.0"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Matteo Berrettini at 2025 Miami Open 03.jpg"
 ---
 
 Il veloce indoor di **Vienna** rimette uno di fronte all'altro due giocatori che hanno ormai una storia comune ben definita. Nei quarti di finale Matteo Berrettini, italiano dal servizio imponente, incrocia l'australiano Alex De Minaur, uno dei ribattitori e dei velocisti più riconoscibili del circuito. È il quinto capitolo di un confronto cominciato cinque anni fa e mai scontato, perché i due si sono alternati vittorie su superfici e contesti diversi, lasciando un bilancio che racconta equilibrio più che supremazia.

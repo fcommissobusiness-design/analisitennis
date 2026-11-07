@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Falei"
 probabilita_percent: 71
 cover_image: "/covers/2026-11-02-a-falei-vs-m-linette-chennai-pronostico-analisi.jpg"
-cover_credit: "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+cover_credit: "VasuVR / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:CHO08-Marcos Baghdatis Chennai Open practice court.jpg"
 generato_il: "2026-11-02T07:28"
 ---
 

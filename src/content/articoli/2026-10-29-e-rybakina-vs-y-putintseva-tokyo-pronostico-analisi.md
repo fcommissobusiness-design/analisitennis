@@ -21,7 +21,8 @@ verdetto: "Oggi nettamente Rybakina: conduce i precedenti per due a zero, arriva
 descrizione: "Rybakina e Putintseva si sfidano negli ottavi del WTA di Tokyo: forma recente, precedenti e stili a confronto in un derby kazako sul veloce."
 pubblicato: true
 cover_image: "/covers/2026-10-29-e-rybakina-vs-y-putintseva-tokyo-pronostico-analisi.jpg"
-cover_credit: "Elena Rybakina - 2025 Roland Garros - still.jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Elena Rybakina - 2025 Roland Garros - still.jpg"
 generato_il: "2026-10-29T07:33"
 ---
 

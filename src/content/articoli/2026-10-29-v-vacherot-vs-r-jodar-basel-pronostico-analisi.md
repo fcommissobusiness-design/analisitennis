@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Jodar: la recentissima finale di Shanghai, con i succ
 descrizione: "Agli ottavi di Basilea Valentin Vacherot affronta Rafael Jodar in un match inedito sul cemento indoor. Forma, cammino e stile dei due a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-29-v-vacherot-vs-r-jodar-basel-pronostico-analisi.jpg"
-cover_credit: "Constantin Vacherot, photo impressions, Swiss Indoors 2025 in Basel.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Constantin Vacherot, photo impressions, Swiss Indoors 2025 in Basel.jpg"
 generato_il: "2026-10-29T06:54"
 ---
 

@@ -23,7 +23,8 @@ probabilita_favorito: "Samsonova"
 probabilita_percent: 59
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-a-shubladze-vs-l-samsonova-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Liudmila Samsonova (2024 US Open) 01.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Liudmila Samsonova (2024 US Open) 01.jpg"
 ---
 
 Il primo turno del torneo di Hong Kong mette di fronte due giocatrici arrivate all'appuntamento da strade molto diverse. Da una parte **A. Shubladze**, reduce da settimane fittissime e da una lunga scia di risultati positivi; dall'altra **L. Samsonova**, volto riconoscibile dei tornei maggiori, abituata ai palcoscenici del grande circuito. Sul cemento asiatico si incrociano così due momenti di carriera distanti, senza alcun riferimento comune a fare da bussola.

@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Alcaraz: i sei precedenti sorridono tutti allo spagno
 descrizione: "Khachanov sfida Alcaraz al primo turno di Vienna sul cemento indoor: sei precedenti alle spalle, forma recente e stile a confronto in una sfida da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-27-k-khachanov-vs-c-alcaraz-vienna-pronostico-analisi.jpg"
-cover_credit: "Carlos Alcaraz - Roland Garros 2025 - serving.jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Carlos Alcaraz - Roland Garros 2025 - serving.jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

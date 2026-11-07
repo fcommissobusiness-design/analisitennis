@@ -23,7 +23,8 @@ probabilita_favorito: "Martineau"
 probabilita_percent: 52
 generato_il: "2026-11-07T07:11"
 cover_image: "/covers/2026-11-07-f-gill-vs-m-martineau-taranto-italy-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
 ---
 
 Il tabellone del challenger di **Taranto** arriva alle semifinali con un confronto che mette di fronte Gill e Matteo **Martineau**, due giocatori saliti a questo turno percorrendo esattamente la stessa strada: tre vittorie consecutive dentro il torneo. Nessuno dei due si è presentato qui con l'etichetta del favorito annunciato, e proprio per questo il match conserva un margine di incertezza che vale la pena osservare da vicino, senza farsi guidare da impressioni affrettate.

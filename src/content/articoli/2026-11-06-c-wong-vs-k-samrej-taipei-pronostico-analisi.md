@@ -23,7 +23,8 @@ probabilita_favorito: "Wong"
 probabilita_percent: 61
 generato_il: "2026-11-06T07:11"
 cover_image: "/covers/2026-11-06-c-wong-vs-k-samrej-taipei-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Anjo Sports Park tennis court ac.jpg"
 ---
 
 Ci sono partite che sembrano la puntata di una serie già cominciata, e il quarto di finale di Taipei tra **Coleman Wong** e K. Samrej è una di queste. I due non sono volti nuovi l'uno per l'altro: si sono già incrociati tre volte in poco più di due stagioni, e qui arrivano entrambi dopo aver superato i turni precedenti del tabellone. Il venerdì mattina asiatico mette di fronte due giocatori che hanno imparato a conoscersi, con un ultimo confronto così vicino nel tempo da essere ancora fresco nella memoria di entrambi.

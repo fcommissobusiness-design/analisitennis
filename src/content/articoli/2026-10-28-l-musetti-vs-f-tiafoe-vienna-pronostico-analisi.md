@@ -20,7 +20,8 @@ verdetto: "Match da terzo set senza un favorito netto: i precedenti dicono Tiafo
 descrizione: "Musetti sfida Tiafoe al primo turno di Vienna sul cemento indoor: sei precedenti divisi, forma recente e stile di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-l-musetti-vs-f-tiafoe-vienna-pronostico-analisi.jpg"
-cover_credit: "Musetti Rolex.png | LHC88 | CC BY 4.0"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Musetti Rolex.png"
 generato_il: "2026-10-28T08:23"
 ---
 

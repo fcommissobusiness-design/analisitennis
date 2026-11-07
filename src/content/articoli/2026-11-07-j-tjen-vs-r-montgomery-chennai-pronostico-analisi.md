@@ -23,7 +23,8 @@ probabilita_favorito: "Tjen"
 probabilita_percent: 57
 generato_il: "2026-11-07T07:15"
 cover_image: "/covers/2026-11-07-j-tjen-vs-r-montgomery-chennai-pronostico-analisi.jpg"
-cover_credit: "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+cover_credit: "VasuVR / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:CHO08-Marcos Baghdatis Chennai Open practice court.jpg"
 ---
 
 Il tabellone WTA di **Chennai** è arrivato al penultimo atto e mette di fronte due giocatrici che hanno attraversato la settimana senza perdere un match: l'indonesiana Janice Tjen e la statunitense Robin Montgomery si giocano l'accesso alla finale sul **cemento** indiano, in un pomeriggio che promette ritmo e pochi tempi morti. Nessuna delle due ha mai incrociato l'altra in una partita ufficiale, dettaglio che aggiunge un margine di imprevedibilità a un confronto già aperto sulla carta.

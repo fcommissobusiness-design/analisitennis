@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Fritz"
 probabilita_percent: 71
 cover_image: "/covers/2026-11-04-a-molcan-vs-t-fritz-paris-pronostico-analisi.jpg"
-cover_credit: "Taylor Fritz at 2025 Miami Open 01.jpg | Vbrunophotog | CC BY-SA 4.0"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Taylor Fritz at 2025 Miami Open 01.jpg"
 generato_il: "2026-11-04T07:22"
 ---
 

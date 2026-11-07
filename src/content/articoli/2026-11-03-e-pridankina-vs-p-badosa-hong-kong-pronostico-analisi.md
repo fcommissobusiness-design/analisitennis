@@ -23,7 +23,8 @@ probabilita_favorito: "Badosa"
 probabilita_percent: 53
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-e-pridankina-vs-p-badosa-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Paula Badosa Sydney title.jpg | Avatar5991 | CC BY-SA 4.0"
+cover_credit: "Avatar5991 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Paula Badosa Sydney title.jpg"
 ---
 
 Il tabellone femminile di Hong Kong consegna al primo turno un incrocio che si lascia leggere su più livelli. Il 3 novembre E. Pridankina e P. Badosa si ritrovano sul **cemento** asiatico arrivando da percorsi recenti molto diversi, senza nulla alle spalle che le abbia già messe una di fronte all'altra. È uno di quei confronti in cui sarà il campo a sciogliere le incognite che i numeri lasciano aperte.

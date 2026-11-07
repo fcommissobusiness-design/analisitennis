@@ -21,7 +21,8 @@ descrizione: "Musetti e Fritz si giocano il titolo di Lione sul cemento indoor. 
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-l-musetti-vs-t-fritz-lyon-france-qualification-pronostico-analisi.jpg"
-cover_credit: "Musetti Rolex.png | LHC88 | CC BY 4.0"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Musetti Rolex.png"
 ---
 
 Un torneo nato quasi in sordina si è trasformato nel palcoscenico di una delle rivalità più ricorrenti del circuito. **Lorenzo Musetti** e **Taylor Fritz** si ritrovano nell'atto conclusivo di Lione dopo aver percorso strade parallele lungo tutta la settimana. Due interpreti diversi del gioco, accomunati dal buon momento che li ha condotti fin qui senza particolari sbavature.

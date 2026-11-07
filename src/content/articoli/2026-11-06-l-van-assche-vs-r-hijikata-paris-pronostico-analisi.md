@@ -23,7 +23,8 @@ probabilita_favorito: "van Assche"
 probabilita_percent: 52
 generato_il: "2026-11-06T07:31"
 cover_image: "/covers/2026-11-06-l-van-assche-vs-r-hijikata-paris-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
 ---
 
 I **quarti di finale** del Rolex Paris Masters mettono di fronte due giocatori che fino a pochi giorni fa pochi avrebbero collocato a questo punto del tabellone. Da una parte il francese Luca van Assche, 22 anni, dall'altra l'australiano Rinky Hijikata, 25: due cammini differenti che si incrociano per la prima volta sul cemento indoor di **Parigi**, al termine di una settimana che li ha visti entrambi crescere turno dopo turno.

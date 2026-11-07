@@ -21,7 +21,8 @@ verdetto: "Match da terzo set senza un favorito netto: a Vacherot l'unico preced
 descrizione: "Rune e Vacherot si sfidano nei quarti di finale di Basilea sul cemento indoor: un solo precedente, due percorsi recenti diversi e una semifinale in palio."
 pubblicato: true
 cover_image: "/covers/2026-10-30-h-rune-vs-v-vacherot-basel-pronostico-analisi.jpg"
-cover_credit: "Holger Rune, 2024.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Holger Rune, 2024.jpg"
 generato_il: "2026-10-30T07:26"
 ---
 

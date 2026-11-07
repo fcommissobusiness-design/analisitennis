@@ -23,7 +23,8 @@ probabilita_favorito: "Hijikata"
 probabilita_percent: 59
 generato_il: "2026-11-02T07:28"
 cover_image: "/covers/2026-11-02-l-darderi-vs-r-hijikata-paris-pronostico-analisi.jpg"
-cover_credit: "Darderi WMQ23 (53062101185).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Darderi WMQ23 (53062101185).jpg"
 ---
 
 Il primo turno del torneo di **Paris** mette di fronte Luciano Darderi e Rinky Hijikata, due giocatori che ormai si conoscono molto bene e che hanno incrociato le racchette quattro volte in poco più di due stagioni. Nessuno dei due arriva all'appuntamento con una marcia nettamente superiore, perché l'autunno ha regalato a entrambi settimane fatte di alti e bassi, di vittorie convincenti e di battute d'arresto inattese. È una di quelle sfide che si annunciano aperte, da leggere con attenzione pescando tra numeri, forma del momento e caratteristiche tecniche dei due protagonisti.

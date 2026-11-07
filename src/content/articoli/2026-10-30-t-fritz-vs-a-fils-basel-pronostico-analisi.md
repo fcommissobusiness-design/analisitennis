@@ -22,7 +22,8 @@ descrizione: "Taylor Fritz e Arthur Fils si sfidano nei quarti di finale dello S
 pubblicato: true
 generato_il: "2026-10-30T07:23"
 cover_image: "/covers/2026-10-30-t-fritz-vs-a-fils-basel-pronostico-analisi.jpg"
-cover_credit: "Arthur Fils - Roland-Garros 2025 - forehand.jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Arthur Fils - Roland-Garros 2025 - forehand.jpg"
 ---
 
 Il veloce indoor di **Basilea** regala uno dei quarti di finale più intriganti della settimana, con Taylor Fritz e Arthur Fils chiamati a giocarsi un posto in semifinale allo Swiss Indoors. Due interpreti diversi del tennis moderno, arrivati a questo appuntamento entrambi in fiducia e con un cammino recente di tutto rispetto.

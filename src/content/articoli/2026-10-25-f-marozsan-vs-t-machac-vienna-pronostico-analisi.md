@@ -21,7 +21,8 @@ descrizione: "Marozsan contro Machac nella finale ATP di Vienna sul veloce indoo
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-f-marozsan-vs-t-machac-vienna-pronostico-analisi.jpg"
-cover_credit: "Marozsan 2023.png | LHC88 | CC BY 4.0"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Marozsan 2023.png"
 ---
 
 La finale dell'ATP di Vienna mette di fronte due giocatori arrivati all'ultimo atto percorrendo strade diverse ma convergenti nello stesso risultato. Da una parte l'ungherese **Marozsan**, dall'altra il ceco **Machac**: entrambi hanno superato il proprio turno di semifinale nella stessa giornata, il 24 ottobre, guadagnandosi il diritto di contendersi il titolo sul veloce indoor della capitale austriaca. Una coincidenza che fotografa bene l'equilibrio di partenza di una sfida tutta da leggere.

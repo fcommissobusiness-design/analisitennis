@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Medvedev: il russo arriva dal titolo di Almaty con du
 descrizione: "Merida Aguilar sfida Medvedev al primo turno di Vienna sul cemento indoor: unico precedente, forma recente e stile di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-d-merida-aguilar-vs-d-medvedev-vienna-pronostico-analisi.jpg"
-cover_credit: "Daniil Medvedev Practicing Tennis 01.jpg | Amaury Laporte | CC BY 2.0"
+cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Daniil Medvedev Practicing Tennis 01.jpg"
 generato_il: "2026-10-28T08:24"
 ---
 

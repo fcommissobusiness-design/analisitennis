@@ -20,7 +20,8 @@ descrizione: "Hurkacz e Rune si giocano un ottavo a Basilea sul cemento indoor: 
 pubblicato: true
 generato_il: "2026-10-28T08:40"
 cover_image: "/covers/2026-10-28-h-hurkacz-vs-h-rune-basel-pronostico-analisi.jpg"
-cover_credit: "Hurkacz WMQ18 (32) (29681071278).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Hurkacz WMQ18 (32) (29681071278).jpg"
 ---
 
 Gli ottavi di **Basilea** regalano uno degli incroci più intriganti della giornata, con Hubert Hurkacz e Holger Rune pronti a contendersi un posto nei quarti sul cemento indoor svizzero. Due giocatori dal potenziale elevato che arrivano all'appuntamento con stati di forma e quantità di partite nelle gambe molto diversi tra loro, su una superficie che storicamente si adatta alle qualità di entrambi.

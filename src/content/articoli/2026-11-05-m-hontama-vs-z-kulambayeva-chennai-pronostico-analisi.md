@@ -23,7 +23,8 @@ probabilita_favorito: "Hontama"
 probabilita_percent: 53
 generato_il: "2026-11-05T07:24"
 cover_image: "/covers/2026-11-05-m-hontama-vs-z-kulambayeva-chennai-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
 ---
 
 Gli **ottavi di finale** del torneo WTA di Chennai mettono di fronte due giocatrici che si presentano all'appuntamento con credenziali sorprendentemente simili. Mai Hontama e Zhibek Kulambayeva si sono entrambe guadagnate un posto agli ottavi, portano con sé un bilancio recente quasi sovrapponibile e non si sono mai incontrate prima d'ora in un match ufficiale. È il tipo di partita in cui i riferimenti scarseggiano, in cui le gerarchie non sono scritte da nessuna parte e in cui il peso delle ultime settimane finisce per contare più di qualsiasi etichetta.

@@ -23,7 +23,8 @@ probabilita_favorito: "Hontama"
 probabilita_percent: 61
 generato_il: "2026-11-06T07:31"
 cover_image: "/covers/2026-11-06-m-hontama-vs-m-linette-chennai-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
 ---
 
 Il cemento di Chennai mette di fronte **Mai Hontama** e **Magda Linette** in un quarto di finale che arriva con una piccola coincidenza di percorso: entrambe si presentano all'appuntamento dopo aver superato i due turni precedenti del torneo indiano. Per la giapponese e la polacca è la seconda volta che i loro cammini si incrociano nel 2026, e il contesto odierno è sensibilmente diverso da quello della prima volta.

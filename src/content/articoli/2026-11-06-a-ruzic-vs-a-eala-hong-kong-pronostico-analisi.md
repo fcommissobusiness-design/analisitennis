@@ -23,7 +23,8 @@ probabilita_favorito: "Eala"
 probabilita_percent: 53
 generato_il: "2026-11-06T07:17"
 cover_image: "/covers/2026-11-06-a-ruzic-vs-a-eala-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
+cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
 ---
 
 Il tabellone del torneo WTA di **Hong Kong** consegna ai quarti di finale un incrocio senza memoria: A. Ruzic e Alexandra Eala si affrontano per la prima volta, senza un solo precedente a cui appoggiarsi per immaginare come andrà. Sul cemento asiatico entrambe arrivano all'appuntamento dopo aver superato due turni, segno che il momento non le ha colte impreparate e che la posta in palio, un posto in semifinale, vale lo sforzo di leggere a fondo i due percorsi.

@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Shapovalov: forma più solida nelle ultime sett
 descrizione: "Bertola sfida Shapovalov al primo turno di Basilea sul cemento indoor: nessun precedente, forma recente e fattore campo a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-r-bertola-vs-d-shapovalov-basel-pronostico-analisi.jpg"
-cover_credit: "Shapovalov's backhand.png | LHC88 | CC BY 4.0"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Shapovalov's backhand.png"
 generato_il: "2026-10-28T08:57"
 ---
 

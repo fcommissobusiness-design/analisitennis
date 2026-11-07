@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Ruud: avanti due a uno nei precedenti e con ent
 descrizione: "Borges sfida Ruud negli ottavi di Basilea sul cemento indoor: tre precedenti divisi, forma recente e stile di gioco a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-28-n-borges-vs-c-ruud-basel-pronostico-analisi.jpg"
-cover_credit: "2017 Citi Open Tennis Casper Ruud (35469690474).jpg | Keith Allison from Hanover, MD, USA | CC BY-SA 2.0"
+cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:2017 Citi Open Tennis Casper Ruud (35469690474).jpg"
 generato_il: "2026-10-28T09:04"
 ---
 

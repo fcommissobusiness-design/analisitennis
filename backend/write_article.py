@@ -12,7 +12,8 @@ from datetime import datetime, timedelta
 try:
     from attach_covers import (
         NAME_MAP, VENUE_MAP, COVERS_DIR, detect_winner,
-        pick_image, pick_venue, download, strip_html, clean_author, used_covers_for_player
+        pick_image, pick_venue, download, strip_html, clean_author,
+        used_covers_for_player, resolve_full, build_credit, all_used_cover_files
     )
     HAS_COVER = True
 except Exception:
@@ -163,18 +164,21 @@ def write(match, analysis, out_dir):
 
     cover_image = None
     cover_credit = None
+    cover_file = None
     if HAS_COVER:
         try:
             fav, conf = detect_winner(verdetto, p1, p2)
             pick = None
             tried = set()
+            # Dedup GLOBALE: nessuna foto gia' usata in un altro articolo.
+            used_global = all_used_cover_files(skip_slug=slug)
             # 1. foto del favorito (se il match non e' dato in equilibrio).
-            #    exclude = foto gia' usate per lui in altri articoli: variazione.
+            #    exclude = foto gia' usate per lui + dedup globale: variazione.
             if fav and conf != 'equilibrio':
-                full = NAME_MAP.get(fav)
+                full = resolve_full(fav)
                 if full:
                     tried.add(fav)
-                    excl = used_covers_for_player(full.split()[-1], skip_slug=slug)
+                    excl = used_covers_for_player(full.split()[-1], skip_slug=slug) | used_global
                     pick = pick_image(full, slug_hint=slug, exclude=excl)
             # 2. foto dell'altro protagonista del match (o di uno dei due se
             #    equilibrio): un vero giocatore della partita e' sempre piu'
@@ -183,26 +187,23 @@ def write(match, analysis, out_dir):
                 for cand in (p1, p2):
                     if cand in tried:
                         continue
-                    full = NAME_MAP.get(cand)
+                    full = resolve_full(cand)
                     if full:
-                        excl = used_covers_for_player(full.split()[-1], skip_slug=slug)
+                        excl = used_covers_for_player(full.split()[-1], skip_slug=slug) | used_global
                         pick = pick_image(full, slug_hint=slug, exclude=excl)
                         if pick:
                             break
             # 3. ultima spiaggia: venue del torneo. slug_hint diversifica gli
-            #    articoli dello stesso torneo (anti-duplicato visivo).
+            #    articoli dello stesso torneo; dedup globale evita venue ripetuti.
             if not pick:
-                pick = pick_venue(torneo, slug_hint=slug)
+                pick = pick_venue(torneo, slug_hint=slug, exclude=used_global)
             if pick:
                 dest = COVERS_DIR / f'{slug}.jpg'
                 try:
                     download(pick['url'], dest)
                     cover_image = f'/covers/{slug}.jpg'
-                    cover_credit = (
-                        f"{pick['title'].replace('File:', '')} | "
-                        f"{clean_author(pick.get('author'))} | "
-                        f"{pick.get('license') or 'Wikimedia Commons'}"
-                    )
+                    cover_credit = build_credit(pick)
+                    cover_file = pick['title']  # per il dedup globale (non mostrato)
                 except Exception as e:
                     print(f'[cover] download fallito per {slug}: {e}')
         except Exception as e:
@@ -237,6 +238,8 @@ def write(match, analysis, out_dir):
     if cover_image:
         fm['cover_image'] = cover_image
         fm['cover_credit'] = cover_credit
+        if cover_file:
+            fm['cover_file'] = cover_file
 
     # Timestamp fine analisi (Europe/Rome).
     # Mostrato nell'articolo come "24 ottobre 2026, 07:12".

@@ -23,7 +23,8 @@ probabilita_favorito: "Tjen"
 probabilita_percent: 74
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-j-tjen-vs-k-hui-chennai-pronostico-analisi.jpg"
-cover_credit: "Melbourne Park - Tennis.jpg | annieb | CC BY-SA 2.0"
+cover_credit: "annieb / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Melbourne Park - Tennis.jpg"
 ---
 
 Il primo turno del torneo di **Chennai** mette di fronte Janice Tjen e Kelly Hui, due giocatrici che negli ultimi mesi hanno abitato porzioni molto diverse del calendario femminile. Basta scorrere i rispettivi percorsi recenti per accorgersene: da una parte un autunno trascorso tra le grandi tappe asiatiche, dall'altra una serie di appuntamenti nei tornei della categoria inferiore. L'incrocio su un campo in cemento di inizio novembre diventa quindi interessante proprio per questa distanza di contesto.

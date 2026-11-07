@@ -20,7 +20,8 @@ descrizione: "Mensik e Mannarino si affrontano a Vienna sul cemento indoor: unic
 pubblicato: true
 generato_il: "2026-10-28T08:26"
 cover_image: "/covers/2026-10-28-j-mensik-vs-a-mannarino-vienna-pronostico-analisi.jpg"
-cover_credit: "Adrian Mannarino at the 2010 US Open 02.jpg | Robbie Mendelson | CC BY-SA 2.0"
+cover_credit: "Robbie Mendelson / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Adrian Mannarino at the 2010 US Open 02.jpg"
 ---
 
 Gli ottavi di **Vienna** mettono in scena un affascinante contrasto generazionale e stilistico, con il giovane Jakub Mensik opposto all'esperto Adrian Mannarino sul cemento indoor della capitale austriaca. Da una parte la freschezza e la potenza di un talento in ascesa, dall'altra l'astuzia e il mancinismo di un veterano che continua a togliersi soddisfazioni su ogni superficie.

@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Medvedev: il russo arriva da un ottobre da quattordic
 descrizione: "Mannarino e Medvedev si affrontano nei quarti di Vienna sul veloce indoor: precedenti, forma di ottobre e stili di gioco a confronto in un match da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-30-a-mannarino-vs-d-medvedev-vienna-pronostico-analisi.jpg"
-cover_credit: "Daniil Medvedev Practicing Tennis 06.jpg | Amaury Laporte | CC BY 2.0"
+cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Daniil Medvedev Practicing Tennis 06.jpg"
 generato_il: "2026-10-30T07:06"
 ---
 

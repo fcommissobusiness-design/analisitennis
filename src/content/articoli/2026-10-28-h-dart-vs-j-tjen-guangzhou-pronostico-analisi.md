@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Dart: la britannica arriva da un mese travolgente, co
 descrizione: "Harriet Dart affronta Janice Tjen negli ottavi del WTA di Guangzhou: forma recente, cammini a confronto e nessun precedente tra le due sul cemento."
 pubblicato: true
 cover_image: "/covers/2026-10-28-h-dart-vs-j-tjen-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Harriet Dart at the 2013 US Open 1.jpg | robbiesaurus | CC BY-SA 2.0"
+cover_credit: "robbiesaurus / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Harriet Dart at the 2013 US Open 1.jpg"
 generato_il: "2026-10-28T09:04"
 ---
 

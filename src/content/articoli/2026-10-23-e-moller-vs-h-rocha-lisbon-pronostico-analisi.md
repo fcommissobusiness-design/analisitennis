@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Rocha: la miglior continuità di risultati e il
 descrizione: "Moller contro Rocha nei quarti del challenger di Lisbona: precedenti, forma di ottobre e fattore campo a confronto in una sfida sulla terra."
 pubblicato: true
 cover_image: "/covers/2026-10-23-e-moller-vs-h-rocha-lisbon-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
 ---
 
 Il tabellone del challenger di **Lisbona** propone un quarto di finale dal sapore particolare: Elmer Moller e Henrique Rocha si ritrovano di fronte dopo essersi già incrociati in passato, entrambi arrivati all'appuntamento con due vittorie nelle prime due uscite del torneo. Sulla terra portoghese i due hanno costruito ottobre in modi diversi, ma con un filo comune, quello di una continuità che li ha portati fin qui senza scivoloni nel cammino verso i quarti.

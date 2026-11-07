@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Marozsan: l'ungherese porta in campo un bagaglio e un
 descrizione: "Semifinale ATP a Vienna tra Fabian Marozsan e Sebastian Sorger: forma recente, unico precedente e superficie veloce indoor verso l'ultimo atto del torneo."
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-marozsan-vs-s-sorger-vienna-pronostico-analisi.jpg"
-cover_credit: "Marozsan 2023.png | LHC88 | CC BY 4.0"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Marozsan 2023.png"
 ---
 
 Il tabellone del torneo di Vienna consegna una semifinale dal sapore particolare: da una parte l'ungherese **Fabian Marozsan**, dall'altra l'austriaco Sebastian Sorger, chiamato a recitare un ruolo da protagonista in una fase avanzata del torneo. L'appuntamento è fissato per il pomeriggio del 24 ottobre, sul veloce indoor che accompagna questo scorcio autunnale della stagione.

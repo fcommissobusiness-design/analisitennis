@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Fils"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-05-a-fils-vs-t-fritz-paris-pronostico-analisi.jpg"
-cover_credit: "Arthur Fils - 2024 Olympics (still) (cropped).jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Arthur Fils - 2024 Olympics (still) (cropped).jpg"
 generato_il: "2026-11-05T07:25"
 ---
 

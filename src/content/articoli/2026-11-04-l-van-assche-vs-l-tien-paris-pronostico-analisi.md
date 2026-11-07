@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "van Assche"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-04-l-van-assche-vs-l-tien-paris-pronostico-analisi.jpg"
-cover_credit: "Learner Tien (2024 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Learner Tien (2024 US Open) 02.jpg"
 generato_il: "2026-11-04T07:16"
 ---
 

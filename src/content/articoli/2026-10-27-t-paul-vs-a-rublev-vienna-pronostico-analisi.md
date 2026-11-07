@@ -21,7 +21,8 @@ descrizione: "Paul e Rublev aprono il torneo di Vienna sul veloce indoor: preced
 pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-t-paul-vs-a-rublev-vienna-pronostico-analisi.jpg"
-cover_credit: "2017 Citi Open Tennis Tommy Paul (35510043014).jpg | Keith Allison from Hanover, MD, USA | CC BY-SA 2.0"
+cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:2017 Citi Open Tennis Tommy Paul (35510043014).jpg"
 ---
 
 Il veloce indoor di Vienna mette subito di fronte due interpreti di prima fascia del circuito. Da una parte Tommy Paul, statunitense arrivato all'appuntamento austriaco dopo settimane piene di partite; dall'altra Andrey Rublev, russo da sempre a suo agio sui campi rapidi al coperto. Il tabellone li ha accoppiati già a questo turno, e il risultato è un confronto che promette intensità fin dai primi scambi.

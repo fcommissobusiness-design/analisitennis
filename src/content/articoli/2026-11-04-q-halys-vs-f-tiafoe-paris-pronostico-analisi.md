@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Tiafoe"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-04-q-halys-vs-f-tiafoe-paris-pronostico-analisi.jpg"
-cover_credit: "Frances Tiafoe Backhand (cropped).jpg | All-Pro Reels | CC BY-SA 2.0"
+cover_credit: "All-Pro Reels / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Frances Tiafoe Backhand (cropped).jpg"
 generato_il: "2026-11-04T07:07"
 ---
 

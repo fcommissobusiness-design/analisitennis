@@ -24,7 +24,8 @@ probabilita_favorito: "Norrie"
 probabilita_percent: 59
 generato_il: "2026-11-02T07:34"
 cover_image: "/covers/2026-11-02-c-norrie-vs-m-arnaldi-paris-pronostico-analisi.jpg"
-cover_credit: "Cameron Norrie (45115038752).jpg | Carine06 from UK | CC BY-SA 2.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Cameron Norrie (45115038752).jpg"
 ---
 
 Il primo turno del Masters di Parigi mette di fronte il britannico **Cameron Norrie** e l'italiano **Matteo Arnaldi**, due giocatori che arrivano all'appuntamento con percorsi differenti ma con la stessa voglia di dare una scossa a un finale di stagione in chiaroscuro. L'ultimo grande torneo indoor dell'anno offre a entrambi una vetrina importante, in un tabellone dove il primo passo può valere molto per il morale e per la classifica.

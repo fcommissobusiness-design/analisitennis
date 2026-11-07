@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Struff"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-05-j-l-struff-vs-c-ruud-paris-pronostico-analisi.jpg"
-cover_credit: "Jan-Lennard Struff, Košice Open 2011 (3).jpg | Rl91 | CC BY-SA 3.0"
+cover_credit: "Rl91 / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:Jan-Lennard Struff, Košice Open 2011 (3).jpg"
 generato_il: "2026-11-05T07:07"
 ---
 

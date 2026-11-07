@@ -23,7 +23,8 @@ probabilita_favorito: "Montgomery"
 probabilita_percent: 58
 generato_il: "2026-11-04T07:08"
 cover_image: "/covers/2026-11-04-r-montgomery-vs-j-vandromme-chennai-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
 ---
 
 Il tabellone femminile di **Chennai** regala agli ottavi di finale un confronto che ha già un piccolo passato recentissimo. Robin Montgomery e Jeline Vandromme si erano incrociate appena due mesi fa su un palcoscenico ben più imponente, e oggi si ritrovano una di fronte all'altra sul cemento indiano con l'accesso ai quarti di finale come posta. Un incrocio che, sulla carta, mette insieme due giocatrici in salute: entrambe hanno superato senza particolari affanni l'ostacolo del turno precedente e si presentano a questo appuntamento con la fiducia di chi ha già trovato il ritmo nel torneo.

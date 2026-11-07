@@ -21,7 +21,8 @@ descrizione: "Bondár e Quevedo si sfidano negli ottavi WTA di Guangzhou: un pre
 pubblicato: true
 generato_il: "2026-10-29T07:15"
 cover_image: "/covers/2026-10-29-a-bondar-vs-k-quevedo-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
 ---
 
 C'è un filo che lega Anna Bondár e Quevedo all'ingresso negli ottavi di **Guangzhou**: entrambe sono arrivate a questo appuntamento superando il turno d'esordio, segno che nessuna delle due si presenta sul cemento cinese per caso. Il tabellone le mette ora una di fronte all'altra, in un confronto che intreccia storie recenti diverse ma convergenti nello stesso punto della competizione.

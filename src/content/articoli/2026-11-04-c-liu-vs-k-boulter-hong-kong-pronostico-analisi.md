@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Liu"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-04-c-liu-vs-k-boulter-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Katie Boulter (28768281418).jpg | Peter Menzel | CC BY-SA 2.0"
+cover_credit: "Peter Menzel / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Katie Boulter (28768281418).jpg"
 generato_il: "2026-11-04T07:08"
 ---
 

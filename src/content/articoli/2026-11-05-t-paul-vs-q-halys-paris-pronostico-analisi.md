@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Paul"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-05-t-paul-vs-q-halys-paris-pronostico-analisi.jpg"
-cover_credit: "2017 Citi Open Tennis Tommy Paul (36209015791).jpg | Keith Allison from Hanover, MD, USA | CC BY-SA 2.0"
+cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:2017 Citi Open Tennis Tommy Paul (36209015791).jpg"
 generato_il: "2026-11-05T07:37"
 ---
 

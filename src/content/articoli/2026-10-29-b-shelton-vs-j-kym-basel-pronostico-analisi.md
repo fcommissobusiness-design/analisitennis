@@ -21,7 +21,8 @@ descrizione: "ATP Basilea, ottavi di finale: Ben Shelton affronta Jerome Kym sul
 pubblicato: true
 generato_il: "2026-10-29T07:09"
 cover_image: "/covers/2026-10-29-b-shelton-vs-j-kym-basel-pronostico-analisi.jpg"
-cover_credit: "Ben Shelton, Aufschlag, Swiss Indoors Basel 2024.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Ben Shelton, Aufschlag, Swiss Indoors Basel 2024.jpg"
 ---
 
 Gli ottavi di finale dell'ATP di **Basilea** mettono di fronte Ben Shelton e Jerome Kym, due giocatori arrivati a questo appuntamento percorrendo strade molto diverse nelle ultime settimane. Il torneo svizzero, giocato sul veloce indoor, premia chi sa imporre il ritmo fin dai primi scambi, e il match promette intensità da entrambe le parti della rete.

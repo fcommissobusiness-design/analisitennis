@@ -21,7 +21,8 @@ descrizione: "Vacherot contro Fritz nella semifinale di Basilea 2026: precedenti
 pubblicato: true
 generato_il: "2026-10-31T07:23"
 cover_image: "/covers/2026-10-31-v-vacherot-vs-t-fritz-basel-pronostico-analisi.jpg"
-cover_credit: "Valentin Vacherot.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Valentin Vacherot.jpg"
 ---
 
 Il penultimo atto di **Basilea** mette di fronte due storie diverse che convergono sullo stesso veloce indoor. Victor Vacherot, portacolori del Principato di Monaco, e Taylor Fritz, statunitense, si contendono un posto nella finale del torneo svizzero al termine di una settimana intensa per entrambi. Due giocatori arrivati a questa soglia percorrendo strade distinte ma con la stessa fame di continuare la corsa.

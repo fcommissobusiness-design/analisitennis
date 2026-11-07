@@ -24,7 +24,8 @@ probabilita_favorito: "Garland"
 probabilita_percent: 53
 generato_il: "2026-11-04T07:19"
 cover_image: "/covers/2026-11-04-j-tjen-vs-j-garland-chennai-pronostico-analisi.jpg"
-cover_credit: "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
+cover_credit: "VasuVR / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:CHO08-Marcos Baghdatis Chennai Open practice court.jpg"
 ---
 
 Gli **ottavi di finale** del torneo WTA di Chennai mettono una di fronte all'altra Janice Tjen e Joanna Garland, due giocatrici arrivate allo stesso punto del tabellone percorrendo strade piuttosto diverse. Sul **cemento** indiano entrambe hanno superato il proprio match d'apertura il 3 novembre: l'indonesiana ha avuto la meglio su Hui, mentre la taiwanese si è imposta su Teichmann. Da qui in avanti, però, i rispettivi ruolini di marcia raccontano storie differenti, ed è proprio in quel contrasto che vive l'interesse di questa partita.

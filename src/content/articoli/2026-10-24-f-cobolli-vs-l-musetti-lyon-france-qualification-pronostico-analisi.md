@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Musetti: il rendimento recente appare leggermen
 descrizione: "Cobolli contro Musetti nella semifinale di Lione: analizziamo forma recente, precedenti e momento di stagione dei due azzurri in un derby apertissimo."
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-cobolli-vs-l-musetti-lyon-france-qualification-pronostico-analisi.jpg"
-cover_credit: "Cobolli WMQ23 (53061712891).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Cobolli WMQ23 (53061712891).jpg"
 ---
 
 Lione mette in cartellone una semifinale tutta italiana: **Flavio Cobolli** e **Lorenzo Musetti** si affrontano con in palio un posto nell'ultimo atto del torneo. Due cammini differenti che si incontrano nello stesso punto del tabellone, in una giornata che promette intensità, qualità tecnica e una buona dose di orgoglio nazionale.

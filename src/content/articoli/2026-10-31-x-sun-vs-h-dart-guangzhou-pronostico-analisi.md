@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Dart: nei quarti ha piegato un'avversaria di ra
 descrizione: "Semifinale WTA Guangzhou tra X. Sun e H. Dart: due cammini diversi che si incrociano per la prima volta sul cemento cinese. Forma e precedenti a confronto."
 pubblicato: true
 cover_image: "/covers/2026-10-31-x-sun-vs-h-dart-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Harriet Dart & Jay Clarke (50498803117).jpg | Carine06 from UK | CC BY-SA 2.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Harriet Dart & Jay Clarke (50498803117).jpg"
 generato_il: "2026-10-31T06:53"
 ---
 

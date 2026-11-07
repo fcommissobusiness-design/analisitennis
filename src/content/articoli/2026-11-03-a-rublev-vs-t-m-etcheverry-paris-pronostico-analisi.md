@@ -23,7 +23,8 @@ probabilita_favorito: "Rublev"
 probabilita_percent: 69
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-a-rublev-vs-t-m-etcheverry-paris-pronostico-analisi.jpg"
-cover_credit: "Andrey Rublev at W&S Open 2018.jpg | Ausmor627 | CC BY-SA 4.0"
+cover_credit: "Ausmor627 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Andrey Rublev at W&S Open 2018.jpg"
 ---
 
 Il tabellone di **Parigi** si apre con un confronto che mette di fronte due giocatori abituati a comandare lo scambio da fondo campo, arrivati all'ultimo grande appuntamento al coperto della stagione con più di una domanda cui rispondere. Andrey Rublev e Tomás Martín Etcheverry non sono estranei: si sono già incrociati due volte in carriera e si ritrovano ora sul cemento indoor, una superficie che chiede servizio incisivo e colpi tesi fin dai primi quindici.

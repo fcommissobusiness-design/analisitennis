@@ -21,7 +21,8 @@ descrizione: "Shi Han affronta Dayana Yastremska negli ottavi del WTA di Guangzh
 pubblicato: true
 generato_il: "2026-10-28T09:07"
 cover_image: "/covers/2026-10-28-h-shi-vs-d-yastremska-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Yastremska WMQ23 (53061681226).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Yastremska WMQ23 (53061681226).jpg"
 ---
 
 Il WTA di Guangzhou propone agli ottavi un confronto tra due giocatrici che arrivano da percorsi recenti diversi e che non si sono mai incrociate prima. **Shi Han**, spinta dal pubblico di casa, vive il momento più prolifico della sua stagione, mentre Dayana Yastremska prova a far valere la propria potenza per rilanciare un'annata più discontinua. Sul cemento cinese si misurano due modi quasi opposti di stare in campo, in una fase dell'anno in cui ogni vittoria pesa doppio nella corsa ai tabelloni di fine stagione.

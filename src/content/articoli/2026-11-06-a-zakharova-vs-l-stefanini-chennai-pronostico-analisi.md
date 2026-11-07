@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Stefanini"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-06-a-zakharova-vs-l-stefanini-chennai-pronostico-analisi.jpg"
-cover_credit: "Zakharova WMQ23 (53062168833) (cropped).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Zakharova WMQ23 (53062168833) (cropped).jpg"
 generato_il: "2026-11-06T07:41"
 ---
 

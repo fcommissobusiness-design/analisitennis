@@ -21,7 +21,8 @@ descrizione: "Vacherot e Navone si sfidano al primo turno di Basilea sul cemento
 pubblicato: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-v-vacherot-vs-m-navone-basel-pronostico-analisi.jpg"
-cover_credit: "Valtin Vacherot in the round of 32 against Taylor Fritz at the Swiss Indoors Basel 2025..jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Valtin Vacherot in the round of 32 against Taylor Fritz at the Swiss Indoors Basel 2025..jpg"
 ---
 
 Il tabellone di Basilea propone al primo turno un confronto che ha già una piccola storia alle spalle. Vacherot e Navone si ritrovano di fronte per la terza volta nel 2026, questa volta sul cemento indoor svizzero. Due giocatori abituati a stagioni altalenanti, che si presentano all'appuntamento senza un chiaro spartiacque a separarli e con la voglia comune di dare una svolta alle rispettive settimane.

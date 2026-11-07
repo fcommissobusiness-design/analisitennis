@@ -23,7 +23,8 @@ probabilita_favorito: "Stefanini"
 probabilita_percent: 57
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-r-zolotareva-vs-l-stefanini-chennai-pronostico-analisi.jpg"
-cover_credit: "Lucrezia Stefanini (2026 Cary) 01.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Lucrezia Stefanini (2026 Cary) 01.jpg"
 ---
 
 Il **cemento** di Chennai apre il tabellone con un confronto tra due giocatrici che arrivano all'appuntamento da percorsi molto diversi. Zolotareva e Stefanini si incontrano per la prima volta in un match ufficiale: l'archivio non registra scontri diretti tra loro, e questo toglie qualsiasi riferimento storico su cui appoggiarsi. È una pagina bianca, e come tutte le pagine bianche lascia spazio a più di una lettura.

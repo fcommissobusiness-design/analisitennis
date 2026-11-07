@@ -23,7 +23,8 @@ probabilita_favorito: "Ugo Carabelli"
 probabilita_percent: 61
 generato_il: "2026-11-07T07:35"
 cover_image: "/covers/2026-11-07-g-bueno-vs-c-ugo-carabelli-costa-do-sauipe-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
+cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
 ---
 
 La semifinale di Costa do Sauipe mette di fronte G. Bueno e C. Ugo Carabelli, due giocatori arrivati a questo turno percorrendo strade piuttosto diverse ma con la stessa ambizione: staccare il biglietto per l'ultimo atto. Entrambi si presentano reduci da vittorie costruite con continuità nel corso della settimana, ed entrambi sanno che un solo passo li separa dalla finale. È un incrocio inedito, perché i due non si sono mai affrontati prima in una partita ufficiale.

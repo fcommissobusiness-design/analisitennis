@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Tirante: arriva con diversi giorni di riposo in
 descrizione: "Tirante contro Mannarino nella semifinale di Vienna 2026: un solo precedente allo US Open, forma recente altalenante e un calendario fittissimo da decifrare."
 pubblicato: true
 cover_image: "/covers/2026-10-24-t-a-tirante-vs-a-mannarino-vienna-pronostico-analisi.jpg"
-cover_credit: "Tirante WMQ23 (53062069430).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Tirante WMQ23 (53062069430).jpg"
 ---
 
 La semifinale indoor di **Vienna** mette uno di fronte all'altro due giocatori che si conoscono già da vicino: l'argentino Thiago Agustin Tirante e il francese Adrian Mannarino si erano infatti incrociati poche settimane fa sul cemento di New York. Allora a spuntarla fu il transalpino, ma quel confronto arrivò in una cornice molto diversa da quella di un torneo al coperto europeo, in piena stagione autunnale e con tutt'altre condizioni di gioco.

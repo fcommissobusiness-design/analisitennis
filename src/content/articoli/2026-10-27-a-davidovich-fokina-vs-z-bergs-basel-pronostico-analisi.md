@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Davidovich Fokina: lo spagnolo arriva da due titoli c
 descrizione: "Davidovich Fokina sfida Bergs al primo turno di Basilea: forma, stile e condizioni indoor di un confronto inedito tra due giocatori in fiducia."
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi.jpg"
-cover_credit: "Alejandro Davidovich Fokina, Swiss Indoors Basel.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Alejandro Davidovich Fokina, Swiss Indoors Basel.jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

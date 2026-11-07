@@ -22,7 +22,8 @@ pubblicato: true
 probabilita_favorito: "Zakharova"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-05-a-zakharova-vs-v-adkar-chennai-pronostico-analisi.jpg"
-cover_credit: "Zakharova RGQ23.jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Zakharova RGQ23.jpg"
 generato_il: "2026-11-05T07:33"
 ---
 

@@ -21,7 +21,8 @@ descrizione: "Djokovic sfida Humbert al primo turno di Basilea sul cemento indoo
 pubblicato: true
 generato_il: "2026-10-28T08:55"
 cover_image: "/covers/2026-10-28-n-djokovic-vs-u-humbert-basel-pronostico-analisi.jpg"
-cover_credit: "Novak Djokovic - Roland-Garros - 28.05.2024 croped.jpg | Kuberzog | CC BY 4.0"
+cover_credit: "Kuberzog / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Novak Djokovic - Roland-Garros - 28.05.2024 croped.jpg"
 ---
 
 Il primo turno di Basilea consegna a Novak Djokovic un esordio contro Ugo Humbert, in un incrocio che il circuito non aveva ancora proposto. Sul **cemento indoor** della St. Jakobshalle i due si affrontano per la prima volta, senza precedenti a orientare la vigilia e con due momenti di stagione nettamente diversi alle spalle.

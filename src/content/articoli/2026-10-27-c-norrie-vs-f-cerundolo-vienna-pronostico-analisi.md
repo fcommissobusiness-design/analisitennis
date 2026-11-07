@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Cerundolo: forma del mese più solida, con la semifin
 descrizione: "C. Norrie e F. Cerundolo si sfidano al primo turno di Vienna: precedenti, stato di forma e stili a confronto in un match dal sapore di rivincita."
 pubblicato: true
 cover_image: "/covers/2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi.jpg"
-cover_credit: "Francisco Cerundolo - Wimbledon 2022 (12).jpg | jmmuguerza | CC BY-SA 3.0"
+cover_credit: "jmmuguerza / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:Francisco Cerundolo - Wimbledon 2022 (12).jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

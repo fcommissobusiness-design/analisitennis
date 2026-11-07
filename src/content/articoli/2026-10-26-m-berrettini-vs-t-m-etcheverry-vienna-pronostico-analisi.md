@@ -21,7 +21,8 @@ descrizione: "Berrettini ed Etcheverry aprono Vienna in un primo turno tra due g
 pubblicato: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-m-berrettini-vs-t-m-etcheverry-vienna-pronostico-analisi.jpg"
-cover_credit: "Matteo Berrettini at 2025 Miami Open 04.jpg | Vbrunophotog | CC BY-SA 4.0"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Matteo Berrettini at 2025 Miami Open 04.jpg"
 ---
 
 Il tabellone di **Vienna** mette subito di fronte due giocatori che arrivano all'appuntamento con più domande che certezze. Matteo Berrettini, italiano, e Tomas Martin Etcheverry, argentino, si affrontano al primo turno del torneo austriaco, sul veloce indoor, in un confronto inedito: tra i due non risultano precedenti ufficiali in archivio, e questo aggiunge un margine di imprevedibilità a una sfida già difficile da leggere.

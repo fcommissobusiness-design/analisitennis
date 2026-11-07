@@ -20,7 +20,8 @@ verdetto: "Oggi nettamente Alcaraz: lo spagnolo conduce i precedenti sette a due
 descrizione: "Paul contro Alcaraz nei quarti di Vienna: precedenti, forma recente e fattore indoor a confronto in una sfida dal grande fascino sul veloce al coperto."
 pubblicato: true
 cover_image: "/covers/2026-10-30-t-paul-vs-c-alcaraz-vienna-pronostico-analisi.jpg"
-cover_credit: "Carlos Alcaraz - Roland-Garros 2025.jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Carlos Alcaraz - Roland-Garros 2025.jpg"
 generato_il: "2026-10-30T06:53"
 ---
 

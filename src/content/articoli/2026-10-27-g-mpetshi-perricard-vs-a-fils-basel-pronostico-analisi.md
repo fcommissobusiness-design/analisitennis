@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Fils: la forma più continua e la qualità dell
 descrizione: "Mpetshi Perricard e Fils si affrontano al primo turno di Basilea sul veloce indoor: scontri diretti, forma recente e stili a confronto nell'analisi completa."
 pubblicato: true
 cover_image: "/covers/2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi.jpg"
-cover_credit: "Arthur Fils - 2024 Olympics (forehand).jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Arthur Fils - 2024 Olympics (forehand).jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

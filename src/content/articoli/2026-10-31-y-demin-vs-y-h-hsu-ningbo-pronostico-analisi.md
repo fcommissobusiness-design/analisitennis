@@ -21,7 +21,8 @@ descrizione: "La semifinale Challenger di Ningbo mette di fronte Demin e Hsu: fo
 pubblicato: true
 generato_il: "2026-10-31T07:19"
 cover_image: "/covers/2026-10-31-y-demin-vs-y-h-hsu-ningbo-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
+cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
 ---
 
 Il Challenger di **Ningbo** entra nella fase decisiva e propone una **semifinale** dal fascino particolare: Yaroslav Demin e Yu Hsiou Hsu arrivano al penultimo atto dopo aver attraversato ciascuno il proprio spicchio di tabellone, senza però essersi mai incrociati in carriera. Un confronto che parte da una pagina bianca, con due interpreti giunti allo stesso traguardo seguendo strade diverse.

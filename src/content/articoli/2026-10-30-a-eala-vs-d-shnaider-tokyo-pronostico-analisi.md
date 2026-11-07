@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Shnaider: il successo diretto di Ningbo di appe
 descrizione: "Ai quarti di Tokyo Alex Eala sfida Diana Shnaider a soli otto giorni dal loro ultimo confronto di Ningbo. Analisi di forma, precedenti e stile."
 pubblicato: true
 cover_image: "/covers/2026-10-30-a-eala-vs-d-shnaider-tokyo-pronostico-analisi.jpg"
-cover_credit: "Diana Shnaider (2023 US Open) 03.jpg | Hameltion | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Diana Shnaider (2023 US Open) 03.jpg"
 generato_il: "2026-10-30T07:21"
 ---
 

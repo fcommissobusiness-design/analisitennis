@@ -23,7 +23,8 @@ probabilita_favorito: "Sakkari"
 probabilita_percent: 53
 generato_il: "2026-11-07T07:32"
 cover_image: "/covers/2026-11-07-m-sakkari-vs-a-eala-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
+cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
 ---
 
 Il penultimo atto del torneo di **Hong Kong** mette di fronte due giocatrici arrivate allo stesso traguardo dalla stessa porta: quella delle tre vittorie consecutive in questa settimana. Maria Sakkari, greca, e Alexandra Eala, filippina, non si sono mai incontrate sul circuito, e questo toglie alla **semifinale** una storia a cui appigliarsi. Sul **cemento** di Hong Kong si gioca un posto in finale, con le premesse di una partita da leggere punto per punto.

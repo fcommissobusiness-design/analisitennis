@@ -20,7 +20,8 @@ verdetto: "Oggi la può spuntare Fils: il successo netto di appena sei giorni fa
 descrizione: "Michelsen e Fils di nuovo di fronte a Basel dopo la sfida di Bruxelles di sei giorni fa: precedenti, forma e cammino dei due nell'ottavo di finale indoor."
 pubblicato: true
 cover_image: "/covers/2026-10-29-a-michelsen-vs-a-fils-basel-pronostico-analisi.jpg"
-cover_credit: "Arthur Fils - Roland-Garros 2025 - backhand.jpg | Kuberzog | CC BY-SA 4.0"
+cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Arthur Fils - Roland-Garros 2025 - backhand.jpg"
 generato_il: "2026-10-29T07:20"
 ---
 

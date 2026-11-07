@@ -21,7 +21,8 @@ verdetto: "Oggi nettamente Lehecka: il tre a zero nei precedenti, con l'ultimo s
 descrizione: "Lehecka contro Struff nella semifinale di Basel sul veloce indoor: scontri diretti, cammino nel torneo e forma recente di due giocatori lanciati."
 pubblicato: true
 cover_image: "/covers/2026-10-31-j-lehecka-vs-j-l-struff-basel-pronostico-analisi.jpg"
-cover_credit: "Jan-Lennard Struff, Košice Open 2011 (1).jpg | Rl91 | CC BY-SA 3.0"
+cover_credit: "Rl91 / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:Jan-Lennard Struff, Košice Open 2011 (1).jpg"
 generato_il: "2026-10-31T07:29"
 ---
 
