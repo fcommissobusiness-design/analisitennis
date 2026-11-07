@@ -8,7 +8,9 @@ from pathlib import Path
 
 from fetch_fixtures import fetch
 
-TOP_N = 100
+TOP_N = 100   # classifica pubblica (pagine /classifica-atp e /classifica-wta)
+EXT_N = 300   # classifica estesa, solo per risolvere il ranking dei giocatori
+              # oltre la 100 (es. azzurri nella pagina Italiani). Non ha pagina.
 OUT = Path(__file__).resolve().parent.parent / 'src' / 'data'
 
 
@@ -32,7 +34,7 @@ def _rows(event_type: str):
             'movement': r.get('movement') or '',
         })
     out.sort(key=lambda x: x['place'])
-    return out[:TOP_N]
+    return out[:EXT_N]
 
 
 def _punti(r):
@@ -65,27 +67,32 @@ def main():
     except Exception:
         now = datetime.now()
     OUT.mkdir(parents=True, exist_ok=True)
-    for et, fname in (('ATP', 'standings-atp.json'), ('WTA', 'standings-wta.json')):
+    for et, fname, ext_fname in (
+        ('ATP', 'standings-atp.json', 'standings-atp-ext.json'),
+        ('WTA', 'standings-wta.json', 'standings-wta-ext.json'),
+    ):
         try:
-            rows = _rows(et)
+            rows_ext = _rows(et)   # fino a EXT_N posizioni
         except Exception as e:
             print(f'[standings] {et} errore: {e}', file=sys.stderr)
             continue
-        if not rows:
+        if not rows_ext:
             print(f'[standings] {et}: 0 righe, salto (non sovrascrivo)', file=sys.stderr)
             continue
+        rows = [r for r in rows_ext if r['place'] <= TOP_N]
         ok, motivo = _sane(rows)
         if not ok:
             print(f'[standings] {et}: dato ANOMALO ({motivo}), salto per non '
                   f'sovrascrivere la classifica buona', file=sys.stderr)
             continue
-        payload = {
-            'circuito': et,
-            'aggiornato_il': now.strftime('%Y-%m-%dT%H:%M'),
-            'righe': rows,
-        }
+        aggiornato = now.strftime('%Y-%m-%dT%H:%M')
+        payload = {'circuito': et, 'aggiornato_il': aggiornato, 'righe': rows}
         (OUT / fname).write_text(json.dumps(payload, ensure_ascii=False, indent=2))
         print(f'[standings] {et}: salvate {len(rows)} posizioni in {fname}')
+        # Classifica estesa (solo lookup ranking, nessuna pagina pubblica).
+        payload_ext = {'circuito': et, 'aggiornato_il': aggiornato, 'righe': rows_ext}
+        (OUT / ext_fname).write_text(json.dumps(payload_ext, ensure_ascii=False, indent=2))
+        print(f'[standings] {et}: salvate {len(rows_ext)} posizioni estese in {ext_fname}')
 
 
 if __name__ == '__main__':

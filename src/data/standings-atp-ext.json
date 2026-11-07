@@ -1,0 +1,2106 @@
+{
+  "circuito": "ATP",
+  "aggiornato_il": "2026-11-07T17:09",
+  "righe": [
+    {
+      "place": 1,
+      "player": "Alexander Zverev",
+      "points": "9550",
+      "country": "Germany",
+      "movement": "up"
+    },
+    {
+      "place": 2,
+      "player": "Jannik Sinner",
+      "points": "9450",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 3,
+      "player": "Carlos Alcaraz",
+      "points": "6100",
+      "country": "Spain",
+      "movement": "same"
+    },
+    {
+      "place": 4,
+      "player": "Ben Shelton",
+      "points": "4530",
+      "country": "USA",
+      "movement": "same"
+    },
+    {
+      "place": 5,
+      "player": "Daniil Medvedev",
+      "points": "3860",
+      "country": "World",
+      "movement": "same"
+    },
+    {
+      "place": 6,
+      "player": "Flavio Cobolli",
+      "points": "3690",
+      "country": "Italy",
+      "movement": "same"
+    },
+    {
+      "place": 7,
+      "player": "Arthur Fils",
+      "points": "3525",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 8,
+      "player": "Frances Tiafoe",
+      "points": "3430",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 9,
+      "player": "Alex De Minaur",
+      "points": "3410",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 10,
+      "player": "Rafael Jodar",
+      "points": "3209",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 11,
+      "player": "Novak Djokovic",
+      "points": "3140",
+      "country": "Serbia",
+      "movement": "up"
+    },
+    {
+      "place": 12,
+      "player": "Taylor Fritz",
+      "points": "3095",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 13,
+      "player": "Felix Auger-Aliassime",
+      "points": "2875",
+      "country": "Canada",
+      "movement": "down"
+    },
+    {
+      "place": 14,
+      "player": "Tommy Paul",
+      "points": "2775",
+      "country": "USA",
+      "movement": "same"
+    },
+    {
+      "place": 15,
+      "player": "Jiri Lehecka",
+      "points": "2580",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 16,
+      "player": "Jakub Mensik",
+      "points": "2545",
+      "country": "Czech Republic",
+      "movement": "same"
+    },
+    {
+      "place": 17,
+      "player": "Alejandro Davidovich Fokina",
+      "points": "2510",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 18,
+      "player": "Brandon Nakashima",
+      "points": "2375",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 19,
+      "player": "Learner Tien",
+      "points": "2345",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 20,
+      "player": "Francisco Cerundolo",
+      "points": "2260",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 21,
+      "player": "Luciano Darderi",
+      "points": "2200",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 22,
+      "player": "Andrey Rublev",
+      "points": "2085",
+      "country": "World",
+      "movement": "same"
+    },
+    {
+      "place": 23,
+      "player": "Casper Ruud",
+      "points": "2035",
+      "country": "Norway",
+      "movement": "up"
+    },
+    {
+      "place": 24,
+      "player": "Lorenzo Musetti",
+      "points": "1960",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 25,
+      "player": "Karen Khachanov",
+      "points": "1940",
+      "country": "World",
+      "movement": "down"
+    },
+    {
+      "place": 26,
+      "player": "Alexander Bublik",
+      "points": "1895",
+      "country": "Kazakhstan",
+      "movement": "down"
+    },
+    {
+      "place": 27,
+      "player": "Valentin Vacherot",
+      "points": "1780",
+      "country": "Monaco",
+      "movement": "up"
+    },
+    {
+      "place": 28,
+      "player": "Alexander Blockx",
+      "points": "1665",
+      "country": "Belgium",
+      "movement": "down"
+    },
+    {
+      "place": 29,
+      "player": "Hubert Hurkacz",
+      "points": "1625",
+      "country": "Poland",
+      "movement": "down"
+    },
+    {
+      "place": 30,
+      "player": "Alejandro Tabilo",
+      "points": "1565",
+      "country": "Chile",
+      "movement": "up"
+    },
+    {
+      "place": 31,
+      "player": "Martin Etcheverry Tomas",
+      "points": "1550",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 32,
+      "player": "Arthur Fery",
+      "points": "1503",
+      "country": "United Kingdom",
+      "movement": "up"
+    },
+    {
+      "place": 33,
+      "player": "Ignacio Buse",
+      "points": "1445",
+      "country": "Peru",
+      "movement": "down"
+    },
+    {
+      "place": 34,
+      "player": "Stefanos Tsitsipas",
+      "points": "1440",
+      "country": "Greece",
+      "movement": "down"
+    },
+    {
+      "place": 35,
+      "player": "Alex Michelsen",
+      "points": "1435",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 36,
+      "player": "Matteo Arnaldi",
+      "points": "1311",
+      "country": "Italy",
+      "movement": "same"
+    },
+    {
+      "place": 37,
+      "player": "Botic Van De Zandschulp",
+      "points": "1295",
+      "country": "Netherlands",
+      "movement": "up"
+    },
+    {
+      "place": 38,
+      "player": "Ugo Humbert",
+      "points": "1295",
+      "country": "France",
+      "movement": "same"
+    },
+    {
+      "place": 39,
+      "player": "Jan-Lennard Struff",
+      "points": "1271",
+      "country": "Germany",
+      "movement": "up"
+    },
+    {
+      "place": 40,
+      "player": "Zizou Bergs",
+      "points": "1226",
+      "country": "Belgium",
+      "movement": "down"
+    },
+    {
+      "place": 41,
+      "player": "Joao Fonseca",
+      "points": "1200",
+      "country": "Brazil",
+      "movement": "down"
+    },
+    {
+      "place": 42,
+      "player": "Daniel Merida Aguilar",
+      "points": "1195",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 43,
+      "player": "Matteo Berrettini",
+      "points": "1173",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 44,
+      "player": "Arthur Gea",
+      "points": "1146",
+      "country": "France",
+      "movement": "same"
+    },
+    {
+      "place": 45,
+      "player": "Cameron Norrie",
+      "points": "1145",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 46,
+      "player": "Quentin Halys",
+      "points": "1127",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 47,
+      "player": "Luca van Assche",
+      "points": "1105",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 48,
+      "player": "Mariano Navone",
+      "points": "1099",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 49,
+      "player": "Nuno Borges",
+      "points": "1075",
+      "country": "Portugal",
+      "movement": "up"
+    },
+    {
+      "place": 50,
+      "player": "Tallon Griekspoor",
+      "points": "1075",
+      "country": "Netherlands",
+      "movement": "same"
+    },
+    {
+      "place": 51,
+      "player": "Denis Shapovalov",
+      "points": "1055",
+      "country": "Canada",
+      "movement": "up"
+    },
+    {
+      "place": 52,
+      "player": "Sebastian Baez",
+      "points": "1044",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 53,
+      "player": "Agustin Tirante Thiago",
+      "points": "1023",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 54,
+      "player": "Manuel Cerundolo Juan",
+      "points": "1000",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 55,
+      "player": "Raphael Collignon",
+      "points": "968",
+      "country": "Belgium",
+      "movement": "same"
+    },
+    {
+      "place": 56,
+      "player": "Daniel Vallejo Adolfo",
+      "points": "947",
+      "country": "Paraguay",
+      "movement": "down"
+    },
+    {
+      "place": 57,
+      "player": "Jaime Faria",
+      "points": "941",
+      "country": "Portugal",
+      "movement": "down"
+    },
+    {
+      "place": 58,
+      "player": "Yannick Hanfmann",
+      "points": "923",
+      "country": "Germany",
+      "movement": "up"
+    },
+    {
+      "place": 59,
+      "player": "Adrian Mannarino",
+      "points": "898",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 60,
+      "player": "Miomir Kecmanovic",
+      "points": "893",
+      "country": "Serbia",
+      "movement": "down"
+    },
+    {
+      "place": 61,
+      "player": "Fabian Marozsan",
+      "points": "875",
+      "country": "Hungary",
+      "movement": "up"
+    },
+    {
+      "place": 62,
+      "player": "Vit Kopriva",
+      "points": "844",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 63,
+      "player": "Daniel Altmaier",
+      "points": "837",
+      "country": "Germany",
+      "movement": "down"
+    },
+    {
+      "place": 64,
+      "player": "Ethan Quinn",
+      "points": "831",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 65,
+      "player": "Jaume Munar",
+      "points": "825",
+      "country": "Spain",
+      "movement": "same"
+    },
+    {
+      "place": 66,
+      "player": "Mattia Bellucci",
+      "points": "824",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 67,
+      "player": "Martin Landaluce",
+      "points": "822",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 68,
+      "player": "Arthur Rinderknech",
+      "points": "820",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 69,
+      "player": "Tomas Machac",
+      "points": "819",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 70,
+      "player": "James Duckworth",
+      "points": "814",
+      "country": "Australia",
+      "movement": "down"
+    },
+    {
+      "place": 71,
+      "player": "Roman Safiullin",
+      "points": "807",
+      "country": "World",
+      "movement": "down"
+    },
+    {
+      "place": 72,
+      "player": "Facundo Diaz Acosta",
+      "points": "807",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 73,
+      "player": "Terence Atmane",
+      "points": "787",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 74,
+      "player": "Pablo Carreno-Busta",
+      "points": "773",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 75,
+      "player": "Zachary Svajda",
+      "points": "759",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 76,
+      "player": "Andres Burruchaga Roman",
+      "points": "754",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 77,
+      "player": "Hamad Medjedovic",
+      "points": "751",
+      "country": "Serbia",
+      "movement": "up"
+    },
+    {
+      "place": 78,
+      "player": "Alex Molcan",
+      "points": "747",
+      "country": "Slovakia",
+      "movement": "up"
+    },
+    {
+      "place": 79,
+      "player": "Titouan Droguet",
+      "points": "746",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 80,
+      "player": "Kyrian Jacquet",
+      "points": "741",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 81,
+      "player": "Camilo Ugo Carabelli",
+      "points": "730",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 82,
+      "player": "Kamil Majchrzak",
+      "points": "725",
+      "country": "Poland",
+      "movement": "down"
+    },
+    {
+      "place": 83,
+      "player": "Rinky Hijikata",
+      "points": "693",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 84,
+      "player": "Aleksandar Kovacevic",
+      "points": "693",
+      "country": "USA",
+      "movement": "same"
+    },
+    {
+      "place": 85,
+      "player": "Coleman Wong Chak Lam",
+      "points": "692",
+      "country": "Hong Kong",
+      "movement": "up"
+    },
+    {
+      "place": 86,
+      "player": "Sebastian Korda",
+      "points": "690",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 87,
+      "player": "Nikoloz Basilashvili",
+      "points": "681",
+      "country": "Georgia",
+      "movement": "up"
+    },
+    {
+      "place": 88,
+      "player": "Damir Dzumhur",
+      "points": "679",
+      "country": "Bosnia and Herzegovina",
+      "movement": "down"
+    },
+    {
+      "place": 89,
+      "player": "Marcos Giron",
+      "points": "676",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 90,
+      "player": "Jacob Fearnley",
+      "points": "671",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 91,
+      "player": "Marco Trungelliti",
+      "points": "670",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 92,
+      "player": "Dino Prizmic",
+      "points": "663",
+      "country": "Croatia",
+      "movement": "up"
+    },
+    {
+      "place": 93,
+      "player": "Yunchaokete Bu",
+      "points": "646",
+      "country": "China",
+      "movement": "down"
+    },
+    {
+      "place": 94,
+      "player": "Jenson Brooksby",
+      "points": "638",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 95,
+      "player": "Benjamin Bonzi",
+      "points": "630",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 96,
+      "player": "Marin Cilic",
+      "points": "629",
+      "country": "Croatia",
+      "movement": "down"
+    },
+    {
+      "place": 97,
+      "player": "Toby Samuel",
+      "points": "625",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 98,
+      "player": "Adam Walton",
+      "points": "619",
+      "country": "Australia",
+      "movement": "down"
+    },
+    {
+      "place": 99,
+      "player": "Henrique Rocha",
+      "points": "596",
+      "country": "Portugal",
+      "movement": "up"
+    },
+    {
+      "place": 100,
+      "player": "Michael Zheng",
+      "points": "594",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 101,
+      "player": "Zsombor Piros",
+      "points": "590",
+      "country": "Hungary",
+      "movement": "down"
+    },
+    {
+      "place": 102,
+      "player": "Martin Damm",
+      "points": "588",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 103,
+      "player": "Lloyd Harris",
+      "points": "579",
+      "country": "South Africa",
+      "movement": "down"
+    },
+    {
+      "place": 104,
+      "player": "Jesper De Jong",
+      "points": "575",
+      "country": "Netherlands",
+      "movement": "up"
+    },
+    {
+      "place": 105,
+      "player": "Yibing Wu",
+      "points": "571",
+      "country": "China",
+      "movement": "down"
+    },
+    {
+      "place": 106,
+      "player": "Lorenzo Sonego",
+      "points": "571",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 107,
+      "player": "Alexander Shevchenko",
+      "points": "559",
+      "country": "Kazakhstan",
+      "movement": "down"
+    },
+    {
+      "place": 108,
+      "player": "Hugo Gaston",
+      "points": "548",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 109,
+      "player": "Thiago Seyboth Wild",
+      "points": "545",
+      "country": "Brazil",
+      "movement": "down"
+    },
+    {
+      "place": 110,
+      "player": "Corentin Moutet",
+      "points": "540",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 111,
+      "player": "Hugo Dellien",
+      "points": "535",
+      "country": "Bolivia",
+      "movement": "down"
+    },
+    {
+      "place": 112,
+      "player": "Gustavo Heide",
+      "points": "535",
+      "country": "Brazil",
+      "movement": "down"
+    },
+    {
+      "place": 113,
+      "player": "Jan Choinski",
+      "points": "533",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 114,
+      "player": "Dane Sweeny",
+      "points": "528",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 115,
+      "player": "Nicolas Mejia",
+      "points": "519",
+      "country": "Colombia",
+      "movement": "same"
+    },
+    {
+      "place": 116,
+      "player": "Otto Virtanen",
+      "points": "502",
+      "country": "Finland",
+      "movement": "down"
+    },
+    {
+      "place": 117,
+      "player": "Christopher O'Connell",
+      "points": "499",
+      "country": "Australia",
+      "movement": "down"
+    },
+    {
+      "place": 118,
+      "player": "Sho Shimabukuro",
+      "points": "496",
+      "country": "Japan",
+      "movement": "up"
+    },
+    {
+      "place": 119,
+      "player": "Dalibor Svrcina",
+      "points": "494",
+      "country": "Czech Republic",
+      "movement": "down"
+    },
+    {
+      "place": 120,
+      "player": "Valentin Royer",
+      "points": "493",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 121,
+      "player": "Sebastian Ofner",
+      "points": "491",
+      "country": "Austria",
+      "movement": "down"
+    },
+    {
+      "place": 122,
+      "player": "Emilio Nava",
+      "points": "484",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 123,
+      "player": "Rei Sakamoto",
+      "points": "477",
+      "country": "Japan",
+      "movement": "down"
+    },
+    {
+      "place": 124,
+      "player": "Pedro Martinez",
+      "points": "462",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 125,
+      "player": "Shintaro Mochizuki",
+      "points": "451",
+      "country": "Japan",
+      "movement": "down"
+    },
+    {
+      "place": 126,
+      "player": "Alexei Popyrin",
+      "points": "448",
+      "country": "Australia",
+      "movement": "down"
+    },
+    {
+      "place": 127,
+      "player": "Aleksandar Vukic",
+      "points": "435",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 128,
+      "player": "Nishesh Basavareddy",
+      "points": "432",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 129,
+      "player": "Stefanos Sakellaridis",
+      "points": "431",
+      "country": "Greece",
+      "movement": "down"
+    },
+    {
+      "place": 130,
+      "player": "Max Alcala Gurri",
+      "points": "430",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 131,
+      "player": "Clement Chidekh",
+      "points": "428",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 132,
+      "player": "Moise Kouame",
+      "points": "425",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 133,
+      "player": "Borna Gojo",
+      "points": "423",
+      "country": "Croatia",
+      "movement": "down"
+    },
+    {
+      "place": 134,
+      "player": "Grigor Dimitrov",
+      "points": "422",
+      "country": "Bulgaria",
+      "movement": "up"
+    },
+    {
+      "place": 135,
+      "player": "Francisco Comesana",
+      "points": "415",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 136,
+      "player": "Federico Cina",
+      "points": "415",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 137,
+      "player": "Laslo Djere",
+      "points": "411",
+      "country": "Serbia",
+      "movement": "up"
+    },
+    {
+      "place": 138,
+      "player": "Matej Dodig",
+      "points": "410",
+      "country": "Croatia",
+      "movement": "same"
+    },
+    {
+      "place": 139,
+      "player": "Darwin Blanch",
+      "points": "405",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 140,
+      "player": "Andrea Pellegrino",
+      "points": "404",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 141,
+      "player": "Pablo Llamas Ruiz",
+      "points": "403",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 142,
+      "player": "Jurij Rodionov",
+      "points": "403",
+      "country": "Austria",
+      "movement": "up"
+    },
+    {
+      "place": 143,
+      "player": "Tristan Schoolkate",
+      "points": "401",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 144,
+      "player": "Marton Fucsovics",
+      "points": "400",
+      "country": "Hungary",
+      "movement": "up"
+    },
+    {
+      "place": 145,
+      "player": "Giovanni Mpetshi Perricard",
+      "points": "400",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 146,
+      "player": "Alexandre Muller",
+      "points": "397",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 147,
+      "player": "Vilius Gaubas",
+      "points": "396",
+      "country": "Lithuania",
+      "movement": "up"
+    },
+    {
+      "place": 148,
+      "player": "Ilia Simakin",
+      "points": "393",
+      "country": "World",
+      "movement": "up"
+    },
+    {
+      "place": 149,
+      "player": "Michael Mmoh",
+      "points": "386",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 150,
+      "player": "Elmer Moller",
+      "points": "378",
+      "country": "Denmark",
+      "movement": "down"
+    },
+    {
+      "place": 151,
+      "player": "Nikolas Sanchez Izquierdo",
+      "points": "369",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 152,
+      "player": "Stan Wawrinka",
+      "points": "368",
+      "country": "Switzerland",
+      "movement": "up"
+    },
+    {
+      "place": 153,
+      "player": "Francesco Passaro",
+      "points": "367",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 154,
+      "player": "Tomas Barrios Vera",
+      "points": "364",
+      "country": "Chile",
+      "movement": "down"
+    },
+    {
+      "place": 155,
+      "player": "Lukas Neumayer",
+      "points": "362",
+      "country": "Austria",
+      "movement": "down"
+    },
+    {
+      "place": 156,
+      "player": "Clement Tabur",
+      "points": "362",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 157,
+      "player": "Jack Draper",
+      "points": "360",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 158,
+      "player": "Patrick Kypson",
+      "points": "358",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 159,
+      "player": "Stefano Travaglia",
+      "points": "357",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 160,
+      "player": "Soonwoo Kwon",
+      "points": "355",
+      "country": "South Korea",
+      "movement": "down"
+    },
+    {
+      "place": 161,
+      "player": "Daniil Glinka",
+      "points": "355",
+      "country": "Estonia",
+      "movement": "up"
+    },
+    {
+      "place": 162,
+      "player": "Zhizhen Zhang",
+      "points": "354",
+      "country": "China",
+      "movement": "down"
+    },
+    {
+      "place": 163,
+      "player": "Dusan Lajovic",
+      "points": "353",
+      "country": "Serbia",
+      "movement": "up"
+    },
+    {
+      "place": 164,
+      "player": "Jerome Kym",
+      "points": "353",
+      "country": "Switzerland",
+      "movement": "down"
+    },
+    {
+      "place": 165,
+      "player": "Tom Gentzsch",
+      "points": "352",
+      "country": "Germany",
+      "movement": "up"
+    },
+    {
+      "place": 166,
+      "player": "Andrea Guerrieri",
+      "points": "349",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 167,
+      "player": "Mark Lajal",
+      "points": "349",
+      "country": "Estonia",
+      "movement": "up"
+    },
+    {
+      "place": 168,
+      "player": "Liam Draxl",
+      "points": "341",
+      "country": "Canada",
+      "movement": "down"
+    },
+    {
+      "place": 169,
+      "player": "Gabriel Diallo",
+      "points": "339",
+      "country": "Canada",
+      "movement": "up"
+    },
+    {
+      "place": 170,
+      "player": "Pavel Kotov",
+      "points": "339",
+      "country": "World",
+      "movement": "up"
+    },
+    {
+      "place": 171,
+      "player": "Cristian Garin",
+      "points": "336",
+      "country": "Chile",
+      "movement": "up"
+    },
+    {
+      "place": 172,
+      "player": "Josef Schwaerzler Joel",
+      "points": "334",
+      "country": "Austria",
+      "movement": "down"
+    },
+    {
+      "place": 173,
+      "player": "Gauthier Onclin",
+      "points": "333",
+      "country": "Belgium",
+      "movement": "down"
+    },
+    {
+      "place": 174,
+      "player": "Alex Bolt",
+      "points": "332",
+      "country": "Australia",
+      "movement": "down"
+    },
+    {
+      "place": 175,
+      "player": "Vitaliy Sachko",
+      "points": "332",
+      "country": "Ukraine",
+      "movement": "up"
+    },
+    {
+      "place": 176,
+      "player": "Francesco Maestrelli",
+      "points": "330",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 177,
+      "player": "Lucas Reis Da Silva Joao",
+      "points": "327",
+      "country": "Brazil",
+      "movement": "down"
+    },
+    {
+      "place": 178,
+      "player": "Taro Daniel",
+      "points": "326",
+      "country": "Japan",
+      "movement": "up"
+    },
+    {
+      "place": 179,
+      "player": "Chris Rodesch",
+      "points": "325",
+      "country": "Luxembourg",
+      "movement": "up"
+    },
+    {
+      "place": 180,
+      "player": "Felix Balshaw",
+      "points": "324",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 181,
+      "player": "Bernard Tomic",
+      "points": "322",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 182,
+      "player": "Nicolai Budkov Kjaer",
+      "points": "320",
+      "country": "Norway",
+      "movement": "up"
+    },
+    {
+      "place": 183,
+      "player": "Marco Cecchinato",
+      "points": "316",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 184,
+      "player": "Mika Brunold",
+      "points": "313",
+      "country": "Switzerland",
+      "movement": "down"
+    },
+    {
+      "place": 185,
+      "player": "Lautaro Midon",
+      "points": "309",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 186,
+      "player": "Ivan Justo Guido",
+      "points": "308",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 187,
+      "player": "Sascha Gueymard Wayenburg",
+      "points": "307",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 188,
+      "player": "Diego Dedura",
+      "points": "307",
+      "country": "Germany",
+      "movement": "up"
+    },
+    {
+      "place": 189,
+      "player": "Dylan Dietrich",
+      "points": "304",
+      "country": "Switzerland",
+      "movement": "down"
+    },
+    {
+      "place": 190,
+      "player": "Jack Pinnington Jones",
+      "points": "302",
+      "country": "United Kingdom",
+      "movement": "up"
+    },
+    {
+      "place": 191,
+      "player": "Inaki Montes-De La Torre",
+      "points": "301",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 192,
+      "player": "Keegan Smith",
+      "points": "301",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 193,
+      "player": "Carlos Prado Angelo Juan",
+      "points": "298",
+      "country": "Bolivia",
+      "movement": "down"
+    },
+    {
+      "place": 194,
+      "player": "Jan Kumstat",
+      "points": "298",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 195,
+      "player": "Alexis Galarneau",
+      "points": "297",
+      "country": "Canada",
+      "movement": "up"
+    },
+    {
+      "place": 196,
+      "player": "Facundo Mena",
+      "points": "296",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 197,
+      "player": "Matheus Pucinelli de Almeida",
+      "points": "294",
+      "country": "Brazil",
+      "movement": "up"
+    },
+    {
+      "place": 198,
+      "player": "Gonzalo Bueno",
+      "points": "294",
+      "country": "Peru",
+      "movement": "up"
+    },
+    {
+      "place": 199,
+      "player": "David Jorda Sanchis",
+      "points": "293",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 200,
+      "player": "Andre Ilagan",
+      "points": "292",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 201,
+      "player": "Timofey Skatov",
+      "points": "290",
+      "country": "Kazakhstan",
+      "movement": "up"
+    },
+    {
+      "place": 202,
+      "player": "Pablo Varillas Juan",
+      "points": "288",
+      "country": "Peru",
+      "movement": "up"
+    },
+    {
+      "place": 203,
+      "player": "Luka Pavlovic",
+      "points": "281",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 204,
+      "player": "John Wolf Jeffrey",
+      "points": "280",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 205,
+      "player": "Braden Shick",
+      "points": "276",
+      "country": "USA",
+      "movement": "same"
+    },
+    {
+      "place": 206,
+      "player": "Zdenek Kolar",
+      "points": "274",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 207,
+      "player": "Tristan Boyer",
+      "points": "272",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 208,
+      "player": "Agustin Gomez Federico",
+      "points": "272",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 209,
+      "player": "Edas Butvilas",
+      "points": "271",
+      "country": "Lithuania",
+      "movement": "up"
+    },
+    {
+      "place": 210,
+      "player": "Pol Martin Tiffon",
+      "points": "268",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 211,
+      "player": "Maks Kasnikowski",
+      "points": "266",
+      "country": "Poland",
+      "movement": "down"
+    },
+    {
+      "place": 212,
+      "player": "Liam Broady",
+      "points": "265",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 213,
+      "player": "Harry Wendelken",
+      "points": "264",
+      "country": "United Kingdom",
+      "movement": "up"
+    },
+    {
+      "place": 214,
+      "player": "Eliot Spizzirri",
+      "points": "261",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 215,
+      "player": "Gianluca Cadenasso",
+      "points": "261",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 216,
+      "player": "Max Houkes",
+      "points": "261",
+      "country": "Netherlands",
+      "movement": "up"
+    },
+    {
+      "place": 217,
+      "player": "Henry Searle",
+      "points": "258",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 218,
+      "player": "Colton Smith",
+      "points": "256",
+      "country": "USA",
+      "movement": "same"
+    },
+    {
+      "place": 219,
+      "player": "Rio Noguchi",
+      "points": "256",
+      "country": "Japan",
+      "movement": "up"
+    },
+    {
+      "place": 220,
+      "player": "Harold Mayot",
+      "points": "255",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 221,
+      "player": "Raul Brancaccio",
+      "points": "255",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 222,
+      "player": "Remy Bertola",
+      "points": "255",
+      "country": "Switzerland",
+      "movement": "down"
+    },
+    {
+      "place": 223,
+      "player": "Ilya Ivashka",
+      "points": "254",
+      "country": "World",
+      "movement": "up"
+    },
+    {
+      "place": 224,
+      "player": "Alex Barrena",
+      "points": "254",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 225,
+      "player": "Kimmer Coppejans",
+      "points": "253",
+      "country": "Belgium",
+      "movement": "up"
+    },
+    {
+      "place": 226,
+      "player": "Marat Sharipov",
+      "points": "253",
+      "country": "World",
+      "movement": "up"
+    },
+    {
+      "place": 227,
+      "player": "Marvin Moeller",
+      "points": "252",
+      "country": "Germany",
+      "movement": "up"
+    },
+    {
+      "place": 228,
+      "player": "Felix Gill",
+      "points": "252",
+      "country": "United Kingdom",
+      "movement": "up"
+    },
+    {
+      "place": 229,
+      "player": "Andres Andrade",
+      "points": "251",
+      "country": "Ecuador",
+      "movement": "up"
+    },
+    {
+      "place": 230,
+      "player": "Hsin Tseng Chun",
+      "points": "250",
+      "country": "Taiwan",
+      "movement": "up"
+    },
+    {
+      "place": 231,
+      "player": "Maxim Mrva",
+      "points": "249",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 232,
+      "player": "Billy Harris",
+      "points": "245",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 233,
+      "player": "Thiago Monteiro",
+      "points": "245",
+      "country": "Brazil",
+      "movement": "up"
+    },
+    {
+      "place": 234,
+      "player": "Daniel Rincon",
+      "points": "244",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 235,
+      "player": "Matthew Dellavedova",
+      "points": "237",
+      "country": "Australia",
+      "movement": "down"
+    },
+    {
+      "place": 236,
+      "player": "Philip Henning",
+      "points": "234",
+      "country": "South Africa",
+      "movement": "down"
+    },
+    {
+      "place": 237,
+      "player": "Roberto Bautista-Agut",
+      "points": "233",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 238,
+      "player": "Alejandro Moro Canas",
+      "points": "232",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 239,
+      "player": "Luca Nardi",
+      "points": "231",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 240,
+      "player": "Filippo Romano",
+      "points": "229",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 241,
+      "player": "Jay Clarke",
+      "points": "229",
+      "country": "United Kingdom",
+      "movement": "up"
+    },
+    {
+      "place": 242,
+      "player": "Mackenzie McDonald",
+      "points": "228",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 243,
+      "player": "Leandro Riedi",
+      "points": "227",
+      "country": "Switzerland",
+      "movement": "down"
+    },
+    {
+      "place": 244,
+      "player": "Matteo Martineau",
+      "points": "227",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 245,
+      "player": "Elias Ymer",
+      "points": "226",
+      "country": "Sweden",
+      "movement": "up"
+    },
+    {
+      "place": 246,
+      "player": "Andrej Nedic",
+      "points": "226",
+      "country": "Bosnia and Herzegovina",
+      "movement": "up"
+    },
+    {
+      "place": 247,
+      "player": "Hayato Matsuoka",
+      "points": "226",
+      "country": "Japan",
+      "movement": "up"
+    },
+    {
+      "place": 248,
+      "player": "Hans Rehberg Max",
+      "points": "224",
+      "country": "Germany",
+      "movement": "down"
+    },
+    {
+      "place": 249,
+      "player": "Pierre-Hugues Herbert",
+      "points": "222",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 250,
+      "player": "Juncheng Shang",
+      "points": "220",
+      "country": "China",
+      "movement": "up"
+    },
+    {
+      "place": 251,
+      "player": "Luka Mikrut",
+      "points": "218",
+      "country": "Croatia",
+      "movement": "up"
+    },
+    {
+      "place": 252,
+      "player": "Dylan Hara Friend Jay",
+      "points": "218",
+      "country": "Japan",
+      "movement": "down"
+    },
+    {
+      "place": 253,
+      "player": "Dominic Stricker",
+      "points": "217",
+      "country": "Switzerland",
+      "movement": "up"
+    },
+    {
+      "place": 254,
+      "player": "Manuel La Serna Juan",
+      "points": "216",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 254,
+      "player": "Gael Monfils",
+      "points": "220",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 255,
+      "player": "Rodrigo Pacheco Mendez",
+      "points": "216",
+      "country": "Mexico",
+      "movement": "down"
+    },
+    {
+      "place": 256,
+      "player": "James McCabe",
+      "points": "216",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 257,
+      "player": "Alberto Olivieri Genaro",
+      "points": "215",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 258,
+      "player": "Valerio Aboian",
+      "points": "215",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 259,
+      "player": "Max Basing",
+      "points": "214",
+      "country": "United Kingdom",
+      "movement": "up"
+    },
+    {
+      "place": 260,
+      "player": "Matias Soto",
+      "points": "214",
+      "country": "Chile",
+      "movement": "down"
+    },
+    {
+      "place": 261,
+      "player": "Franco Roncadelli",
+      "points": "214",
+      "country": "Uruguay",
+      "movement": "up"
+    },
+    {
+      "place": 262,
+      "player": "Kilian Feldbausch",
+      "points": "213",
+      "country": "Switzerland",
+      "movement": "down"
+    },
+    {
+      "place": 263,
+      "player": "Roberto Carballes Baena",
+      "points": "213",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 264,
+      "player": "Charles Broom",
+      "points": "212",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 265,
+      "player": "Sumit Nagal",
+      "points": "207",
+      "country": "India",
+      "movement": "down"
+    },
+    {
+      "place": 266,
+      "player": "Buvaysar Gadamauri",
+      "points": "207",
+      "country": "Belgium",
+      "movement": "down"
+    },
+    {
+      "place": 267,
+      "player": "August Holmgren",
+      "points": "207",
+      "country": "Denmark",
+      "movement": "down"
+    },
+    {
+      "place": 268,
+      "player": "Petr Bar Biryukov",
+      "points": "207",
+      "country": "World",
+      "movement": "down"
+    },
+    {
+      "place": 269,
+      "player": "Cezar Cretu",
+      "points": "206",
+      "country": "Romania",
+      "movement": "down"
+    },
+    {
+      "place": 270,
+      "player": "Alastair Gray",
+      "points": "206",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 271,
+      "player": "Stefan Kozlov",
+      "points": "202",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 272,
+      "player": "Lorenzo Giustino",
+      "points": "202",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 273,
+      "player": "Reilly Opelka",
+      "points": "200",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 274,
+      "player": "Calvin Hemery",
+      "points": "200",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 275,
+      "player": "Oliver Tarvet",
+      "points": "199",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 276,
+      "player": "Mili Poljicak",
+      "points": "199",
+      "country": "Croatia",
+      "movement": "up"
+    },
+    {
+      "place": 277,
+      "player": "Hynek Barton",
+      "points": "199",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 278,
+      "player": "Stefano Napolitano",
+      "points": "198",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 279,
+      "player": "Igor Marcondes",
+      "points": "198",
+      "country": "Brazil",
+      "movement": "up"
+    },
+    {
+      "place": 280,
+      "player": "Mihai Papoe Radu",
+      "points": "198",
+      "country": "Romania",
+      "movement": "up"
+    },
+    {
+      "place": 281,
+      "player": "Yi Zhou",
+      "points": "196",
+      "country": "China",
+      "movement": "up"
+    },
+    {
+      "place": 282,
+      "player": "Alexander Ritschard",
+      "points": "196",
+      "country": "Switzerland",
+      "movement": "up"
+    },
+    {
+      "place": 283,
+      "player": "Murphy Cassone",
+      "points": "196",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 284,
+      "player": "Michele Ribecai",
+      "points": "196",
+      "country": "Italy",
+      "movement": "up"
+    },
+    {
+      "place": 285,
+      "player": "Aidan Mayo",
+      "points": "194",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 286,
+      "player": "Petr Nesterov",
+      "points": "194",
+      "country": "Bulgaria",
+      "movement": "up"
+    },
+    {
+      "place": 287,
+      "player": "Fajing Sun",
+      "points": "193",
+      "country": "China",
+      "movement": "down"
+    },
+    {
+      "place": 288,
+      "player": "Joaquin Aguilar Cardozo",
+      "points": "190",
+      "country": "Uruguay",
+      "movement": "down"
+    },
+    {
+      "place": 289,
+      "player": "Marc-Andrea Huesler",
+      "points": "189",
+      "country": "Switzerland",
+      "movement": "up"
+    },
+    {
+      "place": 290,
+      "player": "Oriol Roca Batalla",
+      "points": "189",
+      "country": "Spain",
+      "movement": "up"
+    },
+    {
+      "place": 291,
+      "player": "Cristian Jianu Filip",
+      "points": "188",
+      "country": "Romania",
+      "movement": "up"
+    },
+    {
+      "place": 292,
+      "player": "Florent Bax",
+      "points": "187",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 293,
+      "player": "Sergey Fomin",
+      "points": "187",
+      "country": "Uzbekistan",
+      "movement": "up"
+    },
+    {
+      "place": 294,
+      "player": "Sandro Kopp",
+      "points": "187",
+      "country": "Austria",
+      "movement": "up"
+    },
+    {
+      "place": 295,
+      "player": "Mees Rottgering",
+      "points": "186",
+      "country": "Netherlands",
+      "movement": "down"
+    },
+    {
+      "place": 296,
+      "player": "Nick Hardt",
+      "points": "186",
+      "country": "Dominican Republic",
+      "movement": "down"
+    },
+    {
+      "place": 297,
+      "player": "Frederico Ferreira Silva",
+      "points": "186",
+      "country": "Portugal",
+      "movement": "up"
+    },
+    {
+      "place": 298,
+      "player": "Thomas Faurel",
+      "points": "185",
+      "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 299,
+      "player": "Yanki Erel",
+      "points": "185",
+      "country": "Turkey",
+      "movement": "up"
+    }
+  ]
+}

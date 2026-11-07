@@ -4,24 +4,47 @@ import FormEmail from '../components/FormEmail.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { tournamentDisplay, findRanking, samePersonLoose } from '../lib/hubs.js';
-import standingsAtp from '../data/standings-atp.json';
-import standingsWta from '../data/standings-wta.json';
+import standingsAtpExt from '../data/standings-atp-ext.json';
+import standingsWtaExt from '../data/standings-wta-ext.json';
 
 const site = 'https://analisitennis.it';
 const _norm = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+const _isIt = (paese) => ['italy', 'italia'].includes(_norm(paese));
 
+// Profili azzurri gia' scritti (per collegare le card al profilo).
 const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
-const italiani = profili
-  .filter(p => _norm(p.data.nazionalita) === 'italia')
-  .map(p => ({
-    nome: p.data.nome,
-    slug: p.data.slug_profilo,
-    categoria: p.data.categoria,
-    ranking: findRanking(p.data.nome, standingsAtp.righe, standingsWta.righe),
-  }))
-  .sort((a, b) => (a.ranking ? a.ranking.place : 9999) - (b.ranking ? b.ranking.place : 9999) || a.nome.localeCompare(b.nome, 'it'));
+const profiliIt = profili.filter(p => _isIt(p.data.nazionalita));
+const profiloPer = (nome) => profiliIt.find(p => samePersonLoose(nome, p.data.nome)) || null;
 
-const isItaliano = (name) => italiani.some(i => samePersonLoose(name, i.nome));
+// Roster azzurra AUTOREVOLE: tutti gli italiani nelle classifiche estese
+// (ATP + WTA, fino alla 300). Cosi' la pagina li elenca TUTTI, anche oltre
+// la 100, con il loro ranking reale - richiesta esplicita per gli azzurri.
+const rankedIt = [
+  ...standingsAtpExt.righe.filter(r => _isIt(r.country)).map(r => ({ ...r, tour: 'ATP' })),
+  ...standingsWtaExt.righe.filter(r => _isIt(r.country)).map(r => ({ ...r, tour: 'WTA' })),
+];
+
+const roster = [];
+const vistiProfilo = new Set();
+for (const r of rankedIt.sort((a, b) => a.place - b.place)) {
+  const prof = profiloPer(r.player);
+  if (prof) vistiProfilo.add(prof.data.slug_profilo);
+  roster.push({
+    nome: prof ? prof.data.nome : r.player,
+    slug: prof ? prof.data.slug_profilo : null,
+    categoria: prof ? prof.data.categoria : (r.tour === 'ATP' ? 'ATP' : 'WTA'),
+    place: r.place,
+    tour: r.tour,
+  });
+}
+// Profili azzurri senza posizione in classifica (es. rientri, veterani): in coda.
+for (const p of profiliIt) {
+  if (vistiProfilo.has(p.data.slug_profilo)) continue;
+  roster.push({ nome: p.data.nome, slug: p.data.slug_profilo, categoria: p.data.categoria, place: null, tour: null });
+}
+
+// Analisi recenti che coinvolgono un italiano della roster.
+const isItaliano = (name) => roster.some(i => samePersonLoose(name, i.nome));
 const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 const analisi = articoli
   .filter(a => isItaliano(a.data.giocatore1) || isItaliano(a.data.giocatore2))
@@ -32,29 +55,29 @@ const itemList = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: 'Tennisti italiani',
-  itemListElement: italiani.map((i, idx) => ({
+  itemListElement: roster.filter(i => i.slug).map((i, idx) => ({
     '@type': 'ListItem', position: idx + 1, url: `${site}/giocatori/${i.slug}`, name: i.nome,
   })),
 };
 ---
 <Base
-  titolo="Tennisti italiani: ranking, profili e analisi - AnalisiTennis"
-  descrizione="Gli italiani del circuito, dal ranking ai profili fino alle nostre analisi partita per partita: Sinner, Musetti, Paolini, Cobolli, Berrettini e gli altri azzurri in campo."
+  titolo="Le nostre analisi sugli italiani in campo: ranking e profili - AnalisiTennis"
+  descrizione="Tutti i tennisti italiani in classifica ATP e WTA, con il ranking aggiornato, i profili e le nostre analisi partita per partita: Sinner, Paolini, Cobolli, Musetti, Darderi e gli altri azzurri."
   canonical={`${site}/italiani`}
 >
   <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
 
   <div class="contenitore" style="padding-top: 24px;">
-    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Italiani' }]} />
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Italiani in campo' }]} />
   </div>
 
   <section class="homepage-hero" style="padding-top: 10px;">
     <div class="contenitore">
       <div class="articolo-eyebrow" style="justify-content: center; display: flex;">Azzurri</div>
-      <h1>Gli italiani in campo</h1>
+      <h1>Le nostre analisi sugli italiani in campo</h1>
       <p>
-        Tutti i tennisti italiani che seguiamo, dal ranking attuale ai profili fino alle analisi
-        delle loro partite. Un punto solo per restare dietro agli azzurri, giorno per giorno.
+        Tutti i tennisti italiani in classifica ATP e WTA, con il ranking aggiornato, i profili
+        e le analisi delle loro partite. Un punto solo per restare dietro agli azzurri, giorno per giorno.
       </p>
     </div>
   </section>
@@ -63,22 +86,34 @@ const itemList = {
     <div class="layout-home">
       <div>
         <section aria-label="Tennisti italiani">
-          <h2>I profili degli azzurri</h2>
-          <div class="griglia-italiani">
-            {italiani.map(i => (
-              <a class="card-italiano" href={`/giocatori/${i.slug}`}>
-                <span class="ci-nome">{i.nome}</span>
-                <span class="ci-meta">
-                  {i.ranking ? <span class="ci-rank">n. {i.ranking.place} {i.ranking.tour}</span> : <span class="ci-cat">{i.categoria}</span>}
-                </span>
-              </a>
+          <h2>Gli azzurri in classifica</h2>
+
+          <div class="giocatori-search">
+            <svg class="gs-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input type="search" id="italiani-filtro" placeholder="Cerca un azzurro (es. Sin, Pao, Musetti...)" autocomplete="off" aria-label="Cerca un tennista italiano per nome" />
+          </div>
+
+          <div class="griglia-italiani" id="italiani-grid">
+            {roster.map(i => (
+              i.slug ? (
+                <a class="card-italiano" href={`/giocatori/${i.slug}`} data-search={_norm(i.nome)}>
+                  <span class="ci-nome">{i.nome}</span>
+                  <span class="ci-meta">{i.place ? <span class="ci-rank">n. {i.place} {i.tour}</span> : <span class="ci-cat">{i.categoria}</span>}</span>
+                </a>
+              ) : (
+                <div class="card-italiano card-attesa" data-search={_norm(i.nome)}>
+                  <span class="ci-nome">{i.nome}</span>
+                  <span class="ci-meta">{i.place ? <span class="ci-rank">n. {i.place} {i.tour}</span> : <span class="ci-cat">{i.categoria}</span>}</span>
+                </div>
+              )
             ))}
           </div>
+          <p class="italiani-nessuno" id="italiani-nessuno" hidden>Nessun azzurro trovato con queste iniziali.</p>
         </section>
 
         {analisi.length > 0 && (
           <section aria-label="Analisi recenti sugli italiani" style="margin-top: 40px;">
-            <h2>Le nostre analisi sugli italiani</h2>
+            <h2>Le nostre analisi recenti sugli italiani</h2>
             <div class="griglia-articoli" style="padding: 0;">
               {analisi.map(art => (
                 <article class="card-articolo">
@@ -96,27 +131,66 @@ const itemList = {
     </div>
   </div>
 
+  <script>
+    // Ricerca live degli azzurri per iniziali (stesso comportamento della
+    // pagina Giocatori). Tutte le card sono gia' nell'HTML per la SEO.
+    (function () {
+      const grid = document.getElementById('italiani-grid');
+      if (!grid) return;
+      const cards = Array.from(grid.children);
+      const input = document.getElementById('italiani-filtro');
+      const nessuno = document.getElementById('italiani-nessuno');
+      function norm(s) { return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim(); }
+      function match(testo, q) {
+        if (!q) return true;
+        if (testo.startsWith(q)) return true;
+        return testo.split(/\s+/).some(function (w) { return w.startsWith(q); });
+      }
+      function render() {
+        const q = norm(input ? input.value : '');
+        let visibili = 0;
+        cards.forEach(function (card) {
+          const ok = match(card.getAttribute('data-search') || '', q);
+          card.hidden = !ok;
+          if (ok) visibili++;
+        });
+        if (nessuno) nessuno.hidden = visibili !== 0;
+      }
+      if (input) input.addEventListener('input', render);
+      render();
+    })();
+  </script>
+
   <style>
+    .giocatori-search { position: relative; margin: 4px 0 20px; }
+    .giocatori-search .gs-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--testo-secondario, #8a94a3); pointer-events: none; }
+    .giocatori-search input {
+      width: 100%; box-sizing: border-box; padding: 13px 16px 13px 42px; font-size: 1rem;
+      color: var(--testo, #1a1a1a); background: var(--sfondo-card, #fff);
+      border: 1px solid var(--linea, #e5e5e5); border-radius: 999px; outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .giocatori-search input:focus { border-color: var(--verde, #39d453); box-shadow: 0 0 0 3px rgba(57, 212, 83, 0.15); }
+    .giocatori-search input::placeholder { color: var(--testo-secondario, #9aa3ad); }
+
     .griglia-italiani {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 12px;
     }
     .card-italiano {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
+      display: flex; flex-direction: column; gap: 4px;
       padding: 14px 16px;
-      border: 1px solid var(--bordo, #e5e7eb);
-      border-radius: 10px;
-      text-decoration: none;
-      color: inherit;
+      border: 1px solid var(--bordo, #e5e7eb); border-radius: 10px;
+      text-decoration: none; color: inherit;
       background: var(--sfondo-card, #fff);
       transition: border-color .15s ease, transform .15s ease;
     }
-    .card-italiano:hover { border-color: var(--accento, #16a34a); transform: translateY(-2px); }
+    a.card-italiano:hover { border-color: var(--accento, #16a34a); transform: translateY(-2px); }
+    .card-attesa { opacity: .62; cursor: default; }
     .ci-nome { font-weight: 700; }
     .ci-meta { font-size: .85rem; color: var(--testo-secondario, #6b7280); }
     .ci-rank { font-variant-numeric: tabular-nums; }
+    .italiani-nessuno { color: var(--testo-secondario, #6b7280); padding: 20px 0 40px; }
   </style>
 </Base>

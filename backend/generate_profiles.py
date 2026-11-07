@@ -751,6 +751,53 @@ def coverage(limit=None):
             print(f'[coverage] errore su {name}: {e}')
 
 
+def _italiani_in_classifica():
+    """(place, name) di tutti gli italiani nelle classifiche estese ATP/WTA
+    (fino alla 300). Fonte autorevole della roster azzurra: cosi' la pagina
+    /italiani li elenca TUTTI, non solo quelli con un profilo gia' scritto."""
+    import json as _json
+    out = []
+    for lab in ('atp', 'wta'):
+        f = ROOT / 'src' / 'data' / f'standings-{lab}-ext.json'
+        if not f.exists():
+            f = ROOT / 'src' / 'data' / f'standings-{lab}.json'
+        if not f.exists():
+            continue
+        for r in _json.loads(f.read_text()).get('righe', []):
+            paese = (r.get('country') or '').strip().lower()
+            if paese in ('italy', 'italia'):
+                name = r.get('player')
+                if name:
+                    out.append((r.get('place', 999), name))
+    out.sort()
+    return out
+
+
+def missing_italiani():
+    """Azzurri in classifica estesa senza un profilo (match per persona)."""
+    nomi_prof = [n for _, n in _profili_esistenti()]
+    out = []
+    for _place, name in _italiani_in_classifica():
+        if not any(_stessa_persona(name, pn) for pn in nomi_prof):
+            out.append(name)
+    return out
+
+
+def coverage_italiani(limit=None):
+    """Genera i profili degli azzurri in classifica che ancora non ce l'hanno.
+    Gli italiani hanno priorita' editoriale: la pagina /italiani deve essere
+    completa. Chiamato dallo sweep giornaliero."""
+    mancanti = missing_italiani()
+    if limit:
+        mancanti = mancanti[:limit]
+    print(f'[italiani] {len(mancanti)} profili azzurri da creare')
+    for name in mancanti:
+        try:
+            generate_player_profile(name)
+        except Exception as e:
+            print(f'[italiani] errore su {name}: {e}')
+
+
 def backfill_from_articles():
     """Scorre tutti gli articoli e genera profili per giocatori/tornei mancanti."""
     articoli_dir = ROOT / 'src' / 'content' / 'articoli'
@@ -795,6 +842,8 @@ if __name__ == '__main__':
         backfill_from_articles()
     elif cmd == 'coverage':
         coverage(int(sys.argv[2]) if len(sys.argv) >= 3 else None)
+    elif cmd == 'italiani':
+        coverage_italiani(int(sys.argv[2]) if len(sys.argv) >= 3 else None)
     else:
         print('Comando non valido', file=sys.stderr)
         sys.exit(1)
