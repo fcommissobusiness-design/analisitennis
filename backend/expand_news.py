@@ -120,7 +120,7 @@ def main():
         fm['tag'] = new_tags or fm.get('tag', [])
         # fonte dalla riverifica se disponibile
         if fonti:
-            fm['fonte_nome'] = fonti[0].get('nome', fm.get('fonte_nome', ''))
+            fm['fonte_nome'] = fn.normalizza(fonti[0].get('nome', fm.get('fonte_nome', '')))
             fm['fonte_url'] = fonti[0].get('url', fm.get('fonte_url', ''))
         _write(path, fm, nuovo_corpo)
         migliorate += 1

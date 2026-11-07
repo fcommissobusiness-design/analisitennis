@@ -240,7 +240,7 @@ def salva(art, v, item, data_iso):
         cat = 'altro'
     fonti = v.get('fonti_conferma', [])
     fonte_url = fonti[0]['url'] if fonti else (item.get('sources') or [''])[0]
-    fonte_nome = fonti[0]['nome'] if fonti else ''
+    fonte_nome = normalizza(fonti[0]['nome']) if fonti else ''
     data_fatto = v.get('data_fatto') or item.get('date') or data_iso
     chiave = _chiave_notizia(cat, item.get('entities'), data_fatto)
     slug = f"{data_fatto}-{_slugify(titolo)}"[:90]
