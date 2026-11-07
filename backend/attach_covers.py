@@ -188,6 +188,8 @@ BLOCK_WORDS = (
     'slazenger balls', 'slazenger ball', 'tennis balls', 'tennis ball',
     'crowd', 'grandstand', 'empty court', 'draw ceremony',
     'olympic rings', 'opening ceremony',
+    # Strette di mano / doppio / piu' persone insieme: soggetto non singolo
+    'handshake', 'hand shake', 'doubles', 'mixed doubles',
     # Esclusioni per falsi positivi "venue"
     'table tennis', 'ping pong', 'pingpong', 'street tennis',
     'tennis racket icon', 'logo tennis',

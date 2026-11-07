@@ -1,194 +1,179 @@
 {
-  "date": "2026-11-03",
-  "total": 17,
+  "date": "2026-11-07",
+  "total": 11,
   "da_rivedere": 0,
   "details": [
     {
-      "slug": "2026-11-03-a-falei-vs-m-linette-chennai-pronostico-analisi",
+      "slug": "2026-11-07-a-tubello-vs-b-andreescu-cali-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatori in azione sul campo con racchette, teste intere."
-    },
-    {
-      "slug": "2026-11-03-a-parks-vs-a-eala-hong-kong-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatrice intera in azione con racchetta sul campo"
-    },
-    {
-      "slug": "2026-11-03-a-rinderknech-vs-f-cerundolo-paris-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista a mezza figura, testa intera, racchetta visibile."
-    },
-    {
-      "slug": "2026-11-03-a-rublev-vs-t-m-etcheverry-paris-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore intero in campo con racchetta, testa visibile."
-    },
-    {
-      "slug": "2026-11-03-a-shubladze-vs-l-samsonova-hong-kong-pronostico-analisi",
-      "ok": true,
-      "motivo": "Skyline urbano notturno, nessun tennis.",
+      "motivo": "Esterno di edificio, non campo o giocatore in azione",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:International Commerce Centre on Vi",
+          "file": "File:Marks Tennis Stadium-Michael Uyteng",
           "ok": false,
-          "motivo": "Skyline urbano notturno di Hong Kong, nessun tennis."
-        },
-        {
-          "via": "campo",
-          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
-          "ok": true,
-          "motivo": "Veri campi da tennis con giocatori durante il gioco."
-        }
-      ]
-    },
-    {
-      "slug": "2026-11-03-b-shelton-vs-c-norrie-paris-pronostico-analisi",
-      "ok": true,
-      "motivo": "Folla di spettatori sugli spalti, nessun giocatore in azione.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:McDonald–Shelton box at the 2023 DC",
-          "ok": false,
-          "motivo": "Folla di spettatori sugli spalti, nessun giocatore in azione"
-        },
-        {
-          "via": "giocatore:Ben Shelton",
-          "file": "Ben Shelton (Roland Garros 2023) 01.jpg",
-          "ok": false,
-          "motivo": "Primo piano ravvicinato del volto, nessuna azione."
-        },
-        {
-          "via": "giocatore:Cameron Norrie",
-          "file": "Cam Norrie (2023 US Open) 01.jpg",
-          "ok": false,
-          "motivo": "Primo piano ravvicinato del volto mentre firma autografi."
-        },
-        {
-          "via": "campo",
-          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
-          "ok": true,
-          "motivo": "Veri campi da tennis con gioco in corso."
-        }
-      ]
-    },
-    {
-      "slug": "2026-11-03-e-pridankina-vs-p-badosa-hong-kong-pronostico-analisi",
-      "ok": true,
-      "motivo": "Tennista a figura intera su campo da tennis reale."
-    },
-    {
-      "slug": "2026-11-03-h-sakatsume-vs-t-valentova-hong-kong-pronostico-analisi",
-      "ok": true,
-      "motivo": "Skyline urbano notturno di Hong Kong, nessun tennis.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:International Commerce Centre on Vi",
-          "ok": false,
-          "motivo": "Skyline urbano notturno, nessun tennis."
+          "motivo": "Edificio esterno, non campo o giocatore in azione."
         },
         {
           "via": "campo",
           "file": "Nungambakkam SDAT Tennis Stadium floodlit match pa",
           "ok": true,
-          "motivo": "Vero campo da tennis in gioco, arena notturna."
+          "motivo": "Vero campo da tennis con partita in corso."
         }
       ]
     },
     {
-      "slug": "2026-11-03-j-burrage-vs-v-adkar-chennai-pronostico-analisi",
+      "slug": "2026-11-07-c-ruud-vs-c-alcaraz-paris-pronostico-analisi",
       "ok": true,
-      "motivo": "Edificio generico, nessun tennis né giocatore.",
+      "motivo": "Giocatore in azione al servizio, figura intera, campo visibile."
+    },
+    {
+      "slug": "2026-11-07-f-coria-vs-g-a-olivieri-villa-maria-pronostico-analisi",
+      "ok": true,
+      "motivo": "Edificio e parcheggio, nessun tennis o giocatore",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:Queen-Marys-College-Chennai-Tennis-",
+          "file": "File:Belfast Indoor Tennis Arena - geogr",
           "ok": false,
-          "motivo": "Edificio generico con alberi, nessun tennis."
+          "motivo": "Edificio con parcheggio, nessun tennis presente."
         },
         {
           "via": "campo",
-          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
+          "file": "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis",
           "ok": true,
-          "motivo": "Veri campi da tennis con gioco in corso."
+          "motivo": "Campo in terra rossa con gioco in corso."
         }
       ]
     },
     {
-      "slug": "2026-11-03-j-tjen-vs-k-hui-chennai-pronostico-analisi",
+      "slug": "2026-11-07-f-gill-vs-m-martineau-taranto-italy-pronostico-analisi",
+      "ok": true,
+      "motivo": "Edificio storico con auto parcheggiate, nessun tennis.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Taranto - Palazzo di Città.jpg",
+          "ok": false,
+          "motivo": "Edificio storico con auto parcheggiate, nessun tennis."
+        },
+        {
+          "via": "campo",
+          "file": "Sydney International Tennis ATP 250 (46001156835).",
+          "ok": true,
+          "motivo": "Giocatori in azione sul campo, racchette e palla visibili."
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-07-g-bueno-vs-c-ugo-carabelli-costa-do-sauipe-pronostico-analisi",
       "ok": true,
       "motivo": "Veri campi da tennis con giocatori in azione."
     },
     {
-      "slug": "2026-11-03-m-rajeshwaran-revathi-vs-k-kawa-chennai-pronostico-analisi",
+      "slug": "2026-11-07-j-kym-vs-m-dodig-bratislava-2-pronostico-analisi",
       "ok": true,
-      "motivo": "Tennista a mezza figura, testa intera, racchetta in posizione di gioco."
-    },
-    {
-      "slug": "2026-11-03-m-sawangkaew-vs-m-hontama-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Edificio generico con alberi, nessun tennis.",
+      "motivo": "Piazza urbana con edifici e persone, nessun tennis.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:Queen-Marys-College-Chennai-Tennis-",
+          "file": "File:Old Town Hall, Bratislava 2.jpg",
           "ok": false,
-          "motivo": "Edificio generico, nessun tennis né giocatore."
+          "motivo": "Piazza urbana con edifici, niente tennis."
         },
         {
           "via": "campo",
-          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
+          "file": "RK Khanna Tennis Complex New Delhi - Centre Court ",
           "ok": true,
-          "motivo": "Veri campi da tennis con gioco in corso."
+          "motivo": "Vero campo da tennis con partita in corso."
         }
       ]
     },
     {
-      "slug": "2026-11-03-m-uchijima-vs-r-sramkova-chennai-pronostico-analisi",
+      "slug": "2026-11-07-j-m-la-serna-vs-n-kicker-villa-maria-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatori in azione sul campo con racchette"
-    },
-    {
-      "slug": "2026-11-03-m-yamaguchi-vs-z-kulambayeva-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Vero campo da tennis in gioco, arena illuminata."
-    },
-    {
-      "slug": "2026-11-03-r-zolotareva-vs-l-stefanini-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Vero campo da tennis con match in corso."
-    },
-    {
-      "slug": "2026-11-03-s-yamalapalli-vs-s-waltert-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Edificio generico, nessun tennis né giocatore.",
+      "motivo": "Edificio esterno di un impianto, nessun gioco in corso.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:Queen-Marys-College-Chennai-Tennis-",
+          "file": "File:Marks Tennis Stadium-Michael Uyteng",
           "ok": false,
-          "motivo": "Edificio generico, nessun tennis o giocatore presente."
+          "motivo": "Edificio esterno pavilion, nessun gioco o campo visibile."
         },
         {
           "via": "campo",
-          "file": "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg",
+          "file": "PP Olympic Stadium - Tennis courts.jpg",
           "ok": true,
-          "motivo": "Veri campi da tennis con gioco in corso."
+          "motivo": "Veri campi da tennis con giocatori in azione."
         }
       ]
     },
     {
-      "slug": "2026-11-03-v-morvayova-vs-p-kudermetova-chennai-pronostico-analisi",
+      "slug": "2026-11-07-j-tjen-vs-r-montgomery-chennai-pronostico-analisi",
       "ok": true,
-      "motivo": "Vero campo da tennis con partita in corso."
+      "motivo": "Giocatore in azione a figura intera con racchetta e campo"
+    },
+    {
+      "slug": "2026-11-07-l-van-assche-vs-b-shelton-paris-pronostico-analisi",
+      "ok": true,
+      "motivo": "Primo piano ravvicinato del volto sorridente, nessuna azione.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Ben Shelton (Roland Garros 2023) 01",
+          "ok": false,
+          "motivo": "Primo piano ravvicinato del volto sorridente, nessuna azione."
+        },
+        {
+          "via": "giocatore:Ben Shelton",
+          "file": "McDonald–Shelton box at the 2023 DC Open 03.jpg",
+          "ok": false,
+          "motivo": "Folla di spettatori sugli spalti, nessun giocatore in azione."
+        },
+        {
+          "via": "campo",
+          "file": "Olympic Tennis Centre, Rio, Brazil.jpg",
+          "ok": true,
+          "motivo": "Vero campo da tennis con partita in corso."
+        }
+      ]
+    },
+    {
+      "slug": "2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi",
+      "ok": true,
+      "motivo": "Giocatrice in azione, testa intera, racchetta visibile"
+    },
+    {
+      "slug": "2026-11-07-m-sakkari-vs-a-eala-hong-kong-pronostico-analisi",
+      "ok": true,
+      "motivo": "Firma stilizzata su sfondo nero, nessun tennis.",
+      "risolta_con": "campo pulito",
+      "attempts": [
+        {
+          "via": "rigenera",
+          "file": "File:Alex Eala Signature 2026.png",
+          "ok": false,
+          "motivo": "Firma su sfondo nero, nessun giocatore o campo."
+        },
+        {
+          "via": "giocatore:Alexandra Eala",
+          "file": "Alex Eala.jpg",
+          "ok": false,
+          "motivo": "Cerimonia premiazione con fiori, nessun campo o azione tennis."
+        },
+        {
+          "via": "campo",
+          "file": "Taube Family Tennis Stadium 2015.JPG",
+          "ok": true,
+          "motivo": "Veri campi da tennis con giocatori in azione."
+        }
+      ]
     }
   ]
 }
