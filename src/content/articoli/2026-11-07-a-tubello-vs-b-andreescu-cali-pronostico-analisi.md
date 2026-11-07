@@ -15,9 +15,9 @@ tag:
   - "Challenger"
   - "terra battuta"
   - "tennis femminile"
-  - "finale"
+  - "semifinale"
 verdetto: "Oggi la può spuntare Andreescu: il suo filotto recente comprende successi contro avversarie di livello più alto e la continuità delle ultime settimane appare un gradino sopra. Ma Tubello arriva lanciata dalle sue vittorie e può trascinarla al terzo set."
-descrizione: "Finale a Cali tra Tubello e Andreescu: due giocatrici in serie positiva si affrontano per la prima volta sulla terra colombiana del Challenger."
+descrizione: "Semifinale a Cali tra Tubello e Andreescu: due giocatrici in serie positiva si affrontano per la prima volta sulla terra colombiana del Challenger."
 pubblicato: true
 probabilita_favorito: "Andreescu"
 probabilita_percent: 62
@@ -26,10 +26,10 @@ cover_image: "/covers/2026-11-07-a-tubello-vs-b-andreescu-cali-pronostico-analis
 cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
 ---
 
-La finale di **Cali** mette in fila due percorsi che, fino a oggi, non si erano mai incrociati. Sulla terra rossa colombiana del Challenger si affrontano Tubello e **Andreescu**, due giocatrici arrivate all'appuntamento con il morale alto e una serie di vittorie recenti alle spalle. Non esiste alcun confronto passato tra le due, e questo rende la partita una pagina ancora da scrivere: tutto quello che possiamo leggere passa dai rispettivi cammini delle ultime settimane, con in palio il titolo.
+La semifinale di **Cali** mette in fila due percorsi che, fino a oggi, non si erano mai incrociati. Sulla terra rossa colombiana del Challenger si affrontano Tubello e **Andreescu**, due giocatrici arrivate all'appuntamento con il morale alto e una serie di vittorie recenti alle spalle. Non esiste alcun confronto passato tra le due, e questo rende la partita una pagina ancora da scrivere: tutto quello che possiamo leggere passa dai rispettivi cammini delle ultime settimane, con in palio l'accesso all'ultimo atto.
 
-### Il cammino verso la finale
-Entrambe hanno guadagnato l'ultimo atto vincendo tre partite nel tabellone di Cali. Tubello ha superato in sequenza R. Masarova, M. Bassols e L. Jeanjean, confermando una condizione solida sul rosso. Andreescu, dal canto suo, ha messo in fila i successi su T. Zidansek, J. Ortenzi e L. Giovannini, senza lasciare per strada troppe energie. Curiosamente le due hanno un'avversaria in comune in questo autunno: J. Ortenzi, battuta da entrambe ma in tornei diversi, un piccolo filo che collega percorsi altrimenti paralleli.
+### Il cammino verso la semifinale
+Entrambe hanno guadagnato il penultimo atto vincendo tre partite nel tabellone di Cali. Tubello ha superato in sequenza R. Masarova, M. Bassols e L. Jeanjean, confermando una condizione solida sul rosso. Andreescu, dal canto suo, ha messo in fila i successi su T. Zidansek, J. Ortenzi e L. Giovannini, senza lasciare per strada troppe energie. Curiosamente le due hanno un'avversaria in comune in questo autunno: J. Ortenzi, battuta da entrambe ma in tornei diversi, un piccolo filo che collega percorsi altrimenti paralleli.
 
 ### La forma delle ultime settimane
 Il quadro recente di Tubello è in netta ascesa. Prima di Cali ha completato un passaggio pieno a Curitiba, in Brasile, inanellando una lunga catena di vittorie contro J. Grabher, N. V. Leme Da Silva, J. Ortenzi, L. M. Cinalli e L. Samson. Più indietro nel calendario, in ottobre, erano arrivate anche due battute d'arresto contro A. Oktiabreva e I. Oz; da allora, però, il rendimento si è impennato con otto affermazioni consecutive, una sequenza che racconta un momento di grande fiducia e di gambe che rispondono bene sulla distanza.
@@ -45,4 +45,4 @@ Il torneo si gioca sulla **terra battuta**, superficie che tende a premiare la p
 ### Il contesto dei due percorsi
 Un elemento di contrasto riguarda l'ambiente di provenienza. Andreescu arriva dal circuito maggiore femminile, e tra le sue avversarie recenti compaiono nomi di un certo spessore come T. Maria e T. Zidansek. Tubello, invece, ha costruito la propria striscia soprattutto a livello di tornei Challenger e ITF, dove però la continuità dei risultati racconta comunque una fase di forma molto positiva. È il tipo di confronto in cui un bagaglio maturato su palcoscenici diversi e lo slancio di chi non vuole fermarsi si misurano direttamente, senza una rete di precedenti a fare da guida.
 
-Quel che è certo è che nessuna delle due arriva a questa finale per caso. Da una parte la regolarità di chi ha incrociato avversarie del circuito maggiore, dall'altra l'entusiasmo di chi sta attraversando uno dei suoi periodi migliori. Sulla terra di Cali, con in palio il titolo, serviranno lucidità nei punti pesanti e la capacità di non farsi travolgere dalla tensione dei game decisivi: dettagli che, in una partita senza storia comune, possono pesare più di qualsiasi statistica.
+Quel che è certo è che nessuna delle due arriva a questa semifinale per caso. Da una parte la regolarità di chi ha incrociato avversarie del circuito maggiore, dall'altra l'entusiasmo di chi sta attraversando uno dei suoi periodi migliori. Sulla terra di Cali, con in palio l'accesso all'ultimo atto, serviranno lucidità nei punti pesanti e la capacità di non farsi travolgere dalla tensione dei game decisivi: dettagli che, in una partita senza storia comune, possono pesare più di qualsiasi statistica.
