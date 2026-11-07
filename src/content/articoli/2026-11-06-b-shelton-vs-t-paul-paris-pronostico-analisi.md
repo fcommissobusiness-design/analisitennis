@@ -23,8 +23,8 @@ probabilita_favorito: "Shelton"
 probabilita_percent: 53
 generato_il: "2026-11-06T07:01"
 cover_image: "/covers/2026-11-06-b-shelton-vs-t-paul-paris-pronostico-analisi.jpg"
-cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:2017 Citi Open Tennis Tommy Paul (36209120071).jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:McDonald–Shelton box at the 2023 DC Open 02.jpg"
 ---
 
 I quarti di finale del Masters di **Parigi** mettono di fronte Ben Shelton e Paul, due giocatori che si conoscono bene e che arrivano a questo appuntamento dopo un buon cammino nel tabellone. Sul veloce indoor del torneo parigino, uno dei più rapidi del calendario, si gioca un posto in semifinale tra due interpreti che negli anni si sono già incrociati più volte, senza che nessuno dei due abbia preso un vantaggio stabile nella loro storia.

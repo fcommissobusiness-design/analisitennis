@@ -24,7 +24,7 @@ probabilita_percent: 69
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-v-morvayova-vs-p-kudermetova-chennai-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Polina Kudermetova (2026 US Open) 01.jpg"
+cover_file: "File:Polina Kudermetova (2025 DC Open) 02.jpg"
 ---
 
 Il **primo turno** del torneo di Chennai mette di fronte due giocatrici che raggiungono lo stesso appuntamento percorrendo strade molto diverse. Da una parte Morvayova, reduce da una settimana vissuta fino in fondo proprio sul cemento indiano; dall'altra Kudermetova, che rientra dopo un autunno trascorso quasi interamente nei tabelloni del circuito maggiore. Le due non si sono mai incontrate prima, e questo aggiunge un margine di incognita a una partita costruita soprattutto sul contrasto tra i rispettivi percorsi recenti.

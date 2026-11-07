@@ -21,7 +21,7 @@ descrizione: "Paul e Darderi si sfidano agli ottavi di Vienna sul veloce indoor:
 pubblicato: true
 cover_image: "/covers/2026-10-29-t-paul-vs-l-darderi-vienna-pronostico-analisi.jpg"
 cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:2017 Citi Open Tennis Tommy Paul (36262674426).jpg"
+cover_file: "File:2017 Citi Open Tennis Tommy Paul (36209015791).jpg"
 generato_il: "2026-10-29T07:18"
 ---
 

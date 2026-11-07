@@ -20,8 +20,8 @@ verdetto: "Oggi la può spuntare A. Fils: la continuità mostrata nelle ultime s
 descrizione: "Fils contro Struff nella semifinale ATP di Bruxelles 2026: forma, precedenti e stile a confronto in un match sul veloce indoor tutto da seguire."
 pubblicato: true
 cover_image: "/covers/2026-10-24-a-fils-vs-j-l-struff-brussels-pronostico-analisi.jpg"
-cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Arthur Fils - 2024 Olympics (forehand).jpg"
+cover_credit: "Gordons203 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Arthur Fils at EFG Swiss Open Gstaad 2023 Pic Gordon Simmonds.jpg"
 ---
 
 La semifinale dell'ATP di **Bruxelles** mette di fronte due profili tennistici agli antipodi: da una parte Arthur Fils, francese nel pieno della sua ascesa, dall'altra Jan-Lennard Struff, tedesco di lungo corso che continua a ritagliarsi spazi di prestigio sul circuito. Il veloce indoor belga, superficie rapida che premia chi aggredisce lo scambio e tiene alta la percentuale al servizio, fa da cornice a una sfida dal fascino particolare, con in palio l'accesso all'ultimo atto del torneo.

@@ -24,7 +24,7 @@ probabilita_percent: 69
 generato_il: "2026-11-04T07:42"
 cover_image: "/covers/2026-11-04-m-bellucci-vs-a-rinderknech-paris-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Rinderknech REN21 (2).jpg"
+cover_file: "File:Bellucci WMQ23 (53061135007).jpg"
 ---
 
 Il programma del martedi' al **Rolex Paris Masters** porta in campo alle 11:10 Matteo Bellucci e Arthur Rinderknech, di scena nel **secondo turno** del tabellone sul **cemento indoor** di Bercy. Due giocatori che arrivano a questo incrocio da situazioni molto diverse, uniti da un solo filo comune: entrambi hanno dovuto sudare per presentarsi al via di questa giornata con qualcosa da far valere.

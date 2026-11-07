@@ -23,8 +23,8 @@ probabilita_favorito: "Hontama"
 probabilita_percent: 61
 generato_il: "2026-11-06T07:31"
 cover_image: "/covers/2026-11-06-m-hontama-vs-m-linette-chennai-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Mai Hontama (2023 US Open) 02.jpg"
 ---
 
 Il cemento di Chennai mette di fronte **Mai Hontama** e **Magda Linette** in un quarto di finale che arriva con una piccola coincidenza di percorso: entrambe si presentano all'appuntamento dopo aver superato i due turni precedenti del torneo indiano. Per la giapponese e la polacca è la seconda volta che i loro cammini si incrociano nel 2026, e il contesto odierno è sensibilmente diverso da quello della prima volta.

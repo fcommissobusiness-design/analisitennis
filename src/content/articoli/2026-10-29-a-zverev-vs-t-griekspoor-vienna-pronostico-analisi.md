@@ -21,7 +21,7 @@ descrizione: "Zverev contro Griekspoor a Vienna: scontri diretti, forma recente 
 pubblicato: true
 cover_image: "/covers/2026-10-29-a-zverev-vs-t-griekspoor-vienna-pronostico-analisi.jpg"
 cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21122372629).jpg"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21124911750).jpg"
 generato_il: "2026-10-29T07:17"
 ---
 

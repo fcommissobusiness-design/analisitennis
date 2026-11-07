@@ -277,15 +277,17 @@ log_section "COMPLETATA pipeline - $(date)"
 touch "$SENTINEL"
 
 # [POST] Profili editoriali in background.
-# Due passi, in sequenza:
+# Tre passi, in sequenza:
 #  1) backfill: profili per i giocatori/tornei NUOVI incontrati negli articoli;
-#  2) coverage: riempie qualche profilo mancante della TOP-100 ATP/WTA (anche
+#  2) italiani: riempie i profili azzurri mancanti dalla classifica estesa
+#     (priorita' editoriale: la pagina /italiani deve restare completa);
+#  3) coverage: riempie qualche profilo mancante della TOP-100 ATP/WTA (anche
 #     giocatori non ancora comparsi in un match). Bounded a pochi per run cosi'
 #     la copertura dei giocatori che contano si completa e resta completa senza
-#     pesare. Entrambi idempotenti e vettati (gate anti-allucinazione); i
-#     profili arrivano con calma e vengono committati al run successivo.
-log_section "[POST] Profili editoriali + copertura top-100 (background)"
+#     pesare. Tutti idempotenti e vettati (gate anti-allucinazione); i profili
+#     arrivano con calma e vengono committati al run successivo.
+log_section "[POST] Profili editoriali + copertura azzurri/top-100 (background)"
 cd "$HOME/analisitennis/backend"
-nohup bash -c 'python3 generate_profiles.py backfill; python3 generate_profiles.py coverage 8' \
+nohup bash -c 'python3 generate_profiles.py backfill; python3 generate_profiles.py italiani 6; python3 generate_profiles.py coverage 8' \
     > "$LOG_DIR/profiles_${OGGI}.log" 2>&1 &
-log "Lanciato backfill + coverage profili in background (pid $!)"
+log "Lanciato backfill + italiani + coverage profili in background (pid $!)"

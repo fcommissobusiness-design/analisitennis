@@ -23,8 +23,8 @@ probabilita_favorito: "Falkowska"
 probabilita_percent: 53
 generato_il: "2026-11-04T07:10"
 cover_image: "/covers/2026-11-04-w-falkowska-vs-m-rajeshwaran-revathi-chennai-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Destination8infinity / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Queen-Marys-College-Chennai-Tennis-Court-Hall.JPG"
 ---
 
 Il **cemento** di Chennai apre le porte degli ottavi di finale a due giocatrici arrivate allo stesso punto del tabellone per vie molto diverse. Weronika Falkowska e Maaya Rajeshwaran Revathi hanno entrambe superato il primo ostacolo del torneo WTA indiano, ma il cammino che le ha portate fin qui racconta storie quasi opposte, ed è proprio da quel contrasto che nasce l'interesse di questo incrocio.

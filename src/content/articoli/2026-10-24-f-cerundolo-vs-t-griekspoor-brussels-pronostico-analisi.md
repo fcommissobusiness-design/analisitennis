@@ -21,7 +21,7 @@ descrizione: "Semifinale ATP Bruxelles tra Francisco Cerundolo e Tallon Griekspo
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-cerundolo-vs-t-griekspoor-brussels-pronostico-analisi.jpg"
 cover_credit: "jmmuguerza / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Francisco Cerundolo - Wimbledon 2022 (12).jpg"
+cover_file: "File:Francisco Cerundolo - Wimbledon 2022 (20).jpg"
 ---
 
 La semifinale di **Bruxelles** mette di fronte Francisco Cerundolo e Tallon Griekspoor, due giocatori arrivati a questo punto del tabellone seguendo strade differenti ma con la stessa posta in palio: un posto nella finale del torneo. Si gioca su veloce indoor, una superficie che tende a premiare chi comanda lo scambio con il servizio e con i primi colpi, e che lascia poco margine ai momenti di distrazione. L'orario pomeridiano e il contesto di fine stagione aggiungono ulteriore pepe a una sfida che promette intensità.

@@ -23,8 +23,8 @@ probabilita_favorito: "Kudermetova"
 probabilita_percent: 71
 generato_il: "2026-11-04T07:16"
 cover_image: "/covers/2026-11-04-o-selekhmeteva-vs-p-kudermetova-chennai-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Polina Kudermetova (2025 DC Open) 03.jpg"
 ---
 
 Il tabellone del torneo WTA di **Chennai** regala agli ottavi di finale un confronto che porta con se' un piccolo passato recente. O. Selekhmeteva e P. Kudermetova tornano a incrociarsi sul **cemento** indiano dopo aver superato entrambe il proprio incontro d'apertura il 3 novembre, e lo fanno con la sensazione di chi sa gia' qualcosa dell'avversaria che si trovera' davanti.

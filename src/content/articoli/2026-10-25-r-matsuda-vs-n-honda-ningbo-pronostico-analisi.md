@@ -22,8 +22,8 @@ descrizione: "Semifinale di Ningbo tra R. Matsuda e N. Honda: primo confronto di
 pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-r-matsuda-vs-n-honda-ningbo-pronostico-analisi.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
+cover_credit: "TorontoGuy79 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Nationa lTennis Centre Toronto Canadian Open August 1997.jpg"
 ---
 
 Il **torneo di Ningbo** propone una semifinale dal sapore domestico: R. Matsuda e N. Honda, due giapponesi cresciuti sugli stessi campi del circuito minore asiatico, si contendono un posto in finale. Il dato che salta all'occhio è che non si sono mai affrontati prima: nessuno dei due porta in campo il peso di un precedente da difendere o da ribaltare, e questo rende il copione ancora più aperto.

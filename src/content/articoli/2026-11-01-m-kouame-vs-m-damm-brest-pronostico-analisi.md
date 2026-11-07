@@ -23,8 +23,8 @@ descrizione: "Finale del Challenger di Brest tra M. Kouame e M. Damm: cammino, u
 pubblicato: true
 generato_il: "2026-11-01T06:58"
 cover_image: "/covers/2026-11-01-m-kouame-vs-m-damm-brest-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Nrbelex / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Damm - US Open 2026.jpg"
 ---
 
 Il **Challenger di Brest** arriva al suo atto conclusivo con una finale costruita da due giocatori giunti all'ultimo ostacolo senza quasi concedere nulla lungo la settimana. Da una parte M. Kouame, dall'altra M. Damm: percorsi diversi, stesso traguardo e un unico, lontano precedente a fare da sottile filo conduttore tra loro. Sul veloce indoor francese, dove il servizio e la prima accelerazione tendono a pesare più che altrove, i due si contendono il titolo al termine di sette giorni di buona continuità.

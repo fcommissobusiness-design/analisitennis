@@ -23,8 +23,8 @@ probabilita_favorito: "Stoiana"
 probabilita_percent: 53
 generato_il: "2026-11-05T07:07"
 cover_image: "/covers/2026-11-05-s-cirstea-vs-m-stoiana-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Sorana Cîrstea (2023 DC Open) 01 (cropped).jpg"
 ---
 
 Il secondo turno del torneo WTA di Hong Kong propone il primo confronto in assoluto tra Cirstea e Mary Stoiana, due giocatrici che si presentano sul cemento asiatico con un successo appena messo in cascina e con umori leggermente diversi. Non esiste una storia di scontri diretti a cui aggrapparsi: è la prima volta che le loro strade si incrociano in un tabellone, e proprio l'assenza di un passato comune lascia il quadro più aperto del solito, affidato a ciò che le due hanno mostrato nelle ultime settimane.

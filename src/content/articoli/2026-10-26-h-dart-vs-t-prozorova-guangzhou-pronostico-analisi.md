@@ -21,7 +21,7 @@ descrizione: "Harriet Dart sfida Tatiana Prozorova nel torneo di Guangzhou: ness
 pubblicato: true
 cover_image: "/covers/2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi.jpg"
 cover_credit: "robbiesaurus / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Harriet Dart at the 2013 US Open 1.jpg"
+cover_file: "File:Harriet Dart at the 2013 US Open 2.jpg"
 generato_il: "2026-10-26T07:30"
 ---
 

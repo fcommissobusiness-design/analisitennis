@@ -20,8 +20,8 @@ descrizione: "Fritz e Hijikata si affrontano a Basilea sul cemento indoor: unico
 pubblicato: true
 generato_il: "2026-10-28T08:26"
 cover_image: "/covers/2026-10-28-t-fritz-vs-r-hijikata-basel-pronostico-analisi.jpg"
-cover_credit: "Vssun / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Taylor Fritz at 2025 Miami Open 02.jpg"
 ---
 
 Il cemento indoor di **Basilea** ospita un confronto tra due giocatori arrivati a questo primo turno da strade molto diverse. Taylor Fritz e Rinky Hijikata si ritrovano uno di fronte all'altro con tanto tennis nelle gambe e la voglia di ripartire subito dopo le fatiche della settimana appena trascorsa, su una superficie che accelera il gioco e che tende a premiare chi serve con continuità.

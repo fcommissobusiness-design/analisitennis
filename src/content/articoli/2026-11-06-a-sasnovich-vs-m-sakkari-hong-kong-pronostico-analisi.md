@@ -23,8 +23,8 @@ probabilita_favorito: "Sasnovich"
 probabilita_percent: 53
 generato_il: "2026-11-06T07:08"
 cover_image: "/covers/2026-11-06-a-sasnovich-vs-m-sakkari-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Anjo Sports Park tennis court ac.jpg"
+cover_credit: "David Iliff / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Aliaksandra Sasnovich 4, 2015 Wimbledon Qualifying - Diliff-crop.jpg"
 ---
 
 Il tabellone del **torneo di Hong Kong**, sul cemento della città cinese, mette una di fronte all'altra due giocatrici che ci sono arrivate per strade diverse ma con lo stesso biglietto: un posto tra le migliori otto. Aliaksandra Sasnovich, bielorussa, e Maria Sakkari, greca, condividono l'impugnatura destra e il rovescio a due mani, un dettaglio che spesso si traduce in scambi da fondo lunghi e in un gioco che cerca gli angoli più che l'accelerazione improvvisa. La domanda del match è quale delle due riuscirà a imporre il proprio ritmo per prima.

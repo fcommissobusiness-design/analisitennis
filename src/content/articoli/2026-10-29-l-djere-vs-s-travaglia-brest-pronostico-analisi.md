@@ -21,8 +21,8 @@ descrizione: "Challenger di Brest, ottavi di finale: Laslo Djere contro Stefano 
 pubblicato: true
 generato_il: "2026-10-29T07:06"
 cover_image: "/covers/2026-10-29-l-djere-vs-s-travaglia-brest-pronostico-analisi.jpg"
-cover_credit: "CivArmy / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"
+cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Djere WMQ26 (8).jpg"
 ---
 
 Il tabellone del Challenger di **Brest**, in Francia, propone negli ottavi di finale un confronto inedito tra due giocatori che arrivano all'appuntamento da strade molto diverse. Da una parte il serbo Laslo Djere, dall'altra l'italiano Stefano Travaglia: due tennisti con un passato di buon livello nel circuito maggiore, oggi impegnati sul cemento indoor francese in una fase di stagione che per entrambi vale punti pesanti e fiducia. I rispettivi percorsi recenti, però, raccontano storie differenti, ed è proprio nel contrasto tra questi due momenti che si nasconde il fascino della partita.

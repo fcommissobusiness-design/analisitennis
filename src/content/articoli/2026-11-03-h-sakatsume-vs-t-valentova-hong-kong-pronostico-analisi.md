@@ -23,8 +23,8 @@ probabilita_favorito: "Sakatsume"
 probabilita_percent: 53
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-h-sakatsume-vs-t-valentova-hong-kong-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Himeno Sakatsume (2026 US Open) 02.jpg"
 ---
 
 Il tabellone di **Hong Kong** propone subito un incrocio con un piccolo passato in comune: Himeno Sakatsume e Tereza Valentova si affrontano al **primo turno** del torneo femminile, su un campo in cemento che chiude la lunga trasferta asiatica di questo autunno. Entrambe arrivano da settimane intense, con un calendario fitto di partite tra Giappone e Cina, e nessuna delle due si presenta a corto di ritmo.

@@ -21,7 +21,7 @@ descrizione: "Mannarino contro Buse al primo turno di Vienna sul veloce indoor: 
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi.jpg"
 cover_credit: "Robbie Mendelson / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Adrian Mannarino at the 2010 US Open 01.jpg"
+cover_file: "File:Adrian Mannarino at the 2010 US Open 02.jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

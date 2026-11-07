@@ -22,8 +22,8 @@ pubblicato: true
 probabilita_favorito: "Zverev"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-04-a-zverev-vs-l-musetti-paris-pronostico-analisi.jpg"
-cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21302378242).jpg"
+cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:2017 Citi Open Tennis Alexander Zverev (36300490566).jpg"
 generato_il: "2026-11-04T07:10"
 ---
 

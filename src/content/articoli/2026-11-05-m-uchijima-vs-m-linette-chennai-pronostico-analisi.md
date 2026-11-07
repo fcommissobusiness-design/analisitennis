@@ -23,8 +23,8 @@ probabilita_favorito: "Uchijima"
 probabilita_percent: 58
 generato_il: "2026-11-05T07:31"
 cover_image: "/covers/2026-11-05-m-uchijima-vs-m-linette-chennai-pronostico-analisi.jpg"
-cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
-cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Moyuka Uchijima (2023 US Open) 04.jpg"
 ---
 
 Gli **ottavi di finale** di Chennai mettono di fronte Moyuka Uchijima e Magda Linette sul cemento indiano, una superficie che le ha già viste incrociarsi in passato. Entrambe hanno superato il primo ostacolo del tabellone appena due giorni fa e si presentano all'appuntamento del 5 novembre con la stessa esigenza: trasformare una settimana appena avviata in qualcosa di concreto. I numeri che le riguardano raccontano storie più simili di quanto i rispettivi profili lascerebbero immaginare.

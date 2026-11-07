@@ -21,7 +21,7 @@ descrizione: "Analisi di Zverev-Landaluce al primo turno di Vienna: forma recent
 pubblicato: true
 cover_image: "/covers/2026-10-27-a-zverev-vs-m-landaluce-vienna-pronostico-analisi.jpg"
 cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20691907103).jpg"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21302354182).jpg"
 generato_il: "2026-10-27T12:23"
 ---
 

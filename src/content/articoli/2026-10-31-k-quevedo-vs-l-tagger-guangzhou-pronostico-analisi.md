@@ -21,8 +21,8 @@ descrizione: "Quevedo sfida Tagger nella semifinale WTA di Guangzhou: cammino ne
 pubblicato: true
 generato_il: "2026-10-31T06:56"
 cover_image: "/covers/2026-10-31-k-quevedo-vs-l-tagger-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Vssun / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg"
+cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Quevedo WMQ26 (6).jpg"
 ---
 
 La semifinale di **Guangzhou** mette di fronte K. Quevedo e L. Tagger, due giocatrici arrivate all'ultimo atto del torneo cinese dopo aver vinto tre partite ciascuna nel giro di pochi giorni. Il tabellone le ha portate fin qui per strade diverse, ma con lo stesso bilancio settimanale, e questo da solo basta a rendere l'incrocio una delle sfide più aperte del fine settimana sul veloce asiatico.

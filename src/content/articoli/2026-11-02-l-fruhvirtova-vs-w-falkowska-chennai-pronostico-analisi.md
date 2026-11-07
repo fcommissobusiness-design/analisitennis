@@ -23,8 +23,8 @@ probabilita_favorito: "Fruhvirtova"
 probabilita_percent: 58
 generato_il: "2026-11-02T07:30"
 cover_image: "/covers/2026-11-02-l-fruhvirtova-vs-w-falkowska-chennai-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Linda Fruhvirtova (Roland Garros 2023) 07 (cropped).jpg"
 ---
 
 Il primo turno del torneo di **Chennai** mette di fronte la ceca Linda Fruhvirtova e la polacca Weronika Falkowska, due giocatrici arrivate all'appuntamento percorrendo strade molto diverse. Da un lato una stagione costruita in buona parte nei tabelloni del circuito maggiore, dall'altro una settimana appena vissuta da protagonista proprio sul cemento indiano. Il confronto promette equilibrio, perché mette a paragone la qualità delle avversarie affrontate di recente e lo stato di forma immediato.

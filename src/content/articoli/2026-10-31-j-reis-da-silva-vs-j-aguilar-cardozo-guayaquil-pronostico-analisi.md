@@ -21,8 +21,8 @@ descrizione: "Semifinale del Challenger di Guayaquil tra J. Reis Da Silva e J. A
 pubblicato: true
 generato_il: "2026-10-31T07:10"
 cover_image: "/covers/2026-10-31-j-reis-da-silva-vs-j-aguilar-cardozo-guayaquil-pronostico-analisi.jpg"
-cover_credit: "Johann Jaritz / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg"
+cover_credit: "Spatms / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Marks Tennis Stadium-Michael Uytengsu Tennis Pavilion (USC).jpg"
 ---
 
 La semifinale del Challenger di **Guayaquil** mette di fronte due giocatori arrivati all'appuntamento lanciati. J. Reis Da Silva e J. Aguilar Cardozo si contendono un posto nell'ultimo atto del torneo ecuadoriano, in programma per il 31 ottobre, al termine di settimane che li hanno visti entrambi collezionare risultati di rilievo sulla terra rossa sudamericana. Due storie diverse che convergono nello stesso penultimo gradino.

@@ -23,8 +23,8 @@ probabilita_favorito: "Stefanini"
 probabilita_percent: 57
 generato_il: "2026-11-05T07:20"
 cover_image: "/covers/2026-11-05-s-waltert-vs-l-stefanini-chennai-pronostico-analisi.jpg"
-cover_credit: "VasuVR / CC BY 4.0 / Wikimedia Commons"
-cover_file: "File:CHO08-Marcos Baghdatis Chennai Open practice court.jpg"
+cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Simona Waltert (2026 US Open) - 04.jpg"
 ---
 
 Il tabellone di Chennai propone agli ottavi di finale un confronto tra due giocatrici che hanno appena mosso i primi passi nel torneo con un segnale incoraggiante. Simona Waltert, svizzera, e Lucrezia Stefanini, italiana, si ritrovano sul cemento indiano dopo aver entrambe superato l'ostacolo iniziale nei primi giorni del torneo. Non risultano precedenti tra le due, e questo aggiunge un elemento di curiosità a una partita in cui nessuna parte con il vantaggio psicologico di un confronto già vissuto.
