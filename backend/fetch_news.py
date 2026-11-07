@@ -133,37 +133,43 @@ NOTIZIA CANDIDATA:
 Compiti:
 1. E' vera? E' confermata da almeno DUE fonti indipendenti affidabili, oppure da UNA fonte ufficiale (ATP/WTA/ITF, la federazione, il torneo, o l'interessato con comunicato ufficiale)?
 2. I dettagli (nomi, numeri, date, torneo, ruoli) sono corretti? Correggi quelli sbagliati.
+3. Raccogli anche il CONTESTO VERIFICATO: altri fatti REALI e confermati dalle fonti utili a inquadrare la notizia (antefatto, come si e' arrivati al fatto, numeri e date rilevanti, ruoli, dichiarazioni testuali con chi le ha dette, prossimi passi gia' annunciati). Ogni voce deve essere confermata dalle fonti, MAI ipotizzata o dedotta. Serve a scrivere una notizia piu' completa senza inventare: se non trovi contesto verificato, lascia la lista vuota.
 
 Sii severo: se trovi solo una fonte non ufficiale, o fonti che si copiano a vicenda, o nessuna conferma, il verdetto e' NON_CONFERMATA.
 
 Restituisci SOLO JSON:
-{{"verdict":"CONFERMATA o NON_CONFERMATA","fatto_verificato":"il fatto preciso e corretto come risulta dalle fonti, in una o due frasi","fonti_conferma":[{{"nome":"nome fonte","url":"url"}}],"data_fatto":"YYYY-MM-DD","note":"eventuali precisazioni"}}"""
+{{"verdict":"CONFERMATA o NON_CONFERMATA","fatto_verificato":"il fatto principale, preciso e corretto come risulta dalle fonti, in una o due frasi","contesto_verificato":["0-6 fatti di contesto, ciascuno realmente confermato dalle fonti"],"fonti_conferma":[{{"nome":"nome fonte","url":"url"}}],"data_fatto":"YYYY-MM-DD","note":"eventuali precisazioni"}}"""
 
-PROMPT_SCRITTURA = """Sei un redattore di AnalisiTennis, testata editoriale di tennis. Scrivi una breve notizia a partire ESCLUSIVAMENTE dal fatto verificato qui sotto. Non aggiungere NESSUN dettaglio (numeri, cause, date, dichiarazioni) che non sia gia' nel fatto verificato.
+PROMPT_SCRITTURA = """Sei un redattore di AnalisiTennis, testata editoriale di tennis. Scrivi una notizia a partire ESCLUSIVAMENTE dal fatto verificato e dal contesto verificato qui sotto. Non aggiungere NESSUN dettaglio (numeri, cause, date, dichiarazioni, attributi) che non sia gia' presente in essi.
 
 FATTO VERIFICATO: {fatto}
+CONTESTO VERIFICATO (altri fatti confermati che PUOI usare): {contesto}
 FONTI: {fonti}
 CATEGORIA: {category}
 
-Stile: cronaca sobria e professionale, niente trattino lungo (usa la virgola), accenti corretti (è, più, città, perché), niente linguaggio da scommesse. Cita la fonte nel corpo (es. "secondo {fonte_principale}"). Non pronosticare, non speculare.
+Scrivi una notizia COMPLETA ma sobria, da 3 a 5 paragrafi brevi (circa 200-330 parole). Sviluppa in ordine: 1) cosa e' successo (il fatto, in apertura); 2) l'antefatto e i dettagli, usando SOLO il contesto verificato; 3) l'attribuzione chiara alla fonte (es. "secondo {fonte_principale}"). Puoi usare frasi di raccordo generiche che NON introducono fatti nuovi. Se il materiale e' scarno, la notizia resta breve: meglio corta che inventata.
 
-IMPORTANTE: NON aggiungere nessun dettaglio che non sia nel fatto verificato: niente nazionalità, età, palmares, cause, cifre o dichiarazioni non presenti. Riporta solo il fatto e la sua attribuzione alla fonte. Se il fatto è scarno, la notizia è scarna: va bene.
+Stile: cronaca professionale e piana, niente trattino lungo (usa la virgola), accenti corretti (è, più, città, perché), niente linguaggio da scommesse, niente pronostici o speculazioni.
+
+TITOLO (fondamentale per Google e per il lettore): deve contenere il nome del protagonista e la parola chiave della notizia (esempi di forma: "Sinner cambia allenatore", "Berrettini salta la Coppa Davis", "Paolini si ferma per infortunio"), suonare naturale come una ricerca su Google, invogliare il clic senza esagerare, lunghezza 50-70 caratteri.
+SOMMARIO: una frase da meta-description per Google, 140-160 caratteri, con le parole chiave della notizia, che fa capire il fatto e invoglia ad aprire.
 
 Restituisci SOLO JSON:
-{{"titolo":"titolo giornalistico chiaro","sommario":"una frase di sintesi","corpo_markdown":"2-4 paragrafi brevi, con l'attribuzione alla fonte","tag":["entita' principali, 2-5 tag"]}}"""
+{{"titolo":"...","sommario":"...","corpo_markdown":"il corpo in markdown, 3-5 paragrafi","tag":["3-6 tag: nomi dei protagonisti, tornei, tema"]}}"""
 
 PROMPT_GATE = """Gate anti-allucinazione per una notizia di tennis. Verifica che la notizia non affermi FATTI SOSTANZIALI non supportati.
 
 FATTO VERIFICATO (confermato dalle fonti): {fatto}
+CONTESTO VERIFICATO (anch'esso confermato dalle fonti, materiale lecito): {contesto}
 FONTI CONFERMANTI: {fonti}
 
 NOTIZIA SCRITTA:
 titolo: {titolo}
 corpo: {corpo}
 
-Metti ok=false SOLO se la notizia afferma un fatto sostanziale, cioe' un numero, un risultato, una data, una causa, una dichiarazione o un attributo (es. nazionalita', eta', titoli), che NON e' contenuto nel fatto verificato ne' deducibile da esso.
+Metti ok=false SOLO se la notizia afferma un fatto sostanziale, cioe' un numero, un risultato, una data, una causa, una dichiarazione o un attributo (es. nazionalita', eta', titoli), che NON e' contenuto nel fatto verificato NE' nel contesto verificato, ne' deducibile da essi.
 
-NON segnalare come problema: l'attribuzione a una delle fonti conferma (citare la fonte e' corretto e richiesto), la riformulazione del fatto verificato, le frasi di contesto generiche che non introducono nuovi fatti.
+NON segnalare come problema: l'attribuzione a una delle fonti conferma (citare la fonte e' corretto e richiesto), la riformulazione del fatto verificato o del contesto verificato, le frasi di raccordo generiche che non introducono nuovi fatti.
 
 Restituisci SOLO JSON: {{"ok":true o false,"problemi":["solo i fatti sostanziali non supportati, se ce ne sono"]}}"""
 
@@ -204,17 +210,19 @@ def verifica(item):
     return v
 
 
-def scrivi(fatto, fonti, category):
+def scrivi(fatto, fonti, category, contesto=None):
     fonte_principale = fonti[0]['nome'] if fonti else 'le fonti ufficiali'
+    ctx = json.dumps(contesto or [], ensure_ascii=False)
     txt = _claude_call(PROMPT_SCRITTURA.format(
-        fatto=fatto, fonti=json.dumps(fonti, ensure_ascii=False),
+        fatto=fatto, contesto=ctx, fonti=json.dumps(fonti, ensure_ascii=False),
         category=category, fonte_principale=fonte_principale), timeout=600)
     return _estrai_json(txt)
 
 
-def gate(fatto, fonti, art):
+def gate(fatto, fonti, art, contesto=None):
     txt = _claude_call(PROMPT_GATE.format(
-        fatto=fatto, fonti=json.dumps(fonti, ensure_ascii=False),
+        fatto=fatto, contesto=json.dumps(contesto or [], ensure_ascii=False),
+        fonti=json.dumps(fonti, ensure_ascii=False),
         titolo=art.get('titolo', ''), corpo=art.get('corpo_markdown', '')), timeout=300)
     try:
         return _estrai_json(txt)
@@ -286,15 +294,16 @@ def run(data_iso):
             continue
         fatto = v.get('fatto_verificato', '')
         fonti = v.get('fonti_conferma', [])
+        contesto = v.get('contesto_verificato', []) or []
         if not fatto or not fonti:
             print('[news]   confermata ma senza fatto/fonti, scarto', flush=True)
             continue
         try:
-            art = scrivi(fatto, fonti, item.get('category', 'altro'))
+            art = scrivi(fatto, fonti, item.get('category', 'altro'), contesto=contesto)
         except Exception as e:
             print(f'[news]   scrittura fallita: {e}', flush=True)
             continue
-        g = gate(fatto, fonti, art)
+        g = gate(fatto, fonti, art, contesto=contesto)
         if not g.get('ok'):
             print(f'[news]   gate FALLITO: {g.get("problemi")}', flush=True)
             scartate.append({'headline': hd, 'motivo': 'gate: ' + '; '.join(g.get('problemi', []))})

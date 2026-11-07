@@ -23,6 +23,7 @@ const CAT_LABEL = {
 const catLabel = CAT_LABEL[d.categoria] || 'News';
 const dataIt = new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
+const tags = Array.isArray(d.tag) ? d.tag.filter(Boolean) : [];
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
@@ -30,13 +31,21 @@ const schema = {
   description: d.sommario,
   datePublished: d.generato_il || new Date(d.data).toISOString(),
   dateModified: d.generato_il || new Date(d.data).toISOString(),
-  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
+  inLanguage: 'it-IT',
+  articleSection: catLabel,
+  ...(tags.length ? { keywords: tags.join(', ') } : {}),
+  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis', url: `${site}/chi-siamo` },
   publisher: {
     '@type': 'Organization',
+    '@id': `${site}/#organization`,
     name: 'AnalisiTennis',
     logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` },
   },
+  isPartOf: { '@type': 'WebSite', '@id': `${site}/#website` },
   mainEntityOfPage: `${site}/news/${n.slug}`,
+  // speakable: aiuta assistenti vocali e AI a isolare la parte citabile.
+  speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.articolo-corpo'] },
+  ...(tags.length ? { about: tags.map(t => ({ '@type': 'Thing', name: t })) } : {}),
   ...(d.fonte_url ? { citation: { '@type': 'CreativeWork', name: d.fonte_nome || 'Fonte', url: d.fonte_url } } : {}),
 };
 ---
