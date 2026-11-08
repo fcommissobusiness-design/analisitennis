@@ -21,10 +21,10 @@ descrizione: "Ruud e Cerundolo si ritrovano al primo turno di Parigi sul cemento
 pubblicato: true
 probabilita_favorito: "Cerundolo"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-02-c-ruud-vs-j-m-cerundolo-paris-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Casper Ruud (2023 US Open) 01.jpg"
 generato_il: "2026-11-02T07:45"
+cover_image: "/covers/2026-11-02-c-ruud-vs-j-m-cerundolo-paris-pronostico-analisi.jpg"
+cover_credit: "Skyscraper2010 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Casper Ruud, Norwegian professional tennis player, ATP 500 Basel 2025.jpg"
 ---
 
 Il primo turno del torneo di **Paris** mette di fronte due giocatori che si conoscono ormai bene e che negli ultimi diciotto mesi si sono incrociati con una certa regolarità. Da una parte Casper Ruud, dall'altra Juan Manuel Cerundolo: un confronto che arriva in un momento particolare della stagione, con l'attività che si concentra sul cemento al coperto e con entrambi reduci da settimane fitte di impegni sul circuito europeo.

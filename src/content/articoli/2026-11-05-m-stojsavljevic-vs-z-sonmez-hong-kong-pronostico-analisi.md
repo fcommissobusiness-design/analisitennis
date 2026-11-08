@@ -21,10 +21,10 @@ descrizione: "Al secondo turno del WTA di Hong Kong, Mika Stojsavljevic e Sonmez
 pubblicato: true
 probabilita_favorito: "Sonmez"
 probabilita_percent: 53
+generato_il: "2026-11-05T07:21"
 cover_image: "/covers/2026-11-05-m-stojsavljevic-vs-z-sonmez-hong-kong-pronostico-analisi.jpg"
 cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Mika Stojsavljevic 2026 Birmingham Open.jpg"
-generato_il: "2026-11-05T07:21"
+cover_file: "File:Mika Stojsavljevic 2026 Birmingham Open 2.jpg"
 ---
 
 Il secondo turno del torneo WTA di **Hong Kong** mette di fronte due giocatrici che arrivano a questo appuntamento da percorsi stagionali diversi. Mika Stojsavljevic e Sonmez si affrontano sul **cemento** della città asiatica in un incontro del mattino, con in palio un posto nel turno successivo di un tabellone che continua a proporre incroci dall'esito tutt'altro che scontato.

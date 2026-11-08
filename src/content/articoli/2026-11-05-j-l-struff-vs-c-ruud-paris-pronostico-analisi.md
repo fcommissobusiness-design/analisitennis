@@ -21,10 +21,10 @@ descrizione: "Struff e Ruud si affrontano negli ottavi del Masters di Parigi sul
 pubblicato: true
 probabilita_favorito: "Struff"
 probabilita_percent: 61
-cover_image: "/covers/2026-11-05-j-l-struff-vs-c-ruud-paris-pronostico-analisi.jpg"
-cover_credit: "Skyscraper2010 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Casper Ruud, Norwegian professional tennis player, ATP 500 Basel 2025 (cropped).jpg"
 generato_il: "2026-11-05T07:07"
+cover_image: "/covers/2026-11-05-j-l-struff-vs-c-ruud-paris-pronostico-analisi.jpg"
+cover_credit: "Asadnoy / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Casper Ruud forehand.jpg"
 ---
 
 Il Rolex Paris Masters entra nel vivo e porta sul cemento al coperto di Parigi un ottavo di finale dal sapore particolare: Jan-Lennard Struff e Casper Ruud tornano a incrociarsi per la quinta volta in carriera, dopo una storia di confronti già abbastanza ricca da lasciare qualche indizio. Entrambi hanno superato i primi due turni del tabellone parigino e si presentano all'appuntamento con la sensazione di poter andare ancora avanti in un finale di stagione dove ogni partita conta doppio.

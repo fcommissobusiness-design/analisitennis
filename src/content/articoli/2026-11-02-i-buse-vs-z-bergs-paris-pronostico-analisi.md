@@ -21,10 +21,10 @@ descrizione: "Ignacio Buse e Zizou Bergs aprono il tabellone di Parigi sul cemen
 pubblicato: true
 probabilita_favorito: "Bergs"
 probabilita_percent: 61
-cover_image: "/covers/2026-11-02-i-buse-vs-z-bergs-paris-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Zizou Bergs (2023 US Open) 03.jpg"
 generato_il: "2026-11-02T07:33"
+cover_image: "/covers/2026-11-02-i-buse-vs-z-bergs-paris-pronostico-analisi.jpg"
+cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Zizou Bergs at 2025 Miami Open 02.jpg"
 ---
 
 Il tabellone di **Paris** si apre con un incrocio che profuma già di rivincita. Ignacio Buse e Zizou Bergs si affrontano al **primo turno** sul cemento indoor della capitale francese, a poco più di tre settimane dall'ultima volta che si sono trovati dalle parti opposte della rete. Due giocatori in piena attività autunnale, arrivati a questo appuntamento con stati d'animo e percorsi recenti che meritano di essere messi uno accanto all'altro senza fretta.

@@ -21,10 +21,10 @@ descrizione: "Djokovic e Hijikata al secondo turno del Masters 1000 di Parigi su
 pubblicato: true
 probabilita_favorito: "Djokovic"
 probabilita_percent: 64
-cover_image: "/covers/2026-11-04-n-djokovic-vs-r-hijikata-paris-pronostico-analisi.jpg"
-cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:Novak Djokovic Practicing Tennis 06.jpg"
 generato_il: "2026-11-04T07:16"
+cover_image: "/covers/2026-11-04-n-djokovic-vs-r-hijikata-paris-pronostico-analisi.jpg"
+cover_credit: "Kuberzog / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Novak Djokovic - Roland-Garros - 28.05.2024 croped.jpg"
 ---
 
 Il Rolex Paris Masters chiude il grande tennis indoor della stagione sul cemento veloce della capitale francese, e al secondo turno propone un confronto tra due interpreti dalle biografie lontane: **Novak Djokovic** e **Rinky Hijikata**. Il serbo, trentanove anni compiuti a maggio, e l'australiano, classe 2001, si ritrovano uno di fronte all'altro in un contesto che tende a premiare chi serve bene e chiude in fretta gli scambi.

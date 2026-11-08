@@ -24,7 +24,7 @@ probabilita_percent: 53
 generato_il: "2026-11-05T07:36"
 cover_image: "/covers/2026-11-05-r-hijikata-vs-t-m-etcheverry-paris-pronostico-analisi.jpg"
 cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Tomás Martin Etcheverry - 2024 Olympics (cropped).jpg"
+cover_file: "File:Tomás Martin Etcheverry - 2024 Olympics.jpg"
 ---
 
 Gli ottavi di finale del Rolex Paris Masters mettono di fronte due giocatori arrivati a questo punto del tabellone per vie diverse, ma con la stessa sensazione addosso: quella di chi ha appena incastrato la settimana giusta. **Rinky Hijikata** e Tomas Martin **Etcheverry** scendono sul **cemento** al coperto della capitale francese dopo aver tolto di mezzo avversari di prima fascia, e il match odierno mette in palio un posto nei quarti di un torneo di categoria Masters.

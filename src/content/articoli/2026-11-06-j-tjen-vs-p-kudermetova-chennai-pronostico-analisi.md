@@ -24,7 +24,7 @@ probabilita_percent: 60
 generato_il: "2026-11-06T07:10"
 cover_image: "/covers/2026-11-06-j-tjen-vs-p-kudermetova-chennai-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Polina Kudermetova (2026 US Open) 01.jpg"
+cover_file: "File:Polina Kudermetova (2025 DC Open) 03.jpg"
 ---
 
 Il tabellone di **Chennai** propone ai quarti di finale un confronto che le due protagoniste conoscono già a memoria: Janice Tjen e Polina Kudermetova tornano una di fronte all'altra a pochissimi giorni dall'ultima volta in cui si erano incrociate. Il cemento indiano fa da cornice a una partita che vale un posto in semifinale e che arriva per entrambe al termine di una settimana convincente nel torneo, in un periodo della stagione in cui la freschezza fisica e mentale pesa spesso quanto il talento.

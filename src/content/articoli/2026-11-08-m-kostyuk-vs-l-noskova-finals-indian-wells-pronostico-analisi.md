@@ -21,10 +21,10 @@ descrizione: "Kostyuk e Nosková di nuovo di fronte dopo i tre precedenti del 20
 pubblicato: true
 probabilita_favorito: "Nosková"
 probabilita_percent: 61
-cover_file: "File:Marta Kostyuk (2023 US Open) 20 (cropped).jpg"
 generato_il: "2026-11-08T07:19"
 cover_image: "/covers/2026-11-08-m-kostyuk-vs-l-noskova-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Marta Kostyuk (2023 DC Open) 12 cropped.jpg"
 ---
 
 Marta Kostyuk e Linda Nosková si ritrovano ancora una volta una di fronte all'altra, e il contesto rende questo incrocio particolare: le due si sono già affrontate tre volte nel corso del 2026, sempre su palcoscenici di prestigio, e la partita di Indian Wells aggiunge così il quarto capitolo a una rivalità che quest'anno è diventata una costante del circuito. Due giocatrici della stessa generazione, l'ucraina nata nel 2002, la ceca nel 2004, che il tabellone ha abituato a trovarsi reciprocamente sulla strada nei momenti che pesano.

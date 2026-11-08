@@ -24,7 +24,7 @@ probabilita_percent: 61
 generato_il: "2026-11-04T07:27"
 cover_image: "/covers/2026-11-04-t-paul-vs-d-merida-aguilar-paris-pronostico-analisi.jpg"
 cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:2017 Citi Open Tennis Tommy Paul, Casper Ruud (35498014173).jpg"
+cover_file: "File:2017 Citi Open Tennis Tommy Paul (36209120071).jpg"
 ---
 
 Il secondo turno del **Rolex Paris Masters** mette di fronte lo svizzero Jakub Paul e lo spagnolo Daniel Mérida Aguilar, due giocatori arrivati all'appuntamento per strade diverse ma con lo stesso biglietto da visita: una vittoria piena all'ingresso nel tabellone sul **cemento** di Parigi. Nessuno dei due si porta addosso l'etichetta della testa di serie più attesa, e proprio per questo l'incrocio ha il profilo della partita che può incamminarsi su binari difficili da prevedere.
