@@ -21,10 +21,10 @@ descrizione: "Janice Tjen e Magda Linette si giocano la finale di Chennai sul ce
 pubblicato: true
 probabilita_favorito: "Tjen"
 probabilita_percent: 59
-cover_file: "File:Talia Gibson Janice Tjen Birmingham 2026.jpg"
+cover_file: "File:Magda Linette (42043608240).jpg"
 generato_il: "2026-11-08T07:10"
 cover_image: "/covers/2026-11-08-j-tjen-vs-m-linette-chennai-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 C'è una simmetria curiosa in questa finale di **Chennai**: Janice Tjen e Magda Linette arrivano all'ultimo atto dopo aver vinto quattro partite ciascuna nel tabellone, senza concedere strada facile a nessuna avversaria. Due cammini paralleli che non si erano mai incrociati e che si incontrano solo adesso, sul cemento del torneo indiano fondato nel 2003, per assegnare un titolo che nessuna delle due ha mai conteso all'altra.

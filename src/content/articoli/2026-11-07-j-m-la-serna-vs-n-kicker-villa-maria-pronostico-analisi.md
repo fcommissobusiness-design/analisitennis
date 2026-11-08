@@ -5,7 +5,7 @@ data: "2026-11-07"
 autore: "Redazione AnalisiTennis"
 torneo: "Villa Maria"
 categoria: "Challenger"
-superficie: "cemento"
+superficie: "terra"
 giocatore1: "J. M. La Serna"
 giocatore2: "N. Kicker"
 tag:

@@ -21,10 +21,10 @@ descrizione: "Feldbausch e Martineau si giocano la finale del Challenger di Tara
 pubblicato: true
 probabilita_favorito: "Martineau"
 probabilita_percent: 52
-cover_file: "File:Taranto - Palazzo di Città.jpg"
+cover_file: "File:Kilian Feldbausch (2026 US Open) 01.jpg"
 generato_il: "2026-11-08T06:59"
 cover_image: "/covers/2026-11-08-k-feldbausch-vs-m-martineau-taranto-italy-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 ---
 
 La prima edizione della **Taranto Tennis Cup** mette in palio un titolo che non ha ancora un albo d'oro. Sul cemento pugliese, K. Feldbausch e Matteo Martineau si contendono il diritto di diventare il primo nome inciso in questo Challenger nato nel 2026, in una finale che arriva al termine di una settimana giocata ad alto ritmo da entrambi.
