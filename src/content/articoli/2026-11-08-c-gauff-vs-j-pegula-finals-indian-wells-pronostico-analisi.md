@@ -21,10 +21,10 @@ descrizione: "Coco Gauff e Jessica Pegula si affrontano per l'undicesima volta a
 pubblicato: true
 probabilita_favorito: "Gauff"
 probabilita_percent: 61
-cover_file: "File:Coco Gauff Practicing Tennis 1.jpg"
+cover_file: "File:Coco Gauff (48164193957).jpg"
 generato_il: "2026-11-08T06:52"
 cover_image: "/covers/2026-11-08-c-gauff-vs-j-pegula-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il tabellone delle **Finals di Indian Wells** si apre con un confronto che di inedito non ha davvero nulla: **Coco Gauff e Jessica Pegula** si ritrovano una di fronte all'altra per l'undicesima volta in carriera. Due giocatrici statunitensi, due profili tecnici per molti versi vicini e una storia di precedenti che racconta un equilibrio quasi perfetto. Il primo turno di questo appuntamento conclusivo mette subito a contatto due nomi che si conoscono a memoria.
