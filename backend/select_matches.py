@@ -195,6 +195,14 @@ def is_singolo(m):
     return '/' not in p1 and '/' not in p2
 
 
+def is_annullato(m):
+    """Un match annullato/rinviato/walkover non si pubblica MAI, nemmeno con
+    ANALISITENNIS_IGNORA_STATO: la partita non si gioca, un'anteprima non ha
+    senso. L'API marca event_status con 'Cancelled'/'Postponed'/'Walkover'."""
+    s = (m.get('event_status') or '').strip().lower()
+    return any(w in s for w in ('cancel', 'postpon', 'walkover'))
+
+
 def is_qualificazione(m):
     """True se il match e' di qualificazione (tabellone cadetto). Il flag API
     event_qualification e' il marcatore affidabile; in appoggio il nome del
@@ -213,7 +221,8 @@ def seleziona(matches, cap_totale=15, big_extra=2):
     in tornei minori: garantirli copre query che la sola selezione per
     importanza del torneo lascerebbe scoperte, senza togliere spazio alla
     slate principale (si AGGIUNGONO al cap, non lo riempiono)."""
-    base = [m for m in matches if is_singolo(m) and not_yet_started(m) and orario_italiano_ok(m)]
+    base = [m for m in matches if is_singolo(m) and not is_annullato(m)
+            and not_yet_started(m) and orario_italiano_ok(m)]
     # Escludi tier OTHER / ITF (ignorati per il blog)
     base = [m for m in base if classifica_tier(m) not in ('ITF', 'OTHER')]
     # Escludi del tutto le QUALIFICAZIONI (non solo penalizzarle): la verifica
