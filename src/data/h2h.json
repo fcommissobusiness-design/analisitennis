@@ -3102,5 +3102,141 @@
         "winner": "First Player"
       }
     ]
+  },
+  "carlos-alcaraz-vs-casper-ruud": {
+    "p1": "Carlos Alcaraz",
+    "p2": "Casper Ruud",
+    "slug_p1": "carlos-alcaraz",
+    "slug_p2": "casper-ruud",
+    "bilancio": {
+      "p1": 7,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-07",
+        "torneo": "Paris",
+        "g1": "C. Ruud",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-03-11",
+        "torneo": "ATP Indian Wells",
+        "g1": "C. Alcaraz",
+        "g2": "C. Ruud",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-09-29",
+        "torneo": "Tokyo",
+        "g1": "C. Alcaraz",
+        "g2": "C. Ruud",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-11-11",
+        "torneo": "ATP Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "C. Ruud",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-10-02",
+        "torneo": "ATP Beijing",
+        "g1": "C. Alcaraz",
+        "g2": "C. Ruud",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-12-18",
+        "torneo": "World Tennis Championship",
+        "g1": "C. Ruud",
+        "g2": "C. Alcaraz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-09-11",
+        "torneo": "US Open",
+        "g1": "C. Ruud",
+        "g2": "C. Alcaraz",
+        "risultato": "1 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-06-25",
+        "torneo": "Hurlingham",
+        "g1": "C. Ruud",
+        "g2": "C. Alcaraz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-04-03",
+        "torneo": "Miami",
+        "g1": "C. Alcaraz",
+        "g2": "C. Ruud",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2021-04-09",
+        "torneo": "Marbella",
+        "g1": "C. Alcaraz",
+        "g2": "C. Ruud",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "ben-shelton-vs-carlos-alcaraz": {
+    "p1": "Ben Shelton",
+    "p2": "Carlos Alcaraz",
+    "slug_p1": "ben-shelton",
+    "slug_p2": "carlos-alcaraz",
+    "bilancio": {
+      "p1": 1,
+      "p2": 3
+    },
+    "precedenti": [
+      {
+        "data": "2026-09-09",
+        "torneo": "US Open",
+        "g1": "B. Shelton",
+        "g2": "C. Alcaraz",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-06-01",
+        "torneo": "French Open",
+        "g1": "B. Shelton",
+        "g2": "C. Alcaraz",
+        "risultato": "1 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-09-21",
+        "torneo": "ATP Laver Cup",
+        "g1": "C. Alcaraz",
+        "g2": "B. Shelton",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-08-10",
+        "torneo": "ATP Toronto",
+        "g1": "C. Alcaraz",
+        "g2": "B. Shelton",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
   }
 }
