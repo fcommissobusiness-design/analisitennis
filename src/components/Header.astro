@@ -5,13 +5,24 @@
     <a href="/" class="logo-link" aria-label="AnalisiTennis - homepage">
       <img src="/logo-header.jpg" alt="AnalisiTennis" class="logo-img" width="260" height="60" />
     </a>
-    <button class="menu-toggle" id="menu-toggle" aria-label="Apri menu" aria-expanded="false">Menu</button>
-    <nav class="menu" id="menu" aria-label="Menu principale">
+    <nav class="menu-primario" aria-label="Voci principali">
       <a href="/">Home</a>
-      <a href="/oggi">Oggi</a>
       <a href="/news">News</a>
-      <a href="/italiani">Italiani in campo</a>
       <a href="/pronostici">Pronostici</a>
+      <a href="/chi-siamo">Chi siamo</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+    <nav class="menu" id="menu" aria-label="Altre sezioni">
+      <a href="/" class="solo-mobile">Home</a>
+      <a href="/news" class="solo-mobile">News</a>
+      <a href="/pronostici" class="solo-mobile">Pronostici</a>
+      <a href="/chi-siamo" class="solo-mobile">Chi siamo</a>
+      <a href="/oggi">Oggi</a>
+      <a href="/italiani">Italiani in campo</a>
       <a href="/categoria/atp">ATP</a>
       <a href="/categoria/wta">WTA</a>
       <a href="/categoria/slam">Slam</a>
@@ -19,9 +30,7 @@
       <a href="/classifica-atp">Classifiche top 100</a>
       <a href="/giocatori">Giocatori</a>
       <a href="/tornei">Tornei</a>
-      <a href="/risultati">Risultati</a>
       <a href="/guide">Guide</a>
-      <a href="/chi-siamo">Chi siamo</a>
     </nav>
   </div>
 </header>
@@ -29,10 +38,19 @@
   const btn = document.getElementById('menu-toggle');
   const menu = document.getElementById('menu');
   if (btn && menu) {
-    btn.addEventListener('click', () => {
+    const chiudi = () => {
+      menu.classList.remove('aperto');
+      btn.setAttribute('aria-expanded', 'false');
+    };
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
       const open = menu.classList.toggle('aperto');
       btn.setAttribute('aria-expanded', String(open));
-      btn.textContent = open ? 'Chiudi' : 'Menu';
     });
+    // Chiude il menu cliccando fuori o premendo Esc
+    document.addEventListener('click', (e) => {
+      if (!menu.contains(e.target) && !btn.contains(e.target)) chiudi();
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') chiudi(); });
   }
 </script>

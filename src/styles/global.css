@@ -80,7 +80,7 @@ strong { font-weight: 700; color: var(--testo); }
 .site-header .barra {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 10px 20px;
   max-width: none;
   margin: 0 auto;
@@ -96,15 +96,17 @@ strong { font-weight: 700; color: var(--testo); }
   width: auto;
   display: block;
 }
-.menu {
+/* Voci principali sempre visibili */
+.menu-primario {
   display: flex;
-  gap: 9px;
+  gap: 22px;
+  margin-left: auto;
   font-family: var(--font-ui);
-  font-size: 0.70rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.04em;
 }
-.menu a {
+.menu-primario a {
   color: #e8ebf0;
   font-weight: 500;
   padding: 6px 0;
@@ -112,11 +114,11 @@ strong { font-weight: 700; color: var(--testo); }
   transition: color 0.2s;
   white-space: nowrap;
 }
-.menu a:hover {
+.menu-primario a:hover {
   color: var(--brand-verde);
   text-decoration: none;
 }
-.menu a::after {
+.menu-primario a::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -126,9 +128,46 @@ strong { font-weight: 700; color: var(--testo); }
   background: var(--brand-verde);
   transition: width 0.25s;
 }
-.menu a:hover::after {
+.menu-primario a:hover::after {
   width: 100%;
 }
+
+/* Dropdown "panino" con le altre sezioni */
+.menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 16px;
+  min-width: 232px;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--brand-nero);
+  border: 1px solid #2a2f38;
+  border-top: 2px solid var(--brand-verde);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  z-index: 60;
+}
+.menu.aperto { display: flex; }
+.menu a {
+  color: #e8ebf0;
+  font-weight: 500;
+  padding: 10px 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+.menu a:last-child { border-bottom: none; }
+.menu a:hover {
+  color: var(--brand-verde);
+  text-decoration: none;
+}
+.menu .solo-mobile { display: none; }
 
 /* HERO HOMEPAGE con logo */
 .homepage-hero {
@@ -481,20 +520,33 @@ strong { font-weight: 700; color: var(--testo); }
 
 /* MENU MOBILE TOGGLE */
 .menu-toggle {
-  display: none;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 42px;
+  height: 36px;
+  padding: 0;
   background: transparent;
   border: 1px solid #2a2f38;
-  color: #e8ebf0;
-  padding: 8px 10px;
   border-radius: 6px;
   cursor: pointer;
-  font-family: var(--font-ui);
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-weight: 600;
+  flex-shrink: 0;
 }
-.menu-toggle:hover { color: var(--brand-verde); border-color: var(--brand-verde); }
+.menu-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 0 auto;
+  background: #e8ebf0;
+  border-radius: 2px;
+  transition: transform 0.25s, opacity 0.2s, background 0.2s;
+}
+.menu-toggle:hover { border-color: var(--brand-verde); }
+.menu-toggle:hover span { background: var(--brand-verde); }
+.menu-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
 /* RESPONSIVE */
 @media (max-width: 1000px) {
@@ -519,24 +571,13 @@ strong { font-weight: 700; color: var(--testo); }
   .verdetto p { font-size: 1.02rem; }
 }
 
-@media (max-width: 1260px) {
-  .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
-  .site-header .menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--brand-nero);
-    border-bottom: 2px solid var(--brand-verde);
-    padding: 16px 24px 20px;
-    flex-direction: column;
-    gap: 18px;
-    font-size: 0.95rem;
-  }
-  .site-header .menu.aperto { display: flex; }
-  .site-header .menu a { padding: 8px 0; }
-  .site-header .menu a::after { display: none; }
+/* Da telefono nascondiamo le 4 voci fisse e le riportiamo dentro al panino,
+   cosi' la barra resta sempre: logo a sinistra, panino a destra. */
+@media (max-width: 560px) {
+  .menu-primario { display: none; }
+  .menu-toggle { margin-left: auto; }
+  .menu .solo-mobile { display: block; }
+  .menu { left: 16px; right: 16px; min-width: 0; }
 }
 
 @media (max-width: 640px) {
