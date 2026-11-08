@@ -81,10 +81,10 @@ strong { font-weight: 700; color: var(--testo); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 24px;
-  max-width: var(--max-contenitore);
+  padding: 10px 20px;
+  max-width: none;
   margin: 0 auto;
-  gap: 24px;
+  gap: 16px;
 }
 .logo-link {
   display: inline-block;
@@ -92,17 +92,17 @@ strong { font-weight: 700; color: var(--testo); }
   flex-shrink: 0;
 }
 .logo-img {
-  height: 48px;
+  height: 42px;
   width: auto;
   display: block;
 }
 .menu {
   display: flex;
-  gap: 14px;
+  gap: 9px;
   font-family: var(--font-ui);
-  font-size: 0.82rem;
+  font-size: 0.70rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.015em;
 }
 .menu a {
   color: #e8ebf0;
@@ -110,6 +110,7 @@ strong { font-weight: 700; color: var(--testo); }
   padding: 6px 0;
   position: relative;
   transition: color 0.2s;
+  white-space: nowrap;
 }
 .menu a:hover {
   color: var(--brand-verde);
@@ -518,7 +519,7 @@ strong { font-weight: 700; color: var(--testo); }
   .verdetto p { font-size: 1.02rem; }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1260px) {
   .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .site-header .menu {
     display: none;
