@@ -34,7 +34,7 @@ from attach_covers import (
     NAME_MAP, VENUE_MAP, COVERS_DIR, BLOCK_WORDS, TENNIS_CONTEXT,
     detect_winner, pick_image, pick_venue, download, strip_html,
     parse_frontmatter, update_frontmatter, _looks_tennis, _is_venue_photo,
-    used_covers_for_player,
+    used_covers_for_player, cover_file_is_player,
 )
 from cover_image_utils import ensure_web_size, needs_resize
 import hashlib
@@ -67,6 +67,11 @@ def audit_one(art: Path) -> dict:
     g2 = fm.get('giocatore2', '')
     torneo = fm.get('torneo', '')
     verdetto = fm.get('verdetto', '')
+    # Titolo Commons della foto (campo frontmatter `cover_file`). NB: piu' sotto
+    # la variabile `cover_file` viene riusata per il PATH del file immagine in
+    # public/, quindi qui teniamo un nome distinto (il path contiene lo slug,
+    # che include i cognomi dei giocatori: userebbe un falso match).
+    cover_file_title = fm.get('cover_file', '')
 
     # 1. File esiste?
     if not cover_rel:
@@ -108,70 +113,64 @@ def audit_one(art: Path) -> dict:
             result['problems'].append(f'titolo file contiene "{bw}" (block word)')
             break
 
-    # 5. Verdetto favorito -> cognome nel file?
+    # 5. Verdetto favorito -> la cover e' coerente col match?
+    #
+    # IMPORTANTE: "cosa ritrae la foto" (giocatore / venue / contesto tennis)
+    # va deciso sul TITOLO COMMONS del file, non sul credit. Dal passaggio al
+    # credit breve ("Autore / Licenza / Wikimedia Commons") il campo
+    # cover_credit non contiene piu' il nome del file, quindi un controllo
+    # basato sul credit scambiava a torto per "non giocatore / non venue" sia
+    # le foto corrette dei giocatori (es. "Carlos Alcaraz (2026 US Open).jpg")
+    # sia i venue legittimi (es. "Nungambakkam SDAT Tennis Stadium.jpg"), e li
+    # faceva sostituire: da li' partiva la catena che finiva su un campo
+    # generico ripetuto su piu' articoli. Il titolo vero e' in cover_file;
+    # per gli articoli vecchi (credit lungo "Titolo | Autore | Licenza")
+    # ripieghiamo sul primo segmento del credit.
     fav, conf = detect_winner(verdetto, g1, g2)
     if fav and conf != 'equilibrio':
         full = NAME_MAP.get(fav)
-        cred_low = credit.lower()
-        players_last = [t for t in (_last_token(g1), _last_token(g2)) if t]
-        is_player = any(p and len(p) >= 4 and p.lower() in cred_low for p in players_last)
+        detect_title = (cover_file_title or (result['credit'] or '').split('|')[0]).strip()
+
+        is_player = cover_file_is_player(detect_title, g1, g2)
+        is_venue = bool(detect_title) and _is_venue_photo(detect_title)
+        looks_t = _looks_tennis(detect_title)
+
         if is_player:
             # La cover e' gia' una foto di uno dei due giocatori del match
             # (puo' essere l'altro, usato quando il favorito ha solo primi
             # piani bocciati dal vet): valida, non e' ne' obsoleta ne' venue.
-            result['problems'].append(f'[info] cover = foto giocatore del match')
+            result['problems'].append('[info] cover = foto giocatore del match')
+        elif is_venue or looks_t:
+            # Venue vero o titolo con contesto tennis: scelta valida (spesso il
+            # favorito ha solo primi piani bocciati dal vet e si usa il venue).
+            result['problems'].append(
+                f'[info] favorito {fav}: venue/contesto tennis "{detect_title[:50]}"'
+            )
         elif full:
-            last = _last_token(full)
-            if last and last not in credit:
-                # Il favorito ha mapping ma il credit non ha il cognome.
-                # Un VENUE vero o un titolo tennis sono scelte valide: spesso
-                # il favorito ha solo primi piani (bocciati dal vet) e si usa
-                # il venue del torneo. NON e' obsoleta. Flagghiamo "obsoleta"
-                # solo se la cover non e' ne' giocatore ne' venue ne' tennis.
-                cred_title = (result['credit'] or '').split('|')[0]
-                looks_t = _looks_tennis(credit)
-                is_venue = cred_title and _is_venue_photo(cred_title)
-                if is_venue or looks_t:
-                    result['problems'].append(
-                        f'[info] favorito {fav}: usato venue/contesto tennis "{credit[:50]}"'
-                    )
-                else:
-                    # Cover ne' giocatore ne' venue: se il favorito ha una
-                    # foto propria, la cover attuale e' davvero da rifare.
-                    try:
-                        probe = pick_image(full)
-                    except Exception:
-                        probe = None
-                    if probe:
-                        result['ok'] = False
-                        result['problems'].append(
-                            f'cover obsoleta: foto propria di {full} disponibile su Commons '
-                            f'("{probe["title"][:60]}") ma credit attuale e\' "{credit[:60]}"'
-                        )
-                    else:
-                        result['ok'] = False
-                        result['problems'].append(
-                            f'favorito {fav} ({full}): no foto Commons e cover non e\' '
-                            f'venue tennis chiaro ("{credit[:60]}")'
-                        )
-        else:
-            # Favorito senza mapping -> si ripiega sulla foto dell'altro
-            # giocatore del match (se mappato) o su un venue. Accettiamo:
-            #  - una foto che contiene il cognome di UNO dei due giocatori
-            #    (protagonista reale del match: pertinente), oppure
-            #  - un titolo che suona tennis / un venue puro.
-            cred_title = (result['credit'] or '').split('|')[0]
-            cred_low = credit.lower()
-            players_last = [t for t in (_last_token(g1), _last_token(g2)) if t]
-            is_player = any(p and p.lower() in cred_low for p in players_last)
-            looks_t = _looks_tennis(credit)
-            is_venue = cred_title and _is_venue_photo(cred_title)
-            if not (is_player or looks_t or is_venue):
-                result['ok'] = False
+            # Favorito mappato, ma la cover non e' ne' lui ne' venue ne' tennis:
+            # se esiste una foto propria del favorito, la cover va rifatta.
+            try:
+                probe = pick_image(full)
+            except Exception:
+                probe = None
+            result['ok'] = False
+            if probe:
                 result['problems'].append(
-                    f'favorito {fav} non mappato in NAME_MAP e cover non e\' '
-                    f'ne\' foto di un giocatore del match ne\' venue tennis: "{credit[:70]}"'
+                    f'cover obsoleta: foto propria di {full} disponibile su Commons '
+                    f'("{probe["title"][:60]}") ma cover attuale e\' "{detect_title[:60]}"'
                 )
+            else:
+                result['problems'].append(
+                    f'favorito {fav} ({full}): no foto Commons e cover non e\' '
+                    f'venue tennis chiaro ("{detect_title[:60]}")'
+                )
+        else:
+            # Favorito non mappato e cover ne' giocatore ne' venue ne' tennis.
+            result['ok'] = False
+            result['problems'].append(
+                f'favorito {fav} non mappato in NAME_MAP e cover non e\' '
+                f'ne\' foto di un giocatore del match ne\' venue tennis: "{detect_title[:70]}"'
+            )
 
     return result
 

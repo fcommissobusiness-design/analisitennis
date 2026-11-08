@@ -439,6 +439,42 @@ def resolve_full(abbrev: str):
     return _match_profile_fullname(abbrev)
 
 
+def cover_file_is_player(cover_file: str, g1: str, g2: str) -> bool:
+    """True se il filename della cover (campo `cover_file` del frontmatter, es.
+    'File:Carlos Alcaraz (2026 US Open) - 04.jpg') contiene il cognome di uno
+    dei due giocatori del match.
+
+    Serve perche' il credit nuovo (build_credit) non contiene piu' il nome del
+    file ("Autore / Licenza / Wikimedia Commons"): i gate che decidono "foto
+    giocatore vs no" guardando il credit scambiano a torto una foto valida del
+    giocatore per "non giocatore" e la fanno sostituire. Il campo cover_file,
+    invece, conserva sempre il titolo Commons scelto da write_article. La
+    normalizzazione accenti e' la stessa di _match_profile_fullname."""
+    if not cover_file:
+        return False
+    name = re.sub(r'^File:', '', str(cover_file), flags=re.I)
+    name = re.sub(r'\.[A-Za-z0-9]{2,4}$', '', name)       # togli estensione
+    file_tokens = {_norm_tok(w) for w in re.split(r'[\s_\-]+', name)}
+    file_tokens.discard('')
+    file_norm = _norm_tok(name)
+    for g in (g1, g2):
+        if not g:
+            continue
+        parts = g.replace('.', ' ').split()
+        if not parts:
+            continue
+        surname = _norm_tok(parts[-1])
+        if len(surname) < 4:
+            continue
+        if surname in file_tokens:
+            return True
+        # Cognome lungo (composto/attaccato nel filename): substring solo da 6
+        # lettere in su, per non generare falsi positivi su cognomi corti.
+        if len(surname) >= 6 and surname in file_norm:
+            return True
+    return False
+
+
 def all_used_cover_files(skip_slug: str = '') -> set:
     """Tutti i file Commons ('File:...') gia' usati come cover in QUALSIASI
     articolo. Serve al dedup GLOBALE: nessuna foto deve ripetersi tra articoli
@@ -556,10 +592,21 @@ def _rank(result):
     # da solo, non un duello a figura intera che confonde il soggetto.
     if _PERSON_HINTS.search(result['title']):
         score -= 30
-    # Preferisci landscape (ratio >= 1.3) ma non estremo
+    # Preferisci landscape (ratio >= 1.3) ma non estremo. Le foto VERTICALI
+    # sono rischiose come hero: l'inquadratura e' object-position center ~20-38%
+    # (CoverArticolo.astro), quindi un ritratto in piedi col soggetto in basso
+    # viene tagliato SOPRA la testa. Malus deciso al portrait, piccolo bonus al
+    # quadrato/orizzontale, cosi' a parita' di soggetto vince la foto che il
+    # crop dell'hero non rovina.
     ratio = result['w'] / max(result['h'], 1)
     if 1.3 <= ratio <= 2.4:
         score += 5
+    elif ratio >= 0.95:            # quadrata o leggermente orizzontale
+        score += 2
+    elif ratio < 0.8:             # verticale marcata: testa spesso tagliata
+        score -= 18
+    else:                        # 0.8 .. 0.95: verticale lieve
+        score -= 6
     # Preferisci risoluzioni medie (schivi i grandi stock con panoramiche)
     if 900 <= result['w'] <= 3500:
         score += 3
