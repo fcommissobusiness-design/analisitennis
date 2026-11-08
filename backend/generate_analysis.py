@@ -306,6 +306,25 @@ Per ogni singola voce di ogni fase:
 **DATI AUTORITATIVI (FONTE UNICA):**
 {data_block}
 
+**USO DEL DOSSIER ANALITICO**: se nel blocco qui sopra e' presente la sezione DOSSIER
+ANALITICO REDAZIONALE, usalo per la PROFONDITA' DI LETTURA, non come fonte di numeri:
+contesto e fase del torneo, motivazioni e obiettivi dei due, direzione della fatica, matchup
+stilistico e lateralita', peso del primo set, significato dei precedenti, meteo e sessione.
+Contesto e motivazioni devono pesare molto sul giudizio (circa un terzo), MAI rompendo
+l'imparzialita' del corpo e MAI sconfinando in mercati, quote o scommesse.
+REGOLE DURE che il dossier NON allenta MAI:
+- FATTI NUMERICI e puntuali (quanti match, bilanci vittorie-sconfitte, punteggi, numeri di
+  ranking, titoli, finali) si citano SOLO se presenti testualmente nel blocco. NON dedurre
+  conteggi nuovi dal racconto del dossier: se il dossier descrive piu' tornei, NON sommarli
+  in una cifra tua. Nel dubbio descrivi a parole, senza numero.
+- ATTRIBUTI del giocatore (nazionalita', mano, rovescio, eta', altezza) si scrivono SOLO per
+  i giocatori con ATTRIBUTI VERIFICATI nel blocco. Se un giocatore e' marcato "nessun
+  attributo verificato", NON scriverne la nazionalita' ne' altro, neppure se il contesto la
+  rende ovvia (per esempio non chiamarlo "lo spagnolo"). Il divieto vince sempre sulla
+  ricchezza del dossier.
+- Un punto segnato "non verificabile" nel dossier non diventa un fatto.
+Non incollare il dossier: usalo come ragionamento.
+
 **REGOLA ANTI-ALLUCINAZIONE (NON NEGOZIABILE)**:
 Ogni singolo dato factuale che citi nell'articolo e nel verdetto (score, vincitori di
 precedenti, date, torneo, risultato specifico, titoli vinti, finali raggiunte, ranking)
@@ -582,6 +601,130 @@ def _today_strings():
     return today_human, today_short
 
 
+# ---- Stadio DOSSIER ANALITICO (tutte le voci non-monetarie del metodo) --
+# La generazione base scrive solo sulla spina fattuale API Tennis (ranking,
+# H2H, forma, superficie). Questo stadio esegue, come ricerca web + ragionamento,
+# tutte le voci analitiche NON di scommessa del metodo: contesto esteso,
+# motivazioni, fatica, matchup stilistico, pattern, peso del primo set, durata
+# sportiva, precedenti contestualizzati, meteo/sessione, Elo vs ranking, match
+# gemello, fattore campo/pubblico, coach. Niente quote/EV/stake/mercati, niente
+# spoiler del risultato di oggi, niente dato inventato. Il dossier viene appeso
+# al blocco autoritativo cosi' alimenta sia la scrittura sia i gate esistenti.
+# Disattivabile con ANALISITENNIS_DOSSIER=0 (run veloce senza profondita' web).
+
+PROMPT_DOSSIER = """Sei un analista editoriale della testata AnalisiTennis. OGGI e' {today_short}
+({today_human}). Prepara il DOSSIER ANALITICO interno del match di OGGI tra {p1} e {p2}
+({torneo}): la lettura profonda che la redazione usa per scrivere l'anteprima.
+
+Hai accesso al web (WebSearch/WebFetch): USALO per aggiornare e verificare. Parti dalla
+spina fattuale qui sotto e arricchiscila.
+
+MATCH:
+{match_block}
+
+SPINA FATTUALE (DATI AUTORITATIVI API TENNIS, gia' verificati):
+{data_block}
+
+== REGOLE NON NEGOZIABILI ==
+1. ANTI-SPOILER ASSOLUTO: il match e' di OGGI. NON cercare, NON dedurre, NON riportare MAI
+   il risultato, il punteggio o il vincitore di oggi. Se un risultato di ricerca lo mostra,
+   ignoralo. Verifichi e citi SOLO fatti datati PRIMA di oggi.
+2. NIENTE SCOMMESSE: testata editoriale, non tipster. VIETATI quote, valore atteso, stake,
+   bankroll, Kelly, overlay e QUALSIASI mercato (ace, over/under games, handicap, tiebreak
+   si/no, numero game). Leggi il match sul piano SPORTIVO: chi e' favorito e perche',
+   equilibrio, peso del primo set, scenario 2-0 / 2-1. Nessun linguaggio da scommesse.
+3. ANTI-ALLUCINAZIONE: meglio un buco che una bugia. Se un dato non e' verificato (web o
+   spina fattuale), scrivi "non verificabile" e NON inventarlo. NON inventare MAI numeri:
+   niente percentuali di servizio/risposta/ace/palle break/hold se non da fonte certa; in
+   quel caso descrivi QUALITATIVAMENTE (es. "buon battitore", "ribattitore solido").
+4. OGNI DATO VA CONTESTUALIZZATO: mai un dato asettico. Per ogni risultato o statistica di'
+   SEMPRE contro chi, in che torneo, su che superficie, in che sessione/meteo e con quali
+   motivazioni/momento di carriera. Un dato senza contesto e' falsato.
+5. OMONIMI E IDENTITA': verifica che siano i giocatori giusti (nazionalita', mano, eta).
+   Se un nome compare solo con l'iniziale, non inventare il nome di battesimo.
+6. Niente trattini lunghi (usa virgole o due punti). Accenti corretti (citta, piu, perche).
+
+== VOCI DA SVOLGERE TUTTE (nessuna saltata) ==
+A. CONTESTO TORNEO: categoria e peso; FASE REALE del match aggiornata a OGGI (verificala sul
+   web, il round nei dati puo' essere vecchio); orario italiano effettivo e sessione
+   (diurna/serale/notturna); superficie e campo (indoor/outdoor); significato del torneo nel
+   circuito ora; tabellone: eliminazioni o ritiri eccellenti gia' avvenuti, avversario del
+   turno dopo.
+B. MOTIVAZIONI PER GIOCATORE (una sezione per ciascuno, tra le piu' importanti): da dove
+   arriva; come sta adesso (ranking attuale vs picco, forma); obiettivo stagionale (Finals,
+   difesa punti, rientro, soglia ranking); significato di QUESTO torneo per lui; impegni
+   futuri immediati nei 7-14 giorni (anche altri tornei gia' a palinsesto) e come
+   condizionano l'approccio (preservarsi o spingere); dichiarazioni/interviste pre-match.
+C. CHECK FORM-ADJUSTED (solo se uno e' sfavorito di ranking, gap >= 50 posizioni): nelle
+   ultime 2-3 settimane ha battuto un top-30? finale/semifinale di rilievo? serie aperta di
+   vittorie? ranking live in salita? Di' se e' PEER-LIVELLO del favorito.
+D. FORMA E ULTIMI 5 MATCH ESATTI di ciascuno, aggiornati a oggi e contestualizzati (contro
+   chi, dove, superficie, esito, come: secco o al terzo). Se i dati sono scarsi, estendi per
+   calibro e recenza. Un risultato di spicco ma vecchio e' contesto, non forma.
+E. FATICA: carico delle ultime 2-3 settimane dei due, match ravvicinati, riposo; asimmetria
+   (chi arriva piu' scarico).
+F. MATCHUP STILISTICO E LATERALITA': mano e stile dei due; come rende CIASCUNO contro questo
+   tipo specifico di avversario (servizio, risposta, stile), tarato anche sulla fatica
+   attuale; chi favorisce il matchup.
+G. PATTERN: resa per fase di torneo (primi turni vs fasi avanzate) e contro avversari di alto
+   livello (top-10/20/50), dove verificabile; altrimenti ometti.
+H. PRIMO SET: in questo matchup il primo set e' determinante? chi ha piu' probabilita' di
+   prenderlo e perche'? storicamente come hanno reagito dopo averlo preso o perso, con quali
+   presupposti; quei presupposti ci sono oggi?
+I. DURATA / DINAMICA (sportiva, NON scommesse): il match tende a lungo o corto, propensione
+   al terzo set? Spiega perche' (stili, tenuta), senza linee ne' numeri di game.
+J. SCONTRI DIRETTI contestualizzati: ogni precedente con quando, dove, superficie, sessione,
+   e il momento di carriera di entrambi allora rispetto a oggi.
+K. METEO E SESSIONE: se all'aperto, meteo atteso all'ora del match di oggi (temperatura,
+   vento, umidita') e impatto sulla velocita' della palla; se indoor, dillo.
+L. VERO LIVELLO vs RANKING: scarto tra ranking e livello reale (Elo/forma), ranking stantio.
+M. INTEGRAZIONI: match gemello di ciascuno (un match passato molto simile per tipo di
+   avversario, superficie, posta e contesto) e cosa insegna; fattore campo e pubblico (neutro
+   o di parte, come reagiscono i due); allenatore attuale se rilevante; come reagisce ciascuno
+   a QUESTA combinazione di fatica e matchup.
+N. SINTESI: 4-6 righe che chiudono il quadro (equilibrio o favorito e perche'), coerenti con
+   tutto sopra, senza scommesse e senza anticipare alcun risultato.
+
+Restituisci SOLO questo JSON, nulla prima e nulla dopo:
+```json
+{{
+  "dossier_markdown": "il dossier completo in markdown, titoletti ## per ogni voce A..N, prosa, dati sempre contestualizzati, niente scommesse, niente spoiler",
+  "note_non_verificabili": ["punti che NON hai potuto verificare e hai lasciato aperti"],
+  "spoiler_evitato": true
+}}
+```
+"""
+
+
+def build_dossier(match, data_block):
+    """Esegue le voci analitiche NON-monetarie come ricerca web + ragionamento,
+    ancorate alla spina fattuale. Ritorna la stringa markdown del dossier (o ''
+    se qualcosa va storto: la pipeline procede comunque coi soli dati API)."""
+    today_human, today_short = _today_strings()
+    match_block = f"""- Data e ora match: {match.get('event_date')} {match.get('event_time')} (orario italiano)
+- Giocatore 1: {match.get('event_first_player')}
+- Giocatore 2: {match.get('event_second_player')}
+- Torneo: {match.get('tournament_name')}
+- Fase/Round nei dati (DA VERIFICARE aggiornato a oggi): {match.get('tournament_round')}
+- Tipo: {match.get('event_type_type')}
+- Stagione: {match.get('tournament_season')}"""
+    prompt = PROMPT_DOSSIER.format(
+        today_human=today_human,
+        today_short=today_short,
+        p1=match.get('event_first_player', ''),
+        p2=match.get('event_second_player', ''),
+        torneo=match.get('tournament_name', ''),
+        match_block=match_block,
+        data_block=data_block,
+    )
+    # ricerca web agentica (piu' round): timeout generoso.
+    res = _claude_call(prompt, timeout=1500, web=True)
+    dossier = (res.get('dossier_markdown') or '').strip()
+    # Il blocco passa per str.format() a valle: una graffa nel testo lo
+    # farebbe esplodere. In prosa tennistica le graffe non servono mai.
+    return dossier.replace('{', '(').replace('}', ')')
+
+
 # ---- Stadio di verifica fattuale INDIPENDENTE sul web -------------------
 # Il gate a 3 pilastri controlla la coerenza con i DATI AUTORITATIVI, ma quei
 # dati a volte sono gia' sbagliati (etichette di turno errate, omonimi), e in
@@ -779,6 +922,29 @@ def genera(match, max_tentativi=2):
 
     print(f'  Fetch dati autoritativi API Tennis...', flush=True)
     data_block = build_data_block(match)
+
+    # Stadio DOSSIER ANALITICO: tutte le voci non-monetarie del metodo come
+    # ricerca web + ragionamento. Appeso al blocco autoritativo cosi' alimenta
+    # scrittura e gate. Degrada: se fallisce, si pubblica coi soli dati API.
+    if os.environ.get('ANALISITENNIS_DOSSIER', '1') != '0':
+        print('  Dossier analitico (web: contesto, motivazioni, fatica, matchup, meteo, pattern)...', flush=True)
+        try:
+            dossier = build_dossier(match, data_block)
+            if dossier:
+                data_block = data_block + (
+                    "\n\n================================================================\n"
+                    "DOSSIER ANALITICO REDAZIONALE (ricerca web verificata, anti-allucinazione)\n"
+                    "Profondita' editoriale aggiuntiva da USARE per contesto e motivazioni.\n"
+                    "Vale come fonte autoritativa al pari dei dati API qui sopra. Niente\n"
+                    "scommesse, niente spoiler. I punti 'non verificabile' NON sono fatti.\n"
+                    "================================================================\n"
+                    + dossier
+                )
+                print('  Dossier analitico: acquisito e integrato', flush=True)
+            else:
+                print('  Dossier analitico: vuoto, procedo coi soli dati API', flush=True)
+        except Exception as e:
+            print(f'  Dossier analitico non eseguito ({str(e)[:160]}): procedo coi soli dati API', flush=True)
 
     last_err = None
     for tentativo in range(1, max_tentativi + 1):
