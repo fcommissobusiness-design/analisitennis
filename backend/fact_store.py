@@ -83,9 +83,9 @@ def norm(s: str | None) -> str:
 @lru_cache(maxsize=1)
 def _indice_giocatori() -> dict:
     """slug_profilo -> attributi, piu' alias per nome e cognome."""
-    per_slug, alias = {}, {}
+    per_slug, alias, tokens = {}, {}, {}
     if not DIR_GIOCATORI.exists():
-        return {'per_slug': per_slug, 'alias': alias}
+        return {'per_slug': per_slug, 'alias': alias, 'tokens': tokens}
     for p in sorted(DIR_GIOCATORI.glob('*.md')):
         d = _leggi(p, CAMPI_GIOCATORE)
         if not d:
@@ -100,7 +100,11 @@ def _indice_giocatori() -> dict:
             if len(pezzi) >= 2:
                 # cognome (anche composto) come alias secondario
                 alias.setdefault(norm(' '.join(pezzi[1:])), slug)
-    return {'per_slug': per_slug, 'alias': alias}
+            # insieme dei token del nome, per il match a sottoinsieme univoco:
+            # gestisce i cognomi doppi dove l'API usa solo il primo (es. API
+            # "C. Alcaraz" mentre il profilo e' "Carlos Alcaraz Garfia").
+            tokens[slug] = set(t for t in norm(nome).split() if len(t) > 1)
+    return {'per_slug': per_slug, 'alias': alias, 'tokens': tokens}
 
 
 def fatti_giocatore(nome_o_slug: str) -> dict | None:
@@ -125,6 +129,15 @@ def fatti_giocatore(nome_o_slug: str) -> dict | None:
         n2 = norm(' '.join(pezzi))
         if n2 in idx['alias']:
             return idx['per_slug'][idx['alias'][n2]]
+    # Fallback a sottoinsieme UNIVOCO: i token del nome API (tolte le iniziali)
+    # devono essere contenuti nei token di un solo profilo. Gestisce i cognomi
+    # doppi dove il profilo ha un token in piu' dell'API ("Carlos Alcaraz Garfia"
+    # vs "C. Alcaraz"). L'unicita' evita falsi positivi su cognomi condivisi.
+    q = set(t for t in norm(chiave).split() if len(t) > 1)
+    if q:
+        hits = [slug for slug, toks in idx.get('tokens', {}).items() if q <= toks]
+        if len(hits) == 1:
+            return idx['per_slug'][hits[0]]
     return None
 
 
