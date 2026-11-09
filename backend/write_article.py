@@ -250,34 +250,34 @@ def write(match, analysis, out_dir):
     except Exception:
         ora_it = datetime.now()
 
-    # Override orario di pubblicazione: se la pipeline viene lanciata a
-    # mano fuori orario (es. a notte fonda per gli articoli del giorno)
-    # ARTICOLO_ORA_OVERRIDE="HH:MM" forza un orario mattiniero plausibile,
-    # con una leggera variazione per articolo cosi' da non avere tutti
-    # lo stesso minuto esatto. La DATA resta quella corrente di ora_it.
-    ora_override = os.environ.get('ARTICOLO_ORA_OVERRIDE', '').strip()
+    # EDIZIONE DEL MATTINO (cablato): generato_il e' SEMPRE un orario
+    # mattiniero (~07:20), a prescindere da quando gira la pipeline. Ora che
+    # il sistema parte a comando a qualsiasi ora, la testata deve comunque
+    # uscire come edizione del mattino, senza doverlo correggere a mano ogni
+    # volta. ARTICOLO_ORA_OVERRIDE="HH:MM" puo' comunque forzare un altro
+    # orario; ARTICOLO_DATA_OVERRIDE="YYYY-MM-DD" forza la DATA (es. stasera
+    # gli articoli di domani).
+    ora_override = os.environ.get('ARTICOLO_ORA_OVERRIDE', '').strip() or '07:20'
     data_override = os.environ.get('ARTICOLO_DATA_OVERRIDE', '').strip()
-    if ora_override:
-        try:
-            h, m = (int(x) for x in ora_override.split(':'))
-            base = ora_it.replace(hour=h, minute=m, second=0, microsecond=0)
-            # Quando si pubblica in anticipo (es. stasera gli articoli di
-            # domani), ARTICOLO_DATA_OVERRIDE="YYYY-MM-DD" forza anche la DATA
-            # del timestamp, non solo l'orario. Senza, resta la data corrente.
-            if data_override:
-                try:
-                    y, mo, d = (int(x) for x in data_override.split('-'))
-                    base = base.replace(year=y, month=mo, day=d)
-                except Exception:
-                    pass
-            # variazione deterministica per slug: -8 .. +37 minuti
-            jitter = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 46 - 8
-            pub = base + timedelta(minutes=jitter)
-            fm['generato_il'] = pub.strftime('%Y-%m-%dT%H:%M')
-        except Exception:
-            fm['generato_il'] = ora_it.strftime('%Y-%m-%dT%H:%M')
-    else:
-        fm['generato_il'] = ora_it.strftime('%Y-%m-%dT%H:%M')
+    try:
+        h, m = (int(x) for x in ora_override.split(':'))
+        base = ora_it.replace(hour=h, minute=m, second=0, microsecond=0)
+        if data_override:
+            try:
+                y, mo, d = (int(x) for x in data_override.split('-'))
+                base = base.replace(year=y, month=mo, day=d)
+            except Exception:
+                pass
+        # variazione deterministica per slug: -8 .. +37 minuti, cosi' gli
+        # articoli non hanno tutti lo stesso minuto esatto (resta nel mattino).
+        jitter = int(hashlib.md5(slug.encode()).hexdigest(), 16) % 46 - 8
+        pub = base + timedelta(minutes=jitter)
+        # isoformat tz-aware (es. "2026-11-09T07:20+01:00"): il browser lo
+        # mostra all'ora di Roma corretta su QUALUNQUE macchina di build. Un
+        # valore naive veniva invece interpretato come UTC e mostrato +1h.
+        fm['generato_il'] = pub.isoformat(timespec='minutes')
+    except Exception:
+        fm['generato_il'] = ora_it.isoformat(timespec='minutes')
 
     frontmatter_lines = ['---']
     for k, v in fm.items():

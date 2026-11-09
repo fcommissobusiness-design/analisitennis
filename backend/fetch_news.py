@@ -261,7 +261,9 @@ def salva(art, v, item, data_iso):
     for t in tag:
         fm.append(f'  - "{t.replace(chr(34), chr(39))}"')
     fm += [
-        f'generato_il: "{now.strftime("%Y-%m-%dT%H:%M")}"',
+        # Edizione del mattino (cablato): sempre un orario mattiniero ~07:xx
+        # con fuso esplicito, a prescindere da quando gira la pipeline.
+        f'generato_il: "{now.replace(hour=7, minute=5 + sum(ord(c) for c in slug) % 30, second=0, microsecond=0).isoformat(timespec="minutes")}"',
         'pubblicato: true',
         '---',
         '',

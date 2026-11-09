@@ -582,7 +582,7 @@ def generate_player_profile(raw_name: str, overwrite: bool = False) -> Path | No
         'descrizione': data.get('descrizione'),
         'tag': data.get('tag') or [],
         'pubblicato': True,
-        'generato_il': _now_rome().strftime('%Y-%m-%dT%H:%M'),
+        'generato_il': _now_rome().replace(hour=7, minute=40, second=0, microsecond=0).isoformat(timespec='minutes'),
     }
     _write_frontmatter(dest, fm, data.get('corpo_markdown') or '')
     print(f'[player] scritto {dest.name}')
@@ -657,7 +657,7 @@ def generate_tournament_profile(raw_name: str, year: int, overwrite: bool = Fals
         'descrizione': data.get('descrizione'),
         'tag': data.get('tag') or [],
         'pubblicato': True,
-        'generato_il': _now_rome().strftime('%Y-%m-%dT%H:%M'),
+        'generato_il': _now_rome().replace(hour=7, minute=40, second=0, microsecond=0).isoformat(timespec='minutes'),
     }
     # Cover: foto impianto/campo del torneo, mostrata nell'elenco /tornei.
     # "Aggiornato di volta in volta": ogni nuovo torneo trattato riceve
