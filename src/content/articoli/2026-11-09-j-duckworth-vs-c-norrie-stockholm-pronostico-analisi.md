@@ -22,10 +22,10 @@ descrizione: "Duckworth contro Norrie al primo turno di Stoccolma: forma, preced
 pubblicato: true
 probabilita_favorito: "Norrie"
 probabilita_percent: 61
-cover_file: "File:Cam Norrie (2023 US Open) 01.jpg"
+cover_file: "File:Cameron Norrie (30225419747).jpg"
 generato_il: "2026-11-09T13:11"
 cover_image: "/covers/2026-11-09-j-duckworth-vs-c-norrie-stockholm-pronostico-analisi.jpg"
-cover_credit: "James Duckworth (21770207135).jpg | Carine06 from UK | CC BY-SA 2.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il tabellone di Stoccolma propone al primo turno un incrocio tra due giocatori che condividono più di quanto le rispettive carriere lascino intuire. Da una parte **James Duckworth**, australiano classe 1992, destro di impostazione con rovescio a due mani; dall'altra **Cameron Norrie**, britannico mancino del 1995, anch'egli bimane dal lato del rovescio. Due professionisti maturi che arrivano a questo appuntamento di fine stagione con bilanci recenti sorprendentemente sovrapponibili e con la necessità, entrambi, di dare un senso alle ultime settimane dell'anno.

@@ -21,10 +21,10 @@ descrizione: "Borg e Samuel si affrontano per la prima volta al primo turno di S
 pubblicato: true
 probabilita_favorito: "Samuel"
 probabilita_percent: 71
-cover_file: "File:Stockholms Stadshuset City Hall Stockholm 2016 01.jpg"
+cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
 generato_il: "2026-11-09T13:11"
 cover_image: "/covers/2026-11-09-l-borg-vs-t-samuel-stockholm-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
 ---
 
 Il primo turno di Stockholm mette di fronte due giocatori che arrivano all'appuntamento da percorsi lontanissimi tra loro. **Leo Borg** e **Toby Samuel** non si sono mai incontrati prima, e questo toglie a entrambi qualsiasi memoria tattica: nessuno dei due conosce dal vivo il tennis dell'altro, e la partita andrà letta e interpretata in corsa, punto dopo punto, senza una traccia precedente a cui aggrapparsi.

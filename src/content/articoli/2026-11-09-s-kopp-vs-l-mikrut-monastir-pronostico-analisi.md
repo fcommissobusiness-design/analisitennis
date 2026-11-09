@@ -21,10 +21,10 @@ descrizione: "Monastir, primo turno: S. Kopp contro L. Mikrut. Forma recente, ne
 pubblicato: true
 probabilita_favorito: "Mikrut"
 probabilita_percent: 57
-cover_file: "File:Arena principal do Centro Olímpico de Tênis.jpg"
+cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"
 generato_il: "2026-11-09T13:12"
 cover_image: "/covers/2026-11-09-s-kopp-vs-l-mikrut-monastir-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "CivArmy / CC BY-SA 4.0 / Wikimedia Commons"
 ---
 
 Il challenger di Monastir apre con un confronto senza passato comune: **Kopp** e **Mikrut** non si sono mai incrociati sul circuito, e questo trasforma il loro primo turno in una pagina bianca. Senza una storia diretta a cui appoggiarsi, a contare saranno soprattutto il momento di forma dei due e la capacità di ritrovare il ritmo dopo una pausa che entrambi si portano dietro.

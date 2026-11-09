@@ -22,10 +22,10 @@ descrizione: "M. Giunta contro F. Forti al primo turno di Hersonissos 3: forma, 
 pubblicato: true
 probabilita_favorito: "Forti"
 probabilita_percent: 53
-cover_file: "File:David X. Marks Tennis Stadium (USC).jpg"
+cover_file: "File:Anjo Sports Park tennis court ac.jpg"
 generato_il: "2026-11-09T13:11"
 cover_image: "/covers/2026-11-09-m-giunta-vs-f-forti-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons"
 ---
 
 Il tabellone di Hersonissos 3 apre con un confronto che ha il sapore del derby di categoria: **M. Giunta** contro **F. Forti**, due giocatori che da mesi condividono lo stesso ecosistema competitivo, fatto di tornei Challenger di fascia bassa e di tabelloni di qualificazione disputati spesso negli stessi luoghi, contro gli stessi avversari. Non c'è un nome di richiamo né un favorito che la classifica indichi a chiare lettere: entrambi gravitano nella medesima zona del ranking, con uno scarto minimo di posizioni, e arrivano a questo primo turno con numeri che si somigliano in modo quasi sorprendente.
