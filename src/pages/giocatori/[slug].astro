@@ -117,7 +117,9 @@ const faqSchema = faqItems.length >= 2 ? {
 } : null;
 ---
 <Base
-  titolo={`${d.nome}${d.nazionalita ? ` (${d.nazionalita})` : ''} - Profilo, carriera e analisi - AnalisiTennis`}
+  titolo={ranking
+    ? `${d.nome}: n.${ranking.place} ${ranking.tour}, forma e ultimi match`
+    : `${d.nome}${d.nazionalita ? ` (${d.nazionalita})` : ''}: profilo, forma e ultimi match`}
   descrizione={d.descrizione}
   tipo="article"
   alternates={enAlternates}

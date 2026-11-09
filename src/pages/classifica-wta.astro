@@ -9,10 +9,15 @@ import data from '../data/standings-wta.json';
 const profiliColl = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
 const profili = new Set(profiliColl.map(p => p.data.slug_profilo));
 const top = data.righe.slice(0, 5).map(r => `${r.place}. ${r.player}`).join(', ');
+// Data del ranking (dal JSON) in italiano, come su classifica-atp:
+// la freschezza nel title/meta differenzia da wtatennis.com / livetennis.it.
+const dataIt = data.aggiornato_il
+  ? new Date(data.aggiornato_il).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+  : '';
 ---
 <Base
-  titolo="Classifica WTA aggiornata - Ranking tennis femminile - AnalisiTennis"
-  descrizione={`Classifica WTA aggiornata: la top 100 del ranking tennis femminile con punti e nazionalità. In vetta ${data.righe[0]?.player}.`}
+  titolo={`Classifica WTA${dataIt ? ' ' + dataIt : ''}: top 100 e punti aggiornati`}
+  descrizione={`Ranking WTA aggiornato${dataIt ? ' al ' + dataIt : ''}: la top 100 del tennis femminile con punti, nazionalità e vetta a ${data.righe[0]?.player}. Dati freschi, nessun ritardo.`}
 >
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Classifica WTA' }]} />
