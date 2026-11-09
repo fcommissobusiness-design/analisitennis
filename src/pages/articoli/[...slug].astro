@@ -112,14 +112,26 @@ const schemaArticle = {
   '@type': 'NewsArticle',
   headline: d.titolo,
   description: d.descrizione,
+  // Abstract: il verdetto sportivo in forma concisa. Google e gli assistenti AI
+  // usano questo campo come "snippet autorevole" quando sintetizzano la pagina.
+  abstract: d.verdetto,
   datePublished: (d.generato_il ? new Date(d.generato_il) : d.data).toISOString(),
   dateModified: (d.generato_il ? new Date(d.generato_il) : d.data).toISOString(),
   author: {
     '@type': 'Organization',
+    '@id': 'https://analisitennis.it/#organization',
     name: 'Redazione AnalisiTennis',
     url: 'https://analisitennis.it/chi-siamo',
     logo: { '@type': 'ImageObject', url: 'https://analisitennis.it/logo-schema.png' }
   },
+  // creator, sourceOrganization e copyrightHolder duplicano formalmente l'autore
+  // in campi diversi che le AI leggono per capire chi e' responsabile del pezzo.
+  creator: { '@id': 'https://analisitennis.it/#organization' },
+  sourceOrganization: { '@id': 'https://analisitennis.it/#organization' },
+  copyrightHolder: { '@id': 'https://analisitennis.it/#organization' },
+  copyrightYear: new Date(d.data).getFullYear(),
+  // Il metodo editoriale a cui l'articolo si attiene: segnale forte di E-E-A-T.
+  isBasedOn: 'https://analisitennis.it/metodo',
   publisher: {
     '@type': 'NewsMediaOrganization',
     '@id': 'https://analisitennis.it/#organization',

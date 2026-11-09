@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  titolo="Il metodo AnalisiTennis: come leggiamo un match"
+  descrizione="Il metodo editoriale di AnalisiTennis: fonti, come selezioniamo i match, cosa guardiamo per capire chi parte favorito, come costruiamo il verdetto, come trattiamo errori e correzioni."
+>
+  <div class="contenitore" style="padding: 48px 0 80px; max-width: 760px;">
+    <h1 style="font-size: 2.4rem; margin-bottom: 20px;">Il metodo AnalisiTennis</h1>
+    <p style="font-size: 1.15rem; color: var(--testo-secondario); font-style: italic; margin-bottom: 40px;">
+      Come leggiamo un match, quali fonti usiamo, come arriviamo al verdetto. La nostra linea editoriale, in chiaro.
+    </p>
+    <div class="articolo-corpo">
+
+      <h2>1. Le fonti autoritative da cui partiamo</h2>
+      <p>Ogni analisi parte da una spina dorsale di <strong>dati verificati</strong>, mai da memoria o stime. I dati fattuali che citiamo (scontri diretti, risultati recenti, ranking, titoli, età, mano, nazionalità) provengono da:</p>
+      <ul>
+        <li><strong>API Tennis</strong>, come fonte primaria per calendario, scontri diretti, ultimi match e punteggi.</li>
+        <li><strong>ATP Tour</strong> e <strong>WTA</strong> per classifiche ufficiali e profili giocatori.</li>
+        <li><strong>Archivio redazionale verificato</strong> per gli attributi tecnici dei giocatori (mano, rovescio, altezza, data di nascita), controllati su fonti multiple prima di entrare nel nostro database.</li>
+        <li><strong>Verifica web indipendente</strong> su ogni articolo, come controllo incrociato prima della pubblicazione: fase del torneo aggiornata, notizie di infortuni, condizioni fisiche, motivazioni dichiarate dal giocatore.</li>
+      </ul>
+      <p>Se un dato non è verificato, non entra nell'articolo. Preferiamo dire "non ci risulta" piuttosto che inventare.</p>
+
+      <h2>2. Come selezioniamo i match della giornata</h2>
+      <p>Ogni mattina la Redazione sceglie fra i match in programma quelli con <strong>maggior valore editoriale</strong>: le sfide del vertice, le partite di cartello, i match degli italiani, e una selezione di Challenger dove intravediamo profili interessanti. Non copriamo tutto il circuito: copriamo bene quello che scegliamo, scartando doppi, qualificazioni e match annullati.</p>
+
+      <h2>3. Le voci che guardiamo per ogni match</h2>
+      <p>Prima di scrivere, la Redazione raccoglie per ciascun giocatore:</p>
+      <ul>
+        <li><strong>Forma recente</strong>: gli ultimi match, letti in ordine di data e contestualizzati (contro chi, su che superficie, con che punteggio, in che contesto).</li>
+        <li><strong>Scontri diretti</strong> completi, con sede, superficie e momento di carriera di allora, non solo il bilancio numerico.</li>
+        <li><strong>Resa per superficie</strong> specifica del match di oggi.</li>
+        <li><strong>Fatica recente</strong>: carico di match e giochi delle ultime due settimane, riposo, asimmetria fra i due.</li>
+        <li><strong>Contesto del torneo</strong>: categoria, fase, significato nel momento della stagione, impegni immediati successivi.</li>
+        <li><strong>Motivazioni dei giocatori</strong>: obiettivi stagionali, dichiarazioni pre-match, difesa punti, soglia ranking in gioco.</li>
+        <li><strong>Matchup stilistico</strong>: mano, stile, come si comporta ciascuno contro il profilo dell'avversario.</li>
+        <li><strong>Peso del primo set</strong> e scenario plausibile della partita (due set netti o terzo set).</li>
+        <li><strong>Meteo e sessione</strong> quando il match è all'aperto o quando le condizioni incidono sulla velocità della palla.</li>
+      </ul>
+
+      <h2>4. Come costruiamo il verdetto: i tre gap</h2>
+      <p>Il verdetto in fondo a ogni nostro articolo non è una formula generica, ma segue sempre una classificazione esplicita del match. Chiamiamo questi tre scenari <strong>i tre gap AnalisiTennis</strong>:</p>
+      <ul>
+        <li><strong>Gap netto</strong>: un giocatore è nettamente favorito. Serve almeno una condizione forte e documentata (differenza di ranking consistente, scontri diretti nettamente a favore, forma molto più solida, mismatch stilistico sulla superficie). Il verdetto indica il vincitore atteso.</li>
+        <li><strong>Gap sottile</strong>: la può spuntare uno dei due per un soffio. Servono almeno due fattori concordanti che pendano dalla stessa parte (es. un precedente favorevole più una forma leggermente migliore). Il verdetto segnala chi, con quale motivazione e con quale margine stretto.</li>
+        <li><strong>Gap aperto</strong>: partita equilibrata. Nessun fattore nettamente a favore di uno dei due, segnali contrastanti o dati scarsi. Il verdetto dice chiaramente che è un match da terzo set, senza un favorito indiscutibile.</li>
+      </ul>
+      <p>È una lettura, non una quota. Chi legge sa in anticipo come abbiamo pesato i fattori e può valutarla come valuterebbe la lettura di un giornalista sportivo.</p>
+
+      <h2>5. Imparzialità nel corpo</h2>
+      <p>Nel corpo degli articoli trattiamo i due giocatori allo stesso modo: dati di uno, dati dell'altro, precedenti di uno, contesto dell'altro. Il verdetto si dichiara solo in fondo. Non nascondiamo la lettura, ma non la anticipiamo nemmeno per forzare la narrativa.</p>
+
+      <h2>6. Autori e firma</h2>
+      <p>Gli articoli sono firmati collettivamente dalla <strong>Redazione AnalisiTennis</strong>. La scelta è deliberata: la linea editoriale e il metodo sono gli stessi per ogni pezzo, indipendentemente da chi lo ha concretamente scritto quel giorno. La Redazione è composta da persone appassionate di tennis, con formazione tecnica e familiarità con i dati del circuito. Risponde all'indirizzo <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a>.</p>
+
+      <h2>7. Correzioni ed errori</h2>
+      <p>Pubblichiamo ogni mattina decine di articoli. Ogni tanto un errore passa i nostri controlli. Quando ce ne accorgiamo, o quando un lettore ce lo segnala a <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a>, correggiamo l'articolo e indichiamo cosa è stato corretto nel corpo o in nota. Non rimuoviamo in silenzio. Se un errore è grave e riguarda un fatto portante, ricalibriamo il verdetto di conseguenza.</p>
+
+      <h2>8. Cosa non facciamo</h2>
+      <p>Non diamo quote, non facciamo pronostici a formato tipster, non suggeriamo giocate. Il nostro lavoro è leggere il match sul piano sportivo. Non abbiamo partnership con circuiti né riceviamo compensi per promuovere giocatori. Non pubblichiamo risultati di match già giocati come se fossero anteprime: un verdetto AnalisiTennis è sempre un pre-match.</p>
+
+      <h2>9. Aggiornamento</h2>
+      <p>Il sito è aggiornato quotidianamente. La classifica ATP e WTA si rinnova settimanalmente sulla fonte ufficiale. Le pagine articolo riportano la data e l'ora di pubblicazione. La newsletter settimanale riassume i match principali e le notizie più rilevanti della settimana.</p>
+
+      <p style="margin-top: 40px; color: var(--testo-secondario); font-style: italic;">Ultima revisione del metodo: novembre 2026. Per domande, suggerimenti o segnalazioni di errori: <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a>.</p>
+
+    </div>
+  </div>
+</Base>

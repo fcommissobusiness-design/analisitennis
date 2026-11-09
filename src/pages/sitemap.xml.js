@@ -16,7 +16,7 @@ export async function GET(context) {
     '', '/oggi', '/pronostici', '/calendario', '/chi-siamo', '/contatti', '/privacy', '/cookie',
     '/categoria/atp', '/categoria/wta', '/categoria/slam',
     '/categoria/challenger', '/categoria/masters', '/categoria/itf',
-    '/giocatori', '/italiani', '/news', '/tornei', '/guide', '/tag',
+    '/giocatori', '/italiani', '/news', '/tornei', '/guide', '/tag', '/metodo',
     '/classifica-atp', '/classifica-wta',
   ];
 
