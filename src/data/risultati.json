@@ -1,6 +1,51 @@
 {
-  "aggiornato": "2026-11-02",
+  "aggiornato": "2026-11-09",
   "risultati": [
+    {
+      "settimana": "2026-11-09",
+      "torneo": "Rolex Paris Masters",
+      "torneo_display": "Parigi",
+      "slug_torneo": "paris-2026",
+      "categoria": "ATP",
+      "superficie": "cemento",
+      "anno": 2026,
+      "vincitore": "Carlos Alcaraz",
+      "vincitore_slug": "carlos-alcaraz",
+      "finalista": "Ben Shelton",
+      "finalista_slug": "ben-shelton",
+      "punteggio": "7-6(5) 7-5",
+      "fonte": "https://www.atptour.com/en/news/alcaraz-shelton-paris-2026-final-sunday"
+    },
+    {
+      "settimana": "2026-11-09",
+      "torneo": "Chennai Open",
+      "torneo_display": "Chennai",
+      "slug_torneo": "chennai-2026",
+      "categoria": "WTA",
+      "superficie": "cemento",
+      "anno": 2026,
+      "vincitore": "Magda Linette",
+      "vincitore_slug": "",
+      "finalista": "Janice Tjen",
+      "finalista_slug": "",
+      "punteggio": "6-4 7-5",
+      "fonte": "https://en.wikipedia.org/wiki/2026_Chennai_Open_%E2%80%93_Singles"
+    },
+    {
+      "settimana": "2026-11-09",
+      "torneo": "Prudential Hong Kong Tennis Open",
+      "torneo_display": "Hong Kong",
+      "slug_torneo": "hong-kong-2026",
+      "categoria": "WTA",
+      "superficie": "cemento",
+      "anno": 2026,
+      "vincitore": "Claire Liu",
+      "vincitore_slug": "",
+      "finalista": "Alexandra Eala",
+      "finalista_slug": "alexandra-eala",
+      "punteggio": "6-3 6-0",
+      "fonte": "https://www.wtatennis.com/news/4606250/liu-reels-off-nine-straight-games-to-beat-eala-for-hong-kong-title"
+    },
     {
       "settimana": "2026-11-02",
       "torneo": "Swiss Indoors Basel",

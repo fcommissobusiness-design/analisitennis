@@ -3202,9 +3202,17 @@
     "slug_p2": "carlos-alcaraz",
     "bilancio": {
       "p1": 1,
-      "p2": 3
+      "p2": 4
     },
     "precedenti": [
+      {
+        "data": "2026-11-08",
+        "torneo": "Paris",
+        "g1": "B. Shelton",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-09-09",
         "torneo": "US Open",
@@ -3234,6 +3242,46 @@
         "torneo": "ATP Toronto",
         "g1": "C. Alcaraz",
         "g2": "B. Shelton",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alex-michelsen-vs-yannick-hanfmann": {
+    "p1": "Alex Michelsen",
+    "p2": "Yannick Hanfmann",
+    "slug_p1": "alex-michelsen",
+    "slug_p2": "yannick-hanfmann",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2024-06-16",
+        "torneo": "ATP Halle",
+        "g1": "A. Michelsen",
+        "g2": "Y. Hanfmann",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "cameron-norrie-vs-james-duckworth": {
+    "p1": "Cameron Norrie",
+    "p2": "James Duckworth",
+    "slug_p1": "cameron-norrie",
+    "slug_p2": "james-duckworth",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-07-30",
+        "torneo": "Los Cabos",
+        "g1": "C. Norrie",
+        "g2": "J. Duckworth",
         "risultato": "2 - 0",
         "winner": "First Player"
       }
