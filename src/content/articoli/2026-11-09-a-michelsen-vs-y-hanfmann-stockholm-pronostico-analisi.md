@@ -24,7 +24,7 @@ probabilita_percent: 62
 cover_image: "/covers/2026-11-09-a-michelsen-vs-y-hanfmann-stockholm-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Alex Michelsen (2023 US Open) 03.jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 ---
 
 Il primo turno di Stoccolma mette di fronte due giocatori che, sulla carta delle caratteristiche fisiche, sembrano fatti con lo stampino: **Alex Michelsen** e **Yannick Hanfmann** sono entrambi destri, con rovescio a due mani e la stessa statura di 193 centimetri. Eppure bastano i documenti anagrafici per capire che si tratta di due storie opposte: lo statunitense è un ragazzo del 2004, il tedesco sta per spegnere trentacinque candeline. Un contrasto generazionale che, più delle somiglianze di cartellino, promette di orientare il ritmo e la gestione dello scambio.

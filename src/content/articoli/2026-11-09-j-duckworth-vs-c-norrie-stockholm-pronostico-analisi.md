@@ -23,7 +23,7 @@ pubblicato: true
 probabilita_favorito: "Norrie"
 probabilita_percent: 61
 cover_file: "File:Cameron Norrie (30225419747).jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 cover_image: "/covers/2026-11-09-j-duckworth-vs-c-norrie-stockholm-pronostico-analisi.jpg"
 cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
 ---

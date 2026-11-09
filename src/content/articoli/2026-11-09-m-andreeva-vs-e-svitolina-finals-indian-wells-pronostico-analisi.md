@@ -24,7 +24,7 @@ probabilita_percent: 58
 cover_image: "/covers/2026-11-09-m-andreeva-vs-e-svitolina-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Andreeva M. WMQ23 (53062105200).jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 ---
 
 C'è un filo che lega Mirra Andreeva ed Elina Svitolina oltre il punteggio di giornata: un testa a testa in perfetto equilibrio, una vittoria per parte, con l'ultimo capitolo ancora recente. Le due si ritrovano nel match che apre il loro girone, e in un torneo a gruppi la partita inaugurale pesa in modo particolare, perché orienta la corsa alla qualificazione senza chiudere i conti in caso di passo falso. Da una parte la giovane in piena ascesa, dall'altra una giocatrice che ha già conosciuto i vertici del circuito: l'incrocio ha diversi piani di lettura.

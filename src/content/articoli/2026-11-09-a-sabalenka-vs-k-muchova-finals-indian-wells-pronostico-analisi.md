@@ -24,7 +24,7 @@ probabilita_percent: 53
 cover_image: "/covers/2026-11-09-a-sabalenka-vs-k-muchova-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:2017 Citi Open Tennis Aryna Sabalenka (36134508632).jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 ---
 
 Le **Finals** di fine stagione si aprono con un confronto di primissima fascia. Aryna Sabalenka e Karolina Muchova si ritrovano nella giornata inaugurale del loro girone, in una di quelle partite che mettono di fronte due modi opposti di interpretare il tennis. Da una parte la bielorussa, 28 anni, destra con rovescio a due mani; dall'altra la ceca, 30 anni, anch'essa destra e bimane, ma con un repertorio agli antipodi.

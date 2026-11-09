@@ -13,7 +13,7 @@ tag:
   - "Chennai Open"
   - "WTA 250"
   - "titolo WTA"
-generato_il: "2026-11-09T13:27"
+generato_il: "2026-11-09T06:27"
 pubblicato: true
 ---
 

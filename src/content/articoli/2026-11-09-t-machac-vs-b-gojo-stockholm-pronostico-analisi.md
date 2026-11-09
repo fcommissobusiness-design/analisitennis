@@ -25,7 +25,7 @@ probabilita_percent: 63
 cover_image: "/covers/2026-11-09-t-machac-vs-b-gojo-stockholm-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Machac WMQ23 (53062093175).jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 ---
 
 Il primo turno di Stoccolma mette di fronte il ceco **Tomas Machac** e Gojo, due giocatori che arrivano a questo appuntamento da strade opposte. Da una parte Machac, reduce da una lunga trasferta tra Asia ed Europa e da una settimana a Parigi in cui ha messo in fila più di un successo; dall'altra Gojo, che a Stoccolma è già dentro il torneo, avendo superato un paio di turni proprio nei giorni scorsi. Il confronto, a guardarlo bene, è più **sottile** di quanto i rispettivi cammini lascino intendere.

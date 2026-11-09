@@ -22,7 +22,7 @@ pubblicato: true
 probabilita_favorito: "Mikrut"
 probabilita_percent: 57
 cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"
-generato_il: "2026-11-09T13:12"
+generato_il: "2026-11-09T06:12"
 cover_image: "/covers/2026-11-09-s-kopp-vs-l-mikrut-monastir-pronostico-analisi.jpg"
 cover_credit: "CivArmy / CC BY-SA 4.0 / Wikimedia Commons"
 ---

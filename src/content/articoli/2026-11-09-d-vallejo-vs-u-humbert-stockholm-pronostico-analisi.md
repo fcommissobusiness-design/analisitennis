@@ -24,7 +24,7 @@ probabilita_percent: 52
 cover_image: "/covers/2026-11-09-d-vallejo-vs-u-humbert-stockholm-pronostico-analisi.jpg"
 cover_credit: "JABO / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Daniel Vallejo (Panamericanos 2023).jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 ---
 
 A Stoccolma il tabellone propone un confronto tra due giocatori che vivono momenti opposti della stagione. Da una parte **Adolfo Daniel Vallejo**, paraguayano destro in piena crescita; dall'altra **Ugo Humbert**, mancino francese di rovescio a due mani, 188 centimetri e 28 anni, chiamato a rialzare la testa dopo settimane complicate. È il loro primo incontro sul circuito, un dettaglio che toglie riferimenti tattici consolidati e consegna ai primi game il compito di dettare l'inerzia.

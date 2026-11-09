@@ -23,7 +23,7 @@ pubblicato: true
 probabilita_favorito: "Forti"
 probabilita_percent: 53
 cover_file: "File:Anjo Sports Park tennis court ac.jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 cover_image: "/covers/2026-11-09-m-giunta-vs-f-forti-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "Asturio Cantabrio / CC BY-SA 4.0 / Wikimedia Commons"
 ---

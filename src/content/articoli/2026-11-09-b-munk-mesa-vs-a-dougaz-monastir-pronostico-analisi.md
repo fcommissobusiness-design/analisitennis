@@ -22,7 +22,7 @@ pubblicato: true
 probabilita_favorito: "Dougaz"
 probabilita_percent: 72
 cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
-generato_il: "2026-11-09T13:12"
+generato_il: "2026-11-09T06:12"
 cover_image: "/covers/2026-11-09-b-munk-mesa-vs-a-dougaz-monastir-pronostico-analisi.jpg"
 cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---

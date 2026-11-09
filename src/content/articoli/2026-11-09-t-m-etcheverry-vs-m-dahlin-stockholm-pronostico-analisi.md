@@ -25,7 +25,7 @@ probabilita_percent: 76
 cover_image: "/covers/2026-11-09-t-m-etcheverry-vs-m-dahlin-stockholm-pronostico-analisi.jpg"
 cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Tomás Martin Etcheverry - 2024 Olympics (cropped).jpg"
-generato_il: "2026-11-09T13:11"
+generato_il: "2026-11-09T06:11"
 ---
 
 Lo Stockholm Open apre il suo tabellone con un confronto che mette di fronte due storie di tennis quasi agli antipodi. Da una parte **Etcheverry**, argentino classe 1999, 196 centimetri, destro con rovescio a due mani, reduce da una delle settimane più dense della sua stagione. Dall'altra **Dahlin**, entrato nel tabellone principale con una wildcard, che si presenta al **primo turno** forte di un periodo recente positivo ma costruito su un palcoscenico diverso. I due non si sono mai affrontati prima.
