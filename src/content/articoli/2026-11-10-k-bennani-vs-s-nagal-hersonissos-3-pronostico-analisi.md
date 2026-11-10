@@ -21,10 +21,10 @@ descrizione: "Bennani e Nagal si affrontano per la prima volta sul cemento dell'
 pubblicato: true
 probabilita_favorito: "Nagal"
 probabilita_percent: 68
-cover_file: "File:Taube Family Tennis Stadium scoreboard.JPG"
+cover_file: "File:Anjo Sports Park tennis court ac.jpg"
 generato_il: "2026-11-10T07:43+01:00"
 cover_image: "/covers/2026-11-10-k-bennani-vs-s-nagal-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
 ---
 
 Il tabellone principale dell'**Hersonissos 3**, Challenger di scena in Grecia e giocato sul **cemento**, propone al primo turno un confronto inedito tra Bennani e Nagal: due giocatori che non hanno alcun precedente comune e che arrivano a Creta da percorsi profondamente diversi. È uno di quei match in cui, in assenza di storia tra i due, pesano la forma del momento, il livello espresso di recente e la capacità di adattarsi alle condizioni di gioco.

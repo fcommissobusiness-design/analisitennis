@@ -21,10 +21,10 @@ descrizione: "Tsitsipas e Cretu si incontrano a Hersonissos sul cemento: forma r
 pubblicato: true
 probabilita_favorito: "Cretu"
 probabilita_percent: 59
-cover_file: "File:David X. Marks Tennis Stadium (USC).jpg"
+cover_file: "File:Dubai Tennis Stadium.jpg"
 generato_il: "2026-11-10T07:50+01:00"
 cover_image: "/covers/2026-11-10-pa-tsitsipas-vs-c-cretu-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Dubai Tennis Stadium.jpg | Basil D Soufi | CC BY-SA 3.0"
 ---
 
 Sul **cemento** di Hersonissos, in Grecia, il tabellone di questo evento mette di fronte Pa. Tsitsipas e C. Cretu in un confronto che non ha precedenti registrati tra i due. È uno di quei match in cui i numeri delle ultime settimane dicono molto più di qualsiasi etichetta, perché entrambi hanno vissuto un autunno fitto di partite nello stesso giro di tornei greci, incrociando spesso gli stessi avversari. Capire in che condizione arrivano i due protagonisti è la chiave per leggere la partita.
