@@ -3253,10 +3253,18 @@
     "slug_p1": "alex-michelsen",
     "slug_p2": "yannick-hanfmann",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 0
     },
     "precedenti": [
+      {
+        "data": "2026-11-09",
+        "torneo": "Stockholm",
+        "g1": "A. Michelsen",
+        "g2": "Y. Hanfmann",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2024-06-16",
         "torneo": "ATP Halle",
@@ -3273,10 +3281,18 @@
     "slug_p1": "cameron-norrie",
     "slug_p2": "james-duckworth",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 0
     },
     "precedenti": [
+      {
+        "data": "2026-11-09",
+        "torneo": "Stockholm",
+        "g1": "J. Duckworth",
+        "g2": "C. Norrie",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-07-30",
         "torneo": "Los Cabos",
@@ -3284,6 +3300,62 @@
         "g2": "J. Duckworth",
         "risultato": "2 - 0",
         "winner": "First Player"
+      }
+    ]
+  },
+  "holger-rune-vs-zizou-bergs": {
+    "p1": "Holger Rune",
+    "p2": "Zizou Bergs",
+    "slug_p1": "holger-rune",
+    "slug_p2": "zizou-bergs",
+    "bilancio": {
+      "p1": 2,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2022-02-15",
+        "torneo": "Marseille",
+        "g1": "Z. Bergs",
+        "g2": "H. Rune",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2021-01-23",
+        "torneo": "M15+H Bressuire",
+        "g1": "Z. Bergs",
+        "g2": "H. Rune",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "lorenzo-sonego-vs-quentin-halys": {
+    "p1": "Lorenzo Sonego",
+    "p2": "Quentin Halys",
+    "slug_p1": "lorenzo-sonego",
+    "slug_p2": "quentin-halys",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2025-06-10",
+        "torneo": "Stuttgart",
+        "g1": "Q. Halys",
+        "g2": "L. Sonego",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-04-18",
+        "torneo": "ATP Munich",
+        "g1": "Q. Halys",
+        "g2": "L. Sonego",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
       }
     ]
   }
