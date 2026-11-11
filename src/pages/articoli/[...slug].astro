@@ -8,6 +8,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify, resolveProfileSlug } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
+import playerEntities from '../../data/player_entities.json';
 
 export async function getStaticPaths() {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
@@ -88,6 +89,21 @@ const hasH2H = Object.prototype.hasOwnProperty.call(h2hData, h2hSlug);
 const anyHub = hasG1 || hasG2 || hasTourn;
 const dataLocale = new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
+// Nodo Person completo: collega il giocatore al nostro profilo interno (url) e
+// all'entita' reale nel knowledge graph via sameAs (Wikidata/Wikipedia/sito
+// ufficiale). E' il ponte che permette a Google e agli assistenti AI di capire
+// che il "L. Musetti" di cui parliamo e' la stessa entita' di cui parla il
+// resto del web. Degrada senza rumore se il giocatore non e' ancora risolto.
+function personNode(display, slug) {
+  const node = { '@type': 'Person', name: display };
+  if (slug) {
+    node.url = `${site}/giocatori/${slug}`;
+    const ent = playerEntities[slug];
+    if (ent && Array.isArray(ent.sameAs) && ent.sameAs.length) node.sameAs = ent.sameAs;
+  }
+  return node;
+}
+
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'SportsEvent',
@@ -100,8 +116,8 @@ const schema = {
   location: { '@type': 'Place', name: tDisplay },
   image: d.cover_image ? [`${site}${d.cover_image}`] : undefined,
   competitor: [
-    { '@type': 'Person', name: g1Display },
-    { '@type': 'Person', name: g2Display }
+    personNode(g1Display, g1Slug),
+    personNode(g2Display, g2Slug)
   ],
   organizer: { '@type': 'Organization', name: d.categoria || 'ATP' },
   description: d.descrizione
@@ -146,8 +162,8 @@ const schemaArticle = {
   isAccessibleForFree: true,
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${site}/articoli/${articolo.slug}` },
   about: [
-    { '@type': 'Person', name: g1Display },
-    { '@type': 'Person', name: g2Display },
+    personNode(g1Display, g1Slug),
+    personNode(g2Display, g2Slug),
     {
       '@type': 'SportsEvent',
       name: `${tDisplay} ${anno}`,

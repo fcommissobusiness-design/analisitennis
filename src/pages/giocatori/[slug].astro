@@ -7,6 +7,7 @@ import { findRanking, samePersonLoose } from '../../lib/hubs.js';
 import profilesEn from '../../data/profiles-en.json';
 import standingsAtp from '../../data/standings-atp.json';
 import standingsWta from '../../data/standings-wta.json';
+import playerEntities from '../../data/player_entities.json';
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
@@ -54,17 +55,23 @@ const eta = calcolaEta(d.data_nascita);
 // deduciamo affatto.
 const natoLabel = 'Nascita';
 
+// sameAs verso l'entita' reale nel knowledge graph (Wikidata/Wikipedia/sito
+// ufficiale): e' il segnale con cui Google e gli assistenti AI riconoscono che
+// questo profilo descrive la stessa persona di cui parla il resto del web.
+const _ent = playerEntities[d.slug_profilo];
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   '@id': `${site}/giocatori/${d.slug_profilo}#person`,
   name: d.nome,
+  url: `${site}/giocatori/${d.slug_profilo}`,
   nationality: d.nazionalita,
   birthDate: d.data_nascita,
   height: d.altezza,
   jobTitle: 'Tennista professionista',
   sport: 'Tennis',
   description: d.intro,
+  ...(_ent && Array.isArray(_ent.sameAs) && _ent.sameAs.length ? { sameAs: _ent.sameAs } : {}),
 };
 const articleSchema = {
   '@context': 'https://schema.org',
