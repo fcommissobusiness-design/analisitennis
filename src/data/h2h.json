@@ -3309,10 +3309,18 @@
     "slug_p1": "holger-rune",
     "slug_p2": "zizou-bergs",
     "bilancio": {
-      "p1": 2,
+      "p1": 3,
       "p2": 0
     },
     "precedenti": [
+      {
+        "data": "2026-11-10",
+        "torneo": "Stockholm",
+        "g1": "H. Rune",
+        "g2": "Z. Bergs",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2022-02-15",
         "torneo": "Marseille",
@@ -3337,10 +3345,18 @@
     "slug_p1": "lorenzo-sonego",
     "slug_p2": "quentin-halys",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-10",
+        "torneo": "Stockholm",
+        "g1": "L. Sonego",
+        "g2": "Q. Halys",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2025-06-10",
         "torneo": "Stuttgart",
@@ -3356,6 +3372,34 @@
         "g2": "L. Sonego",
         "risultato": "1 - 2",
         "winner": "Second Player"
+      }
+    ]
+  },
+  "alejandro-tabilo-vs-lorenzo-sonego": {
+    "p1": "Alejandro Tabilo",
+    "p2": "Lorenzo Sonego",
+    "slug_p1": "alejandro-tabilo",
+    "slug_p2": "lorenzo-sonego",
+    "bilancio": {
+      "p1": 1,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2024-08-08",
+        "torneo": "Montreal",
+        "g1": "L. Sonego",
+        "g2": "A. Tabilo",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2022-08-24",
+        "torneo": "Winston-Salem",
+        "g1": "L. Sonego",
+        "g2": "A. Tabilo",
+        "risultato": "2 - 0",
+        "winner": "First Player"
       }
     ]
   }
