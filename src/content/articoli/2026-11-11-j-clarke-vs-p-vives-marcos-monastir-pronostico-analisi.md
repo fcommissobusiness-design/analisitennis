@@ -21,10 +21,10 @@ descrizione: "Clarke e Vives Marcos si sfidano nel secondo turno del Monastir Op
 pubblicato: true
 probabilita_favorito: "Clarke"
 probabilita_percent: 62
-cover_file: "File:David X. Marks Tennis Stadium (USC).jpg"
+cover_file: "File:Jay Clarke (50498851692).jpg"
 generato_il: "2026-11-11T07:47+01:00"
 cover_image: "/covers/2026-11-11-j-clarke-vs-p-vives-marcos-monastir-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il **Monastir Open**, torneo del circuito Challenger disputato sul cemento tunisino, propone nel secondo turno il confronto tra J. Clarke e P. Vives Marcos. I due si presentano all'appuntamento dopo aver entrambi superato il proprio turno nella giornata di ieri, ma con un avvicinamento alla settimana sensibilmente diverso, che rende questo incrocio più sfaccettato di quanto il tabellone lasci intuire.

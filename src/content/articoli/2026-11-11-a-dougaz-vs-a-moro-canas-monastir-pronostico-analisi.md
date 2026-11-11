@@ -23,7 +23,8 @@ probabilita_favorito: "Dougaz"
 probabilita_percent: 58
 generato_il: "2026-11-11T07:47+01:00"
 cover_image: "/covers/2026-11-11-a-dougaz-vs-a-moro-canas-monastir-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Aziz Dougaz (2023 US Open) 02.jpg"
 ---
 
 Nel **secondo turno** del Challenger di Monastir, sul **cemento** tunisino, si trovano di fronte due giocatori arrivati all'appuntamento da strade parallele e piene di partite. Dougaz e Moro Canas non si sono mai incontrati prima in match ufficiali registrati, e questo toglie al confronto ogni riferimento storico: nessun ascendente psicologico, nessuno schema già collaudato. A pesare sarà soprattutto il momento, e il momento, per entrambi, racconta di settimane intensissime trascorse sui campi tunisini, tra tornei minori e il tabellone che li ha portati fin qui.

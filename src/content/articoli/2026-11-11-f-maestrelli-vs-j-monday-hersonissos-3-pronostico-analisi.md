@@ -22,10 +22,10 @@ descrizione: "Agli ottavi del Crete Challenger di Hersonissos, Maestrelli incont
 pubblicato: true
 probabilita_favorito: "Maestrelli"
 probabilita_percent: 69
-cover_file: "File:Mario maestrelli, scena della vita di san francesco, su grés, 1935 circa (empoli, gall. d'arte moderna e della resistenza).jpg"
+cover_file: "File:Maestrelli RGQ23 (52944044613).jpg"
 generato_il: "2026-11-11T07:27+01:00"
 cover_image: "/covers/2026-11-11-f-maestrelli-vs-j-monday-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Gli **ottavi di finale** del Crete Challenger di Hersonissos mettono di fronte due giocatori arrivati a questo appuntamento da strade diverse. Da una parte Francesco Maestrelli, un italiano con un curriculum costruito in buona parte sul circuito maggiore; dall'altra Monday, un avversario che in questa parte della stagione ha trovato ritmo e continuità di risultati. A rendere particolare il confronto è l'assenza di una storia comune: i due non si sono mai incontrati prima, e questo toglie qualsiasi ascendente psicologico pregresso dal piatto della bilancia.

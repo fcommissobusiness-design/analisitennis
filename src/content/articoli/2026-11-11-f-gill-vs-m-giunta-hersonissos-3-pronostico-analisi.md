@@ -21,10 +21,10 @@ descrizione: "Felix Gill contro Massimo Giunta negli ottavi di Hersonissos 3: fo
 pubblicato: true
 probabilita_favorito: "Gill"
 probabilita_percent: 68
-cover_file: "File:André Gill by Nadar.jpg"
+cover_file: "File:2014 US Open Tennis (14897056957).jpg"
 generato_il: "2026-11-11T07:37+01:00"
 cover_image: "/covers/2026-11-11-f-gill-vs-m-giunta-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Michael Vadon / CC BY 2.0 / Wikimedia Commons"
 ---
 
 C'è un posto nei quarti in palio sul cemento di **Hersonissos**, dove il terzo e ultimo Challenger della trasferta cretese mette di fronte il britannico Felix Gill e l'italiano Massimo Giunta. Entrambi hanno superato il primo turno del tabellone principale e si ritrovano ora agli ottavi di finale, in una mattinata mite di inizio novembre, per decidere chi prosegue la corsa in questa coda di stagione.

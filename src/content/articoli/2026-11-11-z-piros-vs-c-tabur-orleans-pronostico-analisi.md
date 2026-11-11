@@ -21,10 +21,10 @@ descrizione: "Piros e Tabur si ritrovano al secondo turno del Challenger di Orle
 pubblicato: true
 probabilita_favorito: "Piros"
 probabilita_percent: 61
-cover_file: "File:Orleans MA Town Hall.jpg"
+cover_file: "File:Piros WMQ23 (53061881714).jpg"
 generato_il: "2026-11-11T07:23+01:00"
 cover_image: "/covers/2026-11-11-z-piros-vs-c-tabur-orleans-pronostico-analisi.jpg"
-cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
+cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il secondo turno del Challenger di **Orleans** propone un incrocio che ha già una piccola storia alle spalle: **Piros** e **Tabur** si ritrovano per la terza volta in carriera, dopo essersi divisi i due precedenti. Entrambi arrivano a questo appuntamento avendo superato il turno d'apertura nello stesso torneo, e in entrambi i casi è servito il terzo set per avere ragione dell'avversario di giornata. È un punto di partenza che racconta più di un semplice turno di tabellone: parla di due giocatori già rodati e di un confronto che, sulla carta, promette battaglia.
