@@ -224,6 +224,19 @@ if [ -f "$NEWS_SCARTATE" ]; then
     log "Notizie scartate (non confermate / gate): $NEWS_SCARTATE"
 fi
 
+# [4-geo/5] Entity linking (GEO): aggancia i giocatori nuovi al knowledge graph
+# (Wikidata/Wikipedia) aggiornando src/data/player_entities.json, che alimenta
+# i sameAs nello schema di articoli e profili -> contenuto piu' citabile dalle AI.
+# Incrementale (solo i profili non ancora risolti), con cap per run e exit 0
+# garantito: non blocca mai la pubblicazione. Il json aggiornato viene poi
+# raccolto dal "git add src/data/*.json" piu' sotto. Disattivabile con
+# ANALISITENNIS_ENTITIES=0.
+if [ "${ANALISITENNIS_ENTITIES:-1}" != "0" ]; then
+    log_section "[4-geo/5] Entity linking (Wikidata sameAs)"
+    cd "$HOME/analisitennis/backend"
+    python3 resolve_entities.py 2>&1 | tee -a "$LOG" || true
+fi
+
 # 5. Commit + push (triggera Cloudflare Pages deploy)
 cd "$HOME/analisitennis"
 log_section "[5/5] Commit e push"
