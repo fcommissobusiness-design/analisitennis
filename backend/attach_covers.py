@@ -613,6 +613,116 @@ def _rank(result):
     return score
 
 
+# --- Foto canonica Wikidata (P18): soggetto verificato --------------------
+# player_entities.json (slug_profilo -> {wikidata, sameAs, image}) e' prodotto
+# da resolve_entities.py. Il campo image e' la foto P18, cioe' LA foto di QUEL
+# giocatore su Commons. Usarla elimina alla radice il bug delle cover non
+# pertinenti: la ricerca per cognome pescava omonimi non-tennisti (l'artista
+# "Andre Gill", un dipinto "Maestrelli", il municipio di "Orleans"). Con P18 la
+# persona e' garantita; la ricerca testuale resta solo per chi non e' agganciato.
+_PLAYER_ENTITIES = None
+_NAME2SLUG = None
+
+
+def _load_player_entities() -> dict:
+    global _PLAYER_ENTITIES
+    if _PLAYER_ENTITIES is None:
+        try:
+            _PLAYER_ENTITIES = json.loads(
+                (ROOT / 'src' / 'data' / 'player_entities.json').read_text(encoding='utf-8'))
+        except Exception:
+            _PLAYER_ENTITIES = {}
+    return _PLAYER_ENTITIES
+
+
+def _name2slug() -> dict:
+    """nome completo normalizzato -> slug_profilo, dai profili giocatore."""
+    global _NAME2SLUG
+    if _NAME2SLUG is not None:
+        return _NAME2SLUG
+    m = {}
+    pdir = ROOT / 'src' / 'content' / 'giocatori-profilo'
+    if pdir.exists():
+        for f in pdir.glob('*.md'):
+            try:
+                t = f.read_text()
+                mn = re.search(r'^nome:\s*"?(.*?)"?\s*$', t, re.M)
+                ms = re.search(r'^slug_profilo:\s*"?(.*?)"?\s*$', t, re.M)
+                if mn and ms:
+                    m[_norm_tok(mn.group(1))] = ms.group(1).strip()
+            except Exception:
+                pass
+    _NAME2SLUG = m
+    return m
+
+
+def _resolve_slug(name: str):
+    """slug_profilo da nome completo O abbreviato ('L. Sonego'). None se incerto."""
+    if not name:
+        return None
+    s = _name2slug().get(_norm_tok(name))
+    if s:
+        return s
+    full = resolve_full(name) or _match_profile_fullname(name)
+    if full:
+        return _name2slug().get(_norm_tok(full))
+    return None
+
+
+def commons_fileinfo(title: str):
+    """imageinfo di UN file Commons per titolo esatto -> dict come commons_search,
+    o None. Trasforma la foto P18 (solo nome file) in un pick completo (url,
+    dimensioni, autore, licenza) pronto per download e credit."""
+    if not title:
+        return None
+    url = 'https://commons.wikimedia.org/w/api.php'
+    params = {
+        'action': 'query', 'format': 'json', 'titles': title,
+        'prop': 'imageinfo', 'iiprop': 'url|size|extmetadata|mime',
+    }
+    data = None
+    for attempt in range(4):
+        try:
+            r = S.get(url, params=params, timeout=30)
+            r.raise_for_status()
+            data = r.json()
+            break
+        except Exception:
+            if attempt < 3:
+                time.sleep(2 ** attempt)
+    if not data:
+        return None
+    pages = (data.get('query') or {}).get('pages') or {}
+    for p in pages.values():
+        info = (p.get('imageinfo') or [{}])[0]
+        if not info.get('url') or info.get('mime') not in ('image/jpeg', 'image/png'):
+            continue
+        em = info.get('extmetadata') or {}
+        return {
+            'title': p.get('title') or title,
+            'url': info.get('url'),
+            'w': info.get('width'), 'h': info.get('height'),
+            'author': (em.get('Artist') or {}).get('value', ''),
+            'license': (em.get('LicenseShortName') or {}).get('value', ''),
+            'desc_url': info.get('descriptionurl'),
+        }
+    return None
+
+
+def entity_photo(name: str, exclude=None):
+    """Foto P18 del giocatore (persona verificata via Wikidata), da nome completo
+    o abbreviato. None se il giocatore non e' agganciato, non ha P18, o la foto
+    e' gia' usata altrove (lascia variare la ricerca testuale)."""
+    excl = set(exclude or ())
+    slug = _resolve_slug(name)
+    if not slug:
+        return None
+    img = (_load_player_entities().get(slug) or {}).get('image')
+    if not img or img in excl:
+        return None
+    return commons_fileinfo(img)
+
+
 def pick_image(name_full: str, slug_hint: str = '', exclude=None):
     """Cerca su Commons. Ritorna una foto solo se contesto chiaro:
        - cognome + nome entrambi nel titolo, oppure
@@ -658,15 +768,15 @@ def pick_image(name_full: str, slug_hint: str = '', exclude=None):
                 continue
             # Deve stabilire che e' davvero il giocatore giusto:
             # nome+cognome insieme, oppure cognome+contesto tennis,
-            # oppure titolo corto tipo "Cognome AnnoTorneo"
+            # oppure titolo corto CON un codice-torneo tennis ("Cognome WMQ23").
+            # NB: un titolo corto da solo non basta piu'. Prima bastava la
+            # lunghezza, e cosi' "Andre Gill by Nadar" (ritratto '800) passava
+            # come se fosse il tennista Gill. Ora serve sempre un segnale tennis.
             strong = first and first in t
             weak = _looks_tennis(t)
-            short_ok = (
-                len(r['title']) < 36
-                and not any(w in t for w in
-                            ('candidate', 'river', 'park', 'street', 'city',
-                             'political', 'church', 'bridge', 'mountain', 'seaplane'))
-            )
+            tourn_code = bool(re.search(
+                r'\b(WMQ?|RGQ?|USO|AOQ?|UTS|ITF|ATP|WTA)\b', r['title']))
+            short_ok = len(r['title']) < 40 and tourn_code
             if not (strong or weak or short_ok):
                 continue
             pool.append(r)
@@ -742,6 +852,27 @@ _BAD_SCENE_RE = _re_person.compile(
 )
 
 
+# Edifici civici / luoghi NON sportivi che condividono una venue word con gli
+# impianti ('hall' in "Town Hall", 'park' in un parco cittadino, 'palace'...).
+# Erano la causa di cover assurde tipo "Orleans MA Town Hall" per il torneo di
+# Orleans: il municipio del Massachusetts passava come "impianto" per via di
+# 'hall'. Un titolo con queste parole e' un venue valido SOLO se dice anche
+# esplicitamente tennis/court/ATP/WTA.
+NON_TENNIS_BUILDING = (
+    'town hall', 'city hall', 'village hall', 'guild hall', 'guildhall',
+    'rathaus', 'hotel de ville', 'hôtel de ville', 'municipio', 'ayuntamiento',
+    'courthouse', 'court house', 'parliament', 'capitol', 'embassy',
+    'church', 'cathedral', 'chapel', 'basilica', 'mosque', 'temple', 'abbey',
+    'museum', 'library', 'theatre', 'theater', 'opera house', 'concert hall',
+    'railway', 'train station', 'bus station', 'airport', 'university hall',
+    'national park', 'state park', 'car park', 'parking', 'memorial',
+)
+_NON_TENNIS_BUILDING_RE = _re_person.compile(
+    r'\b(' + '|'.join(w.replace(' ', r'\s') for w in NON_TENNIS_BUILDING) + r')\b',
+    _re_person.IGNORECASE,
+)
+
+
 def _is_venue_photo(title: str) -> bool:
     """True se il titolo del file sembra un venue/impianto reale (contiene
     una venue word: arena, hall, stadium, center, court, ...).
@@ -759,6 +890,11 @@ def _is_venue_photo(title: str) -> bool:
     if _PERSON_NAME_PREFIX.match(title):
         return False
     if _BAD_SCENE_RE.search(title):
+        return False
+    # Edificio civico/non sportivo (municipio, chiesa, museo...): e' un venue
+    # valido solo se il titolo dice anche esplicitamente tennis. Altrimenti e'
+    # un falso positivo da 'hall'/'park'/'palace'.
+    if _NON_TENNIS_BUILDING_RE.search(title) and not _looks_tennis(title):
         return False
     return any(w in t for w in VENUE_WORDS)
 

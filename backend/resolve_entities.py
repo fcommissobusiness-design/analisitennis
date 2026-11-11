@@ -134,7 +134,16 @@ def resolve(name: str, birth: str | None, nazionalita: str | None) -> dict | Non
         for off in _claim_values(ent, "P856"):
             if isinstance(off, str):
                 same.append(off)
-        return {"wikidata": qid, "wikipedia": wiki_url, "sameAs": same}
+        # P18 = immagine canonica su Wikimedia Commons di QUESTO giocatore.
+        # La usa la selezione cover come prima scelta: foto della persona
+        # giusta e verificata, cosi' non capita piu' di pescare un omonimo
+        # non-tennista (artista, edificio) con la ricerca per cognome.
+        image = None
+        for img in _claim_values(ent, "P18"):
+            if isinstance(img, str) and img.strip():
+                image = "File:" + img.strip().replace("_", " ")
+                break
+        return {"wikidata": qid, "wikipedia": wiki_url, "sameAs": same, "image": image}
     return None
 
 
@@ -178,10 +187,14 @@ def main() -> int:
             r = None
         tried += 1
         if r:
-            existing[slug] = {"wikidata": r["wikidata"], "wikipedia": r["wikipedia"],
-                              "sameAs": r["sameAs"]}
+            entry = {"wikidata": r["wikidata"], "wikipedia": r["wikipedia"],
+                     "sameAs": r["sameAs"]}
+            if r.get("image"):
+                entry["image"] = r["image"]
+            existing[slug] = entry
             added += 1
-            print(f"[entities] OK {slug} -> {r['wikidata']}")
+            print(f"[entities] OK {slug} -> {r['wikidata']}"
+                  + (f" [img]" if r.get("image") else ""))
         time.sleep(PAUSE)
     # scrittura atomica: tmp + replace, cosi' il json non e' mai mezzo scritto
     try:

@@ -13,7 +13,8 @@ try:
     from attach_covers import (
         NAME_MAP, VENUE_MAP, COVERS_DIR, detect_winner,
         pick_image, pick_venue, download, strip_html, clean_author,
-        used_covers_for_player, resolve_full, build_credit, all_used_cover_files
+        used_covers_for_player, resolve_full, build_credit, all_used_cover_files,
+        entity_photo
     )
     HAS_COVER = True
 except Exception:
@@ -193,6 +194,18 @@ def write(match, analysis, out_dir):
                         pick = pick_image(full, slug_hint=slug, exclude=excl)
                         if pick:
                             break
+            # 2-bis. Rete di sicurezza Wikidata: se la ricerca testuale non ha
+            #    trovato un vero giocatore (nome non risolto, pochissime foto),
+            #    usa la foto canonica P18 di uno dei due PRIMA del venue. Evita
+            #    le cover non pertinenti (edifici, omonimi) per i giocatori
+            #    agganciati al knowledge graph.
+            if not pick:
+                for cand in (fav, p1, p2):
+                    if not cand:
+                        continue
+                    pick = entity_photo(cand, exclude=used_global)
+                    if pick:
+                        break
             # 3. ultima spiaggia: venue del torneo. slug_hint diversifica gli
             #    articoli dello stesso torneo; dedup globale evita venue ripetuti.
             if not pick:

@@ -34,7 +34,7 @@ from attach_covers import (
     NAME_MAP, VENUE_MAP, COVERS_DIR, BLOCK_WORDS, TENNIS_CONTEXT,
     detect_winner, pick_image, pick_venue, download, strip_html,
     parse_frontmatter, update_frontmatter, _looks_tennis, _is_venue_photo,
-    used_covers_for_player, cover_file_is_player,
+    used_covers_for_player, cover_file_is_player, entity_photo,
 )
 from cover_image_utils import ensure_web_size, needs_resize
 import hashlib
@@ -211,6 +211,17 @@ def regenerate_cover(art: Path) -> tuple[bool, str]:
                 pick = pick_image(full, slug_hint=slug, exclude=excl)
                 if pick:
                     break
+    # 2-bis. Rete di sicurezza Wikidata: foto canonica P18 di uno dei due
+    #    giocatori PRIMA del venue (qui NAME_MAP e' parziale, quindi entity_photo
+    #    - che risolve anche dai profili - recupera molti casi che finivano su un
+    #    venue sbagliato/estero o su un omonimo non-tennista).
+    if not pick:
+        for cand in (fav, g1, g2):
+            if not cand:
+                continue
+            pick = entity_photo(cand)
+            if pick:
+                break
     # 3. ultima spiaggia: venue del torneo. slug_hint diversifica
     #    articoli diversi dello stesso torneo (anti-duplicato).
     if not pick:
