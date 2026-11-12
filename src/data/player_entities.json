@@ -1,4 +1,13 @@
 {
+"a-bolt": {
+"image": "File:Bolt WMQ14 (3) (14603792851).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q3462853",
+"https://it.wikipedia.org/wiki/Alex_Bolt"
+],
+"wikidata": "Q3462853",
+"wikipedia": "https://it.wikipedia.org/wiki/Alex_Bolt"
+},
 "a-bondar": {
 "image": "File:Transylvania Open 2026 - Anna Bondar v Ella Seidel 4-6, 7-6 (8-6), 6-0 01.01.2026 (55078278088) (cropped).jpg",
 "sameAs": [
@@ -16,6 +25,15 @@
 ],
 "wikidata": "Q71126317",
 "wikipedia": "https://it.wikipedia.org/wiki/Alina_Charaeva"
+},
+"a-dougaz": {
+"image": "File:Dougaz WMQ23 (53061130777).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q28674131",
+"https://en.wikipedia.org/wiki/Aziz_Dougaz"
+],
+"wikidata": "Q28674131",
+"wikipedia": "https://en.wikipedia.org/wiki/Aziz_Dougaz"
 },
 "a-falei": {
 "image": "File:Aliona Falei (2026 US Open) 01.jpg",
@@ -52,6 +70,15 @@
 "wikidata": "Q131278872",
 "wikipedia": "https://en.wikipedia.org/wiki/Aidan_Mayo"
 },
+"a-moro-canas": {
+"image": "File:Alejandro Moro Cañas (2026 US Open) 01.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q123734747",
+"https://en.wikipedia.org/wiki/Alejandro_Moro_Ca%C3%B1as"
+],
+"wikidata": "Q123734747",
+"wikipedia": "https://en.wikipedia.org/wiki/Alejandro_Moro_Ca%C3%B1as"
+},
 "a-parks": {
 "image": "File:Transylvania Open 2024 - Ana Bogdan vs Alycia Parks ( 7-5, 7-5) (53511538506).jpg",
 "sameAs": [
@@ -78,6 +105,15 @@
 ],
 "wikidata": "Q4725560",
 "wikipedia": "https://it.wikipedia.org/wiki/Aljaksandra_Sasnovi%C4%8D"
+},
+"a-shevchenko": {
+"image": "File:Alexander Shevchenko (2023 DC Open) 01 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q110287122",
+"https://it.wikipedia.org/wiki/Aleksandr_%C5%A0ev%C4%8Denko_%28tennista%29"
+],
+"wikidata": "Q110287122",
+"wikipedia": "https://it.wikipedia.org/wiki/Aleksandr_%C5%A0ev%C4%8Denko_%28tennista%29"
 },
 "a-shubladze": {
 "image": "File:Alexandra Shubladze 1590663.jpg",
@@ -341,6 +377,14 @@
 "wikidata": "Q22957410",
 "wikipedia": "https://it.wikipedia.org/wiki/Bianca_Andreescu"
 },
+"b-gadamauri": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q139666388",
+"https://en.wikipedia.org/wiki/Buvaysar_Gadamauri"
+],
+"wikidata": "Q139666388",
+"wikipedia": "https://en.wikipedia.org/wiki/Buvaysar_Gadamauri"
+},
 "b-gojo": {
 "image": "File:Gojo MLC21.jpg",
 "sameAs": [
@@ -396,6 +440,15 @@
 "wikidata": "Q60676610",
 "wikipedia": "https://it.wikipedia.org/wiki/Brandon_Nakashima"
 },
+"c-cretu": {
+"image": "File:Cezar Cretu.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q127421027",
+"https://en.wikipedia.org/wiki/Cezar_Cre%C8%9Bu"
+],
+"wikidata": "Q127421027",
+"wikipedia": "https://en.wikipedia.org/wiki/Cezar_Cre%C8%9Bu"
+},
 "c-liu": {
 "image": "File:Claire Liu (2026 US Open) 01 (cropped).jpg",
 "sameAs": [
@@ -404,6 +457,15 @@
 ],
 "wikidata": "Q20898017",
 "wikipedia": "https://it.wikipedia.org/wiki/Claire_Liu"
+},
+"c-tabur": {
+"image": "File:Clément Tabur (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q47496123",
+"https://en.wikipedia.org/wiki/Cl%C3%A9ment_Tabur"
+],
+"wikidata": "Q47496123",
+"wikipedia": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Tabur"
 },
 "c-ugo-carabelli": {
 "image": "File:Ugo Carabelli RGQ22 (2) (52129754339).jpg",
@@ -610,6 +672,15 @@
 ],
 "wikidata": "Q648854",
 "wikipedia": "https://it.wikipedia.org/wiki/Donna_Veki%C4%87"
+},
+"e-coulibaly": {
+"image": "File:Eliakim Coulibaly.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q107308109",
+"https://en.wikipedia.org/wiki/Eliakim_Coulibaly"
+],
+"wikidata": "Q107308109",
+"wikipedia": "https://en.wikipedia.org/wiki/Eliakim_Coulibaly"
 },
 "e-moller": {
 "image": "File:Elmer Møller (2026 US Open) 02 (cropped).jpg",
@@ -1009,6 +1080,15 @@
 "wikidata": "Q64374288",
 "wikipedia": "https://it.wikipedia.org/wiki/Jodie_Burrage"
 },
+"j-clarke": {
+"image": "File:Clarke WM17 (22) (36016694612).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q30612606",
+"https://it.wikipedia.org/wiki/Jay_Clarke"
+],
+"wikidata": "Q30612606",
+"wikipedia": "https://it.wikipedia.org/wiki/Jay_Clarke"
+},
 "j-garland": {
 "image": "File:Garland RGQ23 (cropped).jpg",
 "sameAs": [
@@ -1043,6 +1123,15 @@
 ],
 "wikidata": "Q139827427",
 "wikipedia": "https://en.wikipedia.org/wiki/Juan_Manuel_La_Serna"
+},
+"j-monday": {
+"image": "File:Monday WMQ23 (53062186073).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q119628467",
+"https://en.wikipedia.org/wiki/Johannus_Monday"
+],
+"wikidata": "Q119628467",
+"wikipedia": "https://en.wikipedia.org/wiki/Johannus_Monday"
 },
 "j-paul": {
 "image": "File:Jakub Paul Basel 2025 (cropped).png",
@@ -1579,6 +1668,23 @@
 "wikidata": "Q66731884",
 "wikipedia": "https://it.wikipedia.org/wiki/Martin_Damm_%28tennista_2003%29"
 },
+"m-dodig": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q127699862",
+"https://en.wikipedia.org/wiki/Matej_Dodig"
+],
+"wikidata": "Q127699862",
+"wikipedia": "https://en.wikipedia.org/wiki/Matej_Dodig"
+},
+"m-geerts": {
+"image": "File:2023 Roland Garros Qualifying Tournament - 69.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q100596799",
+"https://en.wikipedia.org/wiki/Michael_Geerts"
+],
+"wikidata": "Q100596799",
+"wikipedia": "https://en.wikipedia.org/wiki/Michael_Geerts"
+},
 "m-giunta": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q134297562"
@@ -1955,6 +2061,14 @@
 "wikidata": "Q105967693",
 "wikipedia": "https://it.wikipedia.org/wiki/Polina_Kudermetova"
 },
+"p-vives-marcos": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q140381690",
+"https://en.wikipedia.org/wiki/Pedro_Vives_Marcos"
+],
+"wikidata": "Q140381690",
+"wikipedia": "https://en.wikipedia.org/wiki/Pedro_Vives_Marcos"
+},
 "pablo-carreno-busta": {
 "image": "File:Carreno Busta RG19 (11) (48199369451).jpg",
 "sameAs": [
@@ -2098,6 +2212,15 @@
 ],
 "wikidata": "Q140626596",
 "wikipedia": "https://en.wikipedia.org/wiki/Sandro_Kopp_%28tennis%29"
+},
+"s-nagal": {
+"image": "File:Nagal RGQ22 (14) (52129786409).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q20665358",
+"https://it.wikipedia.org/wiki/Sumit_Nagal"
+],
+"wikidata": "Q20665358",
+"wikipedia": "https://it.wikipedia.org/wiki/Sumit_Nagal"
 },
 "s-travaglia": {
 "image": "File:Travaglia WM17 (23) (35379192423).jpg",

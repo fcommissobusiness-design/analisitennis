@@ -3381,10 +3381,18 @@
     "slug_p1": "alejandro-tabilo",
     "slug_p2": "lorenzo-sonego",
     "bilancio": {
-      "p1": 1,
+      "p1": 2,
       "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-11",
+        "torneo": "Stockholm",
+        "g1": "L. Sonego",
+        "g2": "A. Tabilo",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2024-08-08",
         "torneo": "Montreal",
@@ -3398,6 +3406,62 @@
         "torneo": "Winston-Salem",
         "g1": "L. Sonego",
         "g2": "A. Tabilo",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
+  },
+  "alejandro-tabilo-vs-alex-michelsen": {
+    "p1": "Alejandro Tabilo",
+    "p2": "Alex Michelsen",
+    "slug_p1": "alejandro-tabilo",
+    "slug_p2": "alex-michelsen",
+    "bilancio": {
+      "p1": 0,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-03-23",
+        "torneo": "Miami",
+        "g1": "A. Tabilo",
+        "g2": "A. Michelsen",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "holger-rune-vs-taylor-fritz": {
+    "p1": "Holger Rune",
+    "p2": "Taylor Fritz",
+    "slug_p1": "holger-rune",
+    "slug_p2": "taylor-fritz",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2024-10-09",
+        "torneo": "ATP Shanghai",
+        "g1": "T. Fritz",
+        "g2": "H. Rune",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-03-14",
+        "torneo": "ATP Indian Wells",
+        "g1": "T. Fritz",
+        "g2": "H. Rune",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-03-28",
+        "torneo": "ATP Miami",
+        "g1": "T. Fritz",
+        "g2": "H. Rune",
         "risultato": "2 - 0",
         "winner": "First Player"
       }
