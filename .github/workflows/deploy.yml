@@ -31,6 +31,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           set +e
+          echo "::error::SECRET_CHECK :: token_len=${#CLOUDFLARE_API_TOKEN} account_len=${#CLOUDFLARE_ACCOUNT_ID}"
           OUT=$(npx --yes wrangler@3 pages deploy dist --project-name=analisitennis --branch=main 2>&1)
           CODE=$?
           echo "$OUT"
