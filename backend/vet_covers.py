@@ -26,7 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from attach_covers import (parse_frontmatter, NAME_MAP, pick_image, S,
                            download, strip_html, update_frontmatter, COVERS_DIR,
-                           used_covers_for_player)
+                           used_covers_for_player, entity_photo)
 from audit_covers import regenerate_cover, ARTICOLI, ROOT
 
 # Campi da tennis puliti e inequivocabili, usati come ultima spiaggia quando
@@ -97,11 +97,17 @@ PROMPT = (
     "soggetto e' tagliato male (si vedono solo gambe/busto senza testa).\n"
     "- Un CONCERTO, uno spettacolo, un palco, luci da evento, una folla a un "
     "evento: NO anche se e' dentro un'arena che a volte ospita il tennis.\n"
+    "- Un TABELLONE, il punteggio, uno scoreboard o un display elettronico come "
+    "soggetto principale o che OCCUPA gran parte dell'inquadratura: NO anche se "
+    "e' un tabellone da tennis e sullo sfondo si intravede il campo.\n"
+    "- Una FOLLA, gli spettatori o le TRIBUNE che DOMINANO la foto senza un "
+    "giocatore chiaramente riconoscibile e in azione in primo piano: NO.\n"
     "- Una strada, un paesaggio urbano, un edificio generico o il suo esterno "
     "notturno, una cerimonia/premiazione, un altro sport, un gruppo di persone "
     "in giacca, un volto buio da conferenza, un logo o un cartellone.\n"
     "- Qualunque cosa non chiaramente legata al tennis.\n\n"
-    "Nel dubbio tra azione e primo piano del volto, rispondi NO.\n"
+    "Nel dubbio tra azione e primo piano del volto, rispondi NO. Nel dubbio tra "
+    "una vera foto di gioco e un tabellone/una folla/delle tribune, rispondi NO.\n"
     "Rispondi ESATTAMENTE in questo formato su una riga:\n"
     "VERDETTO: SI|NO - MOTIVO: <massimo 10 parole>"
 )
@@ -196,6 +202,33 @@ def main():
             if ok3:
                 entry.update({'ok': True, 'risolta_con': 'giocatore ' + full})
                 print(f'         -> foto {full}: risolta', flush=True)
+                break
+        if entry['ok']:
+            report.append(entry); continue
+
+        # Step P18: foto canonica Wikidata del giocatore (persona verificata),
+        # provata PRIMA del campo di ripiego. Una cover bocciata da scoreboard/
+        # folla ha comunque il giocatore giusto: meglio la sua foto ufficiale
+        # che un campo neutro. Si prova g1 poi g2.
+        for g in (g1, g2):
+            full = NAME_MAP.get(g)
+            if not full:
+                continue
+            excl = used_covers_for_player(full.split()[-1], skip_slug=stem)
+            if cur_title:
+                excl.add('File:' + cur_title)
+            try:
+                ph = entity_photo(full, exclude=excl)
+            except Exception:
+                ph = None
+            if not ph or not ph.get('url'):
+                continue
+            t = _apply(stem, ph)
+            okP, mP = vet_image(cover)
+            attempts.append(('p18:' + full, t, okP, mP))
+            if okP:
+                entry.update({'ok': True, 'risolta_con': 'P18 ' + full})
+                print(f'         -> P18 {full}: risolta', flush=True)
                 break
         if entry['ok']:
             report.append(entry); continue
