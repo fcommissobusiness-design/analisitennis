@@ -23,7 +23,8 @@ probabilita_favorito: "Echargui"
 probabilita_percent: 59
 generato_il: "2026-11-12T07:45+01:00"
 cover_image: "/covers/2026-11-12-m-echargui-vs-m-petkovic-monastir-pronostico-analisi.jpg"
-cover_credit: "Centre Court Scoreboard.JPG | Clavecin | Public domain"
+cover_file: "File:Moez Echargui (2026 US Open) 01.jpg"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 ---
 
 Gli ottavi di finale del **Challenger** di Monastir, in Tunisia, mettono di fronte due percorsi che si incrociano per la prima volta. Da un lato **M. Echargui**, giocatore di esperienza consolidata su questo livello di circuito; dall'altro **M. Petkovic**, nome in costruzione che a Monastir sta provando ad alzare l'asticella delle proprie frequentazioni abituali. Entrambi hanno superato il turno d'apertura il 10 novembre e si presentano agli ottavi di finale con un giorno pieno di recupero alle spalle.

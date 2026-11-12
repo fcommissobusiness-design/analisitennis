@@ -22,8 +22,8 @@ pubblicato: true
 probabilita_favorito: "Noskova"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-12-j-pegula-vs-l-noskova-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "RB Photo from Chicago / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:Linda Nosková Prague Open 2024.jpg"
+cover_credit: "Tatiana from Moscow, Russia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Jessica Pegula (18519092314).jpg"
 generato_il: "2026-11-12T07:49+01:00"
 ---
 

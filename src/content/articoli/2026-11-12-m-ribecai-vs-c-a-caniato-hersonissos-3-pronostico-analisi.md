@@ -21,10 +21,10 @@ descrizione: "Ribecai contro Caniato nel secondo turno dell'Hersonissos 3: due g
 pubblicato: true
 probabilita_favorito: "Caniato"
 probabilita_percent: 52
-cover_file: "File:Asker tennishall.jpg"
+cover_file: "File:Hard courts.jpg"
 generato_il: "2026-11-12T07:21+01:00"
 cover_image: "/covers/2026-11-12-m-ribecai-vs-c-a-caniato-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Heather lights up Centre Court (19319009589).jpg | Carine06 from UK | CC BY-SA 2.0"
+cover_credit: "MargaritaAnisimova / CC BY-SA 4.0 / Wikimedia Commons"
 ---
 
 Il secondo turno del Challenger di **Hersonissos 3**, in Grecia, mette di fronte Michele **Ribecai** e C. A. **Caniato**, due giocatori separati da pochissime posizioni di classifica e che non si sono mai incontrati prima. Entrambi hanno superato il primo turno del tabellone principale lunedì scorso, in tre set, e ora si giocano un posto ai quarti su un campo in cemento che a quest'ora del mattino tende a offrire una palla più lenta e scambi più lunghi.
