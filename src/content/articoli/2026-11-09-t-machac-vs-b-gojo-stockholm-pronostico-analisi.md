@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Machac: tetto tecnico più alto e avversari di miglior livello battuti di recente, oltre a qualche giorno di riposo in più. Gojo arriva caldo e può allungare il match, ma il favore pende dalla parte del ceco."
 descrizione: "Machac e Gojo si affrontano al primo turno di Stoccolma: un giocatore più riposato contro uno già in ritmo, precedenti in parità e forme a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Machac"
 probabilita_percent: 63
 cover_image: "/covers/2026-11-09-t-machac-vs-b-gojo-stockholm-pronostico-analisi.jpg"

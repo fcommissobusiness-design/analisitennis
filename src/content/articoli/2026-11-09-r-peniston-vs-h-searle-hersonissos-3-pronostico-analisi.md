@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: i due si equivalgono e l'inerzia del primo parziale può decidere tutto. Lo scenario più plausibile è una contesa lunga, con entrambi in grado di strappare almeno un set."
 descrizione: "R. Peniston e H. Searle di nuovo di fronte al Challenger di Hersonissos 3: forma recente, precedente diretto, ritmo e freschezza di due giocatori in cerca di continuità."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Searle"
 probabilita_percent: 53
 cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"

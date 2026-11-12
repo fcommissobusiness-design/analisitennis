@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Rinderknech, aiutato dal peso del servizio e da precedenti che pendono dalla sua parte, con un bilancio di 3-1 nei confronti diretti; ma il cemento che rallenta la palla tiene Kecmanovic dentro la partita, che un precedente lo ha pure vinto, e un terzo set non sorprenderebbe affatto."
 descrizione: "A Stoccolma Rinderknech e Kecmanovic si incrociano sul cemento: forma, precedenti e stili a confronto tra due giocatori in cerca di riscatto a fine stagione."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Rinderknech"
 probabilita_percent: 60
 cover_file: "File:Rinderknech REN21 (2).jpg"

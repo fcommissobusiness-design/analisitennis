@@ -21,6 +21,7 @@ probabilita_favorito: "Damm"
 probabilita_percent: 58
 descrizione: "Finale del Challenger di Brest tra M. Kouame e M. Damm: cammino, unico precedente e forma recente dei due finalisti sul veloce indoor, un ultimo atto da seguire."
 pubblicato: true
+noindex: true
 generato_il: "2026-11-01T06:58"
 cover_image: "/covers/2026-11-01-m-kouame-vs-m-damm-brest-pronostico-analisi.jpg"
 cover_credit: "Nrbelex / CC BY-SA 4.0 / Wikimedia Commons"

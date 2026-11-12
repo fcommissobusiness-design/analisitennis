@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita in sostanziale equilibrio, da terzo set: lo scenario più plausibile è un 2-1 in cui Martineau riesce a strappare almeno un parziale. Nessun favorito netto, con Mrva avanti di un'incollatura solo per la maggiore continuità recente."
 descrizione: "Quarti di finale a Taranto: Mrva e Martineau si affrontano da imbattuti nel torneo e senza alcun precedente diretto, con un posto in semifinale in palio."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Mrva"
 probabilita_percent: 53
 generato_il: "2026-11-06T07:38"

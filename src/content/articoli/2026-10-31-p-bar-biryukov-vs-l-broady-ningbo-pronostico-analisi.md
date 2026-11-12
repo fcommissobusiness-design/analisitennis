@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare P. Bar Biryukov: il mese di ottobre gli ha regalato più continuità e un tabellone di spessore, con la finale di Chengdu, un bagaglio che su questo cemento pesa appena più della brillantezza ritrovata da Broady in settimana."
 descrizione: "Semifinale a Ningbo tra P. Bar Biryukov e L. Broady: entrambi con tre vittorie di fila sul cemento e nessuno scontro diretto. Analisi di forma e momento."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:30"
 cover_image: "/covers/2026-10-31-p-bar-biryukov-vs-l-broady-ningbo-pronostico-analisi.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"

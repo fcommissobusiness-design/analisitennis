@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare E. Jones: il recente rodaggio ad alto livello, tra la corsa di Jingshan e le fasi calde di Osaka, le offre una marcia in più in un confronto che resta comunque equilibrato e aperto a ogni scenario."
 descrizione: "Semifinale WTA a Guangzhou tra C. Wong Hong Yi ed E. Jones: nessun precedente, forma recente e avversari in comune per un duello inedito sul cemento."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-c-wong-hong-yi-vs-e-jones-guangzhou-pronostico-analisi.jpg"
 cover_credit: "ZooTennis.com / CC BY 4.0 / Wikimedia Commons"
 cover_file: "File:Emerson Jones ITF J300 College Park Girls Final 2023 (1).png"

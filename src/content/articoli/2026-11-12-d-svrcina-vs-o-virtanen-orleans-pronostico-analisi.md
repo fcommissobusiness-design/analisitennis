@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Svrcina: la continuità delle ultime settimane e la qualità degli avversari superati pesano più dei picchi alterni di Virtanen, che però con il servizio può rimettere tutto in discussione."
 descrizione: "Svrcina e Virtanen si affrontano per la prima volta agli ottavi di Orléans: forma recente, stili opposti e nessun precedente diretto nella nostra anteprima."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Svrcina"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-12-d-svrcina-vs-o-virtanen-orleans-pronostico-analisi.jpg"

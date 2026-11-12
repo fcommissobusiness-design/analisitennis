@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Bellucci: il divario di forma dell'ultimo mese e' troppo ampio, con una lunga serie di vittorie e il turno gia' superato in questo tabellone, mentre Rinderknech fatica da settimane. Il precedente di Atlanta e il pubblico di casa non bastano a ribaltare il pronostico."
 descrizione: "Secondo turno al Rolex Paris Masters tra Bellucci e Rinderknech sul cemento indoor di Bercy: forma, unico precedente e fattore campo del 4 novembre."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Bellucci"
 probabilita_percent: 69
 generato_il: "2026-11-04T07:42"

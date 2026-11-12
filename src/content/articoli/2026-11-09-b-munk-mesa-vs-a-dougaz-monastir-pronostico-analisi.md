@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Dougaz: più partite nelle gambe, familiarità recente con la sede e un bagaglio di avversari di livello superiore lo rendono il favorito. A Munk Mesa, reduce da una serie negativa, servirebbe un primo set rubato per cambiare davvero l'inerzia."
 descrizione: "Munk Mesa e Dougaz si incontrano al primo turno del Challenger di Monastir: forma, fatica e familiarità con la sede a confronto in un match inedito."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Dougaz"
 probabilita_percent: 72
 cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"

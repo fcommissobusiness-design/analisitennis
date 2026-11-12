@@ -19,6 +19,7 @@ tag:
 verdetto: "Finale in equilibrio: nessuno dei due arriva con un ascendente netto e l'assenza di precedenti lascia tutto aperto. Lo scenario più plausibile è un match lungo, deciso al terzo set, in cui conterà la tenuta nei game chiave."
 descrizione: "Feldbausch e Martineau si giocano la finale del Challenger di Taranto sul cemento: due percorsi netti, nessun precedente, un titolo inaugurale da assegnare."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Martineau"
 probabilita_percent: 52
 cover_file: "File:Kilian Feldbausch (2026 US Open) 01.jpg"

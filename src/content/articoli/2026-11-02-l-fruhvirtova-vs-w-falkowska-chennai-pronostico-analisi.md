@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Fruhvirtova: il livello delle avversarie affrontate tra Pechino, Singapore e Guangzhou, culminato nella semifinale cinese, pesa più dell'ottima settimana di Falkowska, pur reduce dal titolo di Chennai e lanciatissima."
 descrizione: "Chennai, primo turno: Linda Fruhvirtova contro Weronika Falkowska. Qualità delle avversarie recenti contro lo stato di forma. Analisi completa del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Fruhvirtova"
 probabilita_percent: 58
 generato_il: "2026-11-02T07:30"

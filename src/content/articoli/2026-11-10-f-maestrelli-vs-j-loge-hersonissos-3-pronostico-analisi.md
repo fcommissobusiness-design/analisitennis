@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Maestrelli: il divario di livello, il peso del servizio su questo cemento e la maggiore freschezza fisica valgono più della pur ottima serie di Loge, costruita a una categoria inferiore e con due match già nelle gambe."
 descrizione: "Al Challenger di Hersonissos Francesco Maestrelli, testa di serie numero uno, apre contro il qualificato J. Loge: forma, fisico e fatica a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Maestrelli"
 probabilita_percent: 68
 cover_image: "/covers/2026-11-10-f-maestrelli-vs-j-loge-hersonissos-3-pronostico-analisi.jpg"

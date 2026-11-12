@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare O. Virtanen: i due arrivano a Brest con una settimana altrettanto pulita, ma il finlandese porta in dote risultati recenti di maggior spessore e appare leggermente più continuo. Resta però una sfida da possibile terzo set."
 descrizione: "Semifinale del Challenger di Brest tra M. Kouame e O. Virtanen: forma recente, percorso nel torneo e stili di gioco a confronto in una sfida del tutto inedita."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T06:58"
 cover_image: "/covers/2026-10-31-m-kouame-vs-o-virtanen-brest-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Gill: classifica più alta, un precedente diretto già vinto e il vantaggio del mancino sul cemento pendono dalla sua parte. Giunta è più fresco e in fiducia, ma la caratura e la continuità del britannico dovrebbero fare la differenza."
 descrizione: "Felix Gill contro Massimo Giunta negli ottavi di Hersonissos 3: forma recente, precedente, mano mancina e freschezza fisica a confronto sul cemento."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Gill"
 probabilita_percent: 68
 cover_file: "File:2014 US Open Tennis (14897056957).jpg"

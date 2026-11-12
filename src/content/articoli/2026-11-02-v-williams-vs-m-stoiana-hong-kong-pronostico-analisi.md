@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la bilancia pende nettamente verso Stoiana: cinque sconfitte consecutive per Williams contro un ottobre di continuità, culminato nel cammino fino ai quarti di Osaka, raccontano un divario di ritmo e condizione difficile da colmare al primo turno."
 descrizione: "V. Williams e M. Stoiana aprono il tabellone WTA di Hong Kong in un primo turno inedito sul cemento: forma, ritmo e tornei recenti a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Stoiana"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-02-v-williams-vs-m-stoiana-hong-kong-pronostico-analisi.jpg"

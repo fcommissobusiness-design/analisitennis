@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Zakharova: il ritmo delle ultime settimane a livello WTA e il primo turno già archiviato a Chennai pesano più dell'entusiasmo di una Adkar comunque pericolosa davanti al suo pubblico."
 descrizione: "Agli ottavi di finale di Chennai si affrontano Anastasia Zakharova e Vaishnavi Adkar: analisi di forma, percorsi e fattore campo sul cemento indiano, senza storia tra le due."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Zakharova"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-05-a-zakharova-vs-v-adkar-chennai-pronostico-analisi.jpg"

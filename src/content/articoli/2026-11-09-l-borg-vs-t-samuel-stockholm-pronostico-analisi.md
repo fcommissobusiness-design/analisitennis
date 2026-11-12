@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Samuel: porta in campo un vissuto di partite e un giro di tornei di ben altra caratura rispetto al cammino recente di Borg. La stanchezza accumulata è l'unica vera incognita, utile a tenere il match in bilico ma difficilmente a ribaltarlo."
 descrizione: "Borg e Samuel si affrontano per la prima volta al primo turno di Stockholm: forma recente, carico di partite e assenza di precedenti nell'anteprima del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Samuel"
 probabilita_percent: 71
 cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"

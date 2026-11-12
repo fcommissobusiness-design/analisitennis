@@ -21,6 +21,7 @@ probabilita_favorito: "Draxl"
 probabilita_percent: 61
 descrizione: "Finale del Challenger di Sioux Falls tra Dietrich e Draxl: forma recente, cammino nel torneo, precedenti e ultime settimane dei due finalisti messe a confronto."
 pubblicato: true
+noindex: true
 generato_il: "2026-11-01T07:30"
 cover_image: "/covers/2026-11-01-d-dietrich-vs-l-draxl-sioux-falls-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"

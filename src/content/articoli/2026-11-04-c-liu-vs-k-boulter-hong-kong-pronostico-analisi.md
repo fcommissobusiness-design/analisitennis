@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Liu: arriva con un ottobre più ricco di risultati e la sicurezza di chi ha già alzato due trofei di recente, mentre Boulter deve ancora ritrovare continuità tra alti e bassi. Match comunque di misura, possibile il terzo set."
 descrizione: "Claire Liu contro Katie Boulter al secondo turno di Hong Kong: forma recente, cammino nel torneo e caratteristiche a confronto sul cemento. L'analisi completa."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Liu"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-04-c-liu-vs-k-boulter-hong-kong-pronostico-analisi.jpg"

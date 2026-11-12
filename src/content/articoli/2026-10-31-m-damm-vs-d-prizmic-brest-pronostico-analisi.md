@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Damm: le settimane recenti a livello ATP, con la finale di Bruxelles e il ritmo contro avversari di vertice, gli danno un piccolo margine di esperienza su un Prizmic comunque in grande fiducia. Match da terzo set possibile."
 descrizione: "Damm contro Prizmic nella semifinale del Challenger di Brest: entrambi al penultimo atto senza aver perso un set. Analisi di forma, percorso e stile."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:18"
 cover_image: "/covers/2026-10-31-m-damm-vs-d-prizmic-brest-pronostico-analisi.jpg"
 cover_credit: "Nrbelex / CC BY-SA 4.0 / Wikimedia Commons"

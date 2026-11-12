@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Dellien: l'unico precedente è suo, maturato sulla stessa terra, e si presenta con qualche giorno di recupero in più rispetto a un Aboian carico di match tra Cali e Guayaquil. Resta comunque una sfida da possibile terzo set."
 descrizione: "Aboian contro Dellien nella semifinale del Challenger di Guayaquil: forma, precedente e carico di match a confronto in una sfida tutta sulla terra."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:00"
 cover_image: "/covers/2026-10-31-v-aboian-vs-h-dellien-guayaquil-pronostico-analisi.jpg"
 cover_credit: "Eric Jones / CC BY-SA 2.0 / Wikimedia Commons"

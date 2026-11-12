@@ -26,6 +26,12 @@ try:
 except Exception:
     HAS_PROFILES = False
 
+try:
+    from noindex_policy import should_noindex
+    HAS_NOINDEX = True
+except Exception:
+    HAS_NOINDEX = False
+
 
 def slugify(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()
@@ -237,6 +243,19 @@ def write(match, analysis, out_dir):
         'descrizione': descrizione,
         'pubblicato': True
     }
+    # Soglia qualita' (12/11/2026): i match minori (Challenger / tour tra
+    # giocatori fuori dai top, nessuna stella) vanno in noindex. Restano
+    # pubblicati per utenti e link interni, ma fuori dall'indice Google e dalla
+    # sitemap, cosi' non appesantiscono la qualita' percepita del sito.
+    # Conservativo: in caso di errore o dubbio l'articolo resta indicizzato.
+    if HAS_NOINDEX:
+        try:
+            no, motivo = should_noindex(match)
+            if no:
+                fm['noindex'] = True
+                print(f'[noindex] {slug}: {motivo}')
+        except Exception as e:
+            print(f'[noindex] skip {slug}: {e}')
     # Probabilita' di vittoria calcolata dal modello sui dati del match: numero
     # preciso e variabile (lo legge la griglia ProbabilitaVittoria in pagina).
     prob = analysis.get('probabilita') or {}

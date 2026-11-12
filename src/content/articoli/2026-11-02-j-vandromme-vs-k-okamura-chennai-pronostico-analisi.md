@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Okamura: la continuità di un ottobre ricco di finali e semifinali le dà misure già rodate sul cemento. Ma la finale giocata il giorno prima lascia alla più fresca Vandromme concrete chance di trascinare il match al terzo set."
 descrizione: "Primo turno WTA a Chennai: J. Vandromme sfida K. Okamura. Forma recente, calendario fittissimo e nessun precedente diretto. Analisi e pronostico del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Okamura"
 probabilita_percent: 61
 generato_il: "2026-11-02T07:22"

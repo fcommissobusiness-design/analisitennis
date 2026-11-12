@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Tirante: arriva con diversi giorni di riposo in più e con un tetto di rendimento recente elevato, contro un Mannarino sceso in campo appena ieri in un altro torneo. Occhio però al mancino, capace di allungare e trascinare la contesa fino in fondo."
 descrizione: "Tirante contro Mannarino nella semifinale di Vienna 2026: un solo precedente allo US Open, forma recente altalenante e un calendario fittissimo da decifrare."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-t-a-tirante-vs-a-mannarino-vienna-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Tirante WMQ23 (53062069430).jpg"

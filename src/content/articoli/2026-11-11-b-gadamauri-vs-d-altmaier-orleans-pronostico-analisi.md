@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Altmaier: calibro di colpi, servizio ed esperienza del circuito maggiore pesano in un match senza precedenti, dove il salto di categoria di Gadamauri e il carico di partite accumulate completano il quadro a favore del tedesco."
 descrizione: "Al secondo turno di Orleans Daniel Altmaier affronta Gadamauri: forma recente, carico di partite, stile e momento di classifica a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Altmaier"
 probabilita_percent: 73
 cover_image: "/covers/2026-11-11-b-gadamauri-vs-d-altmaier-orleans-pronostico-analisi.jpg"

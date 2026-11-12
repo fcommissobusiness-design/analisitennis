@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kulambayeva: ha superato Yamaguchi appena ieri nel turno decisivo di qualificazione a Chennai, piegandola al terzo set, e si ripresenta con il morale di chi ha appena staccato il pass per il tabellone principale. Resta però una sfida da possibile terzo set, con Yamaguchi in grado di prendersi almeno un parziale."
 descrizione: "Yamaguchi e Kulambayeva di nuovo faccia a faccia a Chennai, a un giorno dalla sfida di qualificazione. Analisi di forma, precedenti e stile di un primo turno apertissimo."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kulambayeva"
 probabilita_percent: 57
 generato_il: "2026-11-03T10:41"

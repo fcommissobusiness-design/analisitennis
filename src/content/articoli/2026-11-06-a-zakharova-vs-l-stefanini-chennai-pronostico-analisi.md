@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Stefanini: l'azzurra ha vinto tutti e tre i precedenti, l'ultimo lo scorso agosto, e arriva con un ruolino di vittorie più pieno nelle ultime settimane. Zakharova dovrà invertire una tendenza che in questi incroci non le ha mai sorriso."
 descrizione: "Zakharova sfida Stefanini ai quarti del WTA di Chennai, sul cemento indiano: forma recente, precedenti e stili a confronto in una semifinale da conquistare."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Stefanini"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-06-a-zakharova-vs-l-stefanini-chennai-pronostico-analisi.jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Match equilibrato, da terzo set: lo scenario più plausibile è un 2-1 in cui Valentova, forte dei due precedenti vinti, porta a casa almeno un set, senza però un favorito netto sul veloce di Hong Kong."
 descrizione: "Himeno Sakatsume e Tereza Valentova aprono il torneo WTA di Hong Kong sul cemento: due precedenti e forma recente a confronto in un match equilibrato."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sakatsume"
 probabilita_percent: 53
 generato_il: "2026-11-03T10:41"

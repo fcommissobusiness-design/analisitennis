@@ -19,6 +19,7 @@ tag:
 verdetto: "Match equilibrato e difficile da indirizzare: senza precedenti diretti e con due stati di forma altalenanti, lo scenario più plausibile è una sfida che si trascina al terzo set, senza un favorito netto tra i due."
 descrizione: "Primo turno di qualificazione del Challenger di Ningbo tra X. Yang e T. Derepasko sul cemento cinese: percorsi, forma recente e assenza di precedenti in una sfida da decifrare."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-x-yang-vs-t-derepasko-ningbo-pronostico-analisi.jpg"
 cover_credit: "Johann Jaritz / CC BY-SA 4.0 / Wikimedia Commons"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Demin: porta con sé il titolo di Guangzhou conquistato da poco e un cammino a Ningbo più lineare, sempre in due set, mentre Hsu si è dovuto spendere fino al terzo in più di un turno per arrivare qui."
 descrizione: "La semifinale Challenger di Ningbo mette di fronte Demin e Hsu: forma recente, cammino nel torneo e un primo confronto diretto senza precedenti a dare indizi."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:19"
 cover_image: "/covers/2026-10-31-y-demin-vs-y-h-hsu-ningbo-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

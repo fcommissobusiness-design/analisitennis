@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Dietrich: le tredici vittorie nelle ultime quindici partite e un cammino a Sioux Falls chiuso sempre in due set lo rendono di misura il più affidabile. Mayo resta però attrezzato per trascinare la sfida al terzo."
 descrizione: "Dietrich e Mayo si sfidano nella semifinale di Sioux Falls: forma recente, cammino nel torneo e un ottobre intenso per entrambi, senza precedenti diretti."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:06"
 cover_image: "/covers/2026-10-31-d-dietrich-vs-a-mayo-sioux-falls-pronostico-analisi.jpg"
 cover_credit: "Thomson200 / CC0 / Wikimedia Commons"

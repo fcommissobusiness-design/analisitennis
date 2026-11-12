@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Zakharova: l'esperienza sul circuito maggiore e la recente finale di Ningbo le danno un margine in una sfida comunque aperta. La freschezza di Zhang può però renderla lunga e combattuta."
 descrizione: "Zakharova contro Zhang nella semifinale WTA di Guangzhou: forma recente, cammino nel torneo e stili a confronto sul cemento cinese, verso la finale."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-a-zakharova-vs-r-zhang-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Zakharova WMQ23 (53062168833).jpg"

@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Yastremska: il ritmo partita tenuto sui tornei di vertice e la semifinale raggiunta a Ningbo una settimana fa la rendono leggermente più pronta, in un match che resta comunque apertissimo."
 descrizione: "Yastremska contro You nella semifinale WTA di Guangzhou: forma recente, precedenti, stile di gioco e momento di classifica a confronto sul cemento cinese."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-d-yastremska-vs-x-you-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Dayana Yastremska VS Magda Linette at the 2025 Nottingham Open (1).jpg"

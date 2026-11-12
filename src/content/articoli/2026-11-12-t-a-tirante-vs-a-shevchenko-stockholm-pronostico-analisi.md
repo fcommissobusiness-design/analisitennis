@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Tirante: arriva con le gambe più fresche dopo una sola partita giocata, ha dalla sua l'unico precedente e un tennis già rodato sul veloce, contro un avversario in fiducia ma reduce da quattro match in cinque giorni."
 descrizione: "Quarto di finale allo Stockholm Open tra Tirante e Shevchenko: forma, freschezza, stile di gioco e l'unico precedente a confronto nella nostra anteprima."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Tirante"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-12-t-a-tirante-vs-a-shevchenko-stockholm-pronostico-analisi.jpg"

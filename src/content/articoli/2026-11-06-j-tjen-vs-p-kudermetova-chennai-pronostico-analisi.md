@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Tjen: ha vinto l'unico precedente appena dieci giorni fa in due set ed è arrivata ai quarti senza cedere un set, mentre Kudermetova ha già dovuto disputare un terzo set nel torneo. Restano però margini sottili e il match è apertissimo contro una Kudermetova in fiducia."
 descrizione: "Janice Tjen e Polina Kudermetova si affrontano nei quarti di Chennai a dieci giorni dal match di Guangzhou: forma, precedente e cemento a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Tjen"
 probabilita_percent: 60
 generato_il: "2026-11-06T07:10"

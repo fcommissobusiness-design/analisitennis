@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Ugo Carabelli: l'abitudine recente a misurarsi con avversari di livello più alto e la continuità delle ultime partite lo rendono leggermente favorito. Bueno però è arrivato a questo turno senza concedere set e può rendergli la vita complicata."
 descrizione: "A Costa do Sauipe la semifinale tra G. Bueno e C. Ugo Carabelli: forma recente, livello degli avversari e un incrocio inedito tutto da scoprire."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Ugo Carabelli"
 probabilita_percent: 61
 generato_il: "2026-11-07T07:35"

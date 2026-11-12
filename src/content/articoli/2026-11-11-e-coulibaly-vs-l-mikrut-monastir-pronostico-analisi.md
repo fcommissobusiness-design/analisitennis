@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Mikrut: ha incrociato di recente avversari di caratura Challenger più alta e scende in campo con un giorno di recupero in più. Ma la fiducia di Coulibaly rende concreto lo scenario del terzo set."
 descrizione: "Secondo turno al Monastir Open su cemento: Coulibaly, reduce da una lunga serie di vittorie, incrocia Mikrut in un confronto senza precedenti tra i due."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Mikrut"
 probabilita_percent: 58
 cover_file: "File:2014 US Open Tennis (15083619265).jpg"

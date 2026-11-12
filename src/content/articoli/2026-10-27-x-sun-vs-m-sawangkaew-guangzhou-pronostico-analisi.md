@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Sun: lo slancio delle ultime settimane, con il successo di Pechino su Bucsa e i trionfi tra le juniores, pesa più della forma altalenante di Sawangkaew, ma la thailandese ha il mestiere per allungare la contesa."
 descrizione: "A Guangzhou X. Sun affronta M. Sawangkaew nei sedicesimi: slancio giovanile contro mestiere del circuito su cemento, un primo confronto tutto da decifrare."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Mariana Pires23 / CC BY-SA 4.0 / Wikimedia Commons"

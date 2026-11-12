@@ -20,6 +20,7 @@ tag:
 verdetto: "Match equilibrato, da terzo set senza una favorita netta: i precedenti recenti sorridono a Charaeva, la continuità dell'ultima fase a Bassols. Lo scenario più plausibile resta un 2-1, con entrambe capaci di portare a casa almeno un set."
 descrizione: "Marina Bassols e Alina Charaeva si sfidano nei quarti di Courmayeur dopo tre precedenti sempre al terzo set. Analisi di forma, scontri diretti e superficie."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-30T07:03"
 cover_image: "/covers/2026-10-30-m-bassols-vs-a-charaeva-courmayeur-italy-qualification-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Finale in sostanziale equilibrio: cammini paralleli, quattro vittorie a testa per arrivare all'ultimo atto e nessuno scontro diretto lasciano aperte entrambe le strade. Lo scenario più plausibile è un match deciso al terzo set, senza un favorito netto: un margine davvero minimo può andare a La Serna per il bilancio recente appena più positivo, bilanciato però dalla probabile maggiore freschezza di Olivieri, che ha speso meno tempo in campo nel suo cammino."
 descrizione: "La finale del Challenger di Villa María mette di fronte La Serna e Olivieri sulla terra: due cammini netti, nessuno scontro diretto e un titolo in palio."
 pubblicato: true
+noindex: true
 probabilita_favorito: "La Serna"
 probabilita_percent: 51
 cover_file: "File:Olivieri WMQ23 (53062186128).jpg"

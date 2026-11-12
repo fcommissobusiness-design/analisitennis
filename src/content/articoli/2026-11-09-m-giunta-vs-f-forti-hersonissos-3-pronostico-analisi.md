@@ -20,6 +20,7 @@ tag:
 verdetto: "Partita equilibrata senza un favorito netto: lo scenario più plausibile è un match da terzo set, con l'unico precedente e il livello storico di Forti che pesano quanto le sue recenti difficoltà nei finali in bilico."
 descrizione: "M. Giunta contro F. Forti al primo turno di Hersonissos 3: forma, precedenti e momento di classifica di un confronto fra giocatori pari livello."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Forti"
 probabilita_percent: 53
 cover_file: "File:Anjo Sports Park tennis court ac.jpg"

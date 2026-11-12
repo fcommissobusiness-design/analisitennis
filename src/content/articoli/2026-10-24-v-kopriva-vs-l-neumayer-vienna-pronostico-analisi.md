@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Neumayer: la miglior forma recente e i due scontri diretti più freschi, entrambi suoi, gli danno un margine in una semifinale che resta comunque aperta e combattuta fino alle palle break decisive."
 descrizione: "Semifinale di Vienna tra V. Kopriva e L. Neumayer: scontri diretti, forma recente, fattore campo e superficie a confronto sul veloce indoor. L'analisi del match."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-v-kopriva-vs-l-neumayer-vienna-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Lukas Neumayer (2026 US Open) 02 (cropped).jpg"

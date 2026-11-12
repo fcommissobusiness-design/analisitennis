@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Brunold: l'ultimo mese racconta un rendimento quasi perfetto, con il titolo di Roanne e la semifinale di Basilea chiusa in due set. Il precedente del 2022 resta un episodio isolato davanti a questa continuità."
 descrizione: "Finale ATP Basilea tra Mika Brunold e Remy Bertola: percorsi, precedenti e forma recente dei due svizzeri a confronto nell'atto conclusivo indoor."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-m-brunold-vs-r-bertola-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Djere: il serbo arriva dal titolo di Villena e da un bilancio recente ampiamente positivo, mentre Travaglia, pur in ripresa, porta in campo un parziale negativo. Il momento di forma pende con chiarezza dalla parte del serbo."
 descrizione: "Challenger di Brest, ottavi di finale: Laslo Djere contro Stefano Travaglia sul veloce indoor. Forma, percorso e chiavi tecniche di una sfida inedita."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-29T07:06"
 cover_image: "/covers/2026-10-29-l-djere-vs-s-travaglia-brest-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"

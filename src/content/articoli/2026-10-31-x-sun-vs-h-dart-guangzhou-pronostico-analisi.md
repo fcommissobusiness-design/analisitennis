@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Dart: nei quarti ha piegato un'avversaria di rango come Badosa e porta in dote più vittorie recenti ai piani alti del circuito maggiore, dove Sun si sta ancora affacciando. Resta però un match da possibile terzo set."
 descrizione: "Semifinale WTA Guangzhou tra X. Sun e H. Dart: due cammini diversi che si incrociano per la prima volta sul cemento cinese. Forma e precedenti a confronto."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-31-x-sun-vs-h-dart-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Harriet Dart & Jay Clarke (50498803117).jpg"

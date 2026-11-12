@@ -19,6 +19,7 @@ tag:
 verdetto: "Finale in equilibrio, con segnali contrastanti: lo scenario più plausibile è un match deciso al terzo set, in cui entrambi possono prendersi almeno un parziale senza un favorito netto."
 descrizione: "Mpetshi Perricard e Kovacevic si giocano il titolo di Basilea sul cemento indoor: precedenti in parità e forme a confronto nell'analisi della finale."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-g-mpetshi-perricard-vs-a-kovacevic-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

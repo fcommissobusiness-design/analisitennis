@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Meligeni Alves: l'unico precedente, vinto in due set a Quito pochi mesi fa, unito alla solidità mostrata nei turni di Cali lo mette leggermente avanti in una semifinale che resta comunque apertissima."
 descrizione: "Meligeni Alves e Aboian si sfidano nella semifinale del Challenger di Cali sulla terra: forma, precedenti e cammino settimanale a confronto."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-f-meligeni-alves-vs-v-aboian-cali-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Meligeni Alves WMQ23 (53061116202).jpg"

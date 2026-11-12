@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata, da terzo set. Machac ha vinto entrambi i precedenti, incluso quello giocato proprio a Vienna, ma Marozsan arriva con un bilancio recente leggermente più solido. Scenario più plausibile un 2-1, con almeno un set a testa."
 descrizione: "Marozsan contro Machac nella finale ATP di Vienna sul veloce indoor: precedenti diretti, forma recente e cammino dei due a confronto in un atto conclusivo."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-f-marozsan-vs-t-machac-vienna-pronostico-analisi.jpg"
 cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"

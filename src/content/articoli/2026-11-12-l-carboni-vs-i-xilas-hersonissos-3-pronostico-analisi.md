@@ -20,6 +20,7 @@ tag:
 verdetto: "Match apertissimo tra due giocatori di pari fascia, entrambi in salute e sotto il proprio best ranking. Lo scenario più plausibile è un 2-1 che può cadere da una parte o dall'altra, con il set decisivo a fare da giudice: nessun favorito netto."
 descrizione: "Carboni e Xilas si giocano un posto nei quarti al Challenger di Hersonissos: forma, precedenti e fattore campo di un ottavo di finale apertissimo."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Carboni"
 probabilita_percent: 52
 cover_file: "File:Taube Family Tennis Stadium scoreboard.JPG"

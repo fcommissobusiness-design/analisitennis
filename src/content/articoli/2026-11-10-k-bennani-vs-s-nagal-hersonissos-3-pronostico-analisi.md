@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi il pronostico pende con nettezza su Nagal: la differenza di categoria e la condizione ritrovata a Taranto pesano più del suo bilancio recente. Bennani proverà a restare aggrappato almeno al primo set."
 descrizione: "Bennani e Nagal si affrontano per la prima volta sul cemento dell'Hersonissos 3: forma recente, percorsi diversi e le chiavi del primo turno del Challenger."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Nagal"
 probabilita_percent: 68
 cover_file: "File:Anjo Sports Park tennis court ac.jpg"

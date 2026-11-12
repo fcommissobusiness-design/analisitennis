@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata e pronostico aperto: nessuna delle due ha argomenti per imporsi nettamente. Lo scenario più plausibile è un match lungo, deciso probabilmente al terzo set, con Falkowska avanti di un soffio per il ritmo accumulato nelle tante partite vinte di fila a Chennai."
 descrizione: "A Chennai Falkowska affronta Rajeshwaran Revathi negli ottavi di finale sul cemento indiano: percorsi diversi, nessun precedente, equilibrio tutto da capire."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Falkowska"
 probabilita_percent: 53
 generato_il: "2026-11-04T07:10"

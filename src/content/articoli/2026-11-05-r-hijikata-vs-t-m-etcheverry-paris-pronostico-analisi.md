@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita in equilibrio: l'unico precedente sorride a Etcheverry, ma entrambi arrivano da scalpi pesanti in questa settimana parigina. Scenario più plausibile un 2-1, con Hijikata capace di strappare almeno un set."
 descrizione: "Hijikata ed Etcheverry si affrontano negli ottavi del Rolex Paris Masters: cammini brillanti, un unico precedente e un posto nei quarti in palio."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Etcheverry"
 probabilita_percent: 53
 generato_il: "2026-11-05T07:36"

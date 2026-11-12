@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Moeller: contro un avversario reduce da partite di livello inferiore, qualità e continuità di risultati su un gradino superiore dovrebbero indirizzare il match. Occhio però al terzo set se Ouakaa sfrutta ritmo e un campo che conosce a memoria."
 descrizione: "Moeller e Ouakaa si affrontano agli ottavi del Challenger di Monastir sul cemento: forma recente, familiarità con il campo e nessun precedente tra i due."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Moeller"
 probabilita_percent: 69
 generato_il: "2026-11-12T07:52+01:00"

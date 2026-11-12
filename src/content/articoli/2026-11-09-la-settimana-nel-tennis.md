@@ -19,6 +19,7 @@ tag:
 verdetto: "Parigi incorona Alcaraz, Chennai e Hong Kong parlano al femminile: ora Indian Wells deciderà l'ultima regina della stagione."
 descrizione: "La settimana di tennis: Alcaraz vince a Parigi su Shelton, Linette trionfa a Chennai, Claire Liu a Hong Kong. E a Indian Wells partono le Finals WTA."
 pubblicato: true
+noindex: true
 ---
 
 La settimana che ci siamo lasciati alle spalle ha avuto il suo baricentro sul cemento indoor, da Parigi a Hong Kong, con il rosso ridotto a comparsa fra i Challenger sudamericani. Sotto i riflettori il Masters parigino, trentatré match passati al setaccio dalla nostra redazione, mentre in parallelo il circuito femminile accendeva Chennai e Hong Kong e, negli Stati Uniti, le WTA Finals di Indian Wells muovevano i primi passi.

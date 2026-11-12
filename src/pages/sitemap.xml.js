@@ -3,7 +3,9 @@ import h2hData from '../data/h2h.json';
 import profilesEn from '../data/profiles-en.json';
 
 export async function GET(context) {
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  // noindex esclusi dalla sitemap: Google non deve ricevere un segnale "indicizza"
+  // (sitemap) in contraddizione col meta robots noindex sulla pagina.
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && data.noindex !== true);
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
   const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);

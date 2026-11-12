@@ -21,6 +21,7 @@ probabilita_favorito: "Aguilar Cardozo"
 probabilita_percent: 54
 descrizione: "Finale del Challenger di Guayaquil tra Aguilar Cardozo e Dellien: i cammini, l'unico precedente e la forma recente dei due a confronto sulla terra battuta."
 pubblicato: true
+noindex: true
 generato_il: "2026-11-01T07:30"
 cover_image: "/covers/2026-11-01-j-aguilar-cardozo-vs-h-dellien-guayaquil-pronostico-analisi.jpg"
 cover_credit: "Spatms / CC BY-SA 4.0 / Wikimedia Commons"

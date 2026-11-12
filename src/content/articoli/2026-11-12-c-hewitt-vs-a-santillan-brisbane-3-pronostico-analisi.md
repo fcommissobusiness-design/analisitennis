@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Hewitt: arriva con un bilancio recente più solido e con la vittoria di maggior peso tra i due. Santillan, più esperto, resta pienamente in partita e può allungarla al terzo set."
 descrizione: "Hewitt e Santillan agli ottavi di Brisbane: forma recente, nessun precedente diretto e un avversario comune. Analisi imparziale del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Hewitt"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi.jpg"

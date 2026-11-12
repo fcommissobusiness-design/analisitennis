@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Moutet: l'unico precedente, vinto a Miami per 2-1, e i segnali incoraggianti visti a Lione con i successi su Humbert e Balshaw lo accreditano in una semifinale che resta comunque combattuta."
 descrizione: "Moutet contro Machac nella semifinale di Vienna: forma recente, precedenti e stili a confronto in una sfida sul veloce indoor tutta da leggere."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-c-moutet-vs-t-machac-vienna-pronostico-analisi.jpg"
 cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Corentin Moutet (45135594272).jpg"

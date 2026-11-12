@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Dart: la britannica arriva da un mese travolgente, con le qualificazioni di Guangzhou superate e un ruolino di dodici vittorie e tre sconfitte, mentre Tjen, pur reduce dal successo su Kudermetova, viaggia su un più altalenante sette e otto."
 descrizione: "Harriet Dart affronta Janice Tjen negli ottavi del WTA di Guangzhou: forma recente, cammini a confronto e nessun precedente tra le due sul cemento."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-28-h-dart-vs-j-tjen-guangzhou-pronostico-analisi.jpg"
 cover_credit: "robbiesaurus / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Harriet Dart at the 2013 US Open 1.jpg"

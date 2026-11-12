@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare L. Fruhvirtova: il bilancio più equilibrato delle ultime uscite e lo spunto del quarto vinto agli US Open su una giocatrice di valore la rendono leggermente favorita in un match comunque apertissimo."
 descrizione: "Semifinale WTA a Guangzhou tra L. Fruhvirtova e M. Yamaguchi: forma recente, tornei giocati e stile a confronto sul cemento cinese. L'analisi completa."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-l-fruhvirtova-vs-m-yamaguchi-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Linda Fruhvirtova (Roland Garros 2023) 07.jpg"

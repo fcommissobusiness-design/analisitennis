@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Olivieri: l'unico precedente, pur lontano nel tempo, è suo, e il ruolino delle ultime settimane appare un filo più solido. Ma Coria arriva con la stessa striscia aperta, e un set per lui è tutt'altro che improbabile."
 descrizione: "Semifinale di Villa Maria tra Coria e Olivieri: cammini paralleli, un solo precedente datato e forme stagionali a confronto. Tutti i dati del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Olivieri"
 probabilita_percent: 58
 generato_il: "2026-11-07T07:23"

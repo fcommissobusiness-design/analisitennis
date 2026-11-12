@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Putintseva: il rodaggio recente ai livelli più alti del circuito e le finali raggiunte nelle ultime settimane pesano in una sfida senza precedenti, dove l'esperienza nei momenti caldi può fare la differenza."
 descrizione: "Semifinale WTA a Tokyo tra H. Kinoshita e Y. Putintseva: nessun precedente, forma recente a confronto e un avversario in comune in una sfida tutta da seguire."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-h-kinoshita-vs-y-putintseva-tokyo-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Yulia Putintseva (2023 US Open) 01.jpg"

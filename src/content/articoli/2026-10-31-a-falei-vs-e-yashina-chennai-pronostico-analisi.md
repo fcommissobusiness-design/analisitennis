@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Falei: un intero mese di semifinali e quarti nei tornei asiatici pesa più del periodo opaco di Yashina, reduce da troppe uscite al primo turno. Il cammino recente indica lei come la favorita del penultimo atto."
 descrizione: "A Chennai Falei e Yashina si giocano un posto in finale: nessun precedente, forme differenti e il cemento indiano a fare da arbitro. L'analisi completa."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:13"
 cover_image: "/covers/2026-10-31-a-falei-vs-e-yashina-chennai-pronostico-analisi.jpg"
 cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"

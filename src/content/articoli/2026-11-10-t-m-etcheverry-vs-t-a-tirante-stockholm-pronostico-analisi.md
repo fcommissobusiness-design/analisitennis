@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Etcheverry: il servizio e i centimetri sul veloce, i precedenti dalla sua parte (avanti 2-1) e la scia di fiducia di Bercy fanno la differenza. Ma Tirante, più fresco e a suo agio nello scambio lungo, può trascinarla al terzo."
 descrizione: "Etcheverry e Tirante al primo turno di Stoccolma: derby argentino sul cemento indoor, tra servizio e centimetri da una parte e solidità da fondo dall'altra."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Etcheverry"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-10-t-m-etcheverry-vs-t-a-tirante-stockholm-pronostico-analisi.jpg"

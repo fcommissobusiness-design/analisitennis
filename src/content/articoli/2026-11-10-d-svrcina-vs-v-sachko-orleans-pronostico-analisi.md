@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi favorito Svrcina: livello espresso nelle ultime settimane superiore e precedente diretto vinto in due set. Sachko non va però sottovalutato, reduce dalla semifinale di Bari da testa di serie numero 3. Le incognite restano il rientro ravvicinato di Svrcina, che può allungare la partita, e la maggiore freschezza dell'avversario."
 descrizione: "Svrcina e Sachko aprono il torneo di Orleans: forma, recupero fisico e l'unico scontro diretto raccontano un match dalle due anime."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Svrcina"
 probabilita_percent: 66
 cover_file: "File:AEC Indoor Tennis Courts.jpg"

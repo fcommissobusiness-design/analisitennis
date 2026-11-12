@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Montgomery: nell'unico precedente, due mesi fa in semifinale allo US Open, si è imposta in due set, e arriva a questo secondo turno con la stessa solidità mostrata nel match d'apertura a Chennai."
 descrizione: "Montgomery e Vandromme si affrontano negli ottavi di finale del WTA di Chennai, sul cemento indiano: un confronto che richiama la recente semifinale dello US Open."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Montgomery"
 probabilita_percent: 58
 generato_il: "2026-11-04T07:08"

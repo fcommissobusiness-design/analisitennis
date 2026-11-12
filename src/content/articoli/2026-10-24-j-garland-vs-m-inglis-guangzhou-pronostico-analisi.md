@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Garland: l'unico precedente le sorride e la sua produzione recente di finali vinte racconta una fiducia solida. Match equilibrato, ma la sensazione è che possa trovare il varco nei momenti chiave."
 descrizione: "A Guangzhou, Garland e Inglis si giocano un posto in finale sul cemento asiatico. Analisi di precedenti, forma recente e avversari in comune delle due."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-j-garland-vs-m-inglis-guangzhou-pronostico-analisi.jpg"
 cover_credit: "robbiesaurus from Smithtown, NY, USA / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Maddison Inglis (AUS) (21642587261).jpg"

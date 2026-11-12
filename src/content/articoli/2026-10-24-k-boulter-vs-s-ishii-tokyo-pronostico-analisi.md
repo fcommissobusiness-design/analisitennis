@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Boulter: il rodaggio accumulato nei tornei del circuito maggiore, culminato nella semifinale di Osaka, pesa più dello slancio di Ishii. Match comunque aperto, ma la pendenza resta dalla parte della britannica."
 descrizione: "Katie Boulter e Ishii si giocano un posto in finale al WTA di Tokyo: forma recente, cammini, precedenti e contesto di una semifinale tutta da leggere."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-k-boulter-vs-s-ishii-tokyo-pronostico-analisi.jpg"
 cover_credit: "Chris Czermak / CC BY 2.0 / Wikimedia Commons"
 cover_file: "File:Katie Boulter Return of Serve.jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Valentova: il ritmo-partita delle ultime settimane e una maggiore continuità di risultati pesano in una semifinale senza precedenti, dove la freschezza agonistica può incidere sul veloce indoor."
 descrizione: "Semifinale WTA di Tokyo tra E. S. Liang e T. Valentova: forma recente, cammino stagionale e stili a confronto in un match dall'esito aperto e incerto."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-e-s-liang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Liang WMQ22 (18) (52191176028) (cropped).jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kozlov: guida tre a zero i precedenti, due firmati nel 2026, e arriva alla finale dopo quattro vittorie di fila a Charlottesville. Partita comunque da terzo set, vista la maggiore continuità recente di Mayo."
 descrizione: "La finale di Charlottesville mette di fronte Kozlov e Mayo per la terza volta nel 2026: precedenti, forma recente e settimana dei due a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kozlov"
 probabilita_percent: 59
 cover_file: "File:Aidan Mayo (2026 Cary) 02.jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Kudermetova: il suo ottobre di alto livello, chiuso con il titolo di Ningbo su Zakharova e arricchito da scalpi pesanti nei tabelloni maggiori, pesa più della pur positiva settimana vissuta da Morvayova sui tornei di categoria inferiore."
 descrizione: "A Chennai Morvayova, reduce dalle qualificazioni, affronta Kudermetova, reduce dal titolo di Ningbo: due percorsi diversi senza precedenti diretti sul cemento."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kudermetova"
 probabilita_percent: 69
 generato_il: "2026-11-03T10:41"

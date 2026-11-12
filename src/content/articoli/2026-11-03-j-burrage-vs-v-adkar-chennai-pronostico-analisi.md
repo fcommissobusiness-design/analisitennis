@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Burrage: il rodaggio su palcoscenici di livello più alto e la recente semifinale di Wrexham le danno un margine, pur sottile, su un'Adkar lanciata ma abituata ad avversarie meno quotate."
 descrizione: "A Chennai Jodie Burrage e Vaidehi Adkar si incontrano sul cemento partendo da circuiti diversi: analisi di forma, superficie e contesto del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Burrage"
 probabilita_percent: 62
 generato_il: "2026-11-03T10:41"

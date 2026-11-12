@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Norrie: ha già regolato Duckworth in due set poco più di tre mesi fa e nelle ultime settimane ha incrociato avversari di livello più alto, con una regolarità da fondo che si presta a logorare un gioco più sbrigativo."
 descrizione: "Duckworth contro Norrie al primo turno di Stoccolma: forma, precedenti e stili a confronto in un duello di fine stagione tra due giocatori in cerca di continuità."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Norrie"
 probabilita_percent: 61
 cover_file: "File:Cameron Norrie (30225419747).jpg"

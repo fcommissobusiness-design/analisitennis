@@ -19,6 +19,7 @@ tag:
 verdetto: "Equilibrio vero: due giocatori arrivati in semifinale con tre vittorie a testa e un bilancio recente identico. Lo scenario più probabile è un match da terzo set, con Martineau leggermente avanti per l'unico precedente ma senza un favorito chiaro."
 descrizione: "Semifinale del Challenger di Taranto tra Gill e Martineau: entrambi in serie positiva, un unico precedente ormai datato e un equilibrio da possibile terzo set."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Martineau"
 probabilita_percent: 52
 generato_il: "2026-11-07T07:11"

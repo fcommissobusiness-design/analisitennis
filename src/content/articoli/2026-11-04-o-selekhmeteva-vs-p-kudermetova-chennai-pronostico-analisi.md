@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Kudermetova: il precedente di Madrid e soprattutto un ultimo mese passato ai livelli alti del circuito, con una finale a Ningbo, pesano piu' del calendario piu' raccolto affrontato di recente da Selekhmeteva."
 descrizione: "Selekhmeteva contro Kudermetova agli ottavi di finale del WTA di Chennai, sul cemento: entrambe reduci da una vittoria d'apertura, c'e' un precedente a Madrid."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kudermetova"
 probabilita_percent: 71
 generato_il: "2026-11-04T07:16"

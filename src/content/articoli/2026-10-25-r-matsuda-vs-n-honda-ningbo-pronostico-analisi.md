@@ -20,6 +20,7 @@ tag:
 verdetto: "Partita equilibrata senza un favorito netto: nessun precedente diretto, forma fatta di segnali contrastanti e livello di gioco molto simile fanno propendere per un match lungo, con lo scenario più plausibile di un 2-1 e almeno un set per parte."
 descrizione: "Semifinale di Ningbo tra R. Matsuda e N. Honda: primo confronto diretto, forma recente, avversari in comune e tutti i dati del match del 25 ottobre."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-r-matsuda-vs-n-honda-ningbo-pronostico-analisi.jpg"
 cover_credit: "TorontoGuy79 / CC BY-SA 4.0 / Wikimedia Commons"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Equilibrio reale: nessun precedente e due serie aperte da tre vittorie rendono lo scenario più plausibile un 2-1 deciso al terzo set, con Kicker avanti di un soffio per continuità di risultati ma La Serna in grado di strappare almeno un parziale."
 descrizione: "La Serna e Kicker si giocano l'accesso alla finale di Villa Maria: nessuno scontro diretto alle spalle e due cammini molto simili nelle ultime settimane."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kicker"
 probabilita_percent: 53
 generato_il: "2026-11-07T07:23"

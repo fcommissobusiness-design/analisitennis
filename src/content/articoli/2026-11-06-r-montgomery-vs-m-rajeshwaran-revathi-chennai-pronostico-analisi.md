@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Montgomery: ha incrociato di recente avversarie del circuito maggiore e la mano mancina le offre angoli in più sul cemento. Ma Rajeshwaran, in fiducia e sostenuta dal pubblico di casa, può portarla al terzo set."
 descrizione: "Robin Montgomery e Maaya Rajeshwaran Revathi ai quarti del WTA di Chennai, sul cemento indiano: forma, stili ed esperienza a confronto in un match inedito."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Montgomery"
 probabilita_percent: 62
 generato_il: "2026-11-06T07:12"

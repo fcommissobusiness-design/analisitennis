@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Damm: l'abitudine a misurarsi con avversari del circuito maggiore e un esordio netto in due set a Brest lo mettono un passo avanti. Blanchet però è in fiducia e sul suo terreno ha i mezzi per strappare almeno un set e allungare la contesa."
 descrizione: "Challenger di Brest, ottavo di finale tra Damm e Blanchet: nessun precedente, forma e avversari recenti a confronto in una sfida sul cemento indoor francese."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-29T07:22"
 cover_image: "/covers/2026-10-29-m-damm-vs-u-blanchet-brest-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

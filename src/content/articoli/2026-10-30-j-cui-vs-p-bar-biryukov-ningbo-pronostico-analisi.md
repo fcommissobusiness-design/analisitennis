@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Cui: l'unico precedente stagionale, vinto in due set ad Astana, sorride al cinese, che arriva dalla finale ATP di Pechino e da settimane ad alto livello. Equilibrio possibile, ma i due fattori concordanti pendono dalla sua parte."
 descrizione: "Analisi del quarto di finale di Ningbo tra J. Cui e P. Bar Biryukov: forma recente, l'unico precedente di Astana e il cammino sul cemento verso la semifinale."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-30T07:24"
 cover_image: "/covers/2026-10-30-j-cui-vs-p-bar-biryukov-ningbo-pronostico-analisi.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"

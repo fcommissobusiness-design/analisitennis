@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Nagal: ha chiuso in fretta il primo turno mentre Geerts ha speso un match lungo in tre set, e il suo trend recente è in crescita. Partita comunque viva, con Geerts in grado di allungarla al terzo se regge l'urto fisico."
 descrizione: "Agli ottavi del Challenger di Hersonissos, Geerts e Nagal si affrontano per la prima volta sul cemento: forma recente, recupero e stile di gioco a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Nagal"
 probabilita_percent: 61
 cover_file: "File:Sumit Nagal (2023 US Open) 02.jpg"

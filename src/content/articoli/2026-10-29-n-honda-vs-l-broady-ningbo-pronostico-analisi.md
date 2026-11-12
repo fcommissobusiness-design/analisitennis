@@ -19,6 +19,7 @@ tag:
 verdetto: "Difficile immaginare una sfida a senso unico: da una parte il precedente di Broady, dall'altra la serie vincente di Honda, segnali che tirano in direzioni opposte. Lo scenario più plausibile è un match da terzo set, con l'equilibrio che regge fino agli ultimi game."
 descrizione: "Honda e Broady si ritrovano agli ottavi del Challenger di Ningbo dopo Yokkaichi: forma recente, precedente diretto e cammino cinese a confronto nella nostra analisi."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-29T07:13"
 cover_image: "/covers/2026-10-29-n-honda-vs-l-broady-ningbo-pronostico-analisi.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"

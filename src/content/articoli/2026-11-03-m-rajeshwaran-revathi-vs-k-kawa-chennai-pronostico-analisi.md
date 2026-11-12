@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kawa: il confronto costante con avversarie di vertice e la recente fase di Ningbo le offrono un margine, sottile ma reale, su una Rajeshwaran Revathi comunque lanciata dai risultati di ottobre."
 descrizione: "Primo turno a Chennai: K. Kawa, reduce dal grande circuito, contro M. Rajeshwaran Revathi, fresca del titolo di Lagos. Due cammini opposti, nessun precedente."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kawa"
 probabilita_percent: 63
 generato_il: "2026-11-03T10:41"

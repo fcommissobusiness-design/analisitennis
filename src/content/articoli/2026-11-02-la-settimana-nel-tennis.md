@@ -19,6 +19,7 @@ tag:
 verdetto: "Alcaraz detta legge, Vacherot sorprende: il cemento consegna certezze e sorprese, e la stagione corre già verso il gran finale."
 descrizione: "La settimana del tennis: Alcaraz trionfa a Vienna, Vacherot a Basilea, Dart a Guangzhou, Shnaider a Tokyo, Andreescu a Queretaro, Charaeva a Courmayeur. Il punto di AnalisiTennis."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-11-02-la-settimana-nel-tennis.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da equilibrio puro: senza precedenti e con due cammini settimanali solidi e molto simili non emerge un favorito netto. Lo scenario più plausibile è un 2-1 combattuto, con entrambe capaci di strappare almeno un set."
 descrizione: "Quevedo sfida Tagger nella semifinale WTA di Guangzhou: cammino nel torneo, forma recente e nessuno scontro diretto in un confronto tutto da seguire sul veloce."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T06:56"
 cover_image: "/covers/2026-10-31-k-quevedo-vs-l-tagger-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"

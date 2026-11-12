@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata e senza un favorito netto: l'esperienza e i recenti titoli di Liu si scontrano con la striscia vincente di Sun. Scenario più plausibile un match lungo, deciso al terzo set, con entrambe capaci di prendersi almeno un parziale."
 descrizione: "Quarti di finale a Guangzhou: X. Sun sfida C. Liu sul veloce cinese in un confronto senza scontri diretti. Forma, percorsi e stili a confronto."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-30T07:12"
 cover_image: "/covers/2026-10-30-x-sun-vs-c-liu-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Brian Shaw / CC BY-SA 2.0 / Wikimedia Commons"

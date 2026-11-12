@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Andreescu: il suo filotto recente comprende successi contro avversarie di livello più alto e la continuità delle ultime settimane appare un gradino sopra. Ma Tubello arriva lanciata dalle sue vittorie e può trascinarla al terzo set."
 descrizione: "Semifinale a Cali tra Tubello e Andreescu: due giocatrici in serie positiva si affrontano per la prima volta sulla terra colombiana del Challenger."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Andreescu"
 probabilita_percent: 62
 generato_il: "2026-11-07T07:33"

@@ -3,7 +3,7 @@
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && data.noindex !== true);
   const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
 

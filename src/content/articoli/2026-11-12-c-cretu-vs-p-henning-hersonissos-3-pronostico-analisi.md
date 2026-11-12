@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: la freschezza sorride a Henning, il ritmo partita a Cretu. Lo scenario più plausibile è un 2-1 combattuto, con almeno un set che cambia di mano e l'inerzia del primo parziale a indirizzare tutto."
 descrizione: "Cretu contro Henning nel secondo turno del Challenger di Hersonissos: forma, freschezza e un confronto senza precedenti su cemento. L'analisi completa."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Henning"
 probabilita_percent: 52
 cover_file: "File:David X. Marks Tennis Stadium (USC).jpg"

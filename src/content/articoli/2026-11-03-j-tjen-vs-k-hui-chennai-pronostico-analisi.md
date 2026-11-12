@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Tjen: arriva dal circuito maggiore con vittorie recenti su avversarie di alto profilo, mentre Hui ha raccolto i suoi ultimi risultati nei tornei minori. Il divario di livello e di ritmo-partita pende con chiarezza dalla sua parte."
 descrizione: "A Chennai Janice Tjen affronta Kelly Hui: una arriva dal circuito maggiore, l'altra dai tornei minori. Analisi di forma, percorsi e numeri recenti."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Tjen"
 probabilita_percent: 74
 generato_il: "2026-11-03T10:41"

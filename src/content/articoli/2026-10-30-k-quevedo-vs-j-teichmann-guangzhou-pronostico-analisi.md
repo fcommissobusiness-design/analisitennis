@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Quevedo: arriva da un cammino più lungo e vincente, con un titolo recente a Sao Paulo e due successi convincenti qui a Guangzhou, segnali di maggiore continuità. Teichmann resta però avversaria capace di trascinarla al terzo set."
 descrizione: "Quevedo contro Teichmann ai quarti di Guangzhou: forma recente, cammino nel torneo e stili a confronto in una sfida senza precedenti diretti."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-30T06:58"
 cover_image: "/covers/2026-10-30-k-quevedo-vs-j-teichmann-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"

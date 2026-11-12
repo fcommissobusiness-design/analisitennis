@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Andreev: arriva più in ritmo, con tre vittorie di fila nel torneo e l'unico precedente dalla sua parte, mentre Brancaccio deve ancora ritrovare continuità. Match comunque aperto, possibile terzo set."
 descrizione: "Al secondo turno del Challenger di Hersonissos, su cemento, Brancaccio e Andreev si ritrovano tra il pedigree di classifica, l'unico precedente e una forma opposta."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Andreev"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-12-a-andreev-vs-r-brancaccio-hersonissos-3-pronostico-analisi.jpg"

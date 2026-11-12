@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Draxl: nelle ultime settimane ha battuto avversari di rango come Machac e Ivashka e si è spinto fino alla finale di Shanghai, un bagaglio di partite ad alta intensità che Dominko, pur lanciatissimo, non ha ancora incrociato."
 descrizione: "Analisi del match tra Draxl e Dominko al Challenger di Sioux Falls: forma recente, livello degli avversari affrontati e stato dei due giocatori a confronto."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T06:55"
 cover_image: "/covers/2026-10-31-l-draxl-vs-s-dominko-sioux-falls-pronostico-analisi.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"

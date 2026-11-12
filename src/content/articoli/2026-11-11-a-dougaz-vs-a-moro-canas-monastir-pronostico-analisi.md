@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Dougaz: arriva con meno set nelle gambe nell'ultima settimana e con un bagaglio recente di livello più alto, contro un Moro Canas lanciato nei risultati ma reduce da troppe maratone ravvicinate."
 descrizione: "Al secondo turno del Challenger di Monastir, sul cemento, Dougaz e Moro Canas si affrontano per la prima volta: forma, carico di partite e primo set a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Dougaz"
 probabilita_percent: 58
 generato_il: "2026-11-11T07:47+01:00"

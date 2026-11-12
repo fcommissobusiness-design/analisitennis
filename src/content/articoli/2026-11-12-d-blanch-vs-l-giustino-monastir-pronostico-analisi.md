@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Giustino: ingresso più pulito nel torneo e maggiore solidità nei match lunghi, con condizioni di vento che premiano il suo tennis di scambio. Ma se Blanch parte forte e accorcia i punti, può ribaltarla: atteso un match da terzo set."
 descrizione: "Blanch contro Giustino negli ottavi del Monastir Open: forma recente, stili opposti, vento e cemento. Analisi imparziale del match del 12 novembre."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Giustino"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-12-d-blanch-vs-l-giustino-monastir-pronostico-analisi.jpg"

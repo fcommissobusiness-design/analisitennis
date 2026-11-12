@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Wong: ha vinto l'ultimo dei tre precedenti, al terzo set a Guangzhou poche settimane fa, e arriva con un ruolino più continuo nelle ultime uscite. Ma Samrej sa farsi ostico e un set può portarselo via."
 descrizione: "Quarti di finale a Taipei tra Coleman Wong e Samrej: tre precedenti alle spalle, l'ultimo deciso al terzo set a ottobre. Forma e cammino a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Wong"
 probabilita_percent: 61
 generato_il: "2026-11-06T07:11"

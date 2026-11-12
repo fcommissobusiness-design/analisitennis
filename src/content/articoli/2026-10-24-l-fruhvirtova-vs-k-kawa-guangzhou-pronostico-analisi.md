@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kawa: ha vinto l'ultimo confronto diretto a Warsaw e arriva dai successi di Ningbo contro avversarie di valore. Match probabilmente lungo, ma la polacca parte con il momento dalla sua parte."
 descrizione: "Fruhvirtova contro Kawa in semifinale a Guangzhou: precedenti in parità, forma recente altalenante e un match che promette equilibrio."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-l-fruhvirtova-vs-k-kawa-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Kawa WMQ19 (25).jpg"

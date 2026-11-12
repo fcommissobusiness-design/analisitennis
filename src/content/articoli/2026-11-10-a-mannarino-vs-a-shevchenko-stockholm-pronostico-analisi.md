@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Mannarino: forma più continua nelle ultime settimane, il matchup sul campo lento che premia il suo controllo e un precedente già dalla sua parte. Ma la fatica a 38 anni e l'incostanza dell'avversario tengono viva l'ipotesi del terzo set."
 descrizione: "Mannarino contro Shevchenko sul cemento indoor di Stoccolma: un precedente, la forma delle ultime settimane e stili opposti in un match dall'equilibrio delicato."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Mannarino"
 probabilita_percent: 62
 cover_file: "File:Adrian Mannarino in sepia (14444726508).jpg"

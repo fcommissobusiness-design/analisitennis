@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Molcan: la maggiore continuità mostrata nelle ultime settimane e l'unico precedente, vinto dallo slovacco, lo mettono un passo avanti al penultimo atto del torneo austriaco."
 descrizione: "Molcan contro Medjedovic nella semifinale ATP di Vienna 2026: precedenti, forma recente e stili di gioco a confronto sul veloce indoor in questa analisi."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-a-molcan-vs-h-medjedovic-vienna-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Hamad Medjedovic (2024 US Open) 01.jpg"

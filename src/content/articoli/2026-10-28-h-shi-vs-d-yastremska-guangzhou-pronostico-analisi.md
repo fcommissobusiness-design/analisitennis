@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Shi: la cinese unisce dieci vittorie nelle ultime quindici partite sul cemento asiatico, con il successo su Alexandra Eala a Wuhan, al sostegno del pubblico di casa, due elementi che pendono dalla stessa parte contro una Yastremska capace di accendersi ma reduce da un ruolino più incerto."
 descrizione: "Shi Han affronta Dayana Yastremska negli ottavi del WTA di Guangzhou: forma, cammini recenti e stili a confronto, senza precedenti tra le due sul cemento."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-28T09:07"
 cover_image: "/covers/2026-10-28-h-shi-vs-d-yastremska-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"

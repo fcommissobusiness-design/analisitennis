@@ -20,6 +20,7 @@ tag:
 verdetto: "Partita equilibrata, senza un favorito netto: lo scenario più plausibile è un 2-1 deciso al terzo set. Garland arriva con il momento di forma migliore, ma la maggiore abitudine di Tjen ai palcoscenici importanti può valerle almeno un set."
 descrizione: "Agli ottavi di finale del WTA di Chennai, Janice Tjen e Joanna Garland si affrontano sul cemento: forma recente, livello degli avversari e cammini a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Garland"
 probabilita_percent: 53
 generato_il: "2026-11-04T07:19"

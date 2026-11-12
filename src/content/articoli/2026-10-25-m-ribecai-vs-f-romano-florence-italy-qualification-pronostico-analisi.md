@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata fra due giocatori arrivati in fondo con percorsi simili e senza precedenti diretti a cui appigliarsi: lo scenario più plausibile è un match lungo, deciso dai dettagli nei momenti di tensione, con entrambi capaci di aggiudicarsi almeno un set."
 descrizione: "Ribecai e Romano si giocano il titolo nella finale del Challenger di Firenze sulla terra rossa: analisi dei cammini e della forma recente dei due italiani."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-m-ribecai-vs-f-romano-florence-italy-qualification-pronostico-analisi.jpg"
 cover_credit: "Johnyamaha / CC BY-SA 4.0 / Wikimedia Commons"

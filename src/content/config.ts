@@ -16,6 +16,10 @@ const articoli = defineCollection({
     verdetto: z.string(),
     descrizione: z.string(),
     pubblicato: z.boolean().default(true),
+    // noindex: pagina pubblicata ma esclusa da Google (meta robots noindex +
+    // fuori sitemap). Usata per i match minori che Google scansiona ma non
+    // indicizza, per non appesantire la qualita' percepita del sito.
+    noindex: z.boolean().optional(),
     cover_image: z.string().optional(),
     cover_credit: z.string().optional(),
     cover_file: z.string().optional(),

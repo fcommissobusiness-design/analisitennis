@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kym: ha dalla sua l'unico precedente, vinto nel 2024, e nelle ultime settimane ha battuto avversari di livello più alto, da Shelton a Rinderknech. Ma Dodig arriva lanciatissimo e il margine resta stretto."
 descrizione: "Jérôme Kym e Dodig si affrontano nella semifinale di Bratislava 2: forma delle ultime settimane, l'unico precedente del 2024 e caratteristiche a confronto in un match aperto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kym"
 probabilita_percent: 58
 generato_il: "2026-11-07T07:35"

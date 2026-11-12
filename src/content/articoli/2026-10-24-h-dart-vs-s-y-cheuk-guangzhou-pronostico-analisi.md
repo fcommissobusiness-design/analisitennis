@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Dart. Il divario tra il livello dei tornei frequentati nelle ultime settimane e una continuità di risultati decisamente superiore pendono dalla sua parte, e sulla distanza dei due set su tre la britannica ha i mezzi per indirizzare la semifinale."
 descrizione: "Semifinale WTA a Guangzhou tra Harriet Dart e S. Y. Cheuk: forma recente, cammini a confronto, superficie e assenza di precedenti in un match da seguire."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-h-dart-vs-s-y-cheuk-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Dart WMQ16 (7) (28133895771).jpg"

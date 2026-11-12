@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Ursu: la finale di St. Tropez e le semifinali di Porto e Villena raccontano un mese su campi più probanti, mentre Freire Da Silva arriva da un percorso più discontinuo sul circuito ITF."
 descrizione: "Freire Da Silva e Ursu si giocano un posto nella finale di Brest: forma recente, livello dei tornei e assenza di precedenti in una semifinale tutta aperta."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-a-freire-da-silva-vs-v-ursu-brest-pronostico-analisi.jpg"
 cover_credit: "BrokenSphere / CC BY-SA 3.0 / Wikimedia Commons"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Zhou: le ultime settimane ad altissimo livello, con i successi a Shanghai su Bellucci e Musetti e la semifinale di Guangzhou, lo collocano su un piano di gioco superiore rispetto al percorso più frammentato tra categorie diverse vissuto da Delaney."
 descrizione: "Ningbo, ottavi di finale: Y. Zhou e Ja. Delaney si sfidano senza precedenti sul cemento cinese. Forma recente, avversari comuni e le chiavi del match."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-29T07:24"
 cover_image: "/covers/2026-10-29-y-zhou-vs-ja-delaney-ningbo-pronostico-analisi.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"

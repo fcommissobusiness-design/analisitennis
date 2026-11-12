@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi nettamente Maestrelli: qualità di colpi, esperienza sul cemento e abitudine al livello Challenger pesano più dello slancio recente dell'avversario. L'unica vera incognita resta la tenuta fisica dopo giorni di match ravvicinati."
 descrizione: "Agli ottavi del Crete Challenger di Hersonissos, Maestrelli incontra Monday sul cemento: forma recente, condizione fisica e stili di gioco a confronto nell'anteprima."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Maestrelli"
 probabilita_percent: 69
 cover_file: "File:Maestrelli RGQ23 (52944044613).jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Stefanini: il livello competitivo più alto dell'ultimo periodo, con la finale di Samsun e le presenze nei tabelloni WTA maggiori, pesa un filo più del ritmo ritrovato da Zolotareva sul cemento di Chennai. Resta però una partita da possibile terzo set."
 descrizione: "Zolotareva e Stefanini aprono il tabellone del WTA di Chennai sul cemento: nessun precedente e due percorsi recenti diversi, chiusi uno dalle qualificazioni di Chennai e l'altro da una finale. L'analisi"
 pubblicato: true
+noindex: true
 probabilita_favorito: "Stefanini"
 probabilita_percent: 57
 generato_il: "2026-11-03T10:41"

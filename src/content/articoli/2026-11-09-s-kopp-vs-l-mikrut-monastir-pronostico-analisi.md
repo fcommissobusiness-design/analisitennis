@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Mikrut: forma più continua nelle ultime settimane e vittorie di maggior peso contro avversari quotati lo mettono un passo avanti. La semifinale di Kopp a Firenze, lo stop prolungato di entrambi e l'assenza di precedenti lasciano però aperto almeno un set allo sfavorito."
 descrizione: "Monastir, primo turno: S. Kopp contro L. Mikrut. Forma recente, nessun precedente e una pausa prolungata per entrambi. L'analisi completa della redazione."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Mikrut"
 probabilita_percent: 57
 cover_file: "File:Olympic Tennis Centre, Rio, Brazil.jpg"

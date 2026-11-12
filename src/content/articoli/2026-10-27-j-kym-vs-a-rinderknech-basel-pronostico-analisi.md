@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kym: il ritmo delle ultime settimane e il precedente proprio a Basel pesano a suo favore, contro un Rinderknech al rientro dopo settimane di stop, pur insidioso al servizio sul veloce indoor."
 descrizione: "J. Kym e Arthur Rinderknech si sfidano nei sedicesimi di Basel sul cemento indoor: forma recente, il precedente del 2024 e gli stili a confronto nell'analisi."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-j-kym-vs-a-rinderknech-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"

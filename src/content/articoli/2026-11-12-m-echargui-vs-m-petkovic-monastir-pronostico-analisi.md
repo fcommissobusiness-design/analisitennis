@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Echargui: la maggiore dimestichezza con i palcoscenici Challenger e un calendario recente più scarico lo rendono lievemente favorito. Ma la fiducia di Petkovic dopo lo scalpo d'esordio tiene aperto lo scenario del terzo set."
 descrizione: "Agli ottavi del Challenger di Monastir Echargui e Petkovic si ritrovano per un confronto inedito tra esperienza e slancio sul cemento tunisino."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Echargui"
 probabilita_percent: 59
 generato_il: "2026-11-12T07:45+01:00"

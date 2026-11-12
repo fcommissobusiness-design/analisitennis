@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata tra due giocatori quasi sovrapponibili: lo scenario più plausibile è un match da terzo set senza un favorito netto, con la forma di Caniato e la maggiore freschezza di Ribecai a bilanciarsi. Il tetto tecnico di Ribecai, certificato anche dalla recente finale di Firenze, pesa sul piatto. Probabile che chi perde il primo set si prenda comunque un parziale."
 descrizione: "Ribecai contro Caniato nel secondo turno dell'Hersonissos 3: due giocatori quasi pari in classifica, forma, freschezza e condizioni mattutine a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Caniato"
 probabilita_percent: 52
 cover_file: "File:Hard courts.jpg"

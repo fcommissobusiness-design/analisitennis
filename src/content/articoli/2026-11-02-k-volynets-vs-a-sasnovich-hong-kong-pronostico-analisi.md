@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: gli scontri diretti sorridono a Volynets, la forma recentissima parla per Sasnovich. Lo scenario più plausibile è un 2-1, con almeno un set che cambia di mano."
 descrizione: "Volynets contro Sasnovich al primo turno di Hong Kong: precedenti, forma recente e cemento veloce per una sfida dall'esito davvero difficile da pronosticare."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Volynets"
 probabilita_percent: 53
 generato_il: "2026-11-02T07:14"

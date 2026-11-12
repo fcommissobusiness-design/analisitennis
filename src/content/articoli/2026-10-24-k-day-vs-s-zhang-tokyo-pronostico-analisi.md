@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Day: la continuità delle ultime settimane e la recente finale di Osaka pesano più dell'unico precedente. Lo scenario più plausibile la vede avanti, con la possibilità concreta che la sfida si decida al terzo set."
 descrizione: "Semifinale WTA a Tokyo tra K. Day e S. Zhang: forma recente, unico precedente diretto e chiavi tattiche di una sfida sul cemento tutta da seguire oggi."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-k-day-vs-s-zhang-tokyo-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Zhang Shuai (2025 DC Open) 02 (cropped).jpg"

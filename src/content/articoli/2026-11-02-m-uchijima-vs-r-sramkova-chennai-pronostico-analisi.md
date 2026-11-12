@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Sramkova: il recente titolo di Suzhou e un ottobre decisamente più solido pesano più del singolo precedente di Doha. Uchijima però resta insidiosa nelle giornate giuste e un set può scapparle."
 descrizione: "Chennai, primo turno: Mayo Uchijima sfida Rebecca Sramkova sul cemento indiano. Precedenti, forma di ottobre e credenziali estive a confronto in una sfida equilibrata."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sramkova"
 probabilita_percent: 62
 generato_il: "2026-11-02T07:23"

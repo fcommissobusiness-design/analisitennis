@@ -13,8 +13,13 @@ const {
   // i18n: lang della pagina ('it' default) e lista completa delle versioni
   // linguistiche [{lang, href}] (incluso se stessa) per hreflang reciproco.
   lang = 'it',
-  alternates = []
+  alternates = [],
+  // noindex: pagina pubblicata ma esclusa dall'indice Google (match minori).
+  noindex = false
 } = Astro.props;
+const robotsContent = noindex
+  ? 'noindex, follow'
+  : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 const ogLocale = lang === 'en' ? 'en_US' : 'it_IT';
 const hreflangOf = (l) => (l === 'it' ? 'it-it' : l);
 const xDefaultHref = (alternates.find(a => a.lang === 'it') || alternates[0] || {}).href;
@@ -114,8 +119,8 @@ const siteWeb = {
 
   <!-- Robots espliciti: autorizziamo thumbnail grandi (Discover + Google News)
        e snippet piu' lunghi. max-video-preview per quando aggiungeremo video. -->
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="robots" content={robotsContent} />
+  <meta name="googlebot" content={robotsContent} />
   <meta name="google-news-publication" content="AnalisiTennis" />
 
   <!-- Favicon multi-format -->

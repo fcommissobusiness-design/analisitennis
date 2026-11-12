@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Gill: continuità sullo stesso cemento, peso di palla e servizio mancino lo mettono avanti. Efstathiou può allungare gli scambi e strappare un set, ma il divario di livello e di categoria pesa troppo."
 descrizione: "Hersonissos 3, primo turno sul cemento: Gill, quinta testa di serie reduce da Taranto, incontra Efstathiou, wild card in forma all'ITF. Forma, stile e contesto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Gill"
 probabilita_percent: 73
 cover_image: "/covers/2026-11-10-f-gill-vs-m-efstathiou-hersonissos-3-pronostico-analisi.jpg"

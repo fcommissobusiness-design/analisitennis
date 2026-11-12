@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Tjen: ha chiuso i suoi match con più margine e in poche settimane ha già piegato due volte un'avversaria di valore come Kudermetova, segnali di una condizione un filo più affidabile sul cemento. Montgomery resta però pienamente in partita."
 descrizione: "Semifinale WTA a Chennai tra Janice Tjen e Robin Montgomery: due giocatrici lanciate sul cemento, nessun precedente diretto e la finale in palio."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Tjen"
 probabilita_percent: 57
 generato_il: "2026-11-07T07:15"

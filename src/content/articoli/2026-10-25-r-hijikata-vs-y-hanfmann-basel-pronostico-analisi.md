@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Hijikata: ha dalla sua l'unico precedente diretto e la maggiore abitudine recente a giocarsi una finale, dopo quella raggiunta a Tokyo. Margine comunque sottile, Hanfmann è in palla e può trascinarlo al terzo set."
 descrizione: "R. Hijikata e Y. Hanfmann si sfidano nella finale ATP di Basilea sul cemento indoor: precedenti, forma recente e stile a confronto nell'analisi."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-r-hijikata-vs-y-hanfmann-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"

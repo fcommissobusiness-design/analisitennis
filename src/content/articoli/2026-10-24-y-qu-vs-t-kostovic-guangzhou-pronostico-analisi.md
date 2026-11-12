@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Y. Qu: le semifinali appena raggiunte in tabelloni WTA, contro avversarie di rango superiore, le offrono gli argomenti per imporre il proprio ritmo anche sul cemento di Guangzhou e prendersi l'accesso alla finale."
 descrizione: "Semifinale WTA a Guangzhou tra Y. Qu e T. Kostovic sul cemento: percorsi a confronto, forma recente e nessun precedente in una sfida tutta da seguire."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-y-qu-vs-t-kostovic-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Teodora Kostović (2026 US Open) 01.jpg"

@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
 export async function GET(context) {
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
 
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && data.noindex !== true);
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
 

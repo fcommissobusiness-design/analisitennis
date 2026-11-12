@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Bernet: lo svizzero arriva lanciato da un ruolino di ferro, gioca davanti al suo pubblico e trova un Altmaier reduce da un match disputato appena ieri. Margini stretti, ma il momento pende dalla sua parte."
 descrizione: "ATP Basel, semifinale tra Henry Bernet e Daniel Altmaier: forma, precedenti, stile e superficie a confronto per capire chi arriva meglio all'appuntamento."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-h-bernet-vs-d-altmaier-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Daniel Altmaier (2023 US Open) 09.jpg"

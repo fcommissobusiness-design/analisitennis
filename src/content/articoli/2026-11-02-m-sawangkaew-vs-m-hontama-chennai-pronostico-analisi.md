@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da equilibrio, senza un favorito netto all'esordio di Chennai: lo scenario più plausibile è un 2-1 che si decide al terzo set. Sawangkaew parte con un impercettibile vantaggio dal confronto indiretto con Joint, ma Hontama è pienamente in corsa per portarle via almeno un parziale."
 descrizione: "Sawangkaew contro Hontama al primo turno di Chennai: forma, percorsi recenti e un'unica avversaria in comune per un esordio senza precedenti diretti."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sawangkaew"
 probabilita_percent: 53
 generato_il: "2026-11-02T07:16"

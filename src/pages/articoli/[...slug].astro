@@ -223,6 +223,7 @@ const faq = {
   descrizione={d.descrizione}
   immagine={d.cover_image}
   tipo="article"
+  noindex={d.noindex === true}
 >
   {d.giocatore1 !== 'Redazione' && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   <script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} />

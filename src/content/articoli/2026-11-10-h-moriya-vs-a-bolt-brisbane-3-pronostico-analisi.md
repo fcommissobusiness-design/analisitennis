@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Bolt: la storia degli scontri diretti pende nettamente dalla sua parte e la qualità di palla resta superiore. Ma il mese senza partite lascia a Moriya, in pieno ritmo, lo spazio per rubargli almeno un set."
 descrizione: "Moriya arriva in ritmo, Bolt torna dopo una lunga pausa: scontri diretti, forma e freschezza nell'anteprima del match di Brisbane 3."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Bolt"
 probabilita_percent: 61
 cover_file: "File:Melbourne Park - Tennis.jpg"

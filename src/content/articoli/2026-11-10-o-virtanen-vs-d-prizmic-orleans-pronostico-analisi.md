@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Prizmic: la classifica dalla sua parte e qualche giorno di riposo in più lo mettono avanti, con la regolarità da fondo per trascinare il match al terzo. Ma se il servizio di Virtanen gira, l'equilibrio resta apertissimo."
 descrizione: "Virtanen contro Prizmic al primo turno di Orléans: un solo precedente, forme speculari e stili opposti. Analisi di forma, freschezza e contesto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Prizmic"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-10-o-virtanen-vs-d-prizmic-orleans-pronostico-analisi.jpg"

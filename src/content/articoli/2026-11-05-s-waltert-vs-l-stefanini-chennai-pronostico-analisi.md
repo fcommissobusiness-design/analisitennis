@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Stefanini: arriva con un rendimento recente più pieno, culminato nella finale di Samsun, e con il ritmo partita di chi ha giocato molto. Waltert però, abituata a palcoscenici più duri, può reggere l'inerzia e trascinarla al terzo set."
 descrizione: "Simona Waltert e Lucrezia Stefanini si affrontano agli ottavi di finale del torneo WTA di Chennai sul cemento: forma recente, stili e numeri a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Stefanini"
 probabilita_percent: 57
 generato_il: "2026-11-05T07:20"

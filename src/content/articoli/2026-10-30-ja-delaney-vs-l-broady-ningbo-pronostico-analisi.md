@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Delaney: il bilancio recente resta in positivo e la finale appena centrata a Jinan gli danno più continuità, mentre Broady arriva da un periodo altalenante nonostante la bella rimonta di Ningbo."
 descrizione: "Ai quarti del Challenger di Ningbo si sfidano Ja. Delaney e L. Broady: nessun precedente diretto, due cammini diversi e un posto in semifinale sul cemento."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-30T07:27"
 cover_image: "/covers/2026-10-30-ja-delaney-vs-l-broady-ningbo-pronostico-analisi.jpg"
 cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"

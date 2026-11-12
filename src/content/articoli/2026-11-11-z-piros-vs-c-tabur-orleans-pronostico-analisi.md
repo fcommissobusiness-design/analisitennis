@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Piros: il momento di classifica più alto e la maggior continuità delle ultime settimane lo mettono un gradino avanti. Ma la minor freschezza e un testa a testa in parità tengono Tabur pienamente in corsa, con il terzo set tutt'altro che improbabile."
 descrizione: "Piros e Tabur si ritrovano al secondo turno del Challenger di Orleans con gli scontri diretti sull'1-1: forma, freschezza e momento di classifica a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Piros"
 probabilita_percent: 61
 cover_file: "File:Piros WMQ23 (53061881714).jpg"

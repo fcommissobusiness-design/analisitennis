@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Kym: nelle ultime settimane ha battuto avversari di rango ATP come Shelton e Rinderknech e porta in campo un ceiling di gioco che, in una finale equilibrata, può fare la differenza contro un Rodionov comunque lanciato dalla sua settimana."
 descrizione: "Finale del Challenger di Bratislava tra Jérôme Kym e Jurij Rodionov: due percorsi netti sul cemento, forma, stile e fisicità a confronto nell'ultimo atto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Kym"
 probabilita_percent: 59
 cover_file: "File:Rodionov WMQ23 (53061116527).jpg"

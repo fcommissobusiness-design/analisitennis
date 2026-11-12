@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi nettamente Etcheverry: la differenza di circuito è marcata e la recente serie contro avversari di vertice a Parigi pesa più di ogni altra cosa. Dahlin arriva fresco e senza pressioni, ma il salto di livello è enorme: favorito in due set, con l'asterisco-fatica da monitorare."
 descrizione: "Etcheverry torna in campo a Stoccolma dopo il Masters di Parigi e affronta la wildcard Dahlin: forma recente, fatica e stili a confronto al primo turno."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Etcheverry"
 probabilita_percent: 76
 cover_image: "/covers/2026-11-09-t-m-etcheverry-vs-m-dahlin-stockholm-pronostico-analisi.jpg"

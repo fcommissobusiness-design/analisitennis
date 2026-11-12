@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Shi: la sua lunga sequenza di finali nello swing asiatico e il campo amico di Guangzhou le offrono un margine su un'avversaria comunque in crescita e reduce da due successi netti."
 descrizione: "Lilli Tagger e H. Shi si affrontano per la prima volta nei quarti del WTA di Guangzhou: forma recente, precedenti e momento delle due a confronto."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-30T07:34"
 cover_image: "/covers/2026-10-30-l-tagger-vs-h-shi-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Ramon Filipe / CC BY-SA 4.0 / Wikimedia Commons"

@@ -21,6 +21,7 @@ probabilita_favorito: "Andreescu"
 probabilita_percent: 58
 descrizione: "Tatjana Maria contro Bianca Andreescu a Queretaro: primo confronto tra le due, percorsi solidi e stili opposti sulla terra messicana in altura."
 pubblicato: true
+noindex: true
 generato_il: "2026-11-01T07:11"
 cover_image: "/covers/2026-11-01-t-maria-vs-b-andreescu-queretaro-pronostico-analisi.jpg"
 cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"

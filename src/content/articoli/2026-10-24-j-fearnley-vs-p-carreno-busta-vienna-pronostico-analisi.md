@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Fearnley: la continuità di risultati delle ultime settimane e il ritmo partita accumulato gli danno un leggero margine su un Carreno-Busta più esperto ma dal rendimento recente altalenante."
 descrizione: "Analisi della semifinale ATP di Vienna tra Jacob Fearnley e Pablo Carreno-Busta: forma recente, percorsi e chiavi tattiche di una sfida tutta da seguire."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-j-fearnley-vs-p-carreno-busta-vienna-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Jacob Fearnley (2026 US Open) 01.jpg"

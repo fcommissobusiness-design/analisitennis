@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Marozsan: l'ungherese porta in campo un bagaglio e un'esperienza su questi livelli che pesano, e il precedente di Mauthausen ne rafforza le credenziali per staccare il pass verso la finale."
 descrizione: "Semifinale ATP a Vienna tra Fabian Marozsan e Sebastian Sorger: forma recente, unico precedente e superficie veloce indoor verso l'ultimo atto del torneo."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-f-marozsan-vs-s-sorger-vienna-pronostico-analisi.jpg"
 cover_credit: "Manfred Werner - Tsui / CC BY-SA 3.0 / Wikimedia Commons"
 cover_file: "File:Wiener Stadthalle 2013 Halle F b.jpg"

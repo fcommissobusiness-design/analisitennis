@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Clarke: ha il bagaglio e la qualità di palla superiori, e arriva con meno chilometri nelle gambe rispetto a chi ha giocato tre giorni di fila. Vives Marcos, lanciato e senza pressioni, resta però capace di rendergli lunga la strada, soprattutto in avvio."
 descrizione: "Clarke e Vives Marcos si sfidano nel secondo turno del Monastir Open sul cemento: forma recente, carico di partite e primo confronto in carriera a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Clarke"
 probabilita_percent: 62
 cover_file: "File:Jay Clarke (50498851692).jpg"

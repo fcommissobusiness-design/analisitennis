@@ -19,6 +19,7 @@ tag:
 verdetto: "Match equilibrato e probabilmente lungo: lo scenario più plausibile è un 2-1 in cui Stojsavljevic può prendersi almeno un set, con Sonmez leggermente avvantaggiata dalla maggiore abitudine ai ritmi del circuito maggiore."
 descrizione: "Al secondo turno del WTA di Hong Kong, Mika Stojsavljevic e Sonmez si affrontano sul cemento: forma recente, cammino nel torneo e tutti i dati del confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sonmez"
 probabilita_percent: 53
 generato_il: "2026-11-05T07:21"

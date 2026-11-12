@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Reis Da Silva: l'unico precedente diretto sorride al brasiliano e nel recentissimo passaggio ad Antofagasta ha spinto fino al titolo, mentre Aguilar Cardozo usciva già agli ottavi. Margine sottile, da possibile terzo set."
 descrizione: "Semifinale del Challenger di Guayaquil tra J. Reis Da Silva e J. Aguilar Cardozo: forma, precedenti e stile a confronto sulla terra rossa ecuadoriana."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-31T07:10"
 cover_image: "/covers/2026-10-31-j-reis-da-silva-vs-j-aguilar-cardozo-guayaquil-pronostico-analisi.jpg"
 cover_credit: "Spatms / CC BY-SA 4.0 / Wikimedia Commons"

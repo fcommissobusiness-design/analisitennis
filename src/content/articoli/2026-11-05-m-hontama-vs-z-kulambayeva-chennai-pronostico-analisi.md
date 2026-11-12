@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata senza un favorito netto, lo scenario più plausibile è un match deciso al terzo set. Hontama parte con un soffio di margine per il livello degli avversari affrontati di recente, ma Kulambayeva è lanciata e può strappare almeno un set."
 descrizione: "Ottavi di finale WTA a Chennai: Mai Hontama e Zhibek Kulambayeva, bilanci recenti identici e nessun precedente, si giocano l'accesso ai quarti sul cemento indiano."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Hontama"
 probabilita_percent: 53
 generato_il: "2026-11-05T07:24"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Match dai contorni aperti: l'unico precedente premia Bondár, mentre la forma recente e il titolo di San Paolo parlano per Quevedo. Scenario più plausibile un confronto deciso al terzo set, con entrambe in grado di prendersi almeno un parziale e nessuna favorita netta."
 descrizione: "Bondár e Quevedo si sfidano negli ottavi WTA di Guangzhou: un precedente lontano, due titoli recenti e due esordi vinti. Analisi completa del match."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-29T07:15"
 cover_image: "/covers/2026-10-29-a-bondar-vs-k-quevedo-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"

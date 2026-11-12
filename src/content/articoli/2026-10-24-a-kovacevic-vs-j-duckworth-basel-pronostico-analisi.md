@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Kovacevic: il maggior margine di riposo e il recente acuto in un tabellone importante gli concedono un filo di vantaggio in una semifinale che resta comunque in bilico fino agli ultimi scambi."
 descrizione: "Analisi di Kovacevic-Duckworth, semifinale ATP di Basel del 24 ottobre 2026: forma recente, precedenti, incroci stagionali e chiavi tattiche dei due protagonisti."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-24-a-kovacevic-vs-j-duckworth-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Kovacevic WMQ23 (53062093080).jpg"

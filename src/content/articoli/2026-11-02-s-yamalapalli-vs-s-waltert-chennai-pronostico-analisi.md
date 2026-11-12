@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Waltert: nell'ultimo mese ha calcato palcoscenici ben più impegnativi, da Guangzhou alla semifinale di Ningbo fino alle tappe maggiori, mentre Yamalapalli ha lavorato quasi solo sul circuito ITF. Sul veloce di Chennai quell'abitudine a certe intensità pesa."
 descrizione: "Yamalapalli e Waltert aprono il WTA di Chennai in un confronto inedito: forma recente, superficie veloce e ultime settimane delle due giocatrici a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Waltert"
 probabilita_percent: 69
 generato_il: "2026-11-02T07:23"
