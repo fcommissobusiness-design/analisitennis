@@ -3417,10 +3417,18 @@
     "slug_p1": "alejandro-tabilo",
     "slug_p2": "alex-michelsen",
     "bilancio": {
-      "p1": 0,
+      "p1": 1,
       "p2": 1
     },
     "precedenti": [
+      {
+        "data": "2026-11-12",
+        "torneo": "Stockholm",
+        "g1": "A. Michelsen",
+        "g2": "A. Tabilo",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-03-23",
         "torneo": "Miami",
@@ -3428,6 +3436,26 @@
         "g2": "A. Michelsen",
         "risultato": "1 - 2",
         "winner": "Second Player"
+      }
+    ]
+  },
+  "lorenzo-musetti-vs-ugo-humbert": {
+    "p1": "Lorenzo Musetti",
+    "p2": "Ugo Humbert",
+    "slug_p1": "lorenzo-musetti",
+    "slug_p2": "ugo-humbert",
+    "bilancio": {
+      "p1": 1,
+      "p2": 0
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-12",
+        "torneo": "Stockholm",
+        "g1": "L. Musetti",
+        "g2": "U. Humbert",
+        "risultato": "2 - 1",
+        "winner": "First Player"
       }
     ]
   },
