@@ -1,97 +1,146 @@
 {
-  "total": 11,
-  "problems": 4,
+  "total": 16,
+  "problems": 2,
   "details": [
     {
-      "slug": "2026-11-07-a-tubello-vs-b-andreescu-cali-pronostico-analisi",
-      "ok": false,
-      "problems": [
-        "cover duplicata su 2 articoli con favoriti diversi (B. Andreescu, J. M. La Serna); molto probabilmente la foto non c'entra con il match"
-      ],
-      "cover_image": "/covers/2026-11-07-a-tubello-vs-b-andreescu-cali-pronostico-analisi.jpg",
-      "credit": "Marks Tennis Stadium-Michael Uytengsu Tennis Pavilion (USC).jpg | Spatms | CC BY-SA 4.0"
-    },
-    {
-      "slug": "2026-11-07-c-ruud-vs-c-alcaraz-paris-pronostico-analisi",
+      "slug": "2026-11-12-a-andreev-vs-r-brancaccio-hersonissos-3-pronostico-analisi",
       "ok": true,
       "problems": [
         "[info] cover = foto giocatore del match"
       ],
-      "cover_image": "/covers/2026-11-07-c-ruud-vs-c-alcaraz-paris-pronostico-analisi.jpg",
-      "credit": "Carlos Alcaraz (2026 US Open) - 04.jpg | Oleg Yunakov | CC BY-SA 4.0"
+      "cover_image": "/covers/2026-11-12-a-andreev-vs-r-brancaccio-hersonissos-3-pronostico-analisi.jpg",
+      "credit": "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
     },
     {
-      "slug": "2026-11-07-f-coria-vs-g-a-olivieri-villa-maria-pronostico-analisi",
-      "ok": true,
-      "problems": [],
-      "cover_image": "/covers/2026-11-07-f-coria-vs-g-a-olivieri-villa-maria-pronostico-analisi.jpg",
-      "credit": "Belfast Indoor Tennis Arena - geograph.org.uk - 82338.jpg | Brian Shaw | CC BY-SA 2.0"
-    },
-    {
-      "slug": "2026-11-07-f-gill-vs-m-martineau-taranto-italy-pronostico-analisi",
-      "ok": true,
-      "problems": [],
-      "cover_image": "/covers/2026-11-07-f-gill-vs-m-martineau-taranto-italy-pronostico-analisi.jpg",
-      "credit": "Taranto - Palazzo di Città.jpg | Benjamin Smith | CC BY-SA 4.0"
-    },
-    {
-      "slug": "2026-11-07-g-bueno-vs-c-ugo-carabelli-costa-do-sauipe-pronostico-analisi",
-      "ok": false,
-      "problems": [
-        "cover duplicata su 5 articoli con favoriti diversi (C. Ugo Carabelli, J. Tjen, M. Uchijima, R. Montgomery); molto probabilmente la foto non c'entra con il match"
-      ],
-      "cover_image": "/covers/2026-11-07-g-bueno-vs-c-ugo-carabelli-costa-do-sauipe-pronostico-analisi.jpg",
-      "credit": "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
-    },
-    {
-      "slug": "2026-11-07-j-kym-vs-m-dodig-bratislava-2-pronostico-analisi",
-      "ok": true,
-      "problems": [],
-      "cover_image": "/covers/2026-11-07-j-kym-vs-m-dodig-bratislava-2-pronostico-analisi.jpg",
-      "credit": "Old Town Hall, Bratislava 2.jpg | Slyronit | CC BY-SA 4.0"
-    },
-    {
-      "slug": "2026-11-07-j-m-la-serna-vs-n-kicker-villa-maria-pronostico-analisi",
-      "ok": false,
-      "problems": [
-        "cover duplicata su 2 articoli con favoriti diversi (B. Andreescu, J. M. La Serna); molto probabilmente la foto non c'entra con il match"
-      ],
-      "cover_image": "/covers/2026-11-07-j-m-la-serna-vs-n-kicker-villa-maria-pronostico-analisi.jpg",
-      "credit": "Marks Tennis Stadium-Michael Uytengsu Tennis Pavilion (USC).jpg | Spatms | CC BY-SA 4.0"
-    },
-    {
-      "slug": "2026-11-07-j-tjen-vs-r-montgomery-chennai-pronostico-analisi",
-      "ok": false,
-      "problems": [
-        "cover venue identica su 4 articoli dello stesso torneo (Chennai); varia con slug_hint per diversificare"
-      ],
-      "cover_image": "/covers/2026-11-07-j-tjen-vs-r-montgomery-chennai-pronostico-analisi.jpg",
-      "credit": "CHO08-Marcos Baghdatis Chennai Open practice court.jpg | VasuVR | CC BY 4.0"
-    },
-    {
-      "slug": "2026-11-07-l-van-assche-vs-b-shelton-paris-pronostico-analisi",
+      "slug": "2026-11-12-a-michelsen-vs-a-tabilo-stockholm-pronostico-analisi",
       "ok": true,
       "problems": [
         "[info] cover = foto giocatore del match"
       ],
-      "cover_image": "/covers/2026-11-07-l-van-assche-vs-b-shelton-paris-pronostico-analisi.jpg",
-      "credit": "Ben Shelton (Roland Garros 2023) 01.jpg | Hameltion | CC BY-SA 4.0"
+      "cover_image": "/covers/2026-11-12-a-michelsen-vs-a-tabilo-stockholm-pronostico-analisi.jpg",
+      "credit": "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
     },
     {
-      "slug": "2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi",
+      "slug": "2026-11-12-c-cretu-vs-p-henning-hersonissos-3-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] favorito C. Cretu: venue/contesto tennis \"File:David X. Marks Tennis Stadium (USC).jpg\""
+      ],
+      "cover_image": "/covers/2026-11-12-c-cretu-vs-p-henning-hersonissos-3-pronostico-analisi.jpg",
+      "credit": "Spatms / CC BY-SA 4.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] favorito C. Hewitt: venue/contesto tennis \"File:StateLibQld 2 294199 Harry Hopman in action o\""
+      ],
+      "cover_image": "/covers/2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi.jpg",
+      "credit": "Contributor(s): Queensland Newspapers Pty. / Public domain / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-d-blanch-vs-l-giustino-monastir-pronostico-analisi",
       "ok": true,
       "problems": [
         "[info] cover = foto giocatore del match"
       ],
-      "cover_image": "/covers/2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi.jpg",
-      "credit": "Anastasia Zakharova (2025 DC Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+      "cover_image": "/covers/2026-11-12-d-blanch-vs-l-giustino-monastir-pronostico-analisi.jpg",
+      "credit": "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
     },
     {
-      "slug": "2026-11-07-m-sakkari-vs-a-eala-hong-kong-pronostico-analisi",
+      "slug": "2026-11-12-d-svrcina-vs-o-virtanen-orleans-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-12-d-svrcina-vs-o-virtanen-orleans-pronostico-analisi.jpg",
+      "credit": "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-j-pegula-vs-l-noskova-finals-indian-wells-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-12-j-pegula-vs-l-noskova-finals-indian-wells-pronostico-analisi.jpg",
+      "credit": "RB Photo from Chicago / CC BY 2.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-l-carboni-vs-i-xilas-hersonissos-3-pronostico-analisi",
       "ok": true,
       "problems": [],
-      "cover_image": "/covers/2026-11-07-m-sakkari-vs-a-eala-hong-kong-pronostico-analisi.jpg",
-      "credit": "Alex Eala Signature 2026.png | Robertogamerxxx | CC0"
+      "cover_image": "/covers/2026-11-12-l-carboni-vs-i-xilas-hersonissos-3-pronostico-analisi.jpg",
+      "credit": "BrokenSphere / CC BY-SA 3.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-l-musetti-vs-u-humbert-stockholm-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-12-l-musetti-vs-u-humbert-stockholm-pronostico-analisi.jpg",
+      "credit": "Code8898 / CC BY-SA 4.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-m-echargui-vs-m-petkovic-monastir-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover_image mancante nel frontmatter"
+      ],
+      "cover_image": "",
+      "credit": ""
+    },
+    {
+      "slug": "2026-11-12-m-kostyuk-vs-c-gauff-finals-indian-wells-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-12-m-kostyuk-vs-c-gauff-finals-indian-wells-pronostico-analisi.jpg",
+      "credit": "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-m-moeller-vs-a-ouakaa-monastir-pronostico-analisi",
+      "ok": false,
+      "problems": [
+        "cover_image mancante nel frontmatter"
+      ],
+      "cover_image": "",
+      "credit": ""
+    },
+    {
+      "slug": "2026-11-12-m-ribecai-vs-c-a-caniato-hersonissos-3-pronostico-analisi",
+      "ok": true,
+      "problems": [],
+      "cover_image": "/covers/2026-11-12-m-ribecai-vs-c-a-caniato-hersonissos-3-pronostico-analisi.jpg",
+      "credit": "Far min / CC BY-SA 4.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-o-baris-vs-m-zheng-knoxville-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] favorito M. Zheng: venue/contesto tennis \"File:Goodfriend Tennis Center, Tennessee Volunteer\""
+      ],
+      "cover_image": "/covers/2026-11-12-o-baris-vs-m-zheng-knoxville-pronostico-analisi.jpg",
+      "credit": "TN 66 / CC BY-SA 3.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-t-a-tirante-vs-a-shevchenko-stockholm-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-12-t-a-tirante-vs-a-shevchenko-stockholm-pronostico-analisi.jpg",
+      "credit": "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+    },
+    {
+      "slug": "2026-11-12-t-fritz-vs-h-rune-stockholm-pronostico-analisi",
+      "ok": true,
+      "problems": [
+        "[info] cover = foto giocatore del match"
+      ],
+      "cover_image": "/covers/2026-11-12-t-fritz-vs-h-rune-stockholm-pronostico-analisi.jpg",
+      "credit": "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
     }
   ]
 }

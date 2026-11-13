@@ -1,179 +1,121 @@
 {
-  "date": "2026-11-07",
-  "total": 11,
+  "date": "2026-11-12",
+  "total": 16,
   "da_rivedere": 0,
   "details": [
     {
-      "slug": "2026-11-07-a-tubello-vs-b-andreescu-cali-pronostico-analisi",
+      "slug": "2026-11-12-a-andreev-vs-r-brancaccio-hersonissos-3-pronostico-analisi",
       "ok": true,
-      "motivo": "Esterno di edificio, non campo o giocatore in azione",
+      "motivo": "Giocatore in azione, testa intera e racchetta visibili."
+    },
+    {
+      "slug": "2026-11-12-a-michelsen-vs-a-tabilo-stockholm-pronostico-analisi",
+      "ok": true,
+      "motivo": "Giocatore figura intera in azione con racchetta sul campo"
+    },
+    {
+      "slug": "2026-11-12-c-cretu-vs-p-henning-hersonissos-3-pronostico-analisi",
+      "ok": true,
+      "motivo": "Esterno edificio stadio, nessun gioco in corso.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:Marks Tennis Stadium-Michael Uyteng",
+          "file": "File:David X. Marks Tennis Stadium Court",
           "ok": false,
-          "motivo": "Edificio esterno, non campo o giocatore in azione."
+          "motivo": "Campo da tennis vuoto, nessun gioco in corso."
         },
         {
           "via": "campo",
           "file": "Nungambakkam SDAT Tennis Stadium floodlit match pa",
           "ok": true,
-          "motivo": "Vero campo da tennis con partita in corso."
+          "motivo": "vero campo da tennis con partita in corso"
         }
       ]
     },
     {
-      "slug": "2026-11-07-c-ruud-vs-c-alcaraz-paris-pronostico-analisi",
+      "slug": "2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi",
       "ok": true,
-      "motivo": "Giocatore in azione al servizio, figura intera, campo visibile."
+      "motivo": "Tennista in campo, figura intera con racchetta."
     },
     {
-      "slug": "2026-11-07-f-coria-vs-g-a-olivieri-villa-maria-pronostico-analisi",
+      "slug": "2026-11-12-d-blanch-vs-l-giustino-monastir-pronostico-analisi",
       "ok": true,
-      "motivo": "Edificio e parcheggio, nessun tennis o giocatore",
+      "motivo": "Giocatore a mezza figura con racchetta, pronto a servire."
+    },
+    {
+      "slug": "2026-11-12-d-svrcina-vs-o-virtanen-orleans-pronostico-analisi",
+      "ok": true,
+      "motivo": "Giocatore in azione, figura intera con racchetta e pallina."
+    },
+    {
+      "slug": "2026-11-12-j-pegula-vs-l-noskova-finals-indian-wells-pronostico-analisi",
+      "ok": true,
+      "motivo": "Giocatrice al servizio su campo in terra, azione reale."
+    },
+    {
+      "slug": "2026-11-12-l-carboni-vs-i-xilas-hersonissos-3-pronostico-analisi",
+      "ok": true,
+      "motivo": "Tabellone e campo vuoto, nessun giocatore in azione.",
+      "risolta_con": "rigenera"
+    },
+    {
+      "slug": "2026-11-12-l-musetti-vs-u-humbert-stockholm-pronostico-analisi",
+      "ok": true,
+      "motivo": "Tennista in azione, figura intera, racchetta visibile."
+    },
+    {
+      "slug": "2026-11-12-m-echargui-vs-m-petkovic-monastir-pronostico-analisi",
+      "ok": true,
+      "motivo": "Campo da tennis durante il gioco, giocatore in azione."
+    },
+    {
+      "slug": "2026-11-12-m-kostyuk-vs-c-gauff-finals-indian-wells-pronostico-analisi",
+      "ok": true,
+      "motivo": "Tennista in azione al servizio, figura intera e campo"
+    },
+    {
+      "slug": "2026-11-12-m-moeller-vs-a-ouakaa-monastir-pronostico-analisi",
+      "ok": true,
+      "motivo": "Esterno edificio stadio, nessun gioco o giocatore visibile.",
       "risolta_con": "campo pulito",
       "attempts": [
         {
           "via": "rigenera",
-          "file": "File:Belfast Indoor Tennis Arena - geogr",
+          "file": "File:Taube Family Tennis Stadium exterio",
           "ok": false,
-          "motivo": "Edificio con parcheggio, nessun tennis presente."
+          "motivo": "Esterno di edificio/stadio, nessun gioco o giocatore."
         },
         {
           "via": "campo",
-          "file": "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis",
+          "file": "Anjo Sports Park tennis court ac.jpg",
           "ok": true,
-          "motivo": "Campo in terra rossa con gioco in corso."
+          "motivo": "Veri campi da tennis con gioco in corso."
         }
       ]
     },
     {
-      "slug": "2026-11-07-f-gill-vs-m-martineau-taranto-italy-pronostico-analisi",
+      "slug": "2026-11-12-m-ribecai-vs-c-a-caniato-hersonissos-3-pronostico-analisi",
       "ok": true,
-      "motivo": "Edificio storico con auto parcheggiate, nessun tennis.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Taranto - Palazzo di Città.jpg",
-          "ok": false,
-          "motivo": "Edificio storico con auto parcheggiate, nessun tennis."
-        },
-        {
-          "via": "campo",
-          "file": "Sydney International Tennis ATP 250 (46001156835).",
-          "ok": true,
-          "motivo": "Giocatori in azione sul campo, racchette e palla visibili."
-        }
-      ]
+      "motivo": "Esterno di edificio, nessun giocatore o campo",
+      "risolta_con": "rigenera"
     },
     {
-      "slug": "2026-11-07-g-bueno-vs-c-ugo-carabelli-costa-do-sauipe-pronostico-analisi",
+      "slug": "2026-11-12-o-baris-vs-m-zheng-knoxville-pronostico-analisi",
       "ok": true,
-      "motivo": "Veri campi da tennis con giocatori in azione."
+      "motivo": "Gruppo di persone radunate, non gioco; parcheggio sullo sfondo.",
+      "risolta_con": "rigenera"
     },
     {
-      "slug": "2026-11-07-j-kym-vs-m-dodig-bratislava-2-pronostico-analisi",
+      "slug": "2026-11-12-t-a-tirante-vs-a-shevchenko-stockholm-pronostico-analisi",
       "ok": true,
-      "motivo": "Piazza urbana con edifici e persone, nessun tennis.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Old Town Hall, Bratislava 2.jpg",
-          "ok": false,
-          "motivo": "Piazza urbana con edifici, niente tennis."
-        },
-        {
-          "via": "campo",
-          "file": "RK Khanna Tennis Complex New Delhi - Centre Court ",
-          "ok": true,
-          "motivo": "Vero campo da tennis con partita in corso."
-        }
-      ]
+      "motivo": "Giocatore a mezza figura, testa intera, racchetta visibile in azione"
     },
     {
-      "slug": "2026-11-07-j-m-la-serna-vs-n-kicker-villa-maria-pronostico-analisi",
+      "slug": "2026-11-12-t-fritz-vs-h-rune-stockholm-pronostico-analisi",
       "ok": true,
-      "motivo": "Edificio esterno di un impianto, nessun gioco in corso.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Marks Tennis Stadium-Michael Uyteng",
-          "ok": false,
-          "motivo": "Edificio esterno pavilion, nessun gioco o campo visibile."
-        },
-        {
-          "via": "campo",
-          "file": "PP Olympic Stadium - Tennis courts.jpg",
-          "ok": true,
-          "motivo": "Veri campi da tennis con giocatori in azione."
-        }
-      ]
-    },
-    {
-      "slug": "2026-11-07-j-tjen-vs-r-montgomery-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatore in azione a figura intera con racchetta e campo"
-    },
-    {
-      "slug": "2026-11-07-l-van-assche-vs-b-shelton-paris-pronostico-analisi",
-      "ok": true,
-      "motivo": "Primo piano ravvicinato del volto sorridente, nessuna azione.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Ben Shelton (Roland Garros 2023) 01",
-          "ok": false,
-          "motivo": "Primo piano ravvicinato del volto sorridente, nessuna azione."
-        },
-        {
-          "via": "giocatore:Ben Shelton",
-          "file": "McDonald–Shelton box at the 2023 DC Open 03.jpg",
-          "ok": false,
-          "motivo": "Folla di spettatori sugli spalti, nessun giocatore in azione."
-        },
-        {
-          "via": "campo",
-          "file": "Olympic Tennis Centre, Rio, Brazil.jpg",
-          "ok": true,
-          "motivo": "Vero campo da tennis con partita in corso."
-        }
-      ]
-    },
-    {
-      "slug": "2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi",
-      "ok": true,
-      "motivo": "Giocatrice in azione, testa intera, racchetta visibile"
-    },
-    {
-      "slug": "2026-11-07-m-sakkari-vs-a-eala-hong-kong-pronostico-analisi",
-      "ok": true,
-      "motivo": "Firma stilizzata su sfondo nero, nessun tennis.",
-      "risolta_con": "campo pulito",
-      "attempts": [
-        {
-          "via": "rigenera",
-          "file": "File:Alex Eala Signature 2026.png",
-          "ok": false,
-          "motivo": "Firma su sfondo nero, nessun giocatore o campo."
-        },
-        {
-          "via": "giocatore:Alexandra Eala",
-          "file": "Alex Eala.jpg",
-          "ok": false,
-          "motivo": "Cerimonia premiazione con fiori, nessun campo o azione tennis."
-        },
-        {
-          "via": "campo",
-          "file": "Taube Family Tennis Stadium 2015.JPG",
-          "ok": true,
-          "motivo": "Veri campi da tennis con giocatori in azione."
-        }
-      ]
+      "motivo": "primo piano del volto, firma autografi, nessuna azione",
+      "risolta_con": "rigenera"
     }
   ]
 }
