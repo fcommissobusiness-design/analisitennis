@@ -1,0 +1,50 @@
+name: Deploy health check
+
+# Dopo ogni push su main, verifica che Cloudflare Workers Builds abbia davvero
+# messo LIVE il nuovo commit: confronta /version.txt sul sito con lo SHA pushato.
+# Se entro 15 minuti il sito non riflette il commit, il job FALLISCE e GitHub
+# invia la sua email automatica di "workflow fallito" al proprietario del repo.
+#
+# IMPORTANTE: questo workflow NON esegue il deploy (lo fa Cloudflare in autonomia).
+# Controlla soltanto. Una X rossa qui = allarme VERO: il sito non si e' aggiornato.
+
+on:
+  push:
+    branches: [main]
+
+# Se arriva un push piu' recente mentre questo controllo e' in corso, annulla il
+# vecchio (evita falsi rossi quando /version.txt mostra gia' il commit successivo).
+concurrency:
+  group: deploy-check
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check-live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Attendi che il sito live rifletta il commit
+        env:
+          EXPECTED: ${{ github.sha }}
+          URL: https://analisitennis.it/version.txt
+        run: |
+          echo "Commit atteso live: $EXPECTED"
+          # Workers Builds deve fare: build (~1019 pagine) + wrangler deploy +
+          # propagazione CDN. Diamo tempo prima di iniziare a controllare.
+          sleep 60
+          deadline=$(( $(date +%s) + 15*60 ))
+          last=""
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            last=$(curl -fsS --max-time 20 -H 'Cache-Control: no-cache' "$URL?t=$(date +%s)" 2>/dev/null | tr -d '[:space:]' || true)
+            if [ "$last" = "$EXPECTED" ]; then
+              echo "OK: il sito live riflette il commit $EXPECTED"
+              exit 0
+            fi
+            echo "  non ancora aggiornato (live=${last:-vuoto}); riprovo tra 20s..."
+            sleep 20
+          done
+          echo "::error::Deploy NON confermato dopo 15 minuti. Il sito live mostra '${last:-vuoto}', atteso '$EXPECTED'. Controlla Cloudflare Workers Builds: dashboard > Workers > analisitennis > produzione."
+          exit 1
