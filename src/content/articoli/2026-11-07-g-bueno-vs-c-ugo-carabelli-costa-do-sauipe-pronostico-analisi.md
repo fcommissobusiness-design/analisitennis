@@ -5,7 +5,7 @@ data: "2026-11-07"
 autore: "Redazione AnalisiTennis"
 torneo: "Costa do Sauipe"
 categoria: "Challenger"
-superficie: "cemento"
+superficie: "terra"
 giocatore1: "G. Bueno"
 giocatore2: "C. Ugo Carabelli"
 tag:

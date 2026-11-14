@@ -36,7 +36,7 @@ Poche settimane dopo, ad Amburgo, arrivò un successo per due set a zero, risult
 
 I capitoli più recenti hanno però cambiato tono. A Pechino 2024, sul veloce, l'esito fu di due set a zero, ma a Roma 2025 Khachanov riuscì a strappare un set prima di cedere due a uno.
 
-La stessa trama si ripete' a Doha nel febbraio 2026, con un altro due a uno deciso solo al terzo set. Il bilancio pende tutto da una parte, eppure gli ultimi episodi sono stati più lottati dei primi.
+La stessa trama si ripetè a Doha nel febbraio 2026, con un altro due a uno deciso solo al terzo set. Il bilancio pende tutto da una parte, eppure gli ultimi episodi sono stati più lottati dei primi.
 
 ### La forma di ottobre
 Il mese che sta per chiudersi ha tenuto impegnati entrambi su più fronti. Khachanov arriva da una settimana convincente ad Almaty, dove ha superato Sakamoto e Machac prima di fermarsi nei quarti contro Bublik.

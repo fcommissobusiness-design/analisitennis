@@ -31,7 +31,7 @@ Il torneo di **Basilea** propone subito un confronto dal sapore familiare: Danie
 
 I **precedenti** raccontano una storia in piena evoluzione. I due si sono affrontati cinque volte e il bilancio complessivo sorride a Cerundolo per tre successi a due. Le prime due sfide, però, avevano premiato Altmaier: nel 2021 a Luedenscheid, in semifinale, e nel 2025 al torneo di Turin 2, negli ottavi. Da lì in avanti la bilancia si è spostata con decisione.
 
-Nel 2026 l'argentino ha infatti fatto suoi tutti e tre i confronti. Prima il successo a Buenos Aires nei sedicesimi di febbraio, poi quello di Madrid in aprile e infine l'ultimo, datato appena ieri, proprio sul cemento di Basilea: in quell'occasione i due si erano ritrovati addirittura a giocarsi il titolo, con Cerundolo capace di imporsi in due set. Un filotto recente che da' sostanza al suo vantaggio negli scontri diretti.
+Nel 2026 l'argentino ha infatti fatto suoi tutti e tre i confronti. Prima il successo a Buenos Aires nei sedicesimi di febbraio, poi quello di Madrid in aprile e infine l'ultimo, datato appena ieri, proprio sul cemento di Basilea: in quell'occasione i due si erano ritrovati addirittura a giocarsi il titolo, con Cerundolo capace di imporsi in due set. Un filotto recente che dà sostanza al suo vantaggio negli scontri diretti.
 
 ### La forma recente
 

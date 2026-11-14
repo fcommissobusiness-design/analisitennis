@@ -41,7 +41,7 @@ Il ritmo di una settimana di torneo conta, e nessuna delle due arriva a freddo: 
 
 Il bilancio recente di Joint racconta un periodo particolarmente ricco: dieci vittorie nelle ultime quindici uscite, con un ottobre vissuto ad altissimo ritmo. Ha raggiunto e chiuso dalla parte giusta l'ultimo atto a Osaka e quello a Tokyo, prima di spingersi fino ai quarti sempre nel torneo giapponese. Un rendimento che testimonia continuità e fiducia proprio nelle fasi decisive dei tornei, quelle in cui di solito il margine di errore si assottiglia.
 
-**Maria Sakkari**, dal canto suo, porta in dote nove successi nelle ultime quindici gare. Il suo acuto più recente è arrivato a Wuhan, dove ha superato avversarie di valore come D. Vekic e M. Kostyuk prima di cedere nei quarti a M. Chwalinska. Non sono mancate le battute d'arresto — le uscite anticipate contro Y. Putintseva a Tokyo e contro E. Svitolina a Pechino — ma il quadro resta quello di una giocatrice capace di mettere in difficoltà chiunque nelle giornate giuste.
+**Maria Sakkari**, dal canto suo, porta in dote nove successi nelle ultime quindici gare. Il suo acuto più recente è arrivato a Wuhan, dove ha superato avversarie di valore come D. Vekic e M. Kostyuk prima di cedere nei quarti a M. Chwalinska. Non sono mancate le battute d'arresto, le uscite anticipate contro Y. Putintseva a Tokyo e contro E. Svitolina a Pechino, ma il quadro resta quello di una giocatrice capace di mettere in difficoltà chiunque nelle giornate giuste.
 
 ### Stile e superficie
 

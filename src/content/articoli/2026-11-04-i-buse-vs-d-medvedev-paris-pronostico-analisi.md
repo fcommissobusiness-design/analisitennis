@@ -37,7 +37,7 @@ Il russo si presenta con un ruolino recente molto solido. A ottobre ha conquista
 ### La stagione di Buse
 Il peruviano, dal canto suo, porta a Parigi la soddisfazione più grande della sua estate: il titolo di Winston-Salem, centrato a fine agosto con una cavalcata chiusa in finale contro Arthur Fery, dopo aver eliminato giocatori come Juan Manuel Cerundolo e Benjamin Bonzi. Quel torneo resta il biglietto da visita più pesante del suo 2026.
 
-Da lì il cammino è stato più altalenante, con uscite anticipate tra Cincinnati, Pechino, Shanghai e Vienna e un bilancio recente in equilibrio tra vittorie e sconfitte. La vittoria all'ingresso in tabellone a Parigi contro Zizou Bergs — lo stesso avversario che lo aveva battuto a Shanghai poche settimane prima — gli ha però restituito ritmo e fiducia proprio sul veloce indoor, segnale che l'adattamento alla superficie è in corso.
+Da lì il cammino è stato più altalenante, con uscite anticipate tra Cincinnati, Pechino, Shanghai e Vienna e un bilancio recente in equilibrio tra vittorie e sconfitte. La vittoria all'ingresso in tabellone a Parigi contro Zizou Bergs, lo stesso avversario che lo aveva battuto a Shanghai poche settimane prima, gli ha però restituito ritmo e fiducia proprio sul veloce indoor, segnale che l'adattamento alla superficie è in corso.
 
 ### Un incrocio senza storia
 Tra i due non esistono precedenti ufficiali: è la prima volta che le loro strade si incrociano in un match del circuito maggiore. Nessuno dei due potrà quindi appoggiarsi a riferimenti diretti, a schemi già collaudati contro quello specifico avversario o a un ricordo, positivo o negativo, da cui ripartire.

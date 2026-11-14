@@ -119,6 +119,15 @@ def controlla(a: Audit):
     # --- 2. Superficie dell'articolo contro il torneo verificato ------------
     per_citta = {norm(d['citta']): d for d in tornei.values() if d['citta']}
     per_nome = {norm(d['nome']): d for d in tornei.values() if d['nome']}
+    # Indice per SLUG del profilo (lo stem del file, es. 'stockholm-2026' ->
+    # 'stockholm', 'hersonissos-3-2026' -> 'hersonissos 3', 'finals-indian-
+    # wells-2026' -> 'finals indian wells'). Lo slug nasce dal nome grezzo del
+    # torneo com'e' scritto negli articoli (nome inglese + numero di edizione),
+    # quindi aggancia i casi che la citta' italiana ("Stoccolma") o il nome
+    # ufficiale ("Bybit Stockholm Open") da soli non intercettano.
+    def _slug_key(stem):
+        return norm(re.sub(r'-20\d\d$', '', stem).replace('-', ' '))
+    per_slug = {_slug_key(stem): d for stem, d in tornei.items()}
     alias = {'basel': 'basilea', 'paris': 'parigi', 'brussels': 'bruxelles',
              'lisbon': 'lisbona', 'florence': 'firenze', 'lyon': 'lione',
              'queretaro': 'santiago de queretaro'}
@@ -132,7 +141,8 @@ def controlla(a: Audit):
         base = re.sub(r'\s*-\s*Qualification\s*$', '', tor, flags=re.I)
         base = re.sub(r'\s*\([^)]*\)\s*$', '', base).strip()
         k = norm(base)
-        d = per_citta.get(alias.get(k, k)) or per_citta.get(k) or per_nome.get(k)
+        d = (per_citta.get(alias.get(k, k)) or per_citta.get(k)
+             or per_nome.get(k) or per_slug.get(k))
         if not d:
             senza_profilo[tor] += 1
             continue

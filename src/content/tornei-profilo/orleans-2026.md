@@ -1,5 +1,5 @@
 ---
-nome: "CO'Met Orléans Open (Open d'Orléans)"
+nome: "CòMet Orléans Open (Open d'Orléans)"
 slug_profilo: "orleans-2026"
 anno: 2026
 citta: "Orléans"
@@ -7,17 +7,17 @@ paese: "Francia"
 categoria: "Challenger"
 superficie: "cemento"
 fondato: "2005"
-intro: "Challenger indoor nel cuore della Francia, il CO'Met Orléans Open va in scena dal 2005 su cemento al coperto: tradizione francese e respiro internazionale."
-descrizione: "Il CO'Met Orléans Open, Challenger 125 indoor su cemento ad Orléans: storia dal 2005, albo d'oro recente e identità di un torneo simbolo del tennis francese."
+intro: "Challenger indoor nel cuore della Francia, il CòMet Orléans Open va in scena dal 2005 su cemento al coperto: tradizione francese e respiro internazionale."
+descrizione: "Il CòMet Orléans Open, Challenger 125 indoor su cemento ad Orléans: storia dal 2005, albo d'oro recente e identità di un torneo simbolo del tennis francese."
 tag:
-  - "CO'Met Orléans Open"
+  - "CòMet Orléans Open"
   - "Open d'Orléans"
   - "ATP Challenger"
   - "tennis Orléans"
   - "Challenger 125"
   - "cemento indoor"
   - "tennis Francia"
-  - "Arena de CO'Met"
+  - "Arena de CòMet"
 pubblicato: true
 generato_il: "2026-11-12T07:40+01:00"
 cover_image: "/covers/tornei/orleans-2026.jpg"
@@ -26,7 +26,7 @@ cover_credit: "University Tennis Center courts (UNO), New Orleans, LA.jpg | Spat
 
 ## La storia
 
-Il CO'Met Orléans Open, storicamente noto come Open d'Orléans, nasce nel 2005 e si è ritagliato negli anni un posto stabile nel calendario dell'ATP Challenger Tour. Disputato nel cuore della Francia, nella città di Orléans, l'evento ha accompagnato il passaggio di numerosi giocatori verso il circuito maggiore, offrendo un palcoscenico di livello Challenger 125 particolarmente apprezzato dal pubblico francese. La prima edizione incoronò Cyril Saulnier e da allora il torneo non ha quasi mai mancato l'appuntamento annuale: unica eccezione il 2020, quando la pandemia di Covid-19 ne impose la cancellazione. Nel 2023 l'Open ha vissuto un cambiamento significativo, trasferendosi dallo storico Palais des Sports alla nuova Arena de CO'Met, moderno impianto dell'Orléans Métropole, con contestuale ridenominazione legata allo sponsor. Anche l'edizione 2026, in programma dal 9 al 15 novembre, conferma uno spostamento di periodo: a lungo collocato a fine settembre, l'appuntamento si disputa oggi in autunno inoltrato.
+Il CòMet Orléans Open, storicamente noto come Open d'Orléans, nasce nel 2005 e si è ritagliato negli anni un posto stabile nel calendario dell'ATP Challenger Tour. Disputato nel cuore della Francia, nella città di Orléans, l'evento ha accompagnato il passaggio di numerosi giocatori verso il circuito maggiore, offrendo un palcoscenico di livello Challenger 125 particolarmente apprezzato dal pubblico francese. La prima edizione incoronò Cyril Saulnier e da allora il torneo non ha quasi mai mancato l'appuntamento annuale: unica eccezione il 2020, quando la pandemia di Covid-19 ne impose la cancellazione. Nel 2023 l'Open ha vissuto un cambiamento significativo, trasferendosi dallo storico Palais des Sports alla nuova Arena de CòMet, moderno impianto dell'Orléans Métropole, con contestuale ridenominazione legata allo sponsor. Anche l'edizione 2026, in programma dal 9 al 15 novembre, conferma uno spostamento di periodo: a lungo collocato a fine settembre, l'appuntamento si disputa oggi in autunno inoltrato.
 
 ## Il campo e lo stile
 
@@ -46,4 +46,4 @@ L'albo d'oro recente racconta bene la vocazione del torneo: un crocevia tra camp
 
 ## Curiosità
 
-La storia lunga vent'anni del torneo ha un paio di protagonisti su tutti. Secondo le fonti ufficiali, i giocatori più titolati di Orléans sono Nicolas Mahut e Olivier Rochus, due nomi che compaiono a più riprese tra vincitori e finalisti delle prime edizioni e che, in un certo senso, hanno dato un volto al torneo nei suoi anni di formazione. Curioso anche il filo belga che attraversa l'albo d'oro, con diversi successi arrivati da oltreconfine, a conferma di quanto l'Open sia sempre stato un appuntamento dal respiro internazionale pur restando saldamente radicato nel tennis francese. Infine, vale la pena ricordare la doppia trasformazione vissuta di recente: la nuova casa dell'Arena de CO'Met dal 2023 e lo spostamento nel calendario, due segnali di un evento che continua a rinnovarsi senza perdere la propria identità.
+La storia lunga vent'anni del torneo ha un paio di protagonisti su tutti. Secondo le fonti ufficiali, i giocatori più titolati di Orléans sono Nicolas Mahut e Olivier Rochus, due nomi che compaiono a più riprese tra vincitori e finalisti delle prime edizioni e che, in un certo senso, hanno dato un volto al torneo nei suoi anni di formazione. Curioso anche il filo belga che attraversa l'albo d'oro, con diversi successi arrivati da oltreconfine, a conferma di quanto l'Open sia sempre stato un appuntamento dal respiro internazionale pur restando saldamente radicato nel tennis francese. Infine, vale la pena ricordare la doppia trasformazione vissuta di recente: la nuova casa dell'Arena de CòMet dal 2023 e lo spostamento nel calendario, due segnali di un evento che continua a rinnovarsi senza perdere la propria identità.

@@ -39,6 +39,6 @@ Il bilancio di Xiaodi You si legge soprattutto nei numeri del circuito di svilup
 
 - il titolo di doppio nel WTA 125 di Dalian, nel 2017, in coppia con Jiajing Lu: il gradino più alto raggiunto in questa categoria;
 - sei titoli in singolare e una ventina in doppio nel circuito ITF, a conferma della sua longevità;
-- nel 2026, a quasi dodici anni dall'esordio fra le professioniste, un nuovo titolo in singolare in un torneo ITF a Lu'an, in Cina.
+- nel 2026, a quasi dodici anni dall'esordio fra le professioniste, un nuovo titolo in singolare in un torneo ITF a Lùan, in Cina.
 
 I primi passi nel circuito risalgono al 2014 e hanno aperto una carriera che, pur senza mai sfondare stabilmente ai piani alti della classifica, si è distinta per durata e dedizione. Il rendimento ritrovato nelle stagioni più recenti conferma che, a distanza di anni dal debutto, You resta una presenza riconoscibile e rispettata nel tennis cinese.

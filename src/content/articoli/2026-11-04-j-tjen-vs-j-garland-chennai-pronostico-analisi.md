@@ -37,7 +37,7 @@ Negli ultimi mesi Joanna Garland ha costruito un bilancio nettamente positivo, c
 Nelle settimane precedenti aveva già messo insieme una serie di successi in eventi di categoria inferiore, segno di una condizione che si è andata consolidando partita dopo partita. Il riscontro più recente porta la data del 3 novembre, con il successo su Teichmann che le ha aperto le porte di questi **ottavi di finale** indiani e le consente di presentarsi con il morale di chi vince da diverse settimane.
 
 ### Il calendario di Tjen
-Il percorso di Janice Tjen va letto con un metro diverso. L'indonesiana nelle ultime settimane ha giocato quasi esclusivamente tornei di primo piano — da Wuhan a Pechino, passando per Cincinnati e Osaka — misurandosi con avversarie di rango elevato.
+Il percorso di Janice Tjen va letto con un metro diverso. L'indonesiana nelle ultime settimane ha giocato quasi esclusivamente tornei di primo piano, da Wuhan a Pechino, passando per Cincinnati e Osaka, misurandosi con avversarie di rango elevato.
 
 Il suo bilancio recente è sul filo dell'equilibrio, sette vittorie e otto sconfitte, ma dentro quei numeri ci sono successi tutt'altro che banali, come quelli ottenuti ai danni di Kudermetova e di Yastremska. È il quadro di chi ha affrontato un calendario esigente, uscendone a volte sconfitta ma restando competitiva anche contro giocatrici di alto livello. A Chennai ha avviato il suo cammino superando Hui, segnale che la messa a punto c'è.
 
