@@ -574,9 +574,17 @@
     "slug_p2": "taylor-fritz",
     "bilancio": {
       "p1": 5,
-      "p2": 3
+      "p2": 4
     },
     "precedenti": [
+      {
+        "data": "2026-11-13",
+        "torneo": "Stockholm",
+        "g1": "T. Fritz",
+        "g2": "L. Musetti",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2026-10-25",
         "torneo": "Lyon (France) - Qualification",

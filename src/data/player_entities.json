@@ -1,4 +1,13 @@
 {
+"a-andreev": {
+"image": "File:Adrian Andreev (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q47536566",
+"https://en.wikipedia.org/wiki/Adrian_Andreev"
+],
+"wikidata": "Q47536566",
+"wikipedia": "https://en.wikipedia.org/wiki/Adrian_Andreev"
+},
 "a-bolt": {
 "image": "File:Bolt WMQ14 (3) (14603792851).jpg",
 "sameAs": [
@@ -105,6 +114,15 @@
 ],
 "wikidata": "Q84599634",
 "wikipedia": "https://it.wikipedia.org/wiki/Antonia_Ru%C5%BEi%C4%87"
+},
+"a-santillan": {
+"image": "File:2017 US Open Tennis - Qualifying Rounds - Akira Santillan (AUS) def. Uladzimir Ignatik (BLR) (36213145704).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q25999882",
+"https://en.wikipedia.org/wiki/Akira_Santillan"
+],
+"wikidata": "Q25999882",
+"wikipedia": "https://en.wikipedia.org/wiki/Akira_Santillan"
 },
 "a-sasnovich": {
 "image": "File:Sasnovich RG21 (24) (51376296148).jpg",
@@ -240,6 +258,15 @@
 ],
 "wikidata": "Q67088022",
 "wikipedia": "https://it.wikipedia.org/wiki/Alex_Eala"
+},
+"alina-korneeva": {
+"image": "File:Alina Korneeva (2023 French Open) 02.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q116447696",
+"https://it.wikipedia.org/wiki/Alina_Korneeva"
+],
+"wikidata": "Q116447696",
+"wikipedia": "https://it.wikipedia.org/wiki/Alina_Korneeva"
 },
 "amanda-anisimova": {
 "image": "File:Anisimova RG19 (32) (48199400552).jpg",
@@ -465,6 +492,14 @@
 ],
 "wikidata": "Q127421027",
 "wikipedia": "https://en.wikipedia.org/wiki/Cezar_Cre%C8%9Bu"
+},
+"c-hewitt": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q131524026",
+"https://en.wikipedia.org/wiki/Cruz_Hewitt"
+],
+"wikidata": "Q131524026",
+"wikipedia": "https://en.wikipedia.org/wiki/Cruz_Hewitt"
 },
 "c-liu": {
 "image": "File:Claire Liu (2026 US Open) 01 (cropped).jpg",
@@ -886,6 +921,15 @@
 ],
 "wikidata": "Q109771291",
 "wikipedia": "https://it.wikipedia.org/wiki/F%C3%A1bi%C3%A1n_Marozs%C3%A1n"
+},
+"facundo-diaz-acosta": {
+"image": "File:Road 2 Australia - Navone V Diaz Acosta semifinal - BugWarp 139 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q57268922",
+"https://it.wikipedia.org/wiki/Facundo_D%C3%ADaz_Acosta"
+],
+"wikidata": "Q57268922",
+"wikipedia": "https://it.wikipedia.org/wiki/Facundo_D%C3%ADaz_Acosta"
 },
 "federica-urgesi": {
 "sameAs": [
@@ -1722,6 +1766,14 @@
 "wikidata": "Q107641373",
 "wikipedia": "https://en.wikipedia.org/wiki/Lukas_Neumayer"
 },
+"m-alcala-gurri": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q139899297",
+"https://en.wikipedia.org/wiki/Max_Alcal%C3%A1_Gurri"
+],
+"wikidata": "Q139899297",
+"wikipedia": "https://en.wikipedia.org/wiki/Max_Alcal%C3%A1_Gurri"
+},
 "m-bassols": {
 "image": "File:Bassols Ribera WMQ23 (53062105360) (cropped).jpg",
 "sameAs": [
@@ -1773,6 +1825,15 @@
 ],
 "wikidata": "Q127699862",
 "wikipedia": "https://en.wikipedia.org/wiki/Matej_Dodig"
+},
+"m-echargui": {
+"image": "File:Moez Echargui (2026 US Open) 03 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q29110073",
+"https://it.wikipedia.org/wiki/Moez_Echargui"
+],
+"wikidata": "Q29110073",
+"wikipedia": "https://it.wikipedia.org/wiki/Moez_Echargui"
 },
 "m-geerts": {
 "image": "File:2023 Roland Garros Qualifying Tournament - 69.jpg",
@@ -2059,6 +2120,15 @@
 "wikidata": "Q114402278",
 "wikipedia": "https://it.wikipedia.org/wiki/Mirra_Andreeva"
 },
+"n-basavareddy": {
+"image": "File:Nishesh Basavareddy (2024 Cary) 01.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q113889275",
+"https://it.wikipedia.org/wiki/Nishesh_Basavareddy"
+],
+"wikidata": "Q113889275",
+"wikipedia": "https://it.wikipedia.org/wiki/Nishesh_Basavareddy"
+},
 "n-kicker": {
 "image": "File:Nicolas Kicker (19900578701).jpg",
 "sameAs": [
@@ -2193,6 +2263,15 @@
 ],
 "wikidata": "Q105967693",
 "wikipedia": "https://it.wikipedia.org/wiki/Polina_Kudermetova"
+},
+"p-martinez": {
+"image": "File:Martinez RG21 (29) (51376091686).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q52063672",
+"https://it.wikipedia.org/wiki/Pedro_Mart%C3%ADnez_%28tennista%29"
+],
+"wikidata": "Q52063672",
+"wikipedia": "https://it.wikipedia.org/wiki/Pedro_Mart%C3%ADnez_%28tennista%29"
 },
 "p-vives-marcos": {
 "sameAs": [
@@ -2446,6 +2525,15 @@
 "wikidata": "Q24450982",
 "wikipedia": "https://it.wikipedia.org/wiki/Stefanos_Tsitsipas"
 },
+"t-boyer": {
+"image": "File:Tristan Boyer (2023 US Open) 07.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q60237583",
+"https://it.wikipedia.org/wiki/Tristan_Boyer"
+],
+"wikidata": "Q60237583",
+"wikipedia": "https://it.wikipedia.org/wiki/Tristan_Boyer"
+},
 "t-derepasko": {
 "image": "File:Timofei Derepasko 31May24 3865.jpg",
 "sameAs": [
@@ -2525,6 +2613,15 @@
 ],
 "wikidata": "Q17660516",
 "wikipedia": "https://it.wikipedia.org/wiki/Taylor_Fritz"
+},
+"terence-atmane": {
+"image": "File:Atmane RGQ23 (52944022580).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q118809414",
+"https://it.wikipedia.org/wiki/T%C3%A9rence_Atmane"
+],
+"wikidata": "Q118809414",
+"wikipedia": "https://it.wikipedia.org/wiki/T%C3%A9rence_Atmane"
 },
 "tereza-valentova": {
 "image": "File:Tereza Valentová junior French Open (cropped).jpg",
