@@ -7,6 +7,7 @@ import CoverArticolo from '../../components/CoverArticolo.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify, resolveProfileSlug } from '../../lib/hubs.js';
+import { isNoindexArticle } from '../../lib/noindex.js';
 import h2hData from '../../data/h2h.json';
 import playerEntities from '../../data/player_entities.json';
 
@@ -231,7 +232,7 @@ const faq = {
   descrizione={d.descrizione}
   immagine={d.cover_image}
   tipo="article"
-  noindex={d.noindex === true}
+  noindex={isNoindexArticle(d)}
 >
   {d.giocatore1 !== 'Redazione' && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   <script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} />

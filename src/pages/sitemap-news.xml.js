@@ -1,9 +1,10 @@
 // Google News sitemap: articoli pubblicati negli ultimi 48 ore.
 // Google richiede che questa sitemap NON contenga articoli piu' vecchi di 2 giorni.
 import { getCollection } from 'astro:content';
+import { isNoindexArticle } from '../lib/noindex.js';
 
 export async function GET(context) {
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && data.noindex !== true);
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && !isNoindexArticle(data));
   const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
 

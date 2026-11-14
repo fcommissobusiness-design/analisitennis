@@ -290,6 +290,14 @@ Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>" 2>&1 | tee -a "$LOG"
     cd "$HOME/analisitennis"
 fi
 
+# [POST] SEO guard: fotografa il set indicizzato (prevenzione scaled-content).
+# Non blocca: stampa il report nel log e AVVISA se il footprint indicizzato
+# gonfia o la quota noindex scende. Vedi backend/seo_guard.py.
+log_section "[POST] SEO guard (footprint indicizzato)"
+cd "$HOME/analisitennis/backend"
+python3 seo_guard.py 2>&1 | tee -a "$LOG" || true
+cd "$HOME/analisitennis"
+
 log_section "COMPLETATA pipeline - $(date)"
 
 # Sentinel: segna che oggi la pipeline e' completata. Impedisce doppie

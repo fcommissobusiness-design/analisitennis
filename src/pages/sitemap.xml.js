@@ -1,11 +1,13 @@
 import { getCollection } from 'astro:content';
+import { isNoindexArticle } from '../lib/noindex.js';
 import h2hData from '../data/h2h.json';
 import profilesEn from '../data/profiles-en.json';
 
 export async function GET(context) {
   // noindex esclusi dalla sitemap: Google non deve ricevere un segnale "indicizza"
-  // (sitemap) in contraddizione col meta robots noindex sulla pagina.
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && data.noindex !== true);
+  // (sitemap) in contraddizione col meta robots noindex sulla pagina. isNoindexArticle
+  // copre sia il noindex di qualita' (frontmatter) sia la regola eta' 30gg (pronostici).
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && !isNoindexArticle(data));
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
   const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);

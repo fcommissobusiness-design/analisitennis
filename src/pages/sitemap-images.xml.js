@@ -3,11 +3,12 @@
 // di traffico aggiuntivo. Formato ufficiale image-sitemap (solo image:loc,
 // gli altri tag sono ignorati da Google dal 2022).
 import { getCollection } from 'astro:content';
+import { isNoindexArticle } from '../lib/noindex.js';
 
 export async function GET(context) {
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
 
-  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && data.noindex !== true);
+  const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && !isNoindexArticle(data));
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
 

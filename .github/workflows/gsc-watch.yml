@@ -1,0 +1,36 @@
+name: GSC watch
+
+# Allarme precoce SEO: ogni giorno interroga l'API Search Console e, se le
+# impressioni Google crollano oltre soglia (tuffo stile-04/10), il job FALLISCE
+# e GitHub invia la sua email automatica di "workflow fallito" al proprietario.
+# Serve a non ripetere l'errore di PickForMe: una penalty rimasta invisibile per
+# settimane. Vedi backend/gsc_monitor.py.
+#
+# Richiede il secret GSC_SA_JSON (service account con accesso alla proprieta'
+# GSC sc-domain:analisitennis.it). Senza secret il monitor va in standby ed esce
+# 0 (nessun falso rosso): la Action gira ma non segnala finche' il setup non e'
+# completo. Istruzioni di setup: eseguire lo script senza credenziali le stampa.
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # ogni giorno alle 09:00 UTC (dopo l'aggiornamento dati GSC)
+  workflow_dispatch: {}    # esecuzione manuale dal tab Actions
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: pip install --quiet google-auth requests
+      - name: GSC cliff check
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: python3 backend/gsc_monitor.py
