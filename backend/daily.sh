@@ -245,6 +245,13 @@ cd "$HOME/analisitennis"
 # nuovi vengono pushati senza l'immagine di cover e sul sito le foto
 # appaiono broken (404). Il --fix dell'audit cover ha rigenerato
 # eventuali immagini sfasate e vanno committate anche quelle.
+# GUARDIA profili: un SINGOLO profilo malformato (prima riga != '---', es. il
+# JSON grezzo di un backfill glitchato) fa fallire astro build sull'intera
+# collezione -> Cloudflare non pubblica -> deploy bloccato in silenzio (successo
+# il 14/11 con roman-andres-burruchaga.md). Ripara in frontmatter valida quando
+# possibile, altrimenti toglie il file dal commit. Non bloccante (exit 0).
+python3 "$HOME/analisitennis/backend/guard_profiles.py" 2>&1 | tee -a "$LOG" || true
+
 # Committa articoli, profili (giocatori + tornei) e TUTTE le cover in modo
 # ricorsivo (public/covers/ include anche public/covers/tornei/*.jpg, le
 # immagini dell'elenco tornei). Senza il path ricorsivo le cover dei tornei
