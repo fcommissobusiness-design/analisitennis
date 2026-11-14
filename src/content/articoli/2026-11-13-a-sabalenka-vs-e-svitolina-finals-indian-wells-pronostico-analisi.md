@@ -21,10 +21,10 @@ descrizione: "Sabalenka contro Svitolina alle Finals: ultima giornata del girone
 pubblicato: true
 probabilita_favorito: "Sabalenka"
 probabilita_percent: 68
-cover_image: "/covers/2026-11-13-a-sabalenka-vs-e-svitolina-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Keith Allison from Hanover, MD, USA / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:2017 Citi Open Tennis Aryna Sabalenka (35466964844).jpg"
+cover_file: "File:Aryna Sabalenka US Open Final 2024.jpg"
 generato_il: "2026-11-13T07:34+01:00"
+cover_image: "/covers/2026-11-13-a-sabalenka-vs-e-svitolina-finals-indian-wells-pronostico-analisi.jpg"
+cover_credit: "Aryna Sabalenka US Open Final 2024.jpg | Ocoudis | CC0"
 ---
 
 Venerdi sera, mentre in Italia e notte fonda, Aryna Sabalenka ed Elina Svitolina chiudono la fase a gironi delle Finals di fine stagione con un match che non ammette repliche. Non e una semifinale e non e l'ultimo atto del torneo: e l'ultima giornata del loro raggruppamento, e il meccanismo e tanto semplice quanto spietato. Chi vince vola in semifinale, chi perde chiude qui la propria annata. Un **dentro-fuori** secco, affidato a novanta o piu minuti di tennis.

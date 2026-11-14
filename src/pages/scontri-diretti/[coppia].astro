@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug } from '../../lib/hubs.js';
+import { playerSlug, tournamentDisplay } from '../../lib/hubs.js';
 import h2hData from '../../data/h2h.json';
 
 export async function getStaticPaths() {
@@ -90,7 +90,7 @@ const faq = {
               {d.precedenti.map(m => (
                 <tr>
                   <td>{dataIt(m.data)}</td>
-                  <td>{m.torneo}</td>
+                  <td>{tournamentDisplay(m.torneo)}</td>
                   <td>{m.g1} {m.risultato} {m.g2}</td>
                   <td>{vincitore(m)}</td>
                 </tr>
@@ -106,7 +106,7 @@ const faq = {
               {nostre.map(a => (
                 <li>
                   <a href={`/articoli/${a.slug}`}>
-                    <div class="corr-eyebrow">{a.data.categoria} · {a.data.torneo}</div>
+                    <div class="corr-eyebrow">{a.data.categoria} · {tournamentDisplay(a.data.torneo)}</div>
                     <div class="corr-titolo">{a.data.titolo}</div>
                     <div class="corr-data">{new Date(a.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long' })}</div>
                   </a>

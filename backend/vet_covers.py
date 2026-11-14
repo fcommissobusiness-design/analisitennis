@@ -102,6 +102,13 @@ PROMPT = (
     "e' un tabellone da tennis e sullo sfondo si intravede il campo.\n"
     "- Una FOLLA, gli spettatori o le TRIBUNE che DOMINANO la foto senza un "
     "giocatore chiaramente riconoscibile e in azione in primo piano: NO.\n"
+    "- Una SCRITTA, un CARTELLONE, uno striscione o un backdrop con il NOME di "
+    "una CITTA', di un TORNEO o di una SEDE ben LEGGIBILE e in EVIDENZA (che "
+    "occupa una parte importante dell'inquadratura o fa da sfondo dominante "
+    "dietro al giocatore, es. un muro con scritto 'WASHINGTON D.C.' o il nome di "
+    "uno sponsor-titolo di un altro evento): NO, perche' puo' contraddire il "
+    "torneo dell'articolo e distrae. Piccoli loghi o scritte SFOCATI e marginali "
+    "sul fondo sono tollerati; conta solo il testo grande e nitido in evidenza.\n"
     "- Una strada, un paesaggio urbano, un edificio generico o il suo esterno "
     "notturno, una cerimonia/premiazione, un altro sport, un gruppo di persone "
     "in giacca, un volto buio da conferenza, un logo o un cartellone.\n"
@@ -136,11 +143,16 @@ def vet_image(path: Path, timeout=120) -> tuple[bool, str]:
 def main():
     args = sys.argv[1:]
     date = None
+    only = None
     for a in args:
         if a.startswith('--date='):
             date = a.split('=', 1)[1]
+        elif a.startswith('--only='):
+            only = a.split('=', 1)[1].lower()
     pattern = f'{date}-*.md' if date else '2026-*.md'
     articoli = [a for a in sorted(ARTICOLI.glob(pattern)) if 'benvenuti' not in a.name]
+    if only:
+        articoli = [a for a in articoli if only in a.stem.lower()]
 
     report = []
     ko = 0

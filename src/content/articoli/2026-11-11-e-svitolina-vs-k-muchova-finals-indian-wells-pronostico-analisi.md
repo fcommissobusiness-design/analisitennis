@@ -22,10 +22,11 @@ descrizione: "Svitolina contro Muchova nel match del girone che vale la permanen
 pubblicato: true
 probabilita_favorito: "Svitolina"
 probabilita_percent: 57
-cover_file: "File:Elina Svitolina (2023 DC Open) 35.jpg"
+cover_file: "File:Karolina Muchova at US Open 2024.jpg"
+cover_focus: 26
 generato_il: "2026-11-11T07:39+01:00"
 cover_image: "/covers/2026-11-11-e-svitolina-vs-k-muchova-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Karolina Muchova at US Open 2024.jpg | Nader Farzan | CC0"
 ---
 
 C'è un momento, nei tornei di fine stagione, in cui una partita di fase a gironi smette di essere una formalità e diventa una soglia. È esattamente la situazione in cui si presentano oggi **Elina Svitolina** e **Karolina Muchova**: nessuna delle due arriva con il vento in poppa, perché entrambe hanno perso il proprio match d'apertura nel girone, e questo trasforma un incontro di round robin in un confronto che pesa come un dentro-o-fuori. Chi perde finisce con due sconfitte e vede allontanarsi quasi del tutto il passaggio del turno; chi vince resta aggrappata alla corsa in vista dell'ultima giornata. La cornice, insomma, non è quella di una finale, ma la posta somiglia molto a quella di un atto conclusivo.

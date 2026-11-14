@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { findRanking, samePersonLoose } from '../../lib/hubs.js';
+import { findRanking, samePersonLoose, tournamentDisplay } from '../../lib/hubs.js';
 import profilesEn from '../../data/profiles-en.json';
 import standingsAtp from '../../data/standings-atp.json';
 import standingsWta from '../../data/standings-wta.json';
@@ -103,7 +103,7 @@ if (d.nazionalita) faqItems.push({ q: `Di dov'è ${d.nome}?`, a: `${d.nome} gioc
 if (eta) faqItems.push({ q: `Quanti anni ha ${d.nome}?`, a: `${d.nome} ha ${eta} anni${annoNascita ? ` (classe ${annoNascita})` : ''}.` });
 if (d.stile_gioco) faqItems.push({ q: `Che stile di gioco ha ${d.nome}?`, a: `Il gioco di ${d.nome} si caratterizza per ${d.stile_gioco}.` });
 if (d.superficie_preferita) faqItems.push({ q: `Qual è la superficie preferita di ${d.nome}?`, a: `${d.nome} rende al meglio su ${d.superficie_preferita}.` });
-if (d.titoli) faqItems.push({ q: `Quali titoli ha vinto ${d.nome}?`, a: `In carriera ${d.nome} ha conquistato ${d.titoli}.` });
+if (d.titoli) faqItems.push({ q: `Quali sono i migliori risultati di ${d.nome}?`, a: `Tra i risultati più importanti in carriera di ${d.nome}: ${d.titoli}.` });
 
 // hreflang reciproco verso la versione inglese, solo se esiste (pilota EN).
 const enAlternates = profilesEn[d.slug_profilo]
@@ -161,7 +161,7 @@ const faqSchema = faqItems.length >= 2 ? {
           {d.data_nascita && <div><strong>{natoLabel}</strong>{' '}{d.data_nascita}{eta ? ` (${eta} anni)` : ''}</div>}
           {d.categoria && <div><strong>Circuito</strong>{' '}{d.categoria}</div>}
           {d.superficie_preferita && <div><strong>Superficie</strong>{' '}{d.superficie_preferita}</div>}
-          {d.titoli && <div><strong>Titoli vinti</strong>{' '}{d.titoli}</div>}
+          {d.titoli && <div><strong>Risultati principali</strong>{' '}{d.titoli}</div>}
           {d.stile_gioco && <div><strong>Stile di gioco</strong>{' '}{d.stile_gioco}</div>}
         </div>
         <div class="articolo-corpo">
@@ -180,7 +180,7 @@ const faqSchema = faqItems.length >= 2 ? {
                   <li>
                     <a href={`/articoli/${a.slug}`}>
                       <span class="art-data">{dataIt}</span>
-                      <span class="art-titolo">vs {avv} - {a.data.torneo}</span>
+                      <span class="art-titolo">vs {avv} - {tournamentDisplay(a.data.torneo)}</span>
                     </a>
                   </li>
                 );

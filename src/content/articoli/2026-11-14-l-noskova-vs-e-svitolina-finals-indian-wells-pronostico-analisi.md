@@ -22,10 +22,10 @@ descrizione: "Semifinale alle Finals tra Linda Nosková ed Elina Svitolina: scon
 pubblicato: true
 probabilita_favorito: "Nosková"
 probabilita_percent: 61
-cover_file: "File:Elina Svitolina (2023 DC Open) 34.jpg"
+cover_file: "File:Elina Svitolina (19319357939).jpg"
 generato_il: "2026-11-14T07:34+01:00"
 cover_image: "/covers/2026-11-14-l-noskova-vs-e-svitolina-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Elina Svitolina (19319357939).jpg | Carine06 from UK | CC BY-SA 2.0"
 ---
 
 C'è un contrasto che anima la semifinale tra **Linda Nosková** ed **Elina Svitolina** molto prima del primo scambio. La ceca, che compirà ventidue anni il 17 novembre, è la rappresentante della generazione che preme verso l'alto; l'ucraina, trentadue anni, porta con sé un bagaglio di partite importanti costruito in oltre un decennio di circuito. Due storie agli antipodi che si incrociano a fine stagione per **un posto in finale**, al termine di una settimana intensa per entrambe.
