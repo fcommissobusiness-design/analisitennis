@@ -3502,5 +3502,41 @@
         "winner": "First Player"
       }
     ]
+  },
+  "arthur-fils-vs-ben-shelton": {
+    "p1": "Arthur Fils",
+    "p2": "Ben Shelton",
+    "slug_p1": "arthur-fils",
+    "slug_p2": "ben-shelton",
+    "bilancio": {
+      "p1": 1,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2024-10-26",
+        "torneo": "ATP Basel",
+        "g1": "B. Shelton",
+        "g2": "A. Fils",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-09-29",
+        "torneo": "ATP Tokyo",
+        "g1": "A. Fils",
+        "g2": "B. Shelton",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-09-22",
+        "torneo": "ATP Laver Cup",
+        "g1": "A. Fils",
+        "g2": "B. Shelton",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
   }
 }
