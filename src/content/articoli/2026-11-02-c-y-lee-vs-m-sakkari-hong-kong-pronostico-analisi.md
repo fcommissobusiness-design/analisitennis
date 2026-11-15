@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi nettamente Sakkari: il livello delle avversarie affrontate nelle ultime settimane pende con decisione dalla sua parte, e la greca ha i mezzi per imporre ritmo e profondità da fondo già dai primi scambi."
 descrizione: "Primo turno del WTA di Hong Kong tra C. Y. Lee e M. Sakkari: forma recente, livello degli avversari e stile di gioco a confronto in una sfida da seguire."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sakkari"
 probabilita_percent: 69
 generato_il: "2026-11-02T07:15"

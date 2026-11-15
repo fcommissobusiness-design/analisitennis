@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Falei: si presenta con un filotto di vittorie e un bilancio recente molto più solido, mentre Linette non trova continuità di risultati ormai da diverse settimane. Il momento di forma pende con chiarezza dalla sua parte."
 descrizione: "Falei e Linette si sfidano al primo turno di Chennai 2026: forma recente, stile di gioco, superficie e assenza di precedenti diretti tra le due giocatrici."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Falei"
 probabilita_percent: 71
 cover_image: "/covers/2026-11-02-a-falei-vs-m-linette-chennai-pronostico-analisi.jpg"

@@ -25,8 +25,12 @@ from select_matches import classifica_tier, featured_star
 
 DATA = Path(__file__).resolve().parent.parent / 'src' / 'data'
 
-KEEP_ATP = 50   # miglior giocatore entro questo rank ATP -> si indicizza
-KEEP_WTA = 45   # idem lato WTA
+KEEP_ATP = 30   # miglior giocatore entro questo rank ATP -> si indicizza
+KEEP_WTA = 25   # idem lato WTA
+# 15/11: abbassate 50->30 ATP / 45->25 WTA dopo il crollo GSC del 09/11 per
+# ridurre il footprint programmatico indicizzato; copriamo solo match con
+# protagonisti di cartello, marquee (Slam/Masters/WTA1000), giocatori di
+# richiamo (STAR_SURNAMES) e finali 500 — vedi should_noindex() sotto.
 MARQUEE = {'SLAM', 'MASTERS', 'WTA1000'}
 
 

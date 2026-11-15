@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: Borges e Buse si equivalgono e lo scenario più plausibile è un 2-1 deciso nei dettagli. Il precedente di Coppa Davis e la settimana parigina danno a Buse appena un'inezia di vantaggio, non di più."
 descrizione: "Nuno Borges e Ignacio Buse si ritrovano agli ottavi del Masters di Parigi dopo aver eliminato Khachanov e Medvedev: numeri, precedente e forma a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Buse"
 probabilita_percent: 52
 cover_image: "/covers/2026-11-05-n-borges-vs-i-buse-paris-pronostico-analisi.jpg"

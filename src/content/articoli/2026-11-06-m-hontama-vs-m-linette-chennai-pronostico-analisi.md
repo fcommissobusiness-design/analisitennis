@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Hontama: dalla sua ha l'unico precedente, vinto ad Atene in luglio in due set, e un rendimento complessivo delle ultime settimane un filo più continuo. Margine comunque stretto, con Linette anche lei lanciata da due successi a Chennai."
 descrizione: "Mai Hontama e Magda Linette si affrontano ai quarti del WTA di Chennai sul cemento indiano: forma delle ultime settimane, precedente di Atene e numeri a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Hontama"
 probabilita_percent: 61
 generato_il: "2026-11-06T07:31"

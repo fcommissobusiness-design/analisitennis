@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: l'unico precedente sorride a Sakkari, la condizione del momento a Sasnovich. Scenario più plausibile un 2-1, con la bielorussa leggermente avanti per la maggior continuità mostrata nelle ultime settimane."
 descrizione: "Ai quarti del torneo di Hong Kong si affrontano Aliaksandra Sasnovich e Maria Sakkari: forma recente contro l'unico precedente del 2023, sul cemento."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sasnovich"
 probabilita_percent: 53
 generato_il: "2026-11-06T07:08"

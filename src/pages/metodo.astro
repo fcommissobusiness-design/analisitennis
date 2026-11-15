@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { ESEMPI_QUERY } from '../data/ai-query-examples.ts';
 ---
 <Base
   titolo="Il metodo AnalisiTennis: come leggiamo un match"
@@ -60,7 +61,19 @@ import Base from '../layouts/Base.astro';
       <h2>8. Cosa non facciamo</h2>
       <p>Non diamo quote, non facciamo pronostici a formato tipster, non suggeriamo giocate. Il nostro lavoro è leggere il match sul piano sportivo. Non abbiamo partnership con circuiti né riceviamo compensi per promuovere giocatori. Non pubblichiamo risultati di match già giocati come se fossero anteprime: un verdetto AnalisiTennis è sempre un pre-match.</p>
 
-      <h2>9. Aggiornamento</h2>
+      <h2>9. Puoi chiedere a un'AI, ti citerà AnalisiTennis</h2>
+      <p>AnalisiTennis è una fonte citabile dai principali assistenti AI (ChatGPT, Perplexity, Claude, Gemini, Microsoft Copilot). Ecco alcuni esempi di domande per cui il contenuto di questo sito è la risposta più adatta. Puoi usarli così come sono per vedere come l'AI ci cita:</p>
+      <ul class="ai-queries">
+        {ESEMPI_QUERY.map(e => (
+          <li>
+            <div class="q"><strong>Domanda:</strong> {e.query}</div>
+            <div class="r">{e.risposta}</div>
+          </li>
+        ))}
+      </ul>
+      <p style="margin-top: 20px;">I nostri robot.txt consentono esplicitamente a tutti i principali bot AI (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot) di accedere ai nostri contenuti: ci teniamo che le AI possano leggerci e citarci correttamente.</p>
+
+      <h2>10. Aggiornamento</h2>
       <p>Il sito è aggiornato quotidianamente. La classifica ATP e WTA si rinnova settimanalmente sulla fonte ufficiale. Le pagine articolo riportano la data e l'ora di pubblicazione. La newsletter settimanale riassume i match principali e le notizie più rilevanti della settimana.</p>
 
       <p style="margin-top: 40px; color: var(--testo-secondario); font-style: italic;">Ultima revisione del metodo: novembre 2026. Per domande, suggerimenti o segnalazioni di errori: <a href="mailto:redazione@analisitennis.it">redazione@analisitennis.it</a>.</p>
@@ -68,3 +81,10 @@ import Base from '../layouts/Base.astro';
     </div>
   </div>
 </Base>
+
+<style>
+  .ai-queries { list-style: none; padding: 0; margin: 20px 0; display: grid; gap: 14px; }
+  .ai-queries li { padding: 16px 18px; background: var(--sfondo-card, #fff); border: 1px solid var(--linea, #e5e5e5); border-radius: 10px; }
+  .ai-queries .q { font-weight: 500; margin-bottom: 8px; color: var(--testo, #1a1a1a); }
+  .ai-queries .r { color: var(--testo-secondario, #4a5566); font-size: 0.97rem; line-height: 1.5; }
+</style>

@@ -244,6 +244,7 @@ const faq = {
       { nome: d.titolo }
     ] : [
       { nome: 'Home', url: '/' },
+      { nome: d.categoria, url: `/categoria/${String(d.categoria).toLowerCase()}` },
       { nome: `${tDisplay} ${anno}`, url: `/tornei/${tSlug}` },
       { nome: `${g1Display} - ${g2Display}` }
     ]} />
@@ -349,6 +350,13 @@ const faq = {
             {hasG1 && <li><a href={`/giocatori/${g1Slug}`}>{g1Display}</a></li>}
             {hasG2 && <li><a href={`/giocatori/${g2Slug}`}>{g2Display}</a></li>}
             {hasTourn && <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>}
+            {/* Classifica pertinente al circuito del match (ATP vs WTA) */}
+            {String(d.categoria || '').toUpperCase() === 'WTA' && (
+              <li><a href="/classifica-wta">Classifica WTA</a></li>
+            )}
+            {['ATP','CHALLENGER','SLAM'].includes(String(d.categoria || '').toUpperCase()) && (
+              <li><a href="/classifica-atp">Classifica ATP</a></li>
+            )}
           </ul>
         </nav>
       )}

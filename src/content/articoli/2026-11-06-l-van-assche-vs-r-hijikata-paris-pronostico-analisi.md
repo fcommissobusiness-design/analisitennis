@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito netto: due corse lanciate sul cemento indoor e nessun precedente promettono grande equilibrio. Lo scenario più plausibile è un 2-1, con il set di scarto che può cadere da una parte o dall'altra."
 descrizione: "Rolex Paris Masters, quarti di finale: Luca van Assche contro Rinky Hijikata, due percorsi a sorpresa che si incontrano per la prima volta sul veloce."
 pubblicato: true
+noindex: true
 probabilita_favorito: "van Assche"
 probabilita_percent: 52
 generato_il: "2026-11-06T07:31"

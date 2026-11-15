@@ -19,6 +19,7 @@ tag:
 verdetto: "Match da terzo set senza un favorito chiaro: l'unico precedente, un successo di Hanfmann nel 2025, pesa poco di fronte a due settimane recenti di segno positivo. Struff arriva dalla finale di Bruxelles, Hanfmann dalle qualificazioni superate qui a Basilea."
 descrizione: "Yannick Hanfmann sfida Jan-Lennard Struff al primo turno di Basilea: unico precedente, forma recente e stile di gioco a confronto in un derby tedesco indoor."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-28-y-hanfmann-vs-j-l-struff-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Hanfmann WMQ22 (18) (52191655955).jpg"

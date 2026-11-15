@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Sasnovich: ha vinto entrambi i confronti del 2026 e arriva con un ruolino recente più regolare. Gibson però resta capace di accendersi e di portarla fino al terzo set."
 descrizione: "Gibson e Sasnovich si ritrovano al secondo turno di Hong Kong dopo due incroci nel 2026: forma, precedenti e stile sul cemento a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Sasnovich"
 probabilita_percent: 63
 generato_il: "2026-11-04T07:44"

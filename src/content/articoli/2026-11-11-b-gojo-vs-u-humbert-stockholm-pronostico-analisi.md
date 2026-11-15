@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Humbert: su un campo lento che valorizza il suo gioco da fondo e la qualità in risposta parte leggermente avanti, ma il margine è minimo e Gojo, più in ritmo e solido alla battuta, può spingerlo al terzo set."
 descrizione: "Gojo e Humbert si affrontano agli ottavi di Stoccolma sul cemento indoor: servizio contro gioco da fondo, forma recente e primo confronto tra i due."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Humbert"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-11-b-gojo-vs-u-humbert-stockholm-pronostico-analisi.jpg"

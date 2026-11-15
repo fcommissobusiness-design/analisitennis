@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Linette: ha vinto il recente confronto di Guangzhou in due set e arriva alla semifinale con un cammino continuo sul cemento. Margine comunque sottile, con Zakharova pienamente dentro la partita, forte anch'essa di tre vittorie in settimana."
 descrizione: "Linette e Zakharova si ritrovano a Chennai a dieci giorni dal confronto di Guangzhou: semifinale WTA sul cemento, analisi di forma e precedenti."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Linette"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi.jpg"

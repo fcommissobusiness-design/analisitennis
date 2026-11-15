@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Tjen: arriva all'ultimo atto con un bilancio recente più solido e la fiducia di chi ha già regolato avversarie come Kudermetova, mentre Linette ha ritrovato la continuità soltanto in questa settimana."
 descrizione: "Janice Tjen e Magda Linette si giocano la finale di Chennai sul cemento: quattro vittorie a testa, nessun precedente diretto. Analisi del match WTA."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Tjen"
 probabilita_percent: 59
 cover_file: "File:Magda Linette (42043608240).jpg"

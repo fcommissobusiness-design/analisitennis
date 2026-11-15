@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Samsonova: il bagaglio del grande circuito e la potenza sul cemento pesano più dei livelli diversi affrontati finora. La forma brillante di Shubladze, però, promette resistenza e un set tutt'altro che scontato."
 descrizione: "A Hong Kong si incrociano la corsa recente di Shubladze e l'esperienza da grande circuito di Samsonova: forma, cemento e percorsi opposti a confronto."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Samsonova"
 probabilita_percent: 59
 generato_il: "2026-11-03T10:41"

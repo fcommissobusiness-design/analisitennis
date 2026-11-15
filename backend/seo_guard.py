@@ -27,9 +27,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ART = ROOT / 'src/content/articoli'
 
-AGE_DAYS = 30                 # deve combaciare con NOINDEX_AGE_DAYS di src/lib/noindex.js
-WARN_INDEXED_MAX = 250        # oltre = footprint pronostici troppo grande
-WARN_NOINDEX_RATIO_MIN = 0.45 # sotto = troppa roba indicizzata rispetto al totale
+AGE_DAYS = 14                 # deve combaciare con NOINDEX_AGE_DAYS di src/lib/noindex.js
+WARN_INDEXED_MAX = 150        # oltre = footprint pronostici troppo grande (tetto sano ~90 con nuove soglie)
+WARN_NOINDEX_RATIO_MIN = 0.60 # sotto = troppa roba indicizzata rispetto al totale
 
 
 def _parse(path: Path):
@@ -47,7 +47,6 @@ def main():
     cut = today - datetime.timedelta(days=AGE_DAYS)
 
     tot = q_noindex = age_noindex = indexed = 0
-    indexed_stale = []  # indicizzati ma > 30gg (incoerenza)
     for f in sorted(ART.glob('2026-*.md')):
         if 'benvenuti' in f.name:
             continue
@@ -58,11 +57,9 @@ def main():
         if noidx:
             q_noindex += 1
         elif date < cut:
-            age_noindex += 1
+            age_noindex += 1  # al build diventa noindex via src/lib/noindex.js
         else:
             indexed += 1
-        if not noidx and date < cut:
-            indexed_stale.append(f.stem)  # dovrebbe essere 0 (la regola eta' li esclude)
 
     noindex_tot = q_noindex + age_noindex
     ratio = (noindex_tot / tot) if tot else 0.0
@@ -72,9 +69,6 @@ def main():
         warnings.append(f'footprint indicizzato alto: {indexed} pronostici (soglia {WARN_INDEXED_MAX}) -> valuta di abbassare KEEP_ATP/KEEP_WTA in noindex_policy.py o la finestra eta')
     if ratio < WARN_NOINDEX_RATIO_MIN:
         warnings.append(f'quota noindex bassa: {ratio:.0%} (minimo sano {WARN_NOINDEX_RATIO_MIN:.0%}) -> troppa superficie indicizzata')
-    # indexed_stale e' solo un segnale di build vecchia, non un rischio di per se'
-    if len(indexed_stale) > 20:
-        warnings.append(f'{len(indexed_stale)} articoli indicizzati > {AGE_DAYS}gg: il sito potrebbe non ribuildare da giorni (la regola eta e build-time)')
 
     report = {
         'data': today.isoformat(),

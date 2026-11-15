@@ -20,6 +20,7 @@ tag:
 verdetto: "Oggi la può spuntare Nuno Borges: il tasso tecnico mostrato di recente contro avversari di vertice e la dimestichezza col cemento del grande circuito pesano più del pur ottimo momento di forma di Brunold, atteso qui a una prova di maturità."
 descrizione: "Mika Brunold e Nuno Borges si sfidano al primo turno dell'ATP di Basilea sul cemento indoor: un inedito assoluto tra forma brillante e pedigree di livello."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-m-brunold-vs-n-borges-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"

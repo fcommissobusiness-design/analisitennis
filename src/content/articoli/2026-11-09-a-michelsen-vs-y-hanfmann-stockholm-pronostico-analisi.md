@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Michelsen: forma recente più convincente sul veloce, un precedente a senso unico alle spalle e la freschezza atletica del ventiduenne contro un veterano spesso costretto ai tre set. Hanfmann resta insidioso se serve con continuità e porta il match sul piano fisico."
 descrizione: "Michelsen contro Hanfmann a Stoccolma: forma recente, un solo precedente e due stili simili per fisico ma lontani per anagrafe. L'analisi del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Michelsen"
 probabilita_percent: 62
 cover_image: "/covers/2026-11-09-a-michelsen-vs-y-hanfmann-stockholm-pronostico-analisi.jpg"

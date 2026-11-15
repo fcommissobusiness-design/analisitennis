@@ -15,11 +15,40 @@ const top = data.righe.slice(0, 5).map(r => `${r.place}. ${r.player}`).join(', '
 const dataIt = data.aggiornato_il
   ? new Date(data.aggiornato_il).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
   : '';
+
+const n1 = data.righe[0]?.player;
+const faq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Chi è il numero 1 del ranking ATP?',
+      acceptedAnswer: { '@type': 'Answer', text: `Attuale numero 1 del ranking ATP: ${n1}${dataIt ? ` (aggiornamento al ${dataIt})` : ''}. La top 5 completa: ${top}.` }
+    },
+    {
+      '@type': 'Question',
+      name: 'Come funziona il ranking ATP?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Il ranking ATP è su base 52 settimane: ogni giocatore porta i punti dei migliori 19 tornei disputati nelle ultime 52 settimane, con i 4 Slam e gli 8 Masters 1000 obbligatori se partecipati. Si aggiorna ogni lunedì sul sito ufficiale ATP.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Qual è la differenza tra ranking ATP e ATP Race?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Il ranking ATP è su base 52 settimane (classifica rolling). L\'ATP Race parte invece dal 1 gennaio di ogni anno e serve a determinare i qualificati per le ATP Finals di fine stagione: solo i primi 8 della Race accedono al torneo di Torino.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Dove trovo i tennisti italiani in classifica ATP?',
+      acceptedAnswer: { '@type': 'Answer', text: 'L\'elenco aggiornato degli italiani in classifica ATP e WTA, con i loro match di giornata, è nella pagina dedicata su analisitennis.it/italiani.' }
+    },
+  ]
+};
 ---
 <Base
   titolo={`Classifica ATP${dataIt ? ' ' + dataIt : ''}: top 100 e punti aggiornati`}
   descrizione={`Ranking ATP aggiornato${dataIt ? ' al ' + dataIt : ''}: la top 100 del tennis maschile con punti, nazionalità e vetta a ${data.righe[0]?.player}. Dati freschi, nessun ritardo.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Classifica ATP' }]} />
   </div>

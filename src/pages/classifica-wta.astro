@@ -14,11 +14,40 @@ const top = data.righe.slice(0, 5).map(r => `${r.place}. ${r.player}`).join(', '
 const dataIt = data.aggiornato_il
   ? new Date(data.aggiornato_il).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
   : '';
+
+const n1 = data.righe[0]?.player;
+const faq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Chi è la numero 1 del ranking WTA?',
+      acceptedAnswer: { '@type': 'Answer', text: `Attuale numero 1 del ranking WTA: ${n1}${dataIt ? ` (aggiornamento al ${dataIt})` : ''}. La top 5 completa: ${top}.` }
+    },
+    {
+      '@type': 'Question',
+      name: 'Come funziona il ranking WTA?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Il ranking WTA è su base 52 settimane: ogni giocatrice porta i punti dei migliori 16 tornei disputati nelle ultime 52 settimane, con i 4 Slam e i WTA 1000 obbligatori se partecipati. Si aggiorna ogni lunedì sul sito ufficiale WTA.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Qual è la differenza tra ranking WTA e WTA Race?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Il ranking WTA è su base 52 settimane (classifica rolling). La WTA Race parte invece dal 1 gennaio di ogni anno e serve a determinare le qualificate per le WTA Finals di fine stagione: solo le prime 8 della Race accedono al torneo.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Dove trovo le tenniste italiane in classifica WTA?',
+      acceptedAnswer: { '@type': 'Answer', text: 'L\'elenco aggiornato delle italiane in classifica WTA e ATP, con i loro match di giornata, è nella pagina dedicata su analisitennis.it/italiani.' }
+    },
+  ]
+};
 ---
 <Base
   titolo={`Classifica WTA${dataIt ? ' ' + dataIt : ''}: top 100 e punti aggiornati`}
   descrizione={`Ranking WTA aggiornato${dataIt ? ' al ' + dataIt : ''}: la top 100 del tennis femminile con punti, nazionalità e vetta a ${data.righe[0]?.player}. Dati freschi, nessun ritardo.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Classifica WTA' }]} />
   </div>

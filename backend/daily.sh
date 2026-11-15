@@ -316,6 +316,32 @@ touch "$SENTINEL"
 #     arrivano con calma e vengono committati al run successivo.
 log_section "[POST] Profili editoriali + copertura azzurri/top-100 (background)"
 cd "$HOME/analisitennis/backend"
-nohup bash -c 'python3 generate_profiles.py backfill; python3 generate_profiles.py italiani 6; python3 generate_profiles.py coverage 8' \
-    > "$LOG_DIR/profiles_${OGGI}.log" 2>&1 &
-log "Lanciato backfill + italiani + coverage profili in background (pid $!)"
+# A fine backfill facciamo ANCHE un commit+push dedicato dei profili nuovi, cosi'
+# non restano untracked fino al giro del giorno dopo (il torneo IN CORSO oggi
+# deve avere il suo hub live subito, non domani). Il commit tocca solo le due
+# collezioni profilo (git add mirato), la guardia profili le ripara se rotte,
+# e il push ritenta 5 volte per eventuali conflitti col push principale. Non
+# blocca nulla: se il commit fallisce (nessun profilo nuovo, race, ecc.) si
+# procede. Vedi memoria project-analisitennis-deploy sul buco "untracked backfill".
+nohup bash -c '
+  cd "$HOME/analisitennis/backend"
+  python3 generate_profiles.py backfill
+  python3 generate_profiles.py italiani 6
+  python3 generate_profiles.py coverage 8
+  cd "$HOME/analisitennis"
+  python3 backend/guard_profiles.py
+  git add src/content/giocatori-profilo/*.md src/content/tornei-profilo/*.md public/covers/tornei/*.jpg public/covers/tornei/*.webp 2>/dev/null
+  if ! git diff --cached --quiet; then
+    git commit -m "Profili arricchiti '"$OGGI"'
+
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>"
+    tries=0
+    until git push origin main; do
+      tries=$((tries+1))
+      if [ "$tries" -ge 5 ]; then break; fi
+      sleep 30
+      git pull --rebase origin main || true
+    done
+  fi
+' > "$LOG_DIR/profiles_${OGGI}.log" 2>&1 &
+log "Lanciato backfill + italiani + coverage profili + commit+push finale (pid $!)"

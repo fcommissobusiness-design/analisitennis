@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Uchijima: la giapponese ha vinto l'ultimo dei tre precedenti e arriva con un bilancio recente leggermente più solido. Match comunque stretto, con Linette capace di restare aggrappata grazie all'esperienza."
 descrizione: "A Chennai Moyuka Uchijima e Magda Linette tornano a incrociarsi negli ottavi di finale: tre precedenti alle spalle e un momento di forma tutto da leggere."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Uchijima"
 probabilita_percent: 58
 generato_il: "2026-11-05T07:31"

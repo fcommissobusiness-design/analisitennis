@@ -1001,6 +1001,32 @@ def slug_of(path: Path) -> str:
     return path.stem
 
 
+def _suggest_cover_focus(cover_rel: str):
+    """Se la cover scaricata e' VERTICALE, suggerisce un cover_focus basso per
+    inquadrare la testa invece di tagliarla. Il frame CoverArticolo e' landscape
+    con default object-position: center 20% (va bene per foto landscape, male
+    per verticali in cui la testa e' a y~10-15%). Ritorna un int 0-100 o None.
+    Lezione dal classic check 15/11: Svitolina-Andreeva e Shelton-Fils con foto
+    verticali avevano la testa tagliata al naso/mento."""
+    try:
+        from PIL import Image as _I
+        p = (Path(__file__).resolve().parent.parent / 'public' / cover_rel.lstrip('/'))
+        if not p.exists():
+            return None
+        with _I.open(p) as im:
+            w, h = im.size
+        if w <= 0:
+            return None
+        ratio = h / w
+        if ratio >= 1.3:   # molto portrait (tipo 1180x1795 = 1.52)
+            return 10
+        if ratio >= 1.1:   # leggermente portrait
+            return 15
+        return None        # landscape: usa default (center 20%)
+    except Exception:
+        return None
+
+
 def update_frontmatter(path: Path, cover_rel: str, credit: str):
     fm, text = parse_frontmatter(path)
     if fm is None:
@@ -1014,14 +1040,32 @@ def update_frontmatter(path: Path, cover_rel: str, credit: str):
         return False
     fm_lines = lines[starts[0] + 1:starts[1]]
     body = lines[starts[1] + 1:]
-    # rimuovi vecchi cover_image / cover_credit se presenti
-    fm_lines = [l for l in fm_lines if not l.startswith('cover_image:') and not l.startswith('cover_credit:')]
+    # cover_focus esistente (manuale) va preservato se c'e'
+    had_manual_focus = any(l.startswith('cover_focus:') for l in fm_lines)
+    # rimuovi vecchi cover_image / cover_credit / cover_focus (verranno riscritti)
+    fm_lines = [l for l in fm_lines
+                if not l.startswith('cover_image:')
+                and not l.startswith('cover_credit:')
+                and not l.startswith('cover_focus:')]
     # Sanifica: alcuni titoli Commons contengono virgolette doppie (es.
     # Ice Palace "Almaty Arena".jpg) che romperebbero la stringa YAML.
     safe_credit = (credit or '').replace('"', "'")
     safe_rel = (cover_rel or '').replace('"', "'")
     fm_lines.append(f'cover_image: "{safe_rel}"')
     fm_lines.append(f'cover_credit: "{safe_credit}"')
+    # cover_focus automatico sulle verticali (preserva valore manuale se c'era)
+    focus = _suggest_cover_focus(safe_rel)
+    if focus is not None or had_manual_focus:
+        # Ri-leggi il valore manuale precedente, se presente, per preservarlo
+        if had_manual_focus:
+            raw_fm = '\n'.join(lines[starts[0] + 1:starts[1]])
+            m = re.search(r'^cover_focus:\s*(\S+)', raw_fm, re.M)
+            if m:
+                fm_lines.append(f'cover_focus: {m.group(1)}')
+            elif focus is not None:
+                fm_lines.append(f'cover_focus: {focus}')
+        else:
+            fm_lines.append(f'cover_focus: {focus}')
     new = ['---'] + fm_lines + ['---'] + body
     path.write_text('\n'.join(new) + ('\n' if raw.endswith('\n') else ''))
     return True

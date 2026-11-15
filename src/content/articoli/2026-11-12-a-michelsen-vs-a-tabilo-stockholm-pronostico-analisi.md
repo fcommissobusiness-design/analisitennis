@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la puo spuntare Michelsen: forma piu solida nelle ultime uscite, maggiore freschezza dopo un turno chiuso in due set e il precedente di Miami dalla sua parte. Tabilo resta insidioso se il fisico regge e riesce a portare lo scambio sul palleggio."
 descrizione: "Michelsen contro Tabilo ai quarti di Stoccolma, sul cemento: forma, freschezza fisica, incrocio destro-mancino e un solo precedente. L'anteprima."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Michelsen"
 probabilita_percent: 63
 cover_image: "/covers/2026-11-12-a-michelsen-vs-a-tabilo-stockholm-pronostico-analisi.jpg"

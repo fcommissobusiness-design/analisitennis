@@ -32,11 +32,49 @@ for (const t of tornei) {
   });
 }
 const mesi = [...perMese.values()].sort((a, b) => b.ord - a.ord);
+const annoCorrente = new Date().getFullYear();
+const faq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Quando iniziano gli Australian Open?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Gli Australian Open sono il primo Slam della stagione e si giocano a Melbourne, di norma dalla terza settimana di gennaio per due settimane.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Quando si gioca il Roland Garros?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Il Roland Garros (Open di Francia) è lo Slam sulla terra battuta e si disputa a Parigi dalla fine di maggio alla prima settimana di giugno.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Quando si gioca Wimbledon?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Wimbledon è lo Slam sull\'erba, giocato a Londra tra fine giugno e inizio luglio, per due settimane.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Quando si giocano gli US Open?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Gli US Open sono l\'ultimo Slam della stagione, giocati a New York dalla fine di agosto all\'inizio di settembre, per due settimane.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Quando si giocano le ATP Finals?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Le Nitto ATP Finals chiudono la stagione maschile e si giocano a Torino nella seconda metà di novembre. Partecipano i migliori 8 della ATP Race.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Quali sono i Masters 1000?',
+      acceptedAnswer: { '@type': 'Answer', text: 'I 9 Masters 1000 sono i tornei più importanti del circuito ATP dopo gli Slam: Indian Wells, Miami, Monte Carlo, Madrid, Roma, Canada, Cincinnati, Shanghai, Parigi-Bercy. Dettagli e storia nella guida: analisitennis.it/guide/i-masters-1000-spiegati.' }
+    },
+  ]
+};
 ---
 <Base
-  titolo="Calendario tornei di tennis - ATP, WTA e Challenger - AnalisiTennis"
-  descrizione="Il calendario dei tornei di tennis che seguiamo, mese per mese: ATP, WTA e Challenger con superficie e analisi dei protagonisti."
+  titolo={`Calendario tornei di tennis ${annoCorrente}: ATP, WTA, Slam e Challenger`}
+  descrizione={`Il calendario dei tornei di tennis ${annoCorrente}: ATP, WTA, Grande Slam e Challenger mese per mese, con superficie, categoria e le nostre analisi pre-match.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Calendario' }]} />
   </div>

@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Xinyu Wang: pur reduce da un periodo di risultati in chiaroscuro, misura da settimane le proprie partite contro le migliori del circuito maggiore, un salto di livello che sul veloce di Hong Kong pesa contro un'avversaria arrivata dai tornei ITF."
 descrizione: "Xinyu Wang e A. Karunaratne si affrontano al primo turno del WTA di Hong Kong: forma, superficie e assenza di precedenti nell'analisi del match."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Wang"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-02-xin-wang-vs-a-karunaratne-hong-kong-pronostico-analisi.jpg"

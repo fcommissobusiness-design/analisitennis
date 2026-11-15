@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Bergs: il successo in due set a Shanghai meno di un mese fa e un ottobre più intenso, con scalpi di rilievo, lo mettono mezzo passo avanti su un Buse reduce da tre sconfitte di fila."
 descrizione: "Ignacio Buse e Zizou Bergs aprono il tabellone di Parigi sul cemento indoor: forma recente, scontri diretti e percorsi di ottobre a confronto nell'analisi."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Bergs"
 probabilita_percent: 61
 generato_il: "2026-11-02T07:33"

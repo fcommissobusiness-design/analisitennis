@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Joint: è lei ad arrivare con il mese più caldo tra le due, un ottobre chiuso tra ultimi atti vinti e un quarto, e ha già superato il turno d'apertura qui. Sakkari resta solida e insidiosa, ma lo slancio pende dalla parte della rivale."
 descrizione: "Al secondo turno di Hong Kong M. Joint sfida Maria Sakkari sul cemento: forma recente contro esperienza, in un confronto senza precedenti ufficiali."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Joint"
 probabilita_percent: 61
 generato_il: "2026-11-04T07:18"

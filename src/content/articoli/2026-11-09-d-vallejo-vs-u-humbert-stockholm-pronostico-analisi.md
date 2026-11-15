@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata senza un favorito netto: lo scenario più probabile è un incontro lungo, deciso al terzo set, in cui pesano da una parte il pedigree e la freschezza di Humbert, dall'altra lo slancio e la solidità negli scambi di Vallejo."
 descrizione: "A Stoccolma primo confronto tra Vallejo e Humbert: lo slancio del paraguayano contro l'esperienza del mancino francese, in un match dagli equilibri sottili."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Humbert"
 probabilita_percent: 52
 cover_image: "/covers/2026-11-09-d-vallejo-vs-u-humbert-stockholm-pronostico-analisi.jpg"

@@ -19,6 +19,7 @@ tag:
 verdetto: "Partita equilibrata: il recentissimo 2-0 di van de Zandschulp a Shanghai pesa, ma Michelsen arriva dai quarti di Bruxelles con più ritmo nelle gambe. Senza un favorito netto, lo scenario più plausibile è un 2-1 deciso al terzo set."
 descrizione: "Michelsen e Van De Zandschulp di nuovo di fronte a Basel a poche settimane da Shanghai: precedenti, forma e cemento indoor da leggere nel primo turno svizzero."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-a-michelsen-vs-b-van-de-zandschulp-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"

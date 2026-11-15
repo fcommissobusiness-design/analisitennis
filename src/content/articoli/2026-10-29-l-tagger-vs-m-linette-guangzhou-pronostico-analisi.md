@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Tagger: la continuità delle ultime settimane, con due finali vinte in estate e i quarti di Osaka, più il successo d'esordio a Guangzhou, la pone davanti a una Linette reduce da un mese dal bilancio complicato."
 descrizione: "Guangzhou, ottavi di finale: Lisa Tagger sfida Magda Linette in un confronto senza precedenti sul cemento cinese. Forma, numeri e chiavi tattiche del match."
 pubblicato: true
+noindex: true
 generato_il: "2026-10-29T06:53"
 cover_image: "/covers/2026-10-29-l-tagger-vs-m-linette-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Spatms / CC BY-SA 4.0 / Wikimedia Commons"

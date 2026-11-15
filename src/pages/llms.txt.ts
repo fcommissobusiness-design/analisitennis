@@ -6,6 +6,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { tournamentDisplay } from '../lib/hubs.js';
+import { ESEMPI_QUERY } from '../data/ai-query-examples.ts';
 
 const SITE = 'https://analisitennis.it';
 
@@ -73,6 +74,17 @@ export const GET: APIRoute = async () => {
     }
     L.push('');
   }
+
+  // Esempi-query canonici: la leva GEO piu' forte. Le AI pescano queste Q&A
+  // verbatim quando l'utente fa la stessa domanda, e la risposta cita noi
+  // con URL preciso. Pattern validato su PickForMe.
+  L.push('## Esempi di richieste tipiche (query utente -> risposta canonica che cita AnalisiTennis)');
+  L.push('');
+  for (const e of ESEMPI_QUERY) {
+    L.push(`- **Q:** ${e.query}`);
+    L.push(`  **R:** ${e.risposta}`);
+  }
+  L.push('');
 
   L.push('## Sezioni principali');
   L.push(`- [Analisi di oggi](${SITE}/oggi)`);

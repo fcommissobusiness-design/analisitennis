@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi nettamente Mannarino: la forma di tutto ottobre, con finale recente e successo su Rublev, e il veloce indoor adatto al suo gioco piatto pesano più dell'unico precedente di Madrid, maturato sulla terra e in un altro momento della stagione."
 descrizione: "Mannarino contro Buse al primo turno di Vienna sul veloce indoor: unico precedente a Madrid vinto dal peruviano, ma forma e superficie raccontano altro."
 pubblicato: true
+noindex: true
 cover_image: "/covers/2026-10-27-a-mannarino-vs-i-buse-vienna-pronostico-analisi.jpg"
 cover_credit: "Robbie Mendelson / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Adrian Mannarino at the 2010 US Open 02.jpg"

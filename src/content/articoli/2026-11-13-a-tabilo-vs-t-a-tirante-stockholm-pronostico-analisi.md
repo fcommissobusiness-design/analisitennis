@@ -19,6 +19,7 @@ tag:
 verdetto: "Oggi la può spuntare Tabilo: la classifica più alta, un bilancio di 3-1 negli scontri diretti e due vittorie di spessore in settimana lo mettono avanti di misura. Ma con un Tirante lanciato dal servizio il terzo set resta lo scenario più probabile."
 descrizione: "Tabilo contro Tirante nella semifinale di Stoccolma: scontri diretti, forma delle ultime settimane, stile e superficie a confronto in un match equilibrato."
 pubblicato: true
+noindex: true
 probabilita_favorito: "Tabilo"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-13-a-tabilo-vs-t-a-tirante-stockholm-pronostico-analisi.jpg"

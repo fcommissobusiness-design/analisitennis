@@ -14,7 +14,11 @@
 // e hub sono evergreen e restano indicizzati per sempre: non passano di qui.
 // Il sito ribuilda ogni giorno (pipeline) + a ogni push, quindi l'eta' e' sempre
 // ricalcolata e un articolo diventa noindex entro ~1 giorno dal superamento soglia.
-export const NOINDEX_AGE_DAYS = 30;
+// 15/11: abbassata soglia 30->14 giorni dopo il crollo GSC del 09/11 (segnale
+// scaled-content). Un pronostico perde valore di ricerca ben prima dei 30gg; la
+// finestra piu' corta riduce aggressivamente il footprint programmatico indicizzato.
+// Tetto naturale indicizzati scende a ~90 (6 indicizzati/gg x 14gg).
+export const NOINDEX_AGE_DAYS = 14;
 
 export function isNoindexArticle(data, now = Date.now()) {
   if (!data) return false;
