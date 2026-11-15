@@ -25,6 +25,7 @@ cover_file: "File:McDonald–Shelton box at the 2023 DC Open 03.jpg"
 generato_il: "2026-11-15T07:41+01:00"
 cover_image: "/covers/2026-11-15-b-shelton-vs-a-fils-finals-turin-pronostico-analisi.jpg"
 cover_credit: "Shelton MCM23 (27) (52883150181).jpg | si.robi | CC BY-SA 2.0"
+cover_focus: 10
 ---
 
 Ben Shelton e Arthur Fils tornano a incrociare le racchette dopo oltre un anno dall'ultimo confronto, e lo fanno nel primo impegno delle Finals. Due interpreti moderni e aggressivi, cresciuti insieme nella stessa generazione e ormai stabilmente tra i protagonisti dei tornei che contano: un match d'apertura che profuma già di posta alta, perché partire col piede giusto in un appuntamento del genere vale doppio in termini di fiducia e di cammino.
