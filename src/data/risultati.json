@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-09",
+  "aggiornato": "2026-11-16",
   "risultati": [
+    {
+      "settimana": "2026-11-16",
+      "torneo": "Bybit Stockholm Open",
+      "torneo_display": "Stoccolma",
+      "slug_torneo": "stockholm-2026",
+      "categoria": "ATP",
+      "superficie": "cemento",
+      "anno": 2026,
+      "vincitore": "Taylor Fritz",
+      "vincitore_slug": "taylor-fritz",
+      "finalista": "Thiago Agustin Tirante",
+      "finalista_slug": "thiago-agustin-tirante",
+      "punteggio": "6-2 4-6 7-6(3)",
+      "fonte": "https://en.wikipedia.org/wiki/2026_Stockholm_Open_%E2%80%93_Singles"
+    },
+    {
+      "settimana": "2026-11-16",
+      "torneo": "WTA Finals (2026: Fage WTA Finals Indian Wells)",
+      "torneo_display": "Indian Wells",
+      "slug_torneo": "finals-indian-wells-2026",
+      "categoria": "WTA",
+      "superficie": "cemento",
+      "anno": 2026,
+      "vincitore": "Mirra Andreeva",
+      "vincitore_slug": "mirra-andreeva",
+      "finalista": "Elina Svitolina",
+      "finalista_slug": "elina-svitolina",
+      "punteggio": "7-5 6-3",
+      "fonte": "https://www.wtatennis.com/videos/4609564/mirra-andreeva-wins-fage-wta-finals-defeats-svitolina-to-clean-sweep-indian-wells"
+    },
     {
       "settimana": "2026-11-09",
       "torneo": "Rolex Paris Masters",

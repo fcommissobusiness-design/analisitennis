@@ -3510,9 +3510,17 @@
     "slug_p2": "ben-shelton",
     "bilancio": {
       "p1": 1,
-      "p2": 2
+      "p2": 3
     },
     "precedenti": [
+      {
+        "data": "2026-11-15",
+        "torneo": "Finals - Turin",
+        "g1": "B. Shelton",
+        "g2": "A. Fils",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
       {
         "data": "2024-10-26",
         "torneo": "ATP Basel",
@@ -3535,6 +3543,94 @@
         "g1": "A. Fils",
         "g2": "B. Shelton",
         "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "carlos-alcaraz-vs-frances-tiafoe": {
+    "p1": "Carlos Alcaraz",
+    "p2": "Frances Tiafoe",
+    "slug_p1": "carlos-alcaraz",
+    "slug_p2": "frances-tiafoe",
+    "bilancio": {
+      "p1": 3,
+      "p2": 2
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-16",
+        "torneo": "Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "F. Tiafoe",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-12-08",
+        "torneo": "Others matches",
+        "g1": "C. Alcaraz",
+        "g2": "F. Tiafoe",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-07-05",
+        "torneo": "ATP Wimbledon",
+        "g1": "C. Alcaraz",
+        "g2": "F. Tiafoe",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-09-10",
+        "torneo": "US Open",
+        "g1": "C. Alcaraz",
+        "g2": "F. Tiafoe",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2022-06-23",
+        "torneo": "Exhibition Hurlingham",
+        "g1": "C. Alcaraz",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
+  },
+  "daniil-medvedev-vs-flavio-cobolli": {
+    "p1": "Daniil Medvedev",
+    "p2": "Flavio Cobolli",
+    "slug_p1": "daniil-medvedev",
+    "slug_p2": "flavio-cobolli",
+    "bilancio": {
+      "p1": 2,
+      "p2": 1
+    },
+    "precedenti": [
+      {
+        "data": "2026-04-28",
+        "torneo": "Madrid",
+        "g1": "D. Medvedev",
+        "g2": "F. Cobolli",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-09-30",
+        "torneo": "ATP Beijing",
+        "g1": "F. Cobolli",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-09-01",
+        "torneo": "ATP US Open",
+        "g1": "F. Cobolli",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 3",
         "winner": "Second Player"
       }
     ]
