@@ -4,8 +4,8 @@ sottotitolo: "Due giocatrici dallo spessore simile si ritrovano a quasi tre anni
 data: "2026-11-16"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "S. Costoulas"
 giocatore2: "N. Brancaccio"
 tag:

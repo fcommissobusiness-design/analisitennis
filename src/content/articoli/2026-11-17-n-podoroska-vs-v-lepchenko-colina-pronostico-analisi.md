@@ -4,8 +4,8 @@ sottotitolo: "Le due si sono affrontate a Edmond poche settimane fa: ora il cont
 data: "2026-11-17"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "N. Podoroska"
 giocatore2: "V. Lepchenko"
 tag:

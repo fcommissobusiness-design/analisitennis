@@ -92,12 +92,17 @@ def classifica_tier(match):
         return 'SLAM'
     if 'masters' in tipo:
         return 'MASTERS'
+    # WTA 125 e' tier Challenger lato femminile: va intercettata PRIMA di
+    # 'challenger' generico, altrimenti un tipo come "Challenger Women
+    # Singles" (visto per Colina 17/11/2026) viene classificato CHALLENGER
+    # e l'articolo esce come Challenger/cemento invece di WTA/terra.
+    if 'women' in tipo:
+        return 'WTA125'
+    if 'wta' in tipo and ('125' in tipo or '125' in nome):
+        return 'WTA125'
     # Challenger: catch before ATP generic
     if 'challenger' in tipo or 'challenger' in nome:
         return 'CHALLENGER'
-    # WTA 125 e' tier Challenger lato femminile
-    if 'wta' in tipo and ('125' in tipo or '125' in nome):
-        return 'WTA125'
     # Distinzione WTA 1000 / 500 / 250: non sempre nel tipo, provo nome
     if 'wta' in tipo:
         if '1000' in nome or '1000' in tipo: return 'WTA1000'

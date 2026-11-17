@@ -4,8 +4,8 @@ sottotitolo: "Tre precedenti dicono una cosa, la condizione del momento ne dice 
 data: "2026-11-17"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "I. Burillo Escorihuela"
 giocatore2: "D. Semenistaja"
 tag:

@@ -4,8 +4,8 @@ sottotitolo: "Due giocatrici in risalita nello swing di fine stagione si ritrova
 data: "2026-11-17"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "P. Hercog"
 giocatore2: "M. Bulgaru"
 tag:

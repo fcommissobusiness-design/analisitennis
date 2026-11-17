@@ -94,9 +94,11 @@ def categoria(tipo):
     t = (tipo or '').lower()
     if 'grand slam' in t: return 'Slam'
     if 'masters' in t: return 'Masters'
-    # 'wta' PRIMA di 'challenger': i tornei WTA 125 sono femminili (tier
-    # "challenger" lato donne) ma vanno etichettati WTA, non Challenger
-    # (categoria maschile). Un Challenger maschile non contiene mai 'wta'.
+    # 'women' PRIMA di 'challenger': API Tennis per i WTA 125 scrive
+    # "Challenger Women Singles" (visto per Colina, 17/11/2026) -> cattura
+    # 'challenger' per primo e il torneo femminile finisce etichettato come
+    # Challenger maschile. Idem 'wta' PRIMA di 'challenger'.
+    if 'women' in t: return 'WTA'
     if 'wta' in t: return 'WTA'
     if 'challenger' in t: return 'Challenger'
     if 'itf' in t: return 'ITF'

@@ -4,8 +4,8 @@ sottotitolo: "Una giocatrice reduce da settimane complicate contro chi a Colina 
 data: "2026-11-16"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "R. Masarova"
 giocatore2: "D. Cherubini"
 tag:

@@ -4,8 +4,8 @@ sottotitolo: "Due giocatrici di pari fascia al primo incrocio: da una parte il r
 data: "2026-11-16"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "K. Scott"
 giocatore2: "A. Zolotareva"
 tag:

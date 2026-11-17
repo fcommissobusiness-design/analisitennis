@@ -4,8 +4,8 @@ sottotitolo: "Una arriva riposata e con un passato di vertice, l'altra rodata da
 data: "2026-11-16"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "V. Jimenez Kasintseva"
 giocatore2: "C. Monnet"
 tag:

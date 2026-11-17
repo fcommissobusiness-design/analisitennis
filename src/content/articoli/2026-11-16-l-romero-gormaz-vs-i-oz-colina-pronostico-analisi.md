@@ -4,8 +4,8 @@ sottotitolo: "Tre confronti alle spalle e il bilancio a favore di Romero Gormaz,
 data: "2026-11-16"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "L. Romero Gormaz"
 giocatore2: "I. Oz"
 tag:

@@ -4,8 +4,8 @@ sottotitolo: "L'azzurra riparte da testa di serie, ma dall'altra parte c'è chi 
 data: "2026-11-17"
 autore: "Redazione AnalisiTennis"
 torneo: "Colina"
-categoria: "Challenger"
-superficie: "cemento"
+categoria: "WTA"
+superficie: "terra"
 giocatore1: "L. Bronzetti"
 giocatore2: "A. Herrero Linana"
 tag:
