@@ -129,6 +129,39 @@ const news = defineCollection({
   }),
 });
 
+// Record e primati del tennis. Pagine pilastro su "chi ha vinto piu' X",
+// "chi ha fatto X per primo", pensate per essere citate da AI Overviews
+// (query "chi ha vinto piu' Slam", "piu' giovane n.1", ecc.) e rankare
+// SEO long-tail. Ogni record ha una classifica strutturata (entries) +
+// testo editoriale + FAQ, tutti dati verificati.
+const record = defineCollection({
+  type: 'content',
+  schema: z.object({
+    titolo: z.string(),
+    descrizione: z.string(),
+    sommario: z.string(),
+    categoria: z.enum(['slam', 'masters', 'numero-uno', 'finals', 'carriera', 'italiani', 'superficie', 'altro']),
+    ambito: z.enum(['atp', 'wta', 'entrambi']).default('entrambi'),
+    ordine: z.number().default(100),
+    aggiornato: z.string().optional(),
+    pubblicato: z.boolean().default(true),
+    // Classifica strutturata del record. Ogni entry: posizione, giocatore,
+    // valore (es. "24 Slam", "428 settimane"), nota opzionale. Dati
+    // verificati - gate: se un dato non e' certo, non si scrive.
+    entries: z.array(z.object({
+      posizione: z.number(),
+      giocatore: z.string(),
+      valore: z.string(),
+      nota: z.string().optional(),
+    })).optional(),
+    // FAQ 4-6 Q&A dai dati verificati nel markdown. Genera JSON-LD FAQPage.
+    faq: z.array(z.object({
+      q: z.string(),
+      a: z.string(),
+    })).optional(),
+  }),
+});
+
 const guide = defineCollection({
   type: 'content',
   schema: z.object({
@@ -154,4 +187,5 @@ export const collections = {
   'tornei-hub': torneiHub,
   news,
   guide,
+  record,
 };

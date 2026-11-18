@@ -1,0 +1,161 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const record = await getCollection('record', ({ data }) => data.pubblicato !== false);
+  return record.map(r => ({ params: { slug: r.slug }, props: { pagina: r } }));
+}
+
+const { pagina } = Astro.props;
+const { Content } = await pagina.render();
+const d = pagina.data;
+const site = 'https://analisitennis.it';
+
+const entries = Array.isArray(d.entries) ? d.entries : [];
+const faqItems = Array.isArray(d.faq) ? d.faq : [];
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: d.titolo,
+  description: d.descrizione,
+  inLanguage: 'it-IT',
+  isAccessibleForFree: true,
+  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis', url: `${site}/chi-siamo` },
+  publisher: {
+    '@type': 'Organization', name: 'AnalisiTennis',
+    logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${site}/record/${pagina.slug}` },
+  ...(d.aggiornato ? { dateModified: d.aggiornato } : {}),
+};
+
+// FAQPage JSON-LD opzionale: solo se la pagina dichiara una lista di Q&A.
+const faqSchema = faqItems.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
+
+// ItemList JSON-LD per la classifica: dice a Google (e alle AI) che
+// questa pagina elenca i detentori di un record, in ordine, con nome e
+// valore. Usato per rich result "liste" quando pertinente.
+const listSchema = entries.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: d.titolo,
+  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+  numberOfItems: entries.length,
+  itemListElement: entries.map(e => ({
+    '@type': 'ListItem',
+    position: e.posizione,
+    name: e.giocatore,
+    description: e.valore + (e.nota ? ` - ${e.nota}` : ''),
+  })),
+} : null;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site + '/' },
+    { '@type': 'ListItem', position: 2, name: 'Record e primati', item: site + '/record' },
+    { '@type': 'ListItem', position: 3, name: d.titolo },
+  ],
+};
+
+const eyebrowCategoria = {
+  slam: 'Record Slam',
+  masters: 'Record Masters 1000',
+  'numero-uno': 'Record numero 1',
+  finals: 'Record Finals',
+  carriera: 'Record di carriera',
+  italiani: 'Record italiani',
+  superficie: 'Record di superficie',
+  altro: 'Record',
+}[d.categoria] || 'Record';
+---
+<Base titolo={`${d.titolo} - Record e primati del tennis - AnalisiTennis`} descrizione={d.descrizione} tipo="article">
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {listSchema && <script type="application/ld+json" set:html={JSON.stringify(listSchema)} />}
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <div class="contenitore" style="padding-top: 24px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Record', url: '/record' }, { nome: d.titolo }]} />
+  </div>
+
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <div class="articolo-eyebrow" style="justify-content: center; display: flex;">{eyebrowCategoria}</div>
+      <h1>{d.titolo}</h1>
+      <p>{d.sommario}</p>
+    </div>
+  </section>
+
+  <div class="contenitore">
+    <div class="layout-articolo">
+      <article class="articolo">
+        {entries.length > 0 && (
+          <div class="record-classifica">
+            <h2 class="record-h2">La classifica</h2>
+            <ol class="record-list">
+              {entries.map(e => (
+                <li class="record-item">
+                  <span class="record-pos">{e.posizione}</span>
+                  <span class="record-player">{e.giocatore}</span>
+                  <span class="record-value">{e.valore}</span>
+                  {e.nota && <span class="record-nota">{e.nota}</span>}
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+        <div class="articolo-corpo">
+          <Content />
+          {faqItems.length > 0 && (
+            <section class="record-faq" style="margin-top: 32px;">
+              <h2>Domande frequenti</h2>
+              {faqItems.map(f => (
+                <details style="margin-bottom: 12px;">
+                  <summary style="font-weight: 600; cursor: pointer;">{f.q}</summary>
+                  <p style="margin-top: 8px;">{f.a}</p>
+                </details>
+              ))}
+            </section>
+          )}
+          {d.aggiornato && (
+            <p class="record-aggiornato" style="margin-top: 32px; color: var(--testo-secondario, #6b7280); font-size: 0.85rem;">
+              Aggiornato al {new Date(d.aggiornato).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}.
+            </p>
+          )}
+        </div>
+      </article>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .record-classifica { background: var(--sfondo-card, #fff); border: 1px solid var(--linea, #e5e5e5); border-radius: 12px; padding: 24px; margin-bottom: 36px; }
+  .record-h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; font-weight: 700; margin: 0 0 20px; }
+  .record-list { list-style: none; padding: 0; margin: 0; counter-reset: pos; }
+  .record-item { display: grid; grid-template-columns: 40px 1fr auto; gap: 14px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--linea, #e5e5e5); }
+  .record-item:last-child { border-bottom: none; }
+  .record-pos { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; font-weight: 700; color: var(--verde, #2a7f3e); line-height: 1; }
+  .record-player { font-weight: 600; font-size: 1.02rem; }
+  .record-value { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.1rem; white-space: nowrap; }
+  .record-nota { grid-column: 2 / -1; font-size: 0.85rem; color: var(--testo-secondario, #6b7280); margin-top: 4px; }
+  @media (max-width: 480px) {
+    .record-item { grid-template-columns: 28px 1fr; }
+    .record-value { grid-column: 1 / -1; margin-top: 2px; font-size: 1rem; }
+    .record-nota { grid-column: 1 / -1; }
+  }
+</style>
