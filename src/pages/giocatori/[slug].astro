@@ -16,14 +16,22 @@ export async function getStaticPaths() {
   // Pre-costruisce una mappa "slug giocatore -> lista di coppie H2H" per
   // evitare O(n * m) dentro ogni render. Usiamo lo slug_p1/slug_p2 che
   // backend ha gia' normalizzato per name-map (slug profilo).
+  // Mappa slug_giocatore -> lista coppie {coppia, avversario, prec}.
+  // L'avversario e' precalcolato sul lato opposto al profilo corrente:
+  // non usiamo il nome visualizzato del profilo per il match (che puo'
+  // avere piu' cognomi, es. "Carlos Alcaraz Garfia"), bensi' lo slug
+  // gia' normalizzato in h2h.json (slug_p1/slug_p2).
   const h2hByPlayer = new Map();
   for (const [coppia, d] of Object.entries(h2hData)) {
     if (!d?.precedenti?.length) continue;
     const prec = d.precedenti.length;
-    for (const slugG of [d.slug_p1, d.slug_p2]) {
-      if (!slugG) continue;
-      if (!h2hByPlayer.has(slugG)) h2hByPlayer.set(slugG, []);
-      h2hByPlayer.get(slugG).push({ coppia, p1: d.p1, p2: d.p2, prec });
+    if (d.slug_p1) {
+      if (!h2hByPlayer.has(d.slug_p1)) h2hByPlayer.set(d.slug_p1, []);
+      h2hByPlayer.get(d.slug_p1).push({ coppia, avversario: d.p2, prec });
+    }
+    if (d.slug_p2) {
+      if (!h2hByPlayer.has(d.slug_p2)) h2hByPlayer.set(d.slug_p2, []);
+      h2hByPlayer.get(d.slug_p2).push({ coppia, avversario: d.p1, prec });
     }
   }
   return profili.map(p => {
@@ -212,17 +220,14 @@ const faqSchema = faqItems.length >= 2 ? {
           <section class="scontri-diretti-widget" aria-label={`Scontri diretti di ${d.nome}`}>
             <h2>Scontri diretti di {d.nome}</h2>
             <ul>
-              {h2hCoppie.map(h => {
-                const avv = h.p1 === d.nome ? h.p2 : h.p1;
-                return (
-                  <li>
-                    <a href={`/scontri-diretti/${h.coppia}`}>
-                      <span class="sd-vs">vs {avv}</span>
-                      <span class="sd-prec">{h.prec} {h.prec === 1 ? 'precedente' : 'precedenti'}</span>
-                    </a>
-                  </li>
-                );
-              })}
+              {h2hCoppie.map(h => (
+                <li>
+                  <a href={`/scontri-diretti/${h.coppia}`}>
+                    <span class="sd-vs">vs {h.avversario}</span>
+                    <span class="sd-prec">{h.prec} {h.prec === 1 ? 'precedente' : 'precedenti'}</span>
+                  </a>
+                </li>
+              ))}
             </ul>
           </section>
         )}
