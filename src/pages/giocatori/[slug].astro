@@ -8,21 +8,40 @@ import profilesEn from '../../data/profiles-en.json';
 import standingsAtp from '../../data/standings-atp.json';
 import standingsWta from '../../data/standings-wta.json';
 import playerEntities from '../../data/player_entities.json';
+import h2hData from '../../data/h2h.json';
 
 export async function getStaticPaths() {
   const profili = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
+  // Pre-costruisce una mappa "slug giocatore -> lista di coppie H2H" per
+  // evitare O(n * m) dentro ogni render. Usiamo lo slug_p1/slug_p2 che
+  // backend ha gia' normalizzato per name-map (slug profilo).
+  const h2hByPlayer = new Map();
+  for (const [coppia, d] of Object.entries(h2hData)) {
+    if (!d?.precedenti?.length) continue;
+    const prec = d.precedenti.length;
+    for (const slugG of [d.slug_p1, d.slug_p2]) {
+      if (!slugG) continue;
+      if (!h2hByPlayer.has(slugG)) h2hByPlayer.set(slugG, []);
+      h2hByPlayer.get(slugG).push({ coppia, p1: d.p1, p2: d.p2, prec });
+    }
+  }
   return profili.map(p => {
     const slug = p.data.slug_profilo;
     const relatedArticles = articoli
       .filter(a => samePersonLoose(a.data.giocatore1, p.data.nome) || samePersonLoose(a.data.giocatore2, p.data.nome))
       .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
       .slice(0, 20);
-    return { params: { slug }, props: { profilo: p, relatedArticles } };
+    // Top 8 scontri diretti del giocatore, ordinati per numero precedenti
+    // (quelli piu' pesanti editorialmente e con query piu' cercate).
+    const h2hCoppie = (h2hByPlayer.get(slug) || [])
+      .sort((a, b) => b.prec - a.prec)
+      .slice(0, 8);
+    return { params: { slug }, props: { profilo: p, relatedArticles, h2hCoppie } };
   });
 }
 
-const { profilo, relatedArticles } = Astro.props;
+const { profilo, relatedArticles, h2hCoppie } = Astro.props;
 const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
@@ -189,6 +208,25 @@ const faqSchema = faqItems.length >= 2 ? {
           </section>
         )}
 
+        {h2hCoppie.length > 0 && (
+          <section class="scontri-diretti-widget" aria-label={`Scontri diretti di ${d.nome}`}>
+            <h2>Scontri diretti di {d.nome}</h2>
+            <ul>
+              {h2hCoppie.map(h => {
+                const avv = h.p1 === d.nome ? h.p2 : h.p1;
+                return (
+                  <li>
+                    <a href={`/scontri-diretti/${h.coppia}`}>
+                      <span class="sd-vs">vs {avv}</span>
+                      <span class="sd-prec">{h.prec} {h.prec === 1 ? 'precedente' : 'precedenti'}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+
         {faqItems.length >= 2 && (
           <section class="profilo-faq" aria-label={`Domande frequenti su ${d.nome}`}>
             <h2>Domande frequenti su {d.nome}</h2>
@@ -293,5 +331,49 @@ const faqSchema = faqItems.length >= 2 ? {
     font-weight: 500;
     font-size: 0.95rem;
     line-height: 1.4;
+  }
+  .scontri-diretti-widget {
+    margin-top: 44px;
+    padding-top: 24px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .scontri-diretti-widget h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+  }
+  .scontri-diretti-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+  }
+  .scontri-diretti-widget a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    padding: 12px 14px;
+    background: var(--sfondo-card, #fff);
+    border: 1px solid var(--linea, #e5e5e5);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .scontri-diretti-widget a:hover { border-color: var(--verde, #39d453); color: var(--verde, #2a7f3e); }
+  .scontri-diretti-widget .sd-vs {
+    font-weight: 600;
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+  .scontri-diretti-widget .sd-prec {
+    font-size: 0.82rem;
+    color: var(--testo-secondario, #6b7280);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 </style>

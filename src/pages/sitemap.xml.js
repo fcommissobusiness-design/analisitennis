@@ -13,6 +13,7 @@ export async function GET(context) {
   const torneiHub = await getCollection('tornei-hub', ({ data }) => data.pubblicato !== false);
   const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);
   const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
+  const record = await getCollection('record', ({ data }) => data.pubblicato !== false);
 
   const site = context.site?.toString().replace(/\/$/, '') || 'https://analisitennis.it';
   const today = new Date().toISOString().split('T')[0];
@@ -21,7 +22,7 @@ export async function GET(context) {
     '', '/oggi', '/pronostici', '/calendario', '/chi-siamo', '/contatti', '/privacy', '/cookie',
     '/categoria/atp', '/categoria/wta', '/categoria/slam',
     '/categoria/challenger', '/categoria/masters', '/categoria/itf',
-    '/giocatori', '/italiani', '/news', '/tornei', '/guide', '/tag', '/metodo',
+    '/giocatori', '/italiani', '/news', '/tornei', '/guide', '/record', '/tag', '/metodo',
     '/classifica-atp', '/classifica-wta',
   ];
 
@@ -79,6 +80,14 @@ export async function GET(context) {
     ...torneiHub.map(h => ({
       loc: `${site}/tornei/${h.data.slug_profilo}`,
       lastmod: (h.data.generato_il?.slice(0, 10)) || today,
+      changefreq: 'monthly',
+      priority: '0.8',
+    })),
+    // Record e primati (/record/*): pagine pilastro evergreen, ad alto
+    // valore GEO (query "chi ha vinto piu' Slam", "piu' giovane n.1"...).
+    ...record.map(r => ({
+      loc: `${site}/record/${r.slug}`,
+      lastmod: r.data.aggiornato || today,
       changefreq: 'monthly',
       priority: '0.8',
     })),

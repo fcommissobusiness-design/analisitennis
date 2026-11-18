@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import FormEmail from '../../components/FormEmail.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const record = (await getCollection('record', ({ data }) => data.pubblicato !== false))
+  .sort((a, b) => a.data.ordine - b.data.ordine);
+
+// Raggruppa per categoria per un'organizzazione piu' leggibile della hub.
+const gruppi = {
+  slam: { titolo: 'Slam', items: [] },
+  'numero-uno': { titolo: 'Numero uno del mondo', items: [] },
+  masters: { titolo: 'Masters 1000 e grandi titoli', items: [] },
+  finals: { titolo: 'ATP e WTA Finals', items: [] },
+  superficie: { titolo: 'Record per superficie', items: [] },
+  carriera: { titolo: 'Record di carriera', items: [] },
+  italiani: { titolo: 'Record italiani', items: [] },
+  altro: { titolo: 'Altri record', items: [] },
+};
+for (const r of record) {
+  const cat = r.data.categoria || 'altro';
+  (gruppi[cat] || gruppi.altro).items.push(r);
+}
+const gruppiOrdinati = Object.entries(gruppi).filter(([, g]) => g.items.length > 0);
+---
+<Base
+  titolo="Record e primati del tennis - Slam, numero uno, Masters, Finals - AnalisiTennis"
+  descrizione="I record del tennis raccolti e spiegati: chi ha vinto piu' Slam, chi ha piu' settimane da numero uno, i primati sui Masters 1000 e sulle Finals, record di superficie e di carriera."
+>
+  <div class="contenitore" style="padding-top: 32px;">
+    <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Record e primati' }]} />
+  </div>
+  <section class="homepage-hero" style="padding-top: 10px;">
+    <div class="contenitore">
+      <h1>Record e primati del <span class="verde">tennis</span></h1>
+      <p>I primati che hanno fatto la storia del tennis maschile e femminile, raccolti in schede con classifica e contesto: Slam, numero uno, Masters 1000, Finals, superfici e carriera.</p>
+    </div>
+  </section>
+  <div class="contenitore">
+    <div class="layout-home">
+      <div>
+        {gruppiOrdinati.map(([cat, g]) => (
+          <section class="record-gruppo" style="margin-bottom: 36px;">
+            <h2 class="record-gruppo-h2">{g.titolo}</h2>
+            <div class="griglia-articoli" style="padding: 0;">
+              {g.items.map(r => (
+                <article class="card-articolo">
+                  <div class="eyebrow">Record</div>
+                  <h3><a href={`/record/${r.slug}`}>{r.data.titolo}</a></h3>
+                  <p class="sottotitolo">{r.data.sommario}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+      <aside><div class="side-sticky"><FormEmail /></div></aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .record-gruppo-h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.5rem; font-weight: 700; margin: 0 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--verde, #39d453); }
+</style>
