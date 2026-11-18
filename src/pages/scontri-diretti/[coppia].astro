@@ -38,25 +38,138 @@ function vincitore(m) {
   if (m.winner === 'Second Player') return m.g2;
   return '';
 }
+function anno(iso) {
+  const y = (iso || '').slice(0, 4);
+  return /^\d{4}$/.test(y) ? y : '';
+}
 
-const faq = {
+// Precedenti ordinati cronologicamente (dal piu' vecchio) per narrazione
+const precOrdinati = [...d.precedenti].sort((a, b) => (a.data || '').localeCompare(b.data || ''));
+const primo = precOrdinati[0];
+const ultimo = precOrdinati[precOrdinati.length - 1];
+
+// Tornei unici: quante sedi diverse hanno condiviso e la piu' frequente
+const sediContate = {};
+for (const m of d.precedenti) {
+  const t = (m.torneo || '').replace(/\s+\d{4}$/, '').trim();
+  if (t) sediContate[t] = (sediContate[t] || 0) + 1;
+}
+const sediUniche = Object.keys(sediContate).length;
+const sedePiuFrequente = Object.entries(sediContate).sort((a, b) => b[1] - a[1])[0];
+
+const vantaggio = d.bilancio.p1 > d.bilancio.p2
+  ? `in vantaggio ${d.p1}`
+  : d.bilancio.p2 > d.bilancio.p1
+  ? `in vantaggio ${d.p2}`
+  : 'in parità';
+
+// FAQ ricche (4-5 Q&A) tutte basate su dati reali in pagina.
+const faqItems = [
+  {
+    q: `Qual è il bilancio dei precedenti tra ${d.p1} e ${d.p2}?`,
+    a: `Nei ${totale} scontri diretti disputati il bilancio è di ${d.bilancio.p1}-${d.bilancio.p2} ` +
+       `${d.bilancio.p1 > d.bilancio.p2 ? 'a favore di ' + d.p1 : d.bilancio.p2 > d.bilancio.p1 ? 'a favore di ' + d.p2 : "in perfetta parità"}.`,
+  },
+];
+if (primo && anno(primo.data)) {
+  faqItems.push({
+    q: `Quando si sono affrontati per la prima volta ${d.p1} e ${d.p2}?`,
+    a: `Il primo confronto risale al ${dataIt(primo.data)}, a ${primo.torneo}. Ha vinto ${vincitore(primo) || 'il primo giocatore'} con il punteggio di ${primo.risultato}.`,
+  });
+}
+if (ultimo && ultimo !== primo && anno(ultimo.data)) {
+  faqItems.push({
+    q: `Quando è stato l'ultimo incontro tra ${d.p1} e ${d.p2}?`,
+    a: `L'incontro più recente è del ${dataIt(ultimo.data)}, a ${ultimo.torneo}. Ha vinto ${vincitore(ultimo) || 'uno dei due'} ${ultimo.risultato}.`,
+  });
+}
+if (sedePiuFrequente && sedePiuFrequente[0] && sedePiuFrequente[1] >= 1) {
+  faqItems.push({
+    q: `In quali tornei si sono affrontati più spesso ${d.p1} e ${d.p2}?`,
+    a: `Si sono incontrati in ${sediUniche} ${sediUniche === 1 ? 'sede diversa' : 'sedi diverse'}. La sede che li ha visti incrociarsi più volte è ${sedePiuFrequente[0]} (${sedePiuFrequente[1]} ${sedePiuFrequente[1] === 1 ? 'incontro' : 'incontri'}).`,
+  });
+}
+if (nostre.length > 0) {
+  faqItems.push({
+    q: `AnalisiTennis ha analizzato un match tra ${d.p1} e ${d.p2}?`,
+    a: `Sì, la Redazione ha pubblicato ${nostre.length} ${nostre.length === 1 ? 'analisi' : 'analisi'} con pronostico ragionato, scontri diretti e lettura tattica. ${nostre.length === 1 ? 'La trovi in questa pagina.' : 'Le trovi in questa pagina.'}`,
+  });
+}
+
+// Narrativa breve di 2-3 frasi tutta da dati reali, evita che la pagina
+// sia pura tabella e da' sostanza semantica che AI e Google apprezzano.
+const narrativa = (() => {
+  if (!primo || !ultimo) return '';
+  const annoPrimo = anno(primo.data);
+  const annoUltimo = anno(ultimo.data);
+  const vincitorePrimo = vincitore(primo);
+  const parti = [];
+  if (annoPrimo) {
+    parti.push(
+      annoPrimo === annoUltimo
+        ? `Si sono affrontati ${totale === 1 ? 'una volta' : totale + ' volte'} nel ${annoPrimo}.`
+        : `Si sono affrontati ${totale === 1 ? 'una volta' : totale + ' volte'}, dalla prima sfida del ${annoPrimo} all'ultima del ${annoUltimo}.`
+    );
+  }
+  if (vincitorePrimo) {
+    parti.push(`A spuntarla nel primo incrocio, a ${primo.torneo}, è stato ${vincitorePrimo} (${primo.risultato}).`);
+  }
+  if (d.bilancio.p1 === d.bilancio.p2 && totale > 0) {
+    parti.push(`Il bilancio è di perfetta parità, ${d.bilancio.p1}-${d.bilancio.p2}.`);
+  } else if (d.bilancio.p1 !== d.bilancio.p2) {
+    const leader = d.bilancio.p1 > d.bilancio.p2 ? d.p1 : d.p2;
+    const scoreLeader = Math.max(d.bilancio.p1, d.bilancio.p2);
+    const scoreSfida = Math.min(d.bilancio.p1, d.bilancio.p2);
+    parti.push(`${leader} è avanti ${scoreLeader}-${scoreSfida} negli scontri diretti.`);
+  }
+  return parti.join(' ');
+})();
+
+const faqSchema = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
-  mainEntity: [{
+  mainEntity: faqItems.map(f => ({
     '@type': 'Question',
-    name: `Qual è il bilancio dei precedenti tra ${d.p1} e ${d.p2}?`,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: `Nei ${totale} scontri diretti disputati il bilancio è di ${d.bilancio.p1}-${d.bilancio.p2} ` +
-        `${d.bilancio.p1 > d.bilancio.p2 ? 'a favore di ' + d.p1 : d.bilancio.p2 > d.bilancio.p1 ? 'a favore di ' + d.p2 : 'in perfetta parita\''}.`,
-    },
-  }],
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
+// BreadcrumbList JSON-LD (Google lo richiede per rich result breadcrumb).
+const breadcrumbSchema = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: site + '/' },
+    { '@type': 'ListItem', position: 2, name: 'Scontri diretti' },
+    { '@type': 'ListItem', position: 3, name: `${d.p1} - ${d.p2}` },
+  ],
+};
+
+// SportsEvent array per i precedenti: serve a Google per capire che la
+// pagina parla di eventi sportivi concreti, non di contenuto generato.
+const eventsSchema = {
+  '@context': 'https://schema.org',
+  '@graph': d.precedenti.slice(0, 20).map((m, i) => ({
+    '@type': 'SportsEvent',
+    '@id': `${site}/scontri-diretti/${d.slug_p1}-vs-${d.slug_p2}#match-${i}`,
+    name: `${d.p1} vs ${d.p2} - ${m.torneo}`,
+    sport: 'Tennis',
+    startDate: m.data,
+    eventStatus: 'https://schema.org/EventCompleted',
+    location: { '@type': 'Place', name: m.torneo },
+    competitor: [
+      { '@type': 'Person', name: d.p1 },
+      { '@type': 'Person', name: d.p2 },
+    ],
+  })),
 };
 ---
 <Base
-  titolo={`${d.p1} vs ${d.p2}: precedenti e scontri diretti - AnalisiTennis`}
-  descrizione={`Scontri diretti tra ${d.p1} e ${d.p2}: bilancio ${d.bilancio.p1}-${d.bilancio.p2} e tutti i ${totale} precedenti con date, tornei e risultati.`}
+  titolo={`${d.p1} vs ${d.p2}: scontri diretti, bilancio ${d.bilancio.p1}-${d.bilancio.p2} e tutti i precedenti`}
+  descrizione={`Scontri diretti tra ${d.p1} e ${d.p2}: bilancio ${d.bilancio.p1}-${d.bilancio.p2}, ${totale} ${totale === 1 ? 'precedente' : 'precedenti'} con date, tornei e risultati.${narrativa ? ' ' + narrativa : ''}`.slice(0, 160)}
 >
-  <script type="application/ld+json" set:html={JSON.stringify(faq)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(eventsSchema)} />
   <div class="contenitore" style="padding-top: 32px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Scontri diretti' }, { nome: `${d.p1} - ${d.p2}` }]} />
   </div>
@@ -70,6 +183,9 @@ const faq = {
   <div class="contenitore">
     <div class="layout-home">
       <div>
+        {narrativa && (
+          <p class="h2h-narr">{narrativa}</p>
+        )}
         <div class="h2h-bilancio">
           <div class="h2h-col">
             {haP1 ? <a href={`/giocatori/${d.slug_p1}`}>{d.p1}</a> : <span>{d.p1}</span>}
@@ -122,6 +238,7 @@ const faq = {
 </Base>
 
 <style>
+  .h2h-narr { font-size: 1.05rem; line-height: 1.55; color: var(--testo, #1a1a1a); margin: 0 0 24px; padding: 18px 20px; background: var(--sfondo-soft, #f7f9f8); border-left: 3px solid var(--verde, #39d453); border-radius: 4px; }
   .h2h-bilancio { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 24px; margin-bottom: 36px; background: var(--sfondo-card, #fff); border: 1px solid var(--linea, #e5e5e5); border-radius: 12px; }
   .h2h-col { flex: 1; text-align: center; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
   .h2h-col a, .h2h-col span { font-weight: 600; font-size: 1.02rem; color: var(--testo, #1a1a1a); text-decoration: none; overflow-wrap: anywhere; }
