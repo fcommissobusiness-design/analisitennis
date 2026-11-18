@@ -55,10 +55,10 @@ faq:
     a: "Il record di vittorie consecutive al torneo di fine anno è di Novak Djokovic, che vinse quattro edizioni di fila dal 2012 al 2015, a Londra. Ivan Lendl e Roger Federer vinsero tre edizioni consecutive."
   - q: "Qual è l'italiano più vincente delle ATP Finals?"
     a: "Jannik Sinner, che ha vinto il torneo nel 2024 e nel 2025, è il primo italiano a vincere il torneo di fine anno nella storia. Prima di lui, il miglior risultato italiano era stata la fase a gironi raggiunta da Matteo Berrettini nel 2019 e nel 2021."
-  - q: "Chi ha vinto il torneo di fine anno nel 2026?"
-    a: "Il 2026 ha visto Carlos Alcaraz vincere il torneo di fine anno, superando Jannik Sinner in finale a Torino. Era la prima volta che lo spagnolo si aggiudicava il trofeo delle ATP Finals."
+  - q: "Chi gioca le ATP Finals 2026 a Torino?"
+    a: "Le ATP Finals 2026 si disputano a Torino dal 9 al 16 novembre, con Alexander Zverev e Carlos Alcaraz teste di serie. Flavio Cobolli è l'unico italiano in tabellone. Jannik Sinner, campione in carica, è assente per un'infiammazione al ginocchio destro che lo ha fermato dopo Wimbledon."
   - q: "Chi è il più giovane vincitore delle ATP Finals?"
-    a: "John McEnroe vinse il suo primo titolo a 19 anni nel 1978, il più giovane della storia del torneo. Carlos Alcaraz si è avvicinato al record ma la sua prima vittoria nel 2026 è arrivata già dopo i 23 anni."
+    a: "John McEnroe vinse il suo primo titolo a 19 anni nel 1978, il più giovane della storia del torneo. Resta un record difficile da battere, perché la qualificazione al torneo di fine anno richiede un'intera stagione da protagonista nei primi otto del ranking."
   - q: "Dove si giocano oggi le ATP Finals?"
     a: "Dal 2021 le ATP Finals si giocano a Torino, alla Inalpi Arena (ex Pala Alpitour). Il contratto è stato esteso fino al 2030 e il torneo rappresenta uno degli eventi di tennis maschile italiani più importanti di sempre."
 ---
@@ -87,7 +87,7 @@ Ilie Năstase è stato il primo grande dominatore del torneo: quattro vittorie f
 
 ## L'arrivo degli italiani
 
-Sinner è il primo italiano a vincere le ATP Finals. La doppietta del 2024 e 2025 è arrivata davanti al pubblico di casa torinese: nel 2024 batté in finale Taylor Fritz, nel 2025 confermò il titolo contro Alexander Zverev. Il 2026 ha invece visto Carlos Alcaraz vincere il torneo contro lo stesso Sinner in una finale dall'alto spessore tecnico, che ha segnato uno dei momenti più belli della nuova rivalità del tennis mondiale.
+Sinner è il primo italiano a vincere le ATP Finals. La doppietta del 2024 e 2025 è arrivata davanti al pubblico di casa torinese. Nel 2026 il campione in carica non ha potuto difendere il titolo: un'infiammazione al ginocchio destro, che lo ha fermato dopo Wimbledon, lo ha costretto a saltare il torneo di Torino. Nel tabellone 2026 l'unico italiano è stato Flavio Cobolli, qualificato per la prima volta alle Finals come ottavo della Race.
 
 ## Perché il torneo è così selettivo
 
