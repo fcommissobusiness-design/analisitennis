@@ -62,6 +62,14 @@
 "wikidata": "Q107406917",
 "wikipedia": "https://it.wikipedia.org/wiki/Arthur_Fery"
 },
+"a-herrero-linana": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q114269936",
+"https://it.wikipedia.org/wiki/Alicia_Herrero_Li%C3%B1ana"
+],
+"wikidata": "Q114269936",
+"wikipedia": "https://it.wikipedia.org/wiki/Alicia_Herrero_Li%C3%B1ana"
+},
 "a-karunaratne": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q111983296",
@@ -168,6 +176,14 @@
 ],
 "wikidata": "Q106294729",
 "wikipedia": "https://it.wikipedia.org/wiki/Alice_Tubello"
+},
+"a-zolotareva": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q110724841",
+"https://it.wikipedia.org/wiki/Anastasija_Zolotar%C3%ABva"
+],
+"wikidata": "Q110724841",
+"wikipedia": "https://it.wikipedia.org/wiki/Anastasija_Zolotar%C3%ABva"
 },
 "adrian-mannarino": {
 "image": "File:Adrian Mannarino in sepia (14444726508).jpg",
@@ -537,6 +553,15 @@
 "wikidata": "Q20898017",
 "wikipedia": "https://it.wikipedia.org/wiki/Claire_Liu"
 },
+"c-monnet": {
+"image": "File:Monnet WMQ22 (23) (52191390719) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q97368614",
+"https://it.wikipedia.org/wiki/Carole_Monnet"
+],
+"wikidata": "Q97368614",
+"wikipedia": "https://it.wikipedia.org/wiki/Carole_Monnet"
+},
 "c-tabur": {
 "image": "File:Clément Tabur (cropped).jpg",
 "sameAs": [
@@ -672,6 +697,14 @@
 "wikidata": "Q56702741",
 "wikipedia": "https://it.wikipedia.org/wiki/Cristina_Buc%C8%99a"
 },
+"d-cherubini": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q113698912",
+"https://en.wikipedia.org/wiki/Diletta_Cherubini"
+],
+"wikidata": "Q113698912",
+"wikipedia": "https://en.wikipedia.org/wiki/Diletta_Cherubini"
+},
 "d-dietrich": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q119265585",
@@ -705,6 +738,15 @@
 ],
 "wikidata": "Q106102103",
 "wikipedia": "https://it.wikipedia.org/wiki/Dino_Pri%C5%BEmi%C4%87"
+},
+"d-semenistaja": {
+"image": "File:Seministaja WMQ23 (53061113097).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q106807023",
+"https://it.wikipedia.org/wiki/Darja_Seme%C5%86istaja"
+],
+"wikidata": "Q106807023",
+"wikipedia": "https://it.wikipedia.org/wiki/Darja_Seme%C5%86istaja"
 },
 "d-svrcina": {
 "image": "File:2022 Roland Garros Qualifying Tournament - 73 Dalibor Svrčina (cropped).jpg",
@@ -850,6 +892,15 @@
 ],
 "wikidata": "Q5350350",
 "wikipedia": "https://en.wikipedia.org/wiki/Ekaterina_Yashina"
+},
+"e-ymer": {
+"image": "File:Ymer WMQ23 (53062069610).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q17405398",
+"https://it.wikipedia.org/wiki/Elias_Ymer"
+],
+"wikidata": "Q17405398",
+"wikipedia": "https://it.wikipedia.org/wiki/Elias_Ymer"
 },
 "ekaterina-alexandrova": {
 "image": "File:Ekaterina Alexandrova BJK Cup 2020-21 (cropped) (cropped).png",
@@ -1083,6 +1134,15 @@
 "wikidata": "Q116658479",
 "wikipedia": "https://en.wikipedia.org/wiki/Gonzalo_Bueno_%28tennis%29"
 },
+"g-maristany": {
+"image": "File:Maristany Zuleta de Reales BIA21 (21) (51379103429).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q105745607",
+"https://it.wikipedia.org/wiki/Guiomar_Maristany"
+],
+"wikidata": "Q105745607",
+"wikipedia": "https://it.wikipedia.org/wiki/Guiomar_Maristany"
+},
 "gabriela-ruse-elena": {
 "image": "File:Transylvania Open 2023 Gabriela Ruse vs Emiliana Arango 6-1, 0-6, 6-1 (53272725562) (cropped).jpg",
 "sameAs": [
@@ -1225,6 +1285,15 @@
 "wikidata": "Q18927958",
 "wikipedia": "https://it.wikipedia.org/wiki/Hubert_Hurkacz"
 },
+"i-burillo-escorihuela": {
+"image": "File:Burillo Escorihuela WMQ22 (16) - 52191436799.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q97293772",
+"https://it.wikipedia.org/wiki/Irene_Burillo"
+],
+"wikidata": "Q97293772",
+"wikipedia": "https://it.wikipedia.org/wiki/Irene_Burillo"
+},
 "i-buse": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q116679965",
@@ -1232,6 +1301,24 @@
 ],
 "wikidata": "Q116679965",
 "wikipedia": "https://it.wikipedia.org/wiki/Ignacio_Buse"
+},
+"i-ivashka": {
+"image": "File:Ivashka WMQ16 (49) (27595593724).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q23039320",
+"https://it.wikipedia.org/wiki/Il%27ja_Iva%C5%A1ka"
+],
+"wikidata": "Q23039320",
+"wikipedia": "https://it.wikipedia.org/wiki/Il%27ja_Iva%C5%A1ka"
+},
+"i-oz": {
+"image": "File:İpek Öz (40083790853) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q47169113",
+"https://it.wikipedia.org/wiki/%C4%B0pek_%C3%96z"
+],
+"wikidata": "Q47169113",
+"wikipedia": "https://it.wikipedia.org/wiki/%C4%B0pek_%C3%96z"
 },
 "iga-swiatek": {
 "image": "File:Iga Swiatek 2023 Cropped + Retouched.jpg",
@@ -1329,6 +1416,15 @@
 ],
 "wikidata": "Q119628467",
 "wikipedia": "https://en.wikipedia.org/wiki/Johannus_Monday"
+},
+"j-p-varillas": {
+"image": "File:Varillas WMQ22 (10).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q23039577",
+"https://it.wikipedia.org/wiki/Juan_Pablo_Varillas"
+],
+"wikidata": "Q23039577",
+"wikipedia": "https://it.wikipedia.org/wiki/Juan_Pablo_Varillas"
 },
 "j-paul": {
 "image": "File:Jakub Paul Basel 2025 (cropped).png",
@@ -1483,6 +1579,15 @@
 ],
 "wikidata": "Q119795145",
 "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Ruggeri"
+},
+"jenson-brooksby": {
+"image": "File:Brooksby RG21 (42) (51376192761).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q56073233",
+"https://it.wikipedia.org/wiki/Jenson_Brooksby"
+],
+"wikidata": "Q56073233",
+"wikipedia": "https://it.wikipedia.org/wiki/Jenson_Brooksby"
 },
 "jessica-pegula": {
 "image": "File:Jessica Pegula (2025 DC Open) 05 (cropped).jpg",
@@ -1730,6 +1835,15 @@
 "wikidata": "Q106102090",
 "wikipedia": "https://en.wikipedia.org/wiki/Luka_Mikrut"
 },
+"l-romero-gormaz": {
+"image": "File:Romero Gormaz WMQ23 (53062087240).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q112283161",
+"https://it.wikipedia.org/wiki/Leyre_Romero_Gormaz"
+],
+"wikidata": "Q112283161",
+"wikipedia": "https://it.wikipedia.org/wiki/Leyre_Romero_Gormaz"
+},
 "l-samsonova": {
 "image": "File:Liudmila Samsonova (2023 DC Open) 01.jpg",
 "sameAs": [
@@ -1928,6 +2042,15 @@
 "wikidata": "Q106101619",
 "wikipedia": "https://en.wikipedia.org/wiki/Mika_Brunold"
 },
+"m-bulgaru": {
+"image": "File:Miriam Bulgaru (53823867450) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q55584978",
+"https://it.wikipedia.org/wiki/Miriam_Bulgaru"
+],
+"wikidata": "Q55584978",
+"wikipedia": "https://it.wikipedia.org/wiki/Miriam_Bulgaru"
+},
 "m-dahlin": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q122375852",
@@ -1995,6 +2118,15 @@
 ],
 "wikidata": "Q123615700",
 "wikipedia": "https://it.wikipedia.org/wiki/Maya_Joint"
+},
+"m-kasnikowski": {
+"image": "File:Maks Kaśnikowski (2026 US Open) 01 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q112226711",
+"https://en.wikipedia.org/wiki/Maks_Ka%C5%9Bnikowski"
+],
+"wikidata": "Q112226711",
+"wikipedia": "https://en.wikipedia.org/wiki/Maks_Ka%C5%9Bnikowski"
 },
 "m-kouame": {
 "image": "File:Moïse Kaoumé (James Tamim crop).jpg",
@@ -2148,6 +2280,15 @@
 "wikidata": "Q13360044",
 "wikipedia": "https://it.wikipedia.org/wiki/Marco_Cecchinato"
 },
+"marco-trungelliti": {
+"image": "File:Marco Trungelliti.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q3183203",
+"https://it.wikipedia.org/wiki/Marco_Trungelliti"
+],
+"wikidata": "Q3183203",
+"wikipedia": "https://it.wikipedia.org/wiki/Marco_Trungelliti"
+},
 "mariano-navone": {
 "image": "File:Road 2 Australia - Navone V Burruchaga Final - BugWarp 206 (cropped).jpg",
 "sameAs": [
@@ -2255,6 +2396,15 @@
 ],
 "wikidata": "Q113889275",
 "wikipedia": "https://it.wikipedia.org/wiki/Nishesh_Basavareddy"
+},
+"n-budkov-kjaer": {
+"image": "File:Nicolai Budkov Kjær (tennis player) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q123763691",
+"https://it.wikipedia.org/wiki/Nicolai_Budkov_Kj%C3%A6r"
+],
+"wikidata": "Q123763691",
+"wikipedia": "https://it.wikipedia.org/wiki/Nicolai_Budkov_Kj%C3%A6r"
 },
 "n-kicker": {
 "image": "File:Nicolas Kicker (19900578701).jpg",
@@ -2391,6 +2541,16 @@
 "wikidata": "Q57586208",
 "wikipedia": "https://en.wikipedia.org/wiki/Philip_Henning"
 },
+"p-hercog": {
+"image": "File:Hercog WMQ23 (53061703966).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q229079",
+"https://it.wikipedia.org/wiki/Polona_Hercog",
+"http://polonahercog.com/sl/"
+],
+"wikidata": "Q229079",
+"wikipedia": "https://it.wikipedia.org/wiki/Polona_Hercog"
+},
 "p-kudermetova": {
 "image": "File:Polina Kudermetova (2025 DC Open) 01 (cropped).jpg",
 "sameAs": [
@@ -2445,6 +2605,15 @@
 "wikidata": "Q19560013",
 "wikipedia": "https://it.wikipedia.org/wiki/Paula_Badosa"
 },
+"petra-marcinko": {
+"image": "File:Marcinko RGQ23.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q110156289",
+"https://it.wikipedia.org/wiki/Petra_Mar%C4%8Dinko"
+],
+"wikidata": "Q110156289",
+"wikipedia": "https://it.wikipedia.org/wiki/Petra_Mar%C4%8Dinko"
+},
 "peyton-stearns": {
 "image": "File:Peyton Stearns (2024 DC Open) 03 (cropped).jpg",
 "sameAs": [
@@ -2480,6 +2649,15 @@
 ],
 "wikidata": "Q130255645",
 "wikipedia": "https://it.wikipedia.org/wiki/Rafael_J%C3%B3dar"
+},
+"r-masarova": {
+"image": "File:2023-06 Rebeka Masarova (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q24333000",
+"https://it.wikipedia.org/wiki/Rebeka_Masarova"
+],
+"wikidata": "Q24333000",
+"wikipedia": "https://it.wikipedia.org/wiki/Rebeka_Masarova"
 },
 "r-montgomery": {
 "image": "File:Robin Montgomery (2026 US Open) 01 (cropped).jpg",
@@ -2571,6 +2749,15 @@
 "wikidata": "Q18637944",
 "wikipedia": "https://it.wikipedia.org/wiki/Roman_Safiullin"
 },
+"s-banerjee": {
+"image": "File:Samir Banerjee UNC Stanford 2026 (1).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q25918191",
+"https://en.wikipedia.org/wiki/Samir_Banerjee"
+],
+"wikidata": "Q25918191",
+"wikipedia": "https://en.wikipedia.org/wiki/Samir_Banerjee"
+},
 "s-cirstea": {
 "image": "File:Sorana Cîrstea 2025 Transylvania Open (cropped).jpg",
 "sameAs": [
@@ -2579,6 +2766,14 @@
 ],
 "wikidata": "Q230242",
 "wikipedia": "https://it.wikipedia.org/wiki/Sorana_C%C3%AErstea"
+},
+"s-costoulas": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q107762927",
+"https://it.wikipedia.org/wiki/Sofia_Costoulas"
+],
+"wikidata": "Q107762927",
+"wikipedia": "https://it.wikipedia.org/wiki/Sofia_Costoulas"
 },
 "s-kopp": {
 "sameAs": [
@@ -2786,6 +2981,15 @@
 "wikidata": "Q17660516",
 "wikipedia": "https://it.wikipedia.org/wiki/Taylor_Fritz"
 },
+"taylor-townsend": {
+"image": "File:Taylor Townsend (2025 DC Open) 01.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q766964",
+"https://it.wikipedia.org/wiki/Taylor_Townsend_%28tennista%29"
+],
+"wikidata": "Q766964",
+"wikipedia": "https://it.wikipedia.org/wiki/Taylor_Townsend_%28tennista%29"
+},
 "terence-atmane": {
 "image": "File:Atmane RGQ23 (52944022580).jpg",
 "sameAs": [
@@ -2883,6 +3087,15 @@
 "wikidata": "Q131863197",
 "wikipedia": "https://en.wikipedia.org/wiki/Vaishnavi_Adkar"
 },
+"v-jimenez-kasintseva": {
+"image": "File:2021 Montevideo Open (tennis) - Round 2 Victoria Jiménez Kasintseva vs María Lourdes Carlé - 32.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q67372349",
+"https://it.wikipedia.org/wiki/Victoria_Jim%C3%A9nez_Kasintseva"
+],
+"wikidata": "Q67372349",
+"wikipedia": "https://it.wikipedia.org/wiki/Victoria_Jim%C3%A9nez_Kasintseva"
+},
 "v-morvayova": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q106293997",
@@ -2890,6 +3103,15 @@
 ],
 "wikidata": "Q106293997",
 "wikipedia": "https://it.wikipedia.org/wiki/Vikt%C3%B3ria_Morvayov%C3%A1"
+},
+"v-sachko": {
+"image": "File:Sachko WMQ22 (8) - 52191377479.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q100906819",
+"https://en.wikipedia.org/wiki/Vitaliy_Sachko"
+],
+"wikidata": "Q100906819",
+"wikipedia": "https://en.wikipedia.org/wiki/Vitaliy_Sachko"
 },
 "valentin-vacherot": {
 "image": "File:Valentin Vacherot Swiss Indoors 2026 (cropped).jpg",
@@ -2918,6 +3140,16 @@
 ],
 "wikidata": "Q110718470",
 "wikipedia": "https://it.wikipedia.org/wiki/Victoria_Mboko"
+},
+"viktorija-golubic": {
+"image": "File:Golubic RG22 (10) (52144330099) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q7929924",
+"https://it.wikipedia.org/wiki/Viktorija_Golubic",
+"http://viktorijagolubic.com/"
+],
+"wikidata": "Q7929924",
+"wikipedia": "https://it.wikipedia.org/wiki/Viktorija_Golubic"
 },
 "vit-kopriva": {
 "image": "File:Kopriva BLO22 (14) (52157049388).jpg",
@@ -2998,6 +3230,15 @@
 ],
 "wikidata": "Q120734490",
 "wikipedia": "https://it.wikipedia.org/wiki/Julija_Starodubceva"
+},
+"yunchaokete-bu": {
+"image": "File:Bu WMQ23 (53062101020).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q112965927",
+"https://it.wikipedia.org/wiki/Bu_Yunchaokete"
+],
+"wikidata": "Q112965927",
+"wikipedia": "https://it.wikipedia.org/wiki/Bu_Yunchaokete"
 },
 "z-kulambayeva": {
 "sameAs": [

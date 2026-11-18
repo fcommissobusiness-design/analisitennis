@@ -3642,5 +3642,57 @@
         "winner": "Second Player"
       }
     ]
+  },
+  "flavio-cobolli-vs-frances-tiafoe": {
+    "p1": "Flavio Cobolli",
+    "p2": "Frances Tiafoe",
+    "slug_p1": "flavio-cobolli",
+    "slug_p2": "frances-tiafoe",
+    "bilancio": {
+      "p1": 1,
+      "p2": 4
+    },
+    "precedenti": [
+      {
+        "data": "2026-06-15",
+        "torneo": "Halle",
+        "g1": "F. Cobolli",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-03-09",
+        "torneo": "ATP Indian Wells",
+        "g1": "F. Cobolli",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-03-01",
+        "torneo": "Acapulco",
+        "g1": "F. Cobolli",
+        "g2": "F. Tiafoe",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-07-25",
+        "torneo": "Washington",
+        "g1": "F. Cobolli",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-02-16",
+        "torneo": "ATP Delray Beach",
+        "g1": "F. Cobolli",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      }
+    ]
   }
 }
