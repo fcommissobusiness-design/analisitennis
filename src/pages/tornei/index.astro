@@ -9,6 +9,12 @@ const tornei = profili
   .map(p => p.data)
   .sort((a, b) => b.anno - a.anno || a.nome.localeCompare(b.nome, 'it'));
 
+// Hub pluriennali dei grandi tornei (/tornei/wimbledon, ...). Li elenchiamo
+// in cima come "pilastri editoriali", distinti dai profili anno singolo.
+const hubs = (await getCollection('tornei-hub', ({ data }) => data.pubblicato !== false))
+  .map(h => h.data)
+  .sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
+
 const site = 'https://analisitennis.it';
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 const itemList = {
@@ -39,6 +45,28 @@ const itemList = {
       <p>Profili dei tornei analizzati dalla redazione: storia, curiosità, campo e albo d'oro recente. Ogni nuovo torneo trattato riceve il suo profilo.</p>
     </div>
   </section>
+  {hubs.length > 0 && (
+    <div class="contenitore">
+      <section class="hub-section" aria-label="Grandi tornei di tennis">
+        <h2 class="hub-section-titolo">Grandi tornei</h2>
+        <p class="hub-section-intro">Hub pluriennali con storia, record e albo d'oro dei tornei più importanti del calendario. Per ogni grande torneo trovi anche i profili delle singole edizioni analizzate.</p>
+        <ul class="hub-grid hub-grandi">
+          {hubs.map(h => (
+            <li class="hub-card">
+              <a href={`/tornei/${h.slug_profilo}`}>
+                <div class="hub-body">
+                  <div class="hub-nome">{h.nome}</div>
+                  <div class="hub-meta">
+                    {h.categoria || ''}{h.superficie ? ` · ${h.superficie}` : ''}{h.fondato ? ` · dal ${h.fondato}` : ''}
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  )}
   <div class="contenitore">
     <div class="layout-home">
       <div>
@@ -160,4 +188,26 @@ const itemList = {
   .hub-body { padding: 14px 16px; }
   .hub-nome { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }
   .hub-meta { font-size: 0.82rem; color: var(--testo-secondario, #6b7280); }
+  .hub-section {
+    margin: 10px 0 36px;
+    padding: 24px 0 8px;
+    border-bottom: 1px solid var(--linea, #e5e5e5);
+  }
+  .hub-section-titolo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.3px;
+  }
+  .hub-section-intro {
+    color: var(--testo-secondario, #4b5563);
+    margin: 0 0 18px;
+    font-size: 0.95rem;
+    max-width: 720px;
+  }
+  .hub-grandi .hub-card a {
+    border-left: 3px solid var(--verde, #39d453);
+  }
+  .hub-grandi .hub-nome { font-size: 1.05rem; }
 </style>

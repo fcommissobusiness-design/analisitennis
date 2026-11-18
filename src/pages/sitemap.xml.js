@@ -10,6 +10,7 @@ export async function GET(context) {
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false && !isNoindexArticle(data));
   const profiliGiocatori = await getCollection('giocatori-profilo', ({ data }) => data.pubblicato !== false);
   const profiliTornei = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+  const torneiHub = await getCollection('tornei-hub', ({ data }) => data.pubblicato !== false);
   const guide = await getCollection('guide', ({ data }) => data.pubblicato !== false);
   const news = await getCollection('news', ({ data }) => data.pubblicato !== false);
 
@@ -72,6 +73,14 @@ export async function GET(context) {
       lastmod: (t.data.generato_il?.slice(0, 10)) || today,
       changefreq: 'weekly',
       priority: '0.7',
+    })),
+    // Hub pluriennali (es. /tornei/wimbledon): pagine evergreen di alto
+    // valore SEO, trattate come pilastri editoriali del canale "Tornei".
+    ...torneiHub.map(h => ({
+      loc: `${site}/tornei/${h.data.slug_profilo}`,
+      lastmod: (h.data.generato_il?.slice(0, 10)) || today,
+      changefreq: 'monthly',
+      priority: '0.8',
     })),
     ...articoli.map(a => ({
       loc: `${site}/articoli/${a.slug}`,

@@ -1,4 +1,8 @@
 ---
+// Template unico per /tornei/{slug}: gestisce sia il profilo torneo-anno
+// (es. /tornei/paris-2026) sia il hub torneo pluriennale (es. /tornei/wimbledon).
+// Gli slug non collidono: lo yearly include l'anno (-2026), il hub no.
+// Rendering branchato per d.kind: 'hub' o 'anno'.
 import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -7,87 +11,160 @@ import { tournamentSlug } from '../../lib/hubs.js';
 
 export async function getStaticPaths() {
   const profili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
+  const hubs = await getCollection('tornei-hub', ({ data }) => data.pubblicato !== false);
   const articoli = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
-  return profili.map(p => {
+
+  // Paths per i profili anno singolo: logica invariata dal template precedente.
+  const annoPaths = profili.map(p => {
     const slug = p.data.slug_profilo;
     const related = articoli
       .filter(a => tournamentSlug(a.data.torneo, new Date(a.data.data).getFullYear()) === slug)
       .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
     const relatedArticles = related.slice(0, 30);
-    return { params: { slug }, props: { profilo: p, relatedArticles } };
+    return { params: { slug }, props: { kind: 'anno', profilo: p, relatedArticles, profiliAnnoHub: [] } };
   });
+
+  // Paths per gli hub pluriennali. Per ogni hub trovo i profili anno
+  // associati dello stesso torneo: match su slug_profilo = `${hub}-${anno}`
+  // oppure prefisso uguale al hub-slug. Il link ai profili anno e' il
+  // ponte editoriale fra pilastro (hub) e singole edizioni.
+  const hubPaths = hubs.map(h => {
+    const hubSlug = h.data.slug_profilo;
+    const profiliAnnoHub = profili
+      .filter(p => {
+        const ps = p.data.slug_profilo;
+        return ps.startsWith(hubSlug + '-') && /\d{4}$/.test(ps);
+      })
+      .map(p => p.data)
+      .sort((a, b) => b.anno - a.anno);
+    return { params: { slug: hubSlug }, props: { kind: 'hub', profilo: h, profiliAnnoHub, relatedArticles: [] } };
+  });
+
+  return [...annoPaths, ...hubPaths];
 }
 
-const { profilo, relatedArticles } = Astro.props;
+const { kind, profilo, relatedArticles, profiliAnnoHub } = Astro.props;
 const { Content } = await profilo.render();
 const d = profilo.data;
 const site = 'https://analisitennis.it';
 
-// Periodo del torneo stimato dalle date delle nostre analisi (reale: i match
-// che abbiamo coperto). Serve startDate/endDate, richiesti da Google per un
-// SportsEvent valido (senza, Search Console segna errori critici e niente
-// rich result Eventi).
-const dateArticoli = relatedArticles.map(a => new Date(a.data.data)).sort((a, b) => a - b);
-const startT = dateArticoli.length ? dateArticoli[0].toISOString() : new Date(`${d.anno}-01-01`).toISOString();
-const endT = dateArticoli.length ? dateArticoli[dateArticoli.length - 1].toISOString() : startT;
-
-const eventSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'SportsEvent',
-  '@id': `${site}/tornei/${d.slug_profilo}#event`,
-  name: `${d.nome} ${d.anno}`,
-  sport: 'Tennis',
-  startDate: startT,
-  endDate: endT,
-  eventStatus: 'https://schema.org/EventScheduled',
-  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-  location: {
-    '@type': 'Place',
-    name: d.citta || d.nome,
-    ...(d.paese ? { address: { '@type': 'PostalAddress', addressCountry: d.paese } } : {})
-  },
-  description: d.intro,
-};
-
-// FAQ torneo: da dati reali del profilo + conteggio delle nostre analisi.
+// === BRANCH ANNO SINGOLO (torneo-profilo, es. paris-2026) ======================
+// Logica invariata rispetto al template precedente.
 const supLabelT = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indoor: 'cemento indoor' })[d.superficie] || d.superficie;
-const faqTorneo = [];
-if (d.superficie) faqTorneo.push({ q: `Su quale superficie si gioca il torneo ${d.nome} ${d.anno}?`, a: `Il ${d.nome} ${d.anno} si gioca su ${supLabelT}${d.citta ? `, a ${d.citta}${d.paese ? ` (${d.paese})` : ''}` : ''}.` });
-if (d.categoria) faqTorneo.push({ q: `Che categoria di torneo è il ${d.nome}?`, a: `Il ${d.nome} è un torneo di categoria ${d.categoria}${d.fondato ? `, disputato per la prima volta nel ${d.fondato}` : ''}.` });
-if (relatedArticles.length > 0) faqTorneo.push({ q: `Quali match del ${d.nome} ${d.anno} ha analizzato AnalisiTennis?`, a: `La Redazione ha pubblicato ${relatedArticles.length} analisi di match del ${d.nome} ${d.anno}, con dati, scontri diretti e pronostici. Le trovi elencate in questa pagina.` });
-const faqTorneoSchema = faqTorneo.length >= 2 ? {
-  '@context': 'https://schema.org', '@type': 'FAQPage',
-  mainEntity: faqTorneo.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-} : null;
-const articleSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: `${d.nome} ${d.anno} - Storia, curiosità e albo d'oro`,
-  description: d.descrizione,
-  datePublished: d.generato_il,
-  author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
-  publisher: {
-    '@type': 'Organization',
-    name: 'AnalisiTennis',
-    logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` }
-  },
-  about: { '@id': `${site}/tornei/${d.slug_profilo}#event` }
-};
+let eventSchema = null;
+let articleSchema = null;
+let faqTorneoSchema = null;
+let faqTorneo = [];
+
+if (kind === 'anno') {
+  const dateArticoli = relatedArticles.map(a => new Date(a.data.data)).sort((a, b) => a - b);
+  const startT = dateArticoli.length ? dateArticoli[0].toISOString() : new Date(`${d.anno}-01-01`).toISOString();
+  const endT = dateArticoli.length ? dateArticoli[dateArticoli.length - 1].toISOString() : startT;
+
+  eventSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'SportsEvent',
+    '@id': `${site}/tornei/${d.slug_profilo}#event`,
+    name: `${d.nome} ${d.anno}`,
+    sport: 'Tennis',
+    startDate: startT,
+    endDate: endT,
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: {
+      '@type': 'Place',
+      name: d.citta || d.nome,
+      ...(d.paese ? { address: { '@type': 'PostalAddress', addressCountry: d.paese } } : {})
+    },
+    description: d.intro,
+  };
+
+  if (d.superficie) faqTorneo.push({ q: `Su quale superficie si gioca il torneo ${d.nome} ${d.anno}?`, a: `Il ${d.nome} ${d.anno} si gioca su ${supLabelT}${d.citta ? `, a ${d.citta}${d.paese ? ` (${d.paese})` : ''}` : ''}.` });
+  if (d.categoria) faqTorneo.push({ q: `Che categoria di torneo è il ${d.nome}?`, a: `Il ${d.nome} è un torneo di categoria ${d.categoria}${d.fondato ? `, disputato per la prima volta nel ${d.fondato}` : ''}.` });
+  if (relatedArticles.length > 0) faqTorneo.push({ q: `Quali match del ${d.nome} ${d.anno} ha analizzato AnalisiTennis?`, a: `La Redazione ha pubblicato ${relatedArticles.length} analisi di match del ${d.nome} ${d.anno}, con dati, scontri diretti e pronostici. Le trovi elencate in questa pagina.` });
+  faqTorneoSchema = faqTorneo.length >= 2 ? {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faqTorneo.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  } : null;
+
+  articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${d.nome} ${d.anno} - Storia, curiosità e albo d'oro`,
+    description: d.descrizione,
+    datePublished: d.generato_il,
+    author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'AnalisiTennis',
+      logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` }
+    },
+    about: { '@id': `${site}/tornei/${d.slug_profilo}#event` }
+  };
+}
+
+// === BRANCH HUB PLURIENNALE (torneo-hub, es. wimbledon) =======================
+// Schema editoriale senza SportsEvent (non e' un evento datato).
+// FAQPage dalle Q&A verificate nel frontmatter.
+let hubArticleSchema = null;
+let hubFaqSchema = null;
+
+if (kind === 'hub') {
+  hubArticleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${d.nome} - Storia, albo d'oro e record del torneo`,
+    description: d.descrizione,
+    datePublished: d.generato_il,
+    author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'AnalisiTennis',
+      logo: { '@type': 'ImageObject', url: `${site}/logo-schema.png` }
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${site}/tornei/${d.slug_profilo}`
+    }
+  };
+
+  if (Array.isArray(d.faq) && d.faq.length >= 2) {
+    hubFaqSchema = {
+      '@context': 'https://schema.org', '@type': 'FAQPage',
+      mainEntity: d.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    };
+  }
+  // BreadcrumbList e' emesso dal componente Breadcrumbs, qui non duplicarlo.
+}
+
+const supLabel = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indoor: 'cemento indoor' })[d.superficie] || d.superficie;
 ---
 <Base
-  titolo={`${d.nome} ${d.anno} - Storia e curiosità del torneo - AnalisiTennis`}
+  titolo={kind === 'hub'
+    ? `${d.nome} - Storia, albo d'oro e record - AnalisiTennis`
+    : `${d.nome} ${d.anno} - Storia e curiosità del torneo - AnalisiTennis`}
   descrizione={d.descrizione}
   tipo="article"
 >
-  <script type="application/ld+json" set:html={JSON.stringify(eventSchema)} />
-  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
-  {faqTorneoSchema && <script type="application/ld+json" set:html={JSON.stringify(faqTorneoSchema)} />}
+  {kind === 'anno' && (
+    <>
+      <script type="application/ld+json" set:html={JSON.stringify(eventSchema)} />
+      <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+      {faqTorneoSchema && <script type="application/ld+json" set:html={JSON.stringify(faqTorneoSchema)} />}
+    </>
+  )}
+  {kind === 'hub' && (
+    <>
+      <script type="application/ld+json" set:html={JSON.stringify(hubArticleSchema)} />
+      {hubFaqSchema && <script type="application/ld+json" set:html={JSON.stringify(hubFaqSchema)} />}
+    </>
+  )}
 
   <div class="contenitore" style="padding-top: 24px;">
     <Breadcrumbs items={[
       { nome: 'Home', url: '/' },
       { nome: 'Tornei', url: '/tornei' },
-      { nome: `${d.nome} ${d.anno}` }
+      { nome: kind === 'hub' ? d.nome : `${d.nome} ${d.anno}` }
     ]} />
   </div>
 
@@ -96,7 +173,7 @@ const articleSchema = {
       <div class="articolo-eyebrow" style="justify-content: center; display: flex;">
         {d.categoria || 'ATP'}{d.superficie ? ` · ${d.superficie.toUpperCase()}` : ''}{d.citta ? ` · ${d.citta}` : ''}
       </div>
-      <h1>{d.nome} {d.anno}</h1>
+      <h1>{kind === 'hub' ? d.nome : `${d.nome} ${d.anno}`}</h1>
       <p>{d.intro}</p>
     </div>
   </section>
@@ -109,13 +186,33 @@ const articleSchema = {
           {d.superficie && <div><strong>Superficie</strong>{' '}{d.superficie}</div>}
           {d.fondato && <div><strong>Fondato nel</strong>{' '}{d.fondato}</div>}
           {d.categoria && <div><strong>Categoria</strong>{' '}{d.categoria}</div>}
+          {kind === 'hub' && d.sede && <div><strong>Sede</strong>{' '}{d.sede}</div>}
+          {kind === 'hub' && d.record_titoli_m && <div><strong>Record titoli (M)</strong>{' '}{d.record_titoli_m}</div>}
+          {kind === 'hub' && d.record_titoli_f && <div><strong>Record titoli (F)</strong>{' '}{d.record_titoli_f}</div>}
         </div>
         <div class="articolo-corpo">
           <Content />
         </div>
         {d.cover_credit && <p class="credit-foto">Foto: {d.cover_credit}</p>}
 
-        {relatedArticles.length > 0 && (
+        {kind === 'hub' && profiliAnnoHub.length > 0 && (
+          <section class="articoli-correlati" aria-label={`Edizioni analizzate di ${d.nome}`}>
+            <h2>Edizioni analizzate di {d.nome}</h2>
+            <p class="hub-edizioni-intro">Ecco le edizioni del {d.nome} per cui abbiamo pubblicato un profilo torneo dedicato, con storia della singola stagione e match analizzati.</p>
+            <ul>
+              {profiliAnnoHub.map(p => (
+                <li>
+                  <a href={`/tornei/${p.slug_profilo}`}>
+                    <span class="art-data">{p.anno}</span>
+                    <span class="art-titolo">{p.nome} {p.anno}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {kind === 'anno' && relatedArticles.length > 0 && (
           <section class="articoli-correlati" aria-label={`Analisi dei match del torneo ${d.nome} ${d.anno}`}>
             <h2>I nostri match analizzati di {d.nome} {d.anno}</h2>
             <ul>
@@ -134,11 +231,25 @@ const articleSchema = {
           </section>
         )}
 
-        {faqTorneo.length >= 2 && (
+        {kind === 'anno' && faqTorneo.length >= 2 && (
           <section class="torneo-faq" aria-label={`Domande frequenti sul ${d.nome} ${d.anno}`}>
             <h2>Domande frequenti sul {d.nome} {d.anno}</h2>
             <dl>
               {faqTorneo.map(f => (
+                <div class="faq-item">
+                  <dt>{f.q}</dt>
+                  <dd>{f.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {kind === 'hub' && Array.isArray(d.faq) && d.faq.length >= 2 && (
+          <section class="torneo-faq" aria-label={`Domande frequenti sul ${d.nome}`}>
+            <h2>Domande frequenti sul {d.nome}</h2>
+            <dl>
+              {d.faq.map(f => (
                 <div class="faq-item">
                   <dt>{f.q}</dt>
                   <dd>{f.a}</dd>
@@ -222,6 +333,11 @@ const articleSchema = {
     font-weight: 500;
     font-size: 0.95rem;
     line-height: 1.4;
+  }
+  .hub-edizioni-intro {
+    color: var(--testo-secondario, #4b5563);
+    margin: 0 0 12px;
+    font-size: 0.95rem;
   }
   .torneo-faq {
     margin-top: 44px;
