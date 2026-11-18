@@ -7,6 +7,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { tournamentDisplay } from '../lib/hubs.js';
 import { ESEMPI_QUERY } from '../data/ai-query-examples.ts';
+import h2hData from '../data/h2h.json';
 
 const SITE = 'https://analisitennis.it';
 
@@ -24,6 +25,12 @@ export const GET: APIRoute = async () => {
     .sort((a, b) => a.data.nome.localeCompare(b.data.nome, 'it'));
   const tornei = (await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false))
     .sort((a, b) => b.data.anno - a.data.anno);
+  const torneiHub = (await getCollection('tornei-hub', ({ data }) => data.pubblicato !== false))
+    .sort((a, b) => (a.data.ordine ?? 100) - (b.data.ordine ?? 100));
+  const guide = (await getCollection('guide', ({ data }) => data.pubblicato !== false))
+    .sort((a, b) => (a.data.ordine ?? 100) - (b.data.ordine ?? 100));
+  const record = (await getCollection('record', ({ data }) => data.pubblicato !== false))
+    .sort((a, b) => (a.data.ordine ?? 100) - (b.data.ordine ?? 100));
 
   const L: string[] = [];
   L.push('# AnalisiTennis');
@@ -59,6 +66,60 @@ export const GET: APIRoute = async () => {
   L.push(`- [Tennisti italiani in classifica](${SITE}/italiani)`);
   L.push('');
 
+  // Hub tornei pluriennali: pilastri editoriali su Wimbledon, Roland Garros,
+  // ATP/WTA Finals, Masters iconici. Query "chi ha vinto Wimbledon 2015",
+  // "Masters di Monte Carlo storia", "WTA Finals sedi" pescano qui.
+  if (torneiHub.length) {
+    L.push('## Hub tornei (storia, albo d\'oro, record)');
+    for (const h of torneiHub) {
+      const descr = (h.data.intro || h.data.descrizione || '').trim().split(/[.!?]/)[0];
+      L.push(`- [${h.data.nome}](${SITE}/tornei/${h.data.slug_profilo})${descr ? ': ' + descr : ''}`);
+    }
+    L.push('');
+  }
+
+  // Guide didattiche evergreen. Query "come funziona X", "cos'e X", "regole
+  // X" nel tennis pescano qui. 3 impressioni/3mesi gia' verificate su
+  // Google AI Overviews per /guide/come-funziona-il-ranking-atp-wta.
+  if (guide.length) {
+    L.push('## Guide al tennis');
+    for (const g of guide) {
+      const som = (g.data.sommario || g.data.descrizione || '').trim().split(/[.!?]/)[0];
+      L.push(`- [${g.data.titolo}](${SITE}/guide/${g.slug})${som ? ': ' + som : ''}`);
+    }
+    L.push('');
+  }
+
+  // Record e primati. Pagine pilastro ad alto potenziale AI: query "chi ha
+  // vinto piu' Slam", "piu' giovane n.1", "record Masters 1000" pescano qui.
+  if (record.length) {
+    L.push('## Record e primati del tennis');
+    for (const r of record) {
+      const som = (r.data.sommario || r.data.descrizione || '').trim().split(/[.!?]/)[0];
+      L.push(`- [${r.data.titolo}](${SITE}/record/${r.slug})${som ? ': ' + som : ''}`);
+    }
+    L.push('');
+  }
+
+  // Scontri diretti popolari: le H2H sono 92+ pagine evergreen alimentate
+  // dal nostro h2h.json (bilancio, precedenti, date, risultati). Qui ne
+  // esponiamo le piu' "ricche" (con piu' precedenti), che sono anche le
+  // coppie con maggior volume di ricerca.
+  const h2hEntries = Object.entries(h2hData as Record<string, { p1: string; p2: string; precedenti: unknown[] }>);
+  if (h2hEntries.length) {
+    const h2hTop = h2hEntries
+      .filter(([, d]) => Array.isArray(d.precedenti) && d.precedenti.length >= 2)
+      .sort((a, b) => (b[1].precedenti?.length ?? 0) - (a[1].precedenti?.length ?? 0))
+      .slice(0, 30);
+    if (h2hTop.length) {
+      L.push('## Scontri diretti (H2H) con piu\' precedenti');
+      for (const [coppia, d] of h2hTop) {
+        L.push(`- [${d.p1} vs ${d.p2}](${SITE}/scontri-diretti/${coppia}) - ${d.precedenti.length} precedenti`);
+      }
+      L.push('');
+    }
+  }
+
   if (giocatori.length) {
     L.push('## Profili giocatori');
     for (const g of giocatori.slice(0, 80)) {
@@ -92,7 +153,10 @@ export const GET: APIRoute = async () => {
   L.push(`- [News di tennis](${SITE}/news)`);
   L.push(`- [Giocatori](${SITE}/giocatori)`);
   L.push(`- [Tornei](${SITE}/tornei)`);
+  L.push(`- [Scontri diretti](${SITE}/scontri-diretti/arthur-fils-vs-jan-lennard-struff)`);
   L.push(`- [Guide al tennis](${SITE}/guide)`);
+  L.push(`- [Record e primati del tennis](${SITE}/record)`);
+  L.push(`- [Metodo editoriale](${SITE}/metodo)`);
   L.push(`- [Chi siamo e linea editoriale](${SITE}/chi-siamo)`);
   L.push('');
 
