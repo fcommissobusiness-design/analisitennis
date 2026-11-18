@@ -101,6 +101,12 @@ const guide = defineCollection({
     ordine: z.number().default(100),
     aggiornato: z.string().optional(),
     pubblicato: z.boolean().default(true),
+    // FAQ opzionale: 4-6 Q&A didattiche. Se presenti, la pagina aggiunge
+    // JSON-LD FAQPage e mostra un blocco "Domande frequenti" a fondo guida.
+    faq: z.array(z.object({
+      q: z.string(),
+      a: z.string(),
+    })).optional(),
   }),
 });
 
