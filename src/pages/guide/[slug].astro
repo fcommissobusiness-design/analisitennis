@@ -28,9 +28,25 @@ const schema = {
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${site}/guide/${guida.slug}` },
 };
+
+// FAQPage JSON-LD opzionale: solo se la guida dichiara una lista di Q&A
+// nel frontmatter. Anche il blocco visibile a fine articolo viene mostrato
+// solo in quel caso. Pensato per le guide pilot didattiche che puntano agli
+// AI Overview / citazioni LLM.
+const faqItems = Array.isArray(d.faq) ? d.faq : [];
+const faqSchema = faqItems.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
 ---
 <Base titolo={`${d.titolo} - Guida al tennis - AnalisiTennis`} descrizione={d.descrizione} tipo="article">
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <div class="contenitore" style="padding-top: 24px;">
     <Breadcrumbs items={[{ nome: 'Home', url: '/' }, { nome: 'Guide', url: '/guide' }, { nome: d.titolo }]} />
   </div>
@@ -44,7 +60,20 @@ const schema = {
   <div class="contenitore">
     <div class="layout-articolo">
       <article class="articolo">
-        <div class="articolo-corpo"><Content /></div>
+        <div class="articolo-corpo">
+          <Content />
+          {faqItems.length > 0 && (
+            <section class="guida-faq" style="margin-top: 32px;">
+              <h2>Domande frequenti</h2>
+              {faqItems.map(f => (
+                <details style="margin-bottom: 12px;">
+                  <summary style="font-weight: 600; cursor: pointer;">{f.q}</summary>
+                  <p style="margin-top: 8px;">{f.a}</p>
+                </details>
+              ))}
+            </section>
+          )}
+        </div>
       </article>
       <aside><div class="side-sticky"><FormEmail /></div></aside>
     </div>
