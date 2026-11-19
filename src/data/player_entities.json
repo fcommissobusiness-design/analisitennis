@@ -26,6 +26,14 @@
 "wikidata": "Q19281715",
 "wikipedia": "https://it.wikipedia.org/wiki/Anna_Bond%C3%A1r"
 },
+"a-brune": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q29478522",
+"https://astridwanja.com/"
+],
+"wikidata": "Q29478522",
+"wikipedia": null
+},
 "a-charaeva": {
 "image": "File:Alina Charaeva (2026 US Open) 02 (cropped).jpg",
 "sameAs": [
@@ -482,6 +490,15 @@
 ],
 "wikidata": "Q108532383",
 "wikipedia": "https://it.wikipedia.org/wiki/Ben_Shelton"
+},
+"benjamin-bonzi": {
+"image": "File:Bonzi RG18 (7) (42260485824).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q18125349",
+"https://it.wikipedia.org/wiki/Benjamin_Bonzi"
+],
+"wikidata": "Q18125349",
+"wikipedia": "https://it.wikipedia.org/wiki/Benjamin_Bonzi"
 },
 "botic-van-de-zandschulp": {
 "image": "File:Van de Zandschulp RG21 (29) (51375315497).jpg",
@@ -1382,6 +1399,13 @@
 "wikidata": "Q106293815",
 "wikipedia": "https://it.wikipedia.org/wiki/Joanna_Garland"
 },
+"j-konishi-silva": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q113400891"
+],
+"wikidata": "Q113400891",
+"wikipedia": null
+},
 "j-kym": {
 "image": "File:Jérôme Kym, Swiss Indoors Basel 2024.jpg",
 "sameAs": [
@@ -1679,6 +1703,15 @@
 "wikidata": "Q82292829",
 "wikipedia": "https://en.wikipedia.org/wiki/Kasidit_Samrej"
 },
+"k-scott": {
+"image": "File:2023 Roland Garros Qualifying Tournament - 73.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q66494826",
+"https://it.wikipedia.org/wiki/Katrina_Scott"
+],
+"wikidata": "Q66494826",
+"wikipedia": "https://it.wikipedia.org/wiki/Katrina_Scott"
+},
 "k-volynets": {
 "image": "File:Katie Volynets (2023 US Open) 11 (cropped).jpg",
 "sameAs": [
@@ -1825,6 +1858,13 @@
 ],
 "wikidata": "Q107739601",
 "wikipedia": "https://it.wikipedia.org/wiki/Liam_Draxl"
+},
+"l-meyer-auf-der-heide": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q112117167"
+],
+"wikidata": "Q112117167",
+"wikipedia": null
 },
 "l-mikrut": {
 "image": "File:Luka Mikrut (2026 US Open) 02 (cropped).jpg",
@@ -2050,6 +2090,14 @@
 ],
 "wikidata": "Q55584978",
 "wikipedia": "https://it.wikipedia.org/wiki/Miriam_Bulgaru"
+},
+"m-colmegna": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q24450220",
+"https://en.wikipedia.org/wiki/Martina_Colmegna"
+],
+"wikidata": "Q24450220",
+"wikipedia": "https://en.wikipedia.org/wiki/Martina_Colmegna"
 },
 "m-dahlin": {
 "sameAs": [
@@ -2415,6 +2463,15 @@
 "wikidata": "Q19868533",
 "wikipedia": "https://it.wikipedia.org/wiki/Nicol%C3%A1s_Kicker"
 },
+"n-podoroska": {
+"image": "File:Podoroska RG21 (36) (51376343798).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q16496064",
+"https://it.wikipedia.org/wiki/Nadia_Podoroska"
+],
+"wikidata": "Q16496064",
+"wikipedia": "https://it.wikipedia.org/wiki/Nadia_Podoroska"
+},
 "n-sanchez-izquierdo": {
 "image": "File:Nikolás Sánchez Izquierdo (2026 US Open) 01 (cropped).jpg",
 "sameAs": [
@@ -2496,6 +2553,15 @@
 ],
 "wikidata": "Q108437461",
 "wikipedia": "https://en.wikipedia.org/wiki/Ozan_Baris"
+},
+"o-tarvet": {
+"image": "File:Oliver Tarvet (tennis player).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q135093611",
+"https://en.wikipedia.org/wiki/Oliver_Tarvet"
+],
+"wikidata": "Q135093611",
+"wikipedia": "https://en.wikipedia.org/wiki/Oliver_Tarvet"
 },
 "o-virtanen": {
 "image": "File:Virtanen WMQ23 (53061681146).jpg",
@@ -2792,6 +2858,15 @@
 "wikidata": "Q17364378",
 "wikipedia": "https://it.wikipedia.org/wiki/Stefan_Kozlov"
 },
+"s-mochizuki": {
+"image": "File:Mochizuki RGQ23 (52942982782).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q65557249",
+"https://it.wikipedia.org/wiki/Shintar%C5%8D_Mochizuki"
+],
+"wikidata": "Q65557249",
+"wikipedia": "https://it.wikipedia.org/wiki/Shintar%C5%8D_Mochizuki"
+},
 "s-nagal": {
 "image": "File:Nagal RGQ22 (14) (52129786409).jpg",
 "sameAs": [
@@ -2972,6 +3047,15 @@
 "wikidata": "Q118612698",
 "wikipedia": "https://it.wikipedia.org/wiki/Tat%27jana_Prozorova"
 },
+"taylah-preston": {
+"image": "File:Taylah Preston (2024 DC Open) 02.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q110418366",
+"https://it.wikipedia.org/wiki/Taylah_Preston"
+],
+"wikidata": "Q110418366",
+"wikipedia": "https://it.wikipedia.org/wiki/Taylah_Preston"
+},
 "taylor-fritz": {
 "image": "File:Fritz RG19 (23) (48199372707).jpg",
 "sameAs": [
@@ -3087,6 +3171,14 @@
 "wikidata": "Q131863197",
 "wikipedia": "https://en.wikipedia.org/wiki/Vaishnavi_Adkar"
 },
+"v-bosio": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q16492404",
+"https://en.wikipedia.org/wiki/Victoria_Bosio"
+],
+"wikidata": "Q16492404",
+"wikipedia": "https://en.wikipedia.org/wiki/Victoria_Bosio"
+},
 "v-jimenez-kasintseva": {
 "image": "File:2021 Montevideo Open (tennis) - Round 2 Victoria Jiménez Kasintseva vs María Lourdes Carlé - 32.jpg",
 "sameAs": [
@@ -3103,6 +3195,15 @@
 ],
 "wikidata": "Q106293997",
 "wikipedia": "https://it.wikipedia.org/wiki/Vikt%C3%B3ria_Morvayov%C3%A1"
+},
+"v-rodriguez": {
+"image": "File:Victoria Rodríguez (2026 Cary) 02.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q14775760",
+"https://it.wikipedia.org/wiki/Victoria_Rodr%C3%ADguez"
+],
+"wikidata": "Q14775760",
+"wikipedia": "https://it.wikipedia.org/wiki/Victoria_Rodr%C3%ADguez"
 },
 "v-sachko": {
 "image": "File:Sachko WMQ22 (8) - 52191377479.jpg",

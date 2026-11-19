@@ -2253,10 +2253,18 @@
     "slug_p1": "carlos-alcaraz",
     "slug_p2": "daniil-medvedev",
     "bilancio": {
-      "p1": 7,
-      "p2": 3
+      "p1": 8,
+      "p2": 2
     },
     "precedenti": [
+      {
+        "data": "2026-11-18",
+        "torneo": "Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "D. Medvedev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
       {
         "data": "2026-10-31",
         "torneo": "Vienna",
@@ -2328,14 +2336,6 @@
         "g2": "D. Medvedev",
         "risultato": "2 - 0",
         "winner": "First Player"
-      },
-      {
-        "data": "2021-07-01",
-        "torneo": "Wimbledon",
-        "g1": "C. Alcaraz",
-        "g2": "D. Medvedev",
-        "risultato": "0 - 3",
-        "winner": "Second Player"
       }
     ]
   },
@@ -3650,9 +3650,17 @@
     "slug_p2": "frances-tiafoe",
     "bilancio": {
       "p1": 1,
-      "p2": 4
+      "p2": 5
     },
     "precedenti": [
+      {
+        "data": "2026-11-18",
+        "torneo": "Finals - Turin",
+        "g1": "F. Cobolli",
+        "g2": "F. Tiafoe",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
       {
         "data": "2026-06-15",
         "torneo": "Halle",
