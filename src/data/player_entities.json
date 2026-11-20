@@ -193,6 +193,15 @@
 "wikidata": "Q110724841",
 "wikipedia": "https://it.wikipedia.org/wiki/Anastasija_Zolotar%C3%ABva"
 },
+"adam-walton": {
+"image": "File:Adam Walton (2023 Cary) 03 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q117480246",
+"https://it.wikipedia.org/wiki/Adam_Walton"
+],
+"wikidata": "Q117480246",
+"wikipedia": "https://it.wikipedia.org/wiki/Adam_Walton"
+},
 "adrian-mannarino": {
 "image": "File:Adrian Mannarino in sepia (14444726508).jpg",
 "sameAs": [
@@ -273,6 +282,15 @@
 ],
 "wikidata": "Q23678983",
 "wikipedia": "https://it.wikipedia.org/wiki/Aleksandr_Bublik"
+},
+"alexander-shevchenko": {
+"image": "File:Alexander Shevchenko (2023 DC Open) 01 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q110287122",
+"https://it.wikipedia.org/wiki/Aleksandr_%C5%A0ev%C4%8Denko_%28tennista%29"
+],
+"wikidata": "Q110287122",
+"wikipedia": "https://it.wikipedia.org/wiki/Aleksandr_%C5%A0ev%C4%8Denko_%28tennista%29"
 },
 "alexander-zverev": {
 "image": "File:Alexander Zverev (30004409818).jpg",
@@ -526,6 +544,13 @@
 "wikidata": "Q134297453",
 "wikipedia": "https://en.wikipedia.org/wiki/Carlo_Alberto_Caniato"
 },
+"c-bohrer-martins": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q137582270"
+],
+"wikidata": "Q137582270",
+"wikipedia": null
+},
 "c-chidekh": {
 "image": "File:Chidekh REN21 (1) (51601832766).jpg",
 "sameAs": [
@@ -543,6 +568,13 @@
 ],
 "wikidata": "Q127421027",
 "wikipedia": "https://en.wikipedia.org/wiki/Cezar_Cre%C8%9Bu"
+},
+"c-ferrer-perez": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q139496453"
+],
+"wikidata": "Q139496453",
+"wikipedia": null
 },
 "c-hemery": {
 "image": "File:Open Brest Arena 2015 - huitième - Hemery-Khachanov - 104.jpg",
@@ -1088,6 +1120,15 @@
 ],
 "wikidata": "Q20752045",
 "wikipedia": "https://it.wikipedia.org/wiki/F%C3%A9lix_Auger-Aliassime"
+},
+"fiona-ferro": {
+"image": "File:Ferro RG19 (10) (48199369072).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q16885515",
+"https://it.wikipedia.org/wiki/Fiona_Ferro"
+],
+"wikidata": "Q16885515",
+"wikipedia": "https://it.wikipedia.org/wiki/Fiona_Ferro"
 },
 "flavio-cobolli": {
 "image": "File:Cobolli WMQ23 (53061712891).jpg",
@@ -2356,6 +2397,16 @@
 "wikidata": "Q18003204",
 "wikipedia": "https://it.wikipedia.org/wiki/Marie_Bouzkov%C3%A1"
 },
+"marin-cilic": {
+"image": "File:Cilic US16 (66) (29569801430).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q245241",
+"https://it.wikipedia.org/wiki/Marin_%C4%8Cili%C4%87",
+"https://marincilic.com/"
+],
+"wikidata": "Q245241",
+"wikipedia": "https://it.wikipedia.org/wiki/Marin_%C4%8Cili%C4%87"
+},
 "marta-kostyuk": {
 "image": "File:Marta Kostyuk (2023 US Open) 20 (cropped).jpg",
 "sameAs": [
@@ -2480,6 +2531,14 @@
 ],
 "wikidata": "Q106211478",
 "wikipedia": "https://en.wikipedia.org/wiki/Nikol%C3%A1s_S%C3%A1nchez_Izquierdo"
+},
+"n-visker": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q138032629",
+"https://en.wikipedia.org/wiki/Niels_Visker"
+],
+"wikidata": "Q138032629",
+"wikipedia": "https://en.wikipedia.org/wiki/Niels_Visker"
 },
 "naomi-osaka": {
 "image": "File:Naomi Osaka 2017 Wimbledon.jpg",
@@ -2930,6 +2989,15 @@
 "wikidata": "Q47396310",
 "wikipedia": "https://it.wikipedia.org/wiki/Sebasti%C3%A1n_B%C3%A1ez"
 },
+"sinja-kraus": {
+"image": "File:Transylvania Open 2024 - Sinja Kraus (53513849714) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q57192958",
+"https://it.wikipedia.org/wiki/Sinja_Kraus"
+],
+"wikidata": "Q57192958",
+"wikipedia": "https://it.wikipedia.org/wiki/Sinja_Kraus"
+},
 "sonay-kartal": {
 "image": "File:Kartal RGQ23.jpg",
 "sameAs": [
@@ -3187,6 +3255,15 @@
 ],
 "wikidata": "Q67372349",
 "wikipedia": "https://it.wikipedia.org/wiki/Victoria_Jim%C3%A9nez_Kasintseva"
+},
+"v-lepchenko": {
+"image": "File:Lepchenko WM17 (7) (35347343424) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q54532",
+"https://it.wikipedia.org/wiki/Varvara_Lep%C4%8Denko"
+],
+"wikidata": "Q54532",
+"wikipedia": "https://it.wikipedia.org/wiki/Varvara_Lep%C4%8Denko"
 },
 "v-morvayova": {
 "sameAs": [
