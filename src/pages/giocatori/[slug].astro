@@ -218,25 +218,9 @@ const faqSchema = faqItems.length >= 2 ? {
           </section>
         )}
 
-        <ConsigliatiTennis contesto="profilo" superficie={d.superficie_preferita || ''} />
+        <ConsigliatiTennis contesto="profilo" superficie={d.superficie_preferita || ''} seed={d.slug_profilo} />
 
-        <SupportaRedazione stile="inline" />
-
-        {h2hCoppie.length > 0 && (
-          <section class="scontri-diretti-widget" aria-label={`Scontri diretti di ${d.nome}`}>
-            <h2>Scontri diretti di {d.nome}</h2>
-            <ul>
-              {h2hCoppie.map(h => (
-                <li>
-                  <a href={`/scontri-diretti/${h.coppia}`}>
-                    <span class="sd-vs">vs {h.avversario}</span>
-                    <span class="sd-prec">{h.prec} {h.prec === 1 ? 'precedente' : 'precedenti'}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
+        <SupportaRedazione stile="breve" />
 
         {faqItems.length >= 2 && (
           <section class="profilo-faq" aria-label={`Domande frequenti su ${d.nome}`}>

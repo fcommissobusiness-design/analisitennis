@@ -21,6 +21,12 @@ except Exception:
     HAS_COVER = False
 
 try:
+    from pool_cover import pick_from_pool
+    HAS_POOL = True
+except Exception:
+    HAS_POOL = False
+
+try:
     from generate_profiles import ensure_profiles_for_match
     HAS_PROFILES = True
 except Exception:
@@ -214,16 +220,31 @@ def write(match, analysis, out_dir):
                     pick = entity_photo(cand, exclude=used_global)
                     if pick:
                         break
-            # 3. ultima spiaggia: venue del torneo. slug_hint diversifica gli
+            # 3. POOL d'azione locale: foto di tennis giocato (giocatori in
+            #    campo, anonimi) da un pool curato locale. Per i match ITF
+            #    minori senza foto dei protagonisti e' meglio una foto d'azione
+            #    variata che uno stadio vuoto ripetuto. Dedup globale rispettato
+            #    (exclude = foto gia' usate), variazione per slug.
+            from_pool = False
+            if not pick and HAS_POOL:
+                pick = pick_from_pool(slug_hint=slug, exclude=used_global)
+                from_pool = bool(pick)
+            # 4. ultima spiaggia: venue del torneo. slug_hint diversifica gli
             #    articoli dello stesso torneo; dedup globale evita venue ripetuti.
             if not pick:
                 pick = pick_venue(torneo, slug_hint=slug, exclude=used_global)
             if pick:
                 dest = COVERS_DIR / f'{slug}.jpg'
                 try:
-                    download(pick['url'], dest)
+                    if from_pool and pick.get('pool_src'):
+                        # Copia locale: la foto e' gia' scaricata e ridimensionata
+                        # nel pool, non serve rete.
+                        import shutil
+                        shutil.copyfile(pick['pool_src'], dest)
+                    else:
+                        download(pick['url'], dest)
                     cover_image = f'/covers/{slug}.jpg'
-                    cover_credit = build_credit(pick)
+                    cover_credit = pick.get('credit') if from_pool else build_credit(pick)
                     cover_file = pick['title']  # per il dedup globale (non mostrato)
                 except Exception as e:
                     print(f'[cover] download fallito per {slug}: {e}')

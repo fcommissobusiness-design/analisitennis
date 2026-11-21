@@ -337,17 +337,9 @@ const faq = {
         </nav>
       )}
 
-      {hasH2H && (
-        <a class="h2h-link" href={`/scontri-diretti/${h2hSlug}`}>
-          <span class="h2h-link-eyebrow">Scontri diretti</span>
-          <span class="h2h-link-text">Tutti i precedenti tra {g1Display} e {g2Display}</span>
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      )}
-
       {d.giocatore1 !== 'Redazione' && (
         <>
-          <ConsigliatiTennis contesto="articolo" compact={true} />
+          <ConsigliatiTennis contesto="articolo" compact={true} seed={articolo.slug} />
           <SupportaRedazione stile="inline" />
         </>
       )}

@@ -6,6 +6,8 @@
 import Base from '../../layouts/Base.astro';
 import FormEmail from '../../components/FormEmail.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ConsigliatiTennis from '../../components/ConsigliatiTennis.astro';
+import SupportaRedazione from '../../components/SupportaRedazione.astro';
 import { getCollection } from 'astro:content';
 import { tournamentSlug } from '../../lib/hubs.js';
 
@@ -258,6 +260,10 @@ const supLabel = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indo
             </dl>
           </section>
         )}
+
+        <ConsigliatiTennis contesto="torneo" superficie={d.superficie || ''} seed={Astro.params.slug} />
+
+        <SupportaRedazione stile="breve" />
       </article>
       <aside>
         <div class="side-sticky"><FormEmail /></div>

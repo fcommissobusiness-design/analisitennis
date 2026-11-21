@@ -1,83 +1,153 @@
 ---
-// Box affiliati Amazon.it per attrezzatura tennis.
-// Monetizzazione: link di ricerca Amazon con tag associato (nessun ASIN
-// specifico, zero manutenzione, nessun rischio di prezzi/immagini stale).
-// La commissione matura sulla sessione: qualunque prodotto l'utente
-// comperi dopo il click porta provvigione.
+// Box affiliati Amazon.it con PRODOTTI SPECIFICI (non ricerche generiche).
+// Ogni prodotto ha ASIN reale -> link diretto alla scheda Amazon col tag
+// associato, cosi' la commissione e' tracciata su un prodotto preciso.
 //
-// Disclosure obbligatoria Amazon Associates (Operating Agreement IT, art.5
-// e Linee Guida Europee): "In qualita' di Affiliato Amazon io ricevo un
-// guadagno dagli acquisti idonei". Sempre visibile sopra o accanto ai
-// link, in chiaro.
+// Catalogo curato in src/data/tennis-gear.json (ASIN estratti dal DOM live
+// di Amazon.it). Miniatura: icona SVG per categoria (conforme ai termini
+// Amazon, che vietano l'hotlink delle foto prodotto fuori da PA-API; una
+// foto sbagliata/non conforme rischierebbe l'account, condiviso con Pick4Me).
 //
 // Props:
-//   - contesto: 'profilo' | 'guida' | 'articolo' (default 'articolo')
-//   - superficie: 'cemento' | 'terra' | 'erba' | '' (facoltativa)
-//   - compact: boolean (true = versione fine articolo, false = sidebar)
+//   - contesto: 'profilo' | 'guida' | 'articolo' | 'torneo'
+//   - superficie: 'cemento' | 'terra' | 'erba' | '' (per scegliere i prodotti giusti)
+//   - compact: boolean
+//   - seed: stringa (slug) per variare la selezione tra pagine
+
+import gear from '../data/tennis-gear.json';
 
 interface Props {
-  contesto?: 'profilo' | 'guida' | 'articolo';
+  contesto?: 'profilo' | 'guida' | 'articolo' | 'torneo';
   superficie?: string;
   compact?: boolean;
+  seed?: string;
 }
-
-const { contesto = 'articolo', superficie = '', compact = false } = Astro.props as Props;
+const { contesto = 'articolo', superficie = '', compact = false, seed = '' } = Astro.props as Props;
 
 const TAG = import.meta.env.PUBLIC_AMAZON_TAG || 'pickforme26-21';
-const A = (query: string) =>
-  `https://www.amazon.it/s?${new URLSearchParams({ k: query, tag: TAG }).toString()}`;
+const linkOf = (asin: string) => `https://www.amazon.it/dp/${asin}?tag=${TAG}&linkCode= ll1&language=it_IT`.replace(' ', '');
 
-// Segmentazione per superficie se il giocatore ne ha una preferita.
-const sup = superficie.toLowerCase();
+const sup = (superficie || '').toLowerCase();
 const isTerra = /terra|clay/.test(sup);
-const isErba  = /erba|grass/.test(sup);
-const isCemento = /cemento|hard|dur/.test(sup);
 
-// Lista voci: query umana + testo mostrato. Niente nomi di brand inventati:
-// Amazon ordina lui i risultati su query generiche.
-const voci = [
-  isTerra
-    ? { testo: 'Racchette per terra battuta', q: 'racchetta tennis terra battuta adulti' }
-    : isErba
-    ? { testo: 'Racchette per erba',          q: 'racchetta tennis professionale' }
-    : isCemento
-    ? { testo: 'Racchette per cemento',       q: 'racchetta tennis cemento adulti' }
-    : { testo: 'Racchette tennis adulti',     q: 'racchetta tennis adulti' },
-  { testo: 'Scarpe da tennis',  q: superficie ? `scarpe tennis ${sup}` : 'scarpe tennis uomo donna' },
-  { testo: 'Palline da tennis', q: 'palline tennis dunlop head' },
-  { testo: 'Overgrip e grip',   q: 'overgrip tennis' },
-  { testo: 'Borsone tennis',    q: 'borsone tennis racchette' },
-];
+// Hash deterministico dello slug per ruotare le scelte tra pagine diverse.
+function hash(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+const seedN = hash(seed || contesto || 'x');
+
+// Sceglie 1 prodotto da una lista filtrata, ruotando per seed+offset.
+function pick(list: any[], offset = 0): any | null {
+  if (!list.length) return null;
+  return list[(seedN + offset) % list.length];
+}
+
+const byCat = (c: string) => gear.filter((p: any) => p.categoria === c);
+
+// Racchetta: su terra preferisci la specifica terra/spin, altrimenti ruota
+// tra le racchette da gioco (intermedio/avanzato).
+const racchette = byCat('racchetta');
+const racchettaTerra = racchette.find((p: any) => /terra|clay|spin|aero/i.test(p.nome + ' ' + p.sottocategoria + ' ' + p.superficie));
+const racchettaGioco = racchette.filter((p: any) => ['intermedio', 'avanzato'].includes(p.livello));
+
+// Scarpe: terra -> modello clay; altrimenti ruota uomo/donna cemento.
+const scarpe = byCat('scarpe');
+const scarpaTerra = scarpe.find((p: any) => /clay|terra/i.test(p.nome + ' ' + p.superficie + ' ' + p.sottocategoria));
+const scarpeCemento = scarpe.filter((p: any) => !/clay|terra/i.test(p.nome + ' ' + p.superficie + ' ' + p.sottocategoria));
+
+// Palline: terra -> clay; altrimenti competizione/allenamento.
+const palline = byCat('palline');
+const pallineTerra = palline.find((p: any) => /clay|terra/i.test(p.nome + ' ' + p.superficie + ' ' + p.sottocategoria));
+const pallineAltro = palline.filter((p: any) => !/clay|terra/i.test(p.nome + ' ' + p.superficie + ' ' + p.sottocategoria));
+
+// Composizione dei 3 slot in base al contesto.
+let scelti: any[] = [];
+if (isTerra) {
+  scelti = [
+    racchettaTerra || pick(racchettaGioco),
+    scarpaTerra || pick(scarpeCemento),
+    pallineTerra || pick(pallineAltro),
+  ];
+} else if (contesto === 'guida') {
+  scelti = [
+    pick(racchette),
+    pick(scarpe, 1),
+    pick([...byCat('overgrip'), ...byCat('palline')], 2),
+  ];
+} else {
+  scelti = [
+    pick(racchettaGioco.length ? racchettaGioco : racchette),
+    pick(scarpeCemento.length ? scarpeCemento : scarpe, 1),
+    pick(pallineAltro.length ? pallineAltro : palline, 2),
+  ];
+}
+// Dedup + rimuovi nulli, max 3.
+const seen = new Set<string>();
+const prodotti = scelti.filter((p) => p && !seen.has(p.asin) && seen.add(p.asin)).slice(0, 3);
+
+// Icona SVG per categoria (miniatura didascalica).
+function iconFor(cat: string): string {
+  switch (cat) {
+    case 'racchetta':
+      return '<ellipse cx="13" cy="9" rx="7" ry="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 4c3 3 7 7 10 11M18 4c-3 3-7 7-10 11" stroke="currentColor" stroke-width="0.9" opacity="0.5"/><path d="M11 17l-4 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>';
+    case 'scarpe':
+      return '<path d="M3 15h11l5 2c1 0.4 2 0.6 2 2v1H3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 15l1-4 3 1 1 3" stroke="currentColor" stroke-width="1.2" fill="none"/>';
+    case 'palline':
+      return '<circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 8c4 2 6 2 10 0M5 16c4-2 6-2 10 0" stroke="currentColor" stroke-width="1.2" fill="none"/>';
+    case 'overgrip':
+      return '<rect x="9" y="3" width="6" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 7l6 2M9 11l6 2M9 15l6 2" stroke="currentColor" stroke-width="1" opacity="0.6"/>';
+    case 'borsone':
+      return '<rect x="3" y="8" width="18" height="11" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 8V6a2 2 0 012-2h4a2 2 0 012 2v2" stroke="currentColor" stroke-width="1.4" fill="none"/>';
+    case 'corde':
+      return '<path d="M5 4v16M9 4v16M15 4v16M19 4v16M5 9h14M5 15h14" stroke="currentColor" stroke-width="1.3" fill="none"/>';
+    case 'bambini':
+      return '<circle cx="12" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 20c0-4 2.5-6 5-6s5 2 5 6" stroke="currentColor" stroke-width="1.6" fill="none"/>';
+    default:
+      return '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v5l3 2" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
+  }
+}
 
 const titolo = compact
-  ? 'Attrezzatura su Amazon'
+  ? 'I nostri consigli per giocare'
   : contesto === 'profilo'
-  ? 'Gioca anche tu: attrezzatura tennis'
-  : 'Attrezzatura consigliata per il tuo tennis';
+  ? 'Gioca anche tu: la nostra attrezzatura consigliata'
+  : 'Attrezzatura consigliata dalla Redazione';
 ---
 
-<aside class={`consigliati-tennis ${compact ? 'compact' : ''}`} aria-label="Attrezzatura tennis consigliata">
-  <div class="ct-head">
-    <span class="ct-ic" aria-hidden="true">
-      <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="9" fill="#d9f66d" stroke="#2a6b1d" stroke-width="1.5"/><path d="M4 8c6 3 10 3 16 0M4 16c6-3 10-3 16 0" stroke="#2a6b1d" stroke-width="1.5" fill="none"/></svg>
-    </span>
-    <h3>{titolo}</h3>
-  </div>
-  <ul class="ct-lista">
-    {voci.map(v => (
-      <li>
-        <a href={A(v.q)} rel="sponsored nofollow noopener" target="_blank">
-          <span>{v.testo}</span>
-          <span aria-hidden="true" class="ct-arrow">&rarr;</span>
+{prodotti.length > 0 && (
+  <aside class={`consigliati-tennis ${compact ? 'compact' : ''}`} aria-label="Attrezzatura tennis consigliata">
+    <div class="ct-head">
+      <span class="ct-ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="9" fill="#d9f66d" stroke="#2a6b1d" stroke-width="1.5"/><path d="M4 8c6 3 10 3 16 0M4 16c6-3 10-3 16 0" stroke="#2a6b1d" stroke-width="1.5" fill="none"/></svg>
+      </span>
+      <h3>{titolo}</h3>
+    </div>
+
+    <div class="ct-grid">
+      {prodotti.map((p: any) => (
+        <a class="ct-card" href={linkOf(p.asin)} rel="sponsored nofollow noopener" target="_blank">
+          <span class="ct-thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="40" height="40" set:html={iconFor(p.categoria)} />
+          </span>
+          <span class="ct-body">
+            <span class="ct-nome">{p.nome}</span>
+            <span class="ct-perche">{p.perche}</span>
+            <span class="ct-foot">
+              <span class="ct-prezzo">indicativo {p.prezzo_circa} &euro;</span>
+              <span class="ct-cta">Vedi su Amazon &rarr;</span>
+            </span>
+          </span>
         </a>
-      </li>
-    ))}
-  </ul>
-  <p class="ct-disclosure">
-    In qualità di Affiliato Amazon, AnalisiTennis riceve un guadagno dagli acquisti idonei.
-    I link aprono la ricerca su Amazon.it; nessun dato personale viene condiviso con noi.
-  </p>
-</aside>
+      ))}
+    </div>
+
+    <p class="ct-disclosure">
+      In qualità di Affiliato Amazon, AnalisiTennis riceve un guadagno dagli acquisti idonei. I prezzi mostrati sono indicativi e possono variare: fa fede quello su Amazon al momento dell'acquisto.
+    </p>
+  </aside>
+)}
 
 <style>
   .consigliati-tennis {
@@ -87,38 +157,57 @@ const titolo = compact
     padding: 18px 20px 14px;
     margin: 28px 0;
   }
-  .consigliati-tennis.compact { padding: 14px 16px 10px; margin: 20px 0; }
-  .ct-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .consigliati-tennis.compact { padding: 16px 16px 12px; }
+  .ct-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
   .ct-head h3 {
     margin: 0;
     font-family: 'Playfair Display', Georgia, serif;
     font-weight: 700;
     font-size: 1.15rem;
     color: #1a1a1a;
+    line-height: 1.2;
   }
   .consigliati-tennis.compact .ct-head h3 { font-size: 1.02rem; }
-  .ct-lista { list-style: none; padding: 0; margin: 0 0 10px; }
-  .ct-lista li { margin: 0; border-top: 1px solid #ececec; }
-  .ct-lista li:first-child { border-top: none; }
-  .ct-lista a {
+  .ct-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .ct-card {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 2px;
-    color: #1a1a1a;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
     text-decoration: none;
-    font-size: 0.98rem;
+    color: #1a1a1a;
+    transition: border-color 0.12s ease, transform 0.08s ease;
   }
-  .ct-lista a:hover { color: #2a6b1d; }
-  .ct-arrow { color: #2a6b1d; font-weight: 600; }
+  .ct-card:hover { border-color: #39d453; transform: translateY(-1px); }
+  .ct-thumb {
+    flex: 0 0 56px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f7ee;
+    border-radius: 8px;
+    color: #2a6b1d;
+  }
+  .ct-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .ct-nome { font-weight: 600; font-size: 0.97rem; line-height: 1.25; }
+  .ct-perche { font-size: 0.85rem; color: #5a5a5a; line-height: 1.4; }
+  .ct-foot { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin-top: 3px; }
+  .ct-prezzo { font-size: 0.82rem; color: #777; }
+  .ct-cta { font-size: 0.85rem; color: #2a6b1d; font-weight: 600; }
   .ct-disclosure {
     font-size: 0.78rem;
     color: #6b6b6b;
-    margin: 6px 0 0;
+    margin: 12px 0 0;
     line-height: 1.45;
   }
   @media (max-width: 640px) {
     .consigliati-tennis { padding: 14px 14px 10px; }
-    .ct-lista a { font-size: 0.94rem; padding: 9px 2px; }
+    .ct-thumb { flex-basis: 48px; width: 48px; height: 48px; }
+    .ct-nome { font-size: 0.93rem; }
   }
 </style>

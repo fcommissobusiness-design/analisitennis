@@ -76,9 +76,9 @@ const faqSchema = faqItems.length ? {
             </section>
           )}
 
-          <ConsigliatiTennis contesto="guida" />
+          <ConsigliatiTennis contesto="guida" seed={Astro.params.slug} />
 
-          <SupportaRedazione stile="inline" />
+          <SupportaRedazione stile="breve" />
         </div>
       </article>
       <aside><div class="side-sticky"><FormEmail /></div></aside>

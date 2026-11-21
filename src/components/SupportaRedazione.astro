@@ -1,19 +1,17 @@
 ---
-// Bottone "Supporta la redazione" via Revolut (o altra piattaforma).
-// L'URL e' in env `PUBLIC_SUPPORT_URL`: senza quello, il box non si mostra.
-// Zero rischio di deploy con placeholder sbagliato, zero impatto sul layout.
+// Box "Supporta la redazione" via Revolut.
 //
-// Props:
-//   - stile: 'inline' (fine articolo) | 'footer' (banda nel footer) | 'card' (box standalone)
+// Tre stili:
+//   - inline : box grande, SOLO sotto le analisi partita (pronostici)
+//   - breve  : riga sobria "Testata Giornalistica Indipendente: Supporta la
+//              nostra Redazione ->" per profili, tornei, guide
+//   - footer : stessa dicitura breve, come banda poco prima del footer
 
 interface Props {
-  stile?: 'inline' | 'footer' | 'card';
+  stile?: 'inline' | 'breve' | 'footer';
 }
-const { stile = 'inline' } = Astro.props as Props;
+const { stile = 'breve' } = Astro.props as Props;
 
-// URL Revolut pubblico di AnalisiTennis (Filippo). Lo teniamo versionato
-// in codice perche' e' visibile a chiunque apra il sito: niente segreto da
-// nascondere, e bastano 1 riga + commit per cambiarlo.
 const URL_SUPPORT_DEFAULT = 'https://revolut.me/filco0/pocket/9H3U5kEDaC';
 const URL_SUPPORT = import.meta.env.PUBLIC_SUPPORT_URL || URL_SUPPORT_DEFAULT;
 const show = Boolean(URL_SUPPORT);
@@ -22,7 +20,7 @@ const show = Boolean(URL_SUPPORT);
 {show && stile === 'inline' && (
   <aside class="sup-inline" aria-label="Supporta la redazione di AnalisiTennis">
     <p>
-      <strong>Ti è servita questa analisi?</strong> AnalisiTennis è una testata indipendente senza bookmaker alle spalle.
+      <strong>Ti è servita questa analisi?</strong> AnalisiTennis è una testata indipendente.
       Se vuoi sostenere il nostro lavoro, puoi offrirci un caffè virtuale.
     </p>
     <a class="sup-btn" href={URL_SUPPORT} rel="noopener" target="_blank">
@@ -31,23 +29,18 @@ const show = Boolean(URL_SUPPORT);
   </aside>
 )}
 
-{show && stile === 'footer' && (
-  <div class="sup-footer" aria-label="Supporta la redazione">
-    <span>Testata indipendente, nessun bookmaker. </span>
-    <a href={URL_SUPPORT} rel="noopener" target="_blank">Supporta la redazione &rarr;</a>
-  </div>
+{show && stile === 'breve' && (
+  <p class="sup-breve" aria-label="Supporta la redazione">
+    <span>Testata Giornalistica Indipendente: </span>
+    <a href={URL_SUPPORT} rel="noopener" target="_blank">Supporta la nostra Redazione &rarr;</a>
+  </p>
 )}
 
-{show && stile === 'card' && (
-  <aside class="sup-card" aria-label="Supporta la redazione">
-    <h3>Testata indipendente</h3>
-    <p>
-      Niente bookmaker, niente affiliazioni di scommesse. Viviamo di lettori, pubblicità onesta e piccoli contributi.
-    </p>
-    <a class="sup-btn" href={URL_SUPPORT} rel="noopener" target="_blank">
-      Supporta AnalisiTennis
-    </a>
-  </aside>
+{show && stile === 'footer' && (
+  <div class="sup-footer" aria-label="Supporta la redazione">
+    <span>Testata Giornalistica Indipendente: </span>
+    <a href={URL_SUPPORT} rel="noopener" target="_blank">Supporta la nostra Redazione &rarr;</a>
+  </div>
 )}
 
 <style>
@@ -58,21 +51,7 @@ const show = Boolean(URL_SUPPORT);
     margin: 28px 0;
     border-radius: 0 10px 10px 0;
   }
-  .sup-inline p { margin: 0 0 10px; font-size: 0.98rem; color: #1a1a1a; }
-  .sup-card {
-    border: 1px solid #e5e5e5;
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin: 28px 0;
-    background: #ffffff;
-  }
-  .sup-card h3 {
-    margin: 0 0 6px;
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.15rem;
-    color: #1a1a1a;
-  }
-  .sup-card p, .sup-inline p { line-height: 1.5; }
+  .sup-inline p { margin: 0 0 10px; font-size: 0.98rem; color: #1a1a1a; line-height: 1.5; }
   .sup-btn {
     display: inline-block;
     background: #0b0f14;
@@ -85,17 +64,29 @@ const show = Boolean(URL_SUPPORT);
     transition: transform 0.08s ease, background 0.12s ease;
   }
   .sup-btn:hover { background: #39d453; color: #0b0f14 !important; transform: translateY(-1px); }
+
+  .sup-breve {
+    margin: 26px 0 0;
+    padding-top: 14px;
+    border-top: 1px solid #ececec;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .sup-breve a { color: #2a6b1d; font-weight: 600; text-decoration: none; }
+  .sup-breve a:hover { text-decoration: underline; }
+
   .sup-footer {
     text-align: center;
-    font-size: 0.9rem;
-    padding: 12px 20px;
+    font-size: 0.92rem;
+    padding: 14px 20px;
     background: #f0faee;
     color: #1a1a1a;
     border-top: 1px solid #d8ebd3;
   }
   .sup-footer a { color: #2a6b1d; font-weight: 600; text-decoration: none; }
   .sup-footer a:hover { text-decoration: underline; }
+
   @media (max-width: 640px) {
-    .sup-inline, .sup-card { padding: 14px 16px; }
+    .sup-inline { padding: 14px 16px; }
   }
 </style>

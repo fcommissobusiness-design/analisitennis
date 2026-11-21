@@ -306,4 +306,12 @@ fi
 
 log ""
 log "Fase B completata."
-touch "$SENTINEL"
+# Sentinel SOLO se almeno un articolo e' stato pubblicato. Se 0 pubblicati
+# (es. claude CLI non loggata, API giu', tutti i match skippati), NON si
+# marca "fatto": cosi' un retry successivo puo' davvero rigenerare, invece
+# di uscire subito vedendo il sentinel di un run fallito.
+if [ ${#PUBBLICATI[@]} -gt 0 ]; then
+    touch "$SENTINEL"
+else
+    log "Zero articoli pubblicati: sentinel NON creato (il retry potra' rigenerare)."
+fi
