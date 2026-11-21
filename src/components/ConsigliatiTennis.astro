@@ -1,0 +1,124 @@
+---
+// Box affiliati Amazon.it per attrezzatura tennis.
+// Monetizzazione: link di ricerca Amazon con tag associato (nessun ASIN
+// specifico, zero manutenzione, nessun rischio di prezzi/immagini stale).
+// La commissione matura sulla sessione: qualunque prodotto l'utente
+// comperi dopo il click porta provvigione.
+//
+// Disclosure obbligatoria Amazon Associates (Operating Agreement IT, art.5
+// e Linee Guida Europee): "In qualita' di Affiliato Amazon io ricevo un
+// guadagno dagli acquisti idonei". Sempre visibile sopra o accanto ai
+// link, in chiaro.
+//
+// Props:
+//   - contesto: 'profilo' | 'guida' | 'articolo' (default 'articolo')
+//   - superficie: 'cemento' | 'terra' | 'erba' | '' (facoltativa)
+//   - compact: boolean (true = versione fine articolo, false = sidebar)
+
+interface Props {
+  contesto?: 'profilo' | 'guida' | 'articolo';
+  superficie?: string;
+  compact?: boolean;
+}
+
+const { contesto = 'articolo', superficie = '', compact = false } = Astro.props as Props;
+
+const TAG = import.meta.env.PUBLIC_AMAZON_TAG || 'pickforme26-21';
+const A = (query: string) =>
+  `https://www.amazon.it/s?${new URLSearchParams({ k: query, tag: TAG }).toString()}`;
+
+// Segmentazione per superficie se il giocatore ne ha una preferita.
+const sup = superficie.toLowerCase();
+const isTerra = /terra|clay/.test(sup);
+const isErba  = /erba|grass/.test(sup);
+const isCemento = /cemento|hard|dur/.test(sup);
+
+// Lista voci: query umana + testo mostrato. Niente nomi di brand inventati:
+// Amazon ordina lui i risultati su query generiche.
+const voci = [
+  isTerra
+    ? { testo: 'Racchette per terra battuta', q: 'racchetta tennis terra battuta adulti' }
+    : isErba
+    ? { testo: 'Racchette per erba',          q: 'racchetta tennis professionale' }
+    : isCemento
+    ? { testo: 'Racchette per cemento',       q: 'racchetta tennis cemento adulti' }
+    : { testo: 'Racchette tennis adulti',     q: 'racchetta tennis adulti' },
+  { testo: 'Scarpe da tennis',  q: superficie ? `scarpe tennis ${sup}` : 'scarpe tennis uomo donna' },
+  { testo: 'Palline da tennis', q: 'palline tennis dunlop head' },
+  { testo: 'Overgrip e grip',   q: 'overgrip tennis' },
+  { testo: 'Borsone tennis',    q: 'borsone tennis racchette' },
+];
+
+const titolo = compact
+  ? 'Attrezzatura su Amazon'
+  : contesto === 'profilo'
+  ? 'Gioca anche tu: attrezzatura tennis'
+  : 'Attrezzatura consigliata per il tuo tennis';
+---
+
+<aside class={`consigliati-tennis ${compact ? 'compact' : ''}`} aria-label="Attrezzatura tennis consigliata">
+  <div class="ct-head">
+    <span class="ct-ic" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="9" fill="#d9f66d" stroke="#2a6b1d" stroke-width="1.5"/><path d="M4 8c6 3 10 3 16 0M4 16c6-3 10-3 16 0" stroke="#2a6b1d" stroke-width="1.5" fill="none"/></svg>
+    </span>
+    <h3>{titolo}</h3>
+  </div>
+  <ul class="ct-lista">
+    {voci.map(v => (
+      <li>
+        <a href={A(v.q)} rel="sponsored nofollow noopener" target="_blank">
+          <span>{v.testo}</span>
+          <span aria-hidden="true" class="ct-arrow">&rarr;</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="ct-disclosure">
+    In qualità di Affiliato Amazon, AnalisiTennis riceve un guadagno dagli acquisti idonei.
+    I link aprono la ricerca su Amazon.it; nessun dato personale viene condiviso con noi.
+  </p>
+</aside>
+
+<style>
+  .consigliati-tennis {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background: #fafafa;
+    padding: 18px 20px 14px;
+    margin: 28px 0;
+  }
+  .consigliati-tennis.compact { padding: 14px 16px 10px; margin: 20px 0; }
+  .ct-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .ct-head h3 {
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #1a1a1a;
+  }
+  .consigliati-tennis.compact .ct-head h3 { font-size: 1.02rem; }
+  .ct-lista { list-style: none; padding: 0; margin: 0 0 10px; }
+  .ct-lista li { margin: 0; border-top: 1px solid #ececec; }
+  .ct-lista li:first-child { border-top: none; }
+  .ct-lista a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2px;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 0.98rem;
+  }
+  .ct-lista a:hover { color: #2a6b1d; }
+  .ct-arrow { color: #2a6b1d; font-weight: 600; }
+  .ct-disclosure {
+    font-size: 0.78rem;
+    color: #6b6b6b;
+    margin: 6px 0 0;
+    line-height: 1.45;
+  }
+  @media (max-width: 640px) {
+    .consigliati-tennis { padding: 14px 14px 10px; }
+    .ct-lista a { font-size: 0.94rem; padding: 9px 2px; }
+  }
+</style>
