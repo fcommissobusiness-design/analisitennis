@@ -1,0 +1,9 @@
+# ads.txt - AnalisiTennis.it
+# Dichiarazione pubblica degli ad-system autorizzati a vendere spazi
+# pubblicitari su questo dominio (IAB Tech Lab standard).
+#
+# Dopo l'approvazione AdSense, Google fornira' la riga ufficiale nel
+# formato:
+#   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# da incollare qui sotto e committare. L'esistenza di ads.txt e' uno
+# dei segnali di qualita' letti dai crawler pubblicitari.
