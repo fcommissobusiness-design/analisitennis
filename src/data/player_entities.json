@@ -70,6 +70,15 @@
 "wikidata": "Q107406917",
 "wikipedia": "https://it.wikipedia.org/wiki/Arthur_Fery"
 },
+"a-fita-boluda": {
+"image": "File:Ángela Fita Boluda (2026 US Open) 01 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q105358186",
+"https://it.wikipedia.org/wiki/%C3%81ngela_Fita_Boluda"
+],
+"wikidata": "Q105358186",
+"wikipedia": "https://it.wikipedia.org/wiki/%C3%81ngela_Fita_Boluda"
+},
 "a-herrero-linana": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q114269936",
@@ -86,6 +95,14 @@
 "wikidata": "Q111983296",
 "wikipedia": "https://en.wikipedia.org/wiki/Adithya_Karunaratne"
 },
+"a-lukosiute": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q110908764",
+"https://en.wikipedia.org/wiki/Andr%C4%97_Luko%C5%A1i%C5%ABt%C4%97"
+],
+"wikidata": "Q110908764",
+"wikipedia": "https://en.wikipedia.org/wiki/Andr%C4%97_Luko%C5%A1i%C5%ABt%C4%97"
+},
 "a-mayo": {
 "image": "File:Aidan Mayo (2026 Cary) 02 (cropped).jpg",
 "sameAs": [
@@ -94,6 +111,14 @@
 ],
 "wikidata": "Q131278872",
 "wikipedia": "https://en.wikipedia.org/wiki/Aidan_Mayo"
+},
+"a-mintegi-del-olmo": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q89288719",
+"https://en.wikipedia.org/wiki/Ane_Mintegi_del_Olmo"
+],
+"wikidata": "Q89288719",
+"wikipedia": "https://en.wikipedia.org/wiki/Ane_Mintegi_del_Olmo"
 },
 "a-moro-canas": {
 "image": "File:Alejandro Moro Cañas (2026 US Open) 01.jpg",
@@ -121,6 +146,15 @@
 ],
 "wikidata": "Q105745525",
 "wikipedia": "https://it.wikipedia.org/wiki/Alycia_Parks"
+},
+"a-ritschard": {
+"image": "File:Ritschard RGQ22 (30) (52129554138).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q15782265",
+"https://it.wikipedia.org/wiki/Alexander_Ritschard"
+],
+"wikidata": "Q15782265",
+"wikipedia": "https://it.wikipedia.org/wiki/Alexander_Ritschard"
 },
 "a-ruzic": {
 "image": "File:2023 Roland Garros Qualifying Tournament - 37 (cropped2).jpg",
@@ -602,6 +636,14 @@
 "wikidata": "Q20898017",
 "wikipedia": "https://it.wikipedia.org/wiki/Claire_Liu"
 },
+"c-martinez-cirez": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q112253991",
+"https://en.wikipedia.org/wiki/Carlota_Mart%C3%ADnez_C%C3%ADrez"
+],
+"wikidata": "Q112253991",
+"wikipedia": "https://en.wikipedia.org/wiki/Carlota_Mart%C3%ADnez_C%C3%ADrez"
+},
 "c-monnet": {
 "image": "File:Monnet WMQ22 (23) (52191390719) (cropped).jpg",
 "sameAs": [
@@ -796,6 +838,13 @@
 ],
 "wikidata": "Q106807023",
 "wikipedia": "https://it.wikipedia.org/wiki/Darja_Seme%C5%86istaja"
+},
+"d-simionescu": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q120751132"
+],
+"wikidata": "Q120751132",
+"wikipedia": null
 },
 "d-svrcina": {
 "image": "File:2022 Roland Garros Qualifying Tournament - 73 Dalibor Svrčina (cropped).jpg",
@@ -1033,6 +1082,13 @@
 "wikidata": "Q27306789",
 "wikipedia": "https://it.wikipedia.org/wiki/Federico_Coria"
 },
+"f-dorofeeva-rybas": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q133852205"
+],
+"wikidata": "Q133852205",
+"wikipedia": null
+},
 "f-forti": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q107739678",
@@ -1147,6 +1203,15 @@
 ],
 "wikidata": "Q17305299",
 "wikipedia": "https://it.wikipedia.org/wiki/Frances_Tiafoe"
+},
+"francesca-jones": {
+"image": "File:Jones BIA21 (127) (51377594367).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q62700236",
+"https://it.wikipedia.org/wiki/Francesca_Jones"
+],
+"wikidata": "Q62700236",
+"wikipedia": "https://it.wikipedia.org/wiki/Francesca_Jones"
 },
 "francesco-maestrelli": {
 "image": "File:Maestrelli RGQ23 (52944044613).jpg",
@@ -1865,6 +1930,14 @@
 "wikidata": "Q99670362",
 "wikipedia": "https://it.wikipedia.org/wiki/Kyrian_Jacquet"
 },
+"l-alhussein": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q52063092",
+"https://it.wikipedia.org/wiki/Lamis_Alhussein_Abdel_Aziz"
+],
+"wikidata": "Q52063092",
+"wikipedia": "https://it.wikipedia.org/wiki/Lamis_Alhussein_Abdel_Aziz"
+},
 "l-borg": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q97499980",
@@ -2096,6 +2169,13 @@
 "wikidata": "Q139899297",
 "wikipedia": "https://en.wikipedia.org/wiki/Max_Alcal%C3%A1_Gurri"
 },
+"m-argyrokastriti": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q136115717"
+],
+"wikidata": "Q136115717",
+"wikipedia": null
+},
 "m-bassols": {
 "image": "File:Bassols Ribera WMQ23 (53062105360) (cropped).jpg",
 "sameAs": [
@@ -2295,6 +2375,13 @@
 ],
 "wikidata": "Q119521061",
 "wikipedia": "https://it.wikipedia.org/wiki/Mary_Stoiana"
+},
+"m-teixido-garcia": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q139496823"
+],
+"wikidata": "Q139496823",
+"wikipedia": null
 },
 "m-uchijima": {
 "image": "File:Uchijima WMQ23 (53062168653).jpg",
@@ -2803,6 +2890,15 @@
 "wikidata": "Q100906747",
 "wikipedia": "https://it.wikipedia.org/wiki/Ryan_Peniston"
 },
+"r-serban": {
+"image": "File:Serban WMQ19 (15).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q42860009",
+"https://it.wikipedia.org/wiki/Raluca_%C8%98erban"
+],
+"wikidata": "Q42860009",
+"wikipedia": "https://it.wikipedia.org/wiki/Raluca_%C8%98erban"
+},
 "r-sramkova": {
 "image": "File:Rebecca Šramková (2023 US Open) 10 (cropped).jpg",
 "sameAs": [
@@ -2873,6 +2969,13 @@
 ],
 "wikidata": "Q18637944",
 "wikipedia": "https://it.wikipedia.org/wiki/Roman_Safiullin"
+},
+"s-auer": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q121461401"
+],
+"wikidata": "Q121461401",
+"wikipedia": null
 },
 "s-banerjee": {
 "image": "File:Samir Banerjee UNC Stanford 2026 (1).jpg",
