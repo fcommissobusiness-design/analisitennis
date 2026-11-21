@@ -22,10 +22,11 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Gibson"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-21-c-burel-vs-t-gibson-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
-cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Talia Gibson Janice Tjen Birmingham 2026.jpg"
 generato_il: "2026-11-21T07:14+01:00"
+cover_image: "/covers/2026-11-21-c-burel-vs-t-gibson-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
+cover_credit: "Talia Gibson (2024 Cary) 01.jpg | Hameltion | CC BY-SA 4.0"
+cover_focus: 10
 ---
 
 Il quadro della **Billie Jean King Cup** propone un confronto dal sapore particolare tra Burel e Talia Gibson, due giocatrici arrivate a questo appuntamento percorrendo strade molto diverse. È una partita che vale soprattutto per la squadra: conta il punto per la nazionale e il morale di fine stagione più del bottino personale, e questo basta a caricarla di una tensione differente rispetto a un normale turno di torneo. Proprio perché si gioca in gara secca, ogni dettaglio di contesto rischia di pesare quanto il puro valore tecnico.
