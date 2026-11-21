@@ -11,7 +11,11 @@ interface Props {
 }
 const { stile = 'inline' } = Astro.props as Props;
 
-const URL_SUPPORT = import.meta.env.PUBLIC_SUPPORT_URL || '';
+// URL Revolut pubblico di AnalisiTennis (Filippo). Lo teniamo versionato
+// in codice perche' e' visibile a chiunque apra il sito: niente segreto da
+// nascondere, e bastano 1 riga + commit per cambiarlo.
+const URL_SUPPORT_DEFAULT = 'https://revolut.me/filco0/pocket/9H3U5kEDaC';
+const URL_SUPPORT = import.meta.env.PUBLIC_SUPPORT_URL || URL_SUPPORT_DEFAULT;
 const show = Boolean(URL_SUPPORT);
 ---
 
