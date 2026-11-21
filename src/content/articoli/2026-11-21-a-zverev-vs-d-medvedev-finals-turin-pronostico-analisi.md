@@ -23,8 +23,8 @@ pubblicato: true
 probabilita_favorito: "Zverev"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-21-a-zverev-vs-d-medvedev-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Steven Pisano from Brooklyn, NY, USA / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21312632655).jpg"
+cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_file: "File:Zverev 2023.png"
 generato_il: "2026-11-21T07:23+01:00"
 ---
 

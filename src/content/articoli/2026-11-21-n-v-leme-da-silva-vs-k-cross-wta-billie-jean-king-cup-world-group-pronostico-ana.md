@@ -23,8 +23,8 @@ noindex: true
 probabilita_favorito: "Cross"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-21-n-v-leme-da-silva-vs-k-cross-wta-billie-jean-king-cup-world-group-pronostico-ana.jpg"
-cover_credit: "Bert Verhoeff / Anefo / CC0 / Wikimedia Commons"
-cover_file: "File:Tennis Melkhuisje, halve finales Carter in actie tegen Bazazzutti, Bestanddeelnr 929-8373.jpg"
+cover_credit: "Johnnybam / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Tennis Player in Action.jpg"
 generato_il: "2026-11-21T07:55+01:00"
 ---
 

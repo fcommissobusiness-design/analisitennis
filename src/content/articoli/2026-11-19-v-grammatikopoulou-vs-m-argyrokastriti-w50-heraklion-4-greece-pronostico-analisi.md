@@ -24,9 +24,9 @@ probabilita_favorito: "Grammatikopoulou"
 probabilita_percent: 62
 generato_il: "2026-11-19T07:12+01:00"
 cover_image: "/covers/2026-11-19-v-grammatikopoulou-vs-m-argyrokastriti-w50-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis WTA (33040181178).jpg"
 ---
-
 Agli **ottavi di finale** del torneo di Heraklion, Valentini Grammatikopoulou e Marianna Argyrokastriti si ritrovano in un incrocio che mette a confronto due percorsi diversi dentro la stessa settimana. Entrambe hanno superato il turno precedente e si presentano a questo appuntamento, in programma nella prima mattinata, con argomenti differenti da far valere. Da una parte una giocatrice con un bagaglio costruito anche a livelli più impegnativi, dall'altra una protagonista in piena fase di crescita.
 
 ### La forma delle ultime settimane

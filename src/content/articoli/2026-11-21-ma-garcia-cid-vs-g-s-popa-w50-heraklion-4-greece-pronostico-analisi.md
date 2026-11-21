@@ -24,7 +24,7 @@ probabilita_favorito: "Garcia Cid"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-21-ma-garcia-cid-vs-g-s-popa-w50-heraklion-4-greece-pronostico-analisi.jpg"
 cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (46001164515).jpg"
+cover_file: "File:Sydney International Tennis ATP (33040179468).jpg"
 generato_il: "2026-11-21T07:16+01:00"
 ---
 

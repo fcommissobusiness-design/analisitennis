@@ -24,9 +24,9 @@ probabilita_favorito: "Serban"
 probabilita_percent: 71
 generato_il: "2026-11-19T07:34+01:00"
 cover_image: "/covers/2026-11-19-r-serban-vs-j-struplova-w50-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Raluca Șerban (2023 US Open) 05.jpg"
 ---
-
 Gli ottavi di finale del torneo di Heraklion mettono di fronte R. Serban e J. Struplova in un match che, prima ancora dei colpi, racconta due calendari opposti. Da una parte una giocatrice che non smette di scendere in campo da settimane, dall'altra una che è tornata da poco dopo un lungo stop. È il tipo di incrocio in cui la differenza, più che nei fondamentali, può nascondersi nella **condizione** del momento, e in cui la lettura di chi arriva meglio diventa meno scontata di quanto sembri.
 
 ### Il momento delle due

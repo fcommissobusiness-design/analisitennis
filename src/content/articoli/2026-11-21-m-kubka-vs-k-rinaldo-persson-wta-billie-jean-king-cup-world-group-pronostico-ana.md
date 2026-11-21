@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Kubka"
 probabilita_percent: 53
-cover_file: "File:2014-11-12 2014 ATP World Tour Finals show court during Marin Cilic vs Thomas Berdych match 2 by Michael Frey.jpg"
+cover_file: "File:Sydney International Tennis ATP (33040179108).jpg"
 generato_il: "2026-11-21T07:39+01:00"
 cover_image: "/covers/2026-11-21-m-kubka-vs-k-rinaldo-persson-wta-billie-jean-king-cup-world-group-pronostico-ana.jpg"
-cover_credit: "Nationa lTennis Centre Toronto Canadian Open August 1997.jpg | TorontoGuy79 | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il calendario del tennis femminile entra nella settimana della **Billie Jean King Cup**, la competizione a squadre per nazioni, e tra i singolari in programma c'è il confronto tra Martyna **Kubka** e Kajsa **Rinaldo Persson**, in campo alle 14:30 italiane nella fascia diurna. Non è una finale nè un ultimo atto: è un singolare interno a una sfida tra nazioni, un rubber che pesa per il punteggio complessivo della squadra e non per i punti di classifica individuali. Un contesto in cui la responsabilità emotiva è alta anche quando i due nomi vivono lontano dai riflettori del ranking mondiale.

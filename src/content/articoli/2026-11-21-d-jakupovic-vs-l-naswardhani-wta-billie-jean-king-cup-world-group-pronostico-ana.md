@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Jakupovic"
 probabilita_percent: 73
-cover_file: "File:Marie Bouzková at the 2026 Nottingham Open (2).jpg"
+cover_file: "File:Sydney International Tennis WTA Premier (46915302031).jpg"
 generato_il: "2026-11-21T07:24+01:00"
 cover_image: "/covers/2026-11-21-d-jakupovic-vs-l-naswardhani-wta-billie-jean-king-cup-world-group-pronostico-ana.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 C'è qualcosa di istruttivo nei confronti che mettono di fronte due storie tennistiche così lontane. Da una parte **D. Jakupovic**, giocatrice di lunga frequentazione del circuito, abituata a maneggiare i ritmi di una partita e i momenti che contano; dall'altra **L. Naswardhani**, un profilo agli inizi del proprio percorso, con pochissimo materiale alle spalle su cui costruire un giudizio. Il palcoscenico è quello della **WTA Billie Jean King Cup**, la competizione a squadre nazionali, in cui il singolare del singolo giorno si inserisce in una sfida più ampia tra due formazioni.

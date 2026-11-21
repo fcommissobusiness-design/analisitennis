@@ -30,8 +30,9 @@ ROOT = Path(__file__).resolve().parent.parent
 POOL_DIR = ROOT / 'public/covers/pool'
 MANIFEST = POOL_DIR / 'manifest.json'
 
-# Query d'AZIONE: cercano giocatori che giocano, non stadi. Variate per
-# superficie e colpo cosi' il pool e' eterogeneo.
+# Query d'AZIONE: cercano giocatori che giocano, non stadi. Molte e variate
+# per massimizzare un pool grande ed eterogeneo (serve a non ripetere mai le
+# cover nello stesso giorno, anche con 16+ articoli ITF).
 QUERIES = [
     'tennis forehand player', 'tennis backhand player', 'tennis serve player',
     'tennis player match play', 'ATP tennis match', 'WTA tennis match',
@@ -39,14 +40,34 @@ QUERIES = [
     'tennis tournament match action', 'tennis player return', 'clay court tennis player',
     'hard court tennis player', 'tennis player forehand action', 'tennis singles match',
     'tennis player backhand action', 'tennis player hitting ball',
+    'tennis player open', 'tennis grand slam player', 'tennis player serving match',
+    'female tennis player action', 'male tennis player action', 'tennis player running',
+    'tennis player smash', 'tennis player slice', 'tennis player two handed backhand',
+    'tennis match point player', 'tennis player on court', 'tennis player forehand grip',
+    'tennis player stretching ball', 'tennis doubles match action', 'tennis player reaching',
+    'tennis player clay slide', 'tennis player net approach', 'tennis player celebration fist',
+    'ITF tennis player', 'challenger tennis player', 'tennis player action shot',
 ]
 
 _CLOSEUP = tuple(w.lower() for w in CLOSEUP_WORDS)
 
+# Soggetti/temi poco rappresentativi del circuito ATP/WTA moderno o non
+# pertinenti come cover editoriale: li escludiamo per qualita'.
+_OFFTOPIC = ('wheelchair', 'paralymp', 'para tennis', 'juniores', 'junior ',
+             'veteran', 'seniors', 'table tennis', 'ping pong', 'real tennis',
+             'court tennis', 'padel', 'beach tennis', 'drawing', 'sketch',
+             'engraving', 'lithograph', 'painting', 'cartoon', 'statue',
+             '1900', '1910', '1920', '1930', '1940', '1950',
+             # NON-foto o scene non pertinenti viste nei risultati:
+             'page ', 'crop', ' le tennis', 'secretary', 'watches', 'watching',
+             'shake hands', 'handshake', 'ceremony', 'trophy', 'award', 'medal',
+             'poster', 'book', 'postcard', 'stamp', 'magazine', 'cover of',
+             'kerry', 'obama', 'minister', 'president', 'royal', 'queen', 'king ')
+
 
 def is_action_photo(title: str) -> bool:
-    """Tiene solo foto d'azione tennis: tema tennis, non venue vuoto, non
-    primo piano del volto, non scena vietata."""
+    """Tiene solo foto d'azione tennis moderne: tema tennis, non venue vuoto,
+    non primo piano, non scena vietata, non temi off-topic/storici."""
     t = title.lower()
     if not _looks_tennis(title):
         return False
@@ -55,6 +76,8 @@ def is_action_photo(title: str) -> bool:
     if _is_venue_photo(title):   # stadi/arene vuote: le vogliamo escludere qui
         return False
     if any(w in t for w in _CLOSEUP):
+        return False
+    if any(w in t for w in _OFFTOPIC):
         return False
     return True
 

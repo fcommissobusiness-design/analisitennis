@@ -23,8 +23,8 @@ noindex: true
 probabilita_favorito: "Hennemann"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-21-g-feistel-vs-c-w-hennemann-wta-billie-jean-king-cup-world-group-pronostico-anali.jpg"
-cover_credit: "Hugo van Gelderen / Anefo / CC0 / Wikimedia Commons"
-cover_file: "File:Tennis in Noordwijk, Luis Ayala in actie in een partije tegen Ken Rosewall (niet op de foto), Bestanddeelnr 916-7928.jpg"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis WTA (33040180948).jpg"
 generato_il: "2026-11-21T07:13+01:00"
 ---
 

@@ -24,9 +24,9 @@ probabilita_favorito: "Lukosiute"
 probabilita_percent: 61
 generato_il: "2026-11-19T07:25+01:00"
 cover_image: "/covers/2026-11-19-h-abouelsaad-vs-a-lukosiute-w15-sharm-elsheikh-20-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis WTA (33040175848).jpg"
 ---
-
 Gli ottavi di finale del **W15 Sharm ElSheikh 20** mettono di fronte Abouelsaad e Lukosiute, due giocatrici arrivate allo stesso turno percorrendo strade diverse. Entrambe hanno superato il primo turno il 18 novembre, ma il contesto da cui provengono racconta stagioni differenti. Si gioca nella sessione mattutina, con inizio previsto alle nove ora italiana.
 
 ### La forma recente

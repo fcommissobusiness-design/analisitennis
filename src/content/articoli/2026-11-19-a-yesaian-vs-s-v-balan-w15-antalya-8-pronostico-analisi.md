@@ -24,9 +24,9 @@ probabilita_favorito: "Balan"
 probabilita_percent: 58
 generato_il: "2026-11-19T07:54+01:00"
 cover_image: "/covers/2026-11-19-a-yesaian-vs-s-v-balan-w15-antalya-8-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Michael Frey (Michael Frey) / CC BY-SA 3.0 / Wikimedia Commons"
+cover_file: "File:2014-11-12 2014 ATP World Tour Finals show court during Marin Cilic vs Thomas Berdych match 1 by Michael Frey.jpg"
 ---
-
 Nel cuore della stagione itinerante del circuito femminile d'ingresso, il torneo di Antalya mette di fronte due storie agli antipodi. Da una parte **S. V. Balan**, giocatrice che da settimane macina partite e spostamenti senza sosta; dall'altra **A. Yesaian**, profilo quasi senza traccia nei nostri archivi, entrata in tabellone e capace di superare il turno precedente. Non ci sono precedenti validi tra loro, nessuna delle due ha mai misurato dal vivo le armi dell'altra, e questo rende il confronto meno leggibile di quanto una semplice occhiata ai curriculum lascerebbe pensare.
 
 Il livello è quello dei tornei da 15.000 dollari di montepremi, il gradino d'accesso al professionismo: ambiente dove convivono giovani in costruzione, rientranti e professioniste di fascia bassa che inseguono punti utili per la classifica mondiale. Ogni turno superato pesa in proporzione sul bottino stagionale di chi lo gioca, e questo alza la posta di una partita che sulla carta passerebbe inosservata.

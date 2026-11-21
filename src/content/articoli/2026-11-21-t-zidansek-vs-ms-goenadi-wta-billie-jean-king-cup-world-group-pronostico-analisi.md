@@ -23,8 +23,8 @@ noindex: true
 probabilita_favorito: "Zidansek"
 probabilita_percent: 77
 cover_image: "/covers/2026-11-21-t-zidansek-vs-ms-goenadi-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
-cover_credit: "Ben Lancaster from England / CC BY 2.0 / Wikimedia Commons"
-cover_file: "File:Tennis forehand by random dave.jpeg"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis WTA (33040176178).jpg"
 generato_il: "2026-11-21T07:54+01:00"
 ---
 

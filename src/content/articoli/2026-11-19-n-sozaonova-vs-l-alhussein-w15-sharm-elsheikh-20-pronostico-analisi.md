@@ -24,9 +24,9 @@ probabilita_favorito: "Alhussein"
 probabilita_percent: 62
 generato_il: "2026-11-19T07:28+01:00"
 cover_image: "/covers/2026-11-19-n-sozaonova-vs-l-alhussein-w15-sharm-elsheikh-20-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Tatjana Maria at the 2026 Nottingham Open (2).jpg"
 ---
-
 Gli ottavi di finale del W15 di Sharm ElSheikh 20 mettono di fronte due giocatrici arrivate a questo appuntamento per strade opposte. Da un lato **L. Alhussein**, che ha macinato partite su partite nelle ultime settimane; dall'altro **N. Sozaonova**, che ha un calendario recente molto più scarico ma anche meno continuo. È una di quelle sfide in cui il confronto non riguarda tanto un divario di valori, quanto il modo diverso in cui le due si presentano al via: ritmo e fiducia contro gambe più riposate.
 
 ### La forma recente

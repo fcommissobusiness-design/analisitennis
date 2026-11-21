@@ -24,9 +24,9 @@ probabilita_favorito: "Teixido Garcia"
 probabilita_percent: 53
 generato_il: "2026-11-19T07:41+01:00"
 cover_image: "/covers/2026-11-19-m-teixido-garcia-vs-s-auer-w15-antalya-8-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "danielcooper850 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_file: "File:Marie Bouzková at the 2026 Nottingham Open (3).jpg"
 ---
-
 Al W15 di Antalya 8, torneo del gradino d'ingresso del circuito professionistico femminile, **M. Teixido Garcia** e **S. Auer** si ritrovano in un turno a eliminazione diretta dopo aver superato entrambe il proprio impegno del giorno precedente. Non è un atto conclusivo del tabellone, ma un crocevia che vale continuità, punti e fiducia per due giocatrici che stanno costruendo la loro stagione nella fascia d'accesso del tour. Il contesto, quello della tournee turca di fine autunno, mette in fila settimana dopo settimana tornei concomitanti nella stessa sede, e in questo bacino le due arrivano con sensazioni molto simili.
 
 ### Il momento di forma

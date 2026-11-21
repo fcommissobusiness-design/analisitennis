@@ -24,9 +24,9 @@ probabilita_favorito: "Mintegi Del Olmo"
 probabilita_percent: 72
 generato_il: "2026-11-19T07:12+01:00"
 cover_image: "/covers/2026-11-19-a-mintegi-del-olmo-vs-l-cortez-llorca-w50-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis ATP (33040179218).jpg"
 ---
-
 A. Mintegi Del Olmo e L. Cortez Llorca tornano una di fronte all'altra agli ottavi del **W50 Heraklion 4**, nel circuito ITF femminile. Per entrambe è il passo successivo al W35 Heraklion 3 appena concluso nello stesso polo organizzativo: cambia il tabellone, non la cornice. Si gioca in mattinata, nella prima sessione di giornata, con tutto quello che comporta un avvio a campo fresco e braccia ancora da scaldare.
 
 Il passaggio dal W35 al W50 non è un dettaglio di calendario. Per tutte e due significa punti dal peso superiore rispetto alla media delle ultime uscite, in una coda di stagione giocata a pieno regime. Il doppio impegno consecutivo nella stessa sede racconta di due giocatrici in fase di accumulo, non di gestione: nessuna delle due è qui per amministrare.

@@ -25,7 +25,7 @@ interface Props {
 const { contesto = 'articolo', superficie = '', compact = false, seed = '' } = Astro.props as Props;
 
 const TAG = import.meta.env.PUBLIC_AMAZON_TAG || 'pickforme26-21';
-const linkOf = (asin: string) => `https://www.amazon.it/dp/${asin}?tag=${TAG}&linkCode= ll1&language=it_IT`.replace(' ', '');
+const linkOf = (asin: string) => `https://www.amazon.it/dp/${asin}?tag=${TAG}&linkCode=ll1&language=it_IT`;
 
 const sup = (superficie || '').toLowerCase();
 const isTerra = /terra|clay/.test(sup);
@@ -36,7 +36,13 @@ function hash(s: string): number {
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
   return h;
 }
-const seedN = hash(seed || contesto || 'x');
+// Rotazione nel tempo: il giorno dell'anno entra nel seed. Il sito ribuilda
+// ogni giorno (pipeline Fase A -> push -> build Cloudflare), quindi a ogni
+// build i prodotti mostrati ruotano, senza infrastruttura aggiuntiva. Dentro
+// la stessa giornata la scelta resta stabile (buona per la cache).
+const oggi = new Date();
+const giornoAnno = Math.floor((oggi.getTime() - new Date(oggi.getFullYear(), 0, 0).getTime()) / 86400000);
+const seedN = hash((seed || contesto || 'x') + ':' + giornoAnno);
 
 // Sceglie 1 prodotto da una lista filtrata, ruotando per seed+offset.
 function pick(list: any[], offset = 0): any | null {
@@ -128,14 +134,19 @@ const titolo = compact
     <div class="ct-grid">
       {prodotti.map((p: any) => (
         <a class="ct-card" href={linkOf(p.asin)} rel="sponsored nofollow noopener" target="_blank">
-          <span class="ct-thumb" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="40" height="40" set:html={iconFor(p.categoria)} />
-          </span>
+          {p.img ? (
+            <span class="ct-thumb ct-thumb-img">
+              <img src={p.img} alt={p.nome} loading="lazy" width="56" height="56" />
+            </span>
+          ) : (
+            <span class="ct-thumb" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="40" height="40" set:html={iconFor(p.categoria)} />
+            </span>
+          )}
           <span class="ct-body">
             <span class="ct-nome">{p.nome}</span>
             <span class="ct-perche">{p.perche}</span>
             <span class="ct-foot">
-              <span class="ct-prezzo">indicativo {p.prezzo_circa} &euro;</span>
               <span class="ct-cta">Vedi su Amazon &rarr;</span>
             </span>
           </span>
@@ -144,7 +155,7 @@ const titolo = compact
     </div>
 
     <p class="ct-disclosure">
-      In qualità di Affiliato Amazon, AnalisiTennis riceve un guadagno dagli acquisti idonei. I prezzi mostrati sono indicativi e possono variare: fa fede quello su Amazon al momento dell'acquisto.
+      In qualità di Affiliato Amazon, AnalisiTennis riceve un guadagno dagli acquisti idonei.
     </p>
   </aside>
 )}
@@ -193,6 +204,8 @@ const titolo = compact
     border-radius: 8px;
     color: #2a6b1d;
   }
+  .ct-thumb-img { background: #fff; border: 1px solid #eee; }
+  .ct-thumb-img img { width: 100%; height: 100%; object-fit: contain; border-radius: 7px; }
   .ct-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
   .ct-nome { font-weight: 600; font-size: 0.97rem; line-height: 1.25; }
   .ct-perche { font-size: 0.85rem; color: #5a5a5a; line-height: 1.4; }

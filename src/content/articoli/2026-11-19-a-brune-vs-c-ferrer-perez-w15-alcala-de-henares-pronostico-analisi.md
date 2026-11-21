@@ -23,9 +23,9 @@ probabilita_favorito: "Brune"
 probabilita_percent: 64
 generato_il: "2026-11-19T07:55+01:00"
 cover_image: "/covers/2026-11-19-a-brune-vs-c-ferrer-perez-w15-alcala-de-henares-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis ATP (46001159275).jpg"
 ---
-
 Il primo turno del **W15 Alcala de Henares** mette di fronte A. Brune e C. Ferrer Perez, due giocatrici che arrivano all'appuntamento da strade profondamente diverse. Non esistono precedenti tra le due: è un confronto senza memoria, in cui ciascuna dovrà leggere l'avversaria strada facendo. Proprio l'assenza di riferimenti incrociati rende il match un piccolo rebus, da sciogliere più sui rispettivi percorsi recenti che su una storia comune.
 
 ### I numeri delle ultime settimane
