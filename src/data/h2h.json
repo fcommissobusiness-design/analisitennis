@@ -3210,9 +3210,17 @@
     "slug_p2": "carlos-alcaraz",
     "bilancio": {
       "p1": 1,
-      "p2": 4
+      "p2": 5
     },
     "precedenti": [
+      {
+        "data": "2026-11-21",
+        "torneo": "Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "B. Shelton",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
       {
         "data": "2026-11-08",
         "torneo": "Paris",
@@ -3700,6 +3708,98 @@
         "g2": "F. Tiafoe",
         "risultato": "0 - 2",
         "winner": "Second Player"
+      }
+    ]
+  },
+  "alexander-zverev-vs-daniil-medvedev": {
+    "p1": "Alexander Zverev",
+    "p2": "Daniil Medvedev",
+    "slug_p1": "alexander-zverev",
+    "slug_p2": "daniil-medvedev",
+    "bilancio": {
+      "p1": 3,
+      "p2": 7
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-21",
+        "torneo": "Finals - Turin",
+        "g1": "A. Zverev",
+        "g2": "D. Medvedev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-10-31",
+        "torneo": "Paris",
+        "g1": "D. Medvedev",
+        "g2": "A. Zverev",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2025-09-29",
+        "torneo": "Beijing",
+        "g1": "D. Medvedev",
+        "g2": "A. Zverev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-06-21",
+        "torneo": "Halle",
+        "g1": "D. Medvedev",
+        "g2": "A. Zverev",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-01-26",
+        "torneo": "ATP Australian Open",
+        "g1": "D. Medvedev",
+        "g2": "A. Zverev",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-11-15",
+        "torneo": "ATP Finals - Turin",
+        "g1": "D. Medvedev",
+        "g2": "A. Zverev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-10-03",
+        "torneo": "ATP Beijing",
+        "g1": "A. Zverev",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-08-17",
+        "torneo": "ATP Cincinnati",
+        "g1": "A. Zverev",
+        "g2": "D. Medvedev",
+        "risultato": "2 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-05-16",
+        "torneo": "ATP Rome",
+        "g1": "A. Zverev",
+        "g2": "D. Medvedev",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-04-13",
+        "torneo": "ATP Monte Carlo",
+        "g1": "D. Medvedev",
+        "g2": "A. Zverev",
+        "risultato": "2 - 1",
+        "winner": "First Player"
       }
     ]
   }
