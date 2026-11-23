@@ -16,9 +16,12 @@
 #              + audit fatti  -> commit+push (classifiche + H2H live)
 #   Blocco 2 - Contenuti editoriali rapidi: weekly recap (solo lun) +
 #              newsroom + entity linking Wikidata  -> commit+push
-#   Blocco 3 - Lenti in fondo: profili (backfill + italiani + coverage)
-#              + guard  -> commit+push
-#   Blocco 4 - Chiusura: SEO guard + health check live
+#   Blocco 3 - Profili prioritari CAPPATI: italiani 6 + top-100 8 + guard
+#              -> commit+push
+#   Blocco 4 - Chiusura: SEO guard + health check live (sito verificato)
+#   Blocco 5 - Backfill profili, per ULTIMO e CAPPATO (BACKFILL_MAX profili
+#              nuovi, BACKFILL_BUDGET_MIN minuti): non blocca piu' nulla,
+#              il resto e' gia' online. Il backlog si drena giorno per giorno.
 
 set -uo pipefail
 
@@ -37,9 +40,11 @@ STATO_BLOCCO_1="?"
 STATO_BLOCCO_2="?"
 STATO_BLOCCO_3="?"
 STATO_BLOCCO_4="?"
+STATO_BLOCCO_5="?"
 COMMIT_1=""
 COMMIT_2=""
 COMMIT_3=""
+COMMIT_5=""
 
 log() { echo "[$(date '+%H:%M:%S')] $*" | tee -a "$LOG"; }
 log_section() { echo "" | tee -a "$LOG"; echo "=== $* ===" | tee -a "$LOG"; }
@@ -216,12 +221,14 @@ esac
 
 
 # ============================================================
-# BLOCCO 3 - Lenti in fondo: profili editoriali
+# BLOCCO 3 - Profili prioritari: italiani + top-100 (CAPPATI)
 # ============================================================
-log_section "[BLOCCO 3] Profili editoriali (backfill + italiani + coverage)"
+# Il backfill (tutti i 378 giocatori degli articoli) NON e' qui: e' in
+# fondo, come Blocco 5, cosi' il resto va live senza aspettarlo. Qui
+# restano solo i profili prioritari, gia' limitati (italiani 6, top-100 8).
+log_section "[BLOCCO 3] Profili prioritari (italiani + top-100)"
 cd "$BACKEND"
 
-python3 generate_profiles.py backfill 2>&1 | tee -a "$LOG" || true
 python3 generate_profiles.py italiani 6 2>&1 | tee -a "$LOG" || true
 python3 generate_profiles.py coverage 8 2>&1 | tee -a "$LOG" || true
 
@@ -233,7 +240,7 @@ python3 "$BACKEND/guard_profiles.py" 2>&1 | tee -a "$LOG" || true
 blocco_deploy \
     "BLOCCO 3" \
     "profiles" \
-    "Evergreen $OGGI blocco 3 (profili + cover tornei)" \
+    "Evergreen $OGGI blocco 3 (profili prioritari + cover tornei)" \
     "src/content/giocatori-profilo" \
     "src/content/tornei-profilo" \
     "public/covers/tornei"
@@ -292,13 +299,50 @@ esac
 
 
 # ============================================================
+# BLOCCO 5 - Backfill profili (LENTO, in fondo a tutto)
+# ============================================================
+# Gira per ultimo, a sito gia' live e verificato. E' cappato: al massimo
+# BACKFILL_MAX profili nuovi e BACKFILL_BUDGET_MIN minuti di lavoro, poi si
+# ferma e riprende domani. Cosi' non blocca piu' niente anche se e' lento o
+# viene interrotto: tutto il resto e' gia' pubblicato dal Blocco 3.
+log_section "[BLOCCO 5] Backfill profili (cappato)"
+cd "$BACKEND"
+
+export BACKFILL_MAX="${BACKFILL_MAX:-12}"
+export BACKFILL_BUDGET_MIN="${BACKFILL_BUDGET_MIN:-45}"
+log "[BLOCCO 5] tetto=$BACKFILL_MAX profili nuovi, budget=$BACKFILL_BUDGET_MIN min"
+python3 generate_profiles.py backfill 2>&1 | tee -a "$LOG" || true
+
+# guard profili (ripara/rimuove eventuali profili rotti appena creati)
+cd "$REPO"
+python3 "$BACKEND/guard_profiles.py" 2>&1 | tee -a "$LOG" || true
+
+# deploy incrementale dei profili aggiunti dal backfill
+blocco_deploy \
+    "BLOCCO 5" \
+    "profiles" \
+    "Evergreen $OGGI blocco 5 (backfill profili)" \
+    "src/content/giocatori-profilo" \
+    "src/content/tornei-profilo" \
+    "public/covers/tornei"
+RC_B5=$?
+case $RC_B5 in
+    0) STATO_BLOCCO_5="PUBBLICATO"; COMMIT_5=$(git -C "$REPO" rev-parse --short HEAD) ;;
+    1) STATO_BLOCCO_5="NO-OP (nessun profilo nuovo)" ;;
+    2) STATO_BLOCCO_5="SALTATO (sanity FAIL)" ;;
+    3) STATO_BLOCCO_5="LOCALE (push fallito)" ;;
+esac
+
+
+# ============================================================
 # REPORT FINALE
 # ============================================================
 log_section "REPORT Fase A v2 - $(date)"
 log "Blocco 1 (classifiche + H2H):           $STATO_BLOCCO_1 ${COMMIT_1}"
 log "Blocco 2 (news + entities + recap):     $STATO_BLOCCO_2 ${COMMIT_2}"
-log "Blocco 3 (profili):                     $STATO_BLOCCO_3 ${COMMIT_3}"
+log "Blocco 3 (profili prioritari):          $STATO_BLOCCO_3 ${COMMIT_3}"
 log "Blocco 4 (health check):                $STATO_BLOCCO_4"
+log "Blocco 5 (backfill profili):            $STATO_BLOCCO_5 ${COMMIT_5}"
 log ""
 log "Fase A completata. Pronostici NON generati."
 log "Per lanciarli: bash $BACKEND/pronostici.sh  (o in chat: 'lancia pronostici')"

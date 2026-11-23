@@ -12,6 +12,12 @@ superficie_preferita: "cemento"
 intro: "Mancina canadese classe 2005, Kayla Cross unisce al rovescio bimane una spiccata vocazione per il doppio, disciplina in cui ha costruito i suoi risultati più nitidi."
 descrizione: "Profilo di Kayla Cross, tennista canadese mancina classe 2005: stile di gioco, superfici, risultati nel doppio e traguardi nel circuito WTA e WTA 125."
 tag:
+  - "Kayla Cross"
+  - "Cross"
+  - "Canada"
+  - "WTA"
+  - "tennis femminile"
+  - "cemento"
 pubblicato: true
 generato_il: "2026-11-23T07:40+01:00"
 ---

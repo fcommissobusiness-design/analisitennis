@@ -388,9 +388,15 @@ def _write_frontmatter(path: Path, fm: dict, body: str):
         if v is None or v == '':
             continue
         if isinstance(v, list):
-            lines.append(f'{k}:')
-            for item in v:
-                lines.append(f'  - "{_yaml_quote(item)}"')
+            # Lista vuota -> "tag: []" esplicito. Scrivere "tag:" e basta
+            # produce un null YAML, che lo schema Zod (z.array()) rifiuta e
+            # fa fallire TUTTO il build Astro, non solo questa pagina.
+            if not v:
+                lines.append(f'{k}: []')
+            else:
+                lines.append(f'{k}:')
+                for item in v:
+                    lines.append(f'  - "{_yaml_quote(item)}"')
         elif isinstance(v, bool):
             lines.append(f'{k}: {str(v).lower()}')
         elif isinstance(v, int):
@@ -799,7 +805,28 @@ def coverage_italiani(limit=None):
 
 
 def backfill_from_articles():
-    """Scorre tutti gli articoli e genera profili per giocatori/tornei mancanti."""
+    """Scorre tutti gli articoli e genera profili per giocatori/tornei mancanti.
+
+    Due freni, perche' un backfill senza limiti puo' girare per ore (ogni
+    profilo nuovo = ricerca web + scrittura + fact-check, qualche minuto):
+      - TETTO giornaliero di profili NUOVI prodotti (env BACKFILL_MAX,
+        default 12). Conta solo i profili scritti davvero, non gli skip.
+      - BUDGET di tempo in minuti (env BACKFILL_BUDGET_MIN, default 45).
+        Controllato PRIMA di ogni profilo: se e' scaduto, ci si ferma.
+    Gli skip (profilo gia' esistente) sono velocissimi, quindi la scansione
+    parte sempre dall'inizio: i gia' fatti vengono saltati in un lampo e il
+    budget si spende solo sui nuovi. Chi resta fuori viene ripreso domani.
+    """
+    import time as _time
+    try:
+        cap = int(os.environ.get('BACKFILL_MAX', '12'))
+    except ValueError:
+        cap = 12
+    try:
+        budget_sec = float(os.environ.get('BACKFILL_BUDGET_MIN', '45')) * 60
+    except ValueError:
+        budget_sec = 45 * 60
+
     articoli_dir = ROOT / 'src' / 'content' / 'articoli'
     players = set()
     tournaments = set()  # (nome, anno)
@@ -822,11 +849,46 @@ def backfill_from_articles():
             players.add(g2)
         if tor and tor != 'Editoriale':
             tournaments.add((tor, year))
-    print(f'backfill: {len(players)} giocatori, {len(tournaments)} tornei')
+    print(f'backfill: {len(players)} giocatori, {len(tournaments)} tornei '
+          f'(tetto {cap} nuovi, budget {int(budget_sec/60)} min)')
+
+    start = _time.monotonic()
+    fatti = 0
+
+    def _budget_finito():
+        return (_time.monotonic() - start) >= budget_sec
+
+    def _conta_profili():
+        return len(list(PROFILI_GIOCATORI.glob('*.md')))
+
+    # Prima i giocatori nuovi (conteggio file per sapere cosa e' davvero nuovo).
+    prima = _conta_profili()
     for p in sorted(players):
-        generate_player_profile(p)
+        if fatti >= cap:
+            print(f'[backfill] tetto giornaliero raggiunto ({cap} profili nuovi). Il resto a domani.')
+            break
+        if _budget_finito():
+            print(f'[backfill] budget tempo esaurito ({int(budget_sec/60)} min). Il resto a domani.')
+            break
+        res = generate_player_profile(p)
+        # Conta come "fatto" solo se ha prodotto un profilo NUOVO (non uno skip).
+        if res is not None:
+            dopo = _conta_profili()
+            if dopo > prima:
+                fatti += 1
+                prima = dopo
+
+    # Poi i tornei, con lo stesso budget residuo (non riaprono il tetto, ma lo rispettano).
     for (tor, yr) in sorted(tournaments):
+        if fatti >= cap:
+            break
+        if _budget_finito():
+            print(f'[backfill] budget tempo esaurito prima dei tornei. Il resto a domani.')
+            break
         generate_tournament_profile(tor, yr)
+
+    elapsed = int((_time.monotonic() - start) / 60)
+    print(f'[backfill] fine: {fatti} profili nuovi in ~{elapsed} min.')
 
 
 if __name__ == '__main__':
