@@ -4,7 +4,7 @@ sottotitolo: "Negli ottavi del W15 si incrociano due percorsi opposti: chi macin
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Sharm ElSheikh 20"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "N. Maines"
 giocatore2: "A. Schueller"

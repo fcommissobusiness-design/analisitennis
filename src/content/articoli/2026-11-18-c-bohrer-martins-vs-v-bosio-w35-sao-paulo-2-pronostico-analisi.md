@@ -4,7 +4,7 @@ sottotitolo: "Si rinnova a Sao Paulo 2 un incrocio nato nel 2024: forma, fresche
 data: "2026-11-18"
 autore: "Redazione AnalisiTennis"
 torneo: "W35 Sao Paulo 2"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "terra"
 giocatore1: "C. Bohrer Martins"
 giocatore2: "V. Bosio"

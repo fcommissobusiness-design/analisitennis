@@ -4,7 +4,7 @@ sottotitolo: "Da una parte un autunno di tornei in giro per l'Europa, dall'altra
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Alcala de Henares"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "A. Brune"
 giocatore2: "C. Ferrer Perez"

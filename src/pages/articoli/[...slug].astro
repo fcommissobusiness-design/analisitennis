@@ -362,11 +362,14 @@ const faq = {
             {hasG1 && <li><a href={`/giocatori/${g1Slug}`}>{g1Display}</a></li>}
             {hasG2 && <li><a href={`/giocatori/${g2Slug}`}>{g2Display}</a></li>}
             {hasTournHub && <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>}
-            {/* Classifica pertinente al circuito del match (ATP vs WTA) */}
-            {String(d.categoria || '').toUpperCase() === 'WTA' && (
+            {/* Classifica pertinente al circuito del match (ATP vs WTA).
+                Gli ITF seguono il genere dal nome torneo (W.. = femminile). */}
+            {(String(d.categoria || '').toUpperCase() === 'WTA'
+              || (String(d.categoria || '').toUpperCase() === 'ITF' && /^w/i.test((d.torneo || '').trim()))) && (
               <li><a href="/classifica-wta">Classifica WTA</a></li>
             )}
-            {['ATP','CHALLENGER','SLAM'].includes(String(d.categoria || '').toUpperCase()) && (
+            {(['ATP','CHALLENGER','SLAM'].includes(String(d.categoria || '').toUpperCase())
+              || (String(d.categoria || '').toUpperCase() === 'ITF' && /^m/i.test((d.torneo || '').trim()))) && (
               <li><a href="/classifica-atp">Classifica ATP</a></li>
             )}
           </ul>

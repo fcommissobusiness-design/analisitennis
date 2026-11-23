@@ -4,6 +4,31 @@ import { slugify } from '../lib/hubs.js';
 // Props: data = {circuito, aggiornato_il, righe:[{place,player,points,country,movement}]}
 //        profili = Set di slug_profilo esistenti (per linkare chi ha una scheda)
 const { data, profili } = Astro.props;
+
+// Nazioni in italiano: l'API restituisce il nome in inglese (Germany, Spain...),
+// ma il sito e' in italiano. Mappa i nomi ricorrenti nel tennis; se un paese
+// manca, si mostra il nome originale (nessun buco).
+const PAESI = {
+  'Germany': 'Germania', 'Italy': 'Italia', 'Spain': 'Spagna', 'France': 'Francia',
+  'Serbia': 'Serbia', 'Russia': 'Russia', 'Greece': 'Grecia', 'Denmark': 'Danimarca',
+  'Norway': 'Norvegia', 'Australia': 'Australia', 'Canada': 'Canada', 'Argentina': 'Argentina',
+  'Poland': 'Polonia', 'Netherlands': 'Paesi Bassi', 'Bulgaria': 'Bulgaria', 'Austria': 'Austria',
+  'Switzerland': 'Svizzera', 'Belgium': 'Belgio', 'Czech Republic': 'Rep. Ceca', 'Czechia': 'Rep. Ceca',
+  'Croatia': 'Croazia', 'Hungary': 'Ungheria', 'Finland': 'Finlandia', 'Sweden': 'Svezia',
+  'Kazakhstan': 'Kazakistan', 'China': 'Cina', 'Japan': 'Giappone', 'Chile': 'Cile',
+  'Brazil': 'Brasile', 'Portugal': 'Portogallo', 'Slovakia': 'Slovacchia', 'Slovenia': 'Slovenia',
+  'Romania': 'Romania', 'Ukraine': 'Ucraina', 'Belarus': 'Bielorussia', 'Latvia': 'Lettonia',
+  'Lithuania': 'Lituania', 'Estonia': 'Estonia', 'Moldova': 'Moldavia', 'Georgia': 'Georgia',
+  'Tunisia': 'Tunisia', 'Egypt': 'Egitto', 'South Africa': 'Sudafrica', 'India': 'India',
+  'Chinese Taipei': 'Taipei', 'Taipei': 'Taipei', 'South Korea': 'Corea del Sud', 'Korea': 'Corea del Sud',
+  'Mexico': 'Messico', 'Colombia': 'Colombia', 'Peru': 'Perù', 'Ecuador': 'Ecuador',
+  'Uruguay': 'Uruguay', 'Bolivia': 'Bolivia', 'Venezuela': 'Venezuela', 'New Zealand': 'Nuova Zelanda',
+  'Turkey': 'Turchia', 'Israel': 'Israele', 'Thailand': 'Thailandia', 'Indonesia': 'Indonesia',
+  'Philippines': 'Filippine', 'Monaco': 'Monaco', 'Luxembourg': 'Lussemburgo', 'Ireland': 'Irlanda',
+  'Great Britain': 'Gran Bretagna', 'United Kingdom': 'Regno Unito', 'United States': 'USA', 'USA': 'USA',
+  'Bosnia and Herzegovina': 'Bosnia', 'North Macedonia': 'Macedonia del Nord',
+};
+const paese = (c) => c === 'World' ? 'Neutrale' : (PAESI[c] || c);
 const agg = data.aggiornato_il
   ? new Date(data.aggiornato_il).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
   : '';
@@ -22,7 +47,7 @@ const agg = data.aggiornato_il
           <tr>
             <td class="c-pos">{r.place}</td>
             <td class="c-gioc">{haProfilo ? <a href={`/giocatori/${slug}`}>{r.player}</a> : r.player}</td>
-            <td class="c-naz">{r.country === 'World' ? 'Neutrale' : r.country}</td>
+            <td class="c-naz">{paese(r.country)}</td>
             <td class="c-pt">{r.points}</td>
           </tr>
         );

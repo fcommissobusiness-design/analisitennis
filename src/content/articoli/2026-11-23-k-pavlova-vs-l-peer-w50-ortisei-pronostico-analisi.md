@@ -4,7 +4,7 @@ sottotitolo: "Nel tabellone del W50 Ortisei si incrociano l'esperienza del circu
 data: "2026-11-23"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Ortisei"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "K. Pavlova"
 giocatore2: "L. Peer"

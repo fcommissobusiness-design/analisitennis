@@ -4,7 +4,7 @@ sottotitolo: "A Ortisei il terzo capitolo di un confronto recentissimo: freschez
 data: "2026-11-23"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Ortisei"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "L. Zaar"
 giocatore2: "L. Nilsson"

@@ -4,7 +4,7 @@ sottotitolo: "Un solo precedente tre anni fa, due momenti di forma dal segno opp
 data: "2026-11-18"
 autore: "Redazione AnalisiTennis"
 torneo: "W35 Sao Paulo 2"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "terra"
 giocatore1: "V. Rodriguez"
 giocatore2: "L. Meyer Auf Der Heide"

@@ -4,7 +4,7 @@ sottotitolo: "Una reduce da settimane fitte in Brasile, l'altra rientra da un lu
 data: "2026-11-18"
 autore: "Redazione AnalisiTennis"
 torneo: "W35 Sao Paulo 2"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "terra"
 giocatore1: "J. Konishi Silva"
 giocatore2: "M. E. Reasco Gonzalez"

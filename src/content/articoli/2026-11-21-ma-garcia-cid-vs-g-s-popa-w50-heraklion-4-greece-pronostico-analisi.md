@@ -4,7 +4,7 @@ sottotitolo: "A Heraklion si decide una semifinale tra chi arriva da uno stacco 
 data: "2026-11-21"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Heraklion 4 (Greece)"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "terra"
 giocatore1: "Ma. Garcia Cid"
 giocatore2: "G. S. Popa"

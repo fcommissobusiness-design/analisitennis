@@ -4,7 +4,7 @@ sottotitolo: "Una porta il ritmo delle ultime settimane sui campi di Antalya, l'
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Antalya 8"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "S. Tsujioka"
 giocatore2: "D. Simionescu"

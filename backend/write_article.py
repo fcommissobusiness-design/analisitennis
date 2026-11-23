@@ -98,7 +98,13 @@ def normalizza_tipografia(text):
     return text
 
 
-def categoria(tipo):
+def categoria(tipo, torneo=''):
+    # I tornei ITF (World Tennis Tour) hanno nomi tipo "W15 Antalya 8",
+    # "W50 Ortisei", "M25 ...": NON sono WTA/ATP Tour anche se l'API li marca
+    # come women/men. Il nome del torneo e' il discriminante affidabile, quindi
+    # va controllato PRIMA delle parole chiave del tipo evento.
+    if re.match(r'^[WM]\d{2,3}\b', (torneo or '').strip()):
+        return 'ITF'
     t = (tipo or '').lower()
     if 'grand slam' in t: return 'Slam'
     if 'masters' in t: return 'Masters'
@@ -168,7 +174,7 @@ def write(match, analysis, out_dir):
     p2 = match.get('event_second_player', '').strip()
     data = match.get('event_date')
     torneo = match.get('tournament_name', '')
-    cat = categoria(match.get('event_type_type'))
+    cat = categoria(match.get('event_type_type'), torneo)
     anno_match = None
     try:
         anno_match = int(str(data)[:4])

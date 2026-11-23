@@ -4,7 +4,7 @@ sottotitolo: "Agli ottavi del W50 greco si incrociano una professionista rodata 
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Heraklion 4 (Greece)"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "S. Schnyder"
 giocatore2: "A. Fita Boluda"

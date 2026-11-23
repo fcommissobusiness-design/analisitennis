@@ -4,7 +4,7 @@ sottotitolo: "Due giocatrici arrivano ai turni decisivi dopo un successo in due 
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Antalya 8"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "M. Teixido Garcia"
 giocatore2: "S. Auer"

@@ -4,7 +4,7 @@ sottotitolo: "Chi arriva dai tornei maggiori e chi macina settimane sugli stessi
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Sharm ElSheikh 20"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "H. Abouelsaad"
 giocatore2: "A. Lukosiute"

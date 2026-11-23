@@ -4,7 +4,7 @@ sottotitolo: "Due percorsi netti nella settimana tunisina si incontrano per la p
 data: "2026-11-21"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Monastir 32"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "M. Guth"
 giocatore2: "C. Giambelli"

@@ -4,7 +4,7 @@ sottotitolo: "Dorofeeva-Rybas porta un bilancio recente positivo, Martinez Cirez
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Heraklion 4 (Greece)"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "F. Dorofeeva-Rybas"
 giocatore2: "C. Martinez Cirez"

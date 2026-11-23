@@ -4,7 +4,7 @@ sottotitolo: "Due percorsi diversi nella stessa settimana: continuità di rodagg
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Heraklion 4 (Greece)"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "V. Grammatikopoulou"
 giocatore2: "M. Argyrokastriti"

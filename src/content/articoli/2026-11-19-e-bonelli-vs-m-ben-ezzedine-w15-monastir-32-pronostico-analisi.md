@@ -4,7 +4,7 @@ sottotitolo: "Due giocatrici reduci da un primo turno vinto si ritrovano negli o
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Monastir 32"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "E. Bonelli"
 giocatore2: "M. Ben Ezzedine"

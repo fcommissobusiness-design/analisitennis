@@ -4,7 +4,7 @@ sottotitolo: "Una habitue delle settimane itineranti del circuito contro un prof
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Antalya 8"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "A. Yesaian"
 giocatore2: "S. V. Balan"

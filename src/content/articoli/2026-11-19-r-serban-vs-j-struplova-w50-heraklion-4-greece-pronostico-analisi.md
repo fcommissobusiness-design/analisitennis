@@ -4,7 +4,7 @@ sottotitolo: "Una reduce da settimane fittissime, l'altra di nuovo in campo dopo
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Heraklion 4 (Greece)"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "R. Serban"
 giocatore2: "J. Struplova"

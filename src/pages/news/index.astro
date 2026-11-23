@@ -12,8 +12,30 @@ const CAT_LABEL = {
   'rientro': 'Rientro', 'altro': 'News',
 };
 
-const news = (await getCollection('news', ({ data }) => data.pubblicato !== false))
-  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+// News vere (collezione 'news') + editoriali della Redazione (in 'articoli',
+// giocatore1 = 'Redazione'): l'editoriale e' una notizia tra le notizie, non
+// una voce a parte. Lista unica, ordinata per data.
+const newsItems = (await getCollection('news', ({ data }) => data.pubblicato !== false))
+  .map(nw => ({
+    data: nw.data.data,
+    href: `/news/${nw.slug}`,
+    label: CAT_LABEL[nw.data.categoria] || 'News',
+    titolo: nw.data.titolo,
+    sommario: nw.data.sommario,
+    fonte: nw.data.fonte_nome,
+  }));
+const editoriali = (await getCollection('articoli',
+    ({ data }) => data.pubblicato !== false && data.giocatore1 === 'Redazione'))
+  .map(ed => ({
+    data: ed.data.data,
+    href: `/articoli/${ed.slug}`,
+    label: 'Editoriale',
+    titolo: ed.data.titolo,
+    sommario: ed.data.sottotitolo,
+    fonte: null,
+  }));
+const news = [...newsItems, ...editoriali]
+  .sort((a, b) => b.data.valueOf() - a.data.valueOf());
 ---
 <Base
   titolo="News di tennis - Ultime notizie ATP e WTA - AnalisiTennis"
@@ -44,10 +66,10 @@ const news = (await getCollection('news', ({ data }) => data.pubblicato !== fals
           <div class="griglia-articoli" style="padding: 0;">
             {news.map(nw => (
               <article class="card-articolo">
-                <div class="eyebrow">{CAT_LABEL[nw.data.categoria] || 'News'} · {new Date(nw.data.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
-                <h2><a href={`/news/${nw.slug}`}>{nw.data.titolo}</a></h2>
-                {nw.data.sommario && <p class="sottotitolo">{nw.data.sommario}</p>}
-                {nw.data.fonte_nome && <div class="data">Fonte: {nw.data.fonte_nome}</div>}
+                <div class="eyebrow">{nw.label} · {new Date(nw.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
+                <h2><a href={nw.href}>{nw.titolo}</a></h2>
+                {nw.sommario && <p class="sottotitolo">{nw.sommario}</p>}
+                {nw.fonte && <div class="data">Fonte: {nw.fonte}</div>}
               </article>
             ))}
           </div>

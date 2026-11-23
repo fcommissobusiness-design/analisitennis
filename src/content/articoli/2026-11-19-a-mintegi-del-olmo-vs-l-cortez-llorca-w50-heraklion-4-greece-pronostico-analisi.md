@@ -4,7 +4,7 @@ sottotitolo: "Le due si ritrovano al W50 poco dopo la semifinale del W35, nello 
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W50 Heraklion 4 (Greece)"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "A. Mintegi Del Olmo"
 giocatore2: "L. Cortez Llorca"

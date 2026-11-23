@@ -4,7 +4,7 @@ sottotitolo: "Due momenti opposti ad Alcala de Henares: chi arriva con più part
 data: "2026-11-18"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Alcala de Henares"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "M. Soriano Santiago"
 giocatore2: "E. Lopez Alcaraz"

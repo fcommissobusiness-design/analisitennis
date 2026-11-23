@@ -4,7 +4,7 @@ sottotitolo: "Negli ottavi del W35 Sao Paulo 2 si incontrano due percorsi oppost
 data: "2026-11-18"
 autore: "Redazione AnalisiTennis"
 torneo: "W35 Sao Paulo 2"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "terra"
 giocatore1: "M. Colmegna"
 giocatore2: "J. Estevez"

@@ -4,7 +4,7 @@ sottotitolo: "A Sharm ElSheikh si incrociano chi arriva da tante vittorie di fil
 data: "2026-11-19"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Sharm ElSheikh 20"
-categoria: "WTA"
+categoria: "ITF"
 superficie: "cemento"
 giocatore1: "N. Sozaonova"
 giocatore2: "L. Alhussein"
