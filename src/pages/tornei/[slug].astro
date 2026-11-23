@@ -9,7 +9,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ConsigliatiTennis from '../../components/ConsigliatiTennis.astro';
 import SupportaRedazione from '../../components/SupportaRedazione.astro';
 import { getCollection } from 'astro:content';
-import { tournamentSlug } from '../../lib/hubs.js';
+import { tournamentSlug, collectTournaments, tournamentBio, MIN_HUB_ARTICOLI } from '../../lib/hubs.js';
 
 export async function getStaticPaths() {
   const profili = await getCollection('tornei-profilo', ({ data }) => data.pubblicato !== false);
@@ -42,12 +42,39 @@ export async function getStaticPaths() {
     return { params: { slug: hubSlug }, props: { kind: 'hub', profilo: h, profiliAnnoHub, relatedArticles: [] } };
   });
 
-  return [...annoPaths, ...hubPaths];
+  // Paths HUB AUTOMATICI: ogni torneo-anno che raccoglie >= MIN_HUB_ARTICOLI
+  // nostre analisi ma NON ha un profilo editoriale dedicato ottiene comunque una
+  // pagina aggregante. Da' un contenitore indicizzabile ai match "foglia" (i
+  // crawled-not-indexed) e sana il link torneo del breadcrumb che prima puntava
+  // a una pagina inesistente. Esclude gli slug gia' coperti dai profili anno.
+  const slugProfili = new Set(profili.map(p => p.data.slug_profilo));
+  const autoPaths = collectTournaments(articoli)
+    .filter(t => !slugProfili.has(t.slug) && t.articoli.length >= MIN_HUB_ARTICOLI)
+    .map(t => ({
+      params: { slug: t.slug },
+      props: { kind: 'auto', profilo: null, torneoAuto: t, relatedArticles: t.articoli.slice(0, 60), profiliAnnoHub: [] },
+    }));
+
+  return [...annoPaths, ...hubPaths, ...autoPaths];
 }
 
-const { kind, profilo, relatedArticles, profiliAnnoHub } = Astro.props;
-const { Content } = await profilo.render();
-const d = profilo.data;
+const { kind, profilo, relatedArticles, profiliAnnoHub, torneoAuto } = Astro.props;
+// Hub automatico: niente markdown da renderizzare, niente profilo editoriale.
+// Costruisco un oggetto dati sintetico dai metadati degli articoli del torneo.
+const Content = profilo ? (await profilo.render()).Content : null;
+const d = profilo ? profilo.data : {
+  nome: torneoAuto.display,
+  slug_profilo: torneoAuto.slug,
+  anno: torneoAuto.anno,
+  categoria: torneoAuto.articoli[0]?.data.categoria || '',
+  superficie: torneoAuto.articoli[0]?.data.superficie || '',
+  citta: '',
+  paese: '',
+  fondato: '',
+  intro: tournamentBio(torneoAuto),
+  descrizione: `Tutte le nostre analisi e i pronostici del torneo ${torneoAuto.display} ${torneoAuto.anno}: match analizzati, scontri diretti e forma dei protagonisti.`,
+  generato_il: new Date().toISOString(),
+};
 const site = 'https://analisitennis.it';
 
 // === BRANCH ANNO SINGOLO (torneo-profilo, es. paris-2026) ======================
@@ -58,7 +85,7 @@ let articleSchema = null;
 let faqTorneoSchema = null;
 let faqTorneo = [];
 
-if (kind === 'anno') {
+if (kind === 'anno' || kind === 'auto') {
   const dateArticoli = relatedArticles.map(a => new Date(a.data.data)).sort((a, b) => a - b);
   const startT = dateArticoli.length ? dateArticoli[0].toISOString() : new Date(`${d.anno}-01-01`).toISOString();
   const endT = dateArticoli.length ? dateArticoli[dateArticoli.length - 1].toISOString() : startT;
@@ -92,7 +119,9 @@ if (kind === 'anno') {
   articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: `${d.nome} ${d.anno} - Storia, curiosità e albo d'oro`,
+    headline: kind === 'auto'
+      ? `${d.nome} ${d.anno} - Pronostici e match analizzati`
+      : `${d.nome} ${d.anno} - Storia, curiosità e albo d'oro`,
     description: d.descrizione,
     datePublished: d.generato_il,
     author: { '@type': 'Organization', name: 'Redazione AnalisiTennis' },
@@ -144,11 +173,13 @@ const supLabel = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indo
 <Base
   titolo={kind === 'hub'
     ? `${d.nome} - Storia, albo d'oro e record - AnalisiTennis`
+    : kind === 'auto'
+    ? `${d.nome} ${d.anno} - Pronostici e match analizzati - AnalisiTennis`
     : `${d.nome} ${d.anno} - Storia e curiosità del torneo - AnalisiTennis`}
   descrizione={d.descrizione}
   tipo="article"
 >
-  {kind === 'anno' && (
+  {(kind === 'anno' || kind === 'auto') && (
     <>
       <script type="application/ld+json" set:html={JSON.stringify(eventSchema)} />
       <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
@@ -192,9 +223,16 @@ const supLabel = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indo
           {kind === 'hub' && d.record_titoli_m && <div><strong>Record titoli (M)</strong>{' '}{d.record_titoli_m}</div>}
           {kind === 'hub' && d.record_titoli_f && <div><strong>Record titoli (F)</strong>{' '}{d.record_titoli_f}</div>}
         </div>
-        <div class="articolo-corpo">
-          <Content />
-        </div>
+        {Content && (
+          <div class="articolo-corpo">
+            <Content />
+          </div>
+        )}
+        {kind === 'auto' && (
+          <div class="articolo-corpo">
+            <p>In questa pagina raccogliamo le nostre analisi del torneo {d.nome} {d.anno}: per ogni match pubblichiamo dati, scontri diretti e un pronostico ragionato. Qui sotto trovi l'elenco completo dei match che abbiamo analizzato, aggiornato man mano che il torneo prosegue.</p>
+          </div>
+        )}
         {d.cover_credit && <p class="credit-foto">Foto: {d.cover_credit}</p>}
 
         {kind === 'hub' && profiliAnnoHub.length > 0 && (
@@ -214,7 +252,7 @@ const supLabel = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indo
           </section>
         )}
 
-        {kind === 'anno' && relatedArticles.length > 0 && (
+        {(kind === 'anno' || kind === 'auto') && relatedArticles.length > 0 && (
           <section class="articoli-correlati" aria-label={`Analisi dei match del torneo ${d.nome} ${d.anno}`}>
             <h2>I nostri match analizzati di {d.nome} {d.anno}</h2>
             <ul>
@@ -233,7 +271,7 @@ const supLabel = ({ terra: 'terra rossa', cemento: 'cemento', erba: 'erba', indo
           </section>
         )}
 
-        {kind === 'anno' && faqTorneo.length >= 2 && (
+        {(kind === 'anno' || kind === 'auto') && faqTorneo.length >= 2 && (
           <section class="torneo-faq" aria-label={`Domande frequenti sul ${d.nome} ${d.anno}`}>
             <h2>Domande frequenti sul {d.nome} {d.anno}</h2>
             <dl>

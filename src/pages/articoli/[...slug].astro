@@ -8,7 +8,7 @@ import SupportaRedazione from '../../components/SupportaRedazione.astro';
 import CoverArticolo from '../../components/CoverArticolo.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify, resolveProfileSlug } from '../../lib/hubs.js';
+import { playerSlug, tournamentSlug, tournamentDisplay, displayPlayerName, slugify, resolveProfileSlug, MIN_HUB_ARTICOLI } from '../../lib/hubs.js';
 import { isNoindexArticle } from '../../lib/noindex.js';
 import h2hData from '../../data/h2h.json';
 import playerEntities from '../../data/player_entities.json';
@@ -83,13 +83,21 @@ const g2Slug = resolveProfileSlug(d.giocatore2, profiliMin);
 const hasG1 = !!g1Slug;
 const hasG2 = !!g2Slug;
 const hasTourn = tournamentSlugs.has(tSlug);
+// Un hub torneo esiste se c'e' un profilo editoriale (tornei-profilo) OPPURE
+// se il torneo-anno raccoglie abbastanza nostre analisi da generare l'hub
+// automatico (vedi tornei/[slug].astro, stessa soglia MIN_HUB_ARTICOLI). Serve
+// a NON linkare verso /tornei/{slug} quando quella pagina non esiste (404).
+const countTorneoAnno = tuttiArticoli.filter(a =>
+  tournamentSlug(a.data.torneo, new Date(a.data.data).getFullYear()) === tSlug
+).length;
+const hasTournHub = hasTourn || countTorneoAnno >= MIN_HUB_ARTICOLI;
 
 // Pagina scontri diretti (H2H) per questa coppia, se esiste. Lo slug e'
 // ordinato alfabeticamente sui nomi completi (coerente con fetch_h2h.py).
 const [sa, sb] = [slugify(g1Display), slugify(g2Display)].sort();
 const h2hSlug = `${sa}-vs-${sb}`;
 const hasH2H = Object.prototype.hasOwnProperty.call(h2hData, h2hSlug);
-const anyHub = hasG1 || hasG2 || hasTourn;
+const anyHub = hasG1 || hasG2 || hasTournHub;
 const dataLocale = new Date(d.data).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
 
 // Nodo Person completo: collega il giocatore al nostro profilo interno (url) e
@@ -190,6 +198,10 @@ const faqItems = [
   { q: `Su quale superficie si gioca ${tDisplay} ${anno}?`,
     a: `Il torneo ${tDisplay} ${anno} si gioca su ${supLabel} ed è un torneo ${d.categoria}.` },
 ];
+// Precedenti H2H: numeri e frase di bilancio calcolati UNA volta e riusati sia
+// nella FAQ sia nel blocco visibile "I precedenti" in fondo all'articolo.
+let h2hBilancioTxt = '';
+let h2hTot = 0;
 if (hasH2H) {
   const b = h2hData[h2hSlug].bilancio || {};
   // bilancio.p1/p2 seguono l'ordine dello slug H2H, costruito ordinando gli
@@ -200,12 +212,11 @@ if (hasH2H) {
   const g1IsP1 = slugify(g1Display) === sa;
   const p1n = g1IsP1 ? (b.p1 || 0) : (b.p2 || 0);
   const p2n = g1IsP1 ? (b.p2 || 0) : (b.p1 || 0);
-  const tot = p1n + p2n;
-  let txt;
-  if (tot === 0) txt = `${g1Display} e ${g2Display} non si erano mai affrontati in un match ufficiale prima di questo.`;
-  else if (p1n === p2n) txt = `Il bilancio dei precedenti ufficiali tra ${g1Display} e ${g2Display} è in parità: ${p1n}-${p2n} su ${tot} ${tot === 1 ? 'confronto' : 'confronti'}.`;
-  else { const lead = p1n > p2n ? g1Display : g2Display, led = p1n > p2n ? g2Display : g1Display, hi = Math.max(p1n, p2n), lo = Math.min(p1n, p2n); txt = `Nei precedenti ufficiali ${lead} conduce ${hi}-${lo} su ${led}.`; }
-  faqItems.push({ q: `Qual è il bilancio dei precedenti tra ${g1Display} e ${g2Display}?`, a: txt });
+  h2hTot = p1n + p2n;
+  if (h2hTot === 0) h2hBilancioTxt = `${g1Display} e ${g2Display} non si erano mai affrontati in un match ufficiale prima di questo.`;
+  else if (p1n === p2n) h2hBilancioTxt = `Il bilancio dei precedenti ufficiali tra ${g1Display} e ${g2Display} è in parità: ${p1n}-${p2n} su ${h2hTot} ${h2hTot === 1 ? 'confronto' : 'confronti'}.`;
+  else { const lead = p1n > p2n ? g1Display : g2Display, led = p1n > p2n ? g2Display : g1Display, hi = Math.max(p1n, p2n), lo = Math.min(p1n, p2n); h2hBilancioTxt = `Nei precedenti ufficiali ${lead} conduce ${hi}-${lo} su ${led}.`; }
+  faqItems.push({ q: `Qual è il bilancio dei precedenti tra ${g1Display} e ${g2Display}?`, a: h2hBilancioTxt });
 }
 // "Dove vedere": cattura una delle query a piu' alto volume in Italia senza
 // inventare il canale esatto (i diritti TV cambiano per torneo e stagione).
@@ -247,7 +258,7 @@ const faq = {
     ] : [
       { nome: 'Home', url: '/' },
       { nome: d.categoria, url: `/categoria/${String(d.categoria).toLowerCase()}` },
-      { nome: `${tDisplay} ${anno}`, url: `/tornei/${tSlug}` },
+      { nome: `${tDisplay} ${anno}`, ...(hasTournHub ? { url: `/tornei/${tSlug}` } : {}) },
       { nome: `${g1Display} - ${g2Display}` }
     ]} />
   </div>
@@ -350,7 +361,7 @@ const faq = {
           <ul>
             {hasG1 && <li><a href={`/giocatori/${g1Slug}`}>{g1Display}</a></li>}
             {hasG2 && <li><a href={`/giocatori/${g2Slug}`}>{g2Display}</a></li>}
-            {hasTourn && <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>}
+            {hasTournHub && <li><a href={`/tornei/${tSlug}`}>{tDisplay} {anno}</a></li>}
             {/* Classifica pertinente al circuito del match (ATP vs WTA) */}
             {String(d.categoria || '').toUpperCase() === 'WTA' && (
               <li><a href="/classifica-wta">Classifica WTA</a></li>
@@ -373,6 +384,18 @@ const faq = {
               </div>
             ))}
           </dl>
+        </section>
+      )}
+
+      {d.giocatore1 !== 'Redazione' && hasH2H && (
+        <section class="articolo-precedenti" aria-label={`Precedenti tra ${g1Display} e ${g2Display}`}>
+          <h2>I precedenti: {g1Display} contro {g2Display}</h2>
+          {h2hBilancioTxt && <p>{h2hBilancioTxt}</p>}
+          <a class="h2h-link" href={`/scontri-diretti/${h2hSlug}`}>
+            <span class="h2h-link-eyebrow">Scontri diretti</span>
+            <span class="h2h-link-text">{h2hTot > 0 ? `Tutti i ${h2hTot} precedenti` : 'La scheda scontri diretti'} tra {g1Display} e {g2Display}, match per match</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
         </section>
       )}
 
@@ -583,6 +606,23 @@ const faq = {
   .corr-data {
     font-size: 0.78rem;
     color: var(--testo-secondario, #6b7280);
+  }
+  .articolo-precedenti {
+    margin-top: 40px;
+    padding-top: 26px;
+    border-top: 1px solid var(--linea, #e5e5e5);
+  }
+  .articolo-precedenti h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+    letter-spacing: -0.3px;
+  }
+  .articolo-precedenti p {
+    margin: 0 0 4px;
+    color: var(--testo-secondario, #4b5563);
+    line-height: 1.55;
   }
   .articolo-faq {
     margin-top: 44px;

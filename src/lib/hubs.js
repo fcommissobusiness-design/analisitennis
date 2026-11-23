@@ -252,6 +252,14 @@ export function collectPlayers(articoli) {
   );
 }
 
+// Soglia minima di nostre analisi perche' un torneo-anno SENZA profilo
+// editoriale dedicato ottenga comunque una pagina-hub automatica
+// (/tornei/{slug}-{anno}). Sotto soglia il cluster resta senza hub: i pochi
+// match sono comunque raggiungibili dagli hub giocatore e governati dalla
+// policy noindex. Stesso valore importato dal template articolo: le due viste
+// DEVONO concordare su quali hub esistono, altrimenti i link vanno in 404.
+export const MIN_HUB_ARTICOLI = 3;
+
 // Raccoglie tornei (per anno) con lista articoli.
 export function collectTournaments(articoli) {
   const map = new Map();

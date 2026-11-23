@@ -7,7 +7,13 @@ import { playerSlug, displayPlayerName, tournamentDisplay } from '../lib/hubs.js
 const tutti = await getCollection('articoli', ({ data }) => data.pubblicato !== false);
 // Tutti gli articoli (piu' recenti in alto). Lato pagina ne mostriamo un
 // blocco; "Visualizza altro" rivela i piu' vecchi a blocchi successivi.
-const articoli = tutti.sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+// Editoriali (firmati 'Redazione', es. "La settimana nel tennis") fuori dalla
+// home: restano pubblicati e raggiungibili, ma la prima pagina mostra solo le
+// analisi dei match. L'editoriale e' una notizia tra le altre, non un
+// contenuto in evidenza in home.
+const articoli = tutti
+  .filter(a => a.data.giocatore1 !== 'Redazione')
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
 const BATCH = 12;
 
 // Strip "match di oggi": conteggio dei match della data piu' recente in
