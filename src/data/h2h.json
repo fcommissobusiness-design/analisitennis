@@ -3802,5 +3802,97 @@
         "winner": "First Player"
       }
     ]
+  },
+  "alexander-zverev-vs-carlos-alcaraz": {
+    "p1": "Alexander Zverev",
+    "p2": "Carlos Alcaraz",
+    "slug_p1": "alexander-zverev",
+    "slug_p2": "carlos-alcaraz",
+    "bilancio": {
+      "p1": 3,
+      "p2": 7
+    },
+    "precedenti": [
+      {
+        "data": "2026-11-22",
+        "torneo": "Finals - Turin",
+        "g1": "A. Zverev",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2026-01-30",
+        "torneo": "Australian Open",
+        "g1": "C. Alcaraz",
+        "g2": "A. Zverev",
+        "risultato": "3 - 2",
+        "winner": "First Player"
+      },
+      {
+        "data": "2025-08-17",
+        "torneo": "Cincinnati",
+        "g1": "A. Zverev",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-11-15",
+        "torneo": "ATP Finals - Turin",
+        "g1": "A. Zverev",
+        "g2": "C. Alcaraz",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2024-06-09",
+        "torneo": "ATP French Open",
+        "g1": "A. Zverev",
+        "g2": "C. Alcaraz",
+        "risultato": "2 - 3",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-03-14",
+        "torneo": "ATP Indian Wells",
+        "g1": "A. Zverev",
+        "g2": "C. Alcaraz",
+        "risultato": "0 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2024-01-24",
+        "torneo": "ATP Australian Open",
+        "g1": "A. Zverev",
+        "g2": "C. Alcaraz",
+        "risultato": "3 - 1",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-11-13",
+        "torneo": "ATP Finals - Turin",
+        "g1": "C. Alcaraz",
+        "g2": "A. Zverev",
+        "risultato": "1 - 2",
+        "winner": "Second Player"
+      },
+      {
+        "data": "2023-09-07",
+        "torneo": "ATP US Open",
+        "g1": "C. Alcaraz",
+        "g2": "A. Zverev",
+        "risultato": "3 - 0",
+        "winner": "First Player"
+      },
+      {
+        "data": "2023-05-02",
+        "torneo": "ATP Madrid",
+        "g1": "C. Alcaraz",
+        "g2": "A. Zverev",
+        "risultato": "2 - 0",
+        "winner": "First Player"
+      }
+    ]
   }
 }
