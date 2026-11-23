@@ -585,6 +585,15 @@
 "wikidata": "Q137582270",
 "wikipedia": null
 },
+"c-burel": {
+"image": "File:Burel RG22 (1) (52144106503) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q54086890",
+"https://it.wikipedia.org/wiki/Clara_Burel"
+],
+"wikidata": "Q54086890",
+"wikipedia": "https://it.wikipedia.org/wiki/Clara_Burel"
+},
 "c-chidekh": {
 "image": "File:Chidekh REN21 (1) (51601832766).jpg",
 "sameAs": [
@@ -812,6 +821,25 @@
 ],
 "wikidata": "Q119265585",
 "wikipedia": "https://en.wikipedia.org/wiki/Dylan_Dietrich"
+},
+"d-galfi": {
+"image": "File:Gálfi Dalma (32111454447) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q13637616",
+"https://it.wikipedia.org/wiki/Dalma_G%C3%A1lfi"
+],
+"wikidata": "Q13637616",
+"wikipedia": "https://it.wikipedia.org/wiki/Dalma_G%C3%A1lfi"
+},
+"d-jakupovic": {
+"image": "File:Jakupovic WMQ23 (53061704151) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q15830617",
+"https://it.wikipedia.org/wiki/Dalila_Jakupovi%C4%8D",
+"https://dalilajakupovic.com/"
+],
+"wikidata": "Q15830617",
+"wikipedia": "https://it.wikipedia.org/wiki/Dalila_Jakupovi%C4%8D"
 },
 "d-merida-aguilar": {
 "sameAs": [
@@ -1275,6 +1303,14 @@
 "wikidata": "Q15711370",
 "wikipedia": "https://it.wikipedia.org/wiki/Gabriela_C%C3%A9"
 },
+"g-feistel": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q121300724",
+"https://en.wikipedia.org/wiki/Gina_Feistel"
+],
+"wikidata": "Q121300724",
+"wikipedia": "https://en.wikipedia.org/wiki/Gina_Feistel"
+},
 "g-maristany": {
 "image": "File:Maristany Zuleta de Reales BIA21 (21) (51379103429).jpg",
 "sameAs": [
@@ -1283,6 +1319,14 @@
 ],
 "wikidata": "Q105745607",
 "wikipedia": "https://it.wikipedia.org/wiki/Guiomar_Maristany"
+},
+"g-s-popa": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q135336862",
+"https://en.wikipedia.org/wiki/Giulia_Safina_Popa"
+],
+"wikidata": "Q135336862",
+"wikipedia": "https://en.wikipedia.org/wiki/Giulia_Safina_Popa"
 },
 "gabriela-ruse-elena": {
 "image": "File:Transylvania Open 2023 Gabriela Ruse vs Emiliana Arango 6-1, 0-6, 6-1 (53272725562) (cropped).jpg",
@@ -1451,6 +1495,13 @@
 ],
 "wikidata": "Q23039320",
 "wikipedia": "https://it.wikipedia.org/wiki/Il%27ja_Iva%C5%A1ka"
+},
+"i-kurt": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q138545118"
+],
+"wikidata": "Q138545118",
+"wikipedia": null
 },
 "i-oz": {
 "image": "File:İpek Öz (40083790853) (cropped).jpg",
@@ -1782,6 +1833,14 @@
 ],
 "wikidata": "Q130403669",
 "wikipedia": "https://en.wikipedia.org/wiki/Karim_Bennani_%28tennis%29"
+},
+"k-cross": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q107986298",
+"https://it.wikipedia.org/wiki/Kayla_Cross"
+],
+"wikidata": "Q107986298",
+"wikipedia": "https://it.wikipedia.org/wiki/Kayla_Cross"
 },
 "k-feldbausch": {
 "image": "File:Kilian Feldbausch (2026 US Open) 01 (cropped).jpg",
