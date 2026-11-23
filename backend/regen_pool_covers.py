@@ -28,7 +28,7 @@ from attach_covers import (
     used_covers_for_player, resolve_full, build_credit, entity_photo,
     cover_file_is_player,
 )
-from pool_cover import pick_from_pool
+from pool_cover import pick_from_pool, gender_from_categoria
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTS = ROOT / 'src/content/articoli'
@@ -176,7 +176,8 @@ def main() -> int:
                         break
         # 3. POOL d'azione curato (unicita' garantita dal dedup globale)
         if not pick:
-            pick = pick_from_pool(slug_hint=slug, exclude=used_global)
+            pick = pick_from_pool(slug_hint=slug, exclude=used_global,
+                                  gender=gender_from_categoria(fm.get('categoria', '')))
             from_pool = bool(pick)
         # 4. venue (ultima spiaggia), comunque filtrato
         if not pick:

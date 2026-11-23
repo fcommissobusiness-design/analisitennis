@@ -28,8 +28,48 @@ def _load_manifest() -> list[dict]:
         return []
 
 
-def pick_from_pool(slug_hint: str = '', exclude=None) -> dict | None:
+# --- Genere delle foto del pool (per non mettere una foto WTA su un match
+# maschile e viceversa) -------------------------------------------------------
+# Le foto del pool portano il genere nel titolo del file ("...ATP...", "...WTA...",
+# "Female...") o nel nome di un giocatore identificabile. Quelle senza segnale
+# chiaro (campo/azione anonima) restano NEUTRE e valgono per entrambi i generi.
+_TITLE_WOMEN = ('wta', 'female', ' women', 'bouzkov', 'tatjana maria',
+                'wickmayer', 'yanina')
+_TITLE_MEN = ('atp', 'berdych', 'cilic', 'amir rezaiennehzad')
+
+
+def _photo_gender(title: str) -> str:
+    """'W', 'M' o '' (neutro) dal titolo del file del pool."""
+    t = (title or '').lower()
+    if any(h in t for h in _TITLE_WOMEN):
+        return 'W'
+    if any(h in t for h in _TITLE_MEN):
+        return 'M'
+    return ''
+
+
+def gender_from_categoria(cat: str) -> str:
+    """Genere atteso del match dalla categoria dell'articolo.
+
+    ATP e Challenger sono circuiti maschili; WTA (qui include anche gli ITF
+    femminili W15/W50) e' femminile. Slam (misto), ITF generico e sconosciuto
+    -> '' = nessun filtro (comportamento storico, nessun rischio di regressione).
+    """
+    c = (cat or '').strip().upper()
+    if c in ('ATP', 'CHALLENGER'):
+        return 'M'
+    if c == 'WTA':
+        return 'W'
+    return ''
+
+
+def pick_from_pool(slug_hint: str = '', exclude=None, gender: str = '') -> dict | None:
     """Sceglie una foto d'azione dal pool locale.
+
+    `gender` ('M'/'W'/'') filtra via le foto del genere opposto: su un match
+    maschile non finisce una foto d'azione femminile riconoscibile e viceversa.
+    Le foto neutre restano sempre candidabili. Se il filtro svuota i candidati
+    si ricade senza filtro (meglio una foto che niente).
 
     Ritorna un dict compatibile con write_article:
       {'pool_src': '<path assoluto locale>', 'title': ..., 'credit': ...}
@@ -54,6 +94,13 @@ def pick_from_pool(slug_hint: str = '', exclude=None) -> dict | None:
                  if (ROOT / 'public' / p['file'].lstrip('/')).exists()]
     if not candidati:
         return None
+
+    # Filtro di genere: tieni neutre + stesso genere. Se svuota, non filtrare.
+    if gender in ('M', 'W'):
+        coerenti = [p for p in candidati
+                    if _photo_gender(p.get('title', '')) in ('', gender)]
+        if coerenti:
+            candidati = coerenti
 
     idx = int(hashlib.md5((slug_hint or 'x').encode()).hexdigest(), 16) % len(candidati)
     scelta = candidati[idx]

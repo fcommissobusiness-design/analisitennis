@@ -21,10 +21,12 @@ except Exception:
     HAS_COVER = False
 
 try:
-    from pool_cover import pick_from_pool
+    from pool_cover import pick_from_pool, gender_from_categoria
     HAS_POOL = True
 except Exception:
     HAS_POOL = False
+    def gender_from_categoria(_cat):
+        return ''
 
 try:
     from generate_profiles import ensure_profiles_for_match
@@ -227,7 +229,8 @@ def write(match, analysis, out_dir):
             #    (exclude = foto gia' usate), variazione per slug.
             from_pool = False
             if not pick and HAS_POOL:
-                pick = pick_from_pool(slug_hint=slug, exclude=used_global)
+                pick = pick_from_pool(slug_hint=slug, exclude=used_global,
+                                      gender=gender_from_categoria(cat))
                 from_pool = bool(pick)
             # 4. ultima spiaggia: venue del torneo. slug_hint diversifica gli
             #    articoli dello stesso torneo; dedup globale evita venue ripetuti.

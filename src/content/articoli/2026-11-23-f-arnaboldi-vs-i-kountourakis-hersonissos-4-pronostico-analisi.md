@@ -23,8 +23,8 @@ noindex: true
 probabilita_favorito: "Arnaboldi"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-23-f-arnaboldi-vs-i-kountourakis-hersonissos-4-pronostico-analisi.jpg"
-cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Tatjana Maria at the 2026 Nottingham Open (3).jpg"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:Sydney International Tennis ATP (46001161935).jpg"
 generato_il: "2026-11-23T07:19+01:00"
 ---
 
