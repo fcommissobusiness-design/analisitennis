@@ -15,7 +15,7 @@ tag:
   - "ITF Women"
   - "tennis femminile"
   - "scontri diretti"
-  - "sedicesimi di finale"
+  - "primo turno"
 verdetto: "Oggi la può spuntare Zaar: ha già regolato Nilsson in due set appena diciotto giorni fa e arriva con un bilancio recente più solido. La fatica da calendario fitto, però, tiene socchiusa la porta del terzo set."
 descrizione: "Zaar e Nilsson si ritrovano al primo turno di Ortisei a pochi giorni dall'ultimo incrocio: precedenti, forma e freschezza fisica a confronto nell'anteprima."
 pubblicato: true

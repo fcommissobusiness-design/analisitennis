@@ -19,6 +19,8 @@ tag:
 verdetto: "Alcaraz saluta l'anno dal gradino più alto, ma il circuito continua a correre: tra campi grandi e piccoli, il tennis non si ferma mai."
 descrizione: "Alcaraz vince le Finals di Torino, la Cechia alza la Billie Jean King Cup, Masarova trionfa a Colina: il racconto della settimana di tennis."
 pubblicato: true
+cover_image: "/covers/2026-11-23-la-settimana-nel-tennis.jpg"
+cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
 ---
 
 ### Il quadro della settimana

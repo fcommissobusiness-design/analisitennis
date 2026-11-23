@@ -14,7 +14,7 @@ tag:
   - "W50 Ortisei"
   - "ITF femminile"
   - "tennis femminile"
-  - "sedicesimi di finale"
+  - "primo turno"
   - "ITF Women"
 verdetto: "Oggi nettamente Pavlova: il divario di classifica, l'abitudine a questa fascia di tornei e la qualità media delle avversarie affrontate pesano più della sua forma opaca e dei viaggi. Peer può accendersi col pubblico amico, ma la forbice di livello resta ampia."
 descrizione: "Al W50 Ortisei, Pavlova e Peer aprono il tabellone: forma recente, momento di classifica e fattore campo a confronto in un turno dai contorni ancora aperti."
@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Pavlova"
 probabilita_percent: 73
-cover_image: "/covers/2026-11-23-k-pavlova-vs-l-peer-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Daniel from Galashiels, United Kingdom / CC BY 2.0 / Wikimedia Commons"
 cover_file: "File:Female Tennis Player About to Serve (6736686675).jpg"
 generato_il: "2026-11-23T07:52+01:00"
+cover_image: "/covers/2026-11-23-k-pavlova-vs-l-peer-w50-ortisei-pronostico-analisi.jpg"
+cover_credit: "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg | Johann Jaritz | CC BY-SA 4.0"
 ---
 
 Il **W50 Ortisei** apre il suo tabellone con un incrocio che mette di fronte due giocatrici a punti molto diversi della propria stagione. Pavlova e Peer arrivano a questo primo turno con storie recenti distanti, e tocca al campo stabilire quanto la carta rispecchi davvero i valori in gioco. È un match di avvio del tabellone, in una fascia di tornei di fine stagione preziosa per chi insegue punti e continuità.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Riera"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-23-d-papamichail-vs-j-riera-buenos-aires-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Sydney International Tennis WTA (46001164515).jpg"
 generato_il: "2026-11-23T07:42+01:00"
+cover_image: "/covers/2026-11-23-d-papamichail-vs-j-riera-buenos-aires-pronostico-analisi.jpg"
+cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
 ---
 
 Buenos Aires apre le sue porte a un confronto tra due giocatrici che arrivano dalla lunga trasferta sudamericana di fine stagione, in un periodo in cui ogni vittoria nel tabellone principale pesa doppio per muovere la classifica e chiudere bene l'anno. **D. Papamichail** e **J. Riera** si ritrovano una di fronte all'altra dopo aver incrociato, nelle ultime settimane, gli stessi tornei e in parte le stesse avversarie: un dettaglio che rende l'incontro più leggibile di quanto il singolo numero di classifica lasci intendere.
