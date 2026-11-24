@@ -3,11 +3,29 @@ titolo: "Le superfici del tennis: cemento, terra, erba e indoor"
 descrizione: "Cemento, terra rossa, erba e veloce indoor: come ogni superficie cambia il gioco, il rimbalzo e i giocatori che favorisce."
 sommario: "Perché lo stesso giocatore vince su una superficie e fatica su un'altra: cemento, terra, erba e indoor a confronto."
 ordine: 2
-aggiornato: "2026-10-28"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Quali sono le superfici del tennis?"
+    a: "Le superfici del tennis professionistico sono tre: il cemento, la terra rossa e l'erba. A queste si aggiunge il caso dell'indoor, cioè il gioco al coperto, che però non è una superficie a sé ma di norma un cemento o un sintetico veloce giocato senza vento né sole. Ogni superficie cambia la velocità della palla, l'altezza del rimbalzo e il tipo di gioco che premia."
+  - q: "Qual è la superficie più veloce e quale la più lenta?"
+    a: "La superficie più veloce è l'erba, dove la palla scivola, resta bassa e gli scambi sono brevi. La più lenta è la terra rossa, dove la palla rimbalza alta, perde velocità e gli scambi si allungano. Il cemento sta nel mezzo, con una velocità che varia a seconda della vernice usata sul campo."
+  - q: "Su quali superfici si giocano i tornei del Grande Slam?"
+    a: "I quattro Slam coprono tre superfici diverse: Australian Open e US Open si giocano sul cemento, il Roland Garros sulla terra rossa e Wimbledon sull'erba. È proprio questa varietà a rendere difficile vincere su tutte: ogni superficie premia qualità tecniche differenti."
+  - q: "Perché un giocatore vince su una superficie e perde su un'altra?"
+    a: "Perché ogni superficie premia abilità diverse. La terra favorisce i giocatori pazienti, con molto top spin e grande resistenza fisica; l'erba e il veloce indoor premiano chi serve forte e gioca d'anticipo; il cemento, più neutro, avvantaggia i giocatori completi. Uno stesso tennista può quindi avere un rendimento ottimo su una superficie e modesto su un'altra."
+  - q: "Cosa significa indoor nel tennis?"
+    a: "Indoor significa semplicemente giocare al coperto, in un palazzetto. Non è una superficie diversa dalle altre: di solito si tratta di cemento o di un sintetico veloce. La differenza la fanno le condizioni costanti, senza vento né sole, che rendono la palla rapida e prevedibile e avvantaggiano i grandi servitori e i giocatori aggressivi. Molti tornei di fine stagione si giocano in queste condizioni."
 ---
 
 Nel tennis la superficie non è un dettaglio: cambia la velocità della palla, l'altezza del rimbalzo e persino il modo di muoversi. Ecco perché un campione della terra può faticare sull'erba, e viceversa. Le superfici del circuito sono tre, cemento, terra ed erba, a cui va aggiunto il capitolo a parte dei tornei al coperto.
+
+| Superficie | Velocità | Rimbalzo | Favorisce | Slam |
+| --- | --- | --- | --- | --- |
+| Cemento | Media (variabile) | Medio-alto, regolare | Gioco completo, servizio | Australian Open, US Open |
+| Terra rossa | Lenta | Alto | Pazienza, top spin, resistenza | Roland Garros |
+| Erba | Veloce | Basso, irregolare | Servizio, anticipo, rete | Wimbledon |
+| Veloce indoor | Veloce | Regolare | Servizio, aggressività | — |
 
 ## Cemento (hard)
 

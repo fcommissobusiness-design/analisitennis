@@ -3,15 +3,26 @@ titolo: "Le regole del tennis spiegate semplici"
 descrizione: "Come funziona il tennis: punteggio, game, set e tie-break spiegati in modo semplice, con gli scenari più comuni di una partita."
 sommario: "Punteggio, game, set e tie-break: tutto quello che serve per seguire una partita di tennis senza perdersi."
 ordine: 1
-aggiornato: "2026-10-28"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Perché nel tennis i punti si contano 15, 30, 40?"
+    a: "La spiegazione più accreditata è che il punteggio derivi dal quadrante di un orologio: i punti avanzavano a quarti d'ora, 15, 30 e 45. Nel tempo il 45 si è abbreviato in 40, probabilmente per comodità di pronuncia e per lasciare spazio alla regola dei vantaggi. È una convenzione storica: dentro un game il primo punto vale 15, il secondo 30, il terzo 40 e il quarto chiude il gioco."
+  - q: "Cosa significano deuce e vantaggio?"
+    a: "Quando in un game si arriva sul 40 pari si entra in parità, in inglese deuce: da quel momento per vincere il game servono due punti consecutivi. Chi segna il primo va in vantaggio, chi segna il successivo vince il game; se invece il punto lo riprende l'avversario si torna in parità. Alcuni tornei adottano il no-advantage, dove sul 40 pari si gioca un solo punto decisivo."
+  - q: "Cos'è un break nel tennis?"
+    a: "Si parla di break quando un giocatore vince il game nel quale l'avversario è al servizio. Dato che chi serve ha un vantaggio, strappare il servizio è quasi sempre decisivo per il set: la palla che può valere il break si chiama palla break, e nelle analisi è uno dei momenti chiave di una partita."
+  - q: "Quanti set dura una partita di tennis?"
+    a: "Nella grande maggioranza dei tornei, sia maschili sia femminili, si gioca al meglio dei tre set: vince chi ne conquista due. Fanno eccezione le prove del Grande Slam maschili, dove gli uomini giocano al meglio dei cinque set e servono quindi tre set per vincere; le donne restano al meglio dei tre anche nei Major."
+  - q: "Come funziona il tie-break?"
+    a: "Il tie-break è un game speciale che si gioca quando un set arriva sul 6 pari. Si conta a numeri interi e lo vince chi arriva per primo a 7 punti con almeno due di scarto, aggiudicandosi il set per 7-6. Nel set decisivo, i quattro tornei dello Slam usano dal 2022 un tie-break più lungo, a 10 punti, chiamato super tie-break."
 ---
 
 Il tennis si gioca uno contro uno (singolare) o due contro due (doppio). Vince chi conquista un certo numero di set. Per capire una partita basta padroneggiare tre livelli di punteggio: il **punto**, il **game** e il **set**.
 
 ## Come si contano i punti
 
-Dentro un game i punti non salgono da 1 a 4, ma seguono una scala storica: 15, 30, 40. Il primo punto vale 15, il secondo 30, il terzo 40, il quarto chiude il game. Lo zero si annuncia come "zero" e in gergo inglese si chiama "love": un game vinto senza concedere nemmeno un punto si chiude "a zero".
+Dentro un game i punti non salgono da 1 a 4, ma seguono una scala storica: 15, 30, 40. Il primo punto vale 15, il secondo 30, il terzo 40, il quarto chiude il game. Questa numerazione curiosa deriva, secondo la spiegazione più diffusa, dal quadrante di un **orologio**: i punti avanzavano a quarti d'ora (15, 30, 45) e il 45 si è poi abbreviato in 40. Lo zero si annuncia come "zero" e in gergo inglese si chiama "love": un game vinto senza concedere nemmeno un punto si chiude "a zero".
 
 Se si arriva 40 pari si entra nei **vantaggi**: bisogna segnare due punti consecutivi per vincere il game. Chi fa il primo punto va "vantaggio", chi riprende torna "parità" (deuce). Alcuni tornei adottano il *no-advantage*, dove sul 40 pari si gioca un punto secco decisivo.
 
