@@ -3,8 +3,19 @@ titolo: "I Masters 1000 spiegati: cosa sono e perché contano"
 descrizione: "Cosa sono i Masters 1000 del tennis: i nove tornei più importanti dopo gli Slam, i punti in palio, le sedi e perché pesano sulla stagione."
 sommario: "Subito sotto il Grande Slam ci sono i Masters 1000: i nove appuntamenti che pesano di più sulla classifica e sulla corsa al numero uno."
 ordine: 7
-aggiornato: "2026-10-30"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Cosa sono i Masters 1000?"
+    a: "I Masters 1000 sono i tornei più importanti del tennis maschile dopo le quattro prove del Grande Slam. Il nome deriva dai mille punti che assegnano al vincitore, contro i duemila di uno Slam. Radunano quasi tutti i migliori giocatori del mondo e sono spesso decisivi nella corsa alle prime posizioni della classifica."
+  - q: "Quanti sono i Masters 1000 e dove si giocano?"
+    a: "I Masters 1000 maschili sono nove, distribuiti lungo tutta la stagione e su superfici diverse: Indian Wells e Miami sul cemento in primavera, poi la terra rossa europea di Monte-Carlo, Madrid e Roma, quindi il cemento nordamericano del Canada e di Cincinnati, Shanghai in Asia e il Masters indoor di Parigi a fine stagione."
+  - q: "Quanti punti assegna un Masters 1000?"
+    a: "Un Masters 1000 assegna mille punti al vincitore del singolare, da cui prende il nome. È un bottino che pesa molto in classifica: vale il doppio di un torneo da 500 punti e la metà di uno Slam, che ne dà duemila. Un buon risultato in un Masters vale più di diversi tornei minori messi insieme."
+  - q: "Qual è l'equivalente femminile dei Masters 1000?"
+    a: "Nel tennis femminile l'equivalente dei Masters 1000 è la categoria dei WTA 1000. Ricopre lo stesso ruolo: gli eventi più pesanti subito sotto gli Slam, che assegnano mille punti alla vincitrice e radunano le migliori giocatrici del mondo."
+  - q: "I Masters 1000 sono obbligatori per i migliori giocatori?"
+    a: "Per i giocatori di vertice otto dei nove Masters 1000 sono di fatto obbligatori: saltarli senza una ragione valida comporta penalità. L'unica eccezione è Monte-Carlo, che resta facoltativo. Per questo in questi tornei si ritrovano quasi tutti i top insieme, come in un piccolo Slam."
 ---
 
 Dopo le quattro prove del Grande Slam, i **Masters 1000** sono i tornei più importanti del tennis maschile. Il nome viene dai punti che assegnano al vincitore: mille, contro i duemila di uno Slam e i cinquecento di una categoria inferiore. Sono gli appuntamenti che, più di ogni altro dopo i Major, decidono le gerarchie della stagione.
@@ -18,6 +29,18 @@ Nel tennis femminile esiste la categoria equivalente, i tornei **WTA 1000**, che
 ## Quanti sono e dove si giocano
 
 I Masters 1000 maschili sono nove, distribuiti lungo tutta la stagione e su superfici diverse. Si gioca sul cemento americano a **Indian Wells** e **Miami** in primavera, poi arriva la stagione della terra rossa europea con **Monte-Carlo**, **Madrid** e **Roma**. Dopo Wimbledon il circuito torna sul cemento in Nord America con i tornei del **Canada** e di **Cincinnati**, in autunno prosegue in Asia a **Shanghai** e si chiude in Europa con il Masters di **Parigi**, al coperto.
+
+| Torneo | Sede | Superficie | Periodo |
+| --- | --- | --- | --- |
+| Indian Wells | Stati Uniti | Cemento | Marzo |
+| Miami | Stati Uniti | Cemento | Marzo-aprile |
+| Monte-Carlo | Monaco | Terra rossa | Aprile |
+| Madrid | Spagna | Terra rossa | Aprile-maggio |
+| Roma | Italia | Terra rossa | Maggio |
+| Canada | Montreal/Toronto | Cemento | Agosto |
+| Cincinnati | Stati Uniti | Cemento | Agosto |
+| Shanghai | Cina | Cemento | Ottobre |
+| Parigi | Francia | Cemento indoor | Ottobre-novembre |
 
 Questa distribuzione fa sì che i Masters 1000 tocchino ogni fase della stagione e ogni superficie: chi vuole stare in alto in classifica deve saper rendere su cemento, terra e indoor.
 

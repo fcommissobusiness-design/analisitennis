@@ -3,8 +3,19 @@ titolo: "Glossario del tennis: i termini più usati"
 descrizione: "Ace, break, tie-break, top spin, slice, drop shot: il glossario dei termini del tennis spiegati in modo chiaro e veloce."
 sommario: "Il dizionario del tennis: dall'ace al tie-break, tutti i termini che senti in telecronaca spiegati in una riga."
 ordine: 4
-aggiornato: "2026-10-28"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Cos'è un ace nel tennis?"
+    a: "L'ace è un servizio vincente che l'avversario non riesce nemmeno a toccare con la racchetta: il punto è diretto e immediato. È l'arma dei grandi battitori e, nelle statistiche di un match, il numero di ace è un indicatore dell'efficacia del servizio di un giocatore."
+  - q: "Cosa significa break nel tennis?"
+    a: "Si ha un break quando un giocatore vince il game nel quale l'avversario è al servizio. Dato che chi serve parte avvantaggiato, strappargli il servizio è quasi sempre decisivo per il set. Il punto che consente di ottenere il break si chiama palla break, e recuperare subito un break appena subito si chiama controbreak."
+  - q: "Che differenza c'è tra top spin e slice?"
+    a: "Sono due rotazioni opposte. Il top spin è una rotazione in avanti che fa rimbalzare la palla alta e la fa cadere dentro al campo, utile per controllo e profondità. Lo slice è una rotazione all'indietro che rende la palla bassa e tagliata, tanto che 'muore' sul rimbalzo: serve per cambiare ritmo e mettere in difficoltà l'avversario."
+  - q: "Cosa significa deuce nel tennis?"
+    a: "Deuce è il termine inglese per la parità sul 40 pari all'interno di un game. Da quel momento, per vincere il gioco, un giocatore deve segnare due punti consecutivi: il primo lo porta in vantaggio, il secondo chiude il game. Se l'avversario recupera, si torna in parità."
+  - q: "Cosa significa bagel nel tennis?"
+    a: "Bagel è un termine gergale che indica un set vinto per 6-0, cioè senza concedere nemmeno un game all'avversario. Il nome viene dalla forma dello zero, che ricorda il dolce americano a forma di ciambella. Subire un 'doppio bagel' significa perdere la partita 6-0 6-0."
 ---
 
 Il tennis ha un linguaggio tutto suo, spesso in inglese. Ecco i termini che ricorrono di più in telecronaca e nelle nostre analisi, spiegati in modo semplice.

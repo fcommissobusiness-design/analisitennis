@@ -3,8 +3,19 @@ titolo: "ATP, Challenger e ITF: i livelli del tennis professionistico"
 descrizione: "Come è organizzato il tennis pro: ATP e WTA Tour, Challenger e WTA 125, circuito ITF. Chi gioca dove e come si sale di categoria."
 sommario: "La piramide del tennis professionistico, dal circuito maggiore ai tornei d'ingresso: dove si gioca, chi partecipa e come si sale."
 ordine: 6
-aggiornato: "2026-10-30"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Come è organizzato il tennis professionistico?"
+    a: "Il tennis professionistico è organizzato come una piramide a tre livelli. In cima c'è il circuito maggiore, l'ATP Tour nel maschile e il WTA Tour nel femminile, con i tornei 250, 500 e Masters 1000/WTA 1000, sopra i quali stanno i quattro Slam. Al centro ci sono i Challenger (maschile) e i WTA 125 (femminile). Alla base c'è il circuito ITF World Tennis Tour, il livello d'ingresso nel professionismo."
+  - q: "Che differenza c'è tra un torneo ATP e un Challenger?"
+    a: "L'ATP Tour è il circuito maggiore: ospita i migliori del mondo, assegna più punti e i montepremi più alti ed è quello che si vede in televisione. Il Challenger Tour è il livello immediatamente inferiore, dove giocano chi sta salendo verso il grande circuito e i professionisti che cercano punti e ritmo dopo un infortunio. I punti dei Challenger servono proprio per costruire la classifica che dà accesso ai tornei ATP."
+  - q: "Cos'è il circuito ITF?"
+    a: "Il circuito ITF World Tennis Tour, gestito dalla Federazione Internazionale Tennis, è il livello d'ingresso nel professionismo, alla base della piramide. È dove i giocatori muovono i primi passi e accumulano i primi punti per la classifica mondiale. Montepremi e punti sono contenuti, ma è il gradino da cui tutti partono prima di salire verso Challenger e grande circuito."
+  - q: "Come si sale da un livello all'altro nel tennis?"
+    a: "Si sale accumulando punti in classifica. I risultati ottenuti a ogni livello valgono per accedere ai tornei del livello superiore: più si vince, più si scala posizioni, più si entra in eventi importanti. Un giocatore può così partire dai tornei ITF, affermarsi nei Challenger e infine stabilizzarsi nell'ATP o nel WTA Tour. Conta la continuità, non la singola impresa."
+  - q: "Qual è l'equivalente femminile del Challenger Tour?"
+    a: "Nel tennis femminile il gradino intermedio, equivalente ai Challenger maschili, è rappresentato dai tornei della categoria WTA 125. Svolgono lo stesso ruolo di passaggio tra il circuito d'ingresso ITF e il WTA Tour maggiore: è il livello dove le giocatrici in ascesa costruiscono la classifica per entrare nei tornei più importanti."
 ---
 
 Quando si parla di un match "ATP" o di un torneo "Challenger" si fa riferimento a livelli diversi dello stesso sport. Il tennis professionistico è organizzato come una piramide: pochi grandi eventi in cima, molti tornei minori alla base. Capire questa struttura aiuta a inquadrare ogni partita nel suo contesto.
