@@ -1,6 +1,6 @@
 {
   "circuito": "WTA",
-  "aggiornato_il": "2026-11-23T14:18",
+  "aggiornato_il": "2026-11-24T09:39",
   "righe": [
     {
       "place": 1,
@@ -82,9 +82,9 @@
     {
       "place": 12,
       "player": "Maja Chwalinska",
-      "points": "3016",
+      "points": "3004",
       "country": "Poland",
-      "movement": "up"
+      "movement": "same"
     },
     {
       "place": 13,
@@ -249,16 +249,16 @@
     },
     {
       "place": 36,
-      "player": "Talia Gibson",
-      "points": "1342",
-      "country": "Australia",
-      "movement": "same"
-    },
-    {
-      "place": 37,
       "player": "Peyton Stearns",
       "points": "1316",
       "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 37,
+      "player": "Talia Gibson",
+      "points": "1296",
+      "country": "Australia",
       "movement": "up"
     },
     {
@@ -326,16 +326,16 @@
     },
     {
       "place": 47,
-      "player": "Kimberly Birrell",
-      "points": "1146",
-      "country": "Australia",
-      "movement": "up"
-    },
-    {
-      "place": 48,
       "player": "Katerina Siniakova",
       "points": "1143",
       "country": "Czech Republic",
+      "movement": "down"
+    },
+    {
+      "place": 48,
+      "player": "Kimberly Birrell",
+      "points": "1137",
+      "country": "Australia",
       "movement": "up"
     },
     {
@@ -431,128 +431,128 @@
     },
     {
       "place": 62,
-      "player": "Lanlana Tararudee",
-      "points": "1012",
-      "country": "Thailand",
-      "movement": "down"
-    },
-    {
-      "place": 63,
       "player": "Zeynep Sonmez",
       "points": "1011",
       "country": "Turkey",
       "movement": "down"
     },
     {
-      "place": 64,
-      "player": "Mayar Sherif",
-      "points": "1006",
-      "country": "Egypt",
-      "movement": "down"
-    },
-    {
-      "place": 65,
+      "place": 63,
       "player": "Yulia Putintseva",
       "points": "1000",
       "country": "Kazakhstan",
       "movement": "down"
     },
     {
-      "place": 66,
+      "place": 64,
+      "player": "Lanlana Tararudee",
+      "points": "1000",
+      "country": "Thailand",
+      "movement": "up"
+    },
+    {
+      "place": 65,
       "player": "Caty McNally",
       "points": "999",
       "country": "USA",
       "movement": "down"
     },
     {
-      "place": 67,
+      "place": 66,
       "player": "Tamara Korpatsch",
       "points": "997",
       "country": "Germany",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 68,
+      "place": 67,
       "player": "Tatjana Maria",
       "points": "996",
       "country": "Germany",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 69,
+      "place": 68,
       "player": "Claire Liu",
       "points": "972",
       "country": "USA",
       "movement": "down"
     },
     {
-      "place": 70,
-      "player": "Oleksandra Oliynykova",
-      "points": "957",
-      "country": "Ukraine",
+      "place": 69,
+      "player": "Mayar Sherif",
+      "points": "959",
+      "country": "Egypt",
       "movement": "up"
     },
     {
-      "place": 71,
+      "place": 70,
       "player": "Camila Osorio",
       "points": "953",
       "country": "Colombia",
-      "movement": "up"
+      "movement": "down"
+    },
+    {
+      "place": 71,
+      "player": "Kaitlin Quevedo",
+      "points": "937",
+      "country": "Spain",
+      "movement": "down"
     },
     {
       "place": 72,
       "player": "Maria Timofeeva",
-      "points": "952",
+      "points": "932",
       "country": "Uzbekistan",
-      "movement": "up"
+      "movement": "same"
     },
     {
       "place": 73,
-      "player": "Kaitlin Quevedo",
-      "points": "937",
-      "country": "Spain",
-      "movement": "up"
-    },
-    {
-      "place": 74,
       "player": "Elisabetta Cocciaretto",
       "points": "931",
       "country": "Italy",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 75,
+      "place": 74,
       "player": "Daria Kasatkina",
       "points": "928",
       "country": "Australia",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 76,
+      "place": 75,
       "player": "Anna Bondar",
       "points": "913",
       "country": "Hungary",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 77,
+      "place": 76,
       "player": "Bianca Andreescu",
       "points": "900",
       "country": "Canada",
       "movement": "down"
     },
     {
-      "place": 78,
+      "place": 77,
       "player": "Antonia Ruzic",
       "points": "898",
       "country": "Croatia",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 79,
+      "place": 78,
       "player": "Alina Korneeva",
       "points": "895",
       "country": "World",
+      "movement": "down"
+    },
+    {
+      "place": 79,
+      "player": "Oleksandra Oliynykova",
+      "points": "886",
+      "country": "Ukraine",
       "movement": "up"
     },
     {
@@ -627,129 +627,129 @@
     },
     {
       "place": 90,
-      "player": "Leolia Jeanjean",
-      "points": "841",
-      "country": "France",
-      "movement": "up"
-    },
-    {
-      "place": 91,
       "player": "Aliaksandra Sasnovich",
       "points": "839",
       "country": "World",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 92,
+      "place": 91,
       "player": "Maya Joint",
       "points": "832",
       "country": "Australia",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 93,
+      "place": 92,
       "player": "Taylor Townsend",
       "points": "831",
       "country": "USA",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 94,
+      "place": 93,
       "player": "Viktorija Golubic",
       "points": "831",
       "country": "Switzerland",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 95,
+      "place": 94,
       "player": "Taylah Preston",
       "points": "828",
       "country": "Australia",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 96,
+      "place": 95,
       "player": "Sinja Kraus",
       "points": "814",
       "country": "Austria",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 97,
+      "place": 96,
       "player": "Darja Vidmanova",
       "points": "812",
       "country": "Czech Republic",
-      "movement": "up"
+      "movement": "down"
+    },
+    {
+      "place": 97,
+      "player": "Fiona Ferro",
+      "points": "795",
+      "country": "France",
+      "movement": "down"
     },
     {
       "place": 98,
       "player": "Shuai Zhang",
-      "points": "802",
+      "points": "792",
       "country": "China",
-      "movement": "up"
+      "movement": "same"
     },
     {
       "place": 99,
-      "player": "Fiona Ferro",
-      "points": "795",
-      "country": "France",
-      "movement": "up"
-    },
-    {
-      "place": 100,
       "player": "Francesca Jones",
       "points": "778",
       "country": "United Kingdom",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 101,
+      "place": 100,
       "player": "Anna Blinkova",
       "points": "776",
       "country": "France",
       "movement": "down"
     },
     {
-      "place": 102,
+      "place": 101,
       "player": "Anastasia Zakharova",
       "points": "772",
       "country": "World",
       "movement": "down"
     },
     {
-      "place": 103,
+      "place": 102,
       "player": "Dayana Yastremska",
       "points": "770",
       "country": "Ukraine",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 104,
+      "place": 103,
       "player": "Jessica Bouzas Maneiro",
       "points": "769",
       "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 104,
+      "player": "Leolia Jeanjean",
+      "points": "762",
+      "country": "France",
       "movement": "up"
     },
     {
       "place": 105,
-      "player": "Solana Sierra",
-      "points": "730",
-      "country": "Argentina",
+      "player": "Leyre Romero Gormaz",
+      "points": "761",
+      "country": "Spain",
       "movement": "down"
     },
     {
       "place": 106,
-      "player": "Kristina Liutova",
-      "points": "725",
-      "country": "World",
+      "player": "Solana Sierra",
+      "points": "730",
+      "country": "Argentina",
       "movement": "up"
     },
     {
       "place": 107,
-      "player": "Laura Samson",
-      "points": "719",
-      "country": "Czech Republic",
-      "movement": "down"
+      "player": "Kristina Liutova",
+      "points": "725",
+      "country": "World",
+      "movement": "up"
     },
     {
       "place": 108,
@@ -767,17 +767,17 @@
     },
     {
       "place": 110,
-      "player": "Lucrezia Stefanini",
-      "points": "696",
-      "country": "Italy",
-      "movement": "down"
+      "player": "Laura Samson",
+      "points": "697",
+      "country": "Czech Republic",
+      "movement": "up"
     },
     {
       "place": 111,
-      "player": "Leyre Romero Gormaz",
-      "points": "695",
-      "country": "Spain",
-      "movement": "down"
+      "player": "Lucrezia Stefanini",
+      "points": "696",
+      "country": "Italy",
+      "movement": "up"
     },
     {
       "place": 112,
@@ -810,9 +810,9 @@
     {
       "place": 116,
       "player": "Sloane Stephens",
-      "points": "678",
+      "points": "675",
       "country": "USA",
-      "movement": "down"
+      "movement": "same"
     },
     {
       "place": 117,
@@ -844,80 +844,80 @@
     },
     {
       "place": 121,
-      "player": "Oksana Selekhmeteva",
-      "points": "648",
-      "country": "Spain",
-      "movement": "down"
-    },
-    {
-      "place": 122,
       "player": "Tatiana Prozorova",
       "points": "648",
       "country": "World",
       "movement": "down"
     },
     {
-      "place": 123,
-      "player": "Mary Stoiana",
-      "points": "646",
-      "country": "USA",
+      "place": 122,
+      "player": "Oksana Selekhmeteva",
+      "points": "647",
+      "country": "Spain",
       "movement": "up"
     },
     {
-      "place": 124,
+      "place": 123,
       "player": "Mia Pohankova",
       "points": "645",
       "country": "Slovakia",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 125,
+      "place": 124,
       "player": "Elvina Kalieva",
       "points": "638",
       "country": "USA",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 126,
+      "place": 125,
       "player": "Kayla Day",
       "points": "635",
       "country": "USA",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 127,
+      "place": 126,
       "player": "Alexandra Shubladze",
       "points": "629",
       "country": "World",
       "movement": "down"
     },
     {
-      "place": 128,
-      "player": "Jeline Vandromme",
-      "points": "622",
-      "country": "Belgium",
+      "place": 127,
+      "player": "Mary Stoiana",
+      "points": "616",
+      "country": "USA",
       "movement": "up"
     },
     {
+      "place": 128,
+      "player": "Lucia Bronzetti",
+      "points": "603",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
       "place": 129,
-      "player": "Himeno Sakatsume",
-      "points": "612",
-      "country": "Japan",
+      "player": "Marina Bassols Ribera",
+      "points": "599",
+      "country": "Spain",
       "movement": "down"
     },
     {
       "place": 130,
-      "player": "Marina Bassols Ribera",
-      "points": "609",
-      "country": "Spain",
-      "movement": "up"
-    },
-    {
-      "place": 131,
       "player": "Dominika Salkova",
       "points": "597",
       "country": "Czech Republic",
-      "movement": "up"
+      "movement": "down"
+    },
+    {
+      "place": 131,
+      "player": "Rebeka Masarova",
+      "points": "592",
+      "country": "Switzerland",
+      "movement": "down"
     },
     {
       "place": 132,
@@ -928,205 +928,205 @@
     },
     {
       "place": 133,
-      "player": "Emerson Jones",
-      "points": "590",
-      "country": "Australia",
+      "player": "Robin Montgomery",
+      "points": "584",
+      "country": "USA",
       "movement": "down"
     },
     {
       "place": 134,
-      "player": "Robin Montgomery",
-      "points": "584",
-      "country": "USA",
+      "player": "Jeline Vandromme",
+      "points": "582",
+      "country": "Belgium",
       "movement": "up"
     },
     {
       "place": 135,
-      "player": "Lucia Bronzetti",
-      "points": "566",
-      "country": "Italy",
+      "player": "Elizara Yaneva",
+      "points": "577",
+      "country": "Bulgaria",
       "movement": "down"
     },
     {
       "place": 136,
+      "player": "Joanna Garland",
+      "points": "569",
+      "country": "Taiwan",
+      "movement": "down"
+    },
+    {
+      "place": 137,
+      "player": "Andrea Lazaro Garcia",
+      "points": "566",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 138,
       "player": "Simona Waltert",
       "points": "561",
       "country": "Switzerland",
       "movement": "up"
     },
     {
-      "place": 137,
+      "place": 139,
       "player": "Julia Riera",
       "points": "558",
       "country": "Argentina",
-      "movement": "same"
-    },
-    {
-      "place": 138,
-      "player": "Maddison Inglis",
-      "points": "548",
-      "country": "Australia",
-      "movement": "same"
-    },
-    {
-      "place": 139,
-      "player": "Alice Tubello",
-      "points": "543",
-      "country": "France",
-      "movement": "down"
+      "movement": "up"
     },
     {
       "place": 140,
-      "player": "Andrea Lazaro Garcia",
-      "points": "541",
-      "country": "Spain",
-      "movement": "down"
+      "player": "Emerson Jones",
+      "points": "557",
+      "country": "Australia",
+      "movement": "up"
     },
     {
       "place": 141,
-      "player": "Youngsuh Lee Carol",
-      "points": "539",
-      "country": "USA",
-      "movement": "down"
+      "player": "Maddison Inglis",
+      "points": "548",
+      "country": "Australia",
+      "movement": "up"
     },
     {
       "place": 142,
-      "player": "Elizara Yaneva",
-      "points": "535",
-      "country": "Bulgaria",
+      "player": "Alice Tubello",
+      "points": "543",
+      "country": "France",
       "movement": "up"
     },
     {
       "place": 143,
+      "player": "Youngsuh Lee Carol",
+      "points": "539",
+      "country": "USA",
+      "movement": "up"
+    },
+    {
+      "place": 144,
       "player": "Han Shi",
       "points": "531",
       "country": "China",
       "movement": "up"
     },
     {
-      "place": 144,
+      "place": 145,
       "player": "Martyna Kubka",
       "points": "528",
       "country": "Poland",
       "movement": "up"
     },
     {
-      "place": 145,
+      "place": 146,
       "player": "Tamara Zidansek",
       "points": "527",
       "country": "Slovenia",
       "movement": "up"
     },
     {
-      "place": 146,
-      "player": "Teodora Kostovic",
-      "points": "522",
-      "country": "Serbia",
-      "movement": "up"
+      "place": 147,
+      "player": "Guiomar Maristany Zuleta De Reales",
+      "points": "518",
+      "country": "Spain",
+      "movement": "down"
     },
     {
-      "place": 147,
+      "place": 148,
       "player": "Ajla Tomljanovic",
       "points": "516",
       "country": "Australia",
       "movement": "up"
     },
     {
-      "place": 148,
-      "player": "Clara Burel",
-      "points": "512",
-      "country": "France",
-      "movement": "down"
-    },
-    {
       "place": 149,
-      "player": "Jil Teichmann",
-      "points": "507",
-      "country": "Switzerland",
-      "movement": "down"
+      "player": "Teodora Kostovic",
+      "points": "515",
+      "country": "Serbia",
+      "movement": "up"
     },
     {
       "place": 150,
-      "player": "Rebecca Sramkova",
-      "points": "507",
-      "country": "Slovakia",
-      "movement": "down"
+      "player": "Himeno Sakatsume",
+      "points": "514",
+      "country": "Japan",
+      "movement": "up"
     },
     {
       "place": 151,
-      "player": "Elina Avanesyan",
-      "points": "498",
-      "country": "Armenia",
-      "movement": "down"
+      "player": "Clara Burel",
+      "points": "512",
+      "country": "France",
+      "movement": "up"
     },
     {
       "place": 152,
-      "player": "Joanna Garland",
-      "points": "495",
-      "country": "Taiwan",
-      "movement": "down"
+      "player": "Jil Teichmann",
+      "points": "507",
+      "country": "Switzerland",
+      "movement": "up"
     },
     {
       "place": 153,
-      "player": "Anna Siskova",
-      "points": "494",
-      "country": "Czech Republic",
-      "movement": "down"
+      "player": "Rebecca Sramkova",
+      "points": "507",
+      "country": "Slovakia",
+      "movement": "up"
     },
     {
       "place": 154,
-      "player": "Ayla Aksu",
-      "points": "494",
-      "country": "Turkey",
-      "movement": "down"
+      "player": "Elina Avanesyan",
+      "points": "498",
+      "country": "Armenia",
+      "movement": "up"
     },
     {
       "place": 155,
-      "player": "Dalma Galfi",
-      "points": "486",
-      "country": "Hungary",
-      "movement": "down"
+      "player": "Anna Siskova",
+      "points": "494",
+      "country": "Czech Republic",
+      "movement": "up"
     },
     {
       "place": 156,
+      "player": "Ayla Aksu",
+      "points": "494",
+      "country": "Turkey",
+      "movement": "up"
+    },
+    {
+      "place": 157,
+      "player": "Katie Swan",
+      "points": "491",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 158,
+      "player": "Dalma Galfi",
+      "points": "486",
+      "country": "Hungary",
+      "movement": "up"
+    },
+    {
+      "place": 159,
       "player": "Mai Hontama",
       "points": "486",
       "country": "Japan",
       "movement": "up"
     },
     {
-      "place": 157,
-      "player": "Caterina Grant Tyra",
-      "points": "479",
-      "country": "Italy",
+      "place": 160,
+      "player": "Veronika Erjavec",
+      "points": "480",
+      "country": "Slovenia",
       "movement": "down"
     },
     {
-      "place": 158,
-      "player": "Guiomar Maristany Zuleta De Reales",
-      "points": "470",
-      "country": "Spain",
-      "movement": "up"
-    },
-    {
-      "place": 159,
-      "player": "Akasha Urhobo",
-      "points": "470",
-      "country": "USA",
-      "movement": "same"
-    },
-    {
-      "place": 160,
-      "player": "Rebeka Masarova",
-      "points": "469",
-      "country": "Switzerland",
-      "movement": "up"
-    },
-    {
       "place": 161,
-      "player": "Veronika Erjavec",
-      "points": "467",
-      "country": "Slovenia",
+      "player": "Caterina Grant Tyra",
+      "points": "479",
+      "country": "Italy",
       "movement": "up"
     },
     {
@@ -1138,170 +1138,170 @@
     },
     {
       "place": 163,
-      "player": "Yeonwoo Ku",
+      "player": "Akasha Urhobo",
       "points": "464",
-      "country": "South Korea",
-      "movement": "down"
+      "country": "USA",
+      "movement": "up"
     },
     {
       "place": 164,
-      "player": "Storm Hunter",
-      "points": "463",
-      "country": "Australia",
-      "movement": "up"
+      "player": "Anastasiia Sobolieva",
+      "points": "455",
+      "country": "Ukraine",
+      "movement": "down"
     },
     {
       "place": 165,
-      "player": "Katie Swan",
-      "points": "463",
-      "country": "United Kingdom",
-      "movement": "up"
+      "player": "Susan Bandecchi",
+      "points": "453",
+      "country": "Switzerland",
+      "movement": "down"
     },
     {
       "place": 166,
+      "player": "Vendula Valdmannova",
+      "points": "452",
+      "country": "Czech Republic",
+      "movement": "down"
+    },
+    {
+      "place": 167,
+      "player": "Alevtina Ibragimova",
+      "points": "452",
+      "country": "World",
+      "movement": "down"
+    },
+    {
+      "place": 168,
+      "player": "Linda Fruhvirtova",
+      "points": "449",
+      "country": "Czech Republic",
+      "movement": "down"
+    },
+    {
+      "place": 169,
+      "player": "Yue Yuan",
+      "points": "449",
+      "country": "China",
+      "movement": "down"
+    },
+    {
+      "place": 170,
+      "player": "Polina Iatcenko",
+      "points": "448",
+      "country": "World",
+      "movement": "down"
+    },
+    {
+      "place": 171,
+      "player": "Emiliana Arango",
+      "points": "441",
+      "country": "Colombia",
+      "movement": "down"
+    },
+    {
+      "place": 172,
       "player": "Sara Sorribes Tormo",
-      "points": "454",
+      "points": "440",
       "country": "Spain",
       "movement": "up"
     },
     {
-      "place": 167,
-      "player": "Anastasiia Sobolieva",
-      "points": "454",
-      "country": "Ukraine",
-      "movement": "up"
-    },
-    {
-      "place": 168,
-      "player": "Susan Bandecchi",
-      "points": "453",
-      "country": "Switzerland",
-      "movement": "up"
-    },
-    {
-      "place": 169,
-      "player": "Vendula Valdmannova",
-      "points": "452",
-      "country": "Czech Republic",
-      "movement": "up"
-    },
-    {
-      "place": 170,
-      "player": "Alevtina Ibragimova",
-      "points": "452",
-      "country": "World",
-      "movement": "up"
-    },
-    {
-      "place": 171,
-      "player": "Linda Fruhvirtova",
-      "points": "449",
-      "country": "Czech Republic",
-      "movement": "up"
-    },
-    {
-      "place": 172,
-      "player": "Yue Yuan",
-      "points": "449",
-      "country": "China",
-      "movement": "up"
-    },
-    {
       "place": 173,
-      "player": "Polina Iatcenko",
-      "points": "448",
-      "country": "World",
-      "movement": "up"
-    },
-    {
-      "place": 174,
-      "player": "Emiliana Arango",
-      "points": "441",
-      "country": "Colombia",
-      "movement": "up"
-    },
-    {
-      "place": 175,
       "player": "Caroline Dolehide",
       "points": "440",
       "country": "USA",
-      "movement": "up"
-    },
-    {
-      "place": 176,
-      "player": "Darja Semenistaja",
-      "points": "439",
-      "country": "Latvia",
-      "movement": "up"
-    },
-    {
-      "place": 177,
-      "player": "Eva Lys",
-      "points": "438",
-      "country": "Germany",
-      "movement": "up"
-    },
-    {
-      "place": 178,
-      "player": "Darya Astakhova",
-      "points": "436",
-      "country": "World",
-      "movement": "up"
-    },
-    {
-      "place": 179,
-      "player": "Polona Hercog",
-      "points": "436",
-      "country": "Slovenia",
       "movement": "down"
     },
     {
-      "place": 180,
-      "player": "Madison Brengle",
-      "points": "430",
-      "country": "USA",
-      "movement": "up"
+      "place": 174,
+      "player": "Darja Semenistaja",
+      "points": "439",
+      "country": "Latvia",
+      "movement": "down"
     },
     {
-      "place": 181,
+      "place": 175,
+      "player": "Eva Lys",
+      "points": "438",
+      "country": "Germany",
+      "movement": "down"
+    },
+    {
+      "place": 176,
       "player": "Sofia Costoulas",
-      "points": "429",
+      "points": "436",
       "country": "Belgium",
       "movement": "down"
     },
     {
-      "place": 182,
+      "place": 177,
+      "player": "Storm Hunter",
+      "points": "434",
+      "country": "Australia",
+      "movement": "up"
+    },
+    {
+      "place": 178,
+      "player": "Madison Brengle",
+      "points": "430",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 179,
+      "player": "Darya Astakhova",
+      "points": "426",
+      "country": "World",
+      "movement": "up"
+    },
+    {
+      "place": 180,
       "player": "Jasmin Ortenzi",
       "points": "425",
       "country": "Argentina",
       "movement": "down"
     },
     {
+      "place": 181,
+      "player": "Nadia Podoroska",
+      "points": "424",
+      "country": "Argentina",
+      "movement": "down"
+    },
+    {
+      "place": 182,
+      "player": "Suzan Lamens",
+      "points": "424",
+      "country": "Netherlands",
+      "movement": "down"
+    },
+    {
       "place": 183,
+      "player": "Mia Ristic",
+      "points": "423",
+      "country": "Serbia",
+      "movement": "down"
+    },
+    {
+      "place": 184,
       "player": "Reese Brantmeier",
       "points": "423",
       "country": "USA",
       "movement": "up"
     },
     {
-      "place": 184,
-      "player": "Barbora Palicova",
-      "points": "423",
-      "country": "Czech Republic",
-      "movement": "up"
-    },
-    {
       "place": 185,
-      "player": "Elena Pridankina",
-      "points": "414",
-      "country": "World",
+      "player": "Polona Hercog",
+      "points": "418",
+      "country": "Slovenia",
       "movement": "up"
     },
     {
       "place": 186,
-      "player": "Mia Ristic",
-      "points": "413",
-      "country": "Serbia",
+      "player": "Elena Pridankina",
+      "points": "414",
+      "country": "World",
       "movement": "up"
     },
     {
@@ -1320,156 +1320,156 @@
     },
     {
       "place": 189,
-      "player": "Sofia Kenin",
-      "points": "410",
-      "country": "USA",
+      "player": "Irene Burillo Escorihuela",
+      "points": "411",
+      "country": "Spain",
       "movement": "down"
     },
     {
       "place": 190,
-      "player": "Nadia Podoroska",
-      "points": "409",
-      "country": "Argentina",
-      "movement": "down"
-    },
-    {
-      "place": 191,
-      "player": "Suzan Lamens",
-      "points": "409",
-      "country": "Netherlands",
-      "movement": "down"
-    },
-    {
-      "place": 192,
-      "player": "Lucie Havlickova",
-      "points": "409",
-      "country": "Czech Republic",
+      "player": "Sofia Kenin",
+      "points": "410",
+      "country": "USA",
       "movement": "up"
     },
     {
-      "place": 193,
-      "player": "Kayla Cross",
-      "points": "406",
-      "country": "Canada",
-      "movement": "down"
-    },
-    {
-      "place": 194,
+      "place": 191,
       "player": "Elizabeth Mandlik",
       "points": "403",
       "country": "USA",
       "movement": "down"
     },
     {
-      "place": 195,
+      "place": 192,
       "player": "Laura Siegemund",
       "points": "402",
       "country": "Germany",
+      "movement": "down"
+    },
+    {
+      "place": 193,
+      "player": "Ane Mintegi Del Olmo",
+      "points": "401",
+      "country": "Spain",
+      "movement": "down"
+    },
+    {
+      "place": 194,
+      "player": "Yeonwoo Ku",
+      "points": "400",
+      "country": "South Korea",
       "movement": "up"
     },
     {
-      "place": 196,
+      "place": 195,
       "player": "Francesca Curmi",
       "points": "399",
       "country": "Malta",
+      "movement": "down"
+    },
+    {
+      "place": 196,
+      "player": "Barbora Palicova",
+      "points": "395",
+      "country": "Czech Republic",
       "movement": "up"
     },
     {
       "place": 197,
-      "player": "Mona Barthel",
-      "points": "398",
-      "country": "Germany",
-      "movement": "up"
+      "player": "Sofya Lansere",
+      "points": "394",
+      "country": "World",
+      "movement": "down"
     },
     {
       "place": 198,
       "player": "Eva Vedder",
-      "points": "395",
+      "points": "391",
       "country": "Netherlands",
-      "movement": "up"
+      "movement": "same"
     },
     {
       "place": 199,
-      "player": "Sofya Lansere",
-      "points": "394",
-      "country": "World",
-      "movement": "up"
-    },
-    {
-      "place": 200,
-      "player": "Nao Hibino",
-      "points": "393",
-      "country": "Japan",
-      "movement": "up"
-    },
-    {
-      "place": 201,
       "player": "Aliona Falei",
       "points": "389",
       "country": "World",
       "movement": "down"
     },
     {
-      "place": 202,
-      "player": "Rositsa Dencheva",
-      "points": "387",
-      "country": "Bulgaria",
-      "movement": "same"
-    },
-    {
-      "place": 203,
-      "player": "Alicia Dudeney",
-      "points": "385",
-      "country": "United Kingdom",
+      "place": 200,
+      "player": "Mona Barthel",
+      "points": "388",
+      "country": "Germany",
       "movement": "up"
     },
     {
-      "place": 204,
-      "player": "Irene Burillo Escorihuela",
+      "place": 201,
+      "player": "Rositsa Dencheva",
+      "points": "387",
+      "country": "Bulgaria",
+      "movement": "down"
+    },
+    {
+      "place": 202,
+      "player": "Alicia Dudeney",
       "points": "385",
-      "country": "Spain",
+      "country": "United Kingdom",
+      "movement": "down"
+    },
+    {
+      "place": 203,
+      "player": "Julieta Pareja",
+      "points": "384",
+      "country": "USA",
+      "movement": "down"
+    },
+    {
+      "place": 204,
+      "player": "Julia Avdeeva",
+      "points": "381",
+      "country": "World",
       "movement": "down"
     },
     {
       "place": 205,
-      "player": "Samira De Stefano",
-      "points": "385",
-      "country": "Italy",
-      "movement": "up"
+      "player": "Yexin Ma",
+      "points": "380",
+      "country": "China",
+      "movement": "down"
     },
     {
       "place": 206,
-      "player": "Julieta Pareja",
-      "points": "384",
-      "country": "USA",
+      "player": "Kayla Cross",
+      "points": "375",
+      "country": "Canada",
       "movement": "up"
     },
     {
       "place": 207,
-      "player": "Julia Avdeeva",
-      "points": "381",
-      "country": "World",
-      "movement": "up"
+      "player": "Zhuoxuan Bai",
+      "points": "374",
+      "country": "China",
+      "movement": "down"
     },
     {
       "place": 208,
-      "player": "Yexin Ma",
-      "points": "380",
-      "country": "China",
+      "player": "Nao Hibino",
+      "points": "374",
+      "country": "Japan",
       "movement": "up"
     },
     {
       "place": 209,
-      "player": "Carole Monnet",
-      "points": "375",
-      "country": "France",
-      "movement": "down"
+      "player": "Samira De Stefano",
+      "points": "374",
+      "country": "Italy",
+      "movement": "up"
     },
     {
       "place": 210,
-      "player": "Zhuoxuan Bai",
-      "points": "374",
-      "country": "China",
+      "player": "Greet Minnen",
+      "points": "371",
+      "country": "Belgium",
       "movement": "down"
     },
     {
@@ -1481,10 +1481,10 @@
     },
     {
       "place": 212,
-      "player": "Ane Mintegi Del Olmo",
-      "points": "369",
-      "country": "Spain",
-      "movement": "up"
+      "player": "Hayu Kinoshita",
+      "points": "366",
+      "country": "Japan",
+      "movement": "down"
     },
     {
       "place": 213,
@@ -1495,107 +1495,107 @@
     },
     {
       "place": 214,
-      "player": "Kyoka Okamura",
-      "points": "362",
-      "country": "Japan",
-      "movement": "down"
+      "player": "Carole Monnet",
+      "points": "363",
+      "country": "France",
+      "movement": "up"
     },
     {
       "place": 215,
+      "player": "Kyoka Okamura",
+      "points": "362",
+      "country": "Japan",
+      "movement": "up"
+    },
+    {
+      "place": 216,
       "player": "Hanyu Guo",
       "points": "361",
       "country": "China",
       "movement": "up"
     },
     {
-      "place": 216,
+      "place": 217,
       "player": "Harmony Tan",
       "points": "361",
       "country": "France",
       "movement": "up"
     },
     {
-      "place": 217,
+      "place": 218,
       "player": "Varvara Lepchenko",
       "points": "361",
       "country": "USA",
       "movement": "up"
     },
     {
-      "place": 218,
+      "place": 219,
       "player": "Victoria Jimenez Kasintseva",
       "points": "360",
       "country": "Andorra",
       "movement": "up"
     },
     {
-      "place": 219,
-      "player": "Hayu Kinoshita",
-      "points": "359",
-      "country": "Japan",
+      "place": 220,
+      "player": "Lucie Havlickova",
+      "points": "358",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
+      "place": 221,
+      "player": "Angela Fita Boluda",
+      "points": "357",
+      "country": "Spain",
       "movement": "down"
     },
     {
-      "place": 220,
+      "place": 222,
       "player": "Celine Naef",
       "points": "354",
       "country": "Switzerland",
       "movement": "up"
     },
     {
-      "place": 221,
+      "place": 223,
       "player": "Nuria Brancaccio",
       "points": "352",
       "country": "Italy",
       "movement": "up"
     },
     {
-      "place": 222,
-      "player": "Angela Fita Boluda",
-      "points": "350",
-      "country": "Spain",
-      "movement": "up"
-    },
-    {
-      "place": 223,
+      "place": 224,
       "player": "Katherine Sebov",
       "points": "348",
       "country": "Canada",
       "movement": "up"
     },
     {
-      "place": 224,
+      "place": 225,
       "player": "Anastasia Gasanova",
       "points": "347",
       "country": "World",
       "movement": "up"
     },
     {
-      "place": 225,
-      "player": "Alicia Herrero Linana",
-      "points": "345",
-      "country": "Spain",
-      "movement": "up"
-    },
-    {
       "place": 226,
-      "player": "Greet Minnen",
+      "player": "Erika Andreeva",
       "points": "343",
-      "country": "Belgium",
+      "country": "World",
       "movement": "down"
     },
     {
       "place": 227,
-      "player": "Erika Andreeva",
-      "points": "343",
-      "country": "World",
-      "movement": "up"
-    },
-    {
-      "place": 228,
       "player": "Kajsa Rinaldo Persson",
       "points": "343",
       "country": "Sweden",
+      "movement": "down"
+    },
+    {
+      "place": 228,
+      "player": "Alicia Herrero Linana",
+      "points": "343",
+      "country": "Spain",
       "movement": "up"
     },
     {
@@ -1607,80 +1607,80 @@
     },
     {
       "place": 230,
-      "player": "Despina Papamichail",
-      "points": "341",
-      "country": "Greece",
+      "player": "Iryna Shymanovich",
+      "points": "340",
+      "country": "World",
       "movement": "down"
     },
     {
       "place": 231,
-      "player": "Iryna Shymanovich",
-      "points": "340",
-      "country": "World",
-      "movement": "up"
-    },
-    {
-      "place": 232,
       "player": "Xinyu Gao",
       "points": "340",
       "country": "China",
-      "movement": "up"
-    },
-    {
-      "place": 233,
-      "player": "Lourdes Carle Maria",
-      "points": "339",
-      "country": "Argentina",
       "movement": "down"
     },
     {
-      "place": 234,
+      "place": 232,
       "player": "Whitney Osuigwe",
       "points": "338",
       "country": "USA",
       "movement": "down"
     },
     {
-      "place": 235,
+      "place": 233,
       "player": "Varvara Gracheva",
       "points": "337",
       "country": "France",
+      "movement": "down"
+    },
+    {
+      "place": 234,
+      "player": "Despina Papamichail",
+      "points": "334",
+      "country": "Greece",
       "movement": "up"
     },
     {
-      "place": 236,
+      "place": 235,
       "player": "Viktoria Hruncakova",
       "points": "333",
       "country": "Slovakia",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 237,
+      "place": 236,
       "player": "Ella Seidel",
       "points": "330",
       "country": "Germany",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 238,
+      "place": 237,
       "player": "Berfu Cengiz",
       "points": "329",
       "country": "Turkey",
       "movement": "down"
     },
     {
-      "place": 239,
+      "place": 238,
       "player": "Yuki Naito",
       "points": "328",
       "country": "Japan",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 240,
+      "place": 239,
       "player": "Hannah Klugman",
       "points": "325",
       "country": "United Kingdom",
-      "movement": "up"
+      "movement": "down"
+    },
+    {
+      "place": 240,
+      "player": "Matilde Jorge",
+      "points": "324",
+      "country": "Portugal",
+      "movement": "down"
     },
     {
       "place": 241,
@@ -1719,73 +1719,73 @@
     },
     {
       "place": 246,
+      "player": "Lourdes Carle Maria",
+      "points": "316",
+      "country": "Argentina",
+      "movement": "up"
+    },
+    {
+      "place": 247,
       "player": "Francisca Jorge",
       "points": "316",
       "country": "Portugal",
       "movement": "up"
     },
     {
-      "place": 247,
+      "place": 248,
+      "player": "Alisa Oktiabreva",
+      "points": "315",
+      "country": "Czech Republic",
+      "movement": "down"
+    },
+    {
+      "place": 249,
       "player": "Yasmine Kabbaj",
       "points": "313",
       "country": "Morocco",
       "movement": "up"
     },
     {
-      "place": 248,
+      "place": 250,
       "player": "Wilda Hennemann Caijsa",
       "points": "313",
       "country": "Sweden",
       "movement": "up"
     },
     {
-      "place": 249,
+      "place": 251,
       "player": "Katarina Zavatska",
       "points": "309",
       "country": "Ukraine",
       "movement": "up"
     },
     {
-      "place": 250,
-      "player": "Matilde Jorge",
-      "points": "305",
-      "country": "Portugal",
-      "movement": "up"
-    },
-    {
-      "place": 251,
+      "place": 252,
       "player": "Anna-Lena Friedsam",
       "points": "302",
       "country": "Germany",
       "movement": "up"
     },
     {
-      "place": 252,
+      "place": 253,
       "player": "Sara Saito",
       "points": "300",
       "country": "Japan",
       "movement": "up"
     },
     {
-      "place": 253,
+      "place": 254,
       "player": "Anouk Koevermans",
       "points": "299",
       "country": "Netherlands",
       "movement": "up"
     },
     {
-      "place": 254,
+      "place": 255,
       "player": "Federica Urgesi",
       "points": "299",
       "country": "Italy",
       "movement": "up"
-    },
-    {
-      "place": 255,
-      "player": "Laura Pigossi",
-      "points": "298",
-      "country": "Brazil",
-      "movement": "down"
     },
     {
       "place": 256,
@@ -1803,45 +1803,45 @@
     },
     {
       "place": 258,
-      "player": "Martha Matoula",
-      "points": "296",
-      "country": "Greece",
+      "player": "Jennifer Ruggeri",
+      "points": "295",
+      "country": "Italy",
       "movement": "down"
     },
     {
       "place": 259,
-      "player": "Jennifer Ruggeri",
-      "points": "292",
-      "country": "Italy",
-      "movement": "up"
-    },
-    {
-      "place": 260,
       "player": "Hiromi Abe",
       "points": "291",
       "country": "Japan",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 261,
+      "place": 260,
       "player": "Linda Klimovicova",
       "points": "289",
       "country": "Poland",
-      "movement": "up"
+      "movement": "down"
     },
     {
-      "place": 262,
+      "place": 261,
       "player": "Ipek Oz",
       "points": "289",
       "country": "Turkey",
       "movement": "down"
     },
     {
-      "place": 263,
+      "place": 262,
       "player": "Lois Boisson",
       "points": "286",
       "country": "France",
-      "movement": "up"
+      "movement": "down"
+    },
+    {
+      "place": 263,
+      "player": "Arantxa Rus",
+      "points": "286",
+      "country": "Netherlands",
+      "movement": "down"
     },
     {
       "place": 264,
@@ -1852,45 +1852,45 @@
     },
     {
       "place": 265,
+      "player": "Laura Pigossi",
+      "points": "284",
+      "country": "Brazil",
+      "movement": "up"
+    },
+    {
+      "place": 266,
       "player": "Ayana Akli",
       "points": "284",
       "country": "USA",
       "movement": "up"
     },
     {
-      "place": 266,
+      "place": 267,
       "player": "Lin Zhu",
       "points": "283",
       "country": "China",
       "movement": "up"
     },
     {
-      "place": 267,
+      "place": 268,
       "player": "Nastasja Schunk",
       "points": "282",
       "country": "Germany",
       "movement": "up"
     },
     {
-      "place": 268,
-      "player": "Alisa Oktiabreva",
-      "points": "280",
-      "country": "Czech Republic",
-      "movement": "down"
-    },
-    {
       "place": 269,
-      "player": "Lola Radivojevic",
-      "points": "271",
-      "country": "Serbia",
-      "movement": "down"
+      "player": "Martha Matoula",
+      "points": "278",
+      "country": "Greece",
+      "movement": "up"
     },
     {
       "place": 270,
-      "player": "Hanna Chang",
-      "points": "269",
-      "country": "USA",
-      "movement": "down"
+      "player": "Lola Radivojevic",
+      "points": "271",
+      "country": "Serbia",
+      "movement": "up"
     },
     {
       "place": 271,
@@ -1901,45 +1901,45 @@
     },
     {
       "place": 272,
-      "player": "Dayeon Back",
-      "points": "261",
-      "country": "South Korea",
-      "movement": "down"
-    },
-    {
-      "place": 273,
-      "player": "Julie Struplova",
-      "points": "257",
-      "country": "Czech Republic",
-      "movement": "up"
-    },
-    {
-      "place": 274,
-      "player": "Aurora Zantedeschi",
-      "points": "257",
+      "player": "Giorgia Pedone",
+      "points": "266",
       "country": "Italy",
       "movement": "down"
     },
     {
+      "place": 273,
+      "player": "Aurora Zantedeschi",
+      "points": "264",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 274,
+      "player": "Julie Struplova",
+      "points": "262",
+      "country": "Czech Republic",
+      "movement": "up"
+    },
+    {
       "place": 275,
-      "player": "Carolyn Ansari",
-      "points": "256",
+      "player": "Hanna Chang",
+      "points": "261",
       "country": "USA",
       "movement": "up"
     },
     {
       "place": 276,
-      "player": "Fangran Tian",
-      "points": "255",
-      "country": "China",
+      "player": "Ariana Geerlings Martinez",
+      "points": "257",
+      "country": "Spain",
       "movement": "down"
     },
     {
       "place": 277,
-      "player": "Arantxa Rus",
-      "points": "254",
-      "country": "Netherlands",
-      "movement": "down"
+      "player": "Carolyn Ansari",
+      "points": "256",
+      "country": "USA",
+      "movement": "up"
     },
     {
       "place": 278,
@@ -1950,23 +1950,23 @@
     },
     {
       "place": 279,
-      "player": "Gina Feistel",
+      "player": "Dayeon Back",
       "points": "253",
-      "country": "Poland",
+      "country": "South Korea",
       "movement": "up"
     },
     {
       "place": 280,
-      "player": "Mei Yamaguchi",
-      "points": "250",
-      "country": "Japan",
+      "player": "Gina Feistel",
+      "points": "252",
+      "country": "Poland",
       "movement": "up"
     },
     {
       "place": 281,
-      "player": "Carolina Alves",
+      "player": "Aoi Ito",
       "points": "250",
-      "country": "Brazil",
+      "country": "Japan",
       "movement": "down"
     },
     {
@@ -1978,128 +1978,128 @@
     },
     {
       "place": 283,
-      "player": "Yufei Ren",
-      "points": "247",
-      "country": "China",
-      "movement": "down"
-    },
-    {
-      "place": 284,
-      "player": "Jessika Ponchet",
-      "points": "245",
-      "country": "France",
-      "movement": "down"
-    },
-    {
-      "place": 285,
       "player": "Cadence Brace",
-      "points": "244",
+      "points": "247",
       "country": "Canada",
       "movement": "down"
     },
     {
-      "place": 286,
-      "player": "Zongyu Li",
-      "points": "242",
+      "place": 284,
+      "player": "Yufei Ren",
+      "points": "247",
       "country": "China",
-      "movement": "down"
+      "movement": "up"
     },
     {
-      "place": 287,
+      "place": 285,
       "player": "Daria Khomutsianskaya",
-      "points": "241",
+      "points": "244",
       "country": "World",
       "movement": "down"
     },
     {
-      "place": 288,
-      "player": "Elena Micic",
+      "place": 286,
+      "player": "Jessika Ponchet",
+      "points": "241",
+      "country": "France",
+      "movement": "up"
+    },
+    {
+      "place": 287,
+      "player": "Savannah Broadus",
       "points": "240",
-      "country": "Australia",
+      "country": "USA",
       "movement": "down"
     },
     {
-      "place": 289,
+      "place": 288,
       "player": "Lea Ma",
       "points": "240",
       "country": "USA",
       "movement": "down"
     },
     {
-      "place": 290,
+      "place": 289,
       "player": "Haruka Kaji",
       "points": "240",
       "country": "Japan",
       "movement": "down"
     },
     {
-      "place": 291,
+      "place": 290,
       "player": "Priscilla Hon",
       "points": "238",
       "country": "Australia",
       "movement": "down"
     },
     {
-      "place": 292,
-      "player": "Aoi Ito",
+      "place": 291,
+      "player": "Martina Trevisan",
       "points": "238",
-      "country": "Japan",
+      "country": "Italy",
+      "movement": "down"
+    },
+    {
+      "place": 292,
+      "player": "Alena Kovackova",
+      "points": "238",
+      "country": "Czech Republic",
       "movement": "down"
     },
     {
       "place": 293,
-      "player": "Mina Hodzic",
+      "player": "Mariam Bolkvadze",
       "points": "237",
-      "country": "Germany",
-      "movement": "up"
-    },
-    {
-      "place": 294,
-      "player": "Giorgia Pedone",
-      "points": "237",
-      "country": "Italy",
+      "country": "Georgia",
       "movement": "down"
     },
     {
+      "place": 294,
+      "player": "Fangran Tian",
+      "points": "237",
+      "country": "China",
+      "movement": "up"
+    },
+    {
       "place": 295,
-      "player": "Anastasia Kulikova",
+      "player": "Mika Stojsavljevic",
       "points": "236",
-      "country": "Finland",
+      "country": "United Kingdom",
       "movement": "down"
     },
     {
       "place": 296,
-      "player": "Ariana Geerlings Martinez",
+      "player": "Anastasia Kulikova",
       "points": "236",
-      "country": "Spain",
-      "movement": "down"
+      "country": "Finland",
+      "movement": "up"
     },
     {
       "place": 297,
-      "player": "Daria Egorova",
+      "player": "Carolina Alves",
       "points": "236",
-      "country": "World",
-      "movement": "down"
+      "country": "Brazil",
+      "movement": "up"
     },
     {
       "place": 298,
-      "player": "Martina Trevisan",
-      "points": "234",
-      "country": "Italy",
-      "movement": "down"
+      "player": "Daria Egorova",
+      "points": "236",
+      "country": "World",
+      "movement": "up"
     },
     {
       "place": 299,
-      "player": "Elena Malygina",
-      "points": "234",
-      "country": "Estonia",
-      "movement": "down"
+      "player": "Mei Yamaguchi",
+      "points": "235",
+      "country": "Japan",
+      "movement": "up"
     },
     {
       "place": 300,
-      "player": "Lizette Cabrera",
-      "points": "232",
-      "country": "Australia",
+      "player": "Elena Malygina",
+      "points": "234",
+      "country": "Estonia",
       "movement": "up"
     }
   ]
