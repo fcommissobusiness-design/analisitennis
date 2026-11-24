@@ -3,8 +3,19 @@ titolo: "Protected ranking nel tennis: cos'è e come funziona"
 descrizione: "Il protected ranking (classifica protetta) nel tennis ATP e WTA: chi può chiederlo, per quanto tempo vale, in quali tornei è utilizzabile e perché esiste."
 sommario: "Il paracadute della classifica per chi resta fermo a lungo per infortunio o maternità: cos'è, chi lo può ottenere, come si usa."
 ordine: 9
-aggiornato: "2026-11-15"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Cos'è il protected ranking nel tennis?"
+    a: "Il protected ranking, o classifica protetta, è il ranking congelato al momento in cui un giocatore si ferma a lungo per infortunio (o, lato WTA, per maternità). Al rientro può usarlo al posto della classifica reale per iscriversi ai tornei, per un numero limitato di volte e per un periodo definito. Serve a dare accesso ai tabelloni importanti mentre il giocatore ricostruisce il ranking vero sul campo."
+  - q: "Chi può richiedere il protected ranking?"
+    a: "Lato ATP può richiederlo un giocatore che ha saltato almeno sei mesi di circuito per infortunio. Il valore della classifica congelata è la media del ranking nei tre mesi precedenti lo stop, così da non fotografare un picco temporaneo. Lato WTA il meccanismo è analogo, con uno schema dedicato per chi si ferma per maternità."
+  - q: "Per quanto tempo e per quanti tornei vale il protected ranking?"
+    a: "In ambito ATP il protected ranking si può usare per un periodo pari alla metà del tempo di stop, entro un massimo di 24 mesi di assenza che danno diritto al meccanismo, e per un massimo di 12 tornei dal rientro, più i quattro Slam. Oltre quel limite si torna a usare la classifica reale."
+  - q: "Il protected ranking dà vantaggi di testa di serie?"
+    a: "No. Il protected ranking serve solo per iscriversi ai tabelloni, ma il giocatore viene inserito come testa di serie in base al suo ranking reale, non al protected. Non dà punti d'ufficio e non vale per la ATP Race, che misura la stagione in corso: la classifica vera si ricostruisce solo giocando e vincendo partite."
+  - q: "Esiste una regola specifica per la maternità?"
+    a: "Sì. La WTA ha introdotto uno schema dedicato (spesso chiamato Special Ranking o Family Leave rule) che consente alle giocatrici fermatesi per maternità di rientrare entro un periodo esteso con la classifica pre-maternità, utilizzabile su un numero definito di tornei. Le regole sono state ammorbidite nel tempo proprio per facilitare il ritorno delle madri senza penalizzarle."
 ---
 
 Nel tennis professionistico la classifica si costruisce giocando. Se non giochi, scendi, anche se sei un top 10. Il **protected ranking** (in italiano talvolta "classifica protetta") è il meccanismo che evita a un giocatore costretto a stare fermo a lungo di dover ricominciare da zero. È uno strumento che esiste in forme simili sia in ATP sia in WTA, ma con regole diverse. Ecco come funziona.

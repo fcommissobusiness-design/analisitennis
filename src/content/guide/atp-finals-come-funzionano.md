@@ -3,8 +3,19 @@ titolo: "ATP Finals: cosa sono e come funzionano le Finals di Torino"
 descrizione: "Guida alle Nitto ATP Finals: chi partecipa, come si qualificano i migliori 8 della stagione, il formato a round-robin, la storia del torneo e il montepremi."
 sommario: "Il torneo che chiude la stagione ATP, riservato ai migliori 8 giocatori dell'anno: come si entra, come si vince, perché è diverso da tutti gli altri."
 ordine: 8
-aggiornato: "2026-11-15"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Cosa sono le ATP Finals?"
+    a: "Le Nitto ATP Finals sono il torneo che chiude la stagione del tennis maschile e riunisce soltanto i migliori 8 giocatori dell'anno. Non è uno Slam, ma per prestigio e montepremi è tra gli eventi più importanti del calendario. Dal 2021 si disputano a Torino, all'Inalpi Arena, dove resteranno almeno fino al 2030."
+  - q: "Come ci si qualifica alle ATP Finals?"
+    a: "Non si entra con il ranking tradizionale ma con la ATP Race, la classifica che parte dal 1 gennaio e somma solo i punti dell'anno solare. I primi 8 della Race a fine stagione si qualificano per Torino. Se un qualificato dà forfait, subentra il nono della Race come riserva. Lo stesso criterio vale per il doppio, con la Race di doppio."
+  - q: "Come funziona il formato delle ATP Finals?"
+    a: "Il formato è unico: gli 8 qualificati sono divisi in due gironi da quattro e ciascuno affronta gli altri tre del proprio gruppo (round-robin). I primi due di ogni girone accedono alle semifinali, incrociate (il primo di un gruppo contro il secondo dell'altro), e le vincenti giocano la finale. Un giocatore può quindi perdere un match e restare in corsa, cosa impossibile a eliminazione diretta."
+  - q: "Dove si giocano le ATP Finals?"
+    a: "Dal 2021 le ATP Finals si giocano a Torino, nel palazzetto Inalpi Arena (ex Pala Alpitour), dove è previsto restino almeno fino al 2030. In precedenza il torneo, nato nel 1970 come Masters, ha cambiato più volte sede e formato, passando tra le altre per Londra."
+  - q: "Qual è l'equivalente femminile delle ATP Finals?"
+    a: "L'equivalente femminile sono le WTA Finals, con lo stesso meccanismo: 8 qualificate dalla WTA Race, due gironi, semifinali incrociate e finale secca. La sede delle WTA Finals cambia più spesso rispetto a quella maschile."
 ---
 
 Le **Nitto ATP Finals** sono il torneo che chiude la stagione del tennis maschile. Non è uno Slam, ma per molti aspetti è il secondo evento più ricco e prestigioso del calendario: ci giocano solo i migliori 8 della stagione, in un formato unico che si vede soltanto qui. Dal 2021 si disputano a Torino, dove resteranno fino almeno al 2030, nel palazzetto Inalpi Arena (ex Pala Alpitour).

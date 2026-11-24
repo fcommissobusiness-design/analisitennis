@@ -3,8 +3,19 @@ titolo: "Wild card nel tennis: cosa sono e chi le assegna"
 descrizione: "Guida alle wild card nel tennis: cosa sono, chi le assegna nei tornei ATP, WTA e nei Grandi Slam, perché si danno, esempi famosi e come funzionano in doppio."
 sommario: "Il biglietto d'invito per il tabellone principale di un torneo: cosa sono le wild card, chi le riceve, perché e con quali effetti sulla carriera."
 ordine: 10
-aggiornato: "2026-11-15"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Cos'è una wild card nel tennis?"
+    a: "La wild card è un invito diretto al tabellone principale di un torneo, assegnato dall'organizzazione a un giocatore che non avrebbe accesso in base alla classifica. È una delle tre vie d'ingresso in un torneo, insieme all'ammissione automatica per ranking e alle qualificazioni."
+  - q: "Chi assegna le wild card?"
+    a: "La wild card è una decisione discrezionale dell'organizzatore del torneo, che può essere la federazione nazionale, lo sponsor o il circuito. Nei Grandi Slam esiste anche un sistema di scambio reciproco tra le federazioni dei quattro Paesi ospitanti: per esempio Italia e Australia possono scambiarsi una wild card nei rispettivi Slam."
+  - q: "Quante wild card ha un torneo?"
+    a: "Dipende dalla categoria. Un Masters 1000 o WTA 1000 ne ha in genere 3-4 nel tabellone principale di singolare, un 500 o un 250 di solito 3, mentre i Grandi Slam ne hanno 8. Esistono wild card anche per il tabellone di qualificazione e, con numeri propri, per il doppio e per i Challenger."
+  - q: "Perché si danno le wild card?"
+    a: "I motivi ricorrenti sono: dare spazio a un giovane di casa che per classifica non entrerebbe, aiutare un ex top rientrante da un infortunio (spesso in abbinamento al protected ranking), omaggiare un ex campione che gioca nel suo Paese, o invitare un nome che richiama pubblico. A volte la scelta è sportiva, altre puramente commerciale."
+  - q: "La wild card dà vantaggi di testa di serie?"
+    a: "No. Chi riceve una wild card entra nel tabellone come un giocatore qualunque, senza vantaggi di seeding, a meno che il suo ranking reale non lo includa già tra le teste di serie. I punti e il montepremi, in caso di vittoria, si guadagnano normalmente, senza trattamenti speciali."
 ---
 
 Nel tennis professionistico, quasi tutti i giocatori entrano in un torneo con un criterio automatico: la classifica. Poi ci sono i qualificati, che si giocano gli ultimi posti del tabellone principale tramite un tabellone di qualificazione a parte. E infine, in quasi ogni torneo, ci sono i giocatori con **wild card**: invitati diretti, scelti dall'organizzazione, che entrano nel tabellone principale pur non avendone diritto per ranking.

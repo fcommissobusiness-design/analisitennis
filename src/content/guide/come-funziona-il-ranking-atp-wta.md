@@ -3,8 +3,19 @@ titolo: "Come funziona il ranking ATP e WTA"
 descrizione: "Come si costruisce la classifica del tennis: punti per torneo, periodo mobile di 52 settimane, punti da difendere e come si diventa numero uno."
 sommario: "Perché un giocatore sale o scende in classifica anche senza giocare: il meccanismo dei punti, delle 52 settimane e dei punti da difendere."
 ordine: 5
-aggiornato: "2026-10-30"
+aggiornato: "2026-11-24"
 pubblicato: true
+faq:
+  - q: "Come funziona il ranking ATP e WTA?"
+    a: "Il ranking non considera tutta la carriera ma solo gli ultimi dodici mesi: è un periodo mobile di 52 settimane. La posizione di un giocatore nasce dalla somma dei suoi migliori risultati in questo arco di tempo. Si aggiorna ogni lunedì e il circuito maschile usa il ranking ATP, quello femminile il ranking WTA, con lo stesso principio."
+  - q: "Cosa significa 'punti da difendere'?"
+    a: "Ogni risultato vale per 52 settimane, poi scade. Quando un torneo torna in calendario, al giocatore vengono tolti i punti che aveva conquistato in quella stessa edizione l'anno prima: sono i punti da difendere. Se un anno fa aveva vinto il torneo e quest'anno esce al primo turno, perde quei punti e scivola in classifica."
+  - q: "Quanti punti dà vincere uno Slam?"
+    a: "Vincere una delle quattro prove del Grande Slam vale 2000 punti, il bottino più ricco del tennis. Subito sotto ci sono i Masters 1000 e i WTA 1000 con 1000 punti al vincitore, poi i tornei da 500 e da 250 punti, e infine i Challenger, i WTA 125 e i tornei ITF del circuito d'ingresso."
+  - q: "Perché un giocatore può scendere in classifica senza perdere partite importanti?"
+    a: "Perché gli può semplicemente scadere un buon risultato dell'anno precedente. Se i punti di un torneo vinto dodici mesi prima escono dal conteggio e non vengono rimpiazzati, la classifica scende anche senza una sconfitta recente. Allo stesso modo un giocatore può salire restando fermo, se i rivali davanti a lui perdono punti."
+  - q: "Come si diventa numero uno del mondo nel tennis?"
+    a: "Il primo posto va a chi, in quel preciso lunedì, ha la somma di punti più alta nel periodo mobile di 52 settimane. Non è un titolo definitivo: si può perdere la settimana dopo se un rivale conquista punti o se scadono i propri. Arrivare in cima è difficile, ma restarci lo è ancora di più, perché ogni settimana bisogna difendere ciò che si era vinto un anno prima."
 ---
 
 La classifica del tennis non è una graduatoria stabilita a inizio anno: è un conteggio che si aggiorna ogni lunedì. Capire come funziona aiuta a leggere ogni partita, perché spesso dietro un match c'è anche una posta in palio di punti. Il circuito maschile usa il ranking ATP, quello femminile il ranking WTA: il principio di fondo è lo stesso.
