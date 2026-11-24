@@ -23,10 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Lim"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-24-v-pohle-vs-j-lim-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Sydney International Tennis ATP (33040178858).jpg"
 generato_il: "2026-11-24T07:37+01:00"
+cover_image: "/covers/2026-11-24-v-pohle-vs-j-lim-w50-ortisei-pronostico-analisi.jpg"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
 Alle 10:40 di martedì il W50 Ortisei apre la giornata con i sedicesimi di finale tra V. Pohle e J. Lim, **primo turno del tabellone principale**. Pohle vi arriva dalle qualificazioni, Lim entra in scena adesso. L'orario non è un dettaglio neutro a questo livello: riscaldamento breve, nessuna partita da osservare prima di entrare in campo, poco margine per aggiustare la mira strada facendo. Chi ha bisogno di mezzo set per trovare le misure, in uno slot così, rischia di accorgersene tardi.

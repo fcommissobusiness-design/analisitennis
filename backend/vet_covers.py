@@ -28,6 +28,7 @@ from attach_covers import (parse_frontmatter, NAME_MAP, pick_image, S,
                            download, strip_html, update_frontmatter, COVERS_DIR,
                            used_covers_for_player, entity_photo)
 from audit_covers import regenerate_cover, ARTICOLI, ROOT
+from pool_cover import gender_from_categoria
 
 # Campi da tennis puliti e inequivocabili, usati come ultima spiaggia quando
 # ne' foto giocatore ne' venue passano il vet (es. match tra due sconosciuti
@@ -112,6 +113,14 @@ PROMPT = (
     "- Una strada, un paesaggio urbano, un edificio generico o il suo esterno "
     "notturno, una cerimonia/premiazione, un altro sport, un gruppo di persone "
     "in giacca, un volto buio da conferenza, un logo o un cartellone.\n"
+    "- Un PANORAMA DISTANTE di PIU' campi visti da lontano o dall'alto, oppure "
+    "campi AMATORIALI o da circolo con AUTO PARCHEGGIATE, parcheggi, case o "
+    "edifici che occupano buona parte dell'inquadratura: NO. NOTA BENE: un "
+    "SINGOLO campo o un'arena da tennis PULITI e riconoscibili vanno BENE anche "
+    "se VUOTI e senza gioco in corso; cio' che si rifiuta e' solo l'impianto "
+    "amatoriale, il parcheggio in evidenza o il panorama lontano di molti campi.\n"
+    "- Un match di DOPPIO (QUATTRO giocatori in campo contemporaneamente) come "
+    "soggetto chiaro: NO, perche' gli articoli trattano SINGOLARI.\n"
     "- Qualunque cosa non chiaramente legata al tennis.\n\n"
     "Nel dubbio tra azione e primo piano del volto, rispondi NO. Nel dubbio tra "
     "una vera foto di gioco e un tabellone/una folla/delle tribune, rispondi NO.\n"
@@ -120,12 +129,43 @@ PROMPT = (
 )
 
 
-def vet_image(path: Path, timeout=120) -> tuple[bool, str]:
+def _gender_clause(gender: str) -> str:
+    """Clausola di genere appesa al prompt quando il genere del match e' noto.
+    Boccia il caso classico (foto di un uomo su un match femminile e viceversa,
+    es. un doppio maschile finito su un articolo WTA)."""
+    if gender == 'W':
+        return ("\n\nCONTESTO MATCH: l'articolo tratta un match FEMMINILE. La cover "
+                "deve ritrarre una GIOCATRICE (donna) in azione/mezza figura, "
+                "oppure un campo/arena da tennis. Se il soggetto in azione e' "
+                "CHIARAMENTE un GIOCATORE UOMO, rispondi NO.")
+    if gender == 'M':
+        return ("\n\nCONTESTO MATCH: l'articolo tratta un match MASCHILE. La cover "
+                "deve ritrarre un GIOCATORE (uomo) in azione/mezza figura, "
+                "oppure un campo/arena da tennis. Se il soggetto in azione e' "
+                "CHIARAMENTE una GIOCATRICE DONNA, rispondi NO.")
+    return ""
+
+
+def _gender_for(fm: dict) -> str:
+    """Genere atteso: prima dalla categoria (WTA/ATP/Challenger), poi dai tag
+    e dal torneo (gli ITF femminili hanno categoria 'ITF' ma tag 'femminile')."""
+    g = gender_from_categoria(fm.get('categoria', ''))
+    if g:
+        return g
+    blob = (' '.join(fm.get('tag') or []) + ' ' + (fm.get('torneo') or '')).lower()
+    if 'femminile' in blob or 'wta' in blob:
+        return 'W'
+    if 'maschile' in blob or 'atp' in blob or 'challenger' in blob:
+        return 'M'
+    return ''
+
+
+def vet_image(path: Path, gender: str = '', timeout=120) -> tuple[bool, str]:
     """Ritorna (pertinente, motivo). In caso di errore CLI -> (True, 'skip')
     per non bloccare: non vogliamo perdere una cover buona per un glitch."""
     try:
         r = subprocess.run(
-            [CLAUDE_BIN, '-p', PROMPT.format(path=path)],
+            [CLAUDE_BIN, '-p', PROMPT.format(path=path) + _gender_clause(gender)],
             capture_output=True, text=True, timeout=timeout,
         )
         out = (r.stdout or '').strip()
@@ -166,7 +206,8 @@ def main():
         cover = ROOT / 'public' / cover_rel
         if not cover.exists():
             continue
-        ok, motivo = vet_image(cover)
+        gender = _gender_for(fm)
+        ok, motivo = vet_image(cover, gender)
         entry = {'slug': art.stem, 'ok': ok, 'motivo': motivo}
         if ok:
             print(f'  [SI] {art.stem[:50]}', flush=True)
@@ -186,7 +227,7 @@ def main():
 
         gen_ok, gen_msg = regenerate_cover(art)
         if gen_ok:
-            ok2, m2 = vet_image(cover)
+            ok2, m2 = vet_image(cover, gender)
             attempts.append(('rigenera', gen_msg[:40], ok2, m2))
             if ok2:
                 entry.update({'ok': True, 'risolta_con': 'rigenera'})
@@ -209,7 +250,7 @@ def main():
             if not pick:
                 continue
             t = _apply(stem, pick)
-            ok3, m3 = vet_image(cover)
+            ok3, m3 = vet_image(cover, gender)
             attempts.append(('giocatore:' + full, t, ok3, m3))
             if ok3:
                 entry.update({'ok': True, 'risolta_con': 'giocatore ' + full})
@@ -236,7 +277,7 @@ def main():
             if not ph or not ph.get('url'):
                 continue
             t = _apply(stem, ph)
-            okP, mP = vet_image(cover)
+            okP, mP = vet_image(cover, gender)
             attempts.append(('p18:' + full, t, okP, mP))
             if okP:
                 entry.update({'ok': True, 'risolta_con': 'P18 ' + full})
@@ -252,7 +293,7 @@ def main():
             try:
                 court = _clean_court_for(stem, off)
                 t = _apply(stem, _fetch_commons(court))
-                ok4, m4 = vet_image(cover)
+                ok4, m4 = vet_image(cover, gender)
                 attempts.append(('campo', t, ok4, m4))
                 entry['ok'] = ok4
                 if ok4:

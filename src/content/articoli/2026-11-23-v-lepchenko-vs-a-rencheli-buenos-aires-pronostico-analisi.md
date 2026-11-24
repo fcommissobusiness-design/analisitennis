@@ -25,7 +25,7 @@ probabilita_percent: 61
 cover_file: "File:Varvara Lepchenko (USA) (14888582500).jpg"
 generato_il: "2026-11-23T07:19+01:00"
 cover_image: "/covers/2026-11-23-v-lepchenko-vs-a-rencheli-buenos-aires-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 cover_focus: 15
 ---
 

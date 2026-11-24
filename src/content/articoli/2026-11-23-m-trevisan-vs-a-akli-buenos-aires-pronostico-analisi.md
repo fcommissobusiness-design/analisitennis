@@ -25,7 +25,7 @@ probabilita_percent: 61
 cover_file: "File:Martina Trevisan (2023 US Open) 10.jpg"
 generato_il: "2026-11-23T07:57+01:00"
 cover_image: "/covers/2026-11-23-m-trevisan-vs-a-akli-buenos-aires-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Trevisan WMQ18 (28) (29680365228) (cropped).jpg | si.robi | CC BY-SA 2.0"
 cover_focus: 10
 ---
 

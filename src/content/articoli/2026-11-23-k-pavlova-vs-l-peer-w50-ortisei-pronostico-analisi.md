@@ -25,7 +25,7 @@ probabilita_percent: 73
 cover_file: "File:Female Tennis Player About to Serve (6736686675).jpg"
 generato_il: "2026-11-23T07:52+01:00"
 cover_image: "/covers/2026-11-23-k-pavlova-vs-l-peer-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg | Johann Jaritz | CC BY-SA 4.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
 Il **W50 Ortisei** apre il suo tabellone con un incrocio che mette di fronte due giocatrici a punti molto diversi della propria stagione. Pavlova e Peer arrivano a questo primo turno con storie recenti distanti, e tocca al campo stabilire quanto la carta rispecchi davvero i valori in gioco. È un match di avvio del tabellone, in una fascia di tornei di fine stagione preziosa per chi insegue punti e continuità.

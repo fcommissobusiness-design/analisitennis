@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Kuzmanov"
 probabilita_percent: 73
-cover_image: "/covers/2026-11-24-d-azoidis-vs-d-kuzmanov-hersonissos-4-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Sydney International Tennis ATP (33040179658).jpg"
 generato_il: "2026-11-24T07:23+01:00"
+cover_image: "/covers/2026-11-24-d-azoidis-vs-d-kuzmanov-hersonissos-4-pronostico-analisi.jpg"
+cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
 ---
 
 Il programma di Hersonissos 4 si apre alle 10:30 italiane, e il primo incontro di giornata accosta due calendari recenti quasi opposti. D. Azoidis arriva da tre tornei giocati in tre settimane consecutive di novembre; D. Kuzmanov non ha una partita registrata dal 25 ottobre. Fra i due non esiste storia: l'archivio non riporta alcun confronto precedente, quindi nessuno dei due ha riferimenti su misura dell'altro.
