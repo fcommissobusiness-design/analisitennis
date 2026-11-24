@@ -94,7 +94,7 @@ def check_geo() -> list[tuple[str, str]]:
     else:
         out.append(('WARN', f'llms.txt {code}'))
 
-    code, body = _get(SITE + '/catalog.json')
+    code, body = _get(SITE + '/api/catalog.json')
     if code == 200:
         try:
             data = json.loads(body)

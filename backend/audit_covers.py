@@ -311,13 +311,20 @@ def main():
     args = sys.argv[1:]
     fix = '--fix' in args
     filter_prefix = None
+    only = None
     for a in args:
         if a.startswith('--date='):
             filter_prefix = a.split('=', 1)[1]
+        elif a.startswith('--only='):
+            only = a.split('=', 1)[1].lower()
 
     pattern = f'{filter_prefix}-*.md' if filter_prefix else '*.md'
     articoli = sorted(ARTICOLI.glob(pattern))
     articoli = [a for a in articoli if 'benvenuti' not in a.name]
+    # --only=<sottostringa slug>: mira un singolo articolo (usato dal gate
+    # immagine per-match in pronostici.sh, prima di pubblicare quel pronostico).
+    if only:
+        articoli = [a for a in articoli if only in a.stem.lower()]
 
     # Scan duplicati su TUTTI gli articoli (indipendentemente dal filtro date)
     dup_flags = _audit_duplicates(articoli)

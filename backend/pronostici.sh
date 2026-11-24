@@ -185,6 +185,39 @@ PY
         continue
     fi
 
+    # 4-bis. GATE IMMAGINE per-match (dimensione + pertinenza) PRIMA di pubblicare.
+    # Richiesto da Filippo (24/11): ogni cover va controllata PRIMA del push del
+    # suo pronostico, non solo nel batch finale (altrimenti una cover sbagliata
+    # va live e si corregge solo dopo). audit_covers (--only) normalizza la
+    # dimensione web e rigenera le cover problematiche; vet_covers (--only)
+    # controlla la pertinenza visiva (claude vision) e auto-corregge a cascata
+    # (rigenera -> foto giocatore -> foto Wikidata -> campo pulito). Se dopo le
+    # correzioni la cover resta NON pertinente, l'articolo NON viene pushato:
+    # resta locale, lo riprende il batch finale o la revisione manuale.
+    log "  [3-img] gate immagine cover (dimensione + pertinenza visiva)..."
+    cd "$BACKEND"
+    python3 "$BACKEND/audit_covers.py" --fix --only="$SLUG" 2>&1 | tee -a "$LOG" || true
+    python3 "$BACKEND/vet_covers.py" --only="$SLUG" 2>&1 | tee -a "$LOG" || true
+    IMG_VERDICT=$(python3 - "$BACKEND" "$SLUG" <<'PY'
+import json, os, sys
+bk, slug = sys.argv[1], sys.argv[2]
+try:
+    data = json.load(open(os.path.join(bk, 'cover_vet.json')))
+except Exception:
+    print('UNKNOWN'); sys.exit(0)
+for d in data.get('details', []):
+    if d.get('slug') == slug:
+        print('OK' if d.get('ok') else 'NO'); sys.exit(0)
+print('UNKNOWN')
+PY
+)
+    if [ "$IMG_VERDICT" = "NO" ]; then
+        log "  IMMAGINE NON PERTINENTE dopo auto-correzione: $P1 vs $P2 NON pushato (revisione manuale)"
+        SKIPPATI_ALTRO+=("$P1 vs $P2 [cover non pertinente]")
+        rm -f "$SINGLE"
+        continue
+    fi
+
     # 5. Commit + push singolo articolo (+ eventuali cover associate)
     cd "$REPO"
     git add "src/content/articoli/${MD_NAME}" 2>&1 | tee -a "$LOG" || true
