@@ -36,7 +36,7 @@ from attach_covers import (
     parse_frontmatter, update_frontmatter, _looks_tennis, _is_venue_photo,
     used_covers_for_player, cover_file_is_player, entity_photo,
 )
-from cover_image_utils import ensure_web_size, needs_resize
+from cover_image_utils import ensure_web_size, needs_resize, ensure_web_derivatives
 import hashlib
 from collections import defaultdict
 
@@ -342,10 +342,17 @@ def main():
         if not cover_rel:
             continue
         cf = ROOT / 'public' / cover_rel
-        if cf.exists() and needs_resize(cf):
-            res = ensure_web_size(cf)
-            if res.get('ok'):
-                print(f'  [RESIZE] {cf.name}: {res.get("before")} -> {res.get("after")}', flush=True)
+        if cf.exists():
+            if needs_resize(cf):
+                res = ensure_web_size(cf)  # ridimensiona + rigenera .webp + -card.webp
+                if res.get('ok'):
+                    print(f'  [RESIZE] {cf.name}: {res.get("before")} -> {res.get("after")}', flush=True)
+            else:
+                # JPEG gia' a misura: garantisci comunque i gemelli .webp/-card.webp.
+                # Senza il derivato, il <picture> del template mostra l'immagine
+                # ROTTA (quadrato grigio) invece di ripiegare sul JPEG.
+                if ensure_web_derivatives(cf):
+                    print(f'  [WEBP] derivati rigenerati per {cf.name}', flush=True)
 
     results = []
     problems = 0

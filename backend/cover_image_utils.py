@@ -138,6 +138,39 @@ def ensure_web_size(path: Path, max_long: int = MAX_LONG_SIDE,
     return info
 
 
+def ensure_web_derivatives(path: Path) -> bool:
+    """Garantisce che esistano i gemelli .webp e -card.webp accanto al JPEG,
+    SENZA ridimensionare il JPEG.
+
+    Serve per le cover gia' a misura web (sotto le soglie di needs_resize), che
+    altrimenti restano col solo .jpg: il template usa
+    <picture><source srcset="...-card.webp"> / <source srcset="....webp">, e se
+    il derivato manca il browser mostra l'immagine ROTTA (quadrato grigio)
+    invece di ripiegare sul <img> JPEG. E' il bug che lasciava grigie le card.
+
+    Idempotente: rigenera solo i derivati mancanti. Non solleva: su errore
+    stampa un warn e ritorna lo stato parziale."""
+    made = False
+    try:
+        webp = path.with_suffix('.webp')
+        card = card_path(path)
+        if webp.exists() and card.exists():
+            return False
+        with Image.open(path) as im:
+            im = ImageOps.exif_transpose(im)
+            if im.mode != 'RGB':
+                im = im.convert('RGB')
+            if not webp.exists():
+                im.save(webp, 'WEBP', quality=WEBP_QUALITY, method=6)
+                made = True
+            if not card.exists():
+                if ensure_card_variant(path, im.copy()):
+                    made = True
+    except Exception as e:
+        print(f'  [warn] derivati web falliti {path.name}: {e}')
+    return made
+
+
 def main():
     """Batch one-shot: ridimensiona TUTTE le cover in public/covers."""
     root = Path(__file__).resolve().parent.parent
