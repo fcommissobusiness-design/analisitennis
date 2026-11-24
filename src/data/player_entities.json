@@ -1362,6 +1362,13 @@
 "wikidata": "Q107207704",
 "wikipedia": "https://it.wikipedia.org/wiki/Giovanni_Mpetshi_Perricard"
 },
+"h-abouelsaad": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q135197743"
+],
+"wikidata": "Q135197743",
+"wikipedia": null
+},
 "h-bernet": {
 "image": "File:Henry Bernet, Swiss tennis player (cropped).jpg",
 "sameAs": [
@@ -1643,6 +1650,15 @@
 "wikidata": "Q117072118",
 "wikipedia": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Lucas_Reis_da_Silva"
 },
+"j-struplova": {
+"image": "File:Julie Štruplová (2026 US Open) 09 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q113627027",
+"https://it.wikipedia.org/wiki/Julie_%C5%A0truplov%C3%A1"
+],
+"wikidata": "Q113627027",
+"wikipedia": "https://it.wikipedia.org/wiki/Julie_%C5%A0truplov%C3%A1"
+},
 "j-teichmann": {
 "image": "File:Fed Cup 2018 (40825850135) (cropped).jpg",
 "sameAs": [
@@ -1877,6 +1893,15 @@
 ],
 "wikidata": "Q121826235",
 "wikipedia": "https://it.wikipedia.org/wiki/Kaitlin_Quevedo"
+},
+"k-rinaldo-persson": {
+"image": "File:Kajsa Rinaldo Persson BJK Cup 2023 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q23001502",
+"https://it.wikipedia.org/wiki/Kajsa_Rinaldo_Persson"
+],
+"wikidata": "Q23001502",
+"wikipedia": "https://it.wikipedia.org/wiki/Kajsa_Rinaldo_Persson"
 },
 "k-samrej": {
 "sameAs": [
