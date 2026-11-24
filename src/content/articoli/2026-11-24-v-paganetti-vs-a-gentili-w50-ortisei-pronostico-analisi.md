@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Paganetti"
 probabilita_percent: 55
-cover_image: "/covers/2026-11-24-v-paganetti-vs-a-gentili-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 cover_file: "File:Sydney International Tennis WTA (33040181438).jpg"
 generato_il: "2026-11-24T07:40+01:00"
+cover_image: "/covers/2026-11-24-v-paganetti-vs-a-gentili-w50-ortisei-pronostico-analisi.jpg"
+cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
 ---
 
 Nei sedicesimi del W50 Ortisei, con la palla in campo alle 10:40, V. Paganetti e A. Gentili si trovano davanti per la prima volta in singolare: **l'archivio non registra alcun confronto diretto tra le due in singolare**. È il primo turno di tabellone principale della settimana per entrambe, raggiunto per due strade diverse: Paganetti è in tabellone con una wild card, Gentili ci è arrivata dopo due turni di qualificazione vinti il 22 e il 23 novembre. Il calendario le ha affiancate più volte, a Santa Margherita di Pula in primavera e di nuovo a settembre, e una volta le ha anche fatte incrociare in campo, ma non in singolare: il 21 aprile 2026, negli ottavi del doppio del W35 Santa Margherita di Pula 4, Gentili in coppia con Tambelli ha battuto Paganetti in coppia con Serban per 3-6 6-4 10-7.

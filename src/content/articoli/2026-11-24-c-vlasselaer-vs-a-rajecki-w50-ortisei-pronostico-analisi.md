@@ -26,7 +26,7 @@ probabilita_percent: 57
 cover_file: "File:Marie Bouzková at the 2026 Nottingham Open (1).jpg"
 generato_il: "2026-11-24T07:39+01:00"
 cover_image: "/covers/2026-11-24-c-vlasselaer-vs-a-rajecki-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
 ---
 
 Alle 09:40 del 24 novembre il W50 Ortisei mette in programma, nei sedicesimi di finale, un incrocio che ha gia una piccola storia alle spalle: C. Vlasselaer e A. Rajecki si affrontano per la terza volta in meno di due anni, dopo essersi incontrate nel gennaio 2025 e nell'aprile 2026.

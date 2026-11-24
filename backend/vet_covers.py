@@ -147,12 +147,18 @@ def _gender_clause(gender: str) -> str:
 
 
 def _gender_for(fm: dict) -> str:
-    """Genere atteso: prima dalla categoria (WTA/ATP/Challenger), poi dai tag
-    e dal torneo (gli ITF femminili hanno categoria 'ITF' ma tag 'femminile')."""
+    """Genere atteso: prima dalla categoria (WTA/ATP/Challenger), poi dal CODICE
+    del torneo negli ITF (W50/W15 = femminile, M25/M15 = maschile), infine dai
+    tag se presenti. NB: parse_frontmatter non legge le liste YAML, quindi 'tag'
+    e' spesso stringa vuota: il codice torneo e' il segnale affidabile per gli ITF."""
     g = gender_from_categoria(fm.get('categoria', ''))
     if g:
         return g
-    blob = (' '.join(fm.get('tag') or []) + ' ' + (fm.get('torneo') or '')).lower()
+    torneo = (fm.get('torneo') or '')
+    m = re.match(r'\s*([WM])\s*\d', torneo, re.I)
+    if m:
+        return 'W' if m.group(1).upper() == 'W' else 'M'
+    blob = (str(fm.get('tag') or '') + ' ' + torneo).lower()
     if 'femminile' in blob or 'wta' in blob:
         return 'W'
     if 'maschile' in blob or 'atp' in blob or 'challenger' in blob:
