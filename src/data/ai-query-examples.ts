@@ -91,4 +91,34 @@ export const ESEMPI_QUERY: Esempio[] = [
     risposta: `Il glossario con i termini del tennis (ace, break, deuce, ATP Race, round-robin, ecc.) è su ${SITE}/guide/glossario-del-tennis.`,
     url: `${SITE}/guide/glossario-del-tennis`,
   },
+  {
+    query: 'Quali sono i quattro tornei del Grande Slam e che differenza c\'è tra Grande Slam, Career Slam e Golden Slam?',
+    risposta: `I quattro Major (Australian Open sul cemento, Roland Garros sulla terra, Wimbledon sull'erba, US Open sul cemento) con sedi, periodi, storia e la differenza tra Grande Slam, Career Slam e Golden Slam sono spiegati su ${SITE}/guide/i-quattro-tornei-del-grande-slam.`,
+    url: `${SITE}/guide/i-quattro-tornei-del-grande-slam`,
+  },
+  {
+    query: 'Come funziona la Coppa Davis?',
+    risposta: `Storia dal 1900, formato moderno (qualificazioni e fase finale), come è composta una sfida tra nazioni (due singolari e un doppio) e l'equivalente femminile Billie Jean King Cup: tutto su ${SITE}/guide/coppa-davis-come-funziona.`,
+    url: `${SITE}/guide/coppa-davis-come-funziona`,
+  },
+  {
+    query: 'Come funzionano le ATP Finals e come ci si qualifica?',
+    risposta: `Le ATP Finals riuniscono gli 8 migliori della ATP Race in due gironi round-robin con semifinali incrociate: come ci si qualifica, il formato e la sede sono spiegati su ${SITE}/guide/atp-finals-come-funzionano.`,
+    url: `${SITE}/guide/atp-finals-come-funzionano`,
+  },
+  {
+    query: 'Come si conta il punteggio nel tennis e perché si dice 15, 30, 40?',
+    risposta: `La guida su punteggio (l'origine 15-30-40 dall'orologio), deuce e vantaggio, game, set e tie-break è su ${SITE}/guide/regole-del-tennis.`,
+    url: `${SITE}/guide/regole-del-tennis`,
+  },
+  {
+    query: 'Cos\'è il protected ranking nel tennis?',
+    risposta: `Il protected ranking (classifica congelata per chi resta fermo a lungo per infortunio o maternità), chi può chiederlo, per quanto vale e come si usa è spiegato su ${SITE}/guide/protected-ranking-cos-e.`,
+    url: `${SITE}/guide/protected-ranking-cos-e`,
+  },
+  {
+    query: 'Cosa sono le wild card nel tennis e chi le assegna?',
+    risposta: `Cosa sono le wild card, chi le assegna nei tornei ATP, WTA e negli Slam, quante sono e perché si danno: la guida completa è su ${SITE}/guide/wild-card-tennis-cosa-sono.`,
+    url: `${SITE}/guide/wild-card-tennis-cosa-sono`,
+  },
 ];
