@@ -1,0 +1,39 @@
+name: GA4 AI watch
+
+# Segnale AI: ogni settimana interroga l'API GA4 Data per la property
+# AnalisiTennis e, quando il canale "AI Assistant" (o gli host AI) iniziano a
+# portare sessioni, il job FALLISCE di proposito e GitHub invia la sua email
+# automatica di "workflow fallito" al proprietario. E' la BUONA notizia che
+# aspettiamo dopo il lavoro GEO (pickup dei motori AI). Gemello di gsc-watch.
+#
+# Richiede un service account con accesso in lettura alla property GA4: si puo'
+# RIUSARE quello di GSC (secret GSC_SA_JSON) dopo avergli dato accesso alla
+# property GA4 e aver abilitato la "Google Analytics Data API". Senza credenziali
+# il monitor va in standby ed esce 0 (nessun falso rosso). Istruzioni: eseguire
+# backend/ga4_ai_monitor.py senza credenziali le stampa.
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'    # ogni lunedi' alle 09:00 UTC
+  workflow_dispatch: {}     # esecuzione manuale dal tab Actions
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: pip install --quiet google-auth requests
+      - name: GA4 AI channel check
+        env:
+          GA4_SA_JSON: ${{ secrets.GA4_SA_JSON }}
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+        run: python3 backend/ga4_ai_monitor.py
