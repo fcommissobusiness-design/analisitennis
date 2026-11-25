@@ -858,6 +858,15 @@
 "wikidata": "Q137168826",
 "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Milavsky"
 },
+"d-papamichail": {
+"image": "File:Papamichail WMQ23 (53062087105) (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q13512708",
+"https://it.wikipedia.org/wiki/Despoina_Papamicha%C4%ABl"
+],
+"wikidata": "Q13512708",
+"wikipedia": "https://it.wikipedia.org/wiki/Despoina_Papamicha%C4%ABl"
+},
 "d-prizmic": {
 "image": "File:Dino Prižmić (2023 French Open) 06 (cropped).jpg",
 "sameAs": [
@@ -1109,6 +1118,14 @@
 ],
 "wikidata": "Q113595229",
 "wikipedia": "https://it.wikipedia.org/wiki/Ethan_Quinn"
+},
+"f-arnaboldi": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q118342796",
+"https://en.wikipedia.org/wiki/Federico_Arnaboldi"
+],
+"wikidata": "Q118342796",
+"wikipedia": "https://en.wikipedia.org/wiki/Federico_Arnaboldi"
 },
 "f-coria": {
 "image": "File:Coria RG21 (1) (51376426268).jpg",
