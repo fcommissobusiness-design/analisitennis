@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Trevisan"
 probabilita_percent: 57
-cover_file: "File:Sydney International Tennis WTA (46001164655).jpg"
+cover_file: "File:Sydney International Tennis WTA (33040180948).jpg"
 generato_il: "2026-11-26T07:35+01:00"
 cover_image: "/covers/2026-11-26-f-trevisan-vs-c-diaz-adrover-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il secondo turno del W15 di Antalya 9 mette di fronte **F. Trevisan** e **C. Diaz Adrover** in un incontro inserito nella sessione mattutina, tra i primi in programma della giornata. Entrambe si presentano a questo turno dopo aver superato l'ostacolo del giorno precedente, un dettaglio che racconta già una condizione quantomeno affidabile sul posto. Si tratta del primo confronto diretto tra le due: non ci sono precedenti su cui tarare aspettative, e questo lascia aperto tutto il ventaglio degli scenari.

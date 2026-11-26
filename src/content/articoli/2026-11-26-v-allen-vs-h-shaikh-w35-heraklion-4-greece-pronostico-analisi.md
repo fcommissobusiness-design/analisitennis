@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Allen"
 probabilita_percent: 56
-cover_file: "File:Sydney International Tennis ATP (46001161725).jpg"
+cover_file: "File:Sydney International Tennis WTA (33040174528).jpg"
 generato_il: "2026-11-26T07:12+01:00"
 cover_image: "/covers/2026-11-26-v-allen-vs-h-shaikh-w35-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il **secondo turno** del W35 Heraklion 4 mette di fronte V. Allen e H. Shaikh in una sessione mattutina di fine novembre, uno dei primissimi incontri di giornata sul blocco cretese che da settimane ospita questo spezzone di calendario ITF femminile. Due giocatrici che arrivano allo stesso turno da strade diverse, ed è proprio questo contrasto a rendere l'incontro più interessante di quanto il solo nome del round lasci intuire.

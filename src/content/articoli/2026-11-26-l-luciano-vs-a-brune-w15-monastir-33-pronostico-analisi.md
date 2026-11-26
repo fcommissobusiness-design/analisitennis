@@ -21,10 +21,10 @@ descrizione: "Lavinia Luciano e Astrid Brune Olsen si incrociano per la prima vo
 pubblicato: true
 probabilita_favorito: "Luciano"
 probabilita_percent: 58
-cover_file: "File:Sydney International Tennis WTA (46001164655).jpg"
+cover_file: "File:Sydney International Tennis WTA (33040181438).jpg"
 generato_il: "2026-11-26T07:32+01:00"
 cover_image: "/covers/2026-11-26-l-luciano-vs-a-brune-w15-monastir-33-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Gli ottavi di finale del **W15 Monastir 33** propongono un confronto tra due percorsi profondamente diversi, arrivati però nello stesso punto del tabellone. Da una parte **Lavinia Luciano**, italiana che negli ultimi tempi ha fatto della Tunisia il proprio quartier generale, incatenando un torneo dietro l'altro nella stessa sede. Dall'altra **Astrid Brune Olsen**, norvegese classe 1999, approdata a Monastir dopo un autunno trascorso a saltare da un Paese all'altro. Le due non si sono mai incrociate prima d'ora, e questo rende la mattinata particolarmente aperta.

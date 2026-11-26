@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Laron"
 probabilita_percent: 52
-cover_file: "File:Sydney International Tennis WTA (33040174528).jpg"
+cover_file: "File:Sydney International Tennis WTA (33040181178).jpg"
 generato_il: "2026-11-26T07:51+01:00"
 cover_image: "/covers/2026-11-26-a-lakshmi-prabha-vs-m-laron-w15-kolkata-india-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Agli ottavi di questo torneo della fascia d'ingresso del circuito si incrociano due percorsi diversi che portano allo stesso bivio. Da una parte **A. Lakshmi Prabha**, che arriva con l'inerzia di un turno appena superato; dall'altra **M. Laron**, reduce anch'essa da una vittoria ma dentro un autunno molto più movimentato. È un confronto che, sulla carta, non consegna a nessuna delle due il ruolo di favorita dichiarata, e proprio per questo merita una lettura attenta dei dettagli.
