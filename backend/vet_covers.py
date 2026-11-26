@@ -20,7 +20,7 @@ Uso:
   python3 vet_covers.py                        # tutti (lento: 1 call/cover)
 """
 from __future__ import annotations
-import json, os, re, shutil, subprocess, sys
+import hashlib, json, os, re, shutil, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -113,12 +113,17 @@ PROMPT = (
     "- Una strada, un paesaggio urbano, un edificio generico o il suo esterno "
     "notturno, una cerimonia/premiazione, un altro sport, un gruppo di persone "
     "in giacca, un volto buio da conferenza, un logo o un cartellone.\n"
-    "- Un PANORAMA DISTANTE di PIU' campi visti da lontano o dall'alto, oppure "
-    "campi AMATORIALI o da circolo con AUTO PARCHEGGIATE, parcheggi, case o "
-    "edifici che occupano buona parte dell'inquadratura: NO. NOTA BENE: un "
-    "SINGOLO campo o un'arena da tennis PULITI e riconoscibili vanno BENE anche "
-    "se VUOTI e senza gioco in corso; cio' che si rifiuta e' solo l'impianto "
-    "amatoriale, il parcheggio in evidenza o il panorama lontano di molti campi.\n"
+    "- Un PANORAMA o una veduta d'insieme di uno stadio/impianto ripreso da "
+    "LONTANO, dall'ALTO o di LATO, con il campo piccolo o distante; un campo "
+    "visto DIETRO una RETE, una RECINZIONE o una barriera; campi AMATORIALI o "
+    "da circolo; AUTO PARCHEGGIATE, parcheggi, strade, case, idranti o edifici "
+    "che occupano una parte non marginale dell'inquadratura; file di "
+    "SEGGIOLINI o TRIBUNE VUOTE che dominano la foto: NO. NOTA BENE: un campo o "
+    "un'arena da tennis VUOTO e' ammesso SOLO se ripreso da VICINO, ben "
+    "illuminato, con rete, linee e superficie NITIDE che RIEMPIONO "
+    "l'inquadratura e nessun elemento urbano o recinzione in evidenza; nel "
+    "dubbio su un campo vuoto distante, recintato o con elementi urbani, "
+    "rispondi NO.\n"
     "- Un match di DOPPIO (QUATTRO giocatori in campo contemporaneamente) come "
     "soggetto chiaro: NO, perche' gli articoli trattano SINGOLARI.\n"
     "- Qualunque cosa non chiaramente legata al tennis.\n\n"
@@ -184,6 +189,112 @@ def vet_image(path: Path, gender: str = '', timeout=120) -> tuple[bool, str]:
         return (m.group(1).upper() == 'SI'), m.group(2).strip()[:80]
     except Exception as e:
         return True, f'vet skip ({type(e).__name__})'
+
+
+def _md5(p: Path) -> str:
+    return hashlib.md5(p.read_bytes()).hexdigest()
+
+
+def _source_title(fm: dict) -> str:
+    """Titolo Commons attualmente assegnato alla cover, in forma 'File:...'.
+    Prima da cover_file, poi dal primo token di cover_credit."""
+    cf = (fm.get('cover_file') or '').strip()
+    if cf:
+        return cf if cf.startswith('File:') else 'File:' + cf
+    cred = (fm.get('cover_credit') or '').split('|')[0].strip()
+    return ('File:' + cred) if cred else ''
+
+
+def _reresolve_distinct(art: Path, forbidden: set) -> str:
+    """Assegna all'articolo una cover DIVERSA da tutte quelle in `forbidden`,
+    ri-controllata dal vet. Ordine: foto giocatore mappato -> P18 Wikidata ->
+    campo pulito non ancora usato. Ritorna il titolo 'File:...' scelto, o ''."""
+    stem = art.stem
+    fm, _ = parse_frontmatter(art)
+    gender = _gender_for(fm)
+    cover = ROOT / 'public' / (fm.get('cover_image') or '').lstrip('/')
+    g1, g2 = fm.get('giocatore1', ''), fm.get('giocatore2', '')
+
+    def _try(pick) -> str:
+        if not pick or not pick.get('title') or pick['title'] in forbidden:
+            return ''
+        _apply(stem, pick)
+        ok, _m = vet_image(cover, gender)
+        return pick['title'] if ok else ''
+
+    for g in (g1, g2):
+        full = NAME_MAP.get(g)
+        if not full:
+            continue
+        excl = used_covers_for_player(full.split()[-1], skip_slug=stem) | set(forbidden)
+        try:
+            pick = pick_image(full, slug_hint=stem, exclude=excl)
+        except Exception:
+            pick = None
+        r = _try(pick)
+        if r:
+            return r
+    for g in (g1, g2):
+        full = NAME_MAP.get(g)
+        if not full:
+            continue
+        excl = used_covers_for_player(full.split()[-1], skip_slug=stem) | set(forbidden)
+        try:
+            ph = entity_photo(full, exclude=excl)
+        except Exception:
+            ph = None
+        r = _try(ph)
+        if r:
+            return r
+    for off in range(len(CLEAN_COURTS)):
+        court = _clean_court_for(stem, off)
+        if court in forbidden:
+            continue
+        try:
+            pick = _fetch_commons(court)
+        except Exception:
+            continue
+        r = _try(pick)
+        if r:
+            return r
+    return ''
+
+
+def dedup_run(articoli) -> list:
+    """Sweep anti-doppione di fine run: se due o piu' articoli condividono la
+    STESSA immagine di cover (md5 identico), tiene il primo e ri-risolve gli
+    altri con una cover DIVERSA, escludendo ogni sorgente gia' in uso nel run.
+    Cosi' due match dello stesso giorno non ricevono mai la stessa copertina
+    (es. il caso Trevisan/Allen = stesso panorama Rio del 26/11)."""
+    by_hash: dict = {}
+    used_titles: set = set()
+    for art in articoli:
+        fm, _ = parse_frontmatter(art)
+        if not fm:
+            continue
+        rel = (fm.get('cover_image') or '').lstrip('/')
+        if not rel:
+            continue
+        p = ROOT / 'public' / rel
+        if not p.exists():
+            continue
+        by_hash.setdefault(_md5(p), []).append(art)
+        t = _source_title(fm)
+        if t:
+            used_titles.add(t)
+    fixed = []
+    for arts in by_hash.values():
+        if len(arts) < 2:
+            continue
+        for art in arts[1:]:
+            newt = _reresolve_distinct(art, used_titles)
+            if newt:
+                used_titles.add(newt)
+                fixed.append(art.stem)
+                print(f'  [DEDUP] {art.stem[:50]} -> {newt[5:50]}', flush=True)
+            else:
+                print(f'  [DEDUP] {art.stem[:50]} -> nessuna alternativa trovata', flush=True)
+    return fixed
 
 
 def main():
@@ -315,10 +426,16 @@ def main():
             print(f'         -> ANCORA NO dopo {len(attempts)} tentativi (revisione manuale)', flush=True)
         report.append(entry)
 
+    # Sweep anti-doppione: nessun articolo dello stesso giorno deve avere la
+    # stessa identica cover di un altro.
+    deduped = dedup_run(articoli)
+
     (ROOT / 'backend' / 'cover_vet.json').write_text(
         json.dumps({'date': date, 'total': len(report), 'da_rivedere': ko,
-                    'details': report}, indent=2, ensure_ascii=False))
-    print(f'\n=== VET: {len(report)} cover controllate, {ko} da rivedere a mano ===', flush=True)
+                    'deduplicati': deduped, 'details': report}, indent=2,
+                   ensure_ascii=False))
+    print(f'\n=== VET: {len(report)} cover controllate, {ko} da rivedere a mano, '
+          f'{len(deduped)} doppioni risolti ===', flush=True)
     sys.exit(0)
 
 
