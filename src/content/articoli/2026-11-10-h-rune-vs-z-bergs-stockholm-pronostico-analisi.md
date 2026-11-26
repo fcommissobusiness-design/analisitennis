@@ -25,6 +25,7 @@ cover_file: "File:Holger Rune, Basel, 2024.jpg"
 generato_il: "2026-11-10T07:12+01:00"
 cover_image: "/covers/2026-11-10-h-rune-vs-z-bergs-stockholm-pronostico-analisi.jpg"
 cover_credit: "Holger Rune practicing 2019.png | Wewanttogotoaworld | CC BY-SA 4.0"
+cover_focus: 10
 ---
 
 C'è un filo che lega **Holger Rune** a Stoccolma, e non è dei più sereni: è qui che, poco più di un anno fa, la sua stagione si era interrotta di colpo per un grave infortunio al tendine, uno stop che lo ha tenuto lontano dal campo a lungo e che ha richiesto un intervento. Ritrovare lo stesso palcoscenico proprio per il suo primo impegno nel torneo aggiunge una venatura personale a una partita che, di suo, nasce già particolare. Di fronte c'è **Zizou Bergs**, una delle teste di serie del tabellone, chiamato però a rimettere ordine in un finale di stagione finora opaco.

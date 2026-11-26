@@ -24,6 +24,7 @@ probabilita_favorito: "Bronzetti"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-19-l-bronzetti-vs-c-monnet-colina-pronostico-analisi.jpg"
 cover_credit: "Nuță Lucian from Cluj-Napoca, Romania / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Lucia Bronzetti 2025 Transylvania Open (54320690198) (cropped2).jpg"
 generato_il: "2026-11-19T07:53+01:00"
 ---

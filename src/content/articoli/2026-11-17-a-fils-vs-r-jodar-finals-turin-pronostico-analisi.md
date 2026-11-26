@@ -23,6 +23,7 @@ probabilita_favorito: "Jodar"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-17-a-fils-vs-r-jodar-finals-turin-pronostico-analisi.jpg"
 cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Arthur Fils - 2024 Olympics (still) (cropped).jpg"
 generato_il: "2026-11-17T07:27+01:00"
 ---

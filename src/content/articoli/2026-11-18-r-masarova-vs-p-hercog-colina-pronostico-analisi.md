@@ -24,6 +24,7 @@ probabilita_favorito: "Masarova"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-18-r-masarova-vs-p-hercog-colina-pronostico-analisi.jpg"
 cover_credit: "Checu83 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Rebeka Masarova.jpg"
 generato_il: "2026-11-18T07:46+01:00"
 ---

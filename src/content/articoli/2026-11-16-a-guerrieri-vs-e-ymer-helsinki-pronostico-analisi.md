@@ -24,6 +24,7 @@ probabilita_favorito: "Guerrieri"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-16-a-guerrieri-vs-e-ymer-helsinki-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Andrea Guerrieri (2026 US Open) 01.jpg"
 generato_il: "2026-11-16T07:50+01:00"
 ---

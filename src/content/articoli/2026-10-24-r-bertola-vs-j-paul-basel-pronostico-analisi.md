@@ -22,6 +22,7 @@ descrizione: "Bertola e Paul si giocano un posto in finale all'ATP di Basilea: f
 pubblicato: true
 cover_image: "/covers/2026-10-24-r-bertola-vs-j-paul-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Rémy Bertola (2026 US Open) 01.jpg"
 ---
 

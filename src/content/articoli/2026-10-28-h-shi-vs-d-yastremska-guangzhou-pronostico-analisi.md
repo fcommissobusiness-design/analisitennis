@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-28T09:07"
 cover_image: "/covers/2026-10-28-h-shi-vs-d-yastremska-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Yastremska WMQ23 (53061681226).jpg"
 ---
 

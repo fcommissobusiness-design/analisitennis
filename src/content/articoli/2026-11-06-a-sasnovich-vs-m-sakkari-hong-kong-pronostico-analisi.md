@@ -25,6 +25,7 @@ probabilita_percent: 53
 generato_il: "2026-11-06T07:08"
 cover_image: "/covers/2026-11-06-a-sasnovich-vs-m-sakkari-hong-kong-pronostico-analisi.jpg"
 cover_credit: "David Iliff / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Aliaksandra Sasnovich 4, 2015 Wimbledon Qualifying - Diliff-crop.jpg"
 ---
 

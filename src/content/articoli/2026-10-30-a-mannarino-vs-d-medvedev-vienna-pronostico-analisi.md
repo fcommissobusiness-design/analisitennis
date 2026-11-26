@@ -21,6 +21,7 @@ descrizione: "Mannarino e Medvedev si affrontano nei quarti di Vienna sul veloce
 pubblicato: true
 cover_image: "/covers/2026-10-30-a-mannarino-vs-d-medvedev-vienna-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniil Medvedev Practicing Tennis 06.jpg"
 generato_il: "2026-10-30T07:06"
 ---

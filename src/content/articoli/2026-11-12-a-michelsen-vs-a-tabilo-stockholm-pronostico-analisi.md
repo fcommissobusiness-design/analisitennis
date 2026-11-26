@@ -24,6 +24,7 @@ probabilita_favorito: "Michelsen"
 probabilita_percent: 63
 cover_image: "/covers/2026-11-12-a-michelsen-vs-a-tabilo-stockholm-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Alex Michelsen (2023 US Open) 08.jpg"
 generato_il: "2026-11-12T07:44+01:00"
 ---

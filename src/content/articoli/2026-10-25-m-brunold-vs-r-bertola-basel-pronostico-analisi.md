@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-m-brunold-vs-r-bertola-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Rémy Bertola (2026 US Open) 02.jpg"
 ---
 

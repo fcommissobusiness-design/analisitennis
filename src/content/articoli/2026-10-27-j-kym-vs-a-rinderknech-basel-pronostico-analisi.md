@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-j-kym-vs-a-rinderknech-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Rinderknech REN21 (2).jpg"
 ---
 

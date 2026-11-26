@@ -24,6 +24,7 @@ probabilita_favorito: "Dorofeeva-Rybas"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-26-f-dorofeeva-rybas-vs-j-struplova-w35-heraklion-4-greece-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Julie Štruplová (2026 US Open) 01.jpg"
 generato_il: "2026-11-26T07:16+01:00"
 ---

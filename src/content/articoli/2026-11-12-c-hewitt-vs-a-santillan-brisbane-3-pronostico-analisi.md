@@ -24,6 +24,7 @@ probabilita_favorito: "Hewitt"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi.jpg"
 cover_credit: "Contributor(s): Queensland Newspapers Pty. / Public domain / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:StateLibQld 2 294199 Harry Hopman in action on a tennis court, Brisbane, 1931.jpg"
 generato_il: "2026-11-12T07:47+01:00"
 ---

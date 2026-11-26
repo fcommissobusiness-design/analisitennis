@@ -25,6 +25,7 @@ probabilita_percent: 58
 generato_il: "2026-11-04T07:08"
 cover_image: "/covers/2026-11-04-r-montgomery-vs-j-vandromme-chennai-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Robin Montgomery (2026 US Open) 01 (cropped).jpg"
 ---
 

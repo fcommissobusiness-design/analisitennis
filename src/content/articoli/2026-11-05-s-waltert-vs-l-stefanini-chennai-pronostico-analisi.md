@@ -25,6 +25,7 @@ probabilita_percent: 57
 generato_il: "2026-11-05T07:20"
 cover_image: "/covers/2026-11-05-s-waltert-vs-l-stefanini-chennai-pronostico-analisi.jpg"
 cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Simona Waltert (2026 US Open) - 04.jpg"
 ---
 

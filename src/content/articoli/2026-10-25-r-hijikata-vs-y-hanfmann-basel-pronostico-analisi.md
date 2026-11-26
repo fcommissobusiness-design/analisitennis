@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-r-hijikata-vs-y-hanfmann-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Hijikata WMQ23 (53061122002).jpg"
 ---
 

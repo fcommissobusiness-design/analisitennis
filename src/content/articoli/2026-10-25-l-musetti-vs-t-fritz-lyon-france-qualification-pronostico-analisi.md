@@ -22,6 +22,7 @@ pubblicato: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-l-musetti-vs-t-fritz-lyon-france-qualification-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Taylor Fritz (2023 US Open) 02.jpg"
 ---
 

@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-31T06:56"
 cover_image: "/covers/2026-10-31-k-quevedo-vs-l-tagger-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Quevedo WMQ26 (6).jpg"
 ---
 

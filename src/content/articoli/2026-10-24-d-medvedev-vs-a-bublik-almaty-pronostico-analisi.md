@@ -21,6 +21,7 @@ descrizione: "Semifinale ATP Almaty: Daniil Medvedev sfida Alexander Bublik. For
 pubblicato: true
 cover_image: "/covers/2026-10-24-d-medvedev-vs-a-bublik-almaty-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniil Medvedev Practicing Tennis 03.jpg"
 ---
 

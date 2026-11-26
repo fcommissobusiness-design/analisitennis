@@ -25,6 +25,7 @@ probabilita_percent: 61
 generato_il: "2026-11-06T07:31"
 cover_image: "/covers/2026-11-06-m-hontama-vs-m-linette-chennai-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Mai Hontama (2023 US Open) 02.jpg"
 ---
 

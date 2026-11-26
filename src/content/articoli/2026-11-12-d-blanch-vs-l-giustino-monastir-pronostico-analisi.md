@@ -24,6 +24,7 @@ probabilita_favorito: "Giustino"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-12-d-blanch-vs-l-giustino-monastir-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Giustino WMQ14 (6) (14420597417).jpg"
 generato_il: "2026-11-12T07:29+01:00"
 ---

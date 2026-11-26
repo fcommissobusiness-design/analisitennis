@@ -23,6 +23,7 @@ descrizione: "Finale ATP di Basilea tra Jiri Lehecka e Valentin Vacherot: scontr
 pubblicato: true
 cover_image: "/covers/2026-11-01-j-lehecka-vs-v-vacherot-basel-pronostico-analisi.jpg"
 cover_credit: "Si.Robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Lehecka MCM22 (44) (52035368427).jpg"
 generato_il: "2026-11-01T07:14"
 ---

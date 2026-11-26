@@ -27,6 +27,7 @@ cover_file: "File:Maestrelli RGQ23 (52944044613).jpg"
 generato_il: "2026-11-11T07:27+01:00"
 cover_image: "/covers/2026-11-11-f-maestrelli-vs-j-monday-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 ---
 
 Gli **ottavi di finale** del Crete Challenger di Hersonissos mettono di fronte due giocatori arrivati a questo appuntamento da strade diverse. Da una parte Francesco Maestrelli, un italiano con un curriculum costruito in buona parte sul circuito maggiore; dall'altra Monday, un avversario che in questa parte della stagione ha trovato ritmo e continuità di risultati. A rendere particolare il confronto è l'assenza di una storia comune: i due non si sono mai incontrati prima, e questo toglie qualsiasi ascendente psicologico pregresso dal piatto della bilancia.

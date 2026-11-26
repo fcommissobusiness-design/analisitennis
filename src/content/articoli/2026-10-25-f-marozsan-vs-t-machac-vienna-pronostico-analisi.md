@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-f-marozsan-vs-t-machac-vienna-pronostico-analisi.jpg"
 cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Marozsan 2023.png"
 ---
 

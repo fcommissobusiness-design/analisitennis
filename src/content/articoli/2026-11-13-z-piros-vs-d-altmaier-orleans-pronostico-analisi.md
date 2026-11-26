@@ -24,6 +24,7 @@ probabilita_favorito: "Piros"
 probabilita_percent: 56
 cover_image: "/covers/2026-11-13-z-piros-vs-d-altmaier-orleans-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Piros WMQ26 (1) (55467159994).jpg"
 generato_il: "2026-11-13T07:48+01:00"
 ---

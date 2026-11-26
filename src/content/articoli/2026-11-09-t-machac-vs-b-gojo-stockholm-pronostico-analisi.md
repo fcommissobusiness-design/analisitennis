@@ -25,6 +25,7 @@ probabilita_favorito: "Machac"
 probabilita_percent: 63
 cover_image: "/covers/2026-11-09-t-machac-vs-b-gojo-stockholm-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Machac WMQ23 (53062093175).jpg"
 generato_il: "2026-11-09T06:11"
 ---

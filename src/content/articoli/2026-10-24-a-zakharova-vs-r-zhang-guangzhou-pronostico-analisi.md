@@ -23,6 +23,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-a-zakharova-vs-r-zhang-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Zakharova WMQ23 (53062168833).jpg"
 ---
 

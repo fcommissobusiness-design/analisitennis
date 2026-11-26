@@ -21,6 +21,7 @@ descrizione: "Norrie contro Medvedev a Vienna sul veloce indoor: precedenti, for
 pubblicato: true
 cover_image: "/covers/2026-10-29-c-norrie-vs-d-medvedev-vienna-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniil Medvedev Practicing Tennis 07.jpg"
 generato_il: "2026-10-29T07:23"
 ---

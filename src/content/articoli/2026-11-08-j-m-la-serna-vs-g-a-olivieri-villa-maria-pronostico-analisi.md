@@ -26,6 +26,7 @@ cover_file: "File:Olivieri WMQ23 (53062186128).jpg"
 generato_il: "2026-11-08T07:19"
 cover_image: "/covers/2026-11-08-j-m-la-serna-vs-g-a-olivieri-villa-maria-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 ---
 
 La **finale** del Challenger di Villa María chiude una settimana in cui i due protagonisti hanno fatto parlare i risultati più che le presentazioni. Da una parte J. M. La Serna, dall'altra G. A. Olivieri: due giocatori arrivati all'ultimo atto senza aver mai incrociato le racchette in un incontro ufficiale registrato nell'archivio a disposizione. È un confronto che parte quindi da una pagina bianca, dove non esistono vecchie partite a suggerire un copione già scritto, e dove ogni lettura va costruita sui segnali delle ultime settimane.

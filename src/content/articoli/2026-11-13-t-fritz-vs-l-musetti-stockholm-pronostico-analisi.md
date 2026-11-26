@@ -23,6 +23,7 @@ probabilita_favorito: "Musetti"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-13-t-fritz-vs-l-musetti-stockholm-pronostico-analisi.jpg"
 cover_credit: "GabrieleCodeglia / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:LorenzoMusetti.JPG"
 generato_il: "2026-11-13T07:50+01:00"
 ---

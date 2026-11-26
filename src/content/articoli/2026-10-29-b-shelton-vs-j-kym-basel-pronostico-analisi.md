@@ -22,6 +22,7 @@ pubblicato: true
 generato_il: "2026-10-29T07:09"
 cover_image: "/covers/2026-10-29-b-shelton-vs-j-kym-basel-pronostico-analisi.jpg"
 cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Ben Shelton, Aufschlag, Swiss Indoors Basel 2024.jpg"
 ---
 

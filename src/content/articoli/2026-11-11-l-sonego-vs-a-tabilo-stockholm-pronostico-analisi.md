@@ -23,6 +23,7 @@ probabilita_favorito: "Sonego"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-11-l-sonego-vs-a-tabilo-stockholm-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Sonego WMQ18 (11) (42646429235).jpg"
 generato_il: "2026-11-11T07:21+01:00"
 ---

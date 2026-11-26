@@ -23,6 +23,7 @@ probabilita_favorito: "Fritz"
 probabilita_percent: 64
 cover_image: "/covers/2026-11-14-t-fritz-vs-t-a-tirante-stockholm-pronostico-analisi.jpg"
 cover_credit: "Vbrunophotog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Taylor Fritz at 2025 Miami Open 01 (cropped).jpg"
 generato_il: "2026-11-14T07:26+01:00"
 ---

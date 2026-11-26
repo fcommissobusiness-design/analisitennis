@@ -24,6 +24,7 @@ probabilita_percent: 53
 generato_il: "2026-11-05T07:07"
 cover_image: "/covers/2026-11-05-s-cirstea-vs-m-stoiana-hong-kong-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Sorana Cîrstea (2023 DC Open) 01 (cropped).jpg"
 ---
 

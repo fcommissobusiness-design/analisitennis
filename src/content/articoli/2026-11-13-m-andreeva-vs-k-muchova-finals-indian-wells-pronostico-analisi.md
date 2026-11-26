@@ -23,6 +23,7 @@ probabilita_favorito: "Andreeva"
 probabilita_percent: 62
 cover_image: "/covers/2026-11-13-m-andreeva-vs-k-muchova-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Mirra Andreeva (2023 US Open) 17.jpg"
 generato_il: "2026-11-13T07:41+01:00"
 ---

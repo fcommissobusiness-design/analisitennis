@@ -23,6 +23,7 @@ probabilita_favorito: "Bronzetti"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-17-l-bronzetti-vs-a-herrero-linana-colina-pronostico-analisi.jpg"
 cover_credit: "Nuță Lucian from Cluj-Napoca, Romania derivative work: Kacir / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Lucia Bronzetti 2025 Transylvania Open (54320690198) (cropped).jpg"
 generato_il: "2026-11-17T07:53+01:00"
 ---

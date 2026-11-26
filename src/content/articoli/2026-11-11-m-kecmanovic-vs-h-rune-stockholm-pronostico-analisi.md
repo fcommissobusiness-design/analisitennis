@@ -23,6 +23,7 @@ probabilita_favorito: "Rune"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-11-m-kecmanovic-vs-h-rune-stockholm-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Holger Rune (2023 US Open) 06.jpg"
 generato_il: "2026-11-11T07:51+01:00"
 ---

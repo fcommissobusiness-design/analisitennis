@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-23-e-moller-vs-h-rocha-lisbon-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Henrique Rocha (2026 US Open) 01 (cropped).jpg"
 ---
 

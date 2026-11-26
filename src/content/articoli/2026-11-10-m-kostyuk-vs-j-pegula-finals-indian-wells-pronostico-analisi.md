@@ -23,6 +23,7 @@ probabilita_favorito: "Pegula"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-10-m-kostyuk-vs-j-pegula-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Jessica Pegula (Roland Garros 2023) 03.jpg"
 generato_il: "2026-11-10T07:15+01:00"
 ---

@@ -23,6 +23,7 @@ probabilita_favorito: "Alcaraz"
 probabilita_percent: 71
 cover_image: "/covers/2026-11-21-c-alcaraz-vs-b-shelton-finals-turin-pronostico-analisi.jpg"
 cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Carlos Alcaraz (2026 US Open) - 10.jpg"
 generato_il: "2026-11-21T07:41+01:00"
 ---

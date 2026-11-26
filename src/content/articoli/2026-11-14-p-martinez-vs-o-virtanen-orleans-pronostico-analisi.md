@@ -24,6 +24,7 @@ probabilita_favorito: "Virtanen"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-14-p-martinez-vs-o-virtanen-orleans-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Virtanen WMQ23 (53061681146).jpg"
 generato_il: "2026-11-14T07:26+01:00"
 ---

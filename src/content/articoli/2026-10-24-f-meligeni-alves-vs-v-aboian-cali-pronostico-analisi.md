@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-f-meligeni-alves-vs-v-aboian-cali-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Meligeni Alves WMQ23 (53061116202).jpg"
 ---
 

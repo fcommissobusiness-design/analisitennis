@@ -26,6 +26,7 @@ cover_file: "File:San Giustino - Chiesa di San Lorenzo - 2025-09-08 11-27-30 001
 generato_il: "2026-11-13T07:56+01:00"
 cover_image: "/covers/2026-11-13-m-moeller-vs-l-giustino-monastir-pronostico-analisi.jpg"
 cover_credit: "Giustino WMQ14 (6) (14420597417).jpg | si.robi | CC BY-SA 2.0"
+cover_focus: 10
 ---
 
 Al **Monastir Open**, challenger di fine stagione ospitato sul **cemento** all'aperto della città tunisina, i **quarti di finale** mettono di fronte M. Moeller e Lorenzo Giustino. Due giocatori che gravitano nella stessa fascia di circuito, arrivati a questo turno percorrendo lo stesso numero di passaggi, e che non si sono mai incontrati prima: un confronto senza memoria, in cui la lettura dei primi game varrà più di qualsiasi precedente.

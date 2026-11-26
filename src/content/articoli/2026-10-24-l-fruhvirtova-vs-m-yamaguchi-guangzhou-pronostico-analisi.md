@@ -23,6 +23,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-l-fruhvirtova-vs-m-yamaguchi-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Linda Fruhvirtova (Roland Garros 2023) 07.jpg"
 ---
 

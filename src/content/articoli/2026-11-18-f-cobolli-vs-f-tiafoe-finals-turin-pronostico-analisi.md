@@ -23,6 +23,7 @@ probabilita_favorito: "Cobolli"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-18-f-cobolli-vs-f-tiafoe-finals-turin-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Flavio Cobolli (Roland Garros 2023) 01 (cropped).jpg"
 generato_il: "2026-11-18T07:51+01:00"
 ---

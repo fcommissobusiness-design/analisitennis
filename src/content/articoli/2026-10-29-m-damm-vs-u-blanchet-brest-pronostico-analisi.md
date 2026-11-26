@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-29T07:22"
 cover_image: "/covers/2026-10-29-m-damm-vs-u-blanchet-brest-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Martin Damm (2023 US Open) 01 (cropped).jpg"
 ---
 

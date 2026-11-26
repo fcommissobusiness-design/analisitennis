@@ -24,6 +24,7 @@ probabilita_favorito: "Andreev"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-12-a-andreev-vs-r-brancaccio-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Brancaccio R. WMQ23 (53061135157).jpg"
 generato_il: "2026-11-12T07:46+01:00"
 ---

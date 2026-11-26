@@ -25,6 +25,7 @@ probabilita_percent: 61
 generato_il: "2026-11-07T07:35"
 cover_image: "/covers/2026-11-07-g-bueno-vs-c-ugo-carabelli-costa-do-sauipe-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Ugo Carabelli WMQ22 (3) (52191364649).jpg"
 ---
 

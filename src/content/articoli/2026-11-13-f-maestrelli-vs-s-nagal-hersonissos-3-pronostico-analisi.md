@@ -26,6 +26,7 @@ cover_file: "File:Mario maestrelli, scena della vita di san francesco, su grés,
 generato_il: "2026-11-13T07:13+01:00"
 cover_image: "/covers/2026-11-13-f-maestrelli-vs-s-nagal-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "Maestrelli RGQ23 (52944044613).jpg | si.robi | CC BY-SA 2.0"
+cover_focus: 10
 ---
 
 Il **Crete Challenger** di Hersonissos, torneo nato nel 2025 e ospitato sul cemento all'aperto dell'isola greca, propone nei quarti di finale un confronto che mette di fronte due storie diverse: da una parte l'italiano Francesco Maestrelli, dall'altra l'indiano Sumit Nagal. Si gioca in sessione diurna, con inizio alle 11:00 italiane, e entrambi arrivano a questo turno dopo aver vinto i primi due impegni della settimana senza lasciare per strada nemmeno un set.

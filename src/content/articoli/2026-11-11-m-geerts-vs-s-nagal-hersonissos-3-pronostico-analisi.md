@@ -26,6 +26,7 @@ cover_file: "File:Sumit Nagal (2023 US Open) 02.jpg"
 generato_il: "2026-11-11T07:53+01:00"
 cover_image: "/covers/2026-11-11-m-geerts-vs-s-nagal-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 ---
 
 Il Challenger di Hersonissos entra nella fase degli **ottavi di finale** e propone un incrocio tra M. Geerts e S. Nagal, due giocatori che hanno superato il primo turno appena ieri e che oggi tornano in campo per il secondo impegno in poco più di ventiquattr'ore. Il match è in programma nella mattinata italiana, sul **cemento** di Hersonissos, in Grecia, e mette di fronte due interpreti che costruiscono il proprio gioco soprattutto da fondo.

@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-29T07:06"
 cover_image: "/covers/2026-10-29-l-djere-vs-s-travaglia-brest-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Djere WMQ26 (8).jpg"
 ---
 

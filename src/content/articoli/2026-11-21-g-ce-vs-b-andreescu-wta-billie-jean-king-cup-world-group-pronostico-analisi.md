@@ -24,6 +24,7 @@ probabilita_favorito: "Andreescu"
 probabilita_percent: 74
 cover_image: "/covers/2026-11-21-g-ce-vs-b-andreescu-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Bianca Andreescu (2026 US Open) 07.jpg"
 generato_il: "2026-11-21T07:56+01:00"
 ---

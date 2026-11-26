@@ -23,6 +23,7 @@ probabilita_favorito: "Gauff"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-12-m-kostyuk-vs-c-gauff-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Coco Gauff Practicing Tennis 3.jpg"
 generato_il: "2026-11-12T07:40+01:00"
 ---

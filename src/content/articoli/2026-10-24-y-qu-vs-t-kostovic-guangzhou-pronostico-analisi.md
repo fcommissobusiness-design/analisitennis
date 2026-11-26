@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-y-qu-vs-t-kostovic-guangzhou-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Teodora Kostović (2026 US Open) 01.jpg"
 ---
 

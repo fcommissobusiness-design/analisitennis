@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-31T06:58"
 cover_image: "/covers/2026-10-31-m-kouame-vs-o-virtanen-brest-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Otto Virtanen (2023 US Open) 02.jpg"
 ---
 

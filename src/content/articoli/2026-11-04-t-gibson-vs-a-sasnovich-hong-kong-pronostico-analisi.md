@@ -25,6 +25,7 @@ probabilita_percent: 63
 generato_il: "2026-11-04T07:44"
 cover_image: "/covers/2026-11-04-t-gibson-vs-a-sasnovich-hong-kong-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Aliaksandra Sasnovich (2023 US Open) 08.jpg"
 ---
 

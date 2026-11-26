@@ -25,6 +25,7 @@ probabilita_percent: 62
 generato_il: "2026-11-06T07:12"
 cover_image: "/covers/2026-11-06-r-montgomery-vs-m-rajeshwaran-revathi-chennai-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Robin Montgomery (2026 US Open) 01.jpg"
 ---
 

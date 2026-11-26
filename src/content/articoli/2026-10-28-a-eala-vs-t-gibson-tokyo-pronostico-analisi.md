@@ -21,6 +21,7 @@ descrizione: "Alexandra Eala sfida Talia Gibson negli ottavi del WTA di Tokyo: s
 pubblicato: true
 cover_image: "/covers/2026-10-28-a-eala-vs-t-gibson-tokyo-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Alex Eala (2024 US Open) 01.jpg"
 generato_il: "2026-10-28T08:50"
 ---

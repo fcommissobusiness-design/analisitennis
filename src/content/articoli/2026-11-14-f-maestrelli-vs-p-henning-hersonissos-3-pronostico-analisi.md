@@ -24,6 +24,7 @@ probabilita_favorito: "Maestrelli"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-14-f-maestrelli-vs-p-henning-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Maestrelli WMQ26 (11) (55466988026).jpg"
 generato_il: "2026-11-14T07:55+01:00"
 ---

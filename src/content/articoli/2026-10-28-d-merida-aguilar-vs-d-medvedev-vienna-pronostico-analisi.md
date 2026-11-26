@@ -21,6 +21,7 @@ descrizione: "Merida Aguilar sfida Medvedev al primo turno di Vienna sul cemento
 pubblicato: true
 cover_image: "/covers/2026-10-28-d-merida-aguilar-vs-d-medvedev-vienna-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniil Medvedev Practicing Tennis 01.jpg"
 generato_il: "2026-10-28T08:24"
 ---

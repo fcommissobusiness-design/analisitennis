@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-t-a-tirante-vs-a-mannarino-vienna-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Tirante WMQ23 (53062069430).jpg"
 ---
 

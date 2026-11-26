@@ -25,6 +25,7 @@ probabilita_percent: 61
 generato_il: "2026-11-19T07:49+01:00"
 cover_image: "/covers/2026-11-19-s-schnyder-vs-a-fita-boluda-w50-heraklion-4-greece-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Ángela Fita Boluda (2026 US Open) 01 (cropped).jpg"
 ---
 Gli ottavi di finale del **W50 Heraklion 4**, in Grecia, mettono di fronte Angela Fita Boluda e Sarina Schnyder in un confronto che vale più delle apparenze. Da una parte una professionista navigata del circuito ITF, dall'altra una giocatrice che in questi giorni sta provando a legittimarsi su un palcoscenico più alto di quello che frequenta di norma. Si gioca in mattinata, intorno alle 8:30 italiane, uno dei primissimi incontri di giornata.

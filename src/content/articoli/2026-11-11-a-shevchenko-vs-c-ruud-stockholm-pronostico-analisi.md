@@ -23,6 +23,7 @@ probabilita_favorito: "Ruud"
 probabilita_percent: 73
 cover_image: "/covers/2026-11-11-a-shevchenko-vs-c-ruud-stockholm-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Casper Ruud (2023 US Open) 01.jpg"
 generato_il: "2026-11-11T07:37+01:00"
 ---

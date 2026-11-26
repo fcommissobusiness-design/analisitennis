@@ -21,6 +21,7 @@ descrizione: "Agli ottavi di Basilea Valentin Vacherot affronta Rafael Jodar in 
 pubblicato: true
 cover_image: "/covers/2026-10-29-v-vacherot-vs-r-jodar-basel-pronostico-analisi.jpg"
 cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Constantin Vacherot, photo impressions, Swiss Indoors 2025 in Basel.jpg"
 generato_il: "2026-10-29T06:54"
 ---

@@ -24,6 +24,7 @@ probabilita_favorito: "Fearnley"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-18-l-djere-vs-j-fearnley-helsinki-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Jacob Fearnley (2026 US Open) 03.jpg"
 generato_il: "2026-11-18T07:47+01:00"
 ---

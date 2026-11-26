@@ -24,6 +24,7 @@ probabilita_favorito: "Mikrut"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-13-j-forejtek-vs-l-mikrut-monastir-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Luka Mikrut (2026 US Open) 02.jpg"
 generato_il: "2026-11-13T07:21+01:00"
 ---

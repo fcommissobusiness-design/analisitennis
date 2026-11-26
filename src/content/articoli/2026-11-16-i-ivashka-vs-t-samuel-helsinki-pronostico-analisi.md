@@ -24,6 +24,7 @@ probabilita_favorito: "Samuel"
 probabilita_percent: 62
 cover_image: "/covers/2026-11-16-i-ivashka-vs-t-samuel-helsinki-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Samuel WMQ23 (53061881914).jpg"
 generato_il: "2026-11-16T07:34+01:00"
 ---

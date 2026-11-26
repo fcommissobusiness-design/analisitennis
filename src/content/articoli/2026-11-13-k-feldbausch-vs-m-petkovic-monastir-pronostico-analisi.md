@@ -24,6 +24,7 @@ probabilita_favorito: "Feldbausch"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-13-k-feldbausch-vs-m-petkovic-monastir-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Kilian Feldbausch (2026 US Open) 01 (cropped).jpg"
 generato_il: "2026-11-13T07:40+01:00"
 ---

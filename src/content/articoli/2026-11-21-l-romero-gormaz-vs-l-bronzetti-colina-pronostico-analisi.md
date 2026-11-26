@@ -23,6 +23,7 @@ probabilita_favorito: "Romero Gormaz"
 probabilita_percent: 62
 cover_image: "/covers/2026-11-21-l-romero-gormaz-vs-l-bronzetti-colina-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Leyre Romero Gormaz (2023 US Open) 01 (cropped).jpg"
 generato_il: "2026-11-21T07:47+01:00"
 ---

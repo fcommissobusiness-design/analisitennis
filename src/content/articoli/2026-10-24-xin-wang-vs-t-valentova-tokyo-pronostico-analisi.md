@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-xin-wang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
 cover_credit: "江戸村のとくぞう / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:XINYU WANG 20220919a3.jpg"
 ---
 

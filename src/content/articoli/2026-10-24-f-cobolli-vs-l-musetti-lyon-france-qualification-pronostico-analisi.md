@@ -21,6 +21,7 @@ descrizione: "Cobolli contro Musetti nella semifinale di Lione: analizziamo form
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-cobolli-vs-l-musetti-lyon-france-qualification-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Cobolli WMQ23 (53061712891).jpg"
 ---
 

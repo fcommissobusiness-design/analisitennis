@@ -21,6 +21,7 @@ descrizione: "Tallon Griekspoor affronta Brandon Nakashima al primo turno di Vie
 pubblicato: true
 cover_image: "/covers/2026-10-28-t-griekspoor-vs-b-nakashima-vienna-pronostico-analisi.jpg"
 cover_credit: "Kuberzog / CC BY 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Tallon Griekspoor - Roland-Garros - 28.05.2024.jpg"
 generato_il: "2026-10-28T08:34"
 ---

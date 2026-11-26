@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-31T07:19"
 cover_image: "/covers/2026-10-31-y-demin-vs-y-h-hsu-ningbo-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Yaroslav Demin (2023 French Open) 01 (cropped).jpg"
 ---
 

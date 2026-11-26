@@ -24,6 +24,7 @@ probabilita_favorito: "Prizmic"
 probabilita_percent: 57
 cover_image: "/covers/2026-11-10-o-virtanen-vs-d-prizmic-orleans-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Otto Virtanen (2023 US Open) 03.jpg"
 generato_il: "2026-11-10T07:39+01:00"
 ---

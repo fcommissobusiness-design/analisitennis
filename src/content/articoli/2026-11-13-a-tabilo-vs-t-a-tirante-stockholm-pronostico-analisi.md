@@ -24,6 +24,7 @@ probabilita_favorito: "Tabilo"
 probabilita_percent: 59
 cover_image: "/covers/2026-11-13-a-tabilo-vs-t-a-tirante-stockholm-pronostico-analisi.jpg"
 cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Alejandro Tabilo - Roland-Garros 2025.jpg"
 generato_il: "2026-11-13T07:49+01:00"
 ---

@@ -21,6 +21,7 @@ pubblicato: true
 generato_il: "2026-10-28T08:40"
 cover_image: "/covers/2026-10-28-h-hurkacz-vs-h-rune-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Hurkacz WMQ18 (32) (29681071278).jpg"
 ---
 

@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-k-boulter-vs-s-ishii-tokyo-pronostico-analisi.jpg"
 cover_credit: "Chris Czermak / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Katie Boulter Return of Serve.jpg"
 ---
 

@@ -23,6 +23,7 @@ probabilita_favorito: "Andreeva"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-09-m-andreeva-vs-e-svitolina-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Andreeva M. WMQ23 (53062105200).jpg"
 generato_il: "2026-11-09T06:11"
 ---

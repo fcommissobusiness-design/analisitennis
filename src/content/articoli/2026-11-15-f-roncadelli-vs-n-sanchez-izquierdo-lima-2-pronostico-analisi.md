@@ -24,6 +24,7 @@ probabilita_favorito: "Roncadelli"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-15-f-roncadelli-vs-n-sanchez-izquierdo-lima-2-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Franco Roncadelli (2026 US Open) 02.jpg"
 generato_il: "2026-11-15T07:37+01:00"
 ---

@@ -25,6 +25,7 @@ probabilita_favorito: "Tararudee"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-21-l-tararudee-vs-j-teichmann-wta-billie-jean-king-cup-world-group-pronostico-anali.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Lanlana Tararudee (2024 Cary) 01.jpg"
 generato_il: "2026-11-21T07:56+01:00"
 ---

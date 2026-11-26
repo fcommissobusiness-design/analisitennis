@@ -25,6 +25,7 @@ cover_file: "File:Alex Eala Signature 2026.png"
 generato_il: "2026-11-08T07:01"
 cover_image: "/covers/2026-11-08-c-liu-vs-a-eala-hong-kong-pronostico-analisi.jpg"
 cover_credit: "Alex Eala (2024 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_focus: 10
 ---
 
 C'è una simmetria curiosa nella finale che il torneo di Hong Kong propone sul cemento cittadino. Claire Liu e Alexandra Eala sono arrivate all'ultimo atto percorrendo la stessa strada: quattro partite vinte una dietro l'altra, senza concedere troppo lungo il cammino. Da un lato la statunitense, dall'altro la filippina, due percorsi di carriera diversi ma lo stesso stato di grazia in questa settimana.

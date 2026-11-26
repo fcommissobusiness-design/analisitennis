@@ -21,6 +21,7 @@ descrizione: "Fils contro Struff nella semifinale ATP di Bruxelles 2026: forma, 
 pubblicato: true
 cover_image: "/covers/2026-10-24-a-fils-vs-j-l-struff-brussels-pronostico-analisi.jpg"
 cover_credit: "Gordons203 / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Arthur Fils at EFG Swiss Open Gstaad 2023 Pic Gordon Simmonds.jpg"
 ---
 

@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-28-y-hanfmann-vs-j-l-struff-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Hanfmann WMQ22 (18) (52191655955).jpg"
 generato_il: "2026-10-28T08:38"
 ---

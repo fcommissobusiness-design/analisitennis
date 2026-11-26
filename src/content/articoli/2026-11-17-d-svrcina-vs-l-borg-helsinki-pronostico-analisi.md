@@ -24,6 +24,7 @@ probabilita_favorito: "Svrcina"
 probabilita_percent: 73
 cover_image: "/covers/2026-11-17-d-svrcina-vs-l-borg-helsinki-pronostico-analisi.jpg"
 cover_credit: "DarDarCH / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:2022 Roland Garros Qualifying Tournament - 73 Dalibor Svrčina (cropped).jpg"
 generato_il: "2026-11-17T07:45+01:00"
 ---

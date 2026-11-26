@@ -23,6 +23,7 @@ probabilita_favorito: "Monnet"
 probabilita_percent: 73
 cover_image: "/covers/2026-11-23-b-bonardi-vs-c-monnet-buenos-aires-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Carole Monnet (2023 US Open) 02.jpg"
 generato_il: "2026-11-23T07:35+01:00"
 ---

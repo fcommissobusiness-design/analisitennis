@@ -26,6 +26,7 @@ probabilita_percent: 53
 generato_il: "2026-11-04T07:19"
 cover_image: "/covers/2026-11-04-j-tjen-vs-j-garland-chennai-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Garland WMQ26 (8).jpg"
 ---
 

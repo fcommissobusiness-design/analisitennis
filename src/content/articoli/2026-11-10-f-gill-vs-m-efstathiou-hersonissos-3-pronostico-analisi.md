@@ -24,6 +24,7 @@ probabilita_favorito: "Gill"
 probabilita_percent: 73
 cover_image: "/covers/2026-11-10-f-gill-vs-m-efstathiou-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Gill WMQ22 (15) (52190158367).jpg"
 generato_il: "2026-11-10T07:20+01:00"
 ---

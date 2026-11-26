@@ -24,6 +24,7 @@ noindex: true
 generato_il: "2026-10-30T07:03"
 cover_image: "/covers/2026-10-30-m-bassols-vs-a-charaeva-courmayeur-italy-qualification-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Alina Charaeva (2026 US Open) 02 (cropped).jpg"
 ---
 

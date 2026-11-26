@@ -22,6 +22,7 @@ pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-30-j-l-struff-vs-n-borges-basel-pronostico-analisi.jpg"
 cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Jan-Lennard Struff (45658733462).jpg"
 generato_il: "2026-10-30T07:13"
 ---

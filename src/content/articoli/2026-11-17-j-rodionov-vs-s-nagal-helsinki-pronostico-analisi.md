@@ -24,6 +24,7 @@ probabilita_favorito: "Rodionov"
 probabilita_percent: 71
 cover_image: "/covers/2026-11-17-j-rodionov-vs-s-nagal-helsinki-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Rodionov WMQ22 (1) (52191139108).jpg"
 generato_il: "2026-11-17T07:48+01:00"
 ---

@@ -25,6 +25,7 @@ noindex: true
 generato_il: "2026-11-01T07:30"
 cover_image: "/covers/2026-11-01-d-dietrich-vs-l-draxl-sioux-falls-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Draxl WMQ26 (16) (55467108463).jpg"
 ---
 

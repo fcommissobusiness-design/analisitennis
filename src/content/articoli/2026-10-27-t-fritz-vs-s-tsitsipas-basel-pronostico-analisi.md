@@ -22,6 +22,7 @@ pubblicato: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-t-fritz-vs-s-tsitsipas-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Stefanos Tsitsipas (2023 US Open) 07.jpg"
 ---
 

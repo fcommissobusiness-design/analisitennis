@@ -23,6 +23,7 @@ probabilita_favorito: "Alcaraz"
 probabilita_percent: 69
 cover_image: "/covers/2026-11-18-c-alcaraz-vs-d-medvedev-finals-turin-pronostico-analisi.jpg"
 cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Carlos Alcaraz (2026 US Open) - 09.jpg"
 generato_il: "2026-11-18T07:33+01:00"
 ---

@@ -21,6 +21,7 @@ descrizione: "Semifinale ATP Bruxelles tra Francisco Cerundolo e Tallon Griekspo
 pubblicato: true
 cover_image: "/covers/2026-10-24-f-cerundolo-vs-t-griekspoor-brussels-pronostico-analisi.jpg"
 cover_credit: "jmmuguerza / CC BY-SA 3.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Francisco Cerundolo - Wimbledon 2022 (20).jpg"
 ---
 

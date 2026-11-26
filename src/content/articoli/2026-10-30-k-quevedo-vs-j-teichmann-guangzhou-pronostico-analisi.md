@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-30T06:58"
 cover_image: "/covers/2026-10-30-k-quevedo-vs-j-teichmann-guangzhou-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Quevedo WMQ26 (6) (cropped).jpg"
 ---
 

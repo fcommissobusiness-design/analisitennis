@@ -23,6 +23,7 @@ noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-a-mannarino-vs-a-molcan-vienna-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Adrian Mannarino (2024 DC Open) 01 (cropped).jpg"
 ---
 

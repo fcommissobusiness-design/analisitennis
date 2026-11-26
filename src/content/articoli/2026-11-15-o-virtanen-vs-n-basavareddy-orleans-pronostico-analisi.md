@@ -26,6 +26,7 @@ cover_file: "File:Lukumanu Iddrisu at Otto Virtanen's Studio.jpg"
 generato_il: "2026-11-15T07:26+01:00"
 cover_image: "/covers/2026-11-15-o-virtanen-vs-n-basavareddy-orleans-pronostico-analisi.jpg"
 cover_credit: "Virtanen WMQ23 (53061681146).jpg | si.robi | CC BY-SA 2.0"
+cover_focus: 10
 ---
 
 Il CòMet Orléans Open si chiude con una finale che mette di fronte Otto Virtanen e Nishesh Basavareddy, due giocatori arrivati all'ultimo atto del Challenger francese dopo una settimana di grande continuità. Si gioca sul **cemento** di Orléans, in Francia, con in palio il trofeo e un bottino di punti importante per entrambi in un momento della stagione in cui il calendario del circuito maggiore è ormai agli sgoccioli.

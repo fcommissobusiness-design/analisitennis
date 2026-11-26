@@ -22,6 +22,7 @@ descrizione: "Lehecka contro Struff nella semifinale di Basel sul veloce indoor:
 pubblicato: true
 cover_image: "/covers/2026-10-31-j-lehecka-vs-j-l-struff-basel-pronostico-analisi.jpg"
 cover_credit: "Flic's Pics Experiment / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Jiří Lehečka ABN AMRO Open 2024 (3).jpg"
 generato_il: "2026-10-31T07:29"
 ---

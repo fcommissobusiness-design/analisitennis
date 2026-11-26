@@ -24,6 +24,7 @@ noindex: true
 generato_il: "2026-10-26T07:30"
 cover_image: "/covers/2026-10-26-m-brunold-vs-n-borges-basel-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Borges BOR22 (52082935912).jpg"
 ---
 

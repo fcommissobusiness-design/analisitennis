@@ -23,6 +23,7 @@ probabilita_favorito: "Gauff"
 probabilita_percent: 53
 cover_image: "/covers/2026-11-10-c-gauff-vs-l-noskova-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Coco Gauff Practicing Tennis 4.jpg"
 generato_il: "2026-11-10T07:43+01:00"
 ---

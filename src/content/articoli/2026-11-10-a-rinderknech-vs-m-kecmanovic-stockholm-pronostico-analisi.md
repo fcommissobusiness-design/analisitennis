@@ -26,6 +26,7 @@ cover_file: "File:Rinderknech REN21 (2).jpg"
 generato_il: "2026-11-10T07:45+01:00"
 cover_image: "/covers/2026-11-10-a-rinderknech-vs-m-kecmanovic-stockholm-pronostico-analisi.jpg"
 cover_credit: "Rinderknech REN21 (2).jpg | si.robi | CC BY-SA 2.0"
+cover_focus: 15
 ---
 
 Allo Stockholm Open, torneo svedese nato nel 1969 e disputato sul **cemento**, va in scena un confronto tra due giocatori che condividono molto più di quanto il sorteggio lasci immaginare. Arthur Rinderknech, francese destro di 196 centimetri, classe 1995, e Miomir Kecmanovic, serbo destro con rovescio a due mani, 183 centimetri, classe 1999, arrivano a questo incrocio da un periodo difficile e con la stessa necessità: rimettere insieme qualche vittoria prima della chiusura di stagione. Sono due carriere che hanno conosciuto la zona alta della classifica e che oggi attraversano una fase di flessione quasi speculare.

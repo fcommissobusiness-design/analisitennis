@@ -24,6 +24,7 @@ probabilita_favorito: "Maestrelli"
 probabilita_percent: 68
 cover_image: "/covers/2026-11-10-f-maestrelli-vs-j-loge-hersonissos-3-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Maestrelli WMQ26 (11) (55466988026).jpg"
 generato_il: "2026-11-10T07:41+01:00"
 ---

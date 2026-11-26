@@ -24,6 +24,7 @@ probabilita_percent: 71
 generato_il: "2026-11-05T07:37"
 cover_image: "/covers/2026-11-05-b-shelton-vs-a-rinderknech-paris-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 15
 cover_file: "File:Rinderknech REN21 (2).jpg"
 ---
 

@@ -23,6 +23,7 @@ probabilita_favorito: "Piros"
 probabilita_percent: 61
 cover_image: "/covers/2026-11-10-z-piros-vs-l-nardi-orleans-pronostico-analisi.jpg"
 cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Nardi WMQ23 (53061881614).jpg"
 generato_il: "2026-11-10T07:55+01:00"
 ---

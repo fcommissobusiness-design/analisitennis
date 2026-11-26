@@ -22,6 +22,7 @@ descrizione: "Altmaier contro Lehecka negli ottavi di Basilea sul cemento indoor
 pubblicato: true
 cover_image: "/covers/2026-10-29-d-altmaier-vs-j-lehecka-basel-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniel Altmaier (2023 US Open) 11.jpg"
 generato_il: "2026-10-29T06:57"
 ---

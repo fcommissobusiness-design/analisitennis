@@ -25,6 +25,7 @@ probabilita_favorito: "Etcheverry"
 probabilita_percent: 76
 cover_image: "/covers/2026-11-09-t-m-etcheverry-vs-m-dahlin-stockholm-pronostico-analisi.jpg"
 cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Tomás Martin Etcheverry - 2024 Olympics (cropped).jpg"
 generato_il: "2026-11-09T06:11"
 ---

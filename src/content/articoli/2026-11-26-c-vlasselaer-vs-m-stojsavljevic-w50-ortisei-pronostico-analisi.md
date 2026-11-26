@@ -24,6 +24,7 @@ probabilita_favorito: "Stojsavljevic"
 probabilita_percent: 62
 cover_image: "/covers/2026-11-26-c-vlasselaer-vs-m-stojsavljevic-w50-ortisei-pronostico-analisi.jpg"
 cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Mika Stojsavljevic 2026 Birmingham Open 2 (cropped).jpg"
 generato_il: "2026-11-26T07:17+01:00"
 ---

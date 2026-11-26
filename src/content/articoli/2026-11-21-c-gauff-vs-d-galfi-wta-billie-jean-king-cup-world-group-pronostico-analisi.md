@@ -23,6 +23,7 @@ probabilita_favorito: "Gauff"
 probabilita_percent: 78
 cover_image: "/covers/2026-11-21-c-gauff-vs-d-galfi-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
 cover_credit: "Nrbelex / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Gauff - US Open 2026 (cropped).jpg"
 generato_il: "2026-11-21T07:40+01:00"
 ---

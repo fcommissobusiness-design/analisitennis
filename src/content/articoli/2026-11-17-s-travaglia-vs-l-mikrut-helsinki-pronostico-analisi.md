@@ -24,6 +24,7 @@ probabilita_favorito: "Mikrut"
 probabilita_percent: 58
 cover_image: "/covers/2026-11-17-s-travaglia-vs-l-mikrut-helsinki-pronostico-analisi.jpg"
 cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Luka Mikrut (2026 US Open) 02 (cropped).jpg"
 generato_il: "2026-11-17T07:33+01:00"
 ---

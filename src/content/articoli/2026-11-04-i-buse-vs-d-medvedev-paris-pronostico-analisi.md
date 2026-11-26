@@ -23,6 +23,7 @@ probabilita_favorito: "Medvedev"
 probabilita_percent: 72
 cover_image: "/covers/2026-11-04-i-buse-vs-d-medvedev-paris-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniil Medvedev Practicing Tennis 08.jpg"
 generato_il: "2026-11-04T07:17"
 ---

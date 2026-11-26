@@ -21,6 +21,7 @@ descrizione: "Medvedev e Alcaraz si sfidano nella semifinale di Vienna sul veloc
 pubblicato: true
 cover_image: "/covers/2026-10-31-d-medvedev-vs-c-alcaraz-vienna-pronostico-analisi.jpg"
 cover_credit: "Amaury Laporte / CC BY 2.0 / Wikimedia Commons"
+cover_focus: 10
 cover_file: "File:Daniil Medvedev Practicing Tennis 02.jpg"
 generato_il: "2026-10-31T07:08"
 ---
