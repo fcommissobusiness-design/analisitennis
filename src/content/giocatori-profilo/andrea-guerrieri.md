@@ -36,11 +36,11 @@ Il percorso di Guerrieri non si lascia ridurre a una sola superficie. Nel 2026 s
 
 ## Trofei e momenti chiave
 
-Il traguardo più importante della carriera di Guerrieri è arrivato nel 2026 con la conquista del Garden Open, in Italia: il suo primo titolo ATP Challenger, ottenuto in finale contro Dalibor Svrčina con il punteggio di 6–4 2–6 6–1, una partita riaperta e vinta dopo aver perso il secondo set. A quel successo si aggiunge un bagaglio costruito nei tornei ITF, il gradino d'ingresso del professionismo.
+Il traguardo più importante della carriera di Guerrieri è arrivato nel 2026 con la conquista del Garden Open, in Italia: il suo primo titolo ATP Challenger, ottenuto in finale contro Dalibor Svrčina con il punteggio di 6-4 2-6 6-1, una partita riaperta e vinta dopo aver perso il secondo set. A quel successo si aggiunge un bagaglio costruito nei tornei ITF, il gradino d'ingresso del professionismo.
 
 In sintesi, i suoi riconoscimenti principali:
 
-- **1 titolo ATP Challenger**: il Garden Open 2026, finale vinta su Dalibor Svrčina 6–4 2–6 6–1.
+- **1 titolo ATP Challenger**: il Garden Open 2026, finale vinta su Dalibor Svrčina 6-4 2-6 6-1.
 - **3 titoli ITF** in carriera.
 - **Best ranking ATP in singolare: numero 164**, raggiunto il 28 settembre 2026.
 

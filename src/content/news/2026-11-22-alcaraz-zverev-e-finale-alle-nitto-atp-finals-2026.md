@@ -5,7 +5,7 @@ data: "2026-11-22"
 autore: "Redazione AnalisiTennis"
 categoria: "altro"
 chiave: "2026-11-22-altro-alexander-zverev-atp-finals"
-fonte_nome: "ATP Tour (ufficiale) – Zverev b. Medvedev"
+fonte_nome: "ATP Tour (ufficiale) - Zverev b. Medvedev"
 fonte_url: "https://www.atptour.com/en/news/zverev-medvedev-nitto-atp-finals-2026-saturday"
 tag:
   - "Alcaraz"
@@ -26,4 +26,4 @@ Zverev, invece, non ha perso un set in tutto il torneo di Torino. Contro Medvede
 
 Al termine delle gare, Alcaraz ha dichiarato: «Ero un po' frustrato all'inizio perché non ho iniziato il match come volevo». Zverev ha commentato: «Trovavo soluzioni anche quando non giocavo al meglio da fondo campo, sono molto contento di come ho servito oggi».
 
-Le informazioni sono riportate da ATP Tour (ufficiale) – Alcaraz b. Shelton e ATP Tour (ufficiale) – Zverev b. Medvedev.
+Le informazioni sono riportate da ATP Tour (ufficiale) - Alcaraz b. Shelton e ATP Tour (ufficiale) - Zverev b. Medvedev.

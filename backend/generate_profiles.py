@@ -382,7 +382,31 @@ def _yaml_quote(v: str) -> str:
     return str(v).replace('"', "'")
 
 
+_EN_DASH = '–'   # – trattino medio: punteggi, nomi, intervalli
+_EM_DASH = '—'   # — trattino lungo: vietato dalla regola tipografica di casa
+
+
+def _norm_dashes(text: str) -> str:
+    """Normalizza i trattini tipografici che il modello a volte infila nel
+    testo: l'en dash (–) diventa trattino corto (giusto per punteggi 6-4,
+    nomi 'Faip-Perrel', separatori '2019 - singolare'); l'em dash (—) diventa
+    virgola, come nel resto del sito (write_article.normalizza_tipografia).
+    Senza questo passaggio i profili passavano il gate ma la sanity-check li
+    segnalava con WARN 'en dash presente'."""
+    if not text:
+        return text
+    text = text.replace(_EN_DASH, '-')
+    text = (text.replace(' ' + _EM_DASH + ' ', ', ').replace(' ' + _EM_DASH, ',')
+                .replace(_EM_DASH + ' ', ', ').replace(_EM_DASH, ', '))
+    return text
+
+
 def _write_frontmatter(path: Path, fm: dict, body: str):
+    body = _norm_dashes(body)
+    fm = {k: (_norm_dashes(v) if isinstance(v, str)
+              else [_norm_dashes(x) if isinstance(x, str) else x for x in v]
+              if isinstance(v, list) else v)
+          for k, v in fm.items()}
     lines = ['---']
     for k, v in fm.items():
         if v is None or v == '':

@@ -91,6 +91,8 @@ def normalizza_tipografia(text):
     # parola che finisce in vocale + apostrofo ASCII
     text = re.sub(r"[A-Za-zàèéìòùÀÈÉÌÒÙ]*[aeiouAEIOU]'",
                   lambda m: _accenta_parola(m.group(0)), text)
+    # trattino medio (en dash U+2013) -> trattino corto (punteggi, nomi, intervalli)
+    text = text.replace('–', '-')
     # trattino lungo (em dash U+2014) -> virgola, preservando la spaziatura
     text = (text.replace(' — ', ', ').replace(' —', ',')
                 .replace('— ', ', ').replace('—', ', '))

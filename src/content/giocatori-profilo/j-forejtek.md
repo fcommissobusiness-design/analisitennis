@@ -38,9 +38,9 @@ Il dossier dei suoi risultati più prestigiosi suggerisce una matrice tecnica ad
 
 ## Trofei e momenti chiave
 
-- **US Open junior 2019 – singolare**: titolo conquistato in finale contro Emilio Nava (6-7(4), 6-0, 6-2).
-- **Australian Open junior 2019 – doppio**: vittoria in coppia con Dalibor Svrcina.
-- **Wimbledon junior 2019 – doppio**: titolo accanto a Jiri Lehecka.
+- **US Open junior 2019 - singolare**: titolo conquistato in finale contro Emilio Nava (6-7(4), 6-0, 6-2).
+- **Australian Open junior 2019 - doppio**: vittoria in coppia con Dalibor Svrcina.
+- **Wimbledon junior 2019 - doppio**: titolo accanto a Jiri Lehecka.
 - **Numero 1 del ranking junior combinato ITF**: vetta raggiunta il 9 settembre 2019.
 - **Miglior ranking ATP in singolare**: numero 217, toccato il 1º agosto 2022.
 - **Miglior ranking ATP in doppio**: numero 300, raggiunto il 27 ottobre 2025.

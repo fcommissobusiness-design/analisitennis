@@ -44,4 +44,4 @@ Tra i principali trofei della sua carriera:
 - Internazionali di Tennis Città di Verona 2022 (Challenger)
 - Abruzzo Open 2025 (Challenger)
 - Ion Țiriac Challenger, Brașov 2025 (Challenger)
-- Trofeo Faip–Perrel, Bergamo 2025 (Challenger)
+- Trofeo Faip-Perrel, Bergamo 2025 (Challenger)

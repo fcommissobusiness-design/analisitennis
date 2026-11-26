@@ -77,6 +77,8 @@ def normalizza(text):
     if not text:
         return text
     text = re.sub(r"[A-Za-zàèéìòùÀÈÉÌÒÙ]*[aeiouAEIOU]'", lambda m: _accenta(m.group(0)), text)
+    # en dash (–) -> trattino corto (punteggi, nomi, intervalli)
+    text = text.replace('–', '-')
     text = (text.replace(' — ', ', ').replace(' —', ',').replace('— ', ', ').replace('—', ', '))
     return re.sub(r',\s*,', ',', text)
 

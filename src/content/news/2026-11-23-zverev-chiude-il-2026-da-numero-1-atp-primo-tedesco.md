@@ -5,7 +5,7 @@ data: "2026-11-23"
 autore: "Redazione AnalisiTennis"
 categoria: "traguardo"
 chiave: "2026-11-23-traguardo-alexander-zverev-carlos-alcaraz"
-fonte_nome: "ATP Tour (fonte ufficiale) – Alexander Zverev claims year-end No. 1; Jannik Sinner, Carlos Alcaraz follow"
+fonte_nome: "ATP Tour (fonte ufficiale) - Alexander Zverev claims year-end No. 1; Jannik Sinner, Carlos Alcaraz follow"
 fonte_url: "https://www.atptour.com/en/news/year-end-pif-atp-rankings-2026-release"
 tag:
   - "Alexander Zverev"
@@ -26,4 +26,4 @@ Il traguardo arriva al termine dell'annata più ricca della sua carriera. Nel 20
 
 L'ATP segnala inoltre che è la terza stagione consecutiva in cui il Top 3 del ranking di fine anno è composto dagli stessi giocatori, Zverev, Sinner e Alcaraz, con l'italiano secondo e lo spagnolo terzo quest'anno. Il resto della Top 10 di fine 2026 vede 4. Ben Shelton, 5. Daniil Medvedev, 6. Flavio Cobolli, 7. Arthur Fils, 8. Frances Tiafoe, 9. Taylor Fritz e 10. Rafael Jodar.
 
-I dati sono riportati secondo ATP Tour (fonte ufficiale) – Alexander Zverev claims year-end No. 1; Jannik Sinner, Carlos Alcaraz follow.
+I dati sono riportati secondo ATP Tour (fonte ufficiale) - Alexander Zverev claims year-end No. 1; Jannik Sinner, Carlos Alcaraz follow.
