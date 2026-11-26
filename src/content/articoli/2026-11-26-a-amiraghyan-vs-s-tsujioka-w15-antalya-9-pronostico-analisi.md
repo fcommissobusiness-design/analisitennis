@@ -1,6 +1,6 @@
 ---
 titolo: "Amiraghyan-Tsujioka: freschezza contro chilometraggio"
-sottotitolo: "Due giocatrici reduci dal primo turno vinto si incrociano negli ottavi del W15 Antalya 9, con percorsi recenti molto diversi alle spalle."
+sottotitolo: "Due giocatrici reduci dal primo turno vinto si incrociano nel secondo turno del W15 Antalya 9, con percorsi recenti molto diversi alle spalle."
 data: "2026-11-26"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Antalya 9"
@@ -14,21 +14,21 @@ tag:
   - "W15 Antalya 9"
   - "ITF femminile"
   - "tennis femminile"
-  - "ottavi di finale"
+  - "secondo turno"
   - "pronostico tennis"
 verdetto: "Oggi la può spuntare Amiraghyan: arriva più fresca, con un calendario recente rado e un primo turno chiuso in economia, mentre Tsujioka paga un carico di partite elevato e la fatica di un terzo set vinto appena ieri. Partita comunque aperta."
-descrizione: "Amiraghyan contro Tsujioka negli ottavi del W15 Antalya 9: forma, carichi di lavoro e primo turno a confronto in una partita dai contorni aperti."
+descrizione: "Amiraghyan contro Tsujioka nel secondo turno del W15 Antalya 9: forma, carichi di lavoro e primo turno a confronto in una partita dai contorni aperti."
 pubblicato: true
 noindex: true
 probabilita_favorito: "Amiraghyan"
 probabilita_percent: 57
-cover_file: "File:Sydney International Tennis ATP (46001161725).jpg"
+cover_file: "File:Sydney International Tennis WTA (46863223952).jpg"
 generato_il: "2026-11-26T07:30+01:00"
 cover_image: "/covers/2026-11-26-a-amiraghyan-vs-s-tsujioka-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
-Gli ottavi di finale del W15 Antalya 9 mettono di fronte A. Amiraghyan e S. Tsujioka, due giocatrici che arrivano a questo incrocio dopo aver superato il turno d'esordio il 25 novembre, ma seguendo strade molto differenti nelle settimane precedenti. È il tipo di partita, su un torneo del gradino d'ingresso del professionismo femminile, in cui la differenza spesso non la fa un nome più altisonante dell'altro, bensì la condizione del momento e il modo in cui ciascuna gestisce ritmo ed energie.
+Il secondo turno del W15 Antalya 9 mette di fronte A. Amiraghyan e S. Tsujioka, due giocatrici che arrivano a questo incrocio dopo aver superato il turno d'esordio il 25 novembre, ma seguendo strade molto differenti nelle settimane precedenti. È il tipo di partita, su un torneo del gradino d'ingresso del professionismo femminile, in cui la differenza spesso non la fa un nome più altisonante dell'altro, bensì la condizione del momento e il modo in cui ciascuna gestisce ritmo ed energie.
 
 ### La forma recente
 Amiraghyan si è presentata al torneo con un calendario più diradato: prima di Antalya, i suoi riferimenti recenti risalgono a metà ottobre sul W15 di Bol e a inizio ottobre sul W50 di Heraklion 2, con un intervallo di diverse settimane senza match a referto. Nelle ultime cinque uscite ha alternato tre vittorie e due sconfitte, tutte decise in due set: un dato che racconta una giocatrice che tende a non trascinare la partita quando prende una direzione, nel bene e nel male. Il segnale più fresco è la vittoria netta all'esordio contro A. Yesaian, chiusa senza concedere set.
@@ -48,4 +48,4 @@ Sul piano puramente qualitativo, le due appaiono vicine per calibro. Entrambe ha
 
 La chiave, allora, diventa il modo in cui ciascuna vuole indirizzare la partita. Per Amiraghyan l'ideale è mettere subito il match sul binario corto, replicando il copione del suo primo turno: prendere quota e chiudere senza allungare. Per Tsujioka, al contrario, la strada più congeniale passa dalla capacità di restare agganciata allo scambio, trascinare la partita e sfruttare l'abitudine ai match lunghi che ha mostrato di recente, pur con il rischio che la fatica presenti il conto nel finale.
 
-Il primo set, in un quadro del genere, pesa più del solito. Se a imporre il ritmo è la giocatrice più fresca, la partita rischia di prendere una piega lineare; se invece è Tsujioka a tenere l'avvio e a trasformarlo in battaglia, la sua esperienza nei testa a testa prolungati può riequilibrare tutto. Sono due logiche opposte che convivono nello stesso incrocio, e che rendono questo ottavo meno scontato di quanto la differenza di percorsi possa suggerire.
+Il primo set, in un quadro del genere, pesa più del solito. Se a imporre il ritmo è la giocatrice più fresca, la partita rischia di prendere una piega lineare; se invece è Tsujioka a tenere l'avvio e a trasformarlo in battaglia, la sua esperienza nei testa a testa prolungati può riequilibrare tutto. Sono due logiche opposte che convivono nello stesso incrocio, e che rendono questo secondo turno meno scontato di quanto la differenza di percorsi possa suggerire.

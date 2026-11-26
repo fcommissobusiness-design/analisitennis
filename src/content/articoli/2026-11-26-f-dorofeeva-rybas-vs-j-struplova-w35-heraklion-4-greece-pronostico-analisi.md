@@ -1,6 +1,6 @@
 ---
 titolo: "Struplova riparte a Heraklion, Dorofeeva-Rybas accelera"
-sottotitolo: "Negli ottavi del W35 cretese si incrociano una diciassettenne lanciata da un lungo filotto e una ventiduenne di rango appena rientrata dallo stop."
+sottotitolo: "Nel secondo turno del W35 cretese si incrociano una diciassettenne lanciata da un lungo filotto e una ventiduenne di rango appena rientrata dallo stop."
 data: "2026-11-26"
 autore: "Redazione AnalisiTennis"
 torneo: "W35 Heraklion 4 (Greece)"
@@ -14,10 +14,10 @@ tag:
   - "W35 Heraklion"
   - "ITF femminile"
   - "tennis femminile"
-  - "ottavi di finale"
+  - "secondo turno"
   - "pronostico tennis"
 verdetto: "Oggi la può spuntare Dorofeeva-Rybas: il ritmo partita accumulato nelle ultime settimane e la fiducia di un lungo filotto pesano più del maggior bagaglio di una Struplova ancora in rodaggio dopo il lungo stop. Terzo set tutt'altro che escluso."
-descrizione: "F. Dorofeeva-Rybas sfida J. Struplova negli ottavi del W35 Heraklion 4: forma, freschezza e momenti di carriera a confronto. L'analisi completa."
+descrizione: "F. Dorofeeva-Rybas sfida J. Struplova nel secondo turno del W35 Heraklion 4: forma, freschezza e momenti di carriera a confronto. L'analisi completa."
 pubblicato: true
 noindex: true
 probabilita_favorito: "Dorofeeva-Rybas"
@@ -28,7 +28,7 @@ cover_file: "File:Julie Štruplová (2026 US Open) 01.jpg"
 generato_il: "2026-11-26T07:16+01:00"
 ---
 
-Gli ottavi di finale del W35 di Heraklion mettono di fronte due storie opposte dentro lo stesso tabellone. Da una parte **Felitsata Dorofeeva-Rybas**, russa classe 2009, appena diciassettenne, arrivata a questo turno sull'onda di settimane di tennis quasi ininterrotto. Dall'altra **Julie Struplova**, ceca del 2004, ventidue anni e un curriculum costruito a un livello superiore, che qui sta ritrovando il campo dopo una pausa prolungata. Due giocatrici a punti diversi della propria parabola, chiamate a incrociarsi in una mattinata di fine novembre.
+Il secondo turno del W35 di Heraklion mette di fronte due storie opposte dentro lo stesso tabellone. Da una parte **Felitsata Dorofeeva-Rybas**, russa classe 2009, appena diciassettenne, arrivata a questo turno sull'onda di settimane di tennis quasi ininterrotto. Dall'altra **Julie Struplova**, ceca del 2004, ventidue anni e un curriculum costruito a un livello superiore, che qui sta ritrovando il campo dopo una pausa prolungata. Due giocatrici a punti diversi della propria parabola, chiamate a incrociarsi in una mattinata di fine novembre.
 
 ### Il momento delle due
 Dorofeeva-Rybas vive una fase di piena espansione. Giovanissima, viaggia nel circuito internazionale con un'intensità di calendario notevole e un bottino recente molto positivo, frutto di un periodo passato a mettere insieme match su match. Per un'atleta della sua età, un torneo come questo vale soprattutto come banco di prova continuo: accumulare partite, misurarsi con avversarie di maggiore esperienza, dare seguito a una crescita che procede a ritmo sostenuto.

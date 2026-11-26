@@ -1,6 +1,6 @@
 ---
 titolo: "Allen e Shaikh a Heraklion: più ritmo o più freschezza?"
-sottotitolo: "Agli ottavi del W35 cretese si incrociano una giocatrice in piena attività e una che sta ritrovando il ritmo-partita."
+sottotitolo: "Al secondo turno del W35 cretese si incrociano una giocatrice in piena attività e una che sta ritrovando il ritmo-partita."
 data: "2026-11-26"
 autore: "Redazione AnalisiTennis"
 torneo: "W35 Heraklion 4 (Greece)"
@@ -14,10 +14,10 @@ tag:
   - "W35 Heraklion"
   - "ITF femminile"
   - "tennis femminile"
-  - "ottavi di finale"
+  - "secondo turno"
   - "pronostico tennis"
 verdetto: "Oggi la può spuntare Allen: il ritmo-partita accumulato nelle settimane greche e la familiarità con queste condizioni pesano più del miglior ranking nominale di Shaikh, reduce da pochissime partite. Margine sottile, però, e terzo set tutt'altro che improbabile."
-descrizione: "V. Allen e H. Shaikh agli ottavi del W35 Heraklion 4: forma, carico di partite e tenuta nei match lunghi a confronto in una sessione mattutina."
+descrizione: "V. Allen e H. Shaikh al secondo turno del W35 Heraklion 4: forma, carico di partite e tenuta nei match lunghi a confronto in una sessione mattutina."
 pubblicato: true
 noindex: true
 probabilita_favorito: "Allen"
@@ -25,10 +25,10 @@ probabilita_percent: 56
 cover_file: "File:Sydney International Tennis ATP (46001161725).jpg"
 generato_il: "2026-11-26T07:12+01:00"
 cover_image: "/covers/2026-11-26-v-allen-vs-h-shaikh-w35-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
-Gli **ottavi di finale** del W35 Heraklion 4 mettono di fronte V. Allen e H. Shaikh in una sessione mattutina di fine novembre, uno dei primissimi incontri di giornata sul blocco cretese che da settimane ospita questo spezzone di calendario ITF femminile. Due giocatrici che arrivano allo stesso turno da strade diverse, ed è proprio questo contrasto a rendere l'incontro più interessante di quanto il solo nome del round lasci intuire.
+Il **secondo turno** del W35 Heraklion 4 mette di fronte V. Allen e H. Shaikh in una sessione mattutina di fine novembre, uno dei primissimi incontri di giornata sul blocco cretese che da settimane ospita questo spezzone di calendario ITF femminile. Due giocatrici che arrivano allo stesso turno da strade diverse, ed è proprio questo contrasto a rendere l'incontro più interessante di quanto il solo nome del round lasci intuire.
 
 ### Il momento in classifica
 Sulla carta Shaikh occupa una posizione di classifica più alta, frutto di un percorso che l'ha vista toccare il suo miglior piazzamento nella prima parte del 2026. Allen si colloca invece in una fascia inferiore, quella tipica delle giocatrici che su questo livello di tabellone costruiscono e consolidano punti. Il dato, però, va maneggiato con prudenza: la posizione di Shaikh poggia su un picco ormai distante diversi mesi e su un'attività recente piuttosto rarefatta, mentre quella di Allen fotografa un'atleta in piena attività. La distanza nominale, insomma, racconta solo una parte della storia.

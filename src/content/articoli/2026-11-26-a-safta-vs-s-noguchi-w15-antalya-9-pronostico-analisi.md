@@ -1,6 +1,6 @@
 ---
 titolo: "Safta-Noguchi, ad Antalya si incontrano due stagioni opposte"
-sottotitolo: "Chi ha giocato di più e chi arriva più fresco: agli ottavi del W15 si misurano ritmo e freschezza su binari diversi"
+sottotitolo: "Chi ha giocato di più e chi arriva più fresco: al secondo turno del W15 si misurano ritmo e freschezza su binari diversi"
 data: "2026-11-26"
 autore: "Redazione AnalisiTennis"
 torneo: "W15 Antalya 9"
@@ -14,10 +14,10 @@ tag:
   - "W15 Antalya"
   - "ITF femminile"
   - "tennis femminile"
-  - "ottavi di finale"
+  - "secondo turno"
   - "pronostico tennis"
 verdetto: "Oggi la può spuntare Noguchi: la caratura recente contro campi W35/W50 e l'ambientamento alla seconda settimana ad Antalya le danno un margine, per quanto stretto. Occhio però alla maggiore freschezza di Safta, che sul terzo set può riaprire tutto."
-descrizione: "A. Safta e S. Noguchi agli ottavi del W15 Antalya 9: forma recente, carico di match e primo set a confronto in un incontro dagli equilibri sottili."
+descrizione: "A. Safta e S. Noguchi al secondo turno del W15 Antalya 9: forma recente, carico di match e primo set a confronto in un incontro dagli equilibri sottili."
 pubblicato: true
 noindex: true
 probabilita_favorito: "Noguchi"
@@ -28,7 +28,7 @@ cover_file: "File:Sydney International Tennis WTA (46001159085).jpg"
 generato_il: "2026-11-26T07:38+01:00"
 ---
 
-Gli ottavi del **W15 Antalya 9** mettono di fronte A. Safta e S. Noguchi in un match che, più che dai nomi, prende forma dai percorsi recenti delle due giocatrici. Entrambe si presentano con una vittoria appena incassata, mercoledì 25 novembre, nello stesso torneo: Safta ha superato J. Weissenboeck, Noguchi ha regolato A. Kartseva. Da lì in avanti, però, le loro settimane raccontano storie molto diverse, ed è su quelle differenze che si gioca la lettura dell'incontro.
+Il secondo turno del **W15 Antalya 9** mette di fronte A. Safta e S. Noguchi in un match che, più che dai nomi, prende forma dai percorsi recenti delle due giocatrici. Entrambe si presentano con una vittoria appena incassata, mercoledì 25 novembre, nello stesso torneo: Safta ha superato J. Weissenboeck, Noguchi ha regolato A. Kartseva. Da lì in avanti, però, le loro settimane raccontano storie molto diverse, ed è su quelle differenze che si gioca la lettura dell'incontro.
 
 ### Il momento di forma
 Safta arriva da un periodo a intermittenza. Il suo bilancio nelle ultime uscite è di quattro vittorie e cinque sconfitte, con una militanza concentrata nei mesi scorsi sul circuito dell'Europa centro-orientale: Chisinau in Moldova a ottobre, poi Constanta, Campulung e Brasov in Romania a settembre. Tra metà ottobre e la vigilia di Antalya si nota un vuoto di match ufficiali, un segnale di una fase con poche partite nelle gambe. La vittoria netta su Weissenboeck è comunque un buon biglietto da visita per ricominciare a mettere in fila successi.

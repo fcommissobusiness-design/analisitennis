@@ -22,7 +22,7 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Perelygina"
 probabilita_percent: 57
-cover_file: "File:Sydney International Tennis ATP (46001164015).jpg"
+cover_file: "File:Sydney International Tennis WTA (46000969935).jpg"
 generato_il: "2026-11-26T07:31+01:00"
 cover_image: "/covers/2026-11-26-k-kuzmova-vs-e-perelygina-w50-ortisei-pronostico-analisi.jpg"
 cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"

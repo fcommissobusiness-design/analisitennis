@@ -1,5 +1,5 @@
 ---
-titolo: "Trevisan e Diaz Adrover, un ottavo di ritmo e tenuta"
+titolo: "Trevisan e Diaz Adrover, un secondo turno di ritmo e tenuta"
 sottotitolo: "Due giocatrici di pari fascia si incrociano per la prima volta ad Antalya, dopo aver passato entrambe il turno il giorno prima."
 data: "2026-11-26"
 autore: "Redazione AnalisiTennis"
@@ -14,10 +14,10 @@ tag:
   - "W15 Antalya"
   - "ITF femminile"
   - "tennis femminile"
-  - "ottavi di finale"
+  - "secondo turno"
   - "pronostico tennis"
 verdetto: "Oggi la può spuntare Trevisan: è alla terza settimana consecutiva sui campi di Antalya, arriva in crescita proprio in questo evento e ieri ha vinto in due set risparmiando energie, mentre Diaz Adrover ha dovuto spendere un intero terzo set per passare il turno."
-descrizione: "F. Trevisan e C. Diaz Adrover si affrontano negli ottavi del W15 Antalya 9: forma delle ultime settimane, freschezza e tenuta nel primo incrocio tra le due."
+descrizione: "F. Trevisan e C. Diaz Adrover si affrontano al secondo turno del W15 Antalya 9: forma delle ultime settimane, freschezza e tenuta nel primo incrocio tra le due."
 pubblicato: true
 noindex: true
 probabilita_favorito: "Trevisan"
@@ -25,13 +25,13 @@ probabilita_percent: 57
 cover_file: "File:Sydney International Tennis WTA (46001164655).jpg"
 generato_il: "2026-11-26T07:35+01:00"
 cover_image: "/covers/2026-11-26-f-trevisan-vs-c-diaz-adrover-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
 ---
 
-Gli ottavi di finale del W15 di Antalya 9 mettono di fronte **F. Trevisan** e **C. Diaz Adrover** in un incontro inserito nella sessione mattutina, tra i primi in programma della giornata. Entrambe si presentano a questo turno dopo aver superato l'ostacolo del giorno precedente, un dettaglio che racconta già una condizione quantomeno affidabile sul posto. Si tratta del primo confronto diretto tra le due: non ci sono precedenti su cui tarare aspettative, e questo lascia aperto tutto il ventaglio degli scenari.
+Il secondo turno del W15 di Antalya 9 mette di fronte **F. Trevisan** e **C. Diaz Adrover** in un incontro inserito nella sessione mattutina, tra i primi in programma della giornata. Entrambe si presentano a questo turno dopo aver superato l'ostacolo del giorno precedente, un dettaglio che racconta già una condizione quantomeno affidabile sul posto. Si tratta del primo confronto diretto tra le due: non ci sono precedenti su cui tarare aspettative, e questo lascia aperto tutto il ventaglio degli scenari.
 
 ### Il contesto del torneo
-Antalya 9 è una delle tappe di una serie continuativa di eventi del circuito ITF femminile che si sono susseguiti settimana dopo settimana sullo stesso polo turco. È il gradino d'ingresso del professionismo, il terreno dove si accumulano partite e punti utili a muovere la classifica. Per entrambe il senso dell'appuntamento è chiaro: raccogliere incontri e dare continuità a un percorso che, in questa fascia, si costruisce proprio mattone su mattone. La fase è quella degli ottavi del tabellone principale, non un turno di qualificazione: un traguardo coerente con il cammino di chi ha già vinto almeno una partita in sede.
+Antalya 9 è una delle tappe di una serie continuativa di eventi del circuito ITF femminile che si sono susseguiti settimana dopo settimana sullo stesso polo turco. È il gradino d'ingresso del professionismo, il terreno dove si accumulano partite e punti utili a muovere la classifica. Per entrambe il senso dell'appuntamento è chiaro: raccogliere incontri e dare continuità a un percorso che, in questa fascia, si costruisce proprio mattone su mattone. La fase è quella del secondo turno del tabellone principale, non un turno di qualificazione: un traguardo coerente con il cammino di chi ha già vinto almeno una partita in sede.
 
 ### La forma delle ultime settimane
 Trevisan è reduce da un periodo trascorso quasi interamente ad Antalya. Nelle due settimane precedenti le cose non erano andate per il verso giusto, con uscite rapide, mentre in questo evento ha invertito la rotta superando il primo turno contro S. Bojica in due set. È un segnale di crescita proprio nel momento attuale, dopo un filotto più convincente a inizio settembre a Fiano Romano che resta però sullo sfondo, lontano nel tempo.
