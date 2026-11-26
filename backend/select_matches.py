@@ -88,14 +88,29 @@ def classifica_tier(match):
     tipo = (match.get('event_type_type') or '').strip().lower()
     nome = (match.get('tournament_name') or '').strip().lower()
 
+    # Eventi a squadre nazionali (Davis Cup, BJK Cup, United Cup, ATP Cup): il
+    # marcatore sta nel NOME del torneo (es. "Davis Cup - World Group Teams")
+    # o in un event_type "Teams Men"/"Teams Women", NON in un tipo 'davis cup'.
+    # Vanno intercettati PRIMA di tutto, altrimenti cadono in OTHER e spariscono
+    # dalla slate (bug 26/11/2026: Davis Cup esclusa mentre uscivano solo ITF).
+    if ('davis cup' in nome or 'billie jean king' in nome or 'united cup' in nome
+            or 'atp cup' in nome or tipo.startswith('teams')):
+        return 'MAIN_TEAM'
+
     if 'grand slam' in tipo:
         return 'SLAM'
     if 'masters' in tipo:
         return 'MASTERS'
-    # WTA 125 e' tier Challenger lato femminile: va intercettata PRIMA di
-    # 'challenger' generico, altrimenti un tipo come "Challenger Women
-    # Singles" (visto per Colina 17/11/2026) viene classificato CHALLENGER
-    # e l'articolo esce come Challenger/cemento invece di WTA/terra.
+    # ITF PRIMA della scorciatoia 'women': "Itf Women Singles" e' un ITF, non
+    # una WTA125. Senza questo controllo gli ITF femminili (W15/W50...) entrano
+    # in slate travestiti da WTA125 e la riempiono al posto dei match importanti
+    # (bug 26/11/2026). Gli ITF restano poi esclusi dalla selezione.
+    if 'itf' in tipo:
+        return 'ITF'
+    # WTA 125 lato femminile: l'API la etichetta "Challenger Women Singles".
+    # Va intercettata PRIMA di 'challenger' generico, altrimenti un tipo come
+    # "Challenger Women Singles" (visto per Colina 17/11/2026) viene classificato
+    # CHALLENGER e l'articolo esce come Challenger/cemento invece di WTA/terra.
     if 'women' in tipo:
         return 'WTA125'
     if 'wta' in tipo and ('125' in tipo or '125' in nome):
@@ -113,10 +128,6 @@ def classifica_tier(match):
         if '500' in nome or '500' in tipo: return 'ATP500'
         if '250' in nome or '250' in tipo: return 'ATP250'
         return 'ATP'
-    if 'itf' in tipo:
-        return 'ITF'
-    if 'davis cup' in tipo or 'billie jean king' in tipo:
-        return 'MAIN_TEAM'
     return 'OTHER'
 
 
