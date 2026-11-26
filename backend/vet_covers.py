@@ -126,6 +126,14 @@ PROMPT = (
     "rispondi NO.\n"
     "- Un match di DOPPIO (QUATTRO giocatori in campo contemporaneamente) come "
     "soggetto chiaro: NO, perche' gli articoli trattano SINGOLARI.\n"
+    "- Una POSA STRANA, SCOMPOSTA o AMBIGUA, che possa risultare EQUIVOCA o "
+    "SESSUALIZZABILE: gambe molto divaricate verso l'obiettivo, inquadratura "
+    "che insiste su glutei, petto o inguine, accosciata o caduta a terra in "
+    "posizione scomposta, gonna o abbigliamento sollevato, smorfia contorta o "
+    "grottesca. Anche quando e' una normalissima azione di gioco: se "
+    "l'immagine si puo' leggere in modo equivoco, o mette il soggetto in una "
+    "posizione poco dignitosa, rispondi NO. Vale a maggior ragione per le "
+    "GIOCATRICI. Nel dubbio su una posa, rispondi NO.\n"
     "- Qualunque cosa non chiaramente legata al tennis.\n\n"
     "Nel dubbio tra azione e primo piano del volto, rispondi NO. Nel dubbio tra "
     "una vera foto di gioco e un tabellone/una folla/delle tribune, rispondi NO.\n"
@@ -151,6 +159,24 @@ def _gender_clause(gender: str) -> str:
     return ""
 
 
+def _players_clause(g1: str, g2: str) -> str:
+    """Clausola di PERTINENZA DEL SOGGETTO. Una cover non deve mai ritrarre un
+    tennista diverso dai due protagonisti: il lettore crederebbe che il soggetto
+    sia uno dei due (es. Kerber messa su un articolo Lacinova-Obradovic, 26/11).
+    Le immagini senza persone identificabili restano sempre ammesse."""
+    names = ' e '.join(n for n in (g1 or '', g2 or '') if n.strip())
+    if not names:
+        return ""
+    return ("\n\nPROTAGONISTI DEL MATCH: " + names + ". La cover NON deve "
+            "ritrarre in modo riconoscibile un tennista o una tennista DIVERSO "
+            "da loro: sarebbe una foto non pertinente, che fa credere al lettore "
+            "che il soggetto sia uno dei due protagonisti. Se nella foto il "
+            "volto di chi gioca e' nitido e riconoscibile e NON corrisponde a "
+            "nessuno dei due nomi qui sopra, rispondi NO. Le immagini SENZA "
+            "persone identificabili (campo, rete, attrezzatura, soggetto di "
+            "spalle o troppo lontano per essere riconosciuto) restano ammesse.")
+
+
 def _gender_for(fm: dict) -> str:
     """Genere atteso: prima dalla categoria (WTA/ATP/Challenger), poi dal CODICE
     del torneo negli ITF (W50/W15 = femminile, M25/M15 = maschile), infine dai
@@ -171,12 +197,16 @@ def _gender_for(fm: dict) -> str:
     return ''
 
 
-def vet_image(path: Path, gender: str = '', timeout=120) -> tuple[bool, str]:
+def vet_image(path: Path, gender: str = '', timeout=120, players=('', '')) -> tuple[bool, str]:
     """Ritorna (pertinente, motivo). In caso di errore CLI -> (True, 'skip')
-    per non bloccare: non vogliamo perdere una cover buona per un glitch."""
+    per non bloccare: non vogliamo perdere una cover buona per un glitch.
+    `players` = (giocatore1, giocatore2) per il gate di pertinenza del soggetto."""
     try:
+        prompt = (PROMPT.format(path=path) + _gender_clause(gender)
+                  + _players_clause(players[0] if players else '',
+                                    players[1] if len(players) > 1 else ''))
         r = subprocess.run(
-            [CLAUDE_BIN, '-p', PROMPT.format(path=path) + _gender_clause(gender)],
+            [CLAUDE_BIN, '-p', prompt],
             capture_output=True, text=True, timeout=timeout,
         )
         out = (r.stdout or '').strip()
@@ -219,7 +249,7 @@ def _reresolve_distinct(art: Path, forbidden: set) -> str:
         if not pick or not pick.get('title') or pick['title'] in forbidden:
             return ''
         _apply(stem, pick)
-        ok, _m = vet_image(cover, gender)
+        ok, _m = vet_image(cover, gender, players=(g1, g2))
         return pick['title'] if ok else ''
 
     for g in (g1, g2):
@@ -324,7 +354,8 @@ def main():
         if not cover.exists():
             continue
         gender = _gender_for(fm)
-        ok, motivo = vet_image(cover, gender)
+        players = (fm.get('giocatore1', ''), fm.get('giocatore2', ''))
+        ok, motivo = vet_image(cover, gender, players=players)
         entry = {'slug': art.stem, 'ok': ok, 'motivo': motivo}
         if ok:
             print(f'  [SI] {art.stem[:50]}', flush=True)
@@ -344,7 +375,7 @@ def main():
 
         gen_ok, gen_msg = regenerate_cover(art)
         if gen_ok:
-            ok2, m2 = vet_image(cover, gender)
+            ok2, m2 = vet_image(cover, gender, players=players)
             attempts.append(('rigenera', gen_msg[:40], ok2, m2))
             if ok2:
                 entry.update({'ok': True, 'risolta_con': 'rigenera'})
@@ -367,7 +398,7 @@ def main():
             if not pick:
                 continue
             t = _apply(stem, pick)
-            ok3, m3 = vet_image(cover, gender)
+            ok3, m3 = vet_image(cover, gender, players=players)
             attempts.append(('giocatore:' + full, t, ok3, m3))
             if ok3:
                 entry.update({'ok': True, 'risolta_con': 'giocatore ' + full})
@@ -394,7 +425,7 @@ def main():
             if not ph or not ph.get('url'):
                 continue
             t = _apply(stem, ph)
-            okP, mP = vet_image(cover, gender)
+            okP, mP = vet_image(cover, gender, players=players)
             attempts.append(('p18:' + full, t, okP, mP))
             if okP:
                 entry.update({'ok': True, 'risolta_con': 'P18 ' + full})
@@ -410,7 +441,7 @@ def main():
             try:
                 court = _clean_court_for(stem, off)
                 t = _apply(stem, _fetch_commons(court))
-                ok4, m4 = vet_image(cover, gender)
+                ok4, m4 = vet_image(cover, gender, players=players)
                 attempts.append(('campo', t, ok4, m4))
                 entry['ok'] = ok4
                 if ok4:
