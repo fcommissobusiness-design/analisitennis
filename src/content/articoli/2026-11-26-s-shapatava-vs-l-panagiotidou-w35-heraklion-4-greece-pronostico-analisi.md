@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Shapatava"
 probabilita_percent: 58
-cover_file: "File:Sydney International Tennis ATP (46001164015).jpg"
+cover_file: "File:Sydney International Tennis WTA (33040175848).jpg"
 generato_il: "2026-11-26T07:23+01:00"
 cover_image: "/covers/2026-11-26-s-shapatava-vs-l-panagiotidou-w35-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Nationa lTennis Centre Toronto Canadian Open August 1997.jpg | TorontoGuy79 | CC BY-SA 4.0"
+cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
 ---
 
 Il secondo turno del W35 Heraklion 4 mette di fronte due storie opposte nella mattinata del 26 novembre, con il match in programma alle 08:30 ora italiana. Da una parte **S. Shapatava**, giocatrice di lungo corso con un bagaglio ampio di partite sul circuito femminile; dall'altra **L. Panagiotidou**, profilo agli inizi della sua esperienza tra le senior, con pochissimi incontri registrati. È il tipo di confronto in cui i numeri raccontano una cosa e il momento delle due ne suggerisce un'altra, più sfumata.
