@@ -26,36 +26,54 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from attach_covers import (parse_frontmatter, NAME_MAP, pick_image, S,
                            download, strip_html, update_frontmatter, COVERS_DIR,
-                           used_covers_for_player, entity_photo)
+                           used_covers_for_player, entity_photo,
+                           all_used_cover_files)
 from audit_covers import regenerate_cover, ARTICOLI, ROOT
 from pool_cover import gender_from_categoria
 
-# Campi da tennis puliti e inequivocabili, usati come ultima spiaggia quando
-# ne' foto giocatore ne' venue passano il vet (es. match tra due sconosciuti
-# in un impianto che su Commons ha solo foto-concerto o esterni notturni).
-# Arene di ripiego VERIFICATE col vet visivo (campo in gioco, non esterni o
-# campi vuoti, che il gate di pertinenza boccia). Ampio e variato per ridurre
-# le ripetizioni quando piu' articoli cadono sul fallback. Aggiornato 31/10/26
-# dopo un audit completo delle cover (fix_cover_duplicates.py).
-CLEAN_COURTS = [
-    'File:Sydney International Tennis ATP 250 (46001156835).jpg',
-    'File:Olympic Tennis Centre, Rio, Brazil.jpg',
-    'File:Anjo Sports Park tennis court ac.jpg',
-    'File:Taube Family Tennis Stadium 2015.JPG',
-    'File:PP Olympic Stadium - Tennis courts.jpg',
-    'File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg',
-    'File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg',
-    'File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg',
-    'File:RK Khanna Tennis Complex New Delhi - Centre Court at Night.jpg',
-]
+# L'ultima spiaggia, quando ne' foto giocatore ne' venue passano il vet (il
+# caso tipico: un W15 tra due sconosciute, di cui non esiste nessuna foto),
+# e' il POOL LOCALE di immagini NEUTRE: public/covers/pool/ + manifest.json,
+# scelto da pool_cover.pick_from_pool.
+#
+# Prima c'era qui una lista CLEAN_COURTS di 9 campi su Commons. Rimossa il
+# 27/11/26: guardate una per una erano TUTTE inadatte (panorami, campi
+# amatoriali con auto parcheggiate, campi dietro recinzione, tribune vuote,
+# un doppio, un backdrop col nome dell'evento). Il pool locale e' vagliato a
+# vista immagine per immagine e non dipende dalla rete.
 
 
-def _clean_court_for(stem: str, offset: int = 0) -> str:
-    """Campo pulito scelto in modo deterministico dallo slug, cosi' articoli
-    diversi che finiscono sul fallback NON ricevono lo stesso campo."""
-    import hashlib as _h
-    i = (int(_h.md5(stem.encode()).hexdigest(), 16) + offset) % len(CLEAN_COURTS)
-    return CLEAN_COURTS[i]
+def _apply_pool(stem: str, pick: dict) -> str:
+    """Applica una immagine del pool locale: e' gia' scaricata e
+    ridimensionata, basta copiarla. Le derivate web dell'articolo vanno pero'
+    rifatte, altrimenti il lettore continua a vedere la foto precedente."""
+    import shutil
+    from cover_image_utils import ensure_web_size, card_path
+    dest = COVERS_DIR / f'{stem}.jpg'
+    shutil.copyfile(pick['pool_src'], dest)
+    for d in (dest.with_suffix('.webp'), card_path(dest)):
+        try:
+            if d.exists():
+                d.unlink()
+        except Exception:
+            pass
+    try:
+        ensure_web_size(dest)
+    except Exception:
+        pass
+    update_frontmatter(ARTICOLI / f'{stem}.md', f'/covers/{stem}.jpg',
+                       pick.get('credit') or '', cover_file=pick.get('title', ''))
+    return pick.get('title', '')
+
+
+def _pick_neutro(stem: str, gender: str, forbidden) -> dict | None:
+    """Immagine neutra dal pool locale, evitando quelle gia' in uso."""
+    try:
+        from pool_cover import pick_from_pool
+        return pick_from_pool(slug_hint=stem, exclude=set(forbidden or ()),
+                              gender=gender)
+    except Exception:
+        return None
 
 
 def _fetch_commons(title: str):
@@ -282,17 +300,13 @@ def _reresolve_distinct(art: Path, forbidden: set) -> str:
         r = _try(ph)
         if r:
             return r
-    for off in range(len(CLEAN_COURTS)):
-        court = _clean_court_for(stem, off)
-        if court in forbidden:
-            continue
-        try:
-            pick = _fetch_commons(court)
-        except Exception:
-            continue
-        r = _try(pick)
-        if r:
-            return r
+    # Ultima spiaggia: il pool locale di immagini NEUTRE. E' una raccolta
+    # curata, vagliata a vista una per una, quindi non la si ri-sottopone al
+    # gate: costerebbe una chiamata di visione per articolo senza dire niente
+    # di nuovo. Chi tocca il pool deve vagliare prima.
+    pick = _pick_neutro(stem, gender, forbidden)
+    if pick and pick.get('pool_src'):
+        return _apply_pool(stem, pick)
     return ''
 
 
@@ -440,22 +454,22 @@ def main():
         if entry['ok']:
             report.append(entry); continue
 
-        # Campo pulito scelto per slug (variato) e, se il primo non passa il
-        # vet, si prova il successivo nella lista: cosi' articoli diversi non
-        # ricevono lo stesso identico campo.
-        for off in range(len(CLEAN_COURTS)):
-            try:
-                court = _clean_court_for(stem, off)
-                t = _apply(stem, _fetch_commons(court))
-                ok4, m4 = vet_image(cover, gender, players=players)
-                attempts.append(('campo', t, ok4, m4))
-                entry['ok'] = ok4
-                if ok4:
-                    entry['risolta_con'] = 'campo pulito'
-                    print(f'         -> campo pulito: risolta', flush=True)
-                    break
-            except Exception as e:
-                attempts.append(('campo', f'errore {e}', False, ''))
+        # Ultima spiaggia: immagine NEUTRA dal pool locale, variata per slug
+        # cosi' articoli diversi non ricevono la stessa. E' gia' vagliata a
+        # vista, quindi non si ripassa dal gate.
+        try:
+            used = all_used_cover_files(skip_slug=stem)
+            pick = _pick_neutro(stem, gender, used)
+            if pick and pick.get('pool_src'):
+                t = _apply_pool(stem, pick)
+                attempts.append(('neutra', t, True, 'pool neutro'))
+                entry['ok'] = True
+                entry['risolta_con'] = 'immagine neutra'
+                print('         -> immagine neutra: risolta', flush=True)
+            else:
+                attempts.append(('neutra', '', False, 'pool neutro vuoto'))
+        except Exception as e:
+            attempts.append(('neutra', f'errore {e}', False, ''))
 
         entry['attempts'] = [{'via': a, 'file': f, 'ok': o, 'motivo': m} for a, f, o, m in attempts]
         if not entry['ok']:
