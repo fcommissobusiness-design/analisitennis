@@ -24,7 +24,8 @@ probabilita_favorito: "Podoroska"
 probabilita_percent: 61
 generato_il: "2026-11-17T07:57+01:00"
 cover_image: "/covers/2026-11-17-n-podoroska-vs-v-lepchenko-colina-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket & ball"
 ---
 
 A poco più di un mese dall'ultimo incrocio, **Podoroska** e **Lepchenko** tornano una di fronte all'altra, questa volta nel primo turno del tabellone di Colina. Il confronto porta con sé una coda ancora fresca, quella di metà ottobre, e due percorsi di stagione che nel frattempo hanno imboccato direzioni diverse. È uno di quei match in cui il recentissimo precedente e la fotografia del momento sembrano suggerire letture opposte.

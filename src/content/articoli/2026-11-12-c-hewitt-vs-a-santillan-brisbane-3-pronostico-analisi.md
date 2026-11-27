@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Hewitt"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi.jpg"
-cover_credit: "Contributor(s): Queensland Newspapers Pty. / Public domain / Wikimedia Commons"
-cover_focus: 15
-cover_file: "File:StateLibQld 2 294199 Harry Hopman in action on a tennis court, Brisbane, 1931.jpg"
 generato_il: "2026-11-12T07:47+01:00"
+cover_image: "/covers/2026-11-12-c-hewitt-vs-a-santillan-brisbane-3-pronostico-analisi.jpg"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Agli ottavi di finale del torneo di **Brisbane** si affrontano due giocatori che non si sono mai incontrati prima, e questo basta a rendere la partita meno leggibile di quanto il tabellone lasci intendere. **C. Hewitt** e **A. Santillan** arrivano entrambi da un successo nel loro match del 10 novembre, un giorno di riposo alle spalle e la stessa posta davanti: un turno in più in una fase di stagione in cui ogni passaggio pesa per la classifica. Sulla carta è un confronto tra profili vicini, ma con biografie recenti differenti.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Cross"
 probabilita_percent: 53
-cover_image: "/covers/2026-11-21-n-v-leme-da-silva-vs-k-cross-wta-billie-jean-king-cup-world-group-pronostico-ana.jpg"
-cover_credit: "Johnnybam / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Tennis Player in Action.jpg"
 generato_il: "2026-11-21T07:55+01:00"
+cover_image: "/covers/2026-11-21-n-v-leme-da-silva-vs-k-cross-wta-billie-jean-king-cup-world-group-pronostico-ana.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket & ball"
 ---
 
 La seconda giornata della **Billie Jean King Cup** mette di fronte N. V. Leme Da Silva e K. Cross in un singolare che può pesare sull'esito del confronto tra le due nazionali. Entrambe arrivano a questo appuntamento dopo aver perso il proprio impegno di apertura, il 20 novembre: un dettaglio che carica la partita di tensione, perché nessuna delle due vuole uscire dall'evento con un doppio passivo personale e con la sensazione di aver mancato il proprio turno nel momento che conta.

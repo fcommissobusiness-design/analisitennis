@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Henning"
 probabilita_percent: 61
-cover_file: "File:Philip Henning in Buenos Aires 2018 04.jpg"
 generato_il: "2026-11-15T07:19+01:00"
 cover_image: "/covers/2026-11-15-p-henning-vs-m-ribecai-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Erwan Hesry erwanhesry / CC0 / Wikimedia Commons"
+cover_file: "File:Tennis line markings (Unsplash).jpg"
 ---
 
 C'è un titolo in palio sul **cemento** di **Hersonissos**, e a contenderselo sono due giocatori che non si erano mai incrociati prima. Philip Henning, sudafricano, e Michele Ribecai, italiano, chiudono così la settimana del challenger cretese con l'ultimo atto davanti: una **finale** che mette di fronte due destri arrivati in fondo per strade diverse, ognuno con una propria serie di vittorie alle spalle. La giornata prevista è fresca e la sessione è quella diurna, con un avvio che in una partita secca può pesare più del previsto.

@@ -24,7 +24,8 @@ probabilita_favorito: "Bosio"
 probabilita_percent: 62
 generato_il: "2026-11-18T07:16+01:00"
 cover_image: "/covers/2026-11-18-c-bohrer-martins-vs-v-bosio-w35-sao-paulo-2-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket ball photo"
 ---
 
 Negli ottavi di finale del **W35 Sao Paulo 2** si rinnova un confronto che il circuito femminile aveva già proposto una volta: C. Bohrer Martins e V. Bosio tornano una di fronte all'altra dopo essersi incontrate due anni fa. È una di quelle partite che vivono di equilibri sottili, tipiche dei tornei della fascia ITF, dove a pesare non sono i riflettori ma la continuità di risultati, la gestione delle energie e la capacità di tenere la testa dentro i momenti decisivi. Entrambe arrivano a questo turno dopo aver superato il primo ostacolo del tabellone, e questo da solo basta a rendere l'incrocio più interessante del previsto.

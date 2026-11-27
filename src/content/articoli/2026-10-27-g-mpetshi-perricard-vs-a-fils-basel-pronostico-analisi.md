@@ -19,10 +19,10 @@ tag:
 verdetto: "Oggi la può spuntare Fils: la forma più continua e la qualità delle vittorie recenti pesano sul confronto, anche se il servizio di Mpetshi Perricard al coperto rende almeno un set tutt'altro che scontato."
 descrizione: "Mpetshi Perricard e Fils si affrontano al primo turno di Basilea sul veloce indoor: scontri diretti, forma recente e stili a confronto nell'analisi completa."
 pubblicato: true
-cover_image: "/covers/2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi.jpg"
-cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Arthur Fils - 2024 Olympics (forehand).jpg"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-g-mpetshi-perricard-vs-a-fils-basel-pronostico-analisi.jpg"
+cover_credit: "Arthur Fils Cincinnati 2024.jpg | Navin75 | CC BY-SA 2.0"
+cover_file: "File:Arthur Fils Cincinnati 2024.jpg"
 ---
 
 Il turno d'apertura dell'appuntamento indoor di Basilea mette di fronte due rappresentanti del tennis francese, Giovanni Mpetshi Perricard e Arthur Fils, in una sfida che unisce profili e generazioni differenti dello stesso movimento. Sul veloce al coperto, dove il rimbalzo basso e la rapidità degli scambi premiano chi riesce a imporre il proprio ritmo fin dai primi colpi, l'incrocio promette intensità e pochi tempi morti. Due giocatori che si conoscono bene e che hanno già condiviso il campo in passato, pronti a ritrovarsi su una superficie che esalta le qualità di entrambi.

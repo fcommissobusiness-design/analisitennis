@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Teixido Garcia"
 probabilita_percent: 53
-cover_file: "File:Sydney International Tennis WTA (46001159085).jpg"
 generato_il: "2026-11-26T07:39+01:00"
 cover_image: "/covers/2026-11-26-l-solar-donoso-vs-m-teixido-garcia-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket & ball"
 ---
 
 Il tabellone del W15 Antalya 9 propone al secondo turno un confronto fra due giocatrici che vivono stabilmente nella fascia d'ingresso del circuito professionistico femminile. L. Solar Donoso e M. Teixido Garcia si incrociano qui per la prima volta, in una tappa che per entrambe fa parte di una trasferta prolungata sullo stesso sito, dove da settimane si susseguono tornei di questo livello. È il tipico appuntamento da accumulo: punti, continuità, la ricerca di qualche vittoria consecutiva.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Mannarino"
 probabilita_percent: 62
-cover_file: "File:Adrian Mannarino in sepia (14444726508).jpg"
 generato_il: "2026-11-10T07:42+01:00"
 cover_image: "/covers/2026-11-10-a-mannarino-vs-a-shevchenko-stockholm-pronostico-analisi.jpg"
-cover_credit: "Adrian Mannarino at the 2010 US Open 01.jpg | Robbie Mendelson | CC BY-SA 2.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket & ball"
 ---
 
 Stoccolma chiude la sua settimana indoor con un turno d'apertura che mette di fronte due giocatori arrivati al tabellone principale dalla porta stretta delle qualificazioni. Adrian Mannarino, mancino francese classe 1988, e A. Shevchenko si ritrovano sul **cemento** al coperto della capitale svedese, una superficie lenta che tende ad allungare gli scambi e a spostare il peso del confronto sulla continuità più che sulla potenza pura. Per entrambi è un appuntamento di coda di stagione con punti pesanti in palio e, dietro l'angolo, la prospettiva di un secondo turno di prestigio per chi riesce a passare.

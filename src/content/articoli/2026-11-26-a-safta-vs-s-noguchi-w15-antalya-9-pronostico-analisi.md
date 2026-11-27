@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Noguchi"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-26-a-safta-vs-s-noguchi-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (46001159085).jpg"
 generato_il: "2026-11-26T07:38+01:00"
+cover_image: "/covers/2026-11-26-a-safta-vs-s-noguchi-w15-antalya-9-pronostico-analisi.jpg"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:On the line (35996058600).jpg"
 ---
 
 Il secondo turno del **W15 Antalya 9** mette di fronte A. Safta e S. Noguchi in un match che, più che dai nomi, prende forma dai percorsi recenti delle due giocatrici. Entrambe si presentano con una vittoria appena incassata, mercoledì 25 novembre, nello stesso torneo: Safta ha superato J. Weissenboeck, Noguchi ha regolato A. Kartseva. Da lì in avanti, però, le loro settimane raccontano storie molto diverse, ed è su quelle differenze che si gioca la lettura dell'incontro.

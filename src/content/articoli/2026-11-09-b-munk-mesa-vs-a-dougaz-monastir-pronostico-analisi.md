@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Dougaz"
 probabilita_percent: 72
-cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
 generato_il: "2026-11-09T06:12"
 cover_image: "/covers/2026-11-09-b-munk-mesa-vs-a-dougaz-monastir-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 Il primo turno del Challenger di **Monastir** mette di fronte due giocatori che arrivano all'appuntamento da strade opposte. Da una parte A. **Dougaz**, reduce da una settimana di partite disputate proprio in questa località; dall'altra B. **Munk Mesa**, inserito nel tabellone principale con una wildcard dopo un lungo spezzone di tornei lontani dall'Europa. Non esistono precedenti tra i due, e questo rende il confronto un inedito a tutti gli effetti, con in palio i primi punti utili della parte finale di stagione per entrambi.

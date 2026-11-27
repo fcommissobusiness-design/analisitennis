@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-29T07:13"
 cover_image: "/covers/2026-10-29-n-honda-vs-l-broady-ningbo-pronostico-analisi.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 03.jpg"
+cover_credit: "cogdogblog / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:2012-366-325 Along the Net (8205151336).jpg"
 ---
 
 Il tabellone del Challenger di **Ningbo** propone negli ottavi di finale un confronto dal sapore di rivincita: **N. Honda** e **L. Broady** tornano uno di fronte all'altro a pochi mesi dal loro unico precedente. Il giapponese e il britannico arrivano all'appuntamento da traiettorie recenti molto diverse, e proprio questa differenza di percorsi rende la sfida più incerta di quanto il semplice elenco dei risultati possa far pensare a prima vista.

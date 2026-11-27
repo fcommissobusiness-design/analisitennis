@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Henning"
 probabilita_percent: 69
-cover_file: "File:Philip Henning in Buenos Aires 2018 03.jpg"
 generato_il: "2026-11-13T07:57+01:00"
 cover_image: "/covers/2026-11-13-l-carboni-vs-p-henning-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 I **quarti di finale** del Challenger di Hersonissos, in Grecia, mettono di fronte due profili che il tennis di fine stagione fotografa da angolazioni opposte. Da una parte Lorenzo Carboni, italiano, destro, vent'anni appena compiuti e un fisico contenuto per gli standard del circuito, alto 168 centimetri. Dall'altra Philip Henning, sudafricano, anche lui destro, ventisei anni compiuti da pochissimi giorni e una struttura ben più imponente, 183 centimetri. Si gioca sul **cemento**, superficie che tende a esaltare le differenze fisiche e a premiare chi sa chiudere in fretta i propri turni di battuta.

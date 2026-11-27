@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Mikrut"
 probabilita_percent: 58
-cover_file: "File:2014 US Open Tennis (15083619265).jpg"
 generato_il: "2026-11-11T07:35+01:00"
 cover_image: "/covers/2026-11-11-e-coulibaly-vs-l-mikrut-monastir-pronostico-analisi.jpg"
-cover_credit: "Michael Vadon / CC BY 2.0 / Wikimedia Commons"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Il **Monastir Open** entra nel vivo e propone al **secondo turno** un confronto senza storia pregressa: E. Coulibaly e L. Mikrut non si sono mai incrociati in carriera, e questo rende la partita in programma nel primo pomeriggio un terreno tutto da leggere in diretta. Sul **cemento** del torneo tunisino, nato nel 2025 e giunto alla sua seconda edizione, si affrontano due giocatori arrivati a questo turno da strade diverse, ciascuno con il proprio match di esordio già alle spalle.

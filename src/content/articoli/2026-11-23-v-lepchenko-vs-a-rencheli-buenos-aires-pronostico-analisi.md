@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Lepchenko"
 probabilita_percent: 61
-cover_file: "File:Varvara Lepchenko (USA) (14888582500).jpg"
 generato_il: "2026-11-23T07:19+01:00"
 cover_image: "/covers/2026-11-23-v-lepchenko-vs-a-rencheli-buenos-aires-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
-cover_focus: 15
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:view white tennis line markings"
 ---
 
 C'è un contrasto di storie dietro questo incrocio del torneo di Buenos Aires, dove **Varvara Lepchenko** affronta per la prima volta **Rencheli**. Da una parte una giocatrice di lunghissimo corso, statunitense, mancina e con rovescio a due mani, che ha vissuto stagioni ad altissimo livello; dall'altra un'avversaria che arriva da un successo recente e che ha ancora molto da costruire su questo palcoscenico. Due punti di partenza diversi per una partita priva di riferimenti incrociati.

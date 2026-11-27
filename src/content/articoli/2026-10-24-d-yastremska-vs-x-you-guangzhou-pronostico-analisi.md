@@ -22,8 +22,9 @@ descrizione: "Yastremska contro You nella semifinale WTA di Guangzhou: forma rec
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-d-yastremska-vs-x-you-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Daniel Cooper / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Dayana Yastremska VS Magda Linette at the 2025 Nottingham Open (1).jpg"
+cover_credit: "Dayana Yastremska (Roland Garros 2023) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Dayana Yastremska (Roland Garros 2023) 02.jpg"
+cover_focus: 10
 ---
 
 Il tabellone del torneo di **Guangzhou** consegna una semifinale dal sapore particolare, perché mette di fronte due giocatrici che non si erano mai incrociate prima. Da una parte l'ucraina **Yastremska**, dall'altra la cinese **You**, chiamate a giocarsi un posto nella finale sul cemento della città del sud della Cina. Un confronto inedito, privo di memoria storica a cui aggrapparsi, in cui ogni dettaglio della stagione recente finisce per pesare un po' più del solito.

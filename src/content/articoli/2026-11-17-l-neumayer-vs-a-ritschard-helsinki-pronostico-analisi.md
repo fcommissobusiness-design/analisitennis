@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Ritschard"
 probabilita_percent: 57
-cover_file: "File:Lukas Neumayer (2026 US Open) 01.jpg"
 generato_il: "2026-11-17T07:44+01:00"
 cover_image: "/covers/2026-11-17-l-neumayer-vs-a-ritschard-helsinki-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Lukas Neumayer (2026 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Lukas Neumayer (2026 US Open) 02.jpg"
 cover_focus: 10
 ---
 

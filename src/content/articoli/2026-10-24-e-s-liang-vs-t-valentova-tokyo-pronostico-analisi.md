@@ -21,9 +21,8 @@ descrizione: "Semifinale WTA di Tokyo tra E. S. Liang e T. Valentova: forma rece
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-e-s-liang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
-cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Liang WMQ22 (18) (52191176028) (cropped).jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 Il torneo WTA di Tokyo regala una semifinale dal sapore generazionale. Da una parte **E. S. Liang**, dall'altra **T. Valentova**: due profili in piena costruzione che si affacciano alle fasi decisive di un appuntamento capace di chiudere una stagione lunga e dispendiosa. Il penultimo atto giapponese mette di fronte percorsi diversi, arrivati però allo stesso traguardo.

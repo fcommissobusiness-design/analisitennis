@@ -23,8 +23,8 @@ probabilita_favorito: "Fils"
 probabilita_percent: 53
 generato_il: "2026-11-05T07:25"
 cover_image: "/covers/2026-11-05-a-fils-vs-t-fritz-paris-pronostico-analisi.jpg"
-cover_credit: "Kuberzog / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Arthur Fils - 2024 Olympics (forehand).jpg"
+cover_credit: "cogdogblog / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:2012-366-325 Along the Net (8205151336).jpg"
 ---
 
 Gli **ottavi di finale** del Rolex Paris Masters, ultimo appuntamento della stagione tra i grandi tornei sul cemento al coperto, propongono un confronto tra due interpreti diversi del tennis veloce: il francese **Arthur Fils** e lo statunitense **Taylor Fritz**. Si gioca indoor, sul rapido parigino, con in palio un posto nei quarti di finale di un torneo che accompagna il circuito verso le ultime battute dell'anno.

@@ -21,11 +21,11 @@ descrizione: "Alcaraz e Shelton si ritrovano in semifinale alle Nitto ATP Finals
 pubblicato: true
 probabilita_favorito: "Alcaraz"
 probabilita_percent: 71
-cover_image: "/covers/2026-11-21-c-alcaraz-vs-b-shelton-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Carlos Alcaraz (2026 US Open) - 10.jpg"
 generato_il: "2026-11-21T07:41+01:00"
+cover_image: "/covers/2026-11-21-c-alcaraz-vs-b-shelton-finals-turin-pronostico-analisi.jpg"
+cover_credit: "Carlos Alcaraz (2026 US Open) - 01.jpg | Oleg Yunakov | CC BY-SA 4.0"
+cover_file: "File:Carlos Alcaraz (2026 US Open) - 01.jpg"
+cover_focus: 10
 ---
 
 Le Nitto ATP Finals di Torino arrivano al penultimo atto e mettono di fronte Carlos Alcaraz e Ben Shelton, due giocatori che ormai si conoscono molto bene e che si ritrovano sul **cemento indoor** del palasport piemontese a pochi giorni di distanza dall'ultima volta. Il torneo dei migliori otto della stagione entra nella fase che conta, quella in cui ogni dettaglio pesa e il margine d'errore si assottiglia.

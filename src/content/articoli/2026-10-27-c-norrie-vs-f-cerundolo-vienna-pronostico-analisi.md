@@ -19,10 +19,11 @@ tag:
 verdetto: "Oggi nettamente Cerundolo: forma del mese più solida, con la semifinale di Bruxelles contro il filotto di sconfitte recenti di Norrie, e uno score diretto che pende dalla parte dell'argentino, ultimo confronto compreso. Difficile vedere l'inglese invertire la rotta."
 descrizione: "C. Norrie e F. Cerundolo si sfidano al primo turno di Vienna: precedenti, stato di forma e stili a confronto in un match dal sapore di rivincita."
 pubblicato: true
-cover_image: "/covers/2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi.jpg"
-cover_credit: "jmmuguerza / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Francisco Cerundolo - Wimbledon 2022 (12).jpg"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-c-norrie-vs-f-cerundolo-vienna-pronostico-analisi.jpg"
+cover_credit: "Norrie WM17 (2) (36143094896).jpg | si.robi | CC BY-SA 2.0"
+cover_file: "File:Norrie WM17 (2) (36143094896).jpg"
+cover_focus: 10
 ---
 
 Vienna accende i riflettori su un match di primo turno che di anonimo ha ben poco. C. Norrie e F. Cerundolo si ritrovano uno di fronte all'altro per la quarta volta in carriera, e lo fanno in un momento della stagione in cui entrambi cercano conferme sul cemento indoor austriaco. Due stili diversi, due percorsi recenti che raccontano storie quasi opposte, un confronto che porta con sé il peso dei **precedenti** e la voglia di chiudere l'annata nel modo giusto.

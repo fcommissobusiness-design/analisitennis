@@ -21,11 +21,11 @@ descrizione: "Alcaraz contro Medvedev alle Nitto ATP Finals di Torino: forma, pr
 pubblicato: true
 probabilita_favorito: "Alcaraz"
 probabilita_percent: 69
-cover_image: "/covers/2026-11-18-c-alcaraz-vs-d-medvedev-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Carlos Alcaraz (2026 US Open) - 09.jpg"
 generato_il: "2026-11-18T07:33+01:00"
+cover_image: "/covers/2026-11-18-c-alcaraz-vs-d-medvedev-finals-turin-pronostico-analisi.jpg"
+cover_credit: "Daniil Medvedev Practicing Tennis 04.jpg | Amaury Laporte | CC BY 2.0"
+cover_file: "File:Daniil Medvedev Practicing Tennis 04.jpg"
+cover_focus: 10
 ---
 
 Le Nitto ATP Finals di Torino regalano uno dei confronti più ricchi di storia del circuito. Sul cemento dell'Inalpi Arena si ritrovano **Carlos Alcaraz** e **Daniil Medvedev**, due giocatori che si conoscono a memoria e che rappresentano, forse meglio di chiunque altro, due modi opposti di interpretare il tennis moderno. Entrambi hanno vinto il match d'apertura del girone lunedì 16 novembre, Alcaraz contro Tiafoe e Medvedev contro Cobolli, chiudendo in due set: il vincitore di oggi mette un'ipoteca pesante sulla qualificazione alle semifinali.

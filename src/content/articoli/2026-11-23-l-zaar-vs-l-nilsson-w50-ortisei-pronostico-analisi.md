@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Zaar"
 probabilita_percent: 62
-cover_image: "/covers/2026-11-23-l-zaar-vs-l-nilsson-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (46863223952).jpg"
 generato_il: "2026-11-23T07:53+01:00"
+cover_image: "/covers/2026-11-23-l-zaar-vs-l-nilsson-w50-ortisei-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il primo turno del torneo di Ortisei mette di fronte **L. Zaar** e **L. Nilsson** in un incrocio che di inedito ha poco: le due si sono già affrontate altre volte nel recente passato, l'ultima a distanza di poche settimane. È una di quelle partite in cui il tabellone sembra divertirsi a riproporre un copione appena visto, con la differenza che ogni confronto arriva in un momento diverso della stagione delle due giocatrici.

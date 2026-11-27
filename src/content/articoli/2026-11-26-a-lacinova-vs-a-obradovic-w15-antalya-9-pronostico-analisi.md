@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Lacinova"
 probabilita_percent: 57
-cover_file: "File:Sydney International Tennis WTA (46001165335).jpg"
 generato_il: "2026-11-26T07:38+01:00"
 cover_image: "/covers/2026-11-26-a-lacinova-vs-a-obradovic-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 Il tabellone del **W15 Antalya 9** mette di fronte A. Lacinova e A. Obradovic in un turno del main draw, uno di quegli incroci di inizio settimana in cui il valore vero non lo dice una classifica altisonante ma la fotografia delle ultime partite. Entrambe hanno superato il proprio impegno del 25 novembre in questo stesso torneo e si presentano all'appuntamento successivo con la voglia di proseguire la corsa in un contesto che frequentano con assiduità. Non ci sono precedenti diretti tra le due: la loro storia comune, oggi, è tutta da scrivere.

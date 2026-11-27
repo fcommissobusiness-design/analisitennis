@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Masarova"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-18-r-masarova-vs-p-hercog-colina-pronostico-analisi.jpg"
-cover_credit: "Checu83 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Rebeka Masarova.jpg"
 generato_il: "2026-11-18T07:46+01:00"
+cover_image: "/covers/2026-11-18-r-masarova-vs-p-hercog-colina-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket ball photo"
 ---
 
 La terra battuta di **Colina**, in Cile, ospita al secondo turno del torneo WTA 125 un confronto tra due giocatrici che, sulla carta, si somigliano parecchio. Da una parte **Rebeka Masarova**, svizzera classe 1999, destra con rovescio a due mani e un fisico imponente da 186 centimetri. Dall'altra **Polona Hercog**, slovena del 1991, anche lei destra e bimane, 185 centimetri di struttura. Due fondocampiste alte, costruite per imporre peso di palla, chiamate a misurarsi su una superficie che tende a rallentare lo scambio e ad allungare i punti.

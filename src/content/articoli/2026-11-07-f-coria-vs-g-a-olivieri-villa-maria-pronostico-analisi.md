@@ -24,8 +24,8 @@ probabilita_favorito: "Olivieri"
 probabilita_percent: 58
 generato_il: "2026-11-07T07:23"
 cover_image: "/covers/2026-11-07-f-coria-vs-g-a-olivieri-villa-maria-pronostico-analisi.jpg"
-cover_credit: "Johann Jaritz / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il penultimo atto del torneo di Villa Maria propone un confronto tra **Coria** e **Olivieri**, due giocatori che si presentano all'appuntamento dopo aver superato ciascuno tre turni nello stesso tabellone. Per entrambi la semifinale arriva al termine di una settimana in crescendo, e il filo che lega le loro strade non si ferma al torneo in corso: in carriera si sono già incrociati una volta, e scorrendo i rispettivi percorsi recenti spuntano anche avversari affrontati da entrambi.

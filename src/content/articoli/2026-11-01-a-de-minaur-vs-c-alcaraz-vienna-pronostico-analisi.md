@@ -22,7 +22,7 @@ probabilita_percent: 74
 descrizione: "Finale ATP Vienna sul cemento indoor: De Minaur contro Alcaraz. Forma, precedenti e cammino dei due protagonisti verso l'ultimo atto austriaco."
 pubblicato: true
 cover_image: "/covers/2026-11-01-a-de-minaur-vs-c-alcaraz-vienna-pronostico-analisi.jpg"
-cover_focus: 55
+cover_focus: 10
 cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
 cover_file: "File:Carlos Alcaraz (2026 US Open) - 05.jpg"
 generato_il: "2026-11-01T07:01"

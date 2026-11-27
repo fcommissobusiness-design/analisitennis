@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Dorofeeva-Rybas"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-26-f-dorofeeva-rybas-vs-j-struplova-w35-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Julie Štruplová (2026 US Open) 01.jpg"
 generato_il: "2026-11-26T07:16+01:00"
+cover_image: "/covers/2026-11-26-f-dorofeeva-rybas-vs-j-struplova-w35-heraklion-4-greece-pronostico-analisi.jpg"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Il secondo turno del W35 di Heraklion mette di fronte due storie opposte dentro lo stesso tabellone. Da una parte **Felitsata Dorofeeva-Rybas**, russa classe 2009, appena diciassettenne, arrivata a questo turno sull'onda di settimane di tennis quasi ininterrotto. Dall'altra **Julie Struplova**, ceca del 2004, ventidue anni e un curriculum costruito a un livello superiore, che qui sta ritrovando il campo dopo una pausa prolungata. Due giocatrici a punti diversi della propria parabola, chiamate a incrociarsi in una mattinata di fine novembre.

@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Feldbausch"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-14-p-vives-marcos-vs-k-feldbausch-monastir-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Kilian Feldbausch (2026 US Open) 01.jpg"
 generato_il: "2026-11-14T07:32+01:00"
+cover_image: "/covers/2026-11-14-p-vives-marcos-vs-k-feldbausch-monastir-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court lines"
 ---
 
 Il penultimo atto del Challenger di Monastir, in Tunisia, mette di fronte due profili lontani per classifica e per percorso ma avvicinati dal momento. **Pedro Vives Marcos**, spagnolo classe 2001, è arrivato alla semifinale dopo essere passato dalle qualificazioni; **Kilian Feldbausch**, svizzero del 2005, è una delle promesse più seguite della sua generazione. Sul **cemento** tunisino si gioca un posto nell'ultimo atto, e nessuno dei due ci arriva da favorito annunciato in senso assoluto.

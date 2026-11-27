@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Trevisan"
 probabilita_percent: 61
-cover_file: "File:Martina Trevisan (2023 US Open) 10.jpg"
 generato_il: "2026-11-23T07:57+01:00"
 cover_image: "/covers/2026-11-23-m-trevisan-vs-a-akli-buenos-aires-pronostico-analisi.jpg"
-cover_credit: "Trevisan WMQ18 (28) (29680365228) (cropped).jpg | si.robi | CC BY-SA 2.0"
-cover_focus: 10
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 Il tabellone di Buenos Aires apre con un primo turno che mette di fronte due giocatrici dai percorsi opposti e che, fino a oggi, non si erano mai incontrate: da una parte Martina Trevisan, dall'altra Akli. Due momenti di carriera diversi, due calendari recenti che raccontano storie distinte, in uno di quei confronti in cui le classifiche suggeriscono una cosa e il curriculum ne lascia intuire un'altra.

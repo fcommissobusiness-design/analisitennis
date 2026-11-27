@@ -21,10 +21,10 @@ descrizione: "Rune rientra a Stoccolma dove si era fermato un anno fa e trova Be
 pubblicato: true
 probabilita_favorito: "Rune"
 probabilita_percent: 61
-cover_file: "File:Holger Rune, Basel, 2024.jpg"
 generato_il: "2026-11-10T07:12+01:00"
 cover_image: "/covers/2026-11-10-h-rune-vs-z-bergs-stockholm-pronostico-analisi.jpg"
-cover_credit: "Holger Rune practicing 2019.png | Wewanttogotoaworld | CC BY-SA 4.0"
+cover_credit: "Holger Rune (2023 US Open) 53.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Holger Rune (2023 US Open) 53.jpg"
 cover_focus: 10
 ---
 

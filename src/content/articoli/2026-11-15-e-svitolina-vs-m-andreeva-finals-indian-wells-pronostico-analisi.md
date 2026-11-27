@@ -22,11 +22,10 @@ descrizione: "Svitolina e Andreeva si giocano le WTA Finals di Indian Wells sul 
 pubblicato: true
 probabilita_favorito: "Andreeva"
 probabilita_percent: 61
-cover_file: "File:Mirra Andreeva (2023 US Open) 04.jpg"
 generato_il: "2026-11-15T07:48+01:00"
 cover_image: "/covers/2026-11-15-e-svitolina-vs-m-andreeva-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Andreeva M. WMQ23 (53062105200).jpg | si.robi | CC BY-SA 2.0"
-cover_focus: 10
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Le **WTA Finals** di Indian Wells arrivano all'ultimo atto, e a contenderselo sono due giocatrici che hanno attraversato la stagione da protagoniste pur con biografie opposte. Da una parte Elina Svitolina, ucraina, 32 anni, destra di rovescio bimane; dall'altra Mirra Andreeva, russa, 19 anni, anche lei destra con rovescio a due mani. Il trofeo in palio chiude l'annata del circuito femminile e incornicia una **finale** che vale prestigio e significato, sul cemento della California. Per entrambe, essendo l'ultimo appuntamento del calendario, non ci sono calcoli da fare: si spinge fino in fondo.

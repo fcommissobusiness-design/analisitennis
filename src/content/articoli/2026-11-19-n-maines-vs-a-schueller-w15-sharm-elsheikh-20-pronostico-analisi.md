@@ -24,8 +24,8 @@ probabilita_favorito: "Maines"
 probabilita_percent: 61
 generato_il: "2026-11-19T07:39+01:00"
 cover_image: "/covers/2026-11-19-n-maines-vs-a-schueller-w15-sharm-elsheikh-20-pronostico-analisi.jpg"
-cover_credit: "Michael Frey (Michael Frey) / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:2014-11-12 2014 ATP World Tour Finals show court during Marin Cilic vs Thomas Berdych match 2 by Michael Frey.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 Gli ottavi del **W15 Sharm ElSheikh 20** mettono di fronte N. Maines e A. Schueller, due giocatrici che arrivano a questi ottavi del tabellone per strade molto diverse. Entrambe hanno superato il proprio primo match il 18 novembre, e questo incrocio del 19 è per loro il secondo impegno nel torneo. È un livello d'ingresso del circuito femminile, dove il peso lo fanno il ritmo-partita e la condizione del momento più di qualsiasi gerarchia di classifica.
 

@@ -21,11 +21,11 @@ descrizione: "Fritz contro Musetti nella semifinale di Stoccolma sul cemento: pr
 pubblicato: true
 probabilita_favorito: "Musetti"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-13-t-fritz-vs-l-musetti-stockholm-pronostico-analisi.jpg"
-cover_credit: "GabrieleCodeglia / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:LorenzoMusetti.JPG"
 generato_il: "2026-11-13T07:50+01:00"
+cover_image: "/covers/2026-11-13-t-fritz-vs-l-musetti-stockholm-pronostico-analisi.jpg"
+cover_credit: "Fritz RG19 (23) (48199372707).jpg | si.robi | CC BY-SA 2.0"
+cover_file: "File:Fritz RG19 (23) (48199372707).jpg"
+cover_focus: 10
 ---
 
 Il Bybit Stockholm Open consegna una **semifinale** dal peso specifico notevole: da una parte **Taylor Fritz**, statunitense di 29 anni, dall'altra **Lorenzo Musetti**, azzurro di 24. Due profili distanti per anagrafe, stile e percorso, che si ritrovano sul cemento di Stoccolma nell'ultima settimana prima della chiusura di stagione. Il dettaglio che accende la curiosità è che i due si sono affrontati appena tre settimane fa, con una posta in palio altrettanto alta.

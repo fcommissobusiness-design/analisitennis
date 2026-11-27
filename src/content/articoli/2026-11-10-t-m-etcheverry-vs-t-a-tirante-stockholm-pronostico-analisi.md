@@ -23,10 +23,11 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Etcheverry"
 probabilita_percent: 59
-cover_image: "/covers/2026-11-10-t-m-etcheverry-vs-t-a-tirante-stockholm-pronostico-analisi.jpg"
-cover_credit: "LHC88 / CC BY 4.0 / Wikimedia Commons"
-cover_file: "File:Wawrinka Etcheverry 2023.png"
 generato_il: "2026-11-10T07:41+01:00"
+cover_image: "/covers/2026-11-10-t-m-etcheverry-vs-t-a-tirante-stockholm-pronostico-analisi.jpg"
+cover_credit: "Tirante WMQ22 (7) (52191126383).jpg | si.robi | CC BY-SA 2.0"
+cover_file: "File:Tirante WMQ22 (7) (52191126383).jpg"
+cover_focus: 10
 ---
 
 Il **primo turno** del Bybit Stockholm Open regala un incrocio particolare: due argentini, Tomas Martin Etcheverry e Thiago Agustin Tirante, si ritrovano uno di fronte all'altro nell'ultima settimana piena del circuito prima della chiusura di stagione. Entrambi aprono il loro cammino a Stoccolma e si giocano l'accesso al turno successivo, in un torneo di fine anno che ha già visto cadere diverse teste di serie importanti.

@@ -23,10 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Guth"
 probabilita_percent: 61
-cover_file: "File:Sydney International Tennis ATP 250 (46190657174).jpg"
 generato_il: "2026-11-21T07:35+01:00"
 cover_image: "/covers/2026-11-21-m-guth-vs-c-giambelli-w15-monastir-32-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket & ball"
 ---
 
 La semifinale del **W15 Monastir** mette di fronte M. Guth e C. Giambelli, due giocatrici arrivate al penultimo atto per la stessa via: tre vittorie in altrettante partite, tutte chiuse in due set. Sul cemento tunisino, in una delle serie continue di tornei che il polo di Monastir ospita settimana dopo settimana, il torneo da quindicimila dollari è il gradino d'ingresso del circuito femminile, ma per profili come questi vale ritmo-gara, continuità e punti utili. L'appuntamento è nella sessione mattutina, con in palio l'accesso alla finale.

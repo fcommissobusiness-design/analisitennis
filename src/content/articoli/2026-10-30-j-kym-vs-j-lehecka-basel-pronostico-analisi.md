@@ -21,8 +21,8 @@ descrizione: "Quarti di finale a Basilea: Jerome Kym sfida Jiri Lehecka sul ceme
 pubblicato: true
 generato_il: "2026-10-30T07:25"
 cover_image: "/covers/2026-10-30-j-kym-vs-j-lehecka-basel-pronostico-analisi.jpg"
-cover_credit: "Johann Jaritz / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il penultimo atto del torneo indoor di **Basilea** mette di fronte due storie diverse che convergono sullo stesso campo: Jerome Kym, elvetico, davanti al proprio pubblico, e il ceco Jiri Lehecka, abituato da tempo ai quarti e alle semifinali dei tornei di peso. Entrambi arrivano a questo quarto di finale dopo aver superato i rispettivi ottavi mercoledi 29 ottobre, segno di una condizione pronta e di un ritmo partita gia rodato sul veloce al coperto.

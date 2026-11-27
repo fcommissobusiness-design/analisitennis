@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Ewald"
 probabilita_percent: 59
-cover_image: "/covers/2026-11-26-a-mazzola-vs-w-ewald-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (33040174528).jpg"
 generato_il: "2026-11-26T07:53+01:00"
+cover_image: "/covers/2026-11-26-a-mazzola-vs-w-ewald-w50-ortisei-pronostico-analisi.jpg"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 I quarti di finale del torneo femminile di Ortisei mettono di fronte **A. Mazzola** e **W. Ewald**, due giocatrici arrivate a questo turno con un percorso simile nella struttura ma diverso nei dettagli. Entrambe hanno superato i due turni precedenti nelle giornate del 24 e del 25 novembre, entrambe vivono di tornei del circuito maggiore femminile giocati a ritmo serrato, ed entrambe si presentano con un bilancio recente positivo. È il classico incrocio in cui i numeri grezzi dicono poco e il contesto dice molto.

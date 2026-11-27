@@ -1051,7 +1051,6 @@ def update_frontmatter(path: Path, cover_rel: str, credit: str,
     fm_lines = lines[starts[0] + 1:starts[1]]
     body = lines[starts[1] + 1:]
     # cover_focus esistente (manuale) va preservato se c'e'
-    had_manual_focus = any(l.startswith('cover_focus:') for l in fm_lines)
     # Titolo Commons della nuova cover: se non viene passato lo deduco dal
     # credit. Senza questo `cover_file` resta quello della foto PRECEDENTE, e
     # chi lo legge (cover_file_is_player, all_used_cover_files, il gate) finisce
@@ -1072,19 +1071,14 @@ def update_frontmatter(path: Path, cover_rel: str, credit: str,
     fm_lines.append(f'cover_credit: "{safe_credit}"')
     if nuovo_cover_file:
         fm_lines.append(f'cover_file: "{nuovo_cover_file.replace(chr(34), chr(39))}"')
-    # cover_focus automatico sulle verticali (preserva valore manuale se c'era)
+    # cover_focus automatico sulle verticali. Si RICALCOLA sempre sulla foto
+    # nuova: il valore vecchio era tarato su un'immagine che non c'e' piu'
+    # (tipico: una verticale sostituita da un'orizzontale, dove un focus 10
+    # inquadrerebbe la fascia sbagliata). Se la foto nuova non ne ha bisogno,
+    # la riga sparisce.
     focus = _suggest_cover_focus(safe_rel)
-    if focus is not None or had_manual_focus:
-        # Ri-leggi il valore manuale precedente, se presente, per preservarlo
-        if had_manual_focus:
-            raw_fm = '\n'.join(lines[starts[0] + 1:starts[1]])
-            m = re.search(r'^cover_focus:\s*(\S+)', raw_fm, re.M)
-            if m:
-                fm_lines.append(f'cover_focus: {m.group(1)}')
-            elif focus is not None:
-                fm_lines.append(f'cover_focus: {focus}')
-        else:
-            fm_lines.append(f'cover_focus: {focus}')
+    if focus is not None:
+        fm_lines.append(f'cover_focus: {focus}')
     new = ['---'] + fm_lines + ['---'] + body
     path.write_text('\n'.join(new) + ('\n' if raw.endswith('\n') else ''))
     return True

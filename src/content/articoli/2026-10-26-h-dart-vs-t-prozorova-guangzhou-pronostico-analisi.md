@@ -20,11 +20,11 @@ verdetto: "Oggi la può spuntare Dart: arriva con un bilancio recente più pieno
 descrizione: "Harriet Dart sfida Tatiana Prozorova nel torneo di Guangzhou: nessun precedente tra loro, due giocatrici in forma e un match dai contorni del tutto aperti."
 pubblicato: true
 noindex: true
-cover_image: "/covers/2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi.jpg"
-cover_credit: "robbiesaurus / CC BY-SA 2.0 / Wikimedia Commons"
-cover_focus: 15
-cover_file: "File:Harriet Dart at the 2013 US Open 2.jpg"
 generato_il: "2026-10-26T07:30"
+cover_image: "/covers/2026-10-26-h-dart-vs-t-prozorova-guangzhou-pronostico-analisi.jpg"
+cover_credit: "Tatiana Prozorova (2023 US Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Tatiana Prozorova (2023 US Open) 02.jpg"
+cover_focus: 10
 ---
 
 Il tabellone di Guangzhou regala un incrocio curioso, uno di quelli che non hanno una storia alle spalle e che per questo si prestano a più letture. Da una parte la britannica **Harriet Dart**, dall'altra la russa **Tatiana Prozorova**: due giocatrici che arrivano a questo turno con il morale sostenuto da settimane produttive.

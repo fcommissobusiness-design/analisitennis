@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Fearnley"
 probabilita_percent: 71
-cover_file: "File:Jacob Fearnley (2026 US Open) 04.jpg"
 generato_il: "2026-11-16T07:14+01:00"
 cover_image: "/covers/2026-11-16-g-cadenasso-vs-j-fearnley-helsinki-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
-cover_focus: 10
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il torneo di Helsinki apre il suo primo turno con un confronto che mette a contatto due mondi vicini ma distinti del tennis maschile. Da una parte **Gianluca Cadenasso**, ventiduenne italiano classe 2004, destro, cresciuto in una stagione fitta di tornei; dall'altra **Jacob Fearnley**, britannico destro con rovescio a due mani, abituato ai palcoscenici del massimo circuito. Tra i due non esiste alcun precedente: è il primo incrocio della loro carriera, un punto di partenza senza riferimenti storici su cui tarare la lettura.

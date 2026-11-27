@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Zakharova"
 probabilita_percent: 61
-cover_image: "/covers/2026-11-05-a-zakharova-vs-v-adkar-chennai-pronostico-analisi.jpg"
-cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Zakharova RGQ23.jpg"
 generato_il: "2026-11-05T07:33"
+cover_image: "/covers/2026-11-05-a-zakharova-vs-v-adkar-chennai-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 
 Gli **ottavi di finale** del torneo di **Chennai** mettono di fronte due storie di tennis molto diverse. Da una parte Anastasia Zakharova, russa che nelle ultime settimane ha vissuto il circuito maggiore quasi senza pause; dall'altra Vaishnavi Adkar, indiana che arriva a questo appuntamento dopo un percorso costruito soprattutto sui campi dei tornei minori e che adesso gioca davanti al proprio pubblico. Sul **cemento** indiano, il confronto promette letture contrastanti e nessun copione già scritto.

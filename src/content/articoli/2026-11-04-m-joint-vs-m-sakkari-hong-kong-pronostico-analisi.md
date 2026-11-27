@@ -24,8 +24,8 @@ probabilita_favorito: "Joint"
 probabilita_percent: 61
 generato_il: "2026-11-04T07:18"
 cover_image: "/covers/2026-11-04-m-joint-vs-m-sakkari-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis ATP 250 (46001156835).jpg"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Il **secondo turno** del Prudential Hong Kong Tennis Open mette di fronte M. Joint e **Maria Sakkari**, due giocatrici arrivate a questo appuntamento percorrendo strade molto diverse. Si gioca sul **cemento** cinese, superficie storica di un evento rientrato stabilmente nel calendario WTA dal 2014, in un incrocio che non registra alcun precedente ufficiale tra le due.

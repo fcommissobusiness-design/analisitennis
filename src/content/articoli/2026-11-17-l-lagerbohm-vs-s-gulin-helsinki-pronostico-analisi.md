@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Gulin"
 probabilita_percent: 71
-cover_file: "File:Helsinki Olympic Stadium Tower.jpg"
 generato_il: "2026-11-17T07:49+01:00"
 cover_image: "/covers/2026-11-17-l-lagerbohm-vs-s-gulin-helsinki-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
-cover_focus: 10
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il primo turno del Challenger di **Helsinki** mette di fronte Lagerbohm e Gulin in un confronto senza passato comune. Tra i due non risulta alcun precedente ufficiale, e il giudizio resta quindi affidato interamente al presente: forma, calendario recente e condizione del momento diventano le uniche chiavi di lettura di una partita che vive proprio sul contrasto tra due storie diverse.

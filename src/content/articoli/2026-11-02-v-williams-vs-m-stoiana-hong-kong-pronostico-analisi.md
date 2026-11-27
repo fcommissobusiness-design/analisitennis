@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Stoiana"
 probabilita_percent: 69
-cover_image: "/covers/2026-11-02-v-williams-vs-m-stoiana-hong-kong-pronostico-analisi.jpg"
-cover_credit: "U.S. / Public domain / Wikimedia Commons"
-cover_file: "File:Secretary Kerry Watches As Venus Williams Prepares to Receive a Serve During A Tennis Match (28736162851).jpg"
 generato_il: "2026-11-02T07:14"
+cover_image: "/covers/2026-11-02-v-williams-vs-m-stoiana-hong-kong-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court net"
 ---
 
 Il tabellone di **Hong Kong** si apre con un primo turno che accosta due traiettorie molto diverse. Da una parte V. Williams, un nome che il tennis femminile conosce da oltre due decenni; dall'altra M. Stoiana, reduce da un autunno fittissimo di partite. Il cemento asiatico fa da cornice a un confronto inedito, perché nell'archivio non risulta alcuno scontro diretto precedente tra le due: entrambe arrivano a questo incrocio senza riferimenti da cui partire.

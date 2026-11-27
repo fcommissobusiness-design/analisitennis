@@ -19,11 +19,11 @@ tag:
 verdetto: "Oggi la può spuntare Griekspoor: l'olandese arriva dal titolo di Bruxelles e ha vinto l'ultimo confronto diretto proprio a Vienna lo scorso anno, due indizi concordanti che pesano sul veloce indoor contro un Nakashima solido ma fermato nei quarti a Lione."
 descrizione: "Tallon Griekspoor affronta Brandon Nakashima al primo turno di Vienna: scontri diretti, forma recente e stile di gioco a confronto sul cemento indoor."
 pubblicato: true
-cover_image: "/covers/2026-10-28-t-griekspoor-vs-b-nakashima-vienna-pronostico-analisi.jpg"
-cover_credit: "Kuberzog / CC BY 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Tallon Griekspoor - Roland-Garros - 28.05.2024.jpg"
 generato_il: "2026-10-28T08:34"
+cover_image: "/covers/2026-10-28-t-griekspoor-vs-b-nakashima-vienna-pronostico-analisi.jpg"
+cover_credit: "Tallon Griekspoor (2023 DC Open) 02.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Tallon Griekspoor (2023 DC Open) 02.jpg"
+cover_focus: 10
 ---
 
 Il primo turno del torneo di Vienna propone un confronto che ha già una piccola storia alle spalle. **Tallon Griekspoor** e Brandon Nakashima si ritrovano sul veloce indoor austriaco con un precedente a testa e due stati di forma che arrivano da direzioni diverse. L'olandese si presenta con un trofeo fresco in bacheca, lo statunitense con la solidità di un giocatore abituato a rendere al meglio sul cemento. Gli ingredienti per una sfida interessante ci sono tutti, nel momento dell'anno in cui il calendario indoor europeo entra nel vivo.

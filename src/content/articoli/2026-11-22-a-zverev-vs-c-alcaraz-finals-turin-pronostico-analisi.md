@@ -22,11 +22,11 @@ descrizione: "Finale Nitto ATP Finals 2026: Zverev e Alcaraz si ritrovano a Tori
 pubblicato: true
 probabilita_favorito: "Alcaraz"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-22-a-zverev-vs-c-alcaraz-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Carlos Alcaraz (2026 US Open) - 08.jpg"
 generato_il: "2026-11-22T07:33+01:00"
+cover_image: "/covers/2026-11-22-a-zverev-vs-c-alcaraz-finals-turin-pronostico-analisi.jpg"
+cover_credit: "Carlos Alcaraz Argentina Open 2024.jpg | OMAR.ERRE | CC BY 4.0"
+cover_file: "File:Carlos Alcaraz Argentina Open 2024.jpg"
+cover_focus: 10
 ---
 
 La finale delle **Nitto ATP Finals** chiude la stagione sul cemento di Torino con un confronto che raccoglie dieci precedenti e due stagioni straordinarie. Zverev e Alcaraz si ritrovano all'Inalpi Arena per la prima volta nella partita che assegna il trofeo di fine anno, dopo essersi incontrati nella fase a gironi torinese nel 2023 e nel 2024. Entrambi hanno superato il girone senza sconfitte e vinto la rispettiva semifinale ieri: il tedesco in due set contro Medvedev, Alcaraz in tre contro Shelton. In assenza di Sinner, campione uscente fermato da un infortunio a ottobre, è a loro che spetta l'ultimo verdetto della stagione.

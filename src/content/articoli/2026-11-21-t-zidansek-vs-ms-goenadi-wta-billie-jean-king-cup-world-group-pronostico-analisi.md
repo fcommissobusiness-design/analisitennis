@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Zidansek"
 probabilita_percent: 77
-cover_image: "/covers/2026-11-21-t-zidansek-vs-ms-goenadi-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (33040176178).jpg"
 generato_il: "2026-11-21T07:54+01:00"
+cover_image: "/covers/2026-11-21-t-zidansek-vs-ms-goenadi-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 La Billie Jean King Cup cambia le coordinate rispetto al circuito individuale: non c'è un tabellone che avanza, ma una sfida tra due nazionali distribuita su più confronti e su due giornate. In questo quadro Tamara **Zidansek** e M.S. **Goenadi** si incontrano in uno dei singolari della seconda giornata, un match che vive soprattutto del peso collettivo del risultato di squadra più che di una posta personale in classifica.

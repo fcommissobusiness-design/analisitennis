@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Popa"
 probabilita_percent: 61
-cover_file: "File:Amir rezaiennehzad match play.jpg"
 generato_il: "2026-11-26T07:15+01:00"
 cover_image: "/covers/2026-11-26-s-zhenikhova-vs-g-s-popa-w35-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Heather lights up Centre Court (19319009589).jpg | Carine06 from UK | CC BY-SA 2.0"
-cover_focus: 10
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:view white tennis line markings"
 ---
 
 Il secondo turno del **W35 di Heraklion** mette di fronte S. Zhenikhova e G. S. Popa in un incontro che ha già un capitolo alle spalle. Le due si sono incrociate solo poche settimane fa, e questo rende il secondo turno odierno tutt'altro che un foglio bianco: c'è una memoria recente, ci sono traiettorie di stagione che si sono toccate più volte e un contesto - quello delle settimane consecutive sullo stesso polo di tornei greco - che aiuta a inquadrare il momento di entrambe. Il via è fissato in mattinata, alle 08:30 italiane, con la partita tra le prime in programma sul campo.

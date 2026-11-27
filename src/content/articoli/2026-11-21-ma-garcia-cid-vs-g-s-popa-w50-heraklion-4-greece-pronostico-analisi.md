@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Garcia Cid"
 probabilita_percent: 53
-cover_image: "/covers/2026-11-21-ma-garcia-cid-vs-g-s-popa-w50-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis ATP (33040179468).jpg"
 generato_il: "2026-11-21T07:16+01:00"
+cover_image: "/covers/2026-11-21-ma-garcia-cid-vs-g-s-popa-w50-heraklion-4-greece-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 La terra battuta di Heraklion, sul versante di Hersonissos a Creta, ospita una delle due semifinali del W50, il torneo ITF che oggi mette di fronte **Ma. Garcia Cid** e **G. S. Popa**. Si gioca all'aperto, in una sessione mattutina di fine novembre, con l'aria costiera che tende a rallentare la palla e ad appesantire il campo. Un contesto che spesso premia le gambe e la tenuta nello scambio, e che fa da cornice a un incrocio in cui le due arrivano da strade molto diverse.

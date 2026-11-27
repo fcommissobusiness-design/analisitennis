@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Maristany"
 probabilita_percent: 58
-cover_file: "File:Martina Trevisan (2023 US Open) 11.jpg"
 generato_il: "2026-11-16T07:27+01:00"
 cover_image: "/covers/2026-11-16-g-maristany-vs-m-trevisan-colina-pronostico-analisi.jpg"
-cover_credit: "Trevisan WMQ18 (28) (29680365228) (cropped).jpg | si.robi | CC BY-SA 2.0"
-cover_focus: 10
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Primo turno del tabellone principale a Colina, 16 novembre, ore 17:15 italiane: **G. Maristany** e **M. Trevisan** si ritrovano una di fronte all'altra a poco più di due mesi dal loro primo e unico incontro. Le due arrivano all'appuntamento da strade diverse, una entrando direttamente in tabellone e l'altra passando dalle qualificazioni, e questo basta a rendere la partita più intricata di quanto suggerisca la differenza di classifica.

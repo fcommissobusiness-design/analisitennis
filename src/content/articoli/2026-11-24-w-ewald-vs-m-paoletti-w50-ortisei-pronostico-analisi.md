@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Ewald"
 probabilita_percent: 64
-cover_image: "/covers/2026-11-24-w-ewald-vs-m-paoletti-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Emmet hume (talk · contribs) — Flickr user Emmet Hume / CC BY 3.0 / Wikimedia Commons"
-cover_focus: 15
-cover_file: "File:Yanina Wickmayer Backhand at 2009 US Open.jpg"
 generato_il: "2026-11-24T07:31+01:00"
+cover_image: "/covers/2026-11-24-w-ewald-vs-m-paoletti-w50-ortisei-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 Alle 9:40 di martedì W. Ewald e M. Paoletti scendono in campo per i **sedicesimi di finale** del W50 Ortisei, e lo fanno senza alcun punto di riferimento reciproco: fra le due non esiste un solo precedente diretto, e nelle rispettive ultime quindici partite non compare nemmeno un'avversaria affrontata da entrambe. Niente memoria tattica, niente confronto indiretto, nemmeno per interposta persona.

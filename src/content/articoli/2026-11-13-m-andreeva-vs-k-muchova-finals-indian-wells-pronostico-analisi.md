@@ -21,11 +21,10 @@ descrizione: "Andreeva contro Muchova in un match dagli stimoli capovolti: forma
 pubblicato: true
 probabilita_favorito: "Andreeva"
 probabilita_percent: 62
-cover_image: "/covers/2026-11-13-m-andreeva-vs-k-muchova-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Mirra Andreeva (2023 US Open) 17.jpg"
 generato_il: "2026-11-13T07:41+01:00"
+cover_image: "/covers/2026-11-13-m-andreeva-vs-k-muchova-finals-indian-wells-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket & ball"
 ---
 
 C'è qualcosa di particolare nell'incrocio tra Mirra **Andreeva** e Karolína **Muchova**, e non riguarda i colpi. La posta in palio, almeno quella legata alla classifica, è già stata assegnata prima ancora che le due scendano in campo. La russa ha blindato il proprio passaggio al turno successivo, la ceca è invece fuori dai giochi per la corsa ai piani alti. Quello che resta è un match dal valore sportivo autentico ma dagli stimoli capovolti, in cui a pesare sarà soprattutto il modo in cui le due interpreteranno una serata priva di urgenze da graduatoria.

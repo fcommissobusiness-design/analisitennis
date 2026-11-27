@@ -24,8 +24,8 @@ probabilita_favorito: "Kulambayeva"
 probabilita_percent: 57
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-m-yamaguchi-vs-z-kulambayeva-chennai-pronostico-analisi.jpg"
-cover_credit: "Clavecin / Public domain / Wikimedia Commons"
-cover_file: "File:Doubles Knock-Up Centre Court.JPG"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:On the line (35996058600).jpg"
 ---
 
 Chennai rimette subito di fronte due giocatrici che negli ultimi giorni si sono studiate a fondo. **Yamaguchi** e **Kulambayeva** tornano sullo stesso campo a distanza di sole ventiquattro ore dall'ultimo confronto, in un **primo turno** che somiglia a una rivincita immediata e che proprio per questo porta con sé una tensione particolare, diversa da quella di un sorteggio qualsiasi.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Arnaboldi"
 probabilita_percent: 69
-cover_image: "/covers/2026-11-23-f-arnaboldi-vs-i-kountourakis-hersonissos-4-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis ATP (46001161935).jpg"
 generato_il: "2026-11-23T07:19+01:00"
+cover_image: "/covers/2026-11-23-f-arnaboldi-vs-i-kountourakis-hersonissos-4-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il tabellone di Hersonissos 4 propone al **primo turno** un confronto tra due profili che arrivano all'appuntamento con storie recenti molto diverse. Da una parte Arnaboldi, reduce da un periodo di tornei in Italia e da un'interruzione piuttosto lunga; dall'altra Kountourakis, che ha continuato a giocare la serie cretese fino a pochi giorni prima di questa settimana. È un incrocio senza storia pregressa, e questo lascia aperte diverse letture.

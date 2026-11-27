@@ -21,11 +21,10 @@ descrizione: "Fritz e Alcaraz ai quarti del Rolex Paris Masters: precedenti, for
 pubblicato: true
 probabilita_favorito: "Alcaraz"
 probabilita_percent: 72
-cover_image: "/covers/2026-11-06-t-fritz-vs-c-alcaraz-paris-pronostico-analisi.jpg"
-cover_credit: "Oleg Yunakov / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Carlos Alcaraz (2026 US Open) - 07.jpg"
 generato_il: "2026-11-06T07:21"
+cover_image: "/covers/2026-11-06-t-fritz-vs-c-alcaraz-paris-pronostico-analisi.jpg"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 Il tabellone del **Rolex Paris Masters** consegna ai quarti di finale un incrocio diventato ricorrente: Taylor Fritz e Alcaraz tornano uno di fronte all'altro, questa volta sul cemento indoor della capitale francese. È l'ottavo capitolo di una storia cominciata nel 2023 e proseguita con regolarità fino all'autunno più recente, segno che i sorteggi continuano a metterli sulla stessa strada nei momenti caldi della stagione.

@@ -21,11 +21,10 @@ descrizione: "Pegula contro Andreeva nella semifinale delle Finals: primo confro
 pubblicato: true
 probabilita_favorito: "Andreeva"
 probabilita_percent: 61
-cover_image: "/covers/2026-11-14-j-pegula-vs-m-andreeva-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Mirra Andreeva (2023 US Open) 06.jpg"
 generato_il: "2026-11-14T07:33+01:00"
+cover_image: "/covers/2026-11-14-j-pegula-vs-m-andreeva-finals-indian-wells-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 Le Finals, il torneo che chiude la stagione riunendo le migliori del circuito, consegnano una semifinale dal peso enorme: **Jessica Pegula** e **Mirra Andreeva** si giocano un posto nell'ultimo atto. In singolare non si sono mai affrontate: a livello professionistico si erano incrociate soltanto in doppio, dove il bilancio sorride ad Andreeva per 2 a 1. Questo primo confronto uno contro uno arriva nel momento più delicato dell'anno, con una posta che non potrebbe essere più alta per entrambe.

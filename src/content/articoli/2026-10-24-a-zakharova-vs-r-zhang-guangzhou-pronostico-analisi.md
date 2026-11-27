@@ -22,9 +22,8 @@ descrizione: "Zakharova contro Zhang nella semifinale WTA di Guangzhou: forma re
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-a-zakharova-vs-r-zhang-guangzhou-pronostico-analisi.jpg"
-cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Zakharova WMQ23 (53062168833).jpg"
+cover_credit: "2016 Citi Open Shuai Zhang (28291569661).jpg | Keith Allison from Hanover, MD, USA | CC BY-SA 2.0"
+cover_file: "File:2016 Citi Open Shuai Zhang (28291569661).jpg"
 ---
 
 Il tabellone del torneo WTA di **Guangzhou** consegna una semifinale dai contorni curiosi, con Zakharova e Zhang arrivate allo stesso bivio partendo da strade recenti molto diverse. In palio c'è un posto nella finale, su un cemento che tende a premiare chi riesce a imporre ritmo e profondità già dai primi scambi, senza concedere il tempo all'avversaria di prendere le misure.

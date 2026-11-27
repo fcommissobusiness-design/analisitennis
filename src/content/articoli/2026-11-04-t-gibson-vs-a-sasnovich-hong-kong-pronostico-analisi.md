@@ -24,9 +24,8 @@ probabilita_favorito: "Sasnovich"
 probabilita_percent: 63
 generato_il: "2026-11-04T07:44"
 cover_image: "/covers/2026-11-04-t-gibson-vs-a-sasnovich-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Aliaksandra Sasnovich (2023 US Open) 08.jpg"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:On the line (35996058600).jpg"
 ---
 
 Il **secondo turno** del torneo di **Hong Kong** mette di fronte due giocatrici che, nel giro di pochi mesi, hanno imparato a conoscersi piuttosto bene. Talia Gibson e Aliaksandra Sasnovich si ritrovano sul veloce asiatico dopo essersi già incrociate due volte nel corso del 2026, un dettaglio che trasforma questo incontro in qualcosa di più di una semplice tappa del tabellone: c'è una piccola storia pregressa da cui partire, e due letture diverse di come affrontarla.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Alcala Gurri"
 probabilita_percent: 61
-cover_file: "File:(CCC No. 21. 1926) - Hermosos Aspectos Exteriores del Club Lawn Tennis de la Exposición (2).png"
 generato_il: "2026-11-13T07:12+01:00"
 cover_image: "/covers/2026-11-13-t-boyer-vs-m-alcala-gurri-lima-2-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Il tabellone del **Lima 2** mette di fronte ai quarti di finale Tristan Boyer e Max Alcala Gurri, un **quarto di finale** senza storia alle spalle: i due non si sono mai incrociati sul circuito, e questo toglie ogni automatismo psicologico dal campo. Si arriva a questo incrocio per strade diverse, ed è proprio il contrasto tra i due momenti a rendere la partita interessante al di là delle posizioni in classifica.

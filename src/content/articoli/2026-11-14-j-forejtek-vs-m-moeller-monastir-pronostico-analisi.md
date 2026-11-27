@@ -24,7 +24,8 @@ probabilita_favorito: "Forejtek"
 probabilita_percent: 57
 generato_il: "2026-11-14T07:22+01:00"
 cover_image: "/covers/2026-11-14-j-forejtek-vs-m-moeller-monastir-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Al **Monastir Open** si gioca una semifinale che mette di fronte Forejtek e Moeller, due giocatori che arrivano all'appuntamento con un solo risultato in testa: il pass per l'ultimo atto del torneo. Siamo sul **cemento** di Monastir, in Tunisia, un Challenger che a questo punto della stagione raccoglie chi insegue punti pesanti per chiudere bene l'anno. Entrambi hanno superato tre turni in questa settimana, ma lo hanno fatto con modalità differenti, ed è proprio da lì che conviene partire per capire cosa aspettarsi.

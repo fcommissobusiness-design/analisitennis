@@ -21,9 +21,9 @@ descrizione: "Xinyu Wang e Tereza Valentova si sfidano per la prima volta nella 
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-xin-wang-vs-t-valentova-tokyo-pronostico-analisi.jpg"
-cover_credit: "江戸村のとくぞう / CC BY-SA 4.0 / Wikimedia Commons"
+cover_credit: "Wang Xinyu (2023 French Open) 05.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Wang Xinyu (2023 French Open) 05.jpg"
 cover_focus: 10
-cover_file: "File:XINYU WANG 20220919a3.jpg"
 ---
 
 La semifinale del torneo WTA di **Tokyo** mette di fronte due giocatrici che arrivano all'appuntamento percorrendo strade molto diverse. Da una parte Xinyu Wang, cinese di consolidata esperienza nel circuito maggiore; dall'altra Tereza Valentova, ceca protagonista in questa stagione di una crescita costante. Un dettaglio rende la sfida ancora più intrigante: le due non si sono mai incontrate prima d'ora.

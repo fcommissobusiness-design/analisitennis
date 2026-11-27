@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-31T07:06"
 cover_image: "/covers/2026-10-31-d-dietrich-vs-a-mayo-sioux-falls-pronostico-analisi.jpg"
-cover_credit: "Thomson200 / CC0 / Wikimedia Commons"
-cover_file: "File:Taube Family Tennis Stadium 2015.JPG"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Sioux Falls entra nella sua fase decisiva e la semifinale mette di fronte **Dietrich** e **Mayo**, due giocatori arrivati al penultimo atto con percorsi differenti ma con la stessa voglia di giocarsi il biglietto per la finale. Sul veloce indoor del challenger statunitense entrambi hanno superato tre turni per presentarsi a questo appuntamento, e ora si contendono l'accesso all'ultimo match del torneo in una sfida che parte senza una storia alle spalle.

@@ -25,7 +25,8 @@ probabilita_favorito: "Hercog"
 probabilita_percent: 56
 generato_il: "2026-11-17T07:48+01:00"
 cover_image: "/covers/2026-11-17-p-hercog-vs-m-bulgaru-colina-pronostico-analisi.jpg"
-cover_credit: "Pörtschach Johannes-Brahms-Promenade Werzer-Tennis-Arena 27052017 8932.jpg | Johann Jaritz | CC BY-SA 4.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il tabellone di Colina propone al primo turno un confronto che ha già un piccolo passato: **P. Hercog** e **M. Bulgaru** si ritrovano di fronte dopo essersi incrociate più volte nel 2023, compreso proprio su questo appuntamento. Entrambe arrivano da settimane fitte di partite nello swing sudamericano e messicano di fine stagione, con la voglia di prolungare un autunno fatto di punti e di minutaggio.

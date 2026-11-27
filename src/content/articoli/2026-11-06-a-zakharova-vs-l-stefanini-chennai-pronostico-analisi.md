@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Stefanini"
 probabilita_percent: 69
-cover_image: "/covers/2026-11-06-a-zakharova-vs-l-stefanini-chennai-pronostico-analisi.jpg"
-cover_credit: "si.robi / CC BY-SA 2.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Zakharova WMQ23 (53062168833) (cropped).jpg"
 generato_il: "2026-11-06T07:41"
+cover_image: "/covers/2026-11-06-a-zakharova-vs-l-stefanini-chennai-pronostico-analisi.jpg"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:On the line (35996058600).jpg"
 ---
 
 C'è un filo che lega **Anastasia Zakharova** e **Lucrezia Stefanini** ben oltre il tabellone del Chennai Open, il torneo WTA che si gioca sul cemento indiano. Le due si ritrovano ai quarti di finale dopo aver già diviso il campo in più di un'occasione, e lo fanno arrivando da percorsi di stagione molto diversi. La russa è reduce da un lungo giro tra gli appuntamenti del circuito maggiore, l'italiana da un autunno fitto di partite su palcoscenici più raccolti. Due strade che convergono adesso su un campo solo, con in palio un posto in semifinale.

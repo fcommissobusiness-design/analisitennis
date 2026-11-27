@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Kozlov"
 probabilita_percent: 59
-cover_file: "File:Aidan Mayo (2026 Cary) 02.jpg"
 generato_il: "2026-11-08T07:33"
 cover_image: "/covers/2026-11-08-s-kozlov-vs-a-mayo-charlottesville-pronostico-analisi.jpg"
-cover_credit: "Snydertenniscenter.jpg | Queerbubbles | CC BY-SA 3.0"
+cover_credit: "Erwan Hesry erwanhesry / CC0 / Wikimedia Commons"
+cover_file: "File:Tennis line markings (Unsplash).jpg"
 ---
 
 Charlottesville chiude la sua settimana con una **finale** dal sapore di già visto: da una parte Kozlov, dall'altra Aidan Mayo, due giocatori che nel giro di pochi mesi hanno imparato a conoscersi fin troppo bene. I loro tabelloni si sono incrociati più volte in stagione, e il fatto che accada di nuovo nell'ultimo atto di un torneo aggiunge un filo di curiosità a una partita che di inedito ormai conserva poco. Entrambi ci arrivano dopo una serie di vittorie, e questo basta a garantire che nessuno dei due si presenti all'appuntamento in condizione precaria.

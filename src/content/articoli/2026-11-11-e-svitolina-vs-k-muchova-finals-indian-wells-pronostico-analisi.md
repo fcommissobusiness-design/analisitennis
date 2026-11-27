@@ -23,7 +23,7 @@ pubblicato: true
 probabilita_favorito: "Svitolina"
 probabilita_percent: 57
 cover_file: "File:Karolina Muchova at US Open 2024.jpg"
-cover_focus: 26
+cover_focus: 10
 generato_il: "2026-11-11T07:39+01:00"
 cover_image: "/covers/2026-11-11-e-svitolina-vs-k-muchova-finals-indian-wells-pronostico-analisi.jpg"
 cover_credit: "Karolina Muchova at US Open 2024.jpg | Nader Farzan | CC0"

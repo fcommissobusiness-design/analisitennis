@@ -24,8 +24,8 @@ probabilita_favorito: "Kasnikowski"
 probabilita_percent: 61
 generato_il: "2026-11-17T07:14+01:00"
 cover_image: "/covers/2026-11-17-t-dean-vs-m-kasnikowski-drummondville-pronostico-analisi.jpg"
-cover_credit: "Heather lights up Centre Court (19319009589).jpg | Carine06 from UK | CC BY-SA 2.0"
-cover_focus: 10
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Il tabellone di Drummondville mette di fronte due giocatori che arrivano all'appuntamento da strade molto diverse. Da una parte **T. Dean**, che ha vissuto le ultime settimane quasi senza respiro, incatenando tornei e turni fino a conquistarsi l'accesso al tabellone principale. Dall'altra **M. Kasnikowski**, con un calendario recente più diluito e qualche giorno di stacco alle spalle. È il loro primo incrocio in assoluto, e questo basta a togliere ogni riferimento diretto a cui appigliarsi.

@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-a-freire-da-silva-vs-v-ursu-brest-pronostico-analisi.jpg"
-cover_credit: "BrokenSphere / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Taube Family Tennis Stadium exterior 1.JPG"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Il penultimo atto del Challenger di **Brest** mette di fronte A. Freire Da Silva e V. Ursu, due giocatori arrivati alla semifinale percorrendo strade piuttosto diverse nelle settimane che hanno preceduto l'appuntamento. Nessuno dei due si presenta con l'etichetta del favorito annunciato, e proprio per questo la sfida di oggi, 25 ottobre, si presta a una lettura attenta più che a conclusioni affrettate.

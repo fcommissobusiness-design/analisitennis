@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-m-ribecai-vs-f-romano-florence-italy-qualification-pronostico-analisi.jpg"
-cover_credit: "Johnyamaha / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Palazzo Wanny - ATP Firenze Open.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 
 La settimana del Challenger di **Firenze** si chiude con una finale tutta italiana: Michele Ribecai e Filippo Romano si affrontano per il titolo dopo aver attraversato, ciascuno a modo suo, un tabellone fitto di insidie. Due percorsi diversi che convergono nello stesso ultimo atto, con l'etichetta di sfida fra connazionali a caricare ulteriormente una giornata già densa di aspettative.

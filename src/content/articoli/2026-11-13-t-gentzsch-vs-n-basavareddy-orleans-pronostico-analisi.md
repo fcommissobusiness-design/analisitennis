@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Gentzsch"
 probabilita_percent: 59
-cover_file: "File:Atkinson–Stern Tennis Center, New Orleans.jpg"
 generato_il: "2026-11-13T07:26+01:00"
 cover_image: "/covers/2026-11-13-t-gentzsch-vs-n-basavareddy-orleans-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 
 Il CòMet Orléans Open entra nella fase calda e mette di fronte, nei quarti di finale, **T. Gentzsch** e **N. Basavareddy**, due giocatori arrivati a questo punto del tabellone dopo aver superato avversari di valore sul cemento di Orléans. È un quarto che pesa in chiave classifica per entrambi, in un Challenger che chiude la parte conclusiva della stagione sul veloce.

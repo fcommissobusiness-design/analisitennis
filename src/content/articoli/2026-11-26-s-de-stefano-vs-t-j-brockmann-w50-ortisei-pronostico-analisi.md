@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Brockmann"
 probabilita_percent: 53
-cover_file: "File:Sydney International Tennis WTA (46001164515).jpg"
 generato_il: "2026-11-26T07:56+01:00"
 cover_image: "/covers/2026-11-26-s-de-stefano-vs-t-j-brockmann-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket ball photo"
 ---
 
 Nei quarti di finale del W50 di Ortisei va in scena un confronto che, sulla carta, non ha un padrone. Da una parte **Samira De Stefano**, italiana, mancina, classe 2004; dall'altra **T. J. Brockmann**, che arriva all'appuntamento con un percorso settimanale già avviato. Due giocatrici collocate su valori di classifica molto vicini, che si ritrovano a distanza di pochi mesi dal loro unico incrocio, in un momento di stagione in cui ogni punto pesa per chiudere bene l'annata.

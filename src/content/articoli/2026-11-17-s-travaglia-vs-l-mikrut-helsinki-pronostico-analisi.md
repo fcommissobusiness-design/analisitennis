@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Mikrut"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-17-s-travaglia-vs-l-mikrut-helsinki-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Luka Mikrut (2026 US Open) 02 (cropped).jpg"
 generato_il: "2026-11-17T07:33+01:00"
+cover_image: "/covers/2026-11-17-s-travaglia-vs-l-mikrut-helsinki-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:view white tennis line markings"
 ---
 
 C'è qualcosa di istruttivo nel modo in cui **Stefano Travaglia** e **Luka Mikrut** arrivano a questo primo turno di Helsinki: due calendari che negli ultimi mesi hanno viaggiato in direzioni opposte e che oggi finiscono per incrociarsi sullo stesso campo. Da una parte un giocatore d'esperienza che rientra dopo una pausa, dall'altra un ventiduenne che non si ferma da settimane. È questo contrasto, più del sorteggio, a dare sapore al confronto.

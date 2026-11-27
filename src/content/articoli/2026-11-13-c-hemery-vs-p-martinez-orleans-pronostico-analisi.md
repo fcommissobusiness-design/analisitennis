@@ -23,10 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Hemery"
 probabilita_percent: 53
-cover_file: "File:University Tennis Center courts (UNO), New Orleans.jpg"
 generato_il: "2026-11-13T07:19+01:00"
 cover_image: "/covers/2026-11-13-c-hemery-vs-p-martinez-orleans-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Il **quarto di finale** di Orléans mette di fronte C. Hemery e P. Martinez al loro primo incrocio in carriera, due giocatori arrivati a questo punto del Challenger francese seguendo strade molto diverse. Da una parte chi ha dovuto farsi largo fin dai turni preliminari e poi non ha più smesso di vincere, dall'altra chi è entrato direttamente in tabellone forte di un curriculum di livello superiore. In palio c'è un posto in semifinale, e i presupposti per una partita combattuta non mancano.

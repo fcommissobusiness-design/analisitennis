@@ -24,8 +24,8 @@ probabilita_favorito: "Kurt"
 probabilita_percent: 57
 generato_il: "2026-11-19T07:22+01:00"
 cover_image: "/covers/2026-11-19-s-milanese-vs-i-kurt-w15-sharm-elsheikh-20-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (46001165265).jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 C'è un filo che lega molte delle protagoniste delle settimane ITF di Sharm ElSheikh, ed è la frequenza con cui le stesse giocatrici tornano a incrociarsi nelle medesime strutture, settimana dopo settimana. Negli ottavi del **W15 Sharm ElSheikh 20**, in programma nella mattinata del 19 novembre, si affrontano S. Milanese e I. Kurt, due giocatrici che arrivano a questo turno dalla stessa parte: entrambe hanno superato il proprio match del 18 novembre e si presentano quindi con lo slancio di un successo fresco. È un gradino d'ingresso del circuito, dove i punti pesano poco in assoluto ma molto per chi deve muovere una classifica ferma, ed è proprio in questo contesto che le due si misurano oggi.
 

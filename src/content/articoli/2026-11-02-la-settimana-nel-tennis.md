@@ -21,8 +21,8 @@ descrizione: "La settimana del tennis: Alcaraz trionfa a Vienna, Vacherot a Basi
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-11-02-la-settimana-nel-tennis.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court lines"
 ---
 
 ### Una settimana a dominante cemento

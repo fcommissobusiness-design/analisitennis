@@ -24,7 +24,8 @@ probabilita_favorito: "Rodriguez"
 probabilita_percent: 58
 generato_il: "2026-11-18T07:24+01:00"
 cover_image: "/covers/2026-11-18-v-rodriguez-vs-l-meyer-auf-der-heide-w35-sao-paulo-2-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis racket"
 ---
 
 Il W35 Sao Paulo 2 propone agli ottavi di finale un confronto tra **Rodriguez** e **Meyer Auf Der Heide**, due giocatrici che arrivano a questo turno dopo aver vinto il rispettivo impegno del 17 novembre. Per entrambe è la prosecuzione di un periodo fitto di partite, e il risultato di oggi vale come tappa di un calendario che le ha viste girare parecchio nelle ultime settimane. La traccia che le lega, però, non parte da qui.

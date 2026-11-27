@@ -21,9 +21,8 @@ descrizione: "A Guangzhou, Garland e Inglis si giocano un posto in finale sul ce
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-j-garland-vs-m-inglis-guangzhou-pronostico-analisi.jpg"
-cover_credit: "robbiesaurus from Smithtown, NY, USA / CC BY-SA 2.0 / Wikimedia Commons"
-cover_focus: 15
-cover_file: "File:Maddison Inglis (AUS) (21642587261).jpg"
+cover_credit: "Maddison Inglis (51312378434).jpg | Peter Menzel | CC BY-SA 2.0"
+cover_file: "File:Maddison Inglis (51312378434).jpg"
 ---
 
 Il torneo di **Guangzhou** entra nella sua fase calda e la semifinale tra Garland e Inglis promette battaglia. Due giocatrici reduci da settimane intense, entrambe capaci di spingersi in fondo ai tornei recenti, si contendono un posto nell'atto conclusivo su un **cemento** che tende a premiare chi comanda lo scambio e sa variare le traiettorie. Sulla carta i margini appaiono minimi, e proprio questo rende il confronto tanto incerto quanto affascinante.

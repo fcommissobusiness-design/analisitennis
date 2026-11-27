@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-31T06:55"
 cover_image: "/covers/2026-10-31-l-draxl-vs-s-dominko-sioux-falls-pronostico-analisi.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 A **Sioux Falls** si accende un confronto tra due giocatori che arrivano all'appuntamento con il vento in poppa, ma percorrendo strade molto diverse. Da una parte **Draxl**, reduce da settimane intense contro avversari di alto profilo, dall'altra **Dominko**, trascinato da una lunga scia di vittorie. I due non si sono mai affrontati prima in un match ufficiale, almeno stando all'archivio dei precedenti, e proprio questa assenza di storia comune rende la sfida più difficile da decifrare. Due curve di rendimento in salita che si incontrano nello stesso momento, con la sensazione che nessuno dei due abbia intenzione di fermarsi qui.

@@ -21,10 +21,10 @@ descrizione: "A Knoxville Baris ci arriva in piena fiducia dopo tre successi di 
 pubblicato: true
 probabilita_favorito: "Zheng"
 probabilita_percent: 68
-cover_file: "File:Goodfriend Tennis Center, Tennessee Volunteers Tennis.png"
 generato_il: "2026-11-12T07:54+01:00"
 cover_image: "/covers/2026-11-12-o-baris-vs-m-zheng-knoxville-pronostico-analisi.jpg"
-cover_credit: "Goodfriend Tennis Center, Tennessee Volunteers Tennis.png | TN 66 | CC BY-SA 3.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:On the line (35996058600).jpg"
 ---
 
 Gli **ottavi di finale** di Knoxville mettono di fronte due storie opposte. Da un lato Ozan **Baris**, che in questa settimana ha infilato un successo dopo l'altro e arriva all'appuntamento con la spinta di chi non vuole fermarsi. Dall'altro **Zheng**, giocatore di maggiore esperienza ai piani alti del circuito, chiamato però a ritrovare continuità dopo un periodo meno brillante. Un incrocio in cui il momento di forma e il valore di fondo sembrano tirare in direzioni diverse.

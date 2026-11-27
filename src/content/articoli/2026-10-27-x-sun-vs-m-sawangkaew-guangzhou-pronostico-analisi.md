@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-27T12:23"
 cover_image: "/covers/2026-10-27-x-sun-vs-m-sawangkaew-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Mariana Pires23 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Olympic Tennis Center-Centro Olímpico da Barra.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il cemento di **Guangzhou** mette di fronte due storie tennistiche che sembrano appartenere a epoche diverse. Da una parte X. Sun, giovane cinese lanciata da una stagione juniores di altissimo profilo; dall'altra M. Sawangkaew, thailandese che da mesi macina chilometri tra tabelloni principali e qualificazioni del circuito maggiore. I sedicesimi di finale le riuniscono in un confronto inedito, senza che tra loro esista alcun antefatto in campo.

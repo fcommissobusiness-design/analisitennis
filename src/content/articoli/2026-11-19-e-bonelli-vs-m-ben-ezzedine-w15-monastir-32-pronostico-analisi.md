@@ -24,8 +24,8 @@ probabilita_favorito: "Bonelli"
 probabilita_percent: 52
 generato_il: "2026-11-19T07:12+01:00"
 cover_image: "/covers/2026-11-19-e-bonelli-vs-m-ben-ezzedine-w15-monastir-32-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (46000969935).jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 Agli ottavi del W15 di Monastir si incrociano due giocatrici che hanno appena superato il proprio incontro d'apertura e che oggi, nella prima fascia di gioco della giornata, provano a trasformare quel primo passo in continuità. E. Bonelli e M. Ben Ezzedine non si sono mai affrontate in un match precedente a questa settimana, quindi nessuna delle due porta in campo un bagaglio di esperienze dirette da cui attingere: tutto si gioca sulla condizione del momento e sulla capacità di gestire i frangenti chiave.
 

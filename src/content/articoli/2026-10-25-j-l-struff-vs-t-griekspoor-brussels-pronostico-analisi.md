@@ -22,9 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-25T07:30"
 cover_image: "/covers/2026-10-25-j-l-struff-vs-t-griekspoor-brussels-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Tallon Griekspoor (2023 DC Open) 04.jpg"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 La finale di **Bruxelles** mette di fronte due interpreti del tennis di potenza, Jan-Lennard Struff e Tallon Griekspoor, arrivati all'ultimo atto dopo una settimana costruita vittoria dopo vittoria. Entrambi hanno dovuto superare quattro turni su un cemento indoor che premia il servizio e il gioco aggressivo, e nessuno dei due si presenta per caso: il tabellone li ha messi alla prova in modo diverso, ma il risultato è lo stesso, una finale guadagnata sul campo.

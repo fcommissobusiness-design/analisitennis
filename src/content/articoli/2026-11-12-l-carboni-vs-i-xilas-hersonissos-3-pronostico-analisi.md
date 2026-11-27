@@ -23,10 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Carboni"
 probabilita_percent: 52
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
 generato_il: "2026-11-12T07:51+01:00"
 cover_image: "/covers/2026-11-12-l-carboni-vs-i-xilas-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg | Cz4523 | CC BY-SA 4.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 C'è un ottavo di finale che, letto solo dalla classifica, sembrerebbe avere un padrone, e che invece il campo ha reso incerto. Al Challenger di Hersonissos, terza tappa stagionale sul cemento di Creta, **Carboni** e **Xilas** si affrontano per un posto nei quarti dopo aver imboccato strade opposte per arrivare fin qui. Il primo è passato dalle qualificazioni, il secondo è entrato con una wild card: due porte d'accesso diverse per un incontro in programma nella mattinata italiana, con ogni probabilità tra i primi sul campo di giornata.

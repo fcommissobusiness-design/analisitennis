@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Li"
 probabilita_percent: 64
-cover_file: "File:Anna Bondár (2023 US Open) 03.jpg"
 generato_il: "2026-11-21T07:12+01:00"
 cover_image: "/covers/2026-11-21-a-li-vs-a-bondar-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
-cover_credit: "Transylvania Open 2026 - Anna Bondar v Ella Seidel 4-6, 7-6 (8-6), 6-0 01.01.2026 (55078278088) (cropped).jpg | Nuță Lucian from Cluj-Napoca, Romania | CC BY-SA 4.0"
-cover_focus: 15
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 C'è un singolare che vale per la squadra, nel programma serale di questa sfida tra nazioni di **Billie Jean King Cup**: da una parte Ann Li, statunitense, dall'altra Anna Bondar, ungherese. Due giocatrici che condividono la stessa impronta tecnica di base, destre, entrambe con rovescio a due mani, e che arrivano a questo incrocio da momenti di stagione piuttosto diversi. In una competizione a squadre il contorno cambia: non si gioca solo per sé, ma per il gruppo e per la maglia, con una pressione che ha un sapore particolare rispetto al circuito individuale.

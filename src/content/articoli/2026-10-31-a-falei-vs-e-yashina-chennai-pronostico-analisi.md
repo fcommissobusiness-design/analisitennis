@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-31T07:13"
 cover_image: "/covers/2026-10-31-a-falei-vs-e-yashina-chennai-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Il penultimo atto del torneo di Chennai mette di fronte **A. Falei** e **E. Yashina**, due giocatrici approdate alla semifinale lungo traiettorie differenti. Sul cemento indiano si affrontano per la prima volta, e già questo basta a rendere la sfida difficile da incasellare: nessuna delle due conosce davvero l'altra dall'interno di un campo, e ogni scambio sarà materiale nuovo da interpretare in corsa. In una semifinale, dove la posta è un posto nell'ultimo atto, l'incognita reciproca può diventare un fattore tanto quanto il rendimento dei colpi.

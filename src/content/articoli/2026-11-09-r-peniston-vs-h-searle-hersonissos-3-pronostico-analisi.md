@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Searle"
 probabilita_percent: 53
-cover_file: "File:Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg"
 generato_il: "2026-11-09T06:11"
 cover_image: "/covers/2026-11-09-r-peniston-vs-h-searle-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "PlaneMad/Wikimedia / CC BY-SA 3.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court net"
 ---
 
 Il primo turno del **Challenger di Hersonissos 3** mette di fronte R. Peniston e H. Searle, due giocatori che condividono un momento di risultati tutt'altro che brillante. Non è un incrocio del tutto nuovo: i due si sono già affrontati una volta, e quel confronto resta l'unico appiglio diretto per leggere una partita che sulla carta promette equilibrio. Entrambi arrivano da settimane spezzettate tra eventi di coda stagionale, e nessuno dei due può dirsi lanciato.

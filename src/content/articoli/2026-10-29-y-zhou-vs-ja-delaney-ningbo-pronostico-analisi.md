@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-29T07:24"
 cover_image: "/covers/2026-10-29-y-zhou-vs-ja-delaney-ningbo-pronostico-analisi.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 01.jpg"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Il challenger di **Ningbo** entra nella fase calda del tabellone e propone un confronto tra due giocatori arrivati all'appuntamento da strade molto diverse. Da una parte Y. Zhou, reduce da settimane intense vissute sui palcoscenici più prestigiosi del circuito asiatico; dall'altra Ja. Delaney, che ha alternato tornei di categorie differenti prima di approdare in Cina. Entrambi hanno superato il primo ostacolo lo stesso giorno, il 27 ottobre, e ora si giocano un posto ai quarti su un campo in cemento.

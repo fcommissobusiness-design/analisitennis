@@ -21,10 +21,10 @@ descrizione: "Zverev e Jodar di nuovo uno di fronte all'altro nel torneo che chi
 pubblicato: true
 probabilita_favorito: "Zverev"
 probabilita_percent: 62
-cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (21286735836).jpg"
 generato_il: "2026-11-15T07:16+01:00"
 cover_image: "/covers/2026-11-15-a-zverev-vs-r-jodar-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20690332614).jpg | Steven Pisano from Brooklyn, NY, USA | CC BY 2.0"
+cover_file: "File:2015 US Open Tennis - Qualies -Alexander Zverev (GER) (2) def. Nils Langer (GER) (20690332614).jpg"
 ---
 
 Il torneo che chiude la stagione mette subito uno di fronte all'altro due giocatori che si erano già incrociati pochi mesi fa. **Zverev** e **Jodar** aprono il loro cammino nell'evento riservato ai migliori dell'anno con un confronto che arriva a distanza ravvicinata dal loro unico precedente, e con due percorsi di avvicinamento piuttosto diversi per storia e vissuto.

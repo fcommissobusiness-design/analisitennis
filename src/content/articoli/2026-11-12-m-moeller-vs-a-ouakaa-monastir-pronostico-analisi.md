@@ -24,7 +24,8 @@ probabilita_favorito: "Moeller"
 probabilita_percent: 69
 generato_il: "2026-11-12T07:52+01:00"
 cover_image: "/covers/2026-11-12-m-moeller-vs-a-ouakaa-monastir-pronostico-analisi.jpg"
-cover_credit: "Anjo Sports Park tennis court ac.jpg | Asturio Cantabrio | CC BY-SA 4.0"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 Gli **ottavi di finale** del Challenger di **Monastir**, sul cemento tunisino, mettono di fronte Moeller e Ouakaa, due giocatori arrivati a questo turno per strade molto diverse. Entrambi hanno staccato il pass vincendo il proprio match il 10 novembre, ma il modo in cui sono approdati qui racconta storie quasi opposte. Non si sono mai incontrati prima: è un confronto senza memoria, da costruire interamente in campo.

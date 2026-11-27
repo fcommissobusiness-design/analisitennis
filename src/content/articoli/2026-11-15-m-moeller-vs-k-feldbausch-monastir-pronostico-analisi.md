@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Moeller"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-15-m-moeller-vs-k-feldbausch-monastir-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Kilian Feldbausch (2026 US Open) 01.jpg"
 generato_il: "2026-11-15T07:12+01:00"
+cover_image: "/covers/2026-11-15-m-moeller-vs-k-feldbausch-monastir-pronostico-analisi.jpg"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 Il Monastir Open chiude la sua settimana con una finale che ha il sapore del déjà-vu. Su un campo in **cemento** all'aperto, in Tunisia, Marvin Moeller e Kilian Feldbausch si ritrovano a giocarsi un titolo appena quattro mesi dopo essersi affrontati nell'ultimo atto di un altro Challenger. È la seconda volta in una stagione che questi due nomi finiscono uno di fronte all'altro con un trofeo in palio, e il contesto, rispetto all'estate, è cambiato sotto più di un aspetto. Per entrambi, in una fase di circuito ormai a fine corsa, è un appuntamento che conta.

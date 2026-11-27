@@ -23,8 +23,9 @@ probabilita_favorito: "Shelton"
 probabilita_percent: 61
 generato_il: "2026-11-03T10:41"
 cover_image: "/covers/2026-11-03-b-shelton-vs-c-norrie-paris-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:McDonald–Shelton box at the 2023 DC Open 04.jpg"
+cover_credit: "Shelton MCM23 (27) (52883150181).jpg | si.robi | CC BY-SA 2.0"
+cover_file: "File:Shelton MCM23 (27) (52883150181).jpg"
+cover_focus: 10
 ---
 
 Il turno d'apertura del torneo di Parigi mette di fronte due mancini dalla carta d'identità molto diversa: l'americano Ben Shelton e il britannico Cameron Norrie si ritrovano sul **cemento indoor** della capitale francese, una superficie rapida che tende a premiare chi prende l'iniziativa fin dalla battuta. È un incrocio che arriva in un momento particolare per entrambi, con stagioni che nelle ultime settimane hanno seguito traiettorie quasi opposte.

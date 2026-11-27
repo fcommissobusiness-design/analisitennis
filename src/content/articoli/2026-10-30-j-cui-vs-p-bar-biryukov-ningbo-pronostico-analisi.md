@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-30T07:24"
 cover_image: "/covers/2026-10-30-j-cui-vs-p-bar-biryukov-ningbo-pronostico-analisi.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 05.jpg"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 Il quadro dei quarti di finale del Challenger di **Ningbo** propone un confronto dal grande equilibrio statistico. J. Cui e P. Bar Biryukov arrivano a questo appuntamento del 30 ottobre con lo stesso identico bilancio nelle ultime quindici partite: otto vittorie e sette sconfitte a testa. Due giocatori reduci dal lungo autunno asiatico, che negli ultimi mesi li ha visti incrociare spesso gli stessi tornei e gli stessi avversari, pronti ora a misurarsi direttamente sul cemento.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Hennemann"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-21-g-feistel-vs-c-w-hennemann-wta-billie-jean-king-cup-world-group-pronostico-anali.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (33040180948).jpg"
 generato_il: "2026-11-21T07:13+01:00"
+cover_image: "/covers/2026-11-21-g-feistel-vs-c-w-hennemann-wta-billie-jean-king-cup-world-group-pronostico-anali.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Feistel e Hennemann arrivano a questo incrocio dallo stesso identico spartito: una sconfitta nell'impegno di apertura da smaltire e la necessità di rimettere in equilibrio una giornata iniziata in salita. È un confronto inedito, senza alcun precedente a fare da bussola, dentro la cornice della **Billie Jean King Cup**, dove la posta in palio e la pressione della competizione a squadre pesano quanto il tennis espresso sul campo.

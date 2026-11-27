@@ -23,11 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Kym"
 probabilita_percent: 59
-cover_file: "File:Rodionov WMQ23 (53061116527).jpg"
 generato_il: "2026-11-08T07:34"
 cover_image: "/covers/2026-11-08-j-kym-vs-j-rodionov-bratislava-2-pronostico-analisi.jpg"
-cover_credit: "Rodionov WMQ23 (53061116527).jpg | si.robi | CC BY-SA 2.0"
-cover_focus: 10
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 C'è un titolo da assegnare oggi sul cemento di **Bratislava**, e a contenderselo restano due giocatori arrivati all'ultimo atto senza incidenti di percorso. Jérôme **Kym**, svizzero classe 2003, alto 198 centimetri e dotato di un tennis costruito attorno al servizio, affronta Jurij **Rodionov**, austriaco mancino con rovescio a due mani. I due non si sono mai incrociati in un incontro ufficiale registrato: la finale slovacca è anche il loro primo confronto diretto, un dettaglio che aggiunge una dose di incognita alla vigilia.

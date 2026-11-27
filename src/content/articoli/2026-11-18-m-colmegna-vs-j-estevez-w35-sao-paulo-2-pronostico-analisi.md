@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Colmegna"
 probabilita_percent: 56
-cover_file: "File:Arena principal do Centro Olímpico de Tênis.jpg"
 generato_il: "2026-11-18T07:12+01:00"
 cover_image: "/covers/2026-11-18-m-colmegna-vs-j-estevez-w35-sao-paulo-2-pronostico-analisi.jpg"
-cover_credit: "Olympic Tennis Centre, Rio, Brazil.jpg | CivArmy | CC BY-SA 4.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 
 Negli ottavi di finale del **W35 Sao Paulo 2**, in programma oggi pomeriggio, si affrontano due giocatrici che arrivano all'appuntamento da strade molto diverse. Da una parte M. Colmegna, abituata nelle ultime settimane a misurarsi con tornei di fascia superiore; dall'altra J. Estevez, che si presenta con un bilancio recente nettamente positivo. Entrambe hanno superato il primo turno ieri, 17 novembre, e scendono in campo per il secondo impegno in due giorni.

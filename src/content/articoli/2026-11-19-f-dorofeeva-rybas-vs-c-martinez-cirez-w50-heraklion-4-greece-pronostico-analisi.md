@@ -24,9 +24,8 @@ probabilita_favorito: "Dorofeeva-Rybas"
 probabilita_percent: 61
 generato_il: "2026-11-19T07:38+01:00"
 cover_image: "/covers/2026-11-19-f-dorofeeva-rybas-vs-c-martinez-cirez-w50-heraklion-4-greece-pronostico-analisi.jpg"
-cover_credit: "Ben Lancaster from England / CC BY 2.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Tennis forehand by random dave.jpeg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 Il tabellone del **W50 di Heraklion 4**, in Grecia, propone un ottavo di finale che mette di fronte due giocatrici arrivate a questo appuntamento da strade molto diverse. Da una parte F. Dorofeeva-Rybas, reduce da settimane di partite quasi ininterrotte e da un ruolino recente fortemente in attivo; dall'altra C. Martinez Cirez, dentro un autunno fatto di risultati alterni tra tornei spagnoli, italiani e greci. Il match, in programma nella fascia mattutina, chiama entrambe a ritrovare rapidamente le misure sul campo in una giornata che vale punti pesanti per la classifica di questa categoria.
 

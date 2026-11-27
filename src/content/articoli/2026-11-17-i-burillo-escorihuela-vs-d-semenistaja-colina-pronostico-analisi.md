@@ -23,7 +23,8 @@ probabilita_favorito: "Semenistaja"
 probabilita_percent: 53
 generato_il: "2026-11-17T07:13+01:00"
 cover_image: "/covers/2026-11-17-i-burillo-escorihuela-vs-d-semenistaja-colina-pronostico-analisi.jpg"
-cover_credit: "Sydney International Tennis ATP 250 (46001156835).jpg | Rob Keating from Canberra, Australia, Australia | CC BY-SA 2.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 C'è un filo che tiene insieme questo primo turno di **Colina** e lo rende diverso da una qualsiasi partita d'apertura: da un lato un bilancio negli scontri diretti che pende tutto da una parte, dall'altro un divario di condizione che sembra andare nella direzione opposta. **I. Burillo Escorihuela** e **D. Semenistaja** si ritrovano per la quarta volta, e i numeri che portano in campo raccontano due storie che faticano a coincidere.

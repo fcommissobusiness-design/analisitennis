@@ -23,10 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Ribecai"
 probabilita_percent: 52
-cover_file: "File:Asker tennishall.jpg"
 generato_il: "2026-11-13T07:36+01:00"
 cover_image: "/covers/2026-11-13-m-ribecai-vs-a-andreev-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "PP Olympic Stadium - Tennis courts.jpg | GuillaumeG | CC BY-SA 3.0"
+cover_credit: "Carine06 from UK / CC BY-SA 2.0 / Wikimedia Commons"
+cover_file: "File:On the line (35996058600).jpg"
 ---
 
 Ai quarti di finale del Challenger di Hersonissos, sul **cemento** della costa cretese, si affacciano due percorsi che poco hanno in comune. Da una parte Michele Ribecai, italiano classe 2003, 173 centimetri di sostanza e un tennis costruito sulla continuità da fondo campo. Dall'altra A. Andreev, arrivato a questo punto del tabellone con una regolarità di risultati che il torneo fotografa con chiarezza. Il confronto apre la mattinata di gioco, in una sessione diurna nella quale la palla tende a viaggiare un po' più lenta e pesante rispetto alle ore centrali. Il torneo, un appuntamento di fine stagione, mette in palio un posto in semifinale in un tabellone che nelle prime battute ha già perso qualche favorito.

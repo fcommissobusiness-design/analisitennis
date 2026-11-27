@@ -20,11 +20,11 @@ tag:
 verdetto: "Oggi la può spuntare Lehecka: la finale recente di Tokyo e l'unico precedente a suo favore pendono dalla sua parte, ma il rodaggio di Altmaier sul veloce di Basilea tiene aperta la porta a un terzo set."
 descrizione: "Altmaier contro Lehecka negli ottavi di Basilea sul cemento indoor: forma recente, precedenti e percorso dei due a confronto in una sfida dall'esito apertissimo."
 pubblicato: true
-cover_image: "/covers/2026-10-29-d-altmaier-vs-j-lehecka-basel-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Daniel Altmaier (2023 US Open) 11.jpg"
 generato_il: "2026-10-29T06:57"
+cover_image: "/covers/2026-10-29-d-altmaier-vs-j-lehecka-basel-pronostico-analisi.jpg"
+cover_credit: "Altmaier RG22 (24) (52144567090).jpg | si.robi | CC BY-SA 2.0"
+cover_file: "File:Altmaier RG22 (24) (52144567090).jpg"
+cover_focus: 10
 ---
 
 C'è un ottavo di finale che promette intensità sul veloce indoor di Basilea, dove **Daniel Altmaier** e **Jiri Lehecka** si ritrovano di fronte con storie di avvicinamento molto diverse. Il tedesco arriva dal lungo percorso delle qualificazioni, il ceco da una stagione autunnale fitta di impegni ad alto livello. Il cemento al coperto tende a premiare chi serve con continuità e chi sa accorciare lo scambio, e proprio su questi dettagli potrebbe decidersi la sfida.

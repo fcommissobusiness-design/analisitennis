@@ -21,10 +21,10 @@ descrizione: "Pegula contro Noskova a fine stagione: scontri diretti, forma dell
 pubblicato: true
 probabilita_favorito: "Noskova"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-12-j-pegula-vs-l-noskova-finals-indian-wells-pronostico-analisi.jpg"
-cover_credit: "Tatiana from Moscow, Russia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Jessica Pegula (18519092314).jpg"
 generato_il: "2026-11-12T07:49+01:00"
+cover_image: "/covers/2026-11-12-j-pegula-vs-l-noskova-finals-indian-wells-pronostico-analisi.jpg"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Pegula e Noskova tornano a incrociarsi, e lo fanno in un appuntamento che chiude la stagione con il massimo del peso specifico. È la quarta volta che le due si affrontano nel giro di poco più di un anno e mezzo, e il filo che lega questi confronti racconta già parecchio di quanto possa valere ogni singolo scambio. Entrambe arrivano a questo incrocio con il morale alto e con un calendario quasi sovrapponibile nelle ultime giornate, un dettaglio che rende il raffronto ancora più diretto del solito.

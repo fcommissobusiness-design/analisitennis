@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Geerlings Martinez"
 probabilita_percent: 53
-cover_file: "File:Marie Bouzková at the 2026 Nottingham Open (2).jpg"
 generato_il: "2026-11-23T07:40+01:00"
 cover_image: "/covers/2026-11-23-j-estevez-vs-a-geerlings-martinez-buenos-aires-pronostico-analisi.jpg"
-cover_credit: "Buenos Aires Lawn Tennis Club.jpg | Sancarre | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis racket"
 ---
 
 Il tabellone di Buenos Aires mette di fronte **J. Estevez** e **A. Geerlings Martinez** in un incrocio che, stando ai dati disponibili, non ha storia pregressa. Due giocatrici che arrivano a questo appuntamento con un rendimento quasi sovrapponibile nelle ultime uscite, ma con un percorso di avvicinamento capace di raccontare scenari diversi. È il tipo di partita in cui i numeri recenti dicono molto e, allo stesso tempo, lasciano parecchio margine all'interpretazione.

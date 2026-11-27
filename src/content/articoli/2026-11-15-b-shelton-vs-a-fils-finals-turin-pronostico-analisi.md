@@ -21,10 +21,10 @@ descrizione: "Ben Shelton e Arthur Fils si affrontano nel loro primo impegno all
 pubblicato: true
 probabilita_favorito: "Shelton"
 probabilita_percent: 61
-cover_file: "File:McDonald–Shelton box at the 2023 DC Open 03.jpg"
 generato_il: "2026-11-15T07:41+01:00"
 cover_image: "/covers/2026-11-15-b-shelton-vs-a-fils-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Shelton MCM23 (27) (52883150181).jpg | si.robi | CC BY-SA 2.0"
+cover_credit: "Arthur Fils ATP.jpg | Peter Arnold | CC BY-SA 4.0"
+cover_file: "File:Arthur Fils ATP.jpg"
 cover_focus: 10
 ---
 

@@ -22,8 +22,8 @@ descrizione: "Semifinale WTA a Guangzhou tra C. Wong Hong Yi ed E. Jones: nessun
 pubblicato: true
 noindex: true
 cover_image: "/covers/2026-10-24-c-wong-hong-yi-vs-e-jones-guangzhou-pronostico-analisi.jpg"
-cover_credit: "ZooTennis.com / CC BY 4.0 / Wikimedia Commons"
-cover_file: "File:Emerson Jones ITF J300 College Park Girls Final 2023 (1).png"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il tabellone di **Guangzhou** regala una **semifinale** dal sapore di debutto: C. Wong Hong Yi ed E. Jones si trovano di fronte per la prima volta, senza alcun confronto diretto alle spalle a fare da bussola. Due giocatrici che hanno attraversato un autunno fittissimo di impegni e che arrivano all'appuntamento cinese con sensazioni e percorsi differenti, pronte a incrociarsi su un campo veloce che storicamente premia chi sa dettare il ritmo da fondo campo.

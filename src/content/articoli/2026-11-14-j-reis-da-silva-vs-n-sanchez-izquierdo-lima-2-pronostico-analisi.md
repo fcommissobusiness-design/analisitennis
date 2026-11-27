@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Reis Da Silva"
 probabilita_percent: 57
-cover_image: "/covers/2026-11-14-j-reis-da-silva-vs-n-sanchez-izquierdo-lima-2-pronostico-analisi.jpg"
-cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Reis da Silva WMQ26 (19) (55467105068).jpg"
 generato_il: "2026-11-14T07:36+01:00"
+cover_image: "/covers/2026-11-14-j-reis-da-silva-vs-n-sanchez-izquierdo-lima-2-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis racket"
 ---
 
 Il Challenger di Lima entra nella sua fase calda e la **semifinale** mette di fronte João Lucas Reis da Silva e N. Sanchez Izquierdo, due giocatori arrivati a questo appuntamento da strade molto diverse ma con lo stesso traguardo a un passo: la finale sulla **terra battuta** peruviana. Il precedente stagionale dice equilibrio assoluto, e il resto lo raccontano le ultime settimane trascorse sul campo.

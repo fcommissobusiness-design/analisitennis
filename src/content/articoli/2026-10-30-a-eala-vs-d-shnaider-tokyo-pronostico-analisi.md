@@ -19,11 +19,11 @@ tag:
 verdetto: "Oggi la può spuntare Shnaider: il successo diretto di Ningbo di appena otto giorni fa e un ottobre con più profondità, tra la semifinale raggiunta proprio a Ningbo e i quarti di Wuhan, la mettono avanti di misura. Eala ha però i mezzi per prendersi almeno un set."
 descrizione: "Ai quarti di Tokyo Alex Eala sfida Diana Shnaider a soli otto giorni dal loro ultimo confronto di Ningbo. Analisi di forma, precedenti e stile."
 pubblicato: true
-cover_image: "/covers/2026-10-30-a-eala-vs-d-shnaider-tokyo-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Diana Shnaider (2023 US Open) 03.jpg"
 generato_il: "2026-10-30T07:21"
+cover_image: "/covers/2026-10-30-a-eala-vs-d-shnaider-tokyo-pronostico-analisi.jpg"
+cover_credit: "Alex Eala 2024 US Open 2b.jpg | Hameltion | CC BY-SA 4.0"
+cover_file: "File:Alex Eala 2024 US Open 2b.jpg"
+cover_focus: 10
 ---
 
 Il torneo WTA di **Tokyo** entra nella sua fase calda e il tabellone propone ai quarti di finale un confronto dal sapore di rivincita immediata. Da una parte **Alex Eala**, dall'altra **Diana Shnaider**, due mancine che si ritrovano di fronte a pochissimi giorni dall'ultima volta. Il contesto è quello di un cemento veloce che tende a premiare chi riesce a prendere per primo l'iniziativa da fondo campo e a comandare lo scambio con il dritto.

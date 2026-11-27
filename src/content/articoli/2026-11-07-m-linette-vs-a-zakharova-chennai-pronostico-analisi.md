@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Linette"
 probabilita_percent: 58
-cover_image: "/covers/2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Anastasia Zakharova (2025 DC Open) 02.jpg"
 generato_il: "2026-11-07T07:17"
+cover_image: "/covers/2026-11-07-m-linette-vs-a-zakharova-chennai-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 C'è qualcosa di particolare quando due giocatrici si ritrovano una di fronte all'altra a così poca distanza dall'ultimo incrocio. **Magda Linette** e **Anastasia Zakharova** avevano chiuso i conti appena dieci giorni prima a Guangzhou, e il sorteggio le rimette faccia a faccia nella semifinale del torneo WTA di **Chennai**, sul cemento indiano, con in palio l'accesso all'ultimo atto. Un copione che aggiunge sapore a una partita già di per sé delicata, perché entrambe arrivano a questo penultimo turno dopo aver superato più di un ostacolo nella stessa settimana.

@@ -23,7 +23,8 @@ probabilita_favorito: "Brune"
 probabilita_percent: 64
 generato_il: "2026-11-18T07:37+01:00"
 cover_image: "/covers/2026-11-18-a-brune-vs-c-ferrer-perez-w15-alcala-de-henares-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court net"
 ---
 
 I sedicesimi di finale del **W15 Alcala de Henares** mettono di fronte A. Brune e C. Ferrer Perez, due giocatrici che arrivano all'appuntamento da strade profondamente diverse. Non esistono precedenti tra le due: è un confronto senza memoria, in cui ciascuna dovrà leggere l'avversaria strada facendo. Proprio l'assenza di riferimenti incrociati rende il match un piccolo rebus, da sciogliere più sui rispettivi percorsi recenti che su una storia comune.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Amiraghyan"
 probabilita_percent: 57
-cover_file: "File:Sydney International Tennis WTA (46863223952).jpg"
 generato_il: "2026-11-26T07:30+01:00"
 cover_image: "/covers/2026-11-26-a-amiraghyan-vs-s-tsujioka-w15-antalya-9-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 
 Il secondo turno del W15 Antalya 9 mette di fronte A. Amiraghyan e S. Tsujioka, due giocatrici che arrivano a questo incrocio dopo aver superato il turno d'esordio il 25 novembre, ma seguendo strade molto differenti nelle settimane precedenti. È il tipo di partita, su un torneo del gradino d'ingresso del professionismo femminile, in cui la differenza spesso non la fa un nome più altisonante dell'altro, bensì la condizione del momento e il modo in cui ciascuna gestisce ritmo ed energie.

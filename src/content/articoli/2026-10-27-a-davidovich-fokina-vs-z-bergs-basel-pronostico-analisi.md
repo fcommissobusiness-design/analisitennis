@@ -19,10 +19,11 @@ tag:
 verdetto: "Oggi nettamente Davidovich Fokina: lo spagnolo arriva da due titoli consecutivi tra Chengdu e Shanghai e da un filotto di vittorie di peso che lo pone un gradino sopra un Bergs comunque in grado di pungere."
 descrizione: "Davidovich Fokina sfida Bergs al primo turno di Basilea: forma, stile e condizioni indoor di un confronto inedito tra due giocatori in fiducia."
 pubblicato: true
-cover_image: "/covers/2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi.jpg"
-cover_credit: "Peter Arnold / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Alejandro Davidovich Fokina, Swiss Indoors Basel.jpg"
 generato_il: "2026-10-27T12:23"
+cover_image: "/covers/2026-10-27-a-davidovich-fokina-vs-z-bergs-basel-pronostico-analisi.jpg"
+cover_credit: "Davidovich Fokina RG19 (9) (48199314646).jpg | si.robi | CC BY-SA 2.0"
+cover_file: "File:Davidovich Fokina RG19 (9) (48199314646).jpg"
+cover_focus: 10
 ---
 
 Il tabellone di Basilea mette di fronte due giocatori che arrivano all'appuntamento da percorsi autunnali molto diversi, ma entrambi con la sensazione di aver lasciato il segno nelle ultime settimane. Alejandro **Davidovich Fokina** e Zizou **Bergs** si affrontano al primo turno del torneo svizzero, sul veloce indoor, in una sfida che porta con sé la particolarità di essere un confronto completamente nuovo.

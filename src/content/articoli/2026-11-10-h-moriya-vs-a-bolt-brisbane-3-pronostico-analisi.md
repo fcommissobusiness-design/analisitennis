@@ -23,10 +23,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Bolt"
 probabilita_percent: 61
-cover_file: "File:Melbourne Park - Tennis.jpg"
 generato_il: "2026-11-10T07:40+01:00"
 cover_image: "/covers/2026-11-10-h-moriya-vs-a-bolt-brisbane-3-pronostico-analisi.jpg"
-cover_credit: "Melbourne Park - Tennis.jpg | annieb | CC BY-SA 2.0"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 A Brisbane 3 va in scena un confronto che di nuovo non ha nulla di scontato: **H. Moriya** e **A. Bolt** si ritrovano di fronte dopo essersi incrociati più volte negli ultimi anni, e lo fanno in due condizioni quasi opposte. Da una parte un giocatore che vive dentro la partita da giorni, dall'altra un avversario che torna in campo dopo una lunga pausa dalle competizioni. È da questo contrasto che nasce l'interesse dell'incontro.

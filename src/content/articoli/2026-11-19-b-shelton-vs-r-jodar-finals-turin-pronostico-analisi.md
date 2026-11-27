@@ -21,10 +21,10 @@ descrizione: "Shelton contro Jodar nell'ultima giornata del girone alle Nitto AT
 pubblicato: true
 probabilita_favorito: "Shelton"
 probabilita_percent: 62
-cover_file: "File:McDonald–Shelton box at the 2023 DC Open 01.jpg"
 generato_il: "2026-11-19T07:30+01:00"
 cover_image: "/covers/2026-11-19-b-shelton-vs-r-jodar-finals-turin-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Miscellaneous contributor / CC0 / Wikimedia Commons"
+cover_file: "File:Closeup of a tennis ball (2).jpg"
 ---
 
 Le Nitto ATP Finals di Torino arrivano al loro snodo decisivo per il Gruppo McEnroe, e l'incrocio tra **Ben Shelton** e **Rafael Jodar** chiude il girone per entrambi. L'americano si presenta con un match vinto e uno perso, lo spagnolo con due sconfitte: numeri che danno alla partita pesi diversi, perché a Shelton una vittoria tiene aperta in modo concreto la corsa alla semifinale, mentre Jodar gioca ormai soprattutto per l'orgoglio e per il valore di un risultato di prestigio. Sul **cemento** di Torino, davanti al pubblico di fine stagione, è comunque un confronto che mette di fronte due modi opposti di interpretare il tennis.

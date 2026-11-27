@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Svrcina"
 probabilita_percent: 66
-cover_file: "File:AEC Indoor Tennis Courts.jpg"
 generato_il: "2026-11-10T07:44+01:00"
 cover_image: "/covers/2026-11-10-d-svrcina-vs-v-sachko-orleans-pronostico-analisi.jpg"
-cover_credit: "AEC Indoor Tennis Courts.jpg | Seyhan668 | CC BY-SA 4.0"
+cover_credit: "Heru Irawan / CC0 1.0 / WordPress Photos"
+cover_file: "File:Tenis Balls at the court."
 ---
 
 Il primo turno del torneo di Orleans, Challenger di fine stagione, mette di fronte **D. Svrcina** e **V. Sachko**, due giocatori che arrivano a questo appuntamento da strade molto diverse per intensità di calendario e tipo di risultati. Nessuno dei due è testa di serie, ed entrambi hanno motivi solidi per cercare punti in questa parte di stagione: chi per rilanciarsi verso l'alto, chi per non arretrare ulteriormente. È un match che, più che da un equilibrio tecnico, trae il suo interesse dal contrasto fra le condizioni con cui i due si presentano.

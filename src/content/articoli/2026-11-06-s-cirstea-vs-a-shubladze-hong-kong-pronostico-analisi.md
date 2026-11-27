@@ -23,8 +23,8 @@ probabilita_favorito: "Shubladze"
 probabilita_percent: 58
 generato_il: "2026-11-06T07:01"
 cover_image: "/covers/2026-11-06-s-cirstea-vs-a-shubladze-hong-kong-pronostico-analisi.jpg"
-cover_credit: "Cz4523 / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Ningbo Yinzhou Tennis Center, 2025-10-25 04.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court lines"
 ---
 
 Il tabellone del torneo WTA di **Hong Kong** regala ai quarti un incrocio senza storia alle spalle: Cirstea e Alexandra Shubladze non si sono mai affrontate sul circuito e si presentano sul cemento asiatico da direzioni molto diverse. Da una parte una giocatrice con un curriculum ricco ai massimi livelli, dall'altra una classe 2005 che in questa seconda parte di stagione ha messo insieme un lungo filotto di risultati.

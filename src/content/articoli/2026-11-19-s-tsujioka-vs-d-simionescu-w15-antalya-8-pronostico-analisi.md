@@ -24,8 +24,8 @@ probabilita_favorito: "Simionescu"
 probabilita_percent: 56
 generato_il: "2026-11-19T07:36+01:00"
 cover_image: "/covers/2026-11-19-s-tsujioka-vs-d-simionescu-w15-antalya-8-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Sydney International Tennis WTA (46001165335).jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket ball photo"
 ---
 Al W15 di Antalya 8 il tabellone propone un confronto tra due giocatrici che arrivano a questo turno percorrendo strade opposte. **S. Tsujioka** e **D. Simionescu** si presentano con ritmi di calendario diversi, provenienze diverse e una caratteristica in comune: nessuna delle due ha un precedente diretto alle spalle con l'altra, quindi è un primo incrocio in carriera, senza memoria tra le due racchette.
 

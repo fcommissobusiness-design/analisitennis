@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Andreescu"
 probabilita_percent: 74
-cover_image: "/covers/2026-11-21-g-ce-vs-b-andreescu-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
-cover_credit: "Hameltion / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Bianca Andreescu (2026 US Open) 07.jpg"
 generato_il: "2026-11-21T07:56+01:00"
+cover_image: "/covers/2026-11-21-g-ce-vs-b-andreescu-wta-billie-jean-king-cup-world-group-pronostico-analisi.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis racket"
 ---
 
 La **Billie Jean King Cup** mette di fronte **G. Ce** e **Bianca Andreescu** in un singolare che non vale solo per le due giocatrici, ma entra nel conteggio di una sfida a eliminazione tra squadre nazionali. In un confronto del genere ogni punto individuale si somma a quello collettivo, e questo basta a caricare di tensione anche gli scambi apparentemente neutri. Le due non si sono mai incontrate prima in un match ufficiale, un dettaglio che aggiunge un margine di incognita: nessuna delle due porta in campo il ricordo di un precedente, nel bene o nel male.

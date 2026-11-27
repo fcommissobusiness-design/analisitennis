@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Perelygina"
 probabilita_percent: 57
-cover_file: "File:Sydney International Tennis WTA (46000969935).jpg"
 generato_il: "2026-11-26T07:31+01:00"
 cover_image: "/covers/2026-11-26-k-kuzmova-vs-e-perelygina-w50-ortisei-pronostico-analisi.jpg"
-cover_credit: "Rob Keating from Canberra, Australia, Australia / CC BY-SA 2.0 / Wikimedia Commons"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis ball court photo"
 ---
 
 Il tabellone del **W50 di Ortisei** arriva al momento in cui i margini si assottigliano e ogni partita vale una fetta di settimana. Giovedi 26 novembre, alle 11 del mattino, K. Kuzmova ed E. Perelygina aprono la giornata con un quarto di finale che mette di fronte due giocatrici reduci entrambe da un paio di successi, ma che a quelle vittorie sono arrivate percorrendo strade molto diverse. Tra le due non risulta alcun precedente ufficiale: e un primo confronto assoluto, senza memoria tattica a cui appoggiarsi.

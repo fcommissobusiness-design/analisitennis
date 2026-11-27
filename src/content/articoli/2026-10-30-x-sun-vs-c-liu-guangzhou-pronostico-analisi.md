@@ -22,8 +22,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-10-30T07:12"
 cover_image: "/covers/2026-10-30-x-sun-vs-c-liu-guangzhou-pronostico-analisi.jpg"
-cover_credit: "Brian Shaw / CC BY-SA 2.0 / Wikimedia Commons"
-cover_file: "File:Belfast Indoor Tennis Arena - geograph.org.uk - 82338.jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis racket"
 ---
 
 Il tabellone del WTA di **Guangzhou** regala ai quarti di finale un confronto dal sapore particolare, con X. Sun e C. Liu pronte a contendersi un posto in semifinale sul veloce cinese. Due percorsi differenti, due anagrafi diverse, un solo obiettivo: proseguire la corsa in un torneo che sta già offrendo spunti interessanti.

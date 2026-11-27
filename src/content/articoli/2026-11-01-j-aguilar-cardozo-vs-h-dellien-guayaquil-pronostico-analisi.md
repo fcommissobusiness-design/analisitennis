@@ -24,8 +24,8 @@ pubblicato: true
 noindex: true
 generato_il: "2026-11-01T07:30"
 cover_image: "/covers/2026-11-01-j-aguilar-cardozo-vs-h-dellien-guayaquil-pronostico-analisi.jpg"
-cover_credit: "Spatms / CC BY-SA 4.0 / Wikimedia Commons"
-cover_file: "File:Marks Tennis Stadium-Buntmann Family Tennis Center (USC).jpg"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis net closeup photo"
 ---
 
 La **finale di Guayaquil** mette di fronte J. Aguilar Cardozo e H. Dellien in un atto conclusivo che profuma di tennis sudamericano, con la terra battuta a fare da palcoscenico. Entrambi arrivano all'appuntamento dopo una settimana perfetta, senza aver mai ceduto il passo prima dell'ultimo gradino. Il Challenger ecuadoriano consegna così una sfida tra due interpreti che conoscono bene questo tipo di superficie e questo tipo di calendario.

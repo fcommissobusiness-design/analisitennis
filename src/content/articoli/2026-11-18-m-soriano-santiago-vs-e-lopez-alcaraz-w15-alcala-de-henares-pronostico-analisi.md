@@ -23,7 +23,8 @@ probabilita_favorito: "Soriano Santiago"
 probabilita_percent: 63
 generato_il: "2026-11-18T07:41+01:00"
 cover_image: "/covers/2026-11-18-m-soriano-santiago-vs-e-lopez-alcaraz-w15-alcala-de-henares-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis ball court"
 ---
 
 Il tabellone di Alcala de Henares propone ai sedicesimi di finale un confronto dal sapore particolare tra M. Soriano Santiago ed E. Lopez Alcaraz, due giocatrici che si muovono nei tornei d'ingresso del circuito internazionale femminile. A unirle è la categoria degli eventi che frequentano; a dividerle, almeno sulla carta, è il momento che stanno attraversando. L'una arriva da settimane di partite quasi ininterrotte, l'altra da un periodo di risultati complicati e di poche uscite: motivi sufficienti per rendere questo incrocio meno banale di quanto la posta in palio, modesta, lasci immaginare.

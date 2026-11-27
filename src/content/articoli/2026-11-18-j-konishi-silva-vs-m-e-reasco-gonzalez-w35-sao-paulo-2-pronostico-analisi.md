@@ -22,11 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Reasco Gonzalez"
 probabilita_percent: 62
-cover_image: "/covers/2026-11-18-j-konishi-silva-vs-m-e-reasco-gonzalez-w35-sao-paulo-2-pronostico-analisi.jpg"
-cover_credit: "si.robi / CC BY-SA 4.0 / Wikimedia Commons"
-cover_focus: 10
-cover_file: "File:Reis da Silva WMQ26 (19) (55467105068).jpg"
 generato_il: "2026-11-18T07:41+01:00"
+cover_image: "/covers/2026-11-18-j-konishi-silva-vs-m-e-reasco-gonzalez-w35-sao-paulo-2-pronostico-analisi.jpg"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Agli **ottavi** del W35 Sao Paulo 2 si incrociano due giocatrici che arrivano all'appuntamento da mondi diversi. J. Konishi Silva e M. E. Reasco Gonzalez hanno entrambe superato il proprio impegno del 16 novembre, chiudendo senza concedere set: 2-0 per Konishi Silva su L. Ayala, 2-0 per Reasco Gonzalez su M. F. Navarro. Sono gli **ottavi** del tabellone principale per tutte e due, giocati dopo un paio di giorni di pausa, e per quanto risulta è il loro primo confronto in assoluto: non ci sono precedenti diretti a fare da riferimento.

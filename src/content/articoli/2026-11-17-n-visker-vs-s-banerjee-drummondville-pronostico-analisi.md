@@ -25,7 +25,8 @@ probabilita_favorito: "Banerjee"
 probabilita_percent: 61
 generato_il: "2026-11-17T07:43+01:00"
 cover_image: "/covers/2026-11-17-n-visker-vs-s-banerjee-drummondville-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Closeup tennis court net"
 ---
 
 A Drummondville, nel tabellone maschile dei Challenger, Visker e Banerjee aprono il loro cammino uno contro l'altro. Due giocatori che fin qui non si erano mai incrociati e che arrivano a questo incrocio con stati di condizione molto diversi: da una parte chi ha accumulato partite e vittorie nelle ultime settimane, dall'altra chi cerca di rimettere in moto un periodo complicato. È da questo contrasto che nasce l'interesse dell'incontro.

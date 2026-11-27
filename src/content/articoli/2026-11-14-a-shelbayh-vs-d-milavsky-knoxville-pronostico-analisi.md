@@ -24,7 +24,8 @@ probabilita_favorito: "Milavsky"
 probabilita_percent: 53
 generato_il: "2026-11-14T07:44+01:00"
 cover_image: "/covers/2026-11-14-a-shelbayh-vs-d-milavsky-knoxville-pronostico-analisi.jpg"
-cover_credit: "Goodfriend Tennis Center, Tennessee Volunteers Tennis.png | TN 66 | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Free tennis racket ball photo"
 ---
 
 Il Challenger di **Knoxville** entra nella sua fase decisiva e la semifinale propone un confronto tra **A. Shelbayh** e **D. Milavsky**, due giocatori che hanno raggiunto il penultimo atto percorrendo strade differenti ma arrivando allo stesso bivio. Sul **cemento** statunitense, dove la palla viaggia veloce e i turni di servizio pesano, nessuno dei due parte con un'etichetta di favorito costruita sulla carta: è una di quelle partite in cui contano i dettagli più delle gerarchie, con in palio l'accesso all'ultimo atto del torneo.

@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Henning"
 probabilita_percent: 52
-cover_file: "File:David X. Marks Tennis Stadium (USC).jpg"
 generato_il: "2026-11-12T07:28+01:00"
 cover_image: "/covers/2026-11-12-c-cretu-vs-p-henning-hersonissos-3-pronostico-analisi.jpg"
-cover_credit: "Nungambakkam SDAT Tennis Stadium floodlit match panorama.jpg | This Image was created by User:PlaneMad. If you are using the image under the creative commons share alike license please credit the photo CC-by-sa PlaneMad/Wikimedia and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you. If you dont want to release your work under a creative commons license, please mail me at arun.planemad@gmail.com or catch me at my Website to negotiate a custom license as per your needs. | CC BY-SA 3.0"
+cover_credit: "Autore sconosciuto / CC0 1.0 / Rawpixel"
+cover_file: "File:Tennis racket"
 ---
 
 Il Challenger di Hersonissos, in Grecia, mette di fronte **C. Cretu** e **P. Henning** in un match di secondo turno che sulla carta promette equilibrio. Si gioca su **cemento**, in una sessione di tarda mattinata, con due giocatori che hanno superato il turno d'esordio lunedì 10 novembre e si ritrovano ora a contendersi l'accesso al turno successivo. È un appuntamento che, a stagione quasi conclusa, pesa più del suo peso: è il tipo di torneo che può spostare qualche posizione di classifica per chi lotta nelle fasce di mezzo del circuito.

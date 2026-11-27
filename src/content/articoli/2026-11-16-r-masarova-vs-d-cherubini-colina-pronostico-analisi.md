@@ -22,10 +22,10 @@ pubblicato: true
 noindex: true
 probabilita_favorito: "Masarova"
 probabilita_percent: 59
-cover_file: "File:Taube Family Tennis Stadium scoreboard.JPG"
 generato_il: "2026-11-16T07:21+01:00"
 cover_image: "/covers/2026-11-16-r-masarova-vs-d-cherubini-colina-pronostico-analisi.jpg"
-cover_credit: "Taube Family Tennis Stadium 2015.JPG | Thomson200 | CC0"
+cover_credit: "Dejan Krsmanovic / CC BY 2.0 / Wikimedia Commons"
+cover_file: "File:Details of Tennis Net (43859281035).jpg"
 ---
 
 Il torneo di Colina mette di fronte due giocatrici che arrivano all'appuntamento con l'umore e il calendario capovolti. Da una parte **Masarova**, scesa in campo l'ultima volta il 10 novembre e poi ferma; dall'altra **Cherubini**, che su questo stesso campo ha giocato e vinto appena un giorno prima. È un incrocio tra chi ha avuto giorni di pausa e chi invece viene da una settimana fittissima, e proprio questa differenza di ritmo è uno dei fili più interessanti da seguire alla vigilia.
