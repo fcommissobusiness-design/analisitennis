@@ -1027,7 +1027,17 @@ def _suggest_cover_focus(cover_rel: str):
         return None
 
 
-def update_frontmatter(path: Path, cover_rel: str, credit: str):
+def _title_from_credit(credit: str) -> str:
+    """Titolo Commons dedotto dal credit, che comincia sempre col nome del
+    file (es. "Foo.jpg | Autore | CC BY 2.0")."""
+    first = (credit or '').split('|')[0].strip()
+    if not re.search(r'\.(jpe?g|png|svg|webp|tiff?)$', first, re.I):
+        return ''
+    return first if first.lower().startswith('file:') else f'File:{first}'
+
+
+def update_frontmatter(path: Path, cover_rel: str, credit: str,
+                       cover_file: str = ''):
     fm, text = parse_frontmatter(path)
     if fm is None:
         return False
@@ -1042,10 +1052,17 @@ def update_frontmatter(path: Path, cover_rel: str, credit: str):
     body = lines[starts[1] + 1:]
     # cover_focus esistente (manuale) va preservato se c'e'
     had_manual_focus = any(l.startswith('cover_focus:') for l in fm_lines)
-    # rimuovi vecchi cover_image / cover_credit / cover_focus (verranno riscritti)
+    # Titolo Commons della nuova cover: se non viene passato lo deduco dal
+    # credit. Senza questo `cover_file` resta quello della foto PRECEDENTE, e
+    # chi lo legge (cover_file_is_player, all_used_cover_files, il gate) finisce
+    # per ragionare su un'immagine che non c'e' piu'.
+    nuovo_cover_file = (cover_file or '').strip() or _title_from_credit(credit)
+    # rimuovi vecchi cover_image / cover_credit / cover_focus / cover_file
+    # (verranno riscritti)
     fm_lines = [l for l in fm_lines
                 if not l.startswith('cover_image:')
                 and not l.startswith('cover_credit:')
+                and not l.startswith('cover_file:')
                 and not l.startswith('cover_focus:')]
     # Sanifica: alcuni titoli Commons contengono virgolette doppie (es.
     # Ice Palace "Almaty Arena".jpg) che romperebbero la stringa YAML.
@@ -1053,6 +1070,8 @@ def update_frontmatter(path: Path, cover_rel: str, credit: str):
     safe_rel = (cover_rel or '').replace('"', "'")
     fm_lines.append(f'cover_image: "{safe_rel}"')
     fm_lines.append(f'cover_credit: "{safe_credit}"')
+    if nuovo_cover_file:
+        fm_lines.append(f'cover_file: "{nuovo_cover_file.replace(chr(34), chr(39))}"')
     # cover_focus automatico sulle verticali (preserva valore manuale se c'era)
     focus = _suggest_cover_focus(safe_rel)
     if focus is not None or had_manual_focus:
