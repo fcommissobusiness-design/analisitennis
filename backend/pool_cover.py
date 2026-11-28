@@ -63,13 +63,20 @@ def gender_from_categoria(cat: str) -> str:
     return ''
 
 
-def pick_from_pool(slug_hint: str = '', exclude=None, gender: str = '') -> dict | None:
+def pick_from_pool(slug_hint: str = '', exclude=None, gender: str = '',
+                   usage_counts=None) -> dict | None:
     """Sceglie una foto d'azione dal pool locale.
 
     `gender` ('M'/'W'/'') filtra via le foto del genere opposto: su un match
     maschile non finisce una foto d'azione femminile riconoscibile e viceversa.
     Le foto neutre restano sempre candidabili. Se il filtro svuota i candidati
     si ricade senza filtro (meglio una foto che niente).
+
+    `usage_counts` (opzionale): {title: n volte gia' usato}. Quando il pool e'
+    saturo (tutte gia' in `exclude`, perche' il pool e' piu' piccolo del numero
+    di articoli), tra i candidati si tengono le MENO usate, cosi' il carico si
+    spalma invece di ripescare sempre la stessa. Senza, il comportamento e'
+    quello di prima (scelta per hash dello slug).
 
     Ritorna un dict compatibile con write_article:
       {'pool_src': '<path assoluto locale>', 'title': ..., 'credit': ...}
@@ -101,6 +108,15 @@ def pick_from_pool(slug_hint: str = '', exclude=None, gender: str = '') -> dict 
                     if _photo_gender(p.get('title', '')) in ('', gender)]
         if coerenti:
             candidati = coerenti
+
+    # Pool saturo: tieni solo le MENO usate finora, poi scegli per hash dello
+    # slug (deterministico, cosi' lo stesso articolo tiene la stessa cover tra
+    # due build). Se il dedup a insieme ha gia' ristretto (liberi non vuoto),
+    # usage_counts non serve e si salta.
+    if usage_counts and not liberi:
+        meno = min(usage_counts.get(p['title'], 0) for p in candidati)
+        candidati = [p for p in candidati
+                     if usage_counts.get(p['title'], 0) == meno]
 
     idx = int(hashlib.md5((slug_hint or 'x').encode()).hexdigest(), 16) % len(candidati)
     scelta = candidati[idx]

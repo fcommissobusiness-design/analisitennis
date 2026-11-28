@@ -14,7 +14,7 @@ try:
         NAME_MAP, VENUE_MAP, COVERS_DIR, detect_winner,
         pick_image, pick_venue, download, strip_html, clean_author,
         used_covers_for_player, resolve_full, build_credit, all_used_cover_files,
-        entity_photo
+        entity_photo, cover_file_counts
     )
     HAS_COVER = True
 except Exception:
@@ -237,8 +237,10 @@ def write(match, analysis, out_dir):
             #    (exclude = foto gia' usate), variazione per slug.
             from_pool = False
             if not pick and HAS_POOL:
+                # usage_counts: quando il pool e' saturo, spalma sul meno usato
                 pick = pick_from_pool(slug_hint=slug, exclude=used_global,
-                                      gender=gender_from_categoria(cat))
+                                      gender=gender_from_categoria(cat),
+                                      usage_counts=cover_file_counts(skip_slug=slug))
                 from_pool = bool(pick)
             # 4. ultima spiaggia: venue del torneo. slug_hint diversifica gli
             #    articoli dello stesso torneo; dedup globale evita venue ripetuti.

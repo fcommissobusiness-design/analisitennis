@@ -502,6 +502,34 @@ def all_used_cover_files(skip_slug: str = '') -> set:
     return used
 
 
+def cover_file_counts(skip_slug: str = '') -> dict:
+    """Quante volte ogni file ('File:...') e' usato come cover in tutti gli
+    articoli. Serve a scegliere dal pool la foto MENO usata quando sono tutte
+    gia' in giro: il dedup a insieme (all_used_cover_files) non basta, perche'
+    il pool e' piu' piccolo del numero di articoli e quindi risulta 'saturo'.
+    Con i conteggi si spalma il carico invece di ripescare sempre la stessa."""
+    from collections import Counter
+    c: Counter = Counter()
+    for art in ARTICOLI.glob('2026-*.md'):
+        if skip_slug and art.stem == skip_slug:
+            continue
+        try:
+            fm, _ = parse_frontmatter(art)
+        except Exception:
+            continue
+        if not fm:
+            continue
+        cf = (fm.get('cover_file') or '').strip()
+        if not cf:
+            cf = (fm.get('cover_credit') or '').split('|')[0].strip()
+        if not cf:
+            continue
+        if not cf.startswith('File:'):
+            cf = 'File:' + cf
+        c[cf] += 1
+    return dict(c)
+
+
 def used_covers_for_player(last_name: str, skip_slug: str = '') -> set:
     """Titoli file ('File:...') gia' usati come cover negli articoli che
     riguardano un giocatore (match del cognome nella credit). Serve a NON
