@@ -1,4 +1,13 @@
 {
+"a-akli": {
+"image": "File:Ayana Akli (2023 Wolfpack Invite) 02 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q134376834",
+"https://it.wikipedia.org/wiki/Ayana_Akli"
+],
+"wikidata": "Q134376834",
+"wikipedia": "https://it.wikipedia.org/wiki/Ayana_Akli"
+},
 "a-andreev": {
 "image": "File:Adrian Andreev (cropped).jpg",
 "sameAs": [
@@ -79,6 +88,14 @@
 "wikidata": "Q105358186",
 "wikipedia": "https://it.wikipedia.org/wiki/%C3%81ngela_Fita_Boluda"
 },
+"a-geerlings-martinez": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q125555565",
+"https://it.wikipedia.org/wiki/Ariana_Geerlings"
+],
+"wikidata": "Q125555565",
+"wikipedia": "https://it.wikipedia.org/wiki/Ariana_Geerlings"
+},
 "a-herrero-linana": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q114269936",
@@ -146,6 +163,15 @@
 ],
 "wikidata": "Q105745525",
 "wikipedia": "https://it.wikipedia.org/wiki/Alycia_Parks"
+},
+"a-rajecki": {
+"image": "File:Amelia Rajecki (2023 Wolfpack Invite) 02 (cropped).jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q119415941",
+"https://it.wikipedia.org/wiki/Amelia_Rajecki"
+],
+"wikidata": "Q119415941",
+"wikipedia": "https://it.wikipedia.org/wiki/Amelia_Rajecki"
 },
 "a-rencheli": {
 "image": "File:Abigail Rencheli (2023 Kitty Harrison Invitational) 17 (cropped).jpg",
@@ -507,6 +533,13 @@
 "wikidata": "Q22957410",
 "wikipedia": "https://it.wikipedia.org/wiki/Bianca_Andreescu"
 },
+"b-bonardi": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q113579120"
+],
+"wikidata": "Q113579120",
+"wikipedia": null
+},
 "b-gadamauri": {
 "sameAs": [
 "https://www.wikidata.org/wiki/Q139666388",
@@ -689,6 +722,14 @@
 "wikidata": "Q106207380",
 "wikipedia": "https://it.wikipedia.org/wiki/Camilo_Ugo_Carabelli"
 },
+"c-vlasselaer": {
+"image": "File:Clara Vlasselaer 2026.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q117379122"
+],
+"wikidata": "Q117379122",
+"wikipedia": null
+},
 "c-w-hennemann": {
 "image": "File:Caijsa Hennemann BJK Cup 2023 (cropped).jpg",
 "sameAs": [
@@ -849,6 +890,15 @@
 ],
 "wikidata": "Q15830617",
 "wikipedia": "https://it.wikipedia.org/wiki/Dalila_Jakupovi%C4%8D"
+},
+"d-kuzmanov": {
+"image": "File:Dimitar Kuzmanov.jpg",
+"sameAs": [
+"https://www.wikidata.org/wiki/Q12061061",
+"https://en.wikipedia.org/wiki/Dimitar_Kuzmanov"
+],
+"wikidata": "Q12061061",
+"wikipedia": "https://en.wikipedia.org/wiki/Dimitar_Kuzmanov"
 },
 "d-merida-aguilar": {
 "sameAs": [
@@ -1631,6 +1681,13 @@
 ],
 "wikidata": "Q61415365",
 "wikipedia": "https://it.wikipedia.org/wiki/Ji%C5%99%C3%AD_Lehe%C4%8Dka"
+},
+"j-lim": {
+"sameAs": [
+"https://www.wikidata.org/wiki/Q117846033"
+],
+"wikidata": "Q117846033",
+"wikipedia": null
 },
 "j-m-la-serna": {
 "sameAs": [
